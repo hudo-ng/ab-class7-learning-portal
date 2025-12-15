@@ -4,7 +4,9 @@ import { useState, useTransition } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Alert, AlertDescription } from "@/components/ui/alert";
+import { Progress } from "@/components/ui/progress";
 import { validateUserAnswer } from "@/app/actions/validate-answer";
+import clsx from "clsx";
 
 interface Choice {
   choiceId: string;
@@ -30,10 +32,13 @@ export function PracticeCards({ questions }: { questions: Question[] }) {
   const [isPending, startTransition] = useTransition();
 
   const currentQuestion = questions[index];
+  const totalQuestions = questions.length;
+  const progress = ((index + (showExplanation ? 1 : 0)) / totalQuestions) * 100;
 
   function nextQuestion() {
     setSelected(null);
     setShowExplanation(false);
+    setResult(null);
     setIndex((prev) => Math.min(prev + 1, questions.length - 1));
   }
 
@@ -54,6 +59,9 @@ export function PracticeCards({ questions }: { questions: Question[] }) {
       <Card className="p-6">
         <CardContent>
           <h2 className="text-xl font-semibold">Practice complete 🎉</h2>
+          <p className="text-muted-foreground">
+            You’ve finished all questions.
+          </p>
         </CardContent>
       </Card>
     );
@@ -62,18 +70,42 @@ export function PracticeCards({ questions }: { questions: Question[] }) {
   return (
     <Card>
       <CardContent className="p-6 space-y-4">
+        <div className="space-y-1">
+          <div className="flex justify-between text-sm text-muted-foreground">
+            <span>
+              Question {index + 1} of {totalQuestions}
+            </span>
+            <span>{Math.round(progress)}%</span>
+          </div>
+          <Progress value={progress} />
+        </div>
+
         <p className="font-medium">{currentQuestion.prompt}</p>
         <div className="space-y-2">
-          {currentQuestion.choices.map((choice, idx) => (
-            <Button
-              key={choice.choiceId}
-              className="m-1"
-              variant={selected === choice.choiceId ? "secondary" : "default"}
-              onClick={() => submitAnswer(choice.choiceId)}
-            >
-              {choice.text}
-            </Button>
-          ))}
+          {currentQuestion.choices.map((choice) => {
+            const isSelected = selected === choice.choiceId;
+            const variant = !result
+              ? "outline"
+              : isSelected && result.isCorrect
+              ? "default"
+              : isSelected && !result.isCorrect
+              ? "destructive"
+              : "secondary";
+            return (
+              <Button
+                key={choice.choiceId}
+                disabled={!!result || isPending}
+                variant={variant}
+                className={clsx(
+                  "justify-start m-1",
+                  result && !isSelected && "opacity-70"
+                )}
+                onClick={() => submitAnswer(choice.choiceId)}
+              >
+                {choice.text}
+              </Button>
+            );
+          })}
         </div>
 
         {result && (
