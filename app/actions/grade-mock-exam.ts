@@ -26,17 +26,30 @@ export async function gradeMockExam(answers: Answer[]) {
 
   const result = new Map(rows.map((r) => [r.choiceId, r]));
 
+  const correctChoices = await db
+    .select({
+      questionId: choices.questionId,
+      choiceId: choices.id,
+    })
+    .from(choices)
+    .where(eq(choices.isCorrect, true));
+
   let correctCount = 0;
 
   const graded = answers.map((answer) => {
     const record = result.get(answer.choiceId);
     const isCorrect = record?.isCorrect ?? false;
+    const correctChoiceId = correctChoices.find(
+      (c) => c.questionId === answer.questionId
+    );
+
     if (isCorrect) {
       correctCount++;
     }
     return {
       questionId: answer.questionId,
       choiceId: answer.choiceId,
+      correctChoiceId: correctChoiceId?.choiceId,
       isCorrect,
     };
   });

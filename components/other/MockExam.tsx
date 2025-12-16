@@ -13,6 +13,7 @@ import {
   DialogFooter,
 } from "@/components/ui/dialog";
 import { gradeMockExam } from "@/app/actions/grade-mock-exam";
+import clsx from "clsx";
 
 interface Question {
   questionId: string;
@@ -102,12 +103,32 @@ export default function MockExamUI({ questions }: { questions: Question[] }) {
                   <p className="font-medium">
                     {idx + 1}. {question.prompt}
                   </p>
+                  {question.choices.map((c) => (
+                    <Button
+                      disabled
+                      variant="outline"
+                      className={clsx(
+                        "justify-start m-1",
+                        c.choiceId === graded.correctChoiceId &&
+                          "border-green-500 bg-green-200 text-green-700",
+                        c.choiceId === graded.choiceId &&
+                          !graded.isCorrect &&
+                          "border-red-500 bg-red-200 text-red-700"
+                      )}
+                    >
+                      {c.choiceText}
+                    </Button>
+                  ))}
                   <Alert variant={graded.isCorrect ? "default" : "destructive"}>
-                    <AlertDescription>
+                    <AlertDescription
+                      className={
+                        graded.isCorrect ? "text-green-700" : "text-red-700"
+                      }
+                    >
                       {graded.isCorrect ? "Correct" : "Incorrect"}
                     </AlertDescription>
                   </Alert>
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-sm text-muted-foreground font-medium">
                     {question.explanation}
                   </p>
                 </CardContent>
