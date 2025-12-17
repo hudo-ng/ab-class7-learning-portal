@@ -37,7 +37,7 @@ export default function MockExamUI({ questions }: { questions: Question[] }) {
   const progress = (Object.keys(answers).length / questions.length) * 100;
 
   useEffect(() => {
-    if (phase === "exam") return;
+    if (phase !== "exam") return;
 
     if (timeLeft <= 0) {
       submitExam();
@@ -105,6 +105,7 @@ export default function MockExamUI({ questions }: { questions: Question[] }) {
                   </p>
                   {question.choices.map((c) => (
                     <Button
+                      key={c.choiceId}
                       disabled
                       variant="outline"
                       className={clsx(

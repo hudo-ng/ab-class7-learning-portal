@@ -7,6 +7,7 @@ import {
   boolean,
 } from "drizzle-orm/pg-core";
 import { relations } from "drizzle-orm";
+import { time } from "console";
 
 export const topics = pgTable("topics", {
   id: uuid("id").defaultRandom().primaryKey(),
@@ -31,15 +32,22 @@ export const questions = pgTable("questions", {
 export const choices = pgTable("choices", {
   id: uuid().defaultRandom().primaryKey(),
   questionId: uuid("question_id").references(() => questions.id),
-    text: text("text").notNull(),
-    isCorrect: boolean("is_correct").default(false).notNull(),
-    sortOrder: integer("sort_order").default(0).notNull(),
+  text: text("text").notNull(),
+  isCorrect: boolean("is_correct").default(false).notNull(),
+  sortOrder: integer("sort_order").default(0).notNull(),
+});
+
+export const users = pgTable("users", {
+  id: uuid("id").defaultRandom().primaryKey(),
+  email: text("email").notNull().unique(),
+  hashedPassword: text("password_hash").notNull(),
+  role: text("role").notNull().default("USER"),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
 });
 
 export const topicsRelations = relations(topics, ({ many }) => ({
   questions: many(questions),
 }));
-
 
 export const questionsRelations = relations(questions, ({ one, many }) => ({
   topic: one(topics, {
@@ -55,5 +63,3 @@ export const choicesRelations = relations(choices, ({ one }) => ({
     references: [questions.id],
   }),
 }));
-
-
