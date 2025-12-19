@@ -95,7 +95,7 @@ export default function MockExamUI({ questions }: { questions: Question[] }) {
 
           {questions.map((question, idx) => {
             const graded = result.details.find(
-              (g: any) => (g.questionId = question.questionId)
+              (g: any) => g.questionId === question.questionId
             );
             return (
               <Card key={question.questionId}>

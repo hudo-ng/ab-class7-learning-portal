@@ -41,7 +41,7 @@ export async function gradeMockExam(answers: Answer[]) {
     const isCorrect = record?.isCorrect ?? false;
     const correctChoiceId = correctChoices.find(
       (c) => c.questionId === answer.questionId
-    );
+    )?.choiceId;
 
     if (isCorrect) {
       correctCount++;
@@ -49,7 +49,7 @@ export async function gradeMockExam(answers: Answer[]) {
     return {
       questionId: answer.questionId,
       choiceId: answer.choiceId,
-      correctChoiceId: correctChoiceId?.choiceId,
+      correctChoiceId: correctChoiceId,
       isCorrect,
     };
   });
