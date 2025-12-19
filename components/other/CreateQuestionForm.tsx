@@ -23,6 +23,7 @@ interface Topic {
 export default function CreateQuestionForm({ topics }: { topics: Topic[] }) {
   const [topicId, setTopicId] = useState<string>("");
   const [prompt, setPrompt] = useState<string>("");
+  const [imgUrl, setImgUrl] = useState("");
   const [explanation, setExplanation] = useState<string>("");
   const [choices, setChoices] = useState([
     { text: "", isCorrect: false },
@@ -61,10 +62,11 @@ export default function CreateQuestionForm({ topics }: { topics: Topic[] }) {
     setErr(null);
     setOk(null);
     try {
-      await createQuesion({ topicId, explanation, prompt, choices });
+      await createQuesion({ topicId, explanation, prompt, choices, imgUrl });
       setLoading(false);
       setPrompt("");
       setExplanation("");
+      setImgUrl("");
       setChoices([
         { text: "", isCorrect: false },
         { text: "", isCorrect: false },
@@ -106,6 +108,27 @@ export default function CreateQuestionForm({ topics }: { topics: Topic[] }) {
         value={explanation}
         onChange={(e) => setExplanation(e.target.value)}
       />
+
+      <div className="space-y-2">
+        <div className="text-sm font-medium">Image (optional)</div>
+
+        <Input
+          placeholder="https://example.com/road-sign.png"
+          value={imgUrl}
+          onChange={(e) => setImgUrl(e.target.value)}
+        />
+
+        {imgUrl && (
+          <div className="border rounded-md p-2 max-w-xs">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={imgUrl}
+              alt="Question visual"
+              className="w-full object-contain"
+            />
+          </div>
+        )}
+      </div>
 
       <div className="space-y-2">
         <p className="font-medium">Choices</p>

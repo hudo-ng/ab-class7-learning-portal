@@ -81,6 +81,18 @@ export function PracticeCards({ questions }: { questions: Question[] }) {
         </div>
 
         <p className="font-medium">{currentQuestion.prompt}</p>
+        {currentQuestion.imgUrl && (
+          <div className="flex justify-center">
+            <div className="w-full max-w-sm rounded-lg border bg-muted/30 p-2">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={currentQuestion.imgUrl}
+                alt="Question illustration"
+                className="mx-auto max-h-56 w-auto object-contain"
+              />
+            </div>
+          </div>
+        )}
         <div className="space-y-2">
           {currentQuestion.choices.map((choice) => {
             const isSelected = selected === choice.choiceId;

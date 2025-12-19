@@ -6,6 +6,7 @@ interface Question {
   topicId: string;
   prompt: string;
   explanation: string;
+  imgUrl: string | undefined;
   choices: { text: string; isCorrect: boolean }[];
 }
 
@@ -29,6 +30,7 @@ export async function createQuesion(data: Question) {
         topicId: data.topicId,
         prompt: data.prompt,
         explanation: data.explanation,
+        imgUrl: data.imgUrl || null,
       })
       .returning({ id: questions.id });
 
