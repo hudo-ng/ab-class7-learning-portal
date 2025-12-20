@@ -93,6 +93,7 @@ export function PracticeCards({ questions }: { questions: Question[] }) {
             </div>
           </div>
         )}
+        
         <div className="space-y-2">
           {currentQuestion.choices.map((choice) => {
             const isSelected = selected === choice.choiceId;
