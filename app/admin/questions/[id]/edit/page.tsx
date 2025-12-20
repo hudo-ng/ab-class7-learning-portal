@@ -2,9 +2,9 @@ import { notFound } from "next/navigation";
 import { getQuestion } from "@/db/queries/get-question";
 import EditQuestionForm from "@/components/other/EditQuestionForm";
 
-type params = Promise<{ id: string }>;
+type Params = Promise<{ id: string }>;
 
-export default async function EditQuestionPage(params: params) {
+export default async function EditQuestionPage({ params }: { params: Params }) {
   const { id } = await params;
 
   if (!id) return notFound();
