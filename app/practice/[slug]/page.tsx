@@ -21,7 +21,7 @@ export default async function PracticePage({ params }: Props) {
   }
 
   return (
-    <main className="mx-auto max-w-3xl px-4 py-8 space-y-6">
+    <main className="mx-auto max-w-4xl px-4 py-8 space-y-6">
       <h1 className="text-2xl font-bold">{data.topicTitle}</h1>
       <PracticeCards questions={data.questions} />
     </main>

@@ -1,6 +1,6 @@
 import { db } from "@/db/index";
 import { questions, choices } from "@/db/schema";
-import { eq } from "drizzle-orm";
+import { and, eq } from "drizzle-orm";
 
 export async function validateAnswer(questionId: string, choiceId: string) {
   const [choice] = await db
@@ -21,8 +21,16 @@ export async function validateAnswer(questionId: string, choiceId: string) {
     throw new Error("Invalid question ID");
   }
 
+  const correctChoice = await db.query.choices.findFirst({
+    where: and(eq(choices.questionId, questionId), eq(choices.isCorrect, true)),
+  });
+  if (!correctChoice) {
+    throw new Error("No correct answer found");
+  }
+
   return {
     isCorrect: choice.isCorrect,
     explanation: question.explanation,
+    correctChoiceId: correctChoice.id,
   };
 }

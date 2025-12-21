@@ -28,6 +28,7 @@ export function PracticeCards({ questions }: { questions: Question[] }) {
   const [result, setResult] = useState<null | {
     isCorrect: boolean;
     explanation: string;
+    correctChoiceId: string;
   }>(null);
   const [isPending, startTransition] = useTransition();
 
@@ -39,7 +40,7 @@ export function PracticeCards({ questions }: { questions: Question[] }) {
     setSelected(null);
     setShowExplanation(false);
     setResult(null);
-    setIndex((prev) => Math.min(prev + 1, questions.length - 1));
+    setIndex((prev) => prev + 1);
   }
 
   function submitAnswer(choiceId: string) {
@@ -93,29 +94,29 @@ export function PracticeCards({ questions }: { questions: Question[] }) {
             </div>
           </div>
         )}
-        
+
         <div className="space-y-2">
           {currentQuestion.choices.map((choice) => {
             const isSelected = selected === choice.choiceId;
-            const variant = !result
-              ? "outline"
-              : isSelected && result.isCorrect
-              ? "default"
-              : isSelected && !result.isCorrect
-              ? "destructive"
-              : "secondary";
+            const isCorrectChoice =
+              result && result.correctChoiceId === choice.choiceId;
+            const isWrongChoice = result && isSelected && !isCorrectChoice;
             return (
               <Button
                 key={choice.choiceId}
                 disabled={!!result || isPending}
-                variant={variant}
+                variant="outline"
                 className={clsx(
-                  "justify-start m-1",
-                  result && !isSelected && "opacity-70"
+                  "w-full justify-start text-left whitespace-normal leading-relaxed px-4 py-3",
+                  "transition-all",
+                  isCorrectChoice &&
+                    "border-green-500 bg-green-50 text-green-900",
+                  isWrongChoice && "border-red-500 bg-red-50 text-red-900",
+                  result && !isSelected && !isCorrectChoice && "opacity-60"
                 )}
                 onClick={() => submitAnswer(choice.choiceId)}
               >
-                {choice.text}
+                <span className="block">{choice.text}</span>
               </Button>
             );
           })}
@@ -124,7 +125,9 @@ export function PracticeCards({ questions }: { questions: Question[] }) {
         {result && (
           <Alert variant={result.isCorrect ? "default" : "destructive"}>
             <AlertDescription>
-              {result.isCorrect ? "Correct!" : "Incorrect."}
+              {result.isCorrect
+                ? "Correct — nice work!"
+                : "Incorrect — the correct answer is highlighted below."}
             </AlertDescription>
           </Alert>
         )}

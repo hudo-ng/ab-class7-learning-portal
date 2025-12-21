@@ -6,7 +6,7 @@ export default async function MockExamPage() {
   const questions = await getMockExamQuestions(questionCount);
 
   return (
-    <main className="mx-auto max-w-4xl px-4 py-8 space-y-4">
+    <main className="mx-auto max-w-5xl px-4 py-8 space-y-4">
       <h1 className="text-2xl font-bold">Mock Exam</h1>
       <MockExamUI questions={questions} />
     </main>
