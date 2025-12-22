@@ -19,7 +19,7 @@ interface Question {
   questionId: string;
   prompt: string;
   explanation: string;
-  imgUrl: string | undefined;
+  imgUrl?: string;
   choices: { choiceId: string; choiceText: string }[];
 }
 
@@ -158,7 +158,7 @@ export default function MockExamUI({ questions }: { questions: Question[] }) {
               <p className="font-medium">
                 {idx + 1}. {question.prompt}
               </p>
-              {question.imgUrl && (
+              {question.imgUrl && question.imgUrl.trim() !== "" && (
                 <div className="flex justify-center">
                   <div className="w-full max-w-sm rounded-lg border bg-muted/30 p-2">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
