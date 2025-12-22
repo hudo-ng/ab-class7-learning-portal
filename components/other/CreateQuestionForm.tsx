@@ -13,6 +13,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Alert, AlertDescription } from "@/components/ui/alert";
+import { ImageUploader } from "./ImageUploader";
 
 interface Topic {
   id: string;
@@ -111,6 +112,12 @@ export default function CreateQuestionForm({ topics }: { topics: Topic[] }) {
 
       <div className="space-y-2">
         <div className="text-sm font-medium">Image (optional)</div>
+
+        <ImageUploader
+          onUploaded={(url) => {
+            setImgUrl(url);
+          }}
+        />
 
         <Input
           placeholder="https://example.com/road-sign.png"

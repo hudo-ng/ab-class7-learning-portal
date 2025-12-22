@@ -7,6 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Switch } from "@/components/ui/switch";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { EditQuestion } from "@/app/actions/admin/edit-question";
+import { ImageUploader } from "./ImageUploader";
 
 interface QuestionData {
   id: string;
@@ -81,6 +82,12 @@ export default function EditQuestionForm({
       <Textarea
         value={explanation}
         onChange={(e) => setExplanation(e.target.value)}
+      />
+
+      <ImageUploader
+        onUploaded={(url) => {
+          setImgUrl(url);
+        }}
       />
 
       <Input
