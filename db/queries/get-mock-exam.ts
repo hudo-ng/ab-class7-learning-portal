@@ -7,6 +7,7 @@ export async function getMockExamQuestions(limit: number) {
     .select({
       questionId: questions.id,
       prompt: questions.prompt,
+      imgUrl: questions.imgUrl,
       explanation: questions.explanation,
       choiceId: choices.id,
       choiceText: choices.text,
@@ -24,6 +25,7 @@ export async function getMockExamQuestions(limit: number) {
         questionId: row.questionId,
         prompt: row.prompt,
         explanation: row.explanation,
+        imgUrl: row.imgUrl,
         choices: [],
       });
     }

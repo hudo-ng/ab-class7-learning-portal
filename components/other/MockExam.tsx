@@ -158,15 +158,16 @@ export default function MockExamUI({ questions }: { questions: Question[] }) {
               <p className="font-medium">
                 {idx + 1}. {question.prompt}
               </p>
-              {question.imgUrl && question.imgUrl.trim() !== "" && (
+              {question.imgUrl && (
                 <div className="flex justify-center">
-                  <div className="w-full max-w-sm rounded-lg border bg-muted/30 p-2">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={question.imgUrl}
-                      alt="Question illustration"
-                      className="mx-auto max-h-56 w-auto object-contain"
-                    />
+                  <div className="w-full max-w-md">
+                    <div className="aspect-video overflow-hidden rounded-lg border bg-muted/30">
+                      <img
+                        src={question.imgUrl}
+                        alt="Question illustration"
+                        className="h-full w-full object-contain"
+                      />
+                    </div>
                   </div>
                 </div>
               )}
@@ -180,7 +181,13 @@ export default function MockExamUI({ questions }: { questions: Question[] }) {
                         ? "default"
                         : "outline"
                     }
-                    className="w-full justify-start m-1"
+                    className={clsx(
+                      "w-full justify-start text-left whitespace-normal",
+                      "px-4 py-3 leading-relaxed",
+                      "wrap-break-words",
+                      "transition-colors",
+                      "m-1"
+                    )}
                     onClick={() =>
                       handleSelect(question.questionId, choice.choiceId)
                     }
