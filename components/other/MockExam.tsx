@@ -34,25 +34,38 @@ export default function MockExamUI({ questions }: { questions: Question[] }) {
   const [result, setResult] = useState<null | any>(null);
   const [phase, setPhase] = useState<"exam" | "confirm" | "result">("exam");
   const [timeLeft, setTimeLeft] = useState(ExamDurationSeconds);
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   const progress = (Object.keys(answers).length / questions.length) * 100;
+  const currentQuestion = questions[currentIndex];
 
   useEffect(() => {
     if (phase !== "exam") return;
 
-    if (timeLeft <= 0) {
-      submitExam();
-      return;
-    }
     const interval = setInterval(() => {
-      setTimeLeft((t) => t - 1);
+      setTimeLeft((t) => {
+        if (t <= 1) {
+          clearInterval(interval);
+          submitExam();
+          return 0;
+        }
+        return t - 1;
+      });
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [phase, timeLeft]);
+  }, [phase]);
 
   function getSelectedChoiceId(questionId: string) {
     return answers.find((a) => a.questionId === questionId)?.choiceId;
+  }
+
+  function nextQuestion() {
+    setCurrentIndex((i) => Math.min(i + 1, questions.length - 1));
+  }
+
+  function prevQuestion() {
+    setCurrentIndex((i) => Math.max(i - 1, 0));
   }
 
   function handleSelect(questionId: string, choiceId: string) {
@@ -152,53 +165,78 @@ export default function MockExamUI({ questions }: { questions: Question[] }) {
           <span className="font-mono">⏱ {formatTime(timeLeft)}</span>
         </div>
         <Progress value={progress} className="h-4 rounded-md" />
-        {questions.map((question, idx) => (
-          <Card key={question.questionId}>
-            <CardContent className="p-4 space-y-3">
-              <p className="font-medium">
-                {idx + 1}. {question.prompt}
-              </p>
-              {question.imgUrl && (
-                <div className="flex justify-center">
-                  <div className="w-full max-w-md">
-                    <div className="aspect-video overflow-hidden rounded-lg border bg-muted/30">
-                      <img
-                        src={question.imgUrl}
-                        alt="Question illustration"
-                        className="h-full w-full object-contain"
-                      />
-                    </div>
-                  </div>
-                </div>
-              )}
-              <div className="space-y-2">
-                {question.choices.map((choice) => (
+        <Card>
+          <CardContent className="p-6 space-y-4">
+            <p className="font-medium">
+              Question {currentIndex + 1} of {questions.length}
+            </p>
+
+            <p className="text-base font-semibold leading-relaxed">
+              {currentQuestion.prompt}
+            </p>
+
+            <div className="grid gap-6 md:grid-cols-[1fr_280px]">
+              <div className="space-y-3">
+                {currentQuestion.choices.map((choice) => (
                   <Button
                     key={choice.choiceId}
                     variant={
-                      getSelectedChoiceId(question.questionId) ===
+                      getSelectedChoiceId(currentQuestion.questionId) ===
                       choice.choiceId
                         ? "default"
                         : "outline"
                     }
                     className={clsx(
-                      "w-full justify-start text-left whitespace-normal",
-                      "px-4 py-3 leading-relaxed",
-                      "wrap-break-words",
-                      "transition-colors",
-                      "m-1"
+                      "w-full justify-start text-left",
+                      "px-5 py-4",
+                      "min-h-7",
+                      "h-auto",
+                      "leading-relaxed",
+                      "whitespace-normal",
+                      "items-start",
+                      "flex-col"
                     )}
                     onClick={() =>
-                      handleSelect(question.questionId, choice.choiceId)
+                      handleSelect(currentQuestion.questionId, choice.choiceId)
                     }
                   >
                     {choice.choiceText}
                   </Button>
                 ))}
               </div>
-            </CardContent>
-          </Card>
-        ))}
+
+              {currentQuestion.imgUrl && (
+                <div className="flex justify-center md:justify-end">
+                  <div className="w-full max-w-70 rounded-xl border bg-muted/30 p-3">
+                    <img
+                      src={currentQuestion.imgUrl}
+                      alt="Question illustration"
+                      className="mx-auto max-h-64 w-auto object-contain"
+                    />
+                  </div>
+                </div>
+              )}
+            </div>
+
+            <div className="flex justify-between pt-4">
+              <Button
+                variant="outline"
+                disabled={currentIndex === 0}
+                onClick={prevQuestion}
+              >
+                Previous
+              </Button>
+
+              <Button
+                disabled={currentIndex === questions.length - 1}
+                onClick={nextQuestion}
+              >
+                Next
+              </Button>
+            </div>
+          </CardContent>
+        </Card>
+
         <Button
           className="w-full"
           disabled={Object.keys(answers).length !== questions.length}
@@ -206,6 +244,11 @@ export default function MockExamUI({ questions }: { questions: Question[] }) {
         >
           Submit Exam
         </Button>
+        {Object.keys(answers).length !== questions.length && (
+          <p className="text-xs text-muted-foreground text-center">
+            Please answer all questions before submitting.
+          </p>
+        )}
       </div>
 
       <Dialog open={phase === "confirm"} onOpenChange={() => setPhase("exam")}>
