@@ -40,17 +40,20 @@ export function PracticeCards({ questions }: { questions: Question[] }) {
     setSelected(null);
     setShowExplanation(false);
     setResult(null);
-    setIndex((prev) => prev + 1);
+    setIndex((prev) => Math.min(prev + 1, totalQuestions - 1));
   }
 
   function submitAnswer(choiceId: string) {
+    if (result) return; // prevent double submit
+    setSelected(choiceId);
+
     const fd = new FormData();
     fd.append("questionId", currentQuestion.questionId);
     fd.append("choiceId", choiceId);
+
     startTransition(async () => {
       const res = await validateUserAnswer(fd);
       setResult(res);
-      setSelected(choiceId);
       setShowExplanation(true);
     });
   }
@@ -58,11 +61,12 @@ export function PracticeCards({ questions }: { questions: Question[] }) {
   if (!currentQuestion) {
     return (
       <Card className="p-6">
-        <CardContent>
-          <h2 className="text-xl font-semibold">Practice complete 🎉</h2>
+        <CardContent className="text-center space-y-4">
+          <h2 className="text-2xl font-bold">Practice Complete 🎉</h2>
           <p className="text-muted-foreground">
-            You’ve finished all questions.
+            You've finished all {totalQuestions} questions.
           </p>
+          <Button onClick={() => setIndex(0)}>Restart Practice</Button>
         </CardContent>
       </Card>
     );
@@ -70,77 +74,96 @@ export function PracticeCards({ questions }: { questions: Question[] }) {
 
   return (
     <Card>
-      <CardContent className="p-6 space-y-4">
-        <div className="space-y-1">
+      <CardContent className="p-6 space-y-6">
+        {/* Progress */}
+        <div className="space-y-2">
           <div className="flex justify-between text-sm text-muted-foreground">
             <span>
               Question {index + 1} of {totalQuestions}
             </span>
             <span>{Math.round(progress)}%</span>
           </div>
-          <Progress value={progress} />
+          <Progress value={progress} className="h-2" />
         </div>
 
-        <p className="font-medium">{currentQuestion.prompt}</p>
+        <h2 className="text-xl font-semibold leading-relaxed">
+          {currentQuestion.prompt}
+        </h2>
+
         {currentQuestion.imgUrl && (
           <div className="flex justify-center">
-            <div className="w-full max-w-sm rounded-lg border bg-muted/30 p-2">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
+            <div className="w-full max-w-md rounded-xl border bg-muted/30 p-3">
               <img
                 src={currentQuestion.imgUrl}
                 alt="Question illustration"
-                className="mx-auto max-h-56 w-auto object-contain"
+                className="mx-auto max-h-64 w-auto object-contain rounded-lg"
               />
             </div>
           </div>
         )}
 
-        <div className="space-y-2">
+        <div className="space-y-3">
           {currentQuestion.choices.map((choice) => {
             const isSelected = selected === choice.choiceId;
             const isCorrectChoice =
               result && result.correctChoiceId === choice.choiceId;
-            const isWrongChoice = result && isSelected && !isCorrectChoice;
+            const isWrongChoice = isSelected && result && !result.isCorrect;
+
             return (
               <Button
                 key={choice.choiceId}
                 disabled={!!result || isPending}
                 variant="outline"
                 className={clsx(
-                  "w-full justify-start text-left whitespace-normal leading-relaxed px-4 py-3",
-                  "transition-all",
+                  "w-full justify-start text-left px-5 py-4",
+                  "min-h-7 h-auto",
+                  "leading-relaxed whitespace-normal items-start",
+                  "transition-all duration-200",
                   isCorrectChoice &&
-                    "border-green-500 bg-green-50 text-green-900",
-                  isWrongChoice && "border-red-500 bg-red-50 text-red-900",
-                  result && !isSelected && !isCorrectChoice && "opacity-60"
+                    "border-green-600 bg-green-50 text-green-900 font-medium",
+                  isWrongChoice &&
+                    "border-red-600 bg-red-50 text-red-900 font-medium",
+                  result && !isSelected && !isCorrectChoice && "opacity-65",
+                  isPending && "opacity-70 cursor-wait"
                 )}
                 onClick={() => submitAnswer(choice.choiceId)}
               >
-                <span className="block">{choice.text}</span>
+                {choice.text}
               </Button>
             );
           })}
         </div>
 
         {result && (
-          <Alert variant={result.isCorrect ? "default" : "destructive"}>
-            <AlertDescription>
+          <Alert
+            variant={result.isCorrect ? "default" : "destructive"}
+            className="mt-4"
+          >
+            <AlertDescription className="text-base font-medium">
               {result.isCorrect
-                ? "Correct — nice work!"
-                : "Incorrect — the correct answer is highlighted below."}
+                ? "Correct! Well done."
+                : "Incorrect. The correct answer is highlighted above."}
             </AlertDescription>
           </Alert>
         )}
 
         {showExplanation && (
-          <div className="rounded-md bg-muted p-3 text-sm">
+          <div className="rounded-lg bg-muted/50 p-4 text-sm leading-relaxed border">
+            <p className="font-medium text-muted-foreground mb-1">
+              Explanation:
+            </p>
             {currentQuestion.explanation}
           </div>
         )}
 
         {showExplanation && (
-          <Button className="w-full" onClick={nextQuestion}>
-            Next Question
+          <Button
+            className="w-full mt-2"
+            size="lg"
+            onClick={nextQuestion}
+            disabled={index === totalQuestions - 1}
+          >
+            {index === totalQuestions - 1 ? "Finish Practice" : "Next Question"}
           </Button>
         )}
       </CardContent>
