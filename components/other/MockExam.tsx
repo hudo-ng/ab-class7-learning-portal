@@ -113,27 +113,33 @@ export default function MockExamUI({ questions }: { questions: Question[] }) {
             );
             return (
               <Card key={question.questionId}>
-                <CardContent className="p-4 space-y-2">
+                <CardContent className="p-4 space-y-4">
+                  {" "}
                   <p className="font-medium">
                     {idx + 1}. {question.prompt}
                   </p>
-                  {question.choices.map((c) => (
-                    <Button
-                      key={c.choiceId}
-                      disabled
-                      variant="outline"
-                      className={clsx(
-                        "justify-start m-1",
-                        c.choiceId === graded.correctChoiceId &&
-                          "border-green-500 bg-green-200 text-green-700",
-                        c.choiceId === graded.choiceId &&
-                          !graded.isCorrect &&
-                          "border-red-500 bg-red-200 text-red-700"
-                      )}
-                    >
-                      {c.choiceText}
-                    </Button>
-                  ))}
+                  <div className="space-y-3">
+                    {" "}
+                    {question.choices.map((c) => (
+                      <Button
+                        key={c.choiceId}
+                        disabled
+                        variant="outline"
+                        className={clsx(
+                          "w-full justify-start text-left px-5 py-4",
+                          "min-h-7 h-auto",
+                          "leading-relaxed whitespace-normal items-start",
+                          c.choiceId === graded.correctChoiceId &&
+                            "border-green-500 bg-green-200 text-green-700",
+                          c.choiceId === graded.choiceId &&
+                            !graded.isCorrect &&
+                            "border-red-500 bg-red-200 text-red-700"
+                        )}
+                      >
+                        {c.choiceText}
+                      </Button>
+                    ))}
+                  </div>
                   <Alert variant={graded.isCorrect ? "default" : "destructive"}>
                     <AlertDescription
                       className={
