@@ -13,6 +13,7 @@ import {
   DialogFooter,
 } from "@/components/ui/dialog";
 import { gradeMockExam } from "@/app/actions/grade-mock-exam";
+import QuestionNavigator from "./QuestionNavigator";
 import clsx from "clsx";
 
 interface Question {
@@ -163,6 +164,13 @@ export default function MockExamUI({ questions }: { questions: Question[] }) {
 
   return (
     <>
+      <QuestionNavigator
+        currentIndex={currentIndex}
+        answers={answers}
+        questions={questions}
+        submitted={submitted}
+        onJump={(idx) => setCurrentIndex(idx)}
+      />
       <div className="space-y-4">
         <div className="flex justify-between text-sm">
           <span>
