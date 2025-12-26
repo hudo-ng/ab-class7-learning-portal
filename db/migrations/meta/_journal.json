@@ -15,6 +15,13 @@
       "when": 1765946117854,
       "tag": "0001_quiet_iron_lad",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1766791806579,
+      "tag": "0002_clear_madripoor",
+      "breakpoints": true
     }
   ]
 }

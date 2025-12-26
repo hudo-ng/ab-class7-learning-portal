@@ -44,8 +44,20 @@ export const users = pgTable("users", {
   createdAt: timestamp("created_at").defaultNow().notNull(),
 });
 
+export const topicContent = pgTable("topic_content", {
+  id: uuid("id").defaultRandom().primaryKey(),
+  topicId: uuid("topic_id")
+    .notNull()
+    .references(() => topics.id, { onDelete: "cascade" }),
+  title: text("title").notNull(),
+  body: text("body").notNull(),
+  order: integer("order").notNull(),
+  createdAt: timestamp("created_at").defaultNow().notNull(),
+});
+
 export const topicsRelations = relations(topics, ({ many }) => ({
   questions: many(questions),
+  topicContent: many(topicContent),
 }));
 
 export const questionsRelations = relations(questions, ({ one, many }) => ({
