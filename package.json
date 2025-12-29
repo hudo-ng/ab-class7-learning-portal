@@ -8,6 +8,7 @@
     "start": "next start",
     "db:seed": "tsx ./db/seed.ts",
     "db:seed-admin": "tsx ./db/seedAdmin.ts",
+    "db:seed-road-signs": "tsx ./db/seedRoadSigns.ts",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "lint": "eslint"
@@ -32,6 +33,8 @@
     "postgres": "^3.4.7",
     "react": "19.2.1",
     "react-dom": "19.2.1",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
     "shadcn": "^3.6.1",
     "tailwind-merge": "^3.4.0"
   },
