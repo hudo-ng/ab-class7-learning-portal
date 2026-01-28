@@ -3,6 +3,7 @@ import Link from "next/link";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/app/api/auth/[...nextauth]/route";
 import { Button } from "../ui/button";
+import LogoutButton from "./LogoutButton";
 
 export default async function NavBar() {
   const session = await getServerSession(authOptions);
@@ -37,9 +38,7 @@ export default async function NavBar() {
               </Button>
             </>
           ) : (
-            <Button variant="outline" asChild>
-              <Link href="/logout">Logout</Link>
-            </Button>
+            <LogoutButton />
           )}
         </div>
       </div>

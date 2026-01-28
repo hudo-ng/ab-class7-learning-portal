@@ -21,7 +21,7 @@ export default function LoginPage() {
   const [password, setPassword] = useState("");
 
   async function handleSubmit() {
-    await signIn("credentials", { email, password, callbackUrl: "/admin" });
+    await signIn("credentials", { email, password, callbackUrl: "/" });
   }
 
   return (
