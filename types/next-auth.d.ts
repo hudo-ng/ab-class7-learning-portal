@@ -6,15 +6,18 @@ declare module "next-auth" {
       id: string;
       email: string;
       role: "USER" | "ADMIN";
+      isApproved: boolean;
     } & DefaultSession["user"];
   }
   interface User {
     role: "USER" | "ADMIN";
+    isApproved: boolean;
   }
 }
 
 declare module "next-auth/jwt" {
   interface JWT {
     role?: "USER" | "ADMIN";
+    isApproved?: boolean;
   }
 }

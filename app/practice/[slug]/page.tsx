@@ -24,6 +24,17 @@ export default async function PracticePage({ params }: Props) {
     );
   }
 
+  if (!session.user?.isApproved) {
+    return (
+      <div className="rounded-xl border bg-muted/30 p-6 space-y-3">
+        <p className="font-medium">Want to practice or take the mock exam?</p>
+        <p className="text-sm text-muted-foreground">
+          Your account is not approved yet.
+        </p>
+      </div>
+    );
+  }
+
   const { slug } = await params;
   let data;
 
