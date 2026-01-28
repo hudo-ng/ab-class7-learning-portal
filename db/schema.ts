@@ -41,6 +41,7 @@ export const users = pgTable("users", {
   email: text("email").notNull().unique(),
   hashedPassword: text("password_hash").notNull(),
   role: text("role").notNull().default("USER"),
+  isApproved: boolean("is_approved").default(false).notNull(),
   createdAt: timestamp("created_at").defaultNow().notNull(),
 });
 

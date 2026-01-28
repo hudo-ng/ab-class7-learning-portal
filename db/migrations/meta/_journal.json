@@ -22,6 +22,13 @@
       "when": 1766791806579,
       "tag": "0002_clear_madripoor",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1769633364260,
+      "tag": "0003_complex_wallop",
+      "breakpoints": true
     }
   ]
 }
