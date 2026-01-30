@@ -1,0 +1,1 @@
+ALTER TABLE "topic_content" ADD COLUMN "img_url" text;

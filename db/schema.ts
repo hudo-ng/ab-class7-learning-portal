@@ -5,6 +5,7 @@ import {
   timestamp,
   integer,
   boolean,
+  pgEnum,
 } from "drizzle-orm/pg-core";
 import { relations } from "drizzle-orm";
 
@@ -45,6 +46,14 @@ export const users = pgTable("users", {
   createdAt: timestamp("created_at").defaultNow().notNull(),
 });
 
+export const topicContentType = pgEnum("topic_content_type", [
+  "intro",
+  "concept",
+  "visual",
+  "rules",
+  "mistakes",
+]);
+
 export const topicContent = pgTable("topic_content", {
   id: uuid("id").defaultRandom().primaryKey(),
   topicId: uuid("topic_id")
@@ -52,6 +61,8 @@ export const topicContent = pgTable("topic_content", {
     .references(() => topics.id, { onDelete: "cascade" }),
   title: text("title").notNull(),
   body: text("body").notNull(),
+  type: topicContentType("type").notNull(),
+  imgUrl: text("img_url"),
   order: integer("order").notNull(),
   createdAt: timestamp("created_at").defaultNow().notNull(),
 });

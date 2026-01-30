@@ -29,6 +29,20 @@
       "when": 1769633364260,
       "tag": "0003_complex_wallop",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1769811527780,
+      "tag": "0004_lumpy_pyro",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1769811625535,
+      "tag": "0005_amusing_skullbuster",
+      "breakpoints": true
     }
   ]
 }
