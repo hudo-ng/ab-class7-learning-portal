@@ -61,7 +61,7 @@ export const topicContent = pgTable("topic_content", {
     .references(() => topics.id, { onDelete: "cascade" }),
   title: text("title").notNull(),
   body: text("body").notNull(),
-  type: topicContentType("type"),
+  type: topicContentType("type").notNull().default("intro"),
   imgUrl: text("img_url"),
   order: integer("order").notNull(),
   createdAt: timestamp("created_at").defaultNow().notNull(),

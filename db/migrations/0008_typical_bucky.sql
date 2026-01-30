@@ -1,0 +1,1 @@
+ALTER TYPE "public"."topic_content_type" ADD VALUE '';
