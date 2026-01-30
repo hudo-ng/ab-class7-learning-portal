@@ -1,2 +1,2 @@
 CREATE TYPE "public"."topic_content_type" AS ENUM('intro', 'concept', 'visual', 'rules', 'mistakes');--> statement-breakpoint
-ALTER TABLE "topic_content" ADD COLUMN "type" "topic_content_type" NOT NULL;
+ALTER TABLE "topic_content" ADD COLUMN "type" "topic_content_type";

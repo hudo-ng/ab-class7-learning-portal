@@ -1,83 +1,43 @@
-import { notFound } from "next/navigation";
-import { getTopicLearning } from "@/db/queries/get-topic-learning";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
+import { db } from "@/db";
+import { topicContent, topics } from "@/db/schema";
+import { eq } from "drizzle-orm";
+import { LessonBlock } from "@/components/other/LessonBlock";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
-type Params = Promise<{ slug: string }>;
-
-export default async function LearnTopicPage({ params }: { params: Params }) {
+export default async function TopicPage({
+  params,
+}: {
+  params: { slug: string };
+}) {
   const { slug } = await params;
-  if (!slug) return notFound();
+  const topic = await db.query.topics.findFirst({
+    where: eq(topics.slug, slug),
+  });
 
-  const data = await getTopicLearning(slug);
-  if (!data) return notFound();
+  if (!topic) return null;
 
-  const { topic, content } = data;
+  const blocks = await db.query.topicContent.findMany({
+    where: eq(topicContent.topicId, topic.id),
+    orderBy: topicContent.order,
+  });
 
   return (
-    <div className="mx-auto max-w-4xl px-4 py-10 space-y-10">
-      <h1 className="text-3xl font-bold">{topic.title}</h1>
+    <div className="mx-auto max-w-5xl px-4 py-10 space-y-10">
+      <header className="space-y-2">
+        <h1 className="text-3xl font-bold">{topic.title}</h1>
+        <p className="text-muted-foreground">
+          Learn the key concepts before practicing exam questions.
+        </p>
+      </header>
 
-      {content.map((section) => (
-        <section key={section.id} className="space-y-2">
-          <h2 className="text-xl font-semibold">{section.title}</h2>
-
-          <div
-            className="
-    prose prose-base max-w-none
-    prose-headings:font-semibold
-    prose-h2:border-b prose-h2:pb-2
-    prose-h3:mt-8
-    prose-h4:mt-6
-    prose-img:mx-auto
-    prose-img:rounded-xl
-    prose-img:border
-    prose-img:bg-muted/30
-    prose-img:p-3
-    prose-img:max-h-64
-    prose-img:w-auto
-    prose-img:object-contain
-    prose-img:block
-    prose-ul:pl-6
-    prose-li:my-1
-  "
-          >
-            <ReactMarkdown
-              remarkPlugins={[remarkGfm]}
-              components={{
-                table: ({ children }) => (
-                  <div className="overflow-x-auto">
-                    <table className="min-w-full border-collapse border border-gray-300">
-                      {children}
-                    </table>
-                  </div>
-                ),
-                th: ({ children }) => (
-                  <th className="border border-gray-300 bg-gray-100 px-4 py-2 text-left font-semibold">
-                    {children}
-                  </th>
-                ),
-                td: ({ children }) => (
-                  <td className="border border-gray-300 px-4 py-2">
-                    {children}
-                  </td>
-                ),
-              }}
-            >
-              {section.body}
-            </ReactMarkdown>
-          </div>
-        </section>
+      {blocks.map((block) => (
+        <LessonBlock key={block.id} block={block} />
       ))}
 
-      <div className="flex gap-4 pt-6">
+      <div className="flex justify-end pt-6">
         <Button asChild>
-          <a href={`/practice/${topic.slug}`}>Practice</a>
-        </Button>
-
-        <Button variant="outline" asChild>
-          <a href={`/mock-exam/${topic.slug}`}>Take Mock Exam</a>
+          <Link href={`/practice/${topic.slug}`}>Practice this topic →</Link>
         </Button>
       </div>
     </div>
