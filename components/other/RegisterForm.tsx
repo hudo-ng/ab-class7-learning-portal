@@ -7,6 +7,7 @@ import { Label } from "@/components/ui/label";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { useRouter } from "next/navigation";
 import { registerUser } from "@/app/actions/admin/registerUser";
+import Link from "next/link";
 
 export default function RegisterForm() {
   const router = useRouter();
@@ -84,6 +85,15 @@ export default function RegisterForm() {
       <Button type="submit" className="w-full" disabled={isPending}>
         Create account
       </Button>
+      <p className="text-center text-sm text-muted-foreground">
+        Already have an account?{" "}
+        <Link
+          href="/login"
+          className="font-medium text-foreground underline-offset-4 hover:underline"
+        >
+          Log in
+        </Link>
+      </p>
     </form>
   );
 }
