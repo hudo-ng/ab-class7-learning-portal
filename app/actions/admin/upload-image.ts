@@ -1,8 +1,10 @@
 "use server";
 
+import { requireAdmin } from "@/lib/auth";
 import { put } from "@vercel/blob";
 
 export async function uploadQuestionImage(file: File) {
+  await requireAdmin();
   if (!file) {
     throw new Error("No file provided");
   }

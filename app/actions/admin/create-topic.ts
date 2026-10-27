@@ -2,6 +2,7 @@
 
 import { db } from "@/db/index";
 import { topics } from "@/db/schema";
+import { requireAdmin } from "@/lib/auth";
 import { eq } from "drizzle-orm";
 
 function slugify(text: string) {
@@ -13,6 +14,7 @@ function slugify(text: string) {
 }
 
 export async function createTopic(fd: FormData) {
+  await requireAdmin();
   const title = String(fd.get("title") || "").trim();
   let slug = String(fd.get("slug") || "").trim();
   if (!title) {

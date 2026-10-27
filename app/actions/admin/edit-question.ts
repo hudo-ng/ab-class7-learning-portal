@@ -2,6 +2,7 @@
 
 import { db } from "@/db/index";
 import { questions, choices } from "@/db/schema";
+import { requireAdmin } from "@/lib/auth";
 import { eq } from "drizzle-orm";
 
 interface QuestionData {
@@ -19,6 +20,7 @@ interface QuestionData {
 }
 
 export async function EditQuestion(data: QuestionData) {
+  await requireAdmin();
   if (!data.prompt.trim()) {
     throw new Error("Prompt is required");
   }

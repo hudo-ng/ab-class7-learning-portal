@@ -1,6 +1,7 @@
 "use server";
 import { db } from "@/db/index";
 import { questions, choices } from "@/db/schema";
+import { requireAdmin } from "@/lib/auth";
 
 interface Question {
   topicId: string;
@@ -11,6 +12,7 @@ interface Question {
 }
 
 export async function createQuesion(data: Question) {
+  await requireAdmin();
   if (!data.prompt.trim()) {
     throw new Error("Question prompt is required");
   }
