@@ -1,8 +1,10 @@
 "use server";
 
 import { validateAnswer } from "@/db/queries/validate-answer";
+import { requireApprovedUser } from "@/lib/auth";
 
 export async function validateUserAnswer(fd: FormData) {
+  await requireApprovedUser();
   const questionId = fd.get("questionId") as string;
   const choiceId = fd.get("choiceId") as string;
 

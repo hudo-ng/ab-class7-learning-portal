@@ -1,63 +1,72 @@
 "use server";
 
 import { db } from "@/db/index";
-import { choices, questions } from "@/db/schema";
-import { eq, inArray } from "drizzle-orm";
+import { choices } from "@/db/schema";
+import { eq, inArray, and } from "drizzle-orm";
+import { requireApprovedUser } from "@/lib/auth";
 
 interface Answer {
   questionId: string;
-  choiceId: string;
+  choiceId: string | null;
 }
 
+const MAX_QUESTIONS = 100;
+const UUID_RE =
+  /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+
 export async function gradeMockExam(answers: Answer[]) {
-  if (!answers || answers.length === 0) {
-    throw new Error("No answers provided");
+  await requireApprovedUser();
+
+  if (
+    !Array.isArray(answers) ||
+    answers.length === 0 ||
+    answers.length > MAX_QUESTIONS
+  ) {
+    throw new Error("Invalid answers");
   }
-  const choiceIds = answers.map((a) => a.choiceId);
 
-  const rows = await db
-    .select({
-      choiceId: choices.id,
-      isCorrect: choices.isCorrect,
-      questionId: choices.questionId,
-    })
+  // One answer per question; unanswered = null
+  const byQuestion = new Map<string, string | null>();
+  for (const a of answers) {
+    if (typeof a?.questionId !== "string" || !UUID_RE.test(a.questionId)) {
+      throw new Error("Invalid answers");
+    }
+    const choiceId =
+      typeof a.choiceId === "string" && UUID_RE.test(a.choiceId)
+        ? a.choiceId
+        : null;
+    byQuestion.set(a.questionId, choiceId);
+  }
+  const questionIds = [...byQuestion.keys()];
+
+  // The correct choice for each submitted question
+  const correctRows = await db
+    .select({ questionId: choices.questionId, choiceId: choices.id })
     .from(choices)
-    .where(inArray(choices.id, choiceIds));
+    .where(
+      and(
+        inArray(choices.questionId, questionIds),
+        eq(choices.isCorrect, true),
+      ),
+    );
 
-  const result = new Map(rows.map((r) => [r.choiceId, r]));
-
-  const correctChoices = await db
-    .select({
-      questionId: choices.questionId,
-      choiceId: choices.id,
-    })
-    .from(choices)
-    .where(eq(choices.isCorrect, true));
+  const correctByQuestion = new Map(
+    correctRows.map((r) => [r.questionId, r.choiceId]),
+  );
 
   let correctCount = 0;
-
-  const graded = answers.map((answer) => {
-    const record = result.get(answer.choiceId);
-    const isCorrect = record?.isCorrect ?? false;
-    const correctChoiceId = correctChoices.find(
-      (c) => c.questionId === answer.questionId
-    )?.choiceId;
-
-    if (isCorrect) {
-      correctCount++;
-    }
-    return {
-      questionId: answer.questionId,
-      choiceId: answer.choiceId,
-      correctChoiceId: correctChoiceId,
-      isCorrect,
-    };
+  const details = questionIds.map((questionId) => {
+    const choiceId = byQuestion.get(questionId) ?? null;
+    const correctChoiceId = correctByQuestion.get(questionId) ?? null;
+    const isCorrect = choiceId !== null && choiceId === correctChoiceId;
+    if (isCorrect) correctCount++;
+    return { questionId, choiceId, correctChoiceId, isCorrect };
   });
 
   return {
-    total: answers.length,
+    total: questionIds.length,
     correct: correctCount,
-    score: Math.round((correctCount / answers.length) * 100),
-    details: graded,
+    score: Math.round((correctCount / questionIds.length) * 100),
+    details,
   };
 }

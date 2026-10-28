@@ -1,36 +1,31 @@
 import { db } from "@/db/index";
 import { questions, choices } from "@/db/schema";
-import { and, eq } from "drizzle-orm";
+import { eq } from "drizzle-orm";
 
 export async function validateAnswer(questionId: string, choiceId: string) {
-  const [choice] = await db
-    .select({ isCorrect: choices.isCorrect })
+  const rows = await db
+    .select({
+      choiceId: choices.id,
+      isCorrect: choices.isCorrect,
+      explanation: questions.explanation,
+    })
     .from(choices)
-    .where(eq(choices.id, choiceId));
+    .innerJoin(questions, eq(choices.questionId, questions.id))
+    .where(eq(choices.questionId, questionId));
 
-  if (!choice) {
-    throw new Error("Invalid choice ID");
+  const picked = rows.find((r) => r.choiceId === choiceId);
+  if (!picked) {
+    throw new Error("Invalid choice for this question");
   }
 
-  const [question] = await db
-    .select({ explanation: questions.explanation })
-    .from(questions)
-    .where(eq(questions.id, questionId));
-
-  if (!question) {
-    throw new Error("Invalid question ID");
-  }
-
-  const correctChoice = await db.query.choices.findFirst({
-    where: and(eq(choices.questionId, questionId), eq(choices.isCorrect, true)),
-  });
-  if (!correctChoice) {
+  const correct = rows.find((r) => r.isCorrect);
+  if (!correct) {
     throw new Error("No correct answer found");
   }
 
   return {
-    isCorrect: choice.isCorrect,
-    explanation: question.explanation,
-    correctChoiceId: correctChoice.id,
+    isCorrect: picked.isCorrect,
+    explanation: picked.explanation,
+    correctChoiceId: correct.choiceId,
   };
 }

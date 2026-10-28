@@ -8,3 +8,14 @@ export async function requireAdmin() {
   }
   return session;
 }
+
+export async function requireApprovedUser() {
+  const session = await getServerSession(authOptions);
+  if (!session) {
+    throw new Error("Please log in");
+  }
+  if (!session.user.isApproved) {
+    throw new Error("Your account is not approved yet");
+  }
+  return session;
+}

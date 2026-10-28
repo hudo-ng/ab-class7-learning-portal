@@ -23,6 +23,7 @@ interface Question {
   imgUrl?: string;
   choices: { choiceId: string; choiceText: string }[];
 }
+type ExamResult = Awaited<ReturnType<typeof gradeMockExam>>;
 
 const PassingScore = 80;
 const ExamDurationSeconds = 30 * 60;
@@ -32,7 +33,7 @@ export default function MockExamUI({ questions }: { questions: Question[] }) {
     { questionId: string; choiceId: string }[]
   >([]);
   const [submitted, setSubmitted] = useState(false);
-  const [result, setResult] = useState<null | any>(null);
+  const [result, setResult] = useState<ExamResult | null>(null);
   const [phase, setPhase] = useState<"exam" | "confirm" | "result">("exam");
   const [timeLeft, setTimeLeft] = useState(ExamDurationSeconds);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -41,21 +42,19 @@ export default function MockExamUI({ questions }: { questions: Question[] }) {
   const currentQuestion = questions[currentIndex];
 
   useEffect(() => {
-    if (phase !== "exam") return;
-
+    if (phase === "result") return;
     const interval = setInterval(() => {
-      setTimeLeft((t) => {
-        if (t <= 1) {
-          clearInterval(interval);
-          submitExam();
-          return 0;
-        }
-        return t - 1;
-      });
+      setTimeLeft((t) => Math.max(t - 1, 0));
     }, 1000);
-
     return () => clearInterval(interval);
   }, [phase]);
+
+  useEffect(() => {
+    if (timeLeft === 0 && phase !== "result") {
+      submitExam();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [timeLeft, phase]);
 
   function getSelectedChoiceId(questionId: string) {
     return answers.find((a) => a.questionId === questionId)?.choiceId;
@@ -76,7 +75,7 @@ export default function MockExamUI({ questions }: { questions: Question[] }) {
       const existing = prev.find((a) => a.questionId === questionId);
       if (existing) {
         return prev.map((a) =>
-          a.questionId === questionId ? { questionId, choiceId } : a
+          a.questionId === questionId ? { questionId, choiceId } : a,
         );
       }
       return [...prev, { questionId, choiceId }];
@@ -84,10 +83,19 @@ export default function MockExamUI({ questions }: { questions: Question[] }) {
   }
 
   async function submitExam() {
-    const res = await gradeMockExam(answers);
-    setResult(res);
-    setSubmitted(true);
-    setPhase("result");
+    const payload = questions.map((q) => ({
+      questionId: q.questionId,
+      choiceId: getSelectedChoiceId(q.questionId) ?? null,
+    }));
+
+    try {
+      const res = await gradeMockExam(payload);
+      setResult(res);
+      setSubmitted(true);
+      setPhase("result");
+    } catch {
+      alert("Could not submit the exam. Please try again.");
+    }
   }
 
   function formatTime(seconds: number) {
@@ -96,7 +104,7 @@ export default function MockExamUI({ questions }: { questions: Question[] }) {
     return `${m}:${s.toString().padStart(2, "0")}`;
   }
 
-  if (phase === "result") {
+  if (phase === "result" && result) {
     const passed = result.score >= PassingScore;
     return (
       <Card>
@@ -110,8 +118,9 @@ export default function MockExamUI({ questions }: { questions: Question[] }) {
 
           {questions.map((question, idx) => {
             const graded = result.details.find(
-              (g: any) => g.questionId === question.questionId
+              (g) => g.questionId === question.questionId,
             );
+            if (!graded) return null;
             return (
               <Card key={question.questionId}>
                 <CardContent className="p-4 space-y-4">
@@ -134,7 +143,7 @@ export default function MockExamUI({ questions }: { questions: Question[] }) {
                             "border-green-500 bg-green-200 text-green-700",
                           c.choiceId === graded.choiceId &&
                             !graded.isCorrect &&
-                            "border-red-500 bg-red-200 text-red-700"
+                            "border-red-500 bg-red-200 text-red-700",
                         )}
                       >
                         {c.choiceText}
@@ -208,7 +217,7 @@ export default function MockExamUI({ questions }: { questions: Question[] }) {
                       "leading-relaxed",
                       "whitespace-normal",
                       "items-start",
-                      "flex-col"
+                      "flex-col",
                     )}
                     onClick={() =>
                       handleSelect(currentQuestion.questionId, choice.choiceId)
