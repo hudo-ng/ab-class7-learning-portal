@@ -40,8 +40,8 @@ export default function CreateNewTopicForm() {
         setOk(true);
         setTitle("");
         setSlug("");
-      } catch (e: any) {
-        setError(e.message || "Failed to creat topic");
+      } catch (e) {
+        setError(e instanceof Error ? e.message : "Failed to create topic");
       }
     });
   }

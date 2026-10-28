@@ -11,14 +11,18 @@ interface Question {
   choices: { text: string; isCorrect: boolean }[];
 }
 
-export async function createQuesion(data: Question) {
+export async function createQuestion(data: Question) {
   await requireAdmin();
   if (!data.prompt.trim()) {
     throw new Error("Question prompt is required");
   }
 
   if (data.choices.length < 2) {
-    throw new Error("At least two choices are are requried");
+    throw new Error("At least two choices are required");
+  }
+
+  if (data.choices.some((c) => !c.text.trim())) {
+    throw new Error("Choices cannot be empty");
   }
 
   if (data.choices.filter((c) => c.isCorrect === true).length !== 1) {

@@ -2,11 +2,13 @@
 
 import { db } from "@/db";
 import { users } from "@/db/schema";
-import { eq } from "drizzle-orm";
+import { sql } from "drizzle-orm";
 import bcrypt from "bcrypt";
 
 export async function registerUser(formData: FormData) {
-  const email = formData.get("email") as string;
+  const email = String(formData.get("email") ?? "")
+    .trim()
+    .toLowerCase();
   const password = formData.get("password") as string;
   const confirmPassword = formData.get("confirmPassword") as string;
 
@@ -23,7 +25,7 @@ export async function registerUser(formData: FormData) {
   }
 
   const existingUser = await db.query.users.findFirst({
-    where: eq(users.email, email),
+    where: sql`lower(${users.email}) = ${email}`,
   });
 
   if (existingUser) {

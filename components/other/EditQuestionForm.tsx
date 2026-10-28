@@ -6,8 +6,16 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Switch } from "@/components/ui/switch";
 import { Alert, AlertDescription } from "@/components/ui/alert";
-import { EditQuestion } from "@/app/actions/admin/edit-question";
+import { editQuestion } from "@/app/actions/admin/edit-question";
 import { ImageUploader } from "./ImageUploader";
+
+// `key` is only for React; new choices have no `id` until saved
+interface ChoiceState {
+  id?: string;
+  key: string;
+  text: string;
+  isCorrect: boolean;
+}
 
 interface QuestionData {
   id: string;
@@ -34,7 +42,9 @@ export default function EditQuestionForm({
   const [explanation, setExplanation] = useState(question.explanation);
   const [imgUrl, setImgUrl] = useState(question.imgUrl);
   const [isActive, setIsActive] = useState(question.isActive);
-  const [choices, setChoices] = useState(question.choices);
+  const [choices, setChoices] = useState<ChoiceState[]>(
+    question.choices.map((c) => ({ ...c, key: c.id })),
+  );
   const [pending, startTransition] = useTransition();
   const [error, setError] = useState<string | null>(null);
   const [ok, setOk] = useState(false);
@@ -42,17 +52,28 @@ export default function EditQuestionForm({
   function updateChoice(
     index: number,
     field: "text" | "isCorrect",
-    value: any
+    value: string | boolean,
   ) {
     setChoices((prev) =>
-      prev.map((c: any, i: number) =>
+      prev.map((c, i) =>
         i === index
           ? { ...c, [field]: value }
           : field === "isCorrect"
-          ? { ...c, isCorrect: false }
-          : c
-      )
+            ? { ...c, isCorrect: false }
+            : c,
+      ),
     );
+  }
+
+  function addChoice() {
+    setChoices((prev) => [
+      ...prev,
+      { key: crypto.randomUUID(), text: "", isCorrect: false },
+    ]);
+  }
+
+  function removeChoice(index: number) {
+    setChoices((prev) => prev.filter((_, i) => i !== index));
   }
 
   function submit() {
@@ -60,18 +81,22 @@ export default function EditQuestionForm({
     setOk(false);
     startTransition(async () => {
       try {
-        await EditQuestion({
+        await editQuestion({
           id: question.id,
           topicId: question.topicId,
           prompt,
           explanation,
           imgUrl,
           isActive,
-          choices,
+          choices: choices.map(({ id, text, isCorrect }) => ({
+            id,
+            text,
+            isCorrect,
+          })),
         });
         setOk(true);
-      } catch (e: any) {
-        setError(e.message || "Update failed");
+      } catch (e) {
+        setError(e instanceof Error ? e.message : "Update failed");
       }
     });
   }
@@ -110,19 +135,28 @@ export default function EditQuestionForm({
       </div>
 
       <div className="space-y-3">
-        {choices.map((c: any, i: number) => (
-          <div key={c.id} className="flex gap-2 items-center">
+        {choices.map((c, i) => (
+          <div key={c.key} className="flex gap-2 items-center">
             <input
               type="radio"
               checked={c.isCorrect}
               onChange={() => updateChoice(i, "isCorrect", true)}
             />
             <Input
+              placeholder={`Choice ${i + 1}`}
               value={c.text}
               onChange={(e) => updateChoice(i, "text", e.target.value)}
             />
+            {choices.length > 2 && (
+              <Button type="button" onClick={() => removeChoice(i)}>
+                X
+              </Button>
+            )}
           </div>
         ))}
+        <Button type="button" variant="outline" onClick={addChoice}>
+          Add Choice
+        </Button>
       </div>
 
       {error && (

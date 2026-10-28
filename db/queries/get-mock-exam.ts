@@ -1,38 +1,26 @@
 import { db } from "@/db/index";
-import { sql } from "drizzle-orm";
-import { questions, choices } from "@/db/schema";
+import { questions } from "@/db/schema";
+import { eq, sql } from "drizzle-orm";
 
 export async function getMockExamQuestions(limit: number) {
-  const rows = await db
-    .select({
-      questionId: questions.id,
-      prompt: questions.prompt,
-      imgUrl: questions.imgUrl,
-      explanation: questions.explanation,
-      choiceId: choices.id,
-      choiceText: choices.text,
-    })
-    .from(questions)
-    .innerJoin(choices, sql`${choices.questionId} = ${questions.id}`)
-    .orderBy(sql`RANDOM()`)
-    .limit(limit * 4);
+  const rows = await db.query.questions.findMany({
+    where: eq(questions.isActive, true),
+    orderBy: sql`random()`,
+    limit,
+    columns: { id: true, prompt: true, explanation: true, imgUrl: true },
+    with: {
+      choices: {
+        columns: { id: true, text: true },
+        orderBy: (c, { asc }) => [asc(c.sortOrder)],
+      },
+    },
+  });
 
-  const map = new Map<string, any>();
-
-  for (const row of rows) {
-    if (!map.has(row.questionId)) {
-      map.set(row.questionId, {
-        questionId: row.questionId,
-        prompt: row.prompt,
-        explanation: row.explanation,
-        imgUrl: row.imgUrl,
-        choices: [],
-      });
-    }
-    map.get(row.questionId).choices.push({
-      choiceId: row.choiceId,
-      choiceText: row.choiceText,
-    });
-  }
-  return Array.from(map.values()).slice(0, limit);
+  return rows.map((q) => ({
+    questionId: q.id,
+    prompt: q.prompt,
+    explanation: q.explanation,
+    imgUrl: q.imgUrl ?? undefined,
+    choices: q.choices.map((c) => ({ choiceId: c.id, choiceText: c.text })),
+  }));
 }

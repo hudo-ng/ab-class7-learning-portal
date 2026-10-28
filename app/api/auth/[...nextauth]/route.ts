@@ -3,7 +3,7 @@ import Credentials from "next-auth/providers/credentials";
 import bcrypt from "bcrypt";
 import { db } from "@/db/index";
 import { users } from "@/db/schema";
-import { eq } from "drizzle-orm";
+import { eq, sql } from "drizzle-orm";
 
 export const authOptions: NextAuthOptions = {
   providers: [
@@ -18,8 +18,9 @@ export const authOptions: NextAuthOptions = {
           return null;
         }
 
+        const email = credentials.email.trim().toLowerCase();
         const user = await db.query.users.findFirst({
-          where: eq(users.email, credentials.email),
+          where: sql`lower(${users.email}) = ${email}`,
         });
         if (!user) return null;
 
@@ -59,16 +60,21 @@ export const authOptions: NextAuthOptions = {
         return token;
       }
       if (token.sub) {
-        const dbUser = await db.query.users.findFirst({
-          where: eq(users.id, token.sub),
-          columns: { role: true, isApproved: true },
-        });
-        if (!dbUser) {
-          token.role = "USER";
-          token.isApproved = false;
-        } else {
-          token.role = dbUser.role as "USER" | "ADMIN";
-          token.isApproved = dbUser.isApproved;
+        try {
+          const dbUser = await db.query.users.findFirst({
+            where: eq(users.id, token.sub),
+            columns: { role: true, isApproved: true },
+          });
+          if (!dbUser) {
+            token.role = "USER";
+            token.isApproved = false;
+          } else {
+            token.role = dbUser.role as "USER" | "ADMIN";
+            token.isApproved = dbUser.isApproved;
+          }
+        } catch (err) {
+          // Keep the existing token values if the DB is briefly unavailable
+          console.error("Session refresh failed:", (err as Error).cause ?? err);
         }
       }
       return token;

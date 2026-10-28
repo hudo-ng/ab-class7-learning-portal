@@ -6,6 +6,7 @@ import {
   integer,
   boolean,
   pgEnum,
+  index,
 } from "drizzle-orm/pg-core";
 import { relations } from "drizzle-orm";
 
@@ -16,26 +17,36 @@ export const topics = pgTable("topics", {
   createdAt: timestamp("created_at").defaultNow().notNull(),
 });
 
-export const questions = pgTable("questions", {
-  id: uuid("id").defaultRandom().primaryKey(),
-  topicId: uuid("topic_id")
-    .notNull()
-    .references(() => topics.id),
-  prompt: text("prompt").notNull(),
-  explanation: text("explanation").notNull(),
-  imgUrl: text("img_url"),
-  difficulty: integer("difficulty").default(1).notNull(),
-  isActive: boolean("is_active").default(true).notNull(),
-  createdAt: timestamp("created_at").defaultNow().notNull(),
-});
+export const questions = pgTable(
+  "questions",
+  {
+    id: uuid("id").defaultRandom().primaryKey(),
+    topicId: uuid("topic_id")
+      .notNull()
+      .references(() => topics.id),
+    prompt: text("prompt").notNull(),
+    explanation: text("explanation").notNull(),
+    imgUrl: text("img_url"),
+    difficulty: integer("difficulty").default(1).notNull(),
+    isActive: boolean("is_active").default(true).notNull(),
+    createdAt: timestamp("created_at").defaultNow().notNull(),
+  },
+  (t) => [index("questions_topic_id_idx").on(t.topicId)],
+);
 
-export const choices = pgTable("choices", {
-  id: uuid().defaultRandom().primaryKey(),
-  questionId: uuid("question_id").references(() => questions.id),
-  text: text("text").notNull(),
-  isCorrect: boolean("is_correct").default(false).notNull(),
-  sortOrder: integer("sort_order").default(0).notNull(),
-});
+export const choices = pgTable(
+  "choices",
+  {
+    id: uuid().defaultRandom().primaryKey(),
+    questionId: uuid("question_id")
+      .notNull()
+      .references(() => questions.id, { onDelete: "cascade" }),
+    text: text("text").notNull(),
+    isCorrect: boolean("is_correct").default(false).notNull(),
+    sortOrder: integer("sort_order").default(0).notNull(),
+  },
+  (t) => [index("choices_question_id_idx").on(t.questionId)],
+);
 
 export const users = pgTable("users", {
   id: uuid("id").defaultRandom().primaryKey(),

@@ -1,7 +1,10 @@
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
 import ReactMarkdown from "react-markdown";
+import type { topicContent } from "@/db/schema";
 
-export function LessonBlock({ block }: { block: any }) {
+type Block = typeof topicContent.$inferSelect;
+
+export function LessonBlock({ block }: { block: Block }) {
   switch (block.type) {
     case "intro":
       return (
@@ -34,9 +37,9 @@ export function LessonBlock({ block }: { block: any }) {
             <div className="prose flex-1">
               <ReactMarkdown>{block.body}</ReactMarkdown>
             </div>
-            {block.imageUrl && (
+            {block.imgUrl && (
               <img
-                src={block.imageUrl}
+                src={block.imgUrl}
                 className="w-full md:w-1/3 rounded-lg border object-contain"
                 alt=""
               />

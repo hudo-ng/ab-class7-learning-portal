@@ -64,7 +64,7 @@ export function PracticeCards({ questions }: { questions: Question[] }) {
         <CardContent className="text-center space-y-4">
           <h2 className="text-2xl font-bold">Practice Complete 🎉</h2>
           <p className="text-muted-foreground">
-            You've finished all {totalQuestions} questions.
+            You&apos;ve finished all {totalQuestions} questions.
           </p>
           <Button onClick={() => setIndex(0)}>Restart Practice</Button>
         </CardContent>

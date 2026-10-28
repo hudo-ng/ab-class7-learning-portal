@@ -32,7 +32,7 @@ export function ImageUploader({
           return;
         }
         onUploaded(res.url);
-      } catch (err) {
+      } catch {
         setError("Upload failed. Please try again.");
       }
     });

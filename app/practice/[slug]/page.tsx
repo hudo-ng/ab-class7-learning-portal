@@ -1,6 +1,6 @@
-import { getPracticeQuestionsByTopicSlug } from "@/db/queries/pratice";
+import { getPracticeQuestionsByTopicSlug } from "@/db/queries/practice";
 import { notFound } from "next/navigation";
-import { PracticeCards } from "@/components/other/PraticeCards";
+import { PracticeCards } from "@/components/other/PracticeCards";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/app/api/auth/[...nextauth]/route";
 import { Button } from "@/components/ui/button";
@@ -40,7 +40,7 @@ export default async function PracticePage({ params }: Props) {
 
   try {
     data = await getPracticeQuestionsByTopicSlug(slug, 5);
-  } catch (error) {
+  } catch {
     return notFound();
   }
 

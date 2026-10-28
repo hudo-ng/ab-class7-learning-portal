@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { createQuesion } from "@/app/actions/admin/create-question";
+import { createQuestion } from "@/app/actions/admin/create-question";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -63,7 +63,7 @@ export default function CreateQuestionForm({ topics }: { topics: Topic[] }) {
     setErr(null);
     setOk(null);
     try {
-      await createQuesion({ topicId, explanation, prompt, choices, imgUrl });
+      await createQuestion({ topicId, explanation, prompt, choices, imgUrl });
       setLoading(false);
       setPrompt("");
       setExplanation("");
