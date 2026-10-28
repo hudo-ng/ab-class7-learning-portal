@@ -25,7 +25,7 @@ export const authOptions: NextAuthOptions = {
 
         const valid = await bcrypt.compare(
           credentials.password,
-          user.hashedPassword
+          user.hashedPassword,
         );
         if (!valid) return null;
 
@@ -52,10 +52,24 @@ export const authOptions: NextAuthOptions = {
       }
       return session;
     },
-    jwt({ token, user }) {
+    async jwt({ token, user }) {
       if (user) {
         token.role = user.role;
         token.isApproved = user.isApproved;
+        return token;
+      }
+      if (token.sub) {
+        const dbUser = await db.query.users.findFirst({
+          where: eq(users.id, token.sub),
+          columns: { role: true, isApproved: true },
+        });
+        if (!dbUser) {
+          token.role = "USER";
+          token.isApproved = false;
+        } else {
+          token.role = dbUser.role as "USER" | "ADMIN";
+          token.isApproved = dbUser.isApproved;
+        }
       }
       return token;
     },
