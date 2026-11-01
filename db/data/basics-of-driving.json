@@ -1,0 +1,115 @@
+{
+  "topic": { "slug": "basics-of-driving", "title": "Basics of Driving" },
+  "questions": [
+    {
+      "prompt": "Shoulder checking means:",
+      "explanation": "Mirrors leave blind spots beside and behind your vehicle. A shoulder check is a quick look over your shoulder into the blind spot on the side you are moving toward. Key words: \"in the direction\".",
+      "choices": [
+        { "text": "Glancing towards the blind spot in the direction the driver intends to move", "correct": true },
+        { "text": "Glancing into the left outside mirror" },
+        { "text": "Glancing into both the inside and outside mirrors" },
+        { "text": "Glancing into the right outside mirror" }
+      ]
+    },
+    {
+      "prompt": "When parking downhill on a two-way road, a driver should:",
+      "explanation": "When parked downhill, turn the front wheels toward the curb or edge of the road so that if the vehicle rolls, it rolls away from traffic. Always set the parking brake.",
+      "choices": [
+        { "text": "Turn the front wheels toward the curb or edge of the roadway and set the parking brake", "correct": true },
+        { "text": "Keep the front wheels positioned straight ahead and set the parking brake" },
+        { "text": "Turn the front wheels away from the curb or edge of the roadway and set the parking brake" },
+        { "text": "Set the parking brake only" }
+      ]
+    },
+    {
+      "prompt": "Which statement describes the steps required to reverse in a straight line?",
+      "explanation": "To reverse in a straight line, place your left hand at the top of the steering wheel, turn your body, and look over your right shoulder through the rear window. Key words: \"straight line\".",
+      "choices": [
+        { "text": "Place the left hand at the top of the steering wheel and look over the right shoulder through the rear window", "correct": true },
+        { "text": "Place the right hand at the top of the steering wheel, look over the left shoulder and use the outside left rear-view mirror" },
+        { "text": "Place the left hand at the bottom of the steering wheel and use both outside mirrors" },
+        { "text": "Keep both hands on the steering wheel and constantly use the inside rear-view mirror for guidance" }
+      ]
+    },
+    {
+      "prompt": "Using the 2-second rule to judge a safe following distance when driving:",
+      "explanation": "The 2-second rule measures time, not distance, so the gap grows automatically as you go faster and the rule works at any speed. Leave more time in poor road or weather conditions. Key words: \"any speed\".",
+      "choices": [
+        { "text": "Is more accurate on rural highways than in urban centres" },
+        { "text": "Is not accurate at speeds greater than 100 km/h" },
+        { "text": "Is accurate at any speed", "correct": true },
+        { "text": "Is not accurate at speeds lower than 100 km/h" }
+      ]
+    },
+    {
+      "prompt": "When parallel parking, the vehicle's wheels closest to the curb must be within what maximum distance?",
+      "explanation": "When parallel parked, the wheels nearest the curb must be no more than 50 cm from it. Key words: \"maximum distance\".",
+      "choices": [
+        { "text": "80 cm from the curb" },
+        { "text": "30 cm from the curb" },
+        { "text": "10 cm from the curb" },
+        { "text": "50 cm from the curb", "correct": true }
+      ]
+    },
+    {
+      "prompt": "When a driver is stopping behind another vehicle in traffic:",
+      "explanation": "Stop far enough back that you could steer around the vehicle ahead without reversing, for example if it stalls. A good guide is being able to see where its rear tires touch the road. Key words: \"sufficient space\".",
+      "choices": [
+        { "text": "Keep back approximately 1 metre from the rear bumper of the vehicle ahead" },
+        { "text": "Allow sufficient space to move into another lane without reversing", "correct": true },
+        { "text": "Remain a minimum of 10 metres from the vehicle ahead" },
+        { "text": "Maintain sufficient space as determined by the 2-second rule" }
+      ]
+    },
+    {
+      "prompt": "When travelling in urban areas, drivers should scan the road approximately:",
+      "explanation": "In urban areas, look about 12 to 15 seconds ahead, roughly one city block, so you can spot hazards early. Key words: \"scan the road\".",
+      "choices": [
+        { "text": "25 to 30 seconds ahead" },
+        { "text": "20 to 30 seconds ahead" },
+        { "text": "12 to 15 seconds ahead", "correct": true },
+        { "text": "1 to 6 seconds ahead" }
+      ]
+    },
+    {
+      "prompt": "When completing an angle park, the vehicle's front wheel must be within what maximum distance from the nearest curb?",
+      "explanation": "When angle parking, the front wheel must be within 50 cm of the curb. Key words: \"maximum distance\".",
+      "choices": [
+        { "text": "100 cm" },
+        { "text": "50 cm", "correct": true },
+        { "text": "25 cm" },
+        { "text": "75 cm" }
+      ]
+    },
+    {
+      "prompt": "Before leaving a parallel parking space on the right side of a road:",
+      "explanation": "Before pulling out from the right side of the road, signal and shoulder check to the left, because traffic will be coming up on your left.",
+      "choices": [
+        { "text": "Shoulder check to the right" },
+        { "text": "Turn on the right signal" },
+        { "text": "Shoulder check to the left", "correct": true },
+        { "text": "Use an arm signal straight out and up" }
+      ]
+    },
+    {
+      "prompt": "When a head restraint is raised to the proper position, the centre of the head restraint is:",
+      "explanation": "A properly adjusted head restraint protects against whiplash. Its centre should be level with the top of your ears, close to the back of your head.",
+      "choices": [
+        { "text": "Level with the top of the ear", "correct": true },
+        { "text": "Level with the top of the shoulders" },
+        { "text": "Level with the neck" },
+        { "text": "Level with the top of the head" }
+      ]
+    },
+    {
+      "prompt": "Which direction should a vehicle's front wheels be turned when parked uphill on a two-way road with a curb?",
+      "explanation": "When parked uphill next to a curb, turn the front wheels away from the curb (to the left). If the vehicle rolls back, the front tire will stop against the curb. Key words: \"with a curb\".",
+      "choices": [
+        { "text": "Parallel to the curb" },
+        { "text": "To the left", "correct": true },
+        { "text": "Straight ahead" },
+        { "text": "To the right" }
+      ]
+    }
+  ]
+}

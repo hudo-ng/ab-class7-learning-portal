@@ -1,0 +1,74 @@
+{
+  "topic": { "slug": "right-of-way", "title": "The Right of Way" },
+  "questions": [
+    {
+      "prompt": "When approaching a Yield sign, you must:",
+      "explanation": "At a yield sign, slow down and be ready to stop. Give the right-of-way to traffic that does not face the sign and to all pedestrians, and go only when it is safe.",
+      "choices": [
+        { "text": "Yield the right-of-way to traffic not facing the sign and all pedestrians in the intersection", "correct": true },
+        { "text": "Always sound the horn to warn other traffic within the intersection" },
+        { "text": "Expect all other vehicles to yield the right-of-way to you" },
+        { "text": "Come to a stop and proceed after looking to the right and left" }
+      ]
+    },
+    {
+      "prompt": "When encountering a funeral procession that is crossing an intersection:",
+      "explanation": "Let a funeral procession pass through the intersection as a group. Yield and don't cut through the line of vehicles. Key words: \"do not break through\".",
+      "choices": [
+        { "text": "Sound the horn before proceeding" },
+        { "text": "Proceed through the funeral procession only when there is sufficient space between vehicles" },
+        { "text": "Yield the right-of-way and do not break through the procession", "correct": true },
+        { "text": "Flash the high beam headlights before proceeding" }
+      ]
+    },
+    {
+      "prompt": "A vehicle exiting a parking lot onto a roadway:",
+      "explanation": "When leaving a parking lot, alley or driveway, come to a complete stop before the sidewalk area, then yield to pedestrians and to traffic on the road.",
+      "choices": [
+        { "text": "Must stop only if there is a Stop sign" },
+        { "text": "Is not required to stop" },
+        { "text": "Must stop before crossing the sidewalk only if there are pedestrians present" },
+        { "text": "Must come to a complete stop", "correct": true }
+      ]
+    },
+    {
+      "prompt": "In an urban area, when a pedestrian is standing at a crosswalk with their arm raised at approximately right angles to their body and pointing to the opposite curb, what does this mean?",
+      "explanation": "A pedestrian pointing across the road with an outstretched arm is signalling that they want to cross. Drivers must stop and yield. Key words: \"urban area\", \"must stop and yield\".",
+      "choices": [
+        { "text": "Drivers must stop and yield to the pedestrian", "correct": true },
+        { "text": "The pedestrian is visually impaired and needs assistance to cross the road" },
+        { "text": "Drivers do not have to yield to the pedestrian until they step off the curb" },
+        { "text": "Drivers should reduce speed to 30 km/h and be cautious when passing the pedestrian" }
+      ]
+    },
+    {
+      "prompt": "When facing a Merge sign a driver should:",
+      "explanation": "A merge sign means two lanes of traffic are joining. Use the acceleration lane to match highway speed, find a gap, and blend in smoothly. Don't stop unless you have to.",
+      "choices": [
+        { "text": "Stop at the entrance to the other highway and wait until a gap in traffic occurs before proceeding" },
+        { "text": "Watch for a gap in traffic on the highway they are entering, adjust to highway speed in the acceleration lane and blend in smoothly", "correct": true },
+        { "text": "Stop and yield the right-of-way to traffic already on the highway" },
+        { "text": "Reduce speed and proceed with caution" }
+      ]
+    },
+    {
+      "prompt": "When two vehicles approach an uncontrolled \"T\" intersection at right angles to each other at approximately the same time:",
+      "explanation": "At an uncontrolled intersection, including a \"T\" intersection, the vehicle on the left yields to the vehicle on the right. Key words: \"left\".",
+      "choices": [
+        { "text": "The vehicle on the left must yield the right-of-way", "correct": true },
+        { "text": "The vehicle on the left has the right-of-way" },
+        { "text": "The vehicle going straight through always has the right-of-way" },
+        { "text": "Both vehicles must stop" }
+      ]
+    },
+    {
+      "prompt": "A driver entering a traffic circle:",
+      "explanation": "Vehicles already in a traffic circle have the right-of-way. When entering, yield to them and wait for a safe gap. Key words: \"entering\".",
+      "choices": [
+        { "text": "Must yield to traffic on the right" },
+        { "text": "Must yield to vehicles in the traffic circle", "correct": true },
+        { "text": "Has the right-of-way" }
+      ]
+    }
+  ]
+}

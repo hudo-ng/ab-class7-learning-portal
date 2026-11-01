@@ -1,0 +1,65 @@
+{
+  "topic": { "slug": "license-information", "title": "License Information" },
+  "questions": [
+    {
+      "prompt": "Does a parent have the right to withdraw a previously given \"parental consent\" for someone under 18 years of age with respect to an operator's license?",
+      "explanation": "A parent or guardian who signed consent for an applicant under 18 can withdraw it while that person is still under 18, unless they are self-supporting or married. The licence is then cancelled. Key words: \"not self-supporting or married\".",
+      "choices": [
+        { "text": "Yes, providing the person is still under the age of 18 and is not self-supporting or married", "correct": true },
+        { "text": "Yes, provided that both parents verbally agree to withdraw the consent at a registry office" },
+        { "text": "No, once it is given it remains in effect until the person reaches 18 years of age" },
+        { "text": "No, but another consent form must be signed by both parents after a license suspension" }
+      ]
+    },
+    {
+      "prompt": "Under the Graduated Driver Licensing program, a driver will receive 2 demerits:",
+      "explanation": "Learner and probationary drivers may not carry more passengers than there are seat belts in the vehicle. Breaking this GDL condition costs 2 demerit points. Key words: \"2 demerits\", \"seat belts\".",
+      "choices": [
+        { "text": "For having more passengers than there are seat belts", "correct": true },
+        { "text": "For not wearing a seat belt securely fastened" },
+        { "text": "For not wearing a seat belt" },
+        { "text": "For not wearing a seat belt properly adjusted" }
+      ]
+    },
+    {
+      "prompt": "Who is responsible and legally obligated to report any medical condition, change in health, or physical disability that may affect a driver's ability to drive?",
+      "explanation": "Drivers themselves are legally responsible for reporting any medical condition or disability that may affect their ability to drive safely. Key words: \"legally obligated\".",
+      "choices": [
+        { "text": "The driver's employer" },
+        { "text": "The driver", "correct": true },
+        { "text": "The driver's doctor" },
+        { "text": "The driver's insurance company" }
+      ]
+    },
+    {
+      "prompt": "Under the Graduated Driver Licensing program, a learner with a Class 7 operator's license is suspended when they accumulate:",
+      "explanation": "GDL drivers (learner and probationary) are suspended at 8 demerit points. Fully licensed drivers are suspended at 15. Key words: \"a learner\", \"suspended\".",
+      "choices": [
+        { "text": "15 demerits" },
+        { "text": "12 demerits" },
+        { "text": "8 demerits", "correct": true },
+        { "text": "7 demerits" }
+      ]
+    },
+    {
+      "prompt": "Under the Graduated Driver Licensing program, what is the minimum amount of time that a person must serve as a probationary Class 5 driver?",
+      "explanation": "A probationary (Class 5-GDL) driver must hold that licence for at least 2 years, and be suspension-free for the last 12 months, before they can become fully licensed. Key words: \"probationary Class 5 driver\".",
+      "choices": [
+        { "text": "6 months" },
+        { "text": "18 months" },
+        { "text": "2 years", "correct": true },
+        { "text": "1 year" }
+      ]
+    },
+    {
+      "prompt": "A road test will be refused by a driver examiner if:",
+      "explanation": "An examiner will refuse to conduct a road test in a vehicle that is not mechanically safe, for example one with faulty brakes, lights or signals.",
+      "choices": [
+        { "text": "The vehicle has a seating capacity greater than 7" },
+        { "text": "The vehicle is registered as a farm vehicle" },
+        { "text": "The vehicle is a rental vehicle" },
+        { "text": "The vehicle is not mechanically safe", "correct": true }
+      ]
+    }
+  ]
+}

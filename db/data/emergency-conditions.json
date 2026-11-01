@@ -1,0 +1,55 @@
+{
+  "topic": { "slug": "emergency-conditions", "title": "Emergency Conditions" },
+  "questions": [
+    {
+      "prompt": "The term \"over-driving\" your headlights at night means:",
+      "explanation": "You over-drive your headlights when you travel so fast that your stopping distance is longer than the distance your headlights light up. Slow down so you can stop within the lit area. Key words: \"over-driving\".",
+      "choices": [
+        { "text": "The driver cannot see clearly for 1000 metres" },
+        { "text": "The low beam headlights are not set properly" },
+        { "text": "The driver is travelling at a speed which would not permit them to see an object in time to stop", "correct": true },
+        { "text": "The driver has had the headlights on for too long" }
+      ]
+    },
+    {
+      "prompt": "If the vehicle's right tires travel off the paved portion of the roadway:",
+      "explanation": "Don't brake hard or turn the wheel sharply; either can cause a skid or send you across the road. Grip the wheel firmly, ease off the gas, and steer gently back onto the pavement once you have slowed down.",
+      "choices": [
+        { "text": "Apply the brakes firmly and counter-steer to return to the paved portion of the roadway" },
+        { "text": "Keep a firm grip on the steering wheel, ease off the gas pedal, and then gradually return to the paved portion of the roadway", "correct": true },
+        { "text": "Accelerate slightly, then turn the steering wheel sharply to return to the paved portion of the roadway" },
+        { "text": "Move the vehicle completely off the paved portion, then steer back onto the paved portion of the roadway" }
+      ]
+    },
+    {
+      "prompt": "According to the Basic License Driver's Handbook, most skids are the result of:",
+      "explanation": "Most skids happen because the driver goes too fast for the conditions, or brakes, accelerates or steers too sharply. Adjusting your driving to the conditions prevents them.",
+      "choices": [
+        { "text": "Driver error", "correct": true },
+        { "text": "Bad tires" },
+        { "text": "Bad brakes" },
+        { "text": "Icy roads" }
+      ]
+    },
+    {
+      "prompt": "In reduced visibility due to fog, smoke or snow, use the:",
+      "explanation": "High beams reflect off fog, smoke and snow, creating glare that makes it harder to see. Low beams light the road without that glare. Key words: \"fog, smoke or snow\".",
+      "choices": [
+        { "text": "Park lights" },
+        { "text": "Headlights on high beam" },
+        { "text": "Headlights on low beam", "correct": true },
+        { "text": "Daytime running lights" }
+      ]
+    },
+    {
+      "prompt": "In a vehicle that does not have anti-lock brakes, threshold braking refers to:",
+      "explanation": "Threshold braking means pressing the brake firmly up to the point just before the wheels lock, and easing off slightly if they do lock. It stops you quickly while you can still steer. Key words: \"threshold braking\".",
+      "choices": [
+        { "text": "Applying an even braking force to the point just before the wheels lock, and easing off slightly if the wheels lock", "correct": true },
+        { "text": "Pumping the brake pedal repeatedly until the vehicle comes to a stop" },
+        { "text": "Releasing pressure on the brake pedal, then reapplying pressure until the wheels lock" },
+        { "text": "Applying enough force to the brake pedal to lock the wheels and keep them locked" }
+      ]
+    }
+  ]
+}

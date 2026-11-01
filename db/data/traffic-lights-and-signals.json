@@ -1,0 +1,55 @@
+{
+  "topic": { "slug": "traffic-lights-and-signals", "title": "Traffic Lights and Signals" },
+  "questions": [
+    {
+      "prompt": "A traffic-lane control light with an illuminated red \"X\" means:",
+      "explanation": "A red X over a lane means you must not drive in that lane. A green arrow pointing down means the lane is open.",
+      "choices": [
+        { "text": "Prepare for an emergency vehicle travelling in that lane" },
+        { "text": "Reduce speed to below 30 km/h" },
+        { "text": "Use that lane only for the purpose of making a left turn" },
+        { "text": "Travel is not permitted in that lane", "correct": true }
+      ]
+    },
+    {
+      "prompt": "A driver approaching a flashing red traffic light must:",
+      "explanation": "Treat a flashing red light like a stop sign: come to a complete stop, then go only when it is safe. Key words: \"flashing red traffic light\".",
+      "choices": [
+        { "text": "Stop and wait for the flashing green light" },
+        { "text": "Reduce speed and proceed with caution" },
+        { "text": "Stop and proceed only when safe to do so", "correct": true },
+        { "text": "Stop until the signal light turns green" }
+      ]
+    },
+    {
+      "prompt": "What does a flashing yellow traffic light mean?",
+      "explanation": "A flashing yellow light warns of a hazard or a busy intersection. Slow down and proceed with caution. Key words: \"flashing yellow\".",
+      "choices": [
+        { "text": "Proceed with caution", "correct": true },
+        { "text": "The traffic light will turn green" },
+        { "text": "Stop until the light stops flashing" },
+        { "text": "The traffic light will turn red" }
+      ]
+    },
+    {
+      "prompt": "Is a driver allowed to turn right at a red traffic control light?",
+      "explanation": "You may turn right on a red light after coming to a complete stop, unless a sign prohibits it. Yield to pedestrians and traffic first. Key words: \"stops\", \"no traffic, pedestrian or sign\".",
+      "choices": [
+        { "text": "Yes, but only when a sign permits such a turn" },
+        { "text": "Yes, if the driver reduces speed and there is no traffic or pedestrian in the intersection, and no sign that prohibits such a turn" },
+        { "text": "Yes, if the driver stops and there is no traffic, pedestrian or sign that prohibits such a turn", "correct": true },
+        { "text": "No, right turns on a red traffic light are never permitted" }
+      ]
+    },
+    {
+      "prompt": "When approaching an intersection displaying a steady yellow traffic light:",
+      "explanation": "A steady yellow light means the light is about to turn red. Stop before the intersection unless you are so close that you cannot stop safely.",
+      "choices": [
+        { "text": "Proceed since the light is about to turn green" },
+        { "text": "Yield to vehicles on the right" },
+        { "text": "Stop before the intersection unless the stop cannot be made in safety", "correct": true },
+        { "text": "Increase speed to clear the intersection" }
+      ]
+    }
+  ]
+}

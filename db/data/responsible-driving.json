@@ -1,0 +1,45 @@
+{
+  "topic": { "slug": "responsible-driving", "title": "Responsible Driving" },
+  "questions": [
+    {
+      "prompt": "If a driver is being followed by a vehicle that is attempting to pass on a two-way road, the driver should:",
+      "explanation": "When someone is passing you, stay in your lane, move to the right portion of it, and don't speed up. This gives the passing driver more room. Key words: \"right portion\".",
+      "choices": [
+        { "text": "Stay in the lane and move to the right portion of the lane", "correct": true },
+        { "text": "Turn on the right signal and drive in the parking lane" },
+        { "text": "Turn on the left signal and stay in the lane" },
+        { "text": "Stay in the lane and move to the left portion of the lane" }
+      ]
+    },
+    {
+      "prompt": "A \"weave zone\" is best described as:",
+      "explanation": "In a weave zone, an entrance lane and an exit lane share the same stretch of road, so drivers entering and drivers exiting must cross paths. Watch carefully and adjust your speed. Key words: \"entrance and exit lanes are close together\".",
+      "choices": [
+        { "text": "A place on a highway where the entrance and exit lanes are close together and vehicles that are slowing to exit the highway must drive between vehicles that are accelerating to enter the highway", "correct": true },
+        { "text": "A place where the highway has a series of curves that require the driver to slow down" },
+        { "text": "An area on the highway that is used for emergency parking" },
+        { "text": "A limited access area on a highway where a driver can legally back their vehicle when they miss their exit" }
+      ]
+    },
+    {
+      "prompt": "If another vehicle is following too close, what should a driver do?",
+      "explanation": "If someone is tailgating, don't brake suddenly or speed up. Slow down gradually and give them a chance to pass. Key words: \"to pass\".",
+      "choices": [
+        { "text": "Slow down gradually and encourage the other vehicle to pass", "correct": true },
+        { "text": "Press hard on the brake pedal" },
+        { "text": "Increase speed to 10 km/h above the posted speed limit" },
+        { "text": "Activate the four-way flashers" }
+      ]
+    },
+    {
+      "prompt": "On a two-lane highway, when passing other vehicles travelling in the same direction, a driver:",
+      "explanation": "On a two-lane highway, pass on the left, and only when it is safe and legal to do so.",
+      "choices": [
+        { "text": "Should pass on the left when safe", "correct": true },
+        { "text": "Should pass on the right when safe" },
+        { "text": "Should always travel 30 km/h faster than the vehicle being passed" },
+        { "text": "Should not pull out to pass until they are within 3 metres of the vehicle being passed" }
+      ]
+    }
+  ]
+}

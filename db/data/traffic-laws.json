@@ -1,0 +1,155 @@
+{
+  "topic": { "slug": "traffic-laws", "title": "Traffic Laws" },
+  "questions": [
+    {
+      "prompt": "According to the law in Alberta, it is the driver's responsibility to ensure that all passengers under what age are properly restrained in the vehicle?",
+      "explanation": "The driver must make sure every passenger under 16 is wearing a seat belt or is in the correct child seat. Passengers 16 and older are responsible for themselves. Key words: \"all passengers\".",
+      "choices": [
+        { "text": "18 years" },
+        { "text": "24 years" },
+        { "text": "21 years" },
+        { "text": "16 years", "correct": true }
+      ]
+    },
+    {
+      "prompt": "Is a driver allowed to exceed the speed limit when passing another vehicle?",
+      "explanation": "The speed limit always applies, including while passing. If you can't pass without speeding, don't pass.",
+      "choices": [
+        { "text": "Yes, on primary highways only" },
+        { "text": "No, it is never permitted", "correct": true },
+        { "text": "Yes, but not more than 10 km/h over the speed limit" },
+        { "text": "Only when passing more than one vehicle at a time" }
+      ]
+    },
+    {
+      "prompt": "In the Basic License Driver's Handbook, \"nighttime\" is defined as the period of time:",
+      "explanation": "Under Alberta's rules of the road, night time runs from one hour after sunset to one hour before the next sunrise. Headlights must be on during this time. Key words: \"nighttime\".",
+      "choices": [
+        { "text": "Beginning 1 hour before sunset and ending 1 hour after the following sunrise" },
+        { "text": "Beginning at sunset and ending at the following sunrise" },
+        { "text": "Beginning 1 hour after sunset and ending 1 hour before the following sunrise", "correct": true },
+        { "text": "Between 7:00 pm and 7:00 am" }
+      ]
+    },
+    {
+      "prompt": "A deceleration lane is:",
+      "explanation": "A deceleration lane is an exit lane where you slow down after leaving the highway, instead of slowing down in the traffic lanes. Key words: \"deceleration lane\".",
+      "choices": [
+        { "text": "A lane where vehicles reduce speed when exiting a highway", "correct": true },
+        { "text": "The right lane of a four-lane highway for use by slower moving vehicles" },
+        { "text": "A lane on hills for use by slower moving vehicles" },
+        { "text": "The lane immediately to the right of a solid yellow line on a highway" }
+      ]
+    },
+    {
+      "prompt": "How close can a driver legally park a vehicle to a Stop sign?",
+      "explanation": "You may not park within 5 metres of a stop sign, so the sign stays visible to other drivers.",
+      "choices": [
+        { "text": "1.5 metres" },
+        { "text": "5 metres", "correct": true },
+        { "text": "10 metres" },
+        { "text": "3 metres" }
+      ]
+    },
+    {
+      "prompt": "At what minimum distance must headlights be dimmed at night when approaching another vehicle from behind?",
+      "explanation": "Switch to low beams within 150 metres of a vehicle you are following, and within 300 metres of an oncoming vehicle. Key words: \"dimmed\", \"from behind\".",
+      "choices": [
+        { "text": "60 metres" },
+        { "text": "300 metres" },
+        { "text": "150 metres", "correct": true },
+        { "text": "100 metres" }
+      ]
+    },
+    {
+      "prompt": "The speed limit in a construction zone must be obeyed:",
+      "explanation": "A posted construction zone speed limit applies whenever the signs are up, whether or not you can see workers. Speeding fines double when workers are present.",
+      "choices": [
+        { "text": "Only during daylight hours" },
+        { "text": "At all times", "correct": true },
+        { "text": "Only when a flag person is posted nearby" },
+        { "text": "Only when construction workers are present" }
+      ]
+    },
+    {
+      "prompt": "An acceleration lane is:",
+      "explanation": "An acceleration lane is part of an on-ramp. It lets you speed up to match highway traffic before you merge. Key words: \"acceleration lane\".",
+      "choices": [
+        { "text": "The left lane of a four-lane highway, for use when passing slow moving vehicles" },
+        { "text": "A lane on hills, designated for faster moving vehicles" },
+        { "text": "A lane in a merge area for use by vehicles entering the highway", "correct": true },
+        { "text": "A lane with broken line markings" }
+      ]
+    },
+    {
+      "prompt": "A driver must report a collision to the police when anyone is injured or killed, or when the combined damage to all vehicles and property is at least:",
+      "explanation": "Report a collision to police if anyone is injured or killed, or if the combined damage to all vehicles and property is $5,000 or more. The limit was raised from $2,000 on January 1, 2024. Key words: \"all vehicles and property\".",
+      "choices": [
+        { "text": "$1,000" },
+        { "text": "$5,000", "correct": true },
+        { "text": "$2,000" },
+        { "text": "$10,000" }
+      ]
+    },
+    {
+      "prompt": "In Alberta, the law requires that seat belts must be worn:",
+      "explanation": "Alberta law requires seat belts to be worn and properly adjusted at all times while the vehicle is moving.",
+      "choices": [
+        { "text": "Only while carrying passengers" },
+        { "text": "Properly at all times", "correct": true },
+        { "text": "Only when driving at highway speeds" },
+        { "text": "Only when driving in the city" }
+      ]
+    },
+    {
+      "prompt": "A solid yellow line together with a broken yellow line marked on the centre of a highway means:",
+      "explanation": "When a solid and a broken yellow line run side by side, the line closest to you applies. If the broken line is on your side, you may pass when it is safe; if the solid line is on your side, you may not.",
+      "choices": [
+        { "text": "The road narrows ahead" },
+        { "text": "If the solid line is on your side, passing is permitted" },
+        { "text": "If the broken line is on your side, passing is not permitted" },
+        { "text": "If the broken line is on your side, passing is permitted", "correct": true }
+      ]
+    },
+    {
+      "prompt": "At 9:00 AM on a school day, what is the maximum speed permitted in a school zone in a rural area, unless otherwise posted?",
+      "explanation": "Unless otherwise posted, the school zone speed limit is 30 km/h during school zone hours on school days. This applies in rural areas as well as in towns and cities.",
+      "choices": [
+        { "text": "50 km/h" },
+        { "text": "20 km/h" },
+        { "text": "40 km/h" },
+        { "text": "30 km/h", "correct": true }
+      ]
+    },
+    {
+      "prompt": "Parking in a space reserved for persons with disabilities is permitted:",
+      "explanation": "Spaces reserved for persons with disabilities may only be used by vehicles that display a valid disabled parking placard or licence plate.",
+      "choices": [
+        { "text": "While the driver is waiting in the vehicle" },
+        { "text": "When the vehicle has a proper identifying placard or license plate", "correct": true },
+        { "text": "When all other parking spaces are filled" },
+        { "text": "When a driver stops for less than 5 minutes" }
+      ]
+    },
+    {
+      "prompt": "What minimum distance from a fire hydrant must a vehicle be parked?",
+      "explanation": "You may not park within 5 metres of a fire hydrant, so firefighters can reach it quickly.",
+      "choices": [
+        { "text": "3 metres" },
+        { "text": "4 metres" },
+        { "text": "2 metres" },
+        { "text": "5 metres", "correct": true }
+      ]
+    },
+    {
+      "prompt": "Unless otherwise posted, the school zone speed limits are in effect on school days during the following hours:",
+      "explanation": "Unless signs show otherwise, school zone limits apply on school days from 8:00 to 9:30 am, 11:30 am to 1:30 pm, and 3:00 to 4:30 pm.",
+      "choices": [
+        { "text": "8:00 am to 4:30 pm" },
+        { "text": "8:30 am to 9:30 am, 12:00 pm to 1:00 pm and 3:30 pm to 4:00 pm" },
+        { "text": "8:00 am to 9:30 am, 11:30 am to 1:30 pm and 3:00 pm to 4:30 pm", "correct": true },
+        { "text": "8:30 am to 1 hour after sunset" }
+      ]
+    }
+  ]
+}

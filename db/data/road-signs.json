@@ -1,0 +1,224 @@
+{
+  "topic": { "slug": "road-signs", "title": "Road Signs" },
+  "questions": [
+    {
+      "prompt": "What does a red octagonal sign indicate?",
+      "imgUrl": "https://adqvuag38e1wwvsm.public.blob.vercel-storage.com/questions/1766444344432-stop.png",
+      "explanation": "A red octagonal sign indicates a stop sign, requiring drivers to come to a complete stop.",
+      "choices": [
+        { "text": "Yield" },
+        { "text": "Stop", "correct": true },
+        { "text": "Do Not Enter" },
+        { "text": "Speed Limit" }
+      ]
+    },
+    {
+      "prompt": "Speed limit signs indicate:",
+      "explanation": "A speed limit is the maximum speed allowed when conditions are good. In rain, snow, fog or heavy traffic, drive slower than the posted limit.",
+      "choices": [
+        { "text": "The speed you should travel under all driving conditions" },
+        { "text": "The minimum speed permitted on all highways" },
+        { "text": "The maximum speed permitted when conditions are favourable", "correct": true },
+        { "text": "The maximum speed permitted except when passing" }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/railway-crossing.png",
+      "explanation": "The white X-shaped crossbuck marks a railway crossing. Slow down, look and listen in both directions, and be ready to stop for a train.",
+      "choices": [
+        { "text": "Do not enter" },
+        { "text": "Emergency vehicles entering roadway" },
+        { "text": "The designated lane is closed" },
+        { "text": "Railway crossing", "correct": true }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/curve-right.png",
+      "explanation": "A bent arrow on a yellow diamond warns of a curve ahead in the direction the arrow points. Slow down before you reach the curve.",
+      "choices": [
+        { "text": "Traffic entering from the right" },
+        { "text": "Winding road ahead" },
+        { "text": "Curve right", "correct": true },
+        { "text": "Concealed intersection on the right" }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/yield-ahead.png",
+      "explanation": "This warning sign tells you a yield sign is ahead. Slow down and be prepared to yield the right-of-way.",
+      "choices": [
+        { "text": "Do not enter" },
+        { "text": "Slow moving vehicles ahead" },
+        { "text": "Warning, Yield sign ahead", "correct": true },
+        { "text": "Warning, traffic is approaching" }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/slow-moving-vehicle.png",
+      "explanation": "This orange triangle with a red border is displayed on the back of vehicles that normally travel slower than 40 km/h, such as farm equipment. Be ready to slow down, and pass only when it is safe.",
+      "choices": [
+        { "text": "Yield the right-of-way to pedestrians and traffic" },
+        { "text": "Dangerous goods vehicle placard: flammable gas" },
+        { "text": "Slow moving vehicle", "correct": true },
+        { "text": "Warning, Yield sign ahead" }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/winding-road.png",
+      "explanation": "A wavy arrow warns of a series of curves ahead. Slow down and stay in your lane.",
+      "choices": [
+        { "text": "Winding road ahead", "correct": true },
+        { "text": "Lane changing permitted" },
+        { "text": "Slippery when wet" },
+        { "text": "Weave zone ahead" }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/school-bus-stop-ahead.png",
+      "explanation": "This sign warns of a school bus stop ahead. Watch for a stopped bus and for children, and be ready to stop when its red lights flash.",
+      "choices": [
+        { "text": "Playground zone ahead" },
+        { "text": "Pedestrian crossing ahead" },
+        { "text": "School bus stop ahead", "correct": true },
+        { "text": "School zone ahead" }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/school-crosswalk-ahead.png",
+      "explanation": "The fluorescent yellow-green diamond with two children warns of a school crosswalk ahead. Slow down and watch for children crossing.",
+      "choices": [
+        { "text": "School zone" },
+        { "text": "School crosswalk ahead", "correct": true },
+        { "text": "Playground zone" },
+        { "text": "Pedestrian activated lights ahead" }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/two-way-traffic.png",
+      "explanation": "This sign tells you the road carries traffic in both directions, for example where a one-way section ends. Keep to the right.",
+      "choices": [
+        { "text": "Through lane only" },
+        { "text": "Passing permitted" },
+        { "text": "No turns permitted" },
+        { "text": "Two-way traffic", "correct": true }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/merging-traffic.png",
+      "explanation": "Traffic will merge into your lane from the side shown. Be ready to adjust your speed or change lanes to let vehicles in.",
+      "choices": [
+        { "text": "Winding road ahead" },
+        { "text": "\"T\" intersection" },
+        { "text": "Road narrows to the right" },
+        { "text": "Merging traffic", "correct": true }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/reserved-lane.png",
+      "explanation": "A white diamond on a black background marks a reserved lane. Only the vehicles shown (here, buses and taxis) may use it, during the times shown.",
+      "choices": [
+        { "text": "Lane is reserved for use by the specified vehicles", "correct": true },
+        { "text": "One-way traffic only" },
+        { "text": "Car pool vehicles only" },
+        { "text": "Lane can be used for dangerous goods vehicles" }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/road-narrows-left.png",
+      "explanation": "The left edge of the road moves in ahead, so the road becomes narrower. Slow down and be ready to move right.",
+      "choices": [
+        { "text": "Road narrows, left", "correct": true },
+        { "text": "Two-way traffic" },
+        { "text": "Divided highway ends" },
+        { "text": "Obstruction - keep left" }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/bump.png",
+      "explanation": "This sign warns of a bump or rough section of road ahead. Slow down to keep control of your vehicle.",
+      "choices": [
+        { "text": "Rumble strips" },
+        { "text": "Construction zone" },
+        { "text": "Bump", "correct": true },
+        { "text": "Pavement ends" }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/pedestrian-crosswalk-ahead.png",
+      "explanation": "A walking figure on a yellow diamond warns of a pedestrian crosswalk ahead. Slow down and be ready to stop for pedestrians.",
+      "choices": [
+        { "text": "Children playing in residential area" },
+        { "text": "Pedestrian crosswalk ahead", "correct": true },
+        { "text": "School area" },
+        { "text": "Playground zone" }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/do-not-pass.png",
+      "explanation": "A red circle and slash over two cars means passing is not allowed. Stay in your lane until a sign or road markings show passing is permitted again.",
+      "choices": [
+        { "text": "Heavy trucks only" },
+        { "text": "Do not pass", "correct": true },
+        { "text": "No vehicles allowed" },
+        { "text": "Do not enter" }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/dead-end.png",
+      "explanation": "A yellow-and-black checkerboard marks the end of the road. Slow down and be ready to stop or turn around.",
+      "choices": [
+        { "text": "Pavement ends" },
+        { "text": "Construction zone" },
+        { "text": "Dead end", "correct": true },
+        { "text": "Hazard marker" }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/divided-highway-begins.png",
+      "explanation": "This sign warns that the road ahead becomes divided by a median. Keep to the right of the median.",
+      "choices": [
+        { "text": "Divided highway ends" },
+        { "text": "Divided highway begins", "correct": true },
+        { "text": "Obstruction - pass on left" },
+        { "text": "Two-way traffic" }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/hospital.png",
+      "explanation": "A white H on a square service sign shows the way to a hospital.",
+      "choices": [
+        { "text": "Off-road facilities" },
+        { "text": "Hospital services", "correct": true },
+        { "text": "Hotel services" },
+        { "text": "Primary highway route marker" }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/construction-workers.png",
+      "explanation": "Orange signs mark construction zones. This one warns of people working ahead: slow down, obey the posted speed limit, and watch for workers. Fines double when workers are present.",
+      "choices": [
+        { "text": "Construction sign, flag person ahead" },
+        { "text": "Construction sign, detour ahead" },
+        { "text": "Caution, falling rock ahead" },
+        { "text": "Construction sign, people working ahead", "correct": true }
+      ]
+    }
+  ]
+}

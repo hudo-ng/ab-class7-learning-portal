@@ -28,7 +28,13 @@ type ExamResult = Awaited<ReturnType<typeof gradeMockExam>>;
 const PassingScore = 80;
 const ExamDurationSeconds = 30 * 60;
 
-export default function MockExamUI({ questions }: { questions: Question[] }) {
+export default function MockExamUI({
+  questions: initialQuestions,
+}: {
+  questions: Question[];
+}) {
+  // Freeze the set the student started with; a page re-render must not swap it mid-exam
+  const [questions] = useState(initialQuestions);
   const [answers, setAnswers] = useState<
     { questionId: string; choiceId: string }[]
   >([]);

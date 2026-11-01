@@ -1,0 +1,75 @@
+{
+  "topic": { "slug": "share-the-road", "title": "Share the Road" },
+  "questions": [
+    {
+      "prompt": "When a vehicle is stopped to allow a pedestrian to cross the road, other vehicles that are approaching from the rear:",
+      "explanation": "It is illegal to pass a vehicle that has stopped for a pedestrian. The stopped vehicle may hide the pedestrian from your view. Key words: \"it is illegal\".",
+      "choices": [
+        { "text": "May pass the stopped vehicle when the pedestrian crossing signal has changed to \"Don't Walk\"" },
+        { "text": "May pass the stopped vehicle when eye contact is made with the pedestrian and the pedestrian stops" },
+        { "text": "Must not pass the stopped vehicle", "correct": true },
+        { "text": "May pass the stopped vehicle if there is no oncoming traffic that may impede passing safely" }
+      ]
+    },
+    {
+      "prompt": "Why is it not safe to pass a loaded log-haul truck that is turning?",
+      "explanation": "The logs overhang the back of the truck and swing out wide during a turn, which can sweep across every lane. Stay well back until the turn is finished. Key words: \"danger zone\", \"could block all the lanes\".",
+      "choices": [
+        { "text": "The driver of the truck needs to fully concentrate on the turn and does not need the added responsibility of a passing vehicle" },
+        { "text": "Loaded log-haul trucks obey the 6-second rule for turns" },
+        { "text": "A danger zone exists as the overhang of the logs from the tail end of the truck could block all the lanes on a highway during the turn", "correct": true },
+        { "text": "It is illegal to do so" }
+      ]
+    },
+    {
+      "prompt": "A \"slow moving vehicle\" sign must be displayed on the rear of any vehicle that normally travels at speeds less than:",
+      "explanation": "Farm machinery, construction equipment and other vehicles that normally travel slower than 40 km/h must display the orange-and-red slow moving vehicle triangle on the rear. Key words: \"slow moving vehicle\", \"speeds less\".",
+      "choices": [
+        { "text": "70 km/h" },
+        { "text": "50 km/h" },
+        { "text": "40 km/h", "correct": true },
+        { "text": "60 km/h" }
+      ]
+    },
+    {
+      "prompt": "When following an emergency vehicle with its lights or siren activated, stay back a minimum distance of:",
+      "explanation": "It is illegal to drive within 150 metres of an emergency vehicle that has its siren or flashing lights on. Key words: \"emergency vehicle\", \"stay back a minimum distance\".",
+      "choices": [
+        { "text": "100 metres" },
+        { "text": "75 metres" },
+        { "text": "125 metres" },
+        { "text": "150 metres", "correct": true }
+      ]
+    },
+    {
+      "prompt": "When a driver's vehicle is approached by an emergency vehicle sounding a siren, from any direction on a two-way road, the driver must:",
+      "explanation": "An emergency vehicle with its siren on has the right-of-way. Pull over as close as possible to the right curb or edge of the road, stop, and stay stopped until it has passed. Don't stop in an intersection.",
+      "choices": [
+        { "text": "Continue at a reduced speed and allow sufficient space for the emergency vehicle to pass" },
+        { "text": "Turn on their four-way hazard lights" },
+        { "text": "Stop only when the emergency vehicle has difficulty in passing" },
+        { "text": "Drive as close as possible to the right curb or edge of the road and stop", "correct": true }
+      ]
+    },
+    {
+      "prompt": "When driving in the right lane on a highway, what should a driver do if another vehicle attempts to merge from an acceleration lane on the right?",
+      "explanation": "Help merging traffic in: move to the left lane if it is safe, or adjust your speed to leave a gap.",
+      "choices": [
+        { "text": "Move into the left lane, if it is safe to do so, or be prepared to adjust speed", "correct": true },
+        { "text": "Stop to allow the other vehicle in" },
+        { "text": "Accelerate to close any gap in the traffic flow" },
+        { "text": "Insist that the other vehicle yield the right-of-way" }
+      ]
+    },
+    {
+      "prompt": "When approaching the rear of a school bus that is displaying alternating flashing amber lights, a driver should:",
+      "explanation": "Alternating flashing amber lights mean the bus is slowing to stop so students can get on or off. Be prepared to stop: once the red lights flash and the stop arm is out, you must stop.",
+      "choices": [
+        { "text": "Be prepared to stop as this is a warning that the alternating flashing red lights will come on once the bus has stopped", "correct": true },
+        { "text": "Stop immediately because the school bus is loading or unloading students" },
+        { "text": "Be prepared to stop as this could be a warning that there is a collision ahead and the traffic flow has stopped" },
+        { "text": "Use caution as the school bus is approaching a railroad crossing and is about to stop" }
+      ]
+    }
+  ]
+}
