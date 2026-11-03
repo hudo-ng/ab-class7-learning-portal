@@ -31,8 +31,7 @@ export default async function MockExamPage() {
     );
   }
 
-  const questionCount = 30;
-  const questions = await getMockExamQuestions(questionCount);
+  const questions = await getMockExamQuestions();
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-8 space-y-4">

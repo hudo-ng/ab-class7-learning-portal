@@ -13,6 +13,7 @@ import {
   DialogFooter,
 } from "@/components/ui/dialog";
 import { gradeMockExam } from "@/app/actions/grade-mock-exam";
+import { PASS_MARK } from "@/lib/exam-blueprint";
 import QuestionNavigator from "./QuestionNavigator";
 import clsx from "clsx";
 
@@ -25,7 +26,6 @@ interface Question {
 }
 type ExamResult = Awaited<ReturnType<typeof gradeMockExam>>;
 
-const PassingScore = 80;
 const ExamDurationSeconds = 30 * 60;
 
 export default function MockExamUI({
@@ -111,14 +111,15 @@ export default function MockExamUI({
   }
 
   if (phase === "result" && result) {
-    const passed = result.score >= PassingScore;
+    const passed = result.correct >= PASS_MARK;
     return (
       <Card>
         <CardHeader>Mock Exam Result</CardHeader>
         <CardContent className="space-y-4">
           <Alert>
             <AlertDescription>
-              {result.score}% — {passed ? "Passed 🎉" : "Failed"}
+              {result.correct} / {questions.length} correct ({result.score}%) —{" "}
+              {passed ? "Passed 🎉" : `Failed (need ${PASS_MARK})`}
             </AlertDescription>
           </Alert>
 
