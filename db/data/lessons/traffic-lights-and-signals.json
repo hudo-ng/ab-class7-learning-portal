@@ -1,0 +1,50 @@
+{
+  "topic": { "slug": "traffic-lights-and-signals", "title": "Signals & Pavement Markings" },
+  "blocks": [
+    {
+      "type": "intro",
+      "title": "What you'll learn",
+      "body": "**In this topic you'll learn:**\n\n- What each traffic light means: solid, flashing, and arrows\n- Pedestrian signals and lane reversal signals\n- What line colours and patterns on the road tell you about passing and lane changes\n- Other pavement markings: arrows, reserved lanes, bicycle lanes, and painted islands"
+    },
+    {
+      "type": "concept",
+      "title": "Solid lights",
+      "body": "Lights are ordered **red, yellow, green** from top to bottom (or left to right on horizontal signals).\n\n**Solid red:** stop **before the stop line or crosswalk**, or before the intersection if there's neither. Stay stopped until green, except:\n\n- **Right on red** is allowed after a **complete stop**, unless a sign prohibits it. Yield to everyone.\n- **Left on red** is allowed only from a **one-way street onto a one-way street**, after a complete stop.\n\n**Solid yellow:** the light is about to turn red. **Stop** before the intersection, unless you are so close that you **can't stop safely**. If you're already in the intersection, clear it.\n\n**Solid green:** go, but yield to oncoming traffic when turning left, and to pedestrians in the crosswalk.\n\n**Tip, the \"stale\" green:** if the pedestrian signal shows **Don't Walk**, the light will soon change, so be ready to stop.\n\n*Driver's Guide pp. 22–23*"
+    },
+    {
+      "type": "concept",
+      "title": "Arrows and flashing lights",
+      "body": "| Signal | What to do |\n| --- | --- |\n| **Green arrow + green light** | Go in the arrow's direction **without yielding**. Other directions: go when safe. |\n| **Green arrow + red light** | Go **only** in the arrow's direction, without stopping. |\n| **Flashing red** | Treat it like a **stop sign**: stop, then go when safe. Flashing red in all directions makes a **four-way stop**. |\n| **Flashing yellow** | Proceed **with caution**, yielding to pedestrians and vehicles in the intersection. |\n| **Flashing green** | You may go straight or turn without stopping. Opposing traffic has a red light, but still yield to pedestrians. |\n\n*Driver's Guide p. 23*"
+    },
+    {
+      "type": "concept",
+      "title": "Pedestrian and lane reversal signals",
+      "body": "**Pedestrian signals:** a walking figure means pedestrians may cross. An orange hand means **Don't Walk**, though people already crossing may finish. Some signals count down the seconds left.\n\n**Pedestrian crossing signs with flashing yellow lights:** slow to **30 km/h** or less and yield or stop for pedestrians.\n\n**Lane reversal signals** control lanes whose direction changes during the day:\n\n- **Red X** over a lane: do **not** enter or stay in that lane. Oncoming traffic is using it.\n- **Green arrow pointing down:** you may drive in that lane.\n\n*Driver's Guide pp. 23–24*"
+    },
+    {
+      "type": "concept",
+      "title": "Line colours and patterns",
+      "body": "**Colour tells you direction:**\n\n- **Yellow** lines separate traffic going in **opposite** directions. The yellow line should always be on your **left**.\n- **White** lines separate lanes going in the **same** direction.\n\n**Pattern tells you whether you may cross:**\n\n- **Solid** line: crossing it to pass or change lanes is **not permitted**.\n- **Broken** line: crossing it to pass or change lanes is **permitted**, when safe.\n\n*Driver's Guide pp. 38–39*"
+    },
+    {
+      "type": "concept",
+      "title": "Yellow lines and passing",
+      "body": "| Centre line | Passing |\n| --- | --- |\n| **Broken** yellow | Allowed when safe |\n| **Solid and broken** together | Allowed only for the driver with the **broken** line on their side |\n| **Single solid** yellow | Not allowed, **except** passing safely inside an **urban area** |\n| **Double solid** yellow | Not allowed |\n\nThe exception: you may cross the solid yellow line to enter a **two-way left-turn lane**.\n\n*Driver's Guide pp. 38, 67*"
+    },
+    {
+      "type": "concept",
+      "title": "Other pavement markings",
+      "body": "- **Arrows** show the movements allowed from a lane.\n- **Two-way left-turn lane:** the centre lane is shared by left-turning traffic from **both directions**. Enter it only close to where you will turn.\n- **Diamond** markings show a lane **reserved** for certain vehicles (buses, taxis, bicycles).\n- **Bicycle lanes:** don't drive in them, except to turn or to get in or out of a parking spot. The line is usually dashed near corners where you may enter to turn right. A bicycle with **two chevrons** above it means cyclists share your lane.\n- **Large X** on a rural highway: a **railway crossing** is ahead.\n- **Painted island** (striped area): not for travel, stopping, or parking. You may cross it only to enter or leave a driveway or alley.\n- **Crosswalks** exist at intersections even when they **aren't marked**. **Stop lines** show where to stop.\n- **No stopping zone** (box with an X near an intersection): leave it clear for large turning vehicles.\n\n*Driver's Guide pp. 39–41*"
+    },
+    {
+      "type": "rules",
+      "title": "Quick reference",
+      "body": "| You see | Meaning |\n| --- | --- |\n| Solid red | Stop. Right turn OK after a full stop unless a sign says no. |\n| Flashing red | Stop sign |\n| Solid yellow | Stop unless you can't stop safely |\n| Flashing yellow | Caution, yield, then go |\n| Green arrow + red | Only the arrow's direction |\n| Red X over lane | Don't use this lane |\n| Flashing yellow on a crosswalk sign | Max **30 km/h**, yield to pedestrians |\n| Yellow line | Traffic in opposite directions, keep it on your left |\n| White line | Traffic in the same direction |\n| Solid line | Don't cross to pass or change lanes |\n| Broken line | You may cross when safe |"
+    },
+    {
+      "type": "mistakes",
+      "title": "Don't mix these up",
+      "body": "- **Flashing red vs solid red:** flashing red is a stop sign (stop, then go when safe). Solid red means stay stopped until green.\n- **Flashing yellow vs solid yellow:** flashing means proceed with caution. Solid means stop if you safely can.\n- **Left on red** is only allowed from a **one-way onto a one-way** street.\n- **Solid + broken yellow:** only the line on **your** side counts.\n- **Single solid yellow** in an **urban** area can be crossed to pass safely. Elsewhere it means no passing.\n- **Unmarked crosswalks are still crosswalks.** Every intersection has one unless a sign says no crossing."
+    }
+  ]
+}

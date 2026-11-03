@@ -1,54 +1,197 @@
 {
-  "topic": { "slug": "emergency-conditions", "title": "Emergency Conditions" },
+  "topic": {
+    "slug": "emergency-conditions",
+    "title": "Emergencies & Hazardous Conditions"
+  },
   "questions": [
     {
       "prompt": "The term \"over-driving\" your headlights at night means:",
       "explanation": "You over-drive your headlights when you travel so fast that your stopping distance is longer than the distance your headlights light up. Slow down so you can stop within the lit area. Key words: \"over-driving\".",
       "choices": [
-        { "text": "The driver cannot see clearly for 1000 metres" },
-        { "text": "The low beam headlights are not set properly" },
-        { "text": "The driver is travelling at a speed which would not permit them to see an object in time to stop", "correct": true },
-        { "text": "The driver has had the headlights on for too long" }
+        {
+          "text": "The driver cannot see clearly for 1000 metres"
+        },
+        {
+          "text": "The low beam headlights are not set properly"
+        },
+        {
+          "text": "The driver is travelling at a speed which would not permit them to see an object in time to stop",
+          "correct": true
+        },
+        {
+          "text": "The driver has had the headlights on for too long"
+        }
       ]
     },
     {
       "prompt": "If the vehicle's right tires travel off the paved portion of the roadway:",
       "explanation": "Don't brake hard or turn the wheel sharply; either can cause a skid or send you across the road. Grip the wheel firmly, ease off the gas, and steer gently back onto the pavement once you have slowed down.",
       "choices": [
-        { "text": "Apply the brakes firmly and counter-steer to return to the paved portion of the roadway" },
-        { "text": "Keep a firm grip on the steering wheel, ease off the gas pedal, and then gradually return to the paved portion of the roadway", "correct": true },
-        { "text": "Accelerate slightly, then turn the steering wheel sharply to return to the paved portion of the roadway" },
-        { "text": "Move the vehicle completely off the paved portion, then steer back onto the paved portion of the roadway" }
+        {
+          "text": "Apply the brakes firmly and counter-steer to return to the paved portion of the roadway"
+        },
+        {
+          "text": "Keep a firm grip on the steering wheel, ease off the gas pedal, and then gradually return to the paved portion of the roadway",
+          "correct": true
+        },
+        {
+          "text": "Accelerate slightly, then turn the steering wheel sharply to return to the paved portion of the roadway"
+        },
+        {
+          "text": "Move the vehicle completely off the paved portion, then steer back onto the paved portion of the roadway"
+        }
       ]
     },
     {
       "prompt": "According to the Basic License Driver's Handbook, most skids are the result of:",
       "explanation": "Most skids happen because the driver goes too fast for the conditions, or brakes, accelerates or steers too sharply. Adjusting your driving to the conditions prevents them.",
       "choices": [
-        { "text": "Driver error", "correct": true },
-        { "text": "Bad tires" },
-        { "text": "Bad brakes" },
-        { "text": "Icy roads" }
+        {
+          "text": "Driver error",
+          "correct": true
+        },
+        {
+          "text": "Bad tires"
+        },
+        {
+          "text": "Bad brakes"
+        },
+        {
+          "text": "Icy roads"
+        }
       ]
     },
     {
       "prompt": "In reduced visibility due to fog, smoke or snow, use the:",
       "explanation": "High beams reflect off fog, smoke and snow, creating glare that makes it harder to see. Low beams light the road without that glare. Key words: \"fog, smoke or snow\".",
       "choices": [
-        { "text": "Park lights" },
-        { "text": "Headlights on high beam" },
-        { "text": "Headlights on low beam", "correct": true },
-        { "text": "Daytime running lights" }
+        {
+          "text": "Park lights"
+        },
+        {
+          "text": "Headlights on high beam"
+        },
+        {
+          "text": "Headlights on low beam",
+          "correct": true
+        },
+        {
+          "text": "Daytime running lights"
+        }
       ]
     },
     {
       "prompt": "In a vehicle that does not have anti-lock brakes, threshold braking refers to:",
       "explanation": "Threshold braking means pressing the brake firmly up to the point just before the wheels lock, and easing off slightly if they do lock. It stops you quickly while you can still steer. Key words: \"threshold braking\".",
       "choices": [
-        { "text": "Applying an even braking force to the point just before the wheels lock, and easing off slightly if the wheels lock", "correct": true },
-        { "text": "Pumping the brake pedal repeatedly until the vehicle comes to a stop" },
-        { "text": "Releasing pressure on the brake pedal, then reapplying pressure until the wheels lock" },
-        { "text": "Applying enough force to the brake pedal to lock the wheels and keep them locked" }
+        {
+          "text": "Applying an even braking force to the point just before the wheels lock, and easing off slightly if the wheels lock",
+          "correct": true
+        },
+        {
+          "text": "Pumping the brake pedal repeatedly until the vehicle comes to a stop"
+        },
+        {
+          "text": "Releasing pressure on the brake pedal, then reapplying pressure until the wheels lock"
+        },
+        {
+          "text": "Applying enough force to the brake pedal to lock the wheels and keep them locked"
+        }
+      ]
+    },
+    {
+      "prompt": "A driver must report a collision to the police when anyone is injured or killed, or when the combined damage to all vehicles and property is at least:",
+      "explanation": "Report a collision to police if anyone is injured or killed, or if the combined damage to all vehicles and property is $5,000 or more. The limit was raised from $2,000 on January 1, 2024. Key words: \"all vehicles and property\".",
+      "choices": [
+        {
+          "text": "$1,000"
+        },
+        {
+          "text": "$5,000",
+          "correct": true
+        },
+        {
+          "text": "$2,000"
+        },
+        {
+          "text": "$10,000"
+        }
+      ]
+    },
+    {
+      "prompt": "At what minimum distance must headlights be dimmed at night when approaching another vehicle from behind?",
+      "explanation": "Switch to low beams within 150 metres of a vehicle you are following, and within 300 metres of an oncoming vehicle. Key words: \"dimmed\", \"from behind\".",
+      "choices": [
+        {
+          "text": "60 metres"
+        },
+        {
+          "text": "300 metres"
+        },
+        {
+          "text": "150 metres",
+          "correct": true
+        },
+        {
+          "text": "100 metres"
+        }
+      ]
+    },
+    {
+      "prompt": "In the Basic License Driver's Handbook, \"night time\" is defined as the period of time:",
+      "explanation": "Under Alberta's rules of the road, night time runs from one hour after sunset to one hour before the next sunrise. Headlights must be on during this time. Key words: \"nighttime\".",
+      "choices": [
+        {
+          "text": "Beginning 1 hour before sunset and ending 1 hour after the following sunrise"
+        },
+        {
+          "text": "Beginning at sunset and ending at the following sunrise"
+        },
+        {
+          "text": "Beginning 1 hour after sunset and ending 1 hour before the following sunrise",
+          "correct": true
+        },
+        {
+          "text": "Between 7:00 pm and 7:00 am"
+        }
+      ]
+    },
+    {
+      "prompt": "When a driver's vehicle is approached by an emergency vehicle sounding a siren, from any direction on a two-way road, the driver must:",
+      "explanation": "An emergency vehicle with its siren on has the right-of-way. Pull over as close as possible to the right curb or edge of the road, stop, and stay stopped until it has passed. Don't stop in an intersection.",
+      "choices": [
+        {
+          "text": "Continue at a reduced speed and allow sufficient space for the emergency vehicle to pass"
+        },
+        {
+          "text": "Turn on their four-way hazard lights"
+        },
+        {
+          "text": "Stop only when the emergency vehicle has difficulty in passing"
+        },
+        {
+          "text": "Drive as close as possible to the right curb or edge of the road and stop",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "When following an emergency vehicle with its lights or siren activated, stay back a minimum distance of:",
+      "explanation": "It is illegal to drive within 150 metres of an emergency vehicle that has its siren or flashing lights on. Key words: \"emergency vehicle\", \"stay back a minimum distance\".",
+      "choices": [
+        {
+          "text": "100 metres"
+        },
+        {
+          "text": "75 metres"
+        },
+        {
+          "text": "125 metres"
+        },
+        {
+          "text": "150 metres",
+          "correct": true
+        }
       ]
     }
   ]

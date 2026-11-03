@@ -1,0 +1,60 @@
+{
+  "topic": { "slug": "highway-driving", "title": "Highway Driving" },
+  "blocks": [
+    {
+      "type": "intro",
+      "title": "What you'll learn",
+      "body": "**In this topic you'll learn:**\n\n- How to choose your lane, check blind spots, and change lanes safely\n- How and when to pass, and when passing is illegal\n- How to merge onto a highway and exit it\n- How to handle weave zones, curves, and hills"
+    },
+    {
+      "type": "concept",
+      "title": "Lane position and blind spots",
+      "body": "Drive in the **centre of your lane**, and choose your lane early. Don't leave lane changes to the last minute.\n\nYour mirrors can't show everything beside you. The areas they miss are your **blind spots**. Set your mirrors to keep them small: frame the rear window in the inside mirror, and just see the edge of your own car in each side mirror.\n\n**To change lanes:**\n\n1. Make sure a lane change is allowed.\n2. Check the inside and outside mirrors.\n3. **Shoulder check** the blind spot on the side you're moving to.\n4. Signal.\n5. Move over when safe, **keeping your speed**.\n6. Turn the signal off.\n\n*Driver's Guide pp. 70–71*"
+    },
+    {
+      "type": "concept",
+      "title": "Passing on multi-lane highways",
+      "body": "- **Slower traffic keeps to the right lane**, unless turning left. The left lane is for passing.\n- **Passing lanes** are extra lanes added on some highways, often in the mountains. **Slower vehicles move into the right lane** so others can pass on the left.\n- Where a passing lane ends, drivers in the right lane merge left, and drivers in the left lane help them in.\n\n*Driver's Guide p. 71*"
+    },
+    {
+      "type": "concept",
+      "title": "Passing on a two-lane highway",
+      "body": "Passing into the oncoming lane can cause **head-on collisions**. Pass only where it's legal, when it's necessary, and with extreme care.\n\n1. Keep a safe following distance behind the vehicle you want to pass.\n2. Check that there's no oncoming traffic for a safe distance, and check your mirrors.\n3. **Shoulder check left**, in case someone is passing you.\n4. Signal left, then pass. **You may not exceed the speed limit while passing.**\n5. When you can see the passed vehicle in your **inside mirror**, shoulder check right, signal right, and return to your lane.\n6. Turn your signal off.\n\n**Being passed?** Stay in your lane, move to the **right side** of it, and don't speed up.\n\n*Driver's Guide pp. 71–72*"
+    },
+    {
+      "type": "concept",
+      "title": "When passing is illegal",
+      "body": "**Do not pass when:**\n\n- oncoming vehicles are too close. If in doubt, don't pass.\n- a **solid yellow line** is on your side\n- a sign marks a **no-passing zone**\n- you're in a **school or playground zone** while it's in effect\n- a vehicle has stopped for a **pedestrian** at a crosswalk\n- a **school bus** has its **red lights flashing** and stop arm out\n- you're on a **curve** of a two-lane highway\n- you're near the **top of a hill** and can't see what's ahead\n\nDon't use the **shoulder** to pass, or to help someone pass you.\n\n*Driver's Guide pp. 72–76*"
+    },
+    {
+      "type": "concept",
+      "title": "The emergency stopping lane",
+      "body": "The shoulder of a primary highway, between the edge of the road and the first travel lane, is the **emergency stopping lane**. Use it only to stop in an emergency or when your vehicle has a problem.\n\n- **Never drive** in it.\n- **Never pass**, or help another vehicle pass you, by using it.\n- If you miss an exit, **don't stop or reverse** on the highway or the shoulder.\n\n*Driver's Guide pp. 72–74*"
+    },
+    {
+      "type": "concept",
+      "title": "Merging onto a highway",
+      "body": "**Neither the merging driver nor the drivers already on the highway have the right-of-way.** Merging is a **shared responsibility**.\n\n- Use the **acceleration lane** to reach the speed of highway traffic.\n- Check traffic as soon as you can see the highway. Pick a gap and adjust your speed to it.\n- Signal **before or in** the acceleration lane, and keep shoulder checking.\n- Move over only **after the solid white line** ends, matching the speed of traffic.\n- **Don't slow down abruptly or stop.** Drivers behind you expect you to keep moving.\n\n**Already on the highway?** If it's safe, **move left** to leave the right lane for merging traffic.\n\n*Driver's Guide p. 73*"
+    },
+    {
+      "type": "concept",
+      "title": "Exiting and weave zones",
+      "body": "**To exit:**\n\n- Be in the correct lane well before your exit, and signal early.\n- Move into the **deceleration lane** and do most of your slowing there. Some are short, so you may need to start slowing before it.\n- **Missed your exit?** Keep going to the next one. Never stop or reverse.\n\n**Weave zones:** on some interchanges, the entrance and the exit share the **same lane**. Drivers slowing to exit cross paths with drivers speeding up to enter. Control your speed, time your lane change carefully, and cooperate.\n\n*Driver's Guide p. 74*"
+    },
+    {
+      "type": "concept",
+      "title": "Curves and hills",
+      "body": "**Curves:**\n\n- **Slow down before** the curve, not in it. Stay centred in your lane.\n- Look well ahead, around the curve.\n- If you skid in a curve, **stay off both the brake and the gas**. Look and steer where you want to go, with small corrections.\n\n**Hills:**\n\n- Going up, move to the **right side of your lane** near the top, in case an oncoming vehicle has crossed the centre line.\n- Don't pass near the top of a hill.\n- Going down a steep hill, adjust your speed, since stopping takes longer. In a manual vehicle, shift to a **lower gear** so your brakes don't overheat.\n\n*Driver's Guide pp. 75–76*"
+    },
+    {
+      "type": "rules",
+      "title": "Quick reference",
+      "body": "| Situation | Rule |\n| --- | --- |\n| Multi-lane highway | Slower traffic keeps **right** |\n| Passing lane | **Slower** vehicles move right |\n| While passing | Never exceed the **speed limit** |\n| Return after passing | When the passed vehicle shows in your **inside mirror** |\n| Being passed | Stay in your lane, move **right** within it |\n| Merging | **Shared** responsibility, nobody has right-of-way |\n| Missed exit | Continue to the **next** exit |\n| Shoulder | **Emergencies only**, never for driving or passing |"
+    },
+    {
+      "type": "mistakes",
+      "title": "Don't mix these up",
+      "body": "- **Acceleration lane vs deceleration lane:** you speed up in the acceleration lane to join traffic. You slow down in the deceleration lane after leaving it.\n- **Merging is shared:** the merging driver doesn't have to stop, and highway drivers should make room when they can.\n- **Passing lanes:** the **slower** vehicle moves right. The faster one passes on the left.\n- **No speeding to pass.** If you can't pass within the limit, don't pass.\n- **School bus: amber vs red lights.** Amber means be ready to stop (passing is possible, with caution). Red with the stop arm out means stop, no passing.\n- **Missed exit:** never reverse or stop on the highway or the shoulder."
+    }
+  ]
+}

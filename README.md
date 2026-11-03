@@ -110,6 +110,28 @@ Questions are matched by their prompt text. If you edit a prompt in the admin
 panel, also update it in the JSON file, or the next import will add the old
 version back as a new question.
 
+#### Adding lessons
+
+Lessons live in `db/data/lessons/<topic-slug>.json`, one file per topic:
+
+```json
+{
+  "topic": { "slug": "vehicle-basics-and-parking", "title": "Vehicle Basics & Parking" },
+  "blocks": [
+    { "type": "intro", "title": "What you'll learn", "body": "Markdown..." },
+    { "type": "concept", "title": "Parallel parking", "body": "Markdown...", "imgUrl": "/lessons/parallel.png" }
+  ]
+}
+```
+
+Block types: `intro`, `concept`, `visual`, `rules` (key numbers), `mistakes`
+(common traps). Bodies are Markdown, including tables.
+
+`npm run db:seed-lessons` (or `db:seed`) **replaces** each topic's blocks with
+the blocks in its file. Edit lessons in the file, not the admin panel, or the
+next import will overwrite your changes. Topics without a lesson file are
+left untouched. Questions are imported before lessons.
+
 ### 5. Run
 
 ```bash

@@ -1,74 +1,213 @@
 {
-  "topic": { "slug": "intersections-and-turns", "title": "Intersections and Turns" },
+  "topic": {
+    "slug": "intersections-and-turns",
+    "title": "Intersections, Right-of-Way & Turns"
+  },
   "questions": [
     {
       "prompt": "When are dual turns permitted at an intersection?",
       "explanation": "Two lanes may turn at the same time only where pavement markings or signs show that dual turns are allowed. Key words: \"dual turns\".",
       "choices": [
-        { "text": "Only when turning from a one-way road onto a one-way road" },
-        { "text": "Any time there are at least 2 lanes on the road being entered" },
-        { "text": "Only when indicated by pavement markings or traffic control signs", "correct": true },
-        { "text": "Only when the road has 6 or more lanes" }
+        {
+          "text": "Only when turning from a one-way road onto a one-way road"
+        },
+        {
+          "text": "Any time there are at least 2 lanes on the road being entered"
+        },
+        {
+          "text": "Only when indicated by pavement markings or traffic control signs",
+          "correct": true
+        },
+        {
+          "text": "Only when the road has 6 or more lanes"
+        }
       ]
     },
     {
       "prompt": "Unless otherwise permitted, what lane must a driver be in to turn left from a one-way road?",
       "explanation": "To turn left from a one-way road, start from the lane nearest the left curb, unless signs or pavement markings allow another lane.",
       "choices": [
-        { "text": "The centre lane" },
-        { "text": "The lane closest to the right curb" },
-        { "text": "The left lane nearest the left curb", "correct": true },
-        { "text": "The lane to the right of centre" }
+        {
+          "text": "The centre lane"
+        },
+        {
+          "text": "The lane closest to the right curb"
+        },
+        {
+          "text": "The left lane nearest the left curb",
+          "correct": true
+        },
+        {
+          "text": "The lane to the right of centre"
+        }
       ]
     },
     {
       "prompt": "At a stop sign, a driver must:",
       "explanation": "Stop before the stop line or the marked crosswalk. If there is neither, stop before entering the intersection at a point where you can see approaching traffic.",
       "choices": [
-        { "text": "Stop in a position where the visibility is the greatest" },
-        { "text": "Stop 10 metres before a marked crosswalk or stop line" },
-        { "text": "Stop in the marked crosswalk or on the stop line" },
-        { "text": "Stop before entering a marked crosswalk or crossing a stop line", "correct": true }
+        {
+          "text": "Stop in a position where the visibility is the greatest"
+        },
+        {
+          "text": "Stop 10 metres before a marked crosswalk or stop line"
+        },
+        {
+          "text": "Stop in the marked crosswalk or on the stop line"
+        },
+        {
+          "text": "Stop before entering a marked crosswalk or crossing a stop line",
+          "correct": true
+        }
       ]
     },
     {
       "prompt": "An \"uncontrolled intersection\":",
       "explanation": "An uncontrolled intersection has no traffic lights or signs. Slow down, be ready to stop, and yield to the vehicle on your right.",
       "choices": [
-        { "text": "Has a flashing yellow light for one direction of traffic and a flashing red light for the other direction of traffic" },
-        { "text": "Has traffic signs but no traffic control signal lights" },
-        { "text": "Has no traffic control signal lights or traffic signs", "correct": true },
-        { "text": "Has Yield signs but no Stop signs" }
+        {
+          "text": "Has a flashing yellow light for one direction of traffic and a flashing red light for the other direction of traffic"
+        },
+        {
+          "text": "Has traffic signs but no traffic control signal lights"
+        },
+        {
+          "text": "Has no traffic control signal lights or traffic signs",
+          "correct": true
+        },
+        {
+          "text": "Has Yield signs but no Stop signs"
+        }
       ]
     },
     {
       "prompt": "U-turns in urban areas are not permitted at:",
       "explanation": "In urban areas, U-turns are not allowed at intersections controlled by traffic lights unless a sign allows them. They are also not allowed between intersections or at alleys. Key words: \"urban areas\", \"not\".",
       "choices": [
-        { "text": "An intersection with marked traffic lanes" },
-        { "text": "Roads with a landscaped median" },
-        { "text": "An intersection controlled by a traffic control signal", "correct": true },
-        { "text": "An intersection controlled by Stop signs" }
+        {
+          "text": "An intersection with marked traffic lanes"
+        },
+        {
+          "text": "Roads with a landscaped median"
+        },
+        {
+          "text": "An intersection controlled by a traffic control signal",
+          "correct": true
+        },
+        {
+          "text": "An intersection controlled by Stop signs"
+        }
       ]
     },
     {
       "prompt": "A driver attempting to turn left at a steady green traffic light:",
       "explanation": "A steady green light does not give a left-turning driver the right-of-way. Yield to oncoming traffic and pedestrians, and turn only when it is safe.",
       "choices": [
-        { "text": "Has the right-of-way over oncoming traffic" },
-        { "text": "Must stop before the pedestrian crosswalk line, then proceed" },
-        { "text": "Has the right-of-way over pedestrians" },
-        { "text": "Must not cross the path of an approaching vehicle unless it is safe", "correct": true }
+        {
+          "text": "Has the right-of-way over oncoming traffic"
+        },
+        {
+          "text": "Must stop before the pedestrian crosswalk line, then proceed"
+        },
+        {
+          "text": "Has the right-of-way over pedestrians"
+        },
+        {
+          "text": "Must not cross the path of an approaching vehicle unless it is safe",
+          "correct": true
+        }
       ]
     },
     {
       "prompt": "When turning left from a two-way road onto a one-way road, what lane should the vehicle enter?",
       "explanation": "When turning left onto a one-way road, enter the lane nearest the left curb. Key words: \"onto a one-way road\", \"left side\".",
       "choices": [
-        { "text": "The lane immediately to the right of centre" },
-        { "text": "The lane nearest the curb on the left side of the one-way road", "correct": true },
-        { "text": "The centre lane of the one-way road" },
-        { "text": "The right lane of the one-way road" }
+        {
+          "text": "The lane immediately to the right of centre"
+        },
+        {
+          "text": "The lane nearest the curb on the left side of the one-way road",
+          "correct": true
+        },
+        {
+          "text": "The centre lane of the one-way road"
+        },
+        {
+          "text": "The right lane of the one-way road"
+        }
+      ]
+    },
+    {
+      "prompt": "A driver entering a traffic circle:",
+      "explanation": "Vehicles already in a traffic circle have the right-of-way. When entering, yield to them and wait for a safe gap. Key words: \"entering\".",
+      "choices": [
+        {
+          "text": "Must yield to traffic on the right"
+        },
+        {
+          "text": "Must yield to vehicles in the traffic circle",
+          "correct": true
+        },
+        {
+          "text": "Has the right-of-way"
+        }
+      ]
+    },
+    {
+      "prompt": "A vehicle exiting a parking lot onto a roadway:",
+      "explanation": "When leaving a parking lot, alley or driveway, come to a complete stop before the sidewalk area, then yield to pedestrians and to traffic on the road.",
+      "choices": [
+        {
+          "text": "Must stop only if there is a Stop sign"
+        },
+        {
+          "text": "Is not required to stop"
+        },
+        {
+          "text": "Must stop before crossing the sidewalk only if there are pedestrians present"
+        },
+        {
+          "text": "Must come to a complete stop",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "When approaching a Yield sign, you must:",
+      "explanation": "At a yield sign, slow down and be ready to stop. Give the right-of-way to traffic that does not face the sign and to all pedestrians, and go only when it is safe.",
+      "choices": [
+        {
+          "text": "Yield the right-of-way to traffic not facing the sign and all pedestrians in the intersection",
+          "correct": true
+        },
+        {
+          "text": "Always sound the horn to warn other traffic within the intersection"
+        },
+        {
+          "text": "Expect all other vehicles to yield the right-of-way to you"
+        },
+        {
+          "text": "Come to a stop and proceed after looking to the right and left"
+        }
+      ]
+    },
+    {
+      "prompt": "When two vehicles approach an uncontrolled \"T\" intersection at right angles to each other at approximately the same time:",
+      "explanation": "At an uncontrolled intersection, including a \"T\" intersection, the vehicle on the left yields to the vehicle on the right. Key words: \"left\".",
+      "choices": [
+        {
+          "text": "The vehicle on the left must yield the right-of-way",
+          "correct": true
+        },
+        {
+          "text": "The vehicle on the left has the right-of-way"
+        },
+        {
+          "text": "The vehicle going straight through always has the right-of-way"
+        },
+        {
+          "text": "Both vehicles must stop"
+        }
       ]
     }
   ]

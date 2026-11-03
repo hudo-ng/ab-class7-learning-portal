@@ -1,5 +1,6 @@
 import { seedAdmin } from "./seeding/admin";
 import { importContent } from "./seeding/content";
+import { importLessons } from "./seeding/lessons";
 import { dryRun, run } from "./seeding/run";
 
 
@@ -13,4 +14,5 @@ run(async () => {
   }
 
   await importContent(undefined, { dryRun });
+  await importLessons(undefined, { dryRun });
 });

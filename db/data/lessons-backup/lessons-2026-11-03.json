@@ -1,0 +1,556 @@
+[
+  {
+    "topic": {
+      "slug": "basics-of-driving",
+      "title": "Basics of Driving"
+    },
+    "blocks": [
+      {
+        "type": "intro",
+        "title": "The Basics of Driving",
+        "body": "\nDriving safely starts with **understanding your vehicle** and how to control it properly.\n\nFor new drivers, the Alberta Driver’s Guide emphasizes:\n- Vehicle preparation\n- Smooth control\n- Awareness of surroundings\n\nMastering the basics helps prevent accidents and builds confidence.\n  "
+      },
+      {
+        "type": "concept",
+        "title": "Preparing to Drive",
+        "body": "\nBefore moving the vehicle, drivers must prepare properly.\n\nYou should:\n- Adjust your seat for full control of pedals\n- Adjust mirrors to reduce blind spots\n- Fasten your seat belt\n- Ensure all passengers are secured\n- Check that doors are closed and lights are working\n\nGood preparation reduces distractions once driving begins.\n  "
+      },
+      {
+        "type": "rules",
+        "title": "Using Vehicle Controls",
+        "body": "\nDrivers must understand basic vehicle controls, including:\n- Accelerator (gas pedal)\n- Brake pedal\n- Steering wheel\n- Gear selector (Park, Reverse, Drive)\n- Turn signals\n- Headlights and windshield wipers\n\nAlways know the location and function of controls before driving.\n  "
+      },
+      {
+        "type": "rules",
+        "title": "Steering Techniques",
+        "body": "\nProper steering improves control and safety.\n\nRecommended steering methods:\n- **Push–pull steering**: keeps hands in control\n- Hands positioned at **9 and 3 o’clock**\n\nAvoid:\n- Crossing arms\n- One-handed steering (except when reversing)\n- Sudden or sharp steering movements\n\nSmooth steering helps maintain vehicle stability.\n  "
+      },
+      {
+        "type": "rules",
+        "title": "Lane Positioning",
+        "body": "\nCorrect lane positioning helps maintain safety and visibility.\n\nDrivers should:\n- Stay centered in the lane\n- Keep equal space on both sides\n- Adjust position slightly to avoid hazards\n\nPoor lane positioning can lead to sideswipes or drifting into other lanes.\n  "
+      },
+      {
+        "type": "concept",
+        "title": "Observing and Scanning",
+        "body": "\nGood drivers constantly observe their surroundings.\n\nYou should:\n- Look well ahead of your vehicle\n- Scan side-to-side\n- Check mirrors regularly\n- Be aware of pedestrians, cyclists, and other vehicles\n\nObservation allows you to react early and safely.\n  "
+      },
+      {
+        "type": "rules",
+        "title": "Starting, Stopping, and Parking",
+        "body": "\nBasic vehicle movements must be done safely.\n\nWhen starting:\n- Check mirrors and blind spots\n- Signal if required\n\nWhen stopping:\n- Stop smoothly and fully\n- Leave space between vehicles\n\nWhen parking:\n- Secure the vehicle\n- Turn wheels appropriately on hills\n- Apply the parking brake\n  "
+      },
+      {
+        "type": "mistakes",
+        "title": "Common Beginner Driving Mistakes",
+        "body": "\nNew drivers often make these mistakes:\n- Not adjusting mirrors correctly\n- Oversteering or understeering\n- Braking too late\n- Forgetting to signal\n- Fixating on one object instead of scanning\n\nAwareness of these mistakes helps prevent collisions.\n  "
+      },
+      {
+        "type": "concept",
+        "title": "Exam Tip: Basics of Driving Questions",
+        "body": "\nOn the Class 7 test:\n- Choose answers that show **control and preparation**\n- Avoid aggressive or rushed actions\n- Look for smooth, safe driving behaviors\n\nThe exam tests proper technique, not speed or confidence.\n  "
+      }
+    ]
+  },
+  {
+    "topic": {
+      "slug": "emergency-conditions",
+      "title": "Emergency Conditions"
+    },
+    "blocks": [
+      {
+        "type": "intro",
+        "title": "Handling Emergency Situations",
+        "body": "\nEmergency situations require **calm, quick, and correct decisions**.\n\nFor the Alberta Class 7 test, you must know how to respond safely to:\n- Emergency vehicles\n- Collisions\n- Vehicle breakdowns\n- Adverse weather conditions\n\nCorrect responses can prevent injuries, save lives, and avoid legal trouble.\n  "
+      },
+      {
+        "type": "concept",
+        "title": "Emergency Vehicles: What They Are",
+        "body": "\nEmergency vehicles include:\n- Police vehicles\n- Ambulances\n- Fire trucks\n\nThey use:\n- Flashing lights\n- Sirens\n- Special right-of-way privileges\n\nAll drivers are **legally required** to give them priority.\n  "
+      },
+      {
+        "type": "rules",
+        "title": "Responding to Emergency Vehicles",
+        "body": "\nWhen you hear a siren or see flashing lights:\n\n- Pull over to the **right side of the road**\n- Stop and remain stopped\n- Do not continue driving until the emergency vehicle has passed\n\nIf you are in an intersection:\n- Clear the intersection **only if it is safe**\n- Then pull over and stop\n\nNever block or follow an emergency vehicle.\n  "
+      },
+      {
+        "type": "concept",
+        "title": "What to Do After a Collision",
+        "body": "\nBeing involved in a collision can be stressful.\n\nKnowing what to do helps:\n- Prevent further accidents\n- Protect injured people\n- Fulfill legal responsibilities\n\nThe exam often tests correct post-collision actions.\n  "
+      },
+      {
+        "type": "rules",
+        "title": "Steps to Take After a Collision",
+        "body": "\nIf you are involved in a collision:\n\n1. **Stop immediately**\n2. Turn on hazard lights\n3. Check for injuries\n4. Call **911** if anyone is injured\n5. Move vehicles off the road if safe and no injuries\n6. Exchange information:\n   - Name\n   - Phone number\n   - Licence plate\n   - Insurance details\n\nLeaving the scene is illegal.\n  "
+      },
+      {
+        "type": "rules",
+        "title": "Reporting Collisions",
+        "body": "\nYou must report a collision to police if:\n- Anyone is injured\n- Total damage is **over $2,000**\n\nEven minor collisions must be reported if damage exceeds the legal limit.\n\nFailing to report can result in penalties.\n  "
+      },
+      {
+        "type": "rules",
+        "title": "What to Do During a Breakdown",
+        "body": "\nIf your vehicle breaks down:\n\n- Pull over safely\n- Turn on hazard lights\n- Exit the vehicle if it is safe to do so\n- Stay well away from traffic\n\nIf available:\n- Set up warning triangles or flares\n- Call for roadside assistance or emergency help\n\nNever stand on the roadway.\n  "
+      },
+      {
+        "type": "rules",
+        "title": "Driving in Adverse Weather",
+        "body": "\nPoor weather requires extra caution.\n\n**Rain**\n- Reduce speed\n- Increase following distance\n\n**Snow and Ice**\n- Use winter tires\n- Slow down\n- Avoid sudden braking or steering\n\n**Fog**\n- Use low-beam headlights\n- Increase following distance\n- Reduce speed\n\nWeather-related questions are common on the exam.\n  "
+      },
+      {
+        "type": "mistakes",
+        "title": "Common Emergency-Response Mistakes",
+        "body": "\n- Continuing to drive when emergency vehicles approach\n- Stopping suddenly in traffic lanes\n- Leaving a collision scene\n- Standing on the road during a breakdown\n- Driving too fast in poor weather\n\nThese mistakes increase danger and legal consequences.\n  "
+      },
+      {
+        "type": "concept",
+        "title": "Quick Test Tips for Emergency Situations",
+        "body": "\nRemember these key exam rules:\n\n- Always pull **right and stop** for emergency vehicles\n- Clear intersections only if safe\n- Report collisions with injuries or significant damage\n- Give **at least 1 metre** when passing cyclists\n- Yield to pedestrians in crosswalks\n- Avoid blind spots of large trucks\n\nChoose answers that show **safety, legality, and caution**.\n  "
+      }
+    ]
+  },
+  {
+    "topic": {
+      "slug": "intersections-and-turns",
+      "title": "Intersections and Turns"
+    },
+    "blocks": [
+      {
+        "type": "intro",
+        "title": "Why Intersections Matter",
+        "body": "\nIntersections are one of the **most common locations for collisions**.\n\nFor the Alberta Class 7 test, you must understand:\n- Right-of-way rules\n- Stop and yield behavior\n- How to turn safely\n\nMost exam questions are based on **simple situations**.\n      "
+      },
+      {
+        "type": "concept",
+        "title": "What Is an Intersection?",
+        "body": "\nAn intersection is where **two or more roads meet**.\n\nIntersections can be:\n- Controlled (with signs or lights)\n- Uncontrolled (no signs or lights)\n\nThe rules change depending on the type.\n      "
+      },
+      {
+        "type": "concept",
+        "title": "Controlled vs Uncontrolled Intersections",
+        "body": "\n**Controlled intersections** have:\n- Traffic lights\n- Stop signs\n- Yield signs\n\n**Uncontrolled intersections** have:\n- No signs\n- No traffic signals\n\nAt uncontrolled intersections, **right-of-way rules are critical**.\n      "
+      },
+      {
+        "type": "rules",
+        "title": "Right-of-Way Basics",
+        "body": "\nRight-of-way means **who goes first**.\n\nGeneral rules:\n- Yield to vehicles already in the intersection\n- Yield to the vehicle on your **right**\n- Yield when turning left\n- Yield to pedestrians and cyclists\n\nNever assume another driver will stop.\n      "
+      },
+      {
+        "type": "rules",
+        "title": "Four-Way Stop Intersections",
+        "body": "\nAt a four-way stop:\n- The first vehicle to stop goes first\n- If two vehicles stop at the same time, the vehicle on the **right goes first**\n- Vehicles going straight have priority over turning vehicles\n\nAlways make a **complete stop**.\n      "
+      },
+      {
+        "type": "rules",
+        "title": "Turning Left at Intersections",
+        "body": "\nWhen turning left:\n- Yield to oncoming traffic\n- Yield to pedestrians crossing\n- Enter the intersection only when safe\n\nLeft turns are **high-risk** and tested frequently.\n      "
+      },
+      {
+        "type": "rules",
+        "title": "Turning Right at Intersections",
+        "body": "\nWhen turning right:\n- Stop completely at a stop sign or red light\n- Yield to pedestrians\n- Yield to cyclists\n- Turn only when safe\n\nRight turns on red are allowed **unless prohibited by a sign**.\n      "
+      },
+      {
+        "type": "mistakes",
+        "title": "Common Exam Mistakes",
+        "body": "\n- Forgetting to yield when turning left\n- Rolling stops at stop signs\n- Ignoring pedestrians at intersections\n- Confusing right-of-way at four-way stops\n\nThe exam tests **rules**, not driver courtesy.\n      "
+      },
+      {
+        "type": "concept",
+        "title": "Exam Tip: How to Answer Intersection Questions",
+        "body": "\nWhen answering exam questions:\n1. Identify the type of intersection\n2. Look for stop or yield signs\n3. Determine who arrived first\n4. Apply right-of-way rules\n\nDo not guess — follow the rules step by step.\n      "
+      }
+    ]
+  },
+  {
+    "topic": {
+      "slug": "license-information",
+      "title": "License Information"
+    },
+    "blocks": [
+      {
+        "type": "intro",
+        "title": "What Is a Driver’s Licence?",
+        "body": "\nA driver’s licence allows you to legally operate a motor vehicle.\n\nIn Alberta, driver licensing is **graduated**, meaning you gain driving privileges step by step.\nThis system helps new drivers build experience safely.\n  "
+      },
+      {
+        "type": "concept",
+        "title": "Alberta Driver’s Licence Classes",
+        "body": "\nAlberta has several licence classes.\n\nThe most common ones are:\n- **Class 7** – Learner (written test)\n- **Class 5 GDL** – Probationary licence\n- **Class 5** – Full licence\n\nEach class comes with different rules and privileges.\n  "
+      },
+      {
+        "type": "concept",
+        "title": "What Is a Class 7 Licence?",
+        "body": "\nA **Class 7** licence is a learner’s licence.\n\nIt allows you to begin driving **only under supervision** after passing the written knowledge test.\n\nMost new drivers — including newcomers to Canada — start with Class 7.\n  "
+      },
+      {
+        "type": "rules",
+        "title": "Age & Eligibility Requirements",
+        "body": "\nTo apply for a Class 7 licence, you must:\n- Be **14 years old or older**\n- Provide **identification**\n- Pass the **written knowledge test**\n- Pass a **vision test**\n\nNo road test is required for Class 7.\n  "
+      },
+      {
+        "type": "rules",
+        "title": "Class 7 Driving Restrictions",
+        "body": "\nWhen driving with a Class 7 licence:\n- You must be accompanied by a **fully licensed (Class 5)** driver\n- The supervising driver must be **18 years or older**\n- **Zero alcohol or drugs** allowed\n- You cannot drive between **midnight and 5 a.m.** (some exceptions apply)\n\nThese rules are strictly enforced.\n  "
+      },
+      {
+        "type": "mistakes",
+        "title": "Common Mistakes New Drivers Make",
+        "body": "\n- Thinking Class 7 allows solo driving\n- Not understanding alcohol zero-tolerance rules\n- Confusing Class 7 with Class 5 GDL\n- Ignoring supervision requirements\n\nThese mistakes can result in fines or licence suspension.\n  "
+      }
+    ]
+  },
+  {
+    "topic": {
+      "slug": "responsible-driving",
+      "title": "Responsible Driving"
+    },
+    "blocks": [
+      {
+        "type": "intro",
+        "title": "What Is Responsible Driving?",
+        "body": "\nResponsible driving means being **proactive, aware, and safe** on the road.\n\nFor Class 7 learners, responsible driving is essential to:\n- Avoid collisions\n- Protect passengers and other road users\n- Pass the knowledge test\n\nThis topic focuses on **driver behavior**, not just traffic laws.\n  "
+      },
+      {
+        "type": "concept",
+        "title": "Proactive Driving Basics",
+        "body": "\nResponsible drivers take action **before problems happen**.\n\nThis includes:\n- Developing a safe and patient attitude\n- Being aware of surroundings at all times\n- Making good decisions early, not at the last second\n- Driving defensively instead of aggressively\n\nGood driving starts with **thinking ahead**.\n  "
+      },
+      {
+        "type": "rules",
+        "title": "Defensive Driving Techniques",
+        "body": "\nDefensive driving means preparing for the actions of others.\n\nKey techniques include:\n\n- **Scan ahead**\n  - 12–15 seconds ahead in city driving\n  - 20–25 seconds ahead on highways\n\n- **Check mirrors**\n  - Every 8–12 seconds\n  - Perform shoulder checks for blind spots\n\n- **Watch for hazards**\n  - Fixed hazards: curves, intersections, parked vehicles\n  - Variable hazards: pedestrians, cyclists, ice, animals\n\n- **Keep space**\n  - Use the two-second following rule\n  - Increase distance in poor weather\n  - Maintain space in front, behind, and to the sides\n  "
+      },
+      {
+        "type": "rules",
+        "title": "Planning Ahead While Driving",
+        "body": "\nPlanning ahead reduces stress and sudden movements.\n\nResponsible drivers:\n- Signal early before turning or changing lanes\n- Choose the correct lane well in advance\n- Do not reverse if a turn is missed\n- Continue safely and take the next available route\n\nLate decisions often lead to collisions.\n  "
+      },
+      {
+        "type": "rules",
+        "title": "Impairment and Zero Tolerance",
+        "body": "\nFor Class 7 drivers, Alberta enforces **zero tolerance** for impairment.\n\nThis means:\n- No alcohol\n- No drugs\n- No cannabis\n\nAny amount can result in:\n- 30-day licence suspension\n- Vehicle seizure\n- Fines and penalties\n\nSome medications — even over-the-counter — can impair driving.\nAlways read labels and avoid driving if affected.\n  "
+      },
+      {
+        "type": "rules",
+        "title": "Using Mobile Devices",
+        "body": "\nIt is illegal to use a hand-held mobile device while driving.\n\nThis includes:\n- Texting\n- Calling\n- Holding a phone\n\nHands-free devices may be allowed, but distractions are still dangerous.\n      "
+      },
+      {
+        "type": "rules",
+        "title": "Fatigue and Driver Alertness",
+        "body": "\nDriving while tired is dangerous.\n\nSigns of fatigue include:\n- Slower reaction time\n- Drifting between lanes\n- Difficulty focusing\n\nTo manage fatigue:\n- Get proper sleep before driving\n- Take breaks every 2 hours\n- Keep the vehicle cool and ventilated\n- Pull over if you feel tired\n\nNever continue driving when alertness is reduced.\n  "
+      },
+      {
+        "type": "rules",
+        "title": "Passengers and Load Safety",
+        "body": "\nDrivers are responsible for their passengers and vehicle load.\n\nYou must:\n- Ensure all passengers wear seat belts\n- Never carry more passengers than seat belts\n- Follow child safety seat requirements\n- Secure loose items in the vehicle\n\nLoads extending more than 1.5 metres must be marked with a red flag.\n  "
+      },
+      {
+        "type": "mistakes",
+        "title": "Common Responsible Driving Mistakes",
+        "body": "\nCommon mistakes include:\n- Following too closely\n- Using a phone briefly while stopped\n- Driving while tired\n- Ignoring hazard awareness\n- Acting aggressively toward other drivers\n\nThese behaviors increase collision risk and exam failure.\n  "
+      },
+      {
+        "type": "concept",
+        "title": "Exam Tip: Responsible Driving Questions",
+        "body": "\nOn the Class 7 test:\n- Choose the **safest option**\n- Avoid aggressive or risky actions\n- Look for answers that reduce danger\n- Focus on hazard awareness and prevention\n\nThe correct answer usually shows **patience, caution, and control**.\n  "
+      }
+    ]
+  },
+  {
+    "topic": {
+      "slug": "road-signs",
+      "title": "Road Signs"
+    },
+    "blocks": [
+      {
+        "type": "intro",
+        "title": "Why Road Signs Matter",
+        "body": "\nRoad signs communicate **rules, warnings, and directions**.\n\nFor the Alberta Class 7 test, you must recognize signs by:\n- Shape\n- Color\n- Symbol\n\nText is often **not required** on the exam.\n    "
+      },
+      {
+        "type": "concept",
+        "title": "Main Categories of Road Signs",
+        "body": "\nRoad signs fall into four main categories:\n\n- **Regulatory** – rules you must obey  \n- **Warning** – hazards ahead  \n- **Guide** – directions and services  \n- **Construction** – road work zones\n    "
+      },
+      {
+        "type": "visual",
+        "title": "Shapes & Colors",
+        "body": "\nEach sign shape has a meaning, even without text.\n    ",
+        "imgUrl": "/road-signs/shapes-overview.png"
+      },
+      {
+        "type": "rules",
+        "title": "Exam Rules to Memorize",
+        "body": "\n- Red signs mean **stop or prohibited**\n- Yellow signs mean **warning**\n- Octagon shape is **only for STOP**\n- Triangle shape means **Yield**\n    "
+      },
+      {
+        "type": "mistakes",
+        "title": "Common Exam Mistakes",
+        "body": "\n- Confusing warning signs with regulatory signs\n- Ignoring shape and focusing only on text\n- Forgetting that school zones use a **pentagon**\n    "
+      }
+    ]
+  },
+  {
+    "topic": {
+      "slug": "share-the-road",
+      "title": "Share the Road"
+    },
+    "blocks": [
+      {
+        "type": "intro",
+        "title": "Why Sharing the Road Matters",
+        "body": "\nRoads are shared by many types of users.\n\nDrivers must safely share the road with:\n- Pedestrians\n- Cyclists\n- Motorcyclists\n- Large vehicles\n- Public transit\n\nThe Class 7 test checks awareness of vulnerable road users.\n      "
+      },
+      {
+        "type": "concept",
+        "title": "Sharing with Pedestrians",
+        "body": "\nPedestrians are the most vulnerable road users.\n\nDrivers must:\n- Yield at crosswalks\n- Stop for pedestrians when required\n- Watch for children and seniors\n- Be extra cautious in school zones\n\nAlways expect pedestrians to make mistakes.\n      "
+      },
+      {
+        "type": "rules",
+        "title": "Sharing with Cyclists",
+        "body": "\nCyclists have the same rights and responsibilities as drivers.\n\nWhen passing cyclists:\n- Leave at least **1 metre** of space\n- Slow down\n- Do not crowd or honk\n\nCyclists may use traffic lanes when necessary.\n      "
+      },
+      {
+        "type": "rules",
+        "title": "Sharing with Motorcyclists",
+        "body": "\nMotorcycles are harder to see than cars.\n\nDrivers should:\n- Check mirrors carefully\n- Allow full lane space\n- Avoid sudden lane changes\n\nNever assume a motorcycle is far away.\n      "
+      },
+      {
+        "type": "rules",
+        "title": "Sharing with Large Vehicles",
+        "body": "\nLarge vehicles have blind spots.\n\nDrivers must:\n- Avoid driving in blind spots\n- Give trucks extra space\n- Allow wide turns\n- Pass only when safe\n\nLarge vehicles need more time to stop.\n      "
+      },
+      {
+        "type": "mistakes",
+        "title": "Common Sharing-the-Road Mistakes",
+        "body": "\n- Tailgating large vehicles\n- Passing cyclists too closely\n- Ignoring pedestrians\n- Driving in blind spots\n\nThese mistakes are dangerous and exam-relevant.\n      "
+      },
+      {
+        "type": "concept",
+        "title": "Exam Tip: Sharing the Road",
+        "body": "\nFor sharing-the-road questions:\n- Choose the safest option\n- Protect vulnerable road users\n- Give space and time\n\nSafety is always the priority.\n      "
+      }
+    ]
+  },
+  {
+    "topic": {
+      "slug": "right-of-way",
+      "title": "The Right of Way"
+    },
+    "blocks": [
+      {
+        "type": "intro",
+        "title": "Understanding Right of Way",
+        "body": "\nRight of way determines **who moves first** in traffic situations.\n\nFor the Alberta Class 7 test, right-of-way questions are very common.\nYou must know when to:\n- Proceed\n- Yield\n- Stop completely\n\nRight of way is based on **rules**, not courtesy.\n      "
+      },
+      {
+        "type": "concept",
+        "title": "What Right of Way Means",
+        "body": "\nRight of way means the legal right to proceed before others.\n\nDrivers must:\n- Yield when required\n- Never force their way through\n- Always be prepared to stop\n\nHaving the right of way does **not** remove responsibility to drive safely.\n      "
+      },
+      {
+        "type": "rules",
+        "title": "Yielding to Pedestrians",
+        "body": "\nPedestrians have priority in many situations.\n\nYou must yield:\n- At marked and unmarked crosswalks\n- When turning at intersections\n- When pedestrians have a walk signal\n- To people using mobility aids\n\nFailing to yield to pedestrians is a serious offence.\n      "
+      },
+      {
+        "type": "rules",
+        "title": "Right of Way at Intersections",
+        "body": "\nGeneral right-of-way rules include:\n- Yield to vehicles already in the intersection\n- At uncontrolled intersections, yield to the vehicle on your **right**\n- At four-way stops, first to stop goes first\n- Vehicles going straight have priority over turning vehicles\n\nAlways come to a **complete stop** at stop signs.\n      "
+      },
+      {
+        "type": "rules",
+        "title": "Left and Right Turns",
+        "body": "\nWhen turning:\n- Yield to oncoming traffic\n- Yield to pedestrians crossing\n- Yield to cyclists in bike lanes\n\nLeft turns require extra caution and are tested frequently on the exam.\n      "
+      },
+      {
+        "type": "mistakes",
+        "title": "Common Right-of-Way Mistakes",
+        "body": "\n- Assuming others will yield\n- Forgetting pedestrians during turns\n- Rolling stops\n- Confusing courtesy with legal right-of-way\n\nThe exam tests **lawful behavior**, not politeness.\n      "
+      },
+      {
+        "type": "concept",
+        "title": "Exam Tip: Right-of-Way Questions",
+        "body": "\nTo answer right-of-way questions:\n1. Identify all road users\n2. Determine who must yield\n3. Apply the rule strictly\n4. Choose the safest legal option\n\nDo not guess based on what feels fair.\n      "
+      }
+    ]
+  },
+  {
+    "topic": {
+      "slug": "traffic-laws",
+      "title": "Traffic Laws"
+    },
+    "blocks": [
+      {
+        "type": "intro",
+        "title": "Why Traffic Laws Matter",
+        "body": "\nTraffic laws keep **everyone safe** on the road.\n\nThey control how drivers:\n- Interact with each other\n- Use the road safely\n- Avoid accidents and penalties\n\nThe Alberta Class 7 test focuses heavily on **basic traffic laws**.\n      "
+      },
+      {
+        "type": "concept",
+        "title": "Obeying Traffic Laws",
+        "body": "\nAll drivers must obey:\n- Traffic signs\n- Traffic signals\n- Road markings\n- Police instructions\n\nIgnoring traffic laws can lead to **fines, demerits, or licence suspension**.\n      "
+      },
+      {
+        "type": "rules",
+        "title": "Speed Limits and Speed Zones",
+        "body": "\nSpeed limits are set by law and must always be followed.\n\nYou must:\n- Follow posted speed limits\n- Reduce speed for weather, traffic, and visibility\n- Obey special speed zones\n\n### Common speed zones\n- **School zones** – lower speed during posted times\n- **Playground zones** – lower speed every day\n- **Construction zones** – reduced speed when workers are present\n\nSpeed-related questions are very common on the Class 7 test.\n  "
+      },
+      {
+        "type": "rules",
+        "title": "Seat Belts and Child Safety",
+        "body": "\nBy law:\n- All passengers must wear a **seat belt**\n- Children must use approved **child safety seats**\n- The driver is responsible for passengers under 16\n\nFailure to comply results in fines.\n      "
+      },
+      {
+        "type": "rules",
+        "title": "Alcohol, Drugs, and Driving",
+        "body": "\nAlberta has **zero tolerance** for alcohol and drugs for Class 7 drivers.\n\nThis means:\n- No alcohol\n- No drugs\n- No cannabis\n\nViolations can result in **immediate licence suspension**.\n      "
+      },
+      {
+        "type": "rules",
+        "title": "Using Mobile Devices",
+        "body": "\nIt is illegal to use a hand-held mobile device while driving.\n\nThis includes:\n- Texting\n- Calling\n- Holding a phone\n\nHands-free devices may be allowed, but distractions are still dangerous.\n      "
+      },
+      {
+        "type": "rules",
+        "title": "Following Emergency Vehicles",
+        "body": "\nWhen an emergency vehicle approaches:\n- Pull over to the **right side of the road**\n- Stop and remain stopped until it passes\n\nNever follow an emergency vehicle too closely.\n      "
+      },
+      {
+        "type": "mistakes",
+        "title": "Common Traffic Law Mistakes",
+        "body": "\n- Forgetting seat belt rules apply to all passengers\n- Thinking speed limits are suggestions\n- Using phones briefly while stopped\n- Not yielding to emergency vehicles\n\nThe exam tests **legal requirements**, not habits.\n      "
+      },
+      {
+        "type": "concept",
+        "title": "Exam Tip: How to Answer Traffic Law Questions",
+        "body": "\nWhen answering traffic law questions:\n1. Identify the rule being tested\n2. Ignore what “feels reasonable”\n3. Choose the option that follows the **law exactly**\n\nThe correct answer is always the **legal requirement**.\n      "
+      }
+    ]
+  },
+  {
+    "topic": {
+      "slug": "traffic-lights-and-signals",
+      "title": "Traffic Lights and Signals"
+    },
+    "blocks": [
+      {
+        "type": "intro",
+        "title": "Why Traffic Signals Matter",
+        "body": "\nTraffic lights and signals control traffic flow and prevent collisions.\n\nFor the Class 7 test, you must understand:\n- Signal colors\n- Arrow signals\n- Pedestrian signals\n\nMisunderstanding signals can lead to serious violations.\n      "
+      },
+      {
+        "type": "concept",
+        "title": "Traffic Light Colors",
+        "body": "\nTraffic lights use three main colors:\n\n- **Green** – Proceed if the way is clear\n- **Yellow** – Prepare to stop\n- **Red** – Stop completely\n\nDrivers must obey traffic lights at all times.\n      "
+      },
+      {
+        "type": "rules",
+        "title": "Green and Yellow Lights",
+        "body": "\nGreen light:\n- Proceed only if the intersection is clear\n- Yield to pedestrians and turning traffic when required\n\nYellow light:\n- Means the light is about to turn red\n- Stop safely if possible\n- Do not speed up to beat the red light\n      "
+      },
+      {
+        "type": "rules",
+        "title": "Red Lights and Right Turns",
+        "body": "\nRed light rules:\n- Come to a complete stop\n- Remain stopped until the light turns green\n\nRight turns on red:\n- Allowed after a complete stop\n- Must yield to pedestrians and traffic\n- Not allowed if a sign prohibits it\n      "
+      },
+      {
+        "type": "rules",
+        "title": "Arrow Signals",
+        "body": "\nArrow signals control turning movements.\n\n- Green arrow: turn in the arrow’s direction\n- Yellow arrow: prepare to stop\n- Red arrow: no turn allowed\n\nOnly turn when the arrow allows it.\n      "
+      },
+      {
+        "type": "rules",
+        "title": "Pedestrian Signals",
+        "body": "\nPedestrian signals include:\n- Walking person: pedestrians may cross\n- Flashing hand: do not start crossing\n- Solid hand: pedestrians must not cross\n\nDrivers must always yield to pedestrians legally crossing.\n      "
+      },
+      {
+        "type": "mistakes",
+        "title": "Common Signal Mistakes",
+        "body": "\n- Turning without yielding on green\n- Running yellow lights\n- Ignoring pedestrian signals\n- Turning on red without stopping\n\nSignal violations are heavily tested.\n      "
+      },
+      {
+        "type": "concept",
+        "title": "Exam Tip: Signal Questions",
+        "body": "\nOn the exam:\n- Obey signals over signs unless directed otherwise\n- Yield even when the light is green\n- Choose the safest legal action\n\nSignals control traffic flow — not speed.\n      "
+      }
+    ]
+  },
+  {
+    "topic": {
+      "slug": "vehicle-basics-and-parking",
+      "title": "Vehicle Basics & Parking"
+    },
+    "blocks": [
+      {
+        "type": "intro",
+        "title": "What you'll learn",
+        "body": "**In this topic you'll learn:**\n\n- The routine to follow before every drive, and how to sit, steer, and signal\n- How stopping distance works and how to brake smoothly\n- How to reverse and park (parallel, angle, perpendicular, and on hills) and where parking is not allowed\n\nThe numbers in this topic come up often on the knowledge test. They're collected in the **Key numbers** table near the end."
+      },
+      {
+        "type": "concept",
+        "title": "Before you drive: the 5-step routine",
+        "body": "Walk around your vehicle first. Look for children, pedestrians, and anything in your path, and check the tires and for fluid leaks underneath.\n\nThen, in the driver's seat, follow these steps **in this order**:\n\n1. **Lock the doors.** This keeps unwanted people out and makes the doors less likely to open in a collision.\n2. **Adjust your seat.** Sit at least **25 cm** from the steering wheel, with your elbows slightly bent, able to see over the wheel and reach the pedals.\n3. **Adjust the head restraint.** The centre should be level with the **top of your ears**, ideally less than **10 cm** behind your head. This protects your neck in a collision.\n4. **Adjust the mirrors.** Frame the whole rear window in the inside mirror. In each side mirror, you should just see a small part of your own vehicle.\n5. **Fasten your seat belt.** Wear the lap belt low and snug over your hips, and the shoulder belt across your chest. You must wear it even if the vehicle has air bags.\n\n*Driver's Guide pp. 44–45*"
+      },
+      {
+        "type": "concept",
+        "title": "Moving away from the curb",
+        "body": "Before pulling away:\n\n- Check that your path is clear.\n- Check your inside and outside mirrors.\n- **Shoulder check** your blind spot. Mirrors do not show everything beside you.\n\nWhen leaving the **right side** of the road, use your **left** signal. When leaving the left side of a one-way road, use your right signal.\n\n*Driver's Guide p. 45*"
+      },
+      {
+        "type": "concept",
+        "title": "Steering and signalling",
+        "body": "**Hand position:** hold the wheel at about **9 and 3 o'clock**. If the wheel design doesn't allow that, use 10 and 2. Turn corners **hand-over-hand**.\n\n**You must signal when you are:**\n\n- moving away from the curb or a parking lane\n- turning left or right\n- changing lanes\n\nDon't signal too early or too late, as either can confuse other drivers. Turn the signal off if it doesn't cancel by itself.\n\n**Hand signals** (from the driver's window):\n\n| Signal | Arm position |\n| --- | --- |\n| Left turn | Arm straight out |\n| Right turn | Arm bent **up** |\n| Slowing or stopping | Arm bent **down** |\n\n*Driver's Guide pp. 48–49*"
+      },
+      {
+        "type": "concept",
+        "title": "Stopping distance",
+        "body": "Stopping takes longer than most new drivers expect, because three things add up:\n\n**Total stopping distance = perception distance + reaction distance + braking distance**\n\n- **Perception:** noticing that you need to stop takes about **¾ of a second**, and often longer for new drivers.\n- **Reaction:** moving your foot from the gas to the brake takes about another **¾ of a second**.\n- **Braking:** the distance the vehicle travels after the brakes are applied.\n\nThe faster you go, the more ground you cover during each part. Things you control that affect stopping distance: how well you scan ahead, your alertness and fatigue, alcohol or drugs, your **speed**, and the condition of your brakes and tires.\n\n*Driver's Guide pp. 49–50*"
+      },
+      {
+        "type": "concept",
+        "title": "Braking smoothly",
+        "body": "- **Begin braking early.** Braking too late may not leave enough distance.\n- Take your foot off the gas before you brake.\n- **For a smooth stop:** just before the vehicle stops, ease off the brake slightly, then re-apply enough pressure to stop.\n- **To stop quickly (without ABS):** use **threshold braking**. Brake firmly up to the point just before the wheels lock. If they lock, ease off slightly. Locked wheels mean you can't steer.\n\n*Driver's Guide p. 50*"
+      },
+      {
+        "type": "concept",
+        "title": "Reversing",
+        "body": "Always reverse slowly, at a **crawl or walking pace**, and only when your path is clear.\n\n**In a straight line:**\n\n- Put your **left hand at the top** of the steering wheel and turn slightly onto your right hip.\n- Look over your **right shoulder** through the rear window, with glances to the front.\n- To correct, turn the wheel **no more than a quarter turn**.\n\n**Turning while reversing:** turn the wheel in the direction you want the **rear** of the vehicle to go. The front will swing the **opposite** way. Look over the shoulder on the side you are reversing toward.\n\n**Rules:**\n\n- It is **illegal** to reverse into an intersection or a crosswalk.\n- When reversing out of a driveway, go into the **nearest** traffic lane only, then drive forward.\n\n*Driver's Guide p. 51*"
+      },
+      {
+        "type": "concept",
+        "title": "Parallel parking",
+        "body": "To park between two vehicles at the right curb:\n\n1. Check behind you, then slow down well before the space so your brake lights warn drivers behind.\n2. Stop beside the vehicle in front of the space, **rear bumpers lined up**, about **1 metre** apart.\n3. Reverse slowly about half a metre, then steer **sharply right** until you are at about **45°** to the curb.\n4. Straighten the wheels and keep reversing until your front bumper clears the vehicle in front.\n5. Steer **sharply left** and reverse until you are parallel with the curb.\n\n**By law, your wheels must be no more than 50 cm from the curb.**\n\n**Leaving the space:** reverse close to the vehicle behind, signal **left**, shoulder check **left** for traffic and cyclists, then pull out.\n\n**Getting out on the street side:** check your mirrors and shoulder check for cyclists, open the door no wider than needed, and walk to the rear of the vehicle facing traffic.\n\n*Driver's Guide pp. 52–53*"
+      },
+      {
+        "type": "concept",
+        "title": "Angle and perpendicular parking",
+        "body": "**Angle parking** (about 45°, common in parking lots):\n\n- Signal, slow down, and stay about **1.5 metres** from the parked vehicles.\n- When you can see along the left side of the vehicle to the right of the space, steer sharply into it.\n- Stop when your front wheel **touches the curb or is within 50 cm** of it.\n- Leaving: reverse slowly and **yield** to traffic. It's hard to see when backing out.\n\n**Perpendicular parking** (90°):\n\n- Stay about **2 metres** from the parked vehicles as you approach.\n- A stall on your **left** is easier to enter, because you have more room to turn. Only enter a stall on your left **in a parking lot**, and check for oncoming traffic first.\n\n*Driver's Guide pp. 53–54*"
+      },
+      {
+        "type": "concept",
+        "title": "Parking on a hill",
+        "body": "**The idea:** turn your wheels so that if the vehicle rolls, it goes **away from traffic**, into the curb or off the road.\n\n| Situation | Turn the front wheels | Why |\n| --- | --- | --- |\n| **Downhill** (curb or no curb) | **Right**, toward the curb or edge | The vehicle rolls into the curb or off the road |\n| **Uphill with a curb** | **Left**, away from the curb | Roll back gently until the tire rests against the curb |\n| **Uphill without a curb** | **Right**, toward the edge | The vehicle rolls off the road, not into traffic |\n\n**Memory trick:** *\"Up and away\"*: uphill with a curb, turn **away** from the curb. Every other case, turn **right**.\n\nAlways set the **park brake**, and put the transmission in **Park** (automatic) or a low gear (manual). Parked on the **left** side of the road? Turn the wheels the opposite way.\n\n*Driver's Guide p. 55*"
+      },
+      {
+        "type": "concept",
+        "title": "Where you can't park",
+        "body": "**Never park:**\n\n- on a sidewalk or boulevard\n- on any part of a crosswalk, or within an intersection\n- on a bridge, an underpass, or their approaches\n- beside another parked vehicle (double-parking)\n- where signs prohibit stopping or parking\n- near street construction, or at a fire or crash scene, where you would block traffic or emergency crews\n\n**Minimum distances:**\n\n- **1.5 m** from a driveway, garage, or private road entrance\n- **5 m** from a **stop or yield sign**\n- **5 m** from a **marked crosswalk**\n- **5 m** from a **fire hydrant**, measured from the point on the curb nearest the hydrant\n- **5 m** from the edge of an **intersecting road**, unless parking is marked as allowed (for example, with a meter)\n\n**Outside urban areas:** don't park on the roadway or shoulder of a primary highway unless your vehicle has broken down or there is an emergency. Wherever you park, leave room for traffic to pass, and make sure you can be seen from **60 m** in both directions.\n\n*Driver's Guide pp. 55–56*"
+      },
+      {
+        "type": "rules",
+        "title": "Key numbers",
+        "body": "| What | Number | |\n| --- | --- | --- |\n| Seat to steering wheel | at least **25 cm** | guideline |\n| Head restraint | centre level with **top of ears**, under **10 cm** behind your head | guideline |\n| Perception time / reaction time | about **¾ s** each | |\n| Wheels to curb, parallel parking | max **50 cm** | **law** |\n| Front wheel to curb, angle parking | within **50 cm** | |\n| Gap beside the car ahead (parallel parking) | about **1 m** | guideline |\n| Distance from parked cars when angle parking | about **1.5 m** | guideline |\n| Distance from parked cars when perpendicular parking | about **2 m** | guideline |\n| Parking from a driveway entrance | at least **1.5 m** | **law** |\n| Parking from a stop/yield sign, marked crosswalk, fire hydrant, or intersecting road | at least **5 m** | **law** |\n| Visibility when parked outside urban areas | **60 m** both ways | **law** |"
+      },
+      {
+        "type": "mistakes",
+        "title": "Don't mix these up",
+        "body": "- **Hill parking:** uphill *with* a curb, wheels turn **left**. Uphill *without* a curb and all downhill parking, wheels turn **right**.\n- **50 cm vs 1.5 m vs 5 m:** 50 cm is wheels to the curb, 1.5 m is from a driveway, and 5 m is from a hydrant, stop/yield sign, crosswalk, or intersecting road.\n- **Reversing:** steer toward where you want the **rear** to go, because the front swings the other way.\n- **Smooth stop vs quick stop:** for a normal stop, ease off the brake just before stopping. For a quick stop without ABS, use threshold braking, firm but not locked.\n- **Leaving the right-hand curb:** use your **left** signal and shoulder check **left**, because traffic comes from your left."
+      }
+    ]
+  }
+]

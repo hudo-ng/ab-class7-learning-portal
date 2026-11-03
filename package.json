@@ -9,6 +9,7 @@
     "db:seed": "tsx ./db/seed.ts",
     "db:seed-admin": "tsx ./db/seedAdmin.ts",
     "db:seed-road-signs": "tsx ./db/seedRoadSigns.ts",
+    "db:seed-lessons": "tsx ./db/seedLessons.ts",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "lint": "eslint"
@@ -40,6 +41,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@tailwindcss/typography": "^0.5.20",
     "@types/bcrypt": "^6.0.0",
     "@types/node": "^20",
     "@types/react": "^19",

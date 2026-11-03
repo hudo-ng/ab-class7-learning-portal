@@ -1,44 +1,121 @@
 {
-  "topic": { "slug": "responsible-driving", "title": "Responsible Driving" },
+  "topic": {
+    "slug": "responsible-driving",
+    "title": "Safe & Legal Driving"
+  },
   "questions": [
-    {
-      "prompt": "If a driver is being followed by a vehicle that is attempting to pass on a two-way road, the driver should:",
-      "explanation": "When someone is passing you, stay in your lane, move to the right portion of it, and don't speed up. This gives the passing driver more room. Key words: \"right portion\".",
-      "choices": [
-        { "text": "Stay in the lane and move to the right portion of the lane", "correct": true },
-        { "text": "Turn on the right signal and drive in the parking lane" },
-        { "text": "Turn on the left signal and stay in the lane" },
-        { "text": "Stay in the lane and move to the left portion of the lane" }
-      ]
-    },
-    {
-      "prompt": "A \"weave zone\" is best described as:",
-      "explanation": "In a weave zone, an entrance lane and an exit lane share the same stretch of road, so drivers entering and drivers exiting must cross paths. Watch carefully and adjust your speed. Key words: \"entrance and exit lanes are close together\".",
-      "choices": [
-        { "text": "A place on a highway where the entrance and exit lanes are close together and vehicles that are slowing to exit the highway must drive between vehicles that are accelerating to enter the highway", "correct": true },
-        { "text": "A place where the highway has a series of curves that require the driver to slow down" },
-        { "text": "An area on the highway that is used for emergency parking" },
-        { "text": "A limited access area on a highway where a driver can legally back their vehicle when they miss their exit" }
-      ]
-    },
     {
       "prompt": "If another vehicle is following too close, what should a driver do?",
       "explanation": "If someone is tailgating, don't brake suddenly or speed up. Slow down gradually and give them a chance to pass. Key words: \"to pass\".",
       "choices": [
-        { "text": "Slow down gradually and encourage the other vehicle to pass", "correct": true },
-        { "text": "Press hard on the brake pedal" },
-        { "text": "Increase speed to 10 km/h above the posted speed limit" },
-        { "text": "Activate the four-way flashers" }
+        {
+          "text": "Slow down gradually and encourage the other vehicle to pass",
+          "correct": true
+        },
+        {
+          "text": "Press hard on the brake pedal"
+        },
+        {
+          "text": "Increase speed to 10 km/h above the posted speed limit"
+        },
+        {
+          "text": "Activate the four-way flashers"
+        }
       ]
     },
     {
-      "prompt": "On a two-lane highway, when passing other vehicles travelling in the same direction, a driver:",
-      "explanation": "On a two-lane highway, pass on the left, and only when it is safe and legal to do so.",
+      "prompt": "According to the law in Alberta, it is the driver's responsibility to ensure that all passengers under what age are properly restrained in the vehicle?",
+      "explanation": "The driver must make sure every passenger under 16 is wearing a seat belt or is in the correct child seat. Passengers 16 and older are responsible for themselves. Key words: \"all passengers\".",
       "choices": [
-        { "text": "Should pass on the left when safe", "correct": true },
-        { "text": "Should pass on the right when safe" },
-        { "text": "Should always travel 30 km/h faster than the vehicle being passed" },
-        { "text": "Should not pull out to pass until they are within 3 metres of the vehicle being passed" }
+        {
+          "text": "18 years"
+        },
+        {
+          "text": "24 years"
+        },
+        {
+          "text": "21 years"
+        },
+        {
+          "text": "16 years",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "In Alberta, the law requires that seat belts must be worn:",
+      "explanation": "Alberta law requires seat belts to be worn and properly adjusted at all times while the vehicle is moving.",
+      "choices": [
+        {
+          "text": "Only while carrying passengers"
+        },
+        {
+          "text": "Properly at all times",
+          "correct": true
+        },
+        {
+          "text": "Only when driving at highway speeds"
+        },
+        {
+          "text": "Only when driving in the city"
+        }
+      ]
+    },
+    {
+      "prompt": "Using the 2-second rule to judge a safe following distance when driving:",
+      "explanation": "The 2-second rule measures time, not distance, so the gap grows automatically as you go faster and the rule works at any speed. Leave more time in poor road or weather conditions. Key words: \"any speed\".",
+      "choices": [
+        {
+          "text": "Is more accurate on rural highways than in urban centres"
+        },
+        {
+          "text": "Is not accurate at speeds greater than 100 km/h"
+        },
+        {
+          "text": "Is accurate at any speed",
+          "correct": true
+        },
+        {
+          "text": "Is not accurate at speeds lower than 100 km/h"
+        }
+      ]
+    },
+    {
+      "prompt": "When a driver is stopping behind another vehicle in traffic:",
+      "explanation": "Stop far enough back that you could steer around the vehicle ahead without reversing, for example if it stalls. A good guide is being able to see where its rear tires touch the road. Key words: \"sufficient space\".",
+      "choices": [
+        {
+          "text": "Keep back approximately 1 metre from the rear bumper of the vehicle ahead"
+        },
+        {
+          "text": "Allow sufficient space to move into another lane without reversing",
+          "correct": true
+        },
+        {
+          "text": "Remain a minimum of 10 metres from the vehicle ahead"
+        },
+        {
+          "text": "Maintain sufficient space as determined by the 2-second rule"
+        }
+      ]
+    },
+    {
+      "prompt": "When travelling in urban areas, drivers should scan the road approximately:",
+      "explanation": "In urban areas, look about 12 to 15 seconds ahead, roughly one city block, so you can spot hazards early. Key words: \"scan the road\".",
+      "choices": [
+        {
+          "text": "25 to 30 seconds ahead"
+        },
+        {
+          "text": "20 to 30 seconds ahead"
+        },
+        {
+          "text": "12 to 15 seconds ahead",
+          "correct": true
+        },
+        {
+          "text": "1 to 6 seconds ahead"
+        }
       ]
     }
   ]

@@ -1,0 +1,70 @@
+{
+  "topic": { "slug": "intersections-and-turns", "title": "Intersections, Right-of-Way & Turns" },
+  "blocks": [
+    {
+      "type": "intro",
+      "title": "What you'll learn",
+      "body": "**In this topic you'll learn:**\n\n- Who has the right-of-way at stop signs, yield signs, four-way stops, and uncontrolled intersections\n- Where exactly to stop at an intersection\n- How to use single-lane and two-lane roundabouts\n- How to make right turns, left turns, dual turns, and U-turns correctly\n\nIntersections are where most conflicts between road users happen, and they come up often on the test."
+    },
+    {
+      "type": "concept",
+      "title": "Right-of-way: the basics",
+      "body": "Right-of-way rules decide **who yields** and who goes. They come from signs, signals, and sometimes your position relative to other vehicles.\n\n- **Having the right-of-way doesn't mean you can take it.** You must still do everything you can to avoid a collision. Make sure the other driver is actually yielding before you go.\n- A **peace officer's directions** override signs and signals.\n\n*Driver's Guide p. 58*"
+    },
+    {
+      "type": "concept",
+      "title": "Stop signs: where to stop",
+      "body": "Come to a **complete stop** at the first of these that applies:\n\n1. **Before the stop line**, if there is one.\n2. If there's no stop line, **before the marked crosswalk**.\n3. If there's neither, **within 3 metres** of the intersecting road, where you won't block pedestrians.\n\nThen yield to pedestrians and traffic, and go only when it's safe.\n\n*Driver's Guide pp. 58–59*"
+    },
+    {
+      "type": "concept",
+      "title": "Four-way stops and yield signs",
+      "body": "**Three- and four-way stops (\"courtesy corners\"):** everyone stops.\n\n- The vehicle that **arrived first goes first**.\n- If two arrive at the **same time**, the vehicle on the **right** goes first.\n\n**Yield signs:** slow down and be ready to stop. Give the right-of-way to traffic that doesn't face a yield sign and to pedestrians. **If no one is coming, you don't have to stop**, but approach slowly enough that you could.\n\n*Driver's Guide p. 59*"
+    },
+    {
+      "type": "concept",
+      "title": "Uncontrolled intersections",
+      "body": "At an intersection with **no signs or signals**, you must **yield to the vehicle on your right**. Slow down enough to stop, especially when fences, trees, or parked cars block your view.\n\n- **Uncontrolled T intersections:** the same rule applies, so the driver on the **right** has the right-of-way. Watch out: the driver going straight across the top of the T may wrongly assume they have it.\n- **Left turns:** a driver turning left across oncoming traffic must wait until it's safe.\n- **Parking lots** have uncontrolled intersections, and the same rules apply.\n\n**Leaving an alley, driveway, or parking lot:** stop **before the sidewalk**, stop again before entering the street, and yield to pedestrians.\n\n*Driver's Guide pp. 59–60*"
+    },
+    {
+      "type": "concept",
+      "title": "Pedestrians and keeping intersections clear",
+      "body": "- **Every intersection has crosswalks**, marked or not. Yield to pedestrians in them.\n- **Never pass a vehicle that has stopped for a pedestrian.** It may be hiding someone crossing.\n- **Don't enter an intersection unless you can clear it**, including the crosswalk on the far side. Stopping in the middle blocks cross traffic and pedestrians.\n\n*Driver's Guide pp. 60–61*"
+    },
+    {
+      "type": "concept",
+      "title": "Roundabouts and traffic circles",
+      "body": "Traffic always flows **counterclockwise**. **Entering vehicles yield to traffic already in the circle.**\n\n**Single-lane:** to leave at the **first exit**, signal right as you approach. For a later exit, turn on your right signal **after passing the exit before yours**.\n\n**Two-lane:**\n\n| Lane | Use it to | Enter and exit |\n| --- | --- | --- |\n| **Right** | Take the **first exit** | Enter from and exit to the right lane |\n| **Left** | Go **past the first exit** | Enter from and exit to the left lane |\n\n- **Don't change lanes** in the circle. Drivers in the right lane yield to drivers in the left lane.\n- When leaving from the left lane, check for traffic in the right lane.\n- If you can't exit safely, go around again.\n- Watch for pedestrians and cyclists at crosswalks, which are set back from the circle.\n\n*Driver's Guide pp. 61–63*"
+    },
+    {
+      "type": "concept",
+      "title": "Right turns",
+      "body": "- Be in the correct lane at least **15 metres** before the intersection.\n- Stay within **1 metre** of the curb as you approach, turn, and leave.\n- Shoulder check **right** for cyclists, and **yield to pedestrians**. Don't enter the crosswalk until they're clear.\n- Turn into the **first available lane**, the curb lane. If a parked car is close to the corner, turn into the next lane instead.\n- **Don't swing wide** into two lanes.\n- **Right on red** is allowed after a **complete stop** unless a sign prohibits it.\n\n*Driver's Guide pp. 63–64*"
+    },
+    {
+      "type": "concept",
+      "title": "Left turns",
+      "body": "Poor judgement on left turns is a **leading cause of collisions**. Be in your lane at least **15 metres** before the intersection.\n\n| Turning from → onto | Turn from | Turn into |\n| --- | --- | --- |\n| Two-way → two-way | Lane just right of the yellow line | Lane just right of the yellow line |\n| Two-way → one-way | Lane just right of the yellow line | **First lane on the left side** |\n| One-way → two-way | **Leftmost** lane | Lane just right of the yellow line |\n| One-way → one-way | **Leftmost** lane | **Leftmost** lane (also allowed on red after a full stop) |\n\n- **Waiting in the intersection?** Keep your **wheels pointed straight**, so a rear-end collision won't push you into oncoming traffic.\n- Before turning left off a two-lane highway, **shoulder check left** in case someone is passing you.\n- Yield to oncoming traffic and to pedestrians crossing on your left.\n\n*Driver's Guide pp. 65–66*"
+    },
+    {
+      "type": "concept",
+      "title": "Dual turns and two-way left-turn lanes",
+      "body": "**Dual turns** are only allowed where signs or markings show them. Turn from your marked lane **into the matching lane**, and never swing wide or change lanes during the turn. Watch the vehicle beside you. If the lanes merge after the turn, the lane that ends must change lanes properly.\n\n**Two-way left-turn lanes:** the centre lane is shared by left-turning traffic from **both directions**. You may cross the solid yellow line to enter it, but enter only **close to where you'll turn**, and watch for oncoming vehicles in it.\n\n*Driver's Guide pp. 66–67*"
+    },
+    {
+      "type": "concept",
+      "title": "U-turns",
+      "body": "Make a U-turn only when it's safe. **U-turns are not allowed:**\n\n- at intersections with **traffic lights**, unless a sign permits it\n- where a **sign prohibits** them\n\n**In urban areas, also not:**\n\n- between intersections (mid-block)\n- at an **alley** intersection\n- where one of the roads is an entrance to a **public parking lot**\n\n**Outside urban areas, also not:**\n\n- on a **curve**\n- near the **crest of a hill**, where drivers within **150 metres** can't see you\n\n*Driver's Guide p. 67*"
+    },
+    {
+      "type": "rules",
+      "title": "Key numbers",
+      "body": "| What | Number |\n| --- | --- |\n| Stop if there's no stop line or crosswalk | within **3 m** of the intersecting road |\n| Be in your turning lane | at least **15 m** before the intersection |\n| Distance from curb when turning right | within **1 m** |\n| No rural U-turn near a hill crest | if drivers within **150 m** can't see you |"
+    },
+    {
+      "type": "mistakes",
+      "title": "Don't mix these up",
+      "body": "- **Four-way stop:** first to arrive goes first. Arriving together, the vehicle on the **right** goes first.\n- **Uncontrolled intersections (including T intersections):** yield to the vehicle on your **right**.\n- **Yield sign:** you only have to stop if someone needs you to yield.\n- **Roundabouts:** entering traffic yields to traffic in the circle. Inside a two-lane circle, the **right** lane yields to the **left**.\n- **Waiting to turn left:** keep the wheels **straight**, not turned.\n- **U-turns are never allowed at traffic lights** unless a sign permits them."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "topic": { "slug": "basics-of-driving", "title": "Vehicle Basics & Parking" },
+  "blocks": [
+    {
+      "type": "intro",
+      "title": "What you'll learn",
+      "body": "**In this topic you'll learn:**\n\n- The routine to follow before every drive, and how to sit, steer, and signal\n- How stopping distance works and how to brake smoothly\n- How to reverse and park (parallel, angle, perpendicular, and on hills) and where parking is not allowed\n\nThe numbers in this topic come up often on the knowledge test. They're collected in the **Key numbers** table near the end."
+    },
+    {
+      "type": "concept",
+      "title": "Before you drive: the 5-step routine",
+      "body": "Walk around your vehicle first. Look for children, pedestrians, and anything in your path, and check the tires and for fluid leaks underneath.\n\nThen, in the driver's seat, follow these steps **in this order**:\n\n1. **Lock the doors.** This keeps unwanted people out and makes the doors less likely to open in a collision.\n2. **Adjust your seat.** Sit at least **25 cm** from the steering wheel, with your elbows slightly bent, able to see over the wheel and reach the pedals.\n3. **Adjust the head restraint.** The centre should be level with the **top of your ears**, ideally less than **10 cm** behind your head. This protects your neck in a collision.\n4. **Adjust the mirrors.** Frame the whole rear window in the inside mirror. In each side mirror, you should just see a small part of your own vehicle.\n5. **Fasten your seat belt.** Wear the lap belt low and snug over your hips, and the shoulder belt across your chest. You must wear it even if the vehicle has air bags.\n\n*Driver's Guide pp. 44–45*"
+    },
+    {
+      "type": "concept",
+      "title": "Moving away from the curb",
+      "body": "Before pulling away:\n\n- Check that your path is clear.\n- Check your inside and outside mirrors.\n- **Shoulder check** your blind spot. Mirrors do not show everything beside you.\n\nWhen leaving the **right side** of the road, use your **left** signal. When leaving the left side of a one-way road, use your right signal.\n\n*Driver's Guide p. 45*"
+    },
+    {
+      "type": "concept",
+      "title": "Steering and signalling",
+      "body": "**Hand position:** hold the wheel at about **9 and 3 o'clock**. If the wheel design doesn't allow that, use 10 and 2. Turn corners **hand-over-hand**.\n\n**You must signal when you are:**\n\n- moving away from the curb or a parking lane\n- turning left or right\n- changing lanes\n\nDon't signal too early or too late, as either can confuse other drivers. Turn the signal off if it doesn't cancel by itself.\n\n**Hand signals** (from the driver's window):\n\n| Signal | Arm position |\n| --- | --- |\n| Left turn | Arm straight out |\n| Right turn | Arm bent **up** |\n| Slowing or stopping | Arm bent **down** |\n\n*Driver's Guide pp. 48–49*"
+    },
+    {
+      "type": "concept",
+      "title": "Stopping distance",
+      "body": "Stopping takes longer than most new drivers expect, because three things add up:\n\n**Total stopping distance = perception distance + reaction distance + braking distance**\n\n- **Perception:** noticing that you need to stop takes about **¾ of a second**, and often longer for new drivers.\n- **Reaction:** moving your foot from the gas to the brake takes about another **¾ of a second**.\n- **Braking:** the distance the vehicle travels after the brakes are applied.\n\nThe faster you go, the more ground you cover during each part. Things you control that affect stopping distance: how well you scan ahead, your alertness and fatigue, alcohol or drugs, your **speed**, and the condition of your brakes and tires.\n\n*Driver's Guide pp. 49–50*"
+    },
+    {
+      "type": "concept",
+      "title": "Braking smoothly",
+      "body": "- **Begin braking early.** Braking too late may not leave enough distance.\n- Take your foot off the gas before you brake.\n- **For a smooth stop:** just before the vehicle stops, ease off the brake slightly, then re-apply enough pressure to stop.\n- **To stop quickly (without ABS):** use **threshold braking**. Brake firmly up to the point just before the wheels lock. If they lock, ease off slightly. Locked wheels mean you can't steer.\n\n*Driver's Guide p. 50*"
+    },
+    {
+      "type": "concept",
+      "title": "Reversing",
+      "body": "Always reverse slowly, at a **crawl or walking pace**, and only when your path is clear.\n\n**In a straight line:**\n\n- Put your **left hand at the top** of the steering wheel and turn slightly onto your right hip.\n- Look over your **right shoulder** through the rear window, with glances to the front.\n- To correct, turn the wheel **no more than a quarter turn**.\n\n**Turning while reversing:** turn the wheel in the direction you want the **rear** of the vehicle to go. The front will swing the **opposite** way. Look over the shoulder on the side you are reversing toward.\n\n**Rules:**\n\n- It is **illegal** to reverse into an intersection or a crosswalk.\n- When reversing out of a driveway, go into the **nearest** traffic lane only, then drive forward.\n\n*Driver's Guide p. 51*"
+    },
+    {
+      "type": "concept",
+      "title": "Parallel parking",
+      "body": "To park between two vehicles at the right curb:\n\n1. Check behind you, then slow down well before the space so your brake lights warn drivers behind.\n2. Stop beside the vehicle in front of the space, **rear bumpers lined up**, about **1 metre** apart.\n3. Reverse slowly about half a metre, then steer **sharply right** until you are at about **45°** to the curb.\n4. Straighten the wheels and keep reversing until your front bumper clears the vehicle in front.\n5. Steer **sharply left** and reverse until you are parallel with the curb.\n\n**By law, your wheels must be no more than 50 cm from the curb.**\n\n**Leaving the space:** reverse close to the vehicle behind, signal **left**, shoulder check **left** for traffic and cyclists, then pull out.\n\n**Getting out on the street side:** check your mirrors and shoulder check for cyclists, open the door no wider than needed, and walk to the rear of the vehicle facing traffic.\n\n*Driver's Guide pp. 52–53*"
+    },
+    {
+      "type": "concept",
+      "title": "Angle and perpendicular parking",
+      "body": "**Angle parking** (about 45°, common in parking lots):\n\n- Signal, slow down, and stay about **1.5 metres** from the parked vehicles.\n- When you can see along the left side of the vehicle to the right of the space, steer sharply into it.\n- Stop when your front wheel **touches the curb or is within 50 cm** of it.\n- Leaving: reverse slowly and **yield** to traffic. It's hard to see when backing out.\n\n**Perpendicular parking** (90°):\n\n- Stay about **2 metres** from the parked vehicles as you approach.\n- A stall on your **left** is easier to enter, because you have more room to turn. Only enter a stall on your left **in a parking lot**, and check for oncoming traffic first.\n\n*Driver's Guide pp. 53–54*"
+    },
+    {
+      "type": "concept",
+      "title": "Parking on a hill",
+      "body": "**The idea:** turn your wheels so that if the vehicle rolls, it goes **away from traffic**, into the curb or off the road.\n\n| Situation | Turn the front wheels | Why |\n| --- | --- | --- |\n| **Downhill** (curb or no curb) | **Right**, toward the curb or edge | The vehicle rolls into the curb or off the road |\n| **Uphill with a curb** | **Left**, away from the curb | Roll back gently until the tire rests against the curb |\n| **Uphill without a curb** | **Right**, toward the edge | The vehicle rolls off the road, not into traffic |\n\n**Memory trick:** *\"Up and away\"*: uphill with a curb, turn **away** from the curb. Every other case, turn **right**.\n\nAlways set the **park brake**, and put the transmission in **Park** (automatic) or a low gear (manual). Parked on the **left** side of the road? Turn the wheels the opposite way.\n\n*Driver's Guide p. 55*"
+    },
+    {
+      "type": "concept",
+      "title": "Where you can't park",
+      "body": "**Never park:**\n\n- on a sidewalk or boulevard\n- on any part of a crosswalk, or within an intersection\n- on a bridge, an underpass, or their approaches\n- beside another parked vehicle (double-parking)\n- where signs prohibit stopping or parking\n- near street construction, or at a fire or crash scene, where you would block traffic or emergency crews\n\n**Minimum distances:**\n\n- **1.5 m** from a driveway, garage, or private road entrance\n- **5 m** from a **stop or yield sign**\n- **5 m** from a **marked crosswalk**\n- **5 m** from a **fire hydrant**, measured from the point on the curb nearest the hydrant\n- **5 m** from the edge of an **intersecting road**, unless parking is marked as allowed (for example, with a meter)\n\n**Outside urban areas:** don't park on the roadway or shoulder of a primary highway unless your vehicle has broken down or there is an emergency. Wherever you park, leave room for traffic to pass, and make sure you can be seen from **60 m** in both directions.\n\n*Driver's Guide pp. 55–56*"
+    },
+    {
+      "type": "rules",
+      "title": "Key numbers",
+      "body": "| What | Number | |\n| --- | --- | --- |\n| Seat to steering wheel | at least **25 cm** | guideline |\n| Head restraint | centre level with **top of ears**, under **10 cm** behind your head | guideline |\n| Perception time / reaction time | about **¾ s** each | |\n| Wheels to curb, parallel parking | max **50 cm** | **law** |\n| Front wheel to curb, angle parking | within **50 cm** | |\n| Gap beside the car ahead (parallel parking) | about **1 m** | guideline |\n| Distance from parked cars when angle parking | about **1.5 m** | guideline |\n| Distance from parked cars when perpendicular parking | about **2 m** | guideline |\n| Parking from a driveway entrance | at least **1.5 m** | **law** |\n| Parking from a stop/yield sign, marked crosswalk, fire hydrant, or intersecting road | at least **5 m** | **law** |\n| Visibility when parked outside urban areas | **60 m** both ways | **law** |"
+    },
+    {
+      "type": "mistakes",
+      "title": "Don't mix these up",
+      "body": "- **Hill parking:** uphill *with* a curb, wheels turn **left**. Uphill *without* a curb and all downhill parking, wheels turn **right**.\n- **50 cm vs 1.5 m vs 5 m:** 50 cm is wheels to the curb, 1.5 m is from a driveway, and 5 m is from a hydrant, stop/yield sign, crosswalk, or intersecting road.\n- **Reversing:** steer toward where you want the **rear** to go, because the front swings the other way.\n- **Smooth stop vs quick stop:** for a normal stop, ease off the brake just before stopping. For a quick stop without ABS, use threshold braking, firm but not locked.\n- **Leaving the right-hand curb:** use your **left** signal and shoulder check **left**, because traffic comes from your left."
+    }
+  ]
+}

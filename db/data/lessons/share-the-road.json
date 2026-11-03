@@ -1,0 +1,65 @@
+{
+  "topic": { "slug": "share-the-road", "title": "Sharing the Road" },
+  "blocks": [
+    {
+      "type": "intro",
+      "title": "What you'll learn",
+      "body": "**In this topic you'll learn:**\n\n- How to protect pedestrians, cyclists, and motorcycle riders, the road users with the least protection\n- How to drive safely around large trucks, log haulers, and snowplows\n- The **school bus** rules, which drivers often get wrong\n- How to cross railway and light rail tracks safely"
+    },
+    {
+      "type": "concept",
+      "title": "Pedestrians",
+      "body": "- A pedestrian in an urban area may signal that they want to cross by **raising an arm at a right angle and pointing** to the other curb. You must **stop before the crosswalk** and let them cross.\n- Once a pedestrian is in a **marked or unmarked crosswalk**, you must yield.\n- Stop about **2–3 car lengths** back, so drivers in other lanes can see the pedestrian.\n- **Never pass** a vehicle as you approach a crosswalk. It may be stopping for someone you can't see.\n- At a **flashing yellow pedestrian light**, slow to **30 km/h** and yield.\n- Watch for children near parked cars. Look **under** parked vehicles for feet and bicycle wheels.\n- Be patient with people using a **white cane or guide dog**.\n\n*Driver's Guide p. 97*"
+    },
+    {
+      "type": "concept",
+      "title": "Cyclists",
+      "body": "- A bicycle being ridden is a **vehicle**, and its rider follows the same rules. A person **walking** a bicycle is a **pedestrian**.\n- Cyclists ride near the right curb, but may move out to avoid grates, potholes, or gravel.\n- **To pass a cyclist, change lanes**, as you would for a car.\n- Before turning right, **shoulder check right** for cyclists beside you.\n- **Before opening your door**, check for cyclists. That's the driver's responsibility.\n- **Don't follow too closely.** Bicycles have no brake lights.\n- Riders and passengers **under 18** must wear a bicycle helmet.\n\n*Driver's Guide pp. 97–98*"
+    },
+    {
+      "type": "concept",
+      "title": "Motorcycles",
+      "body": "- Riders often use the **left part of their lane** to be more visible. **It doesn't mean they're turning left.**\n- **Never share a lane** with a motorcycle. It needs the whole lane.\n- Leave **extra following distance**, because motorcycles can stop very quickly.\n- When turning left, look carefully for oncoming motorcycles. They're hard to see, and their speed is hard to judge.\n- A rider's shoulder check is a clue they may change lanes or turn.\n\n*Driver's Guide pp. 98–99*"
+    },
+    {
+      "type": "concept",
+      "title": "Large trucks and buses",
+      "body": "- **Blind spots are huge.** If you can't see a truck's side mirrors, you're too close. If you can see the driver in the mirror, they can see you.\n- **Don't cut in front** of a large vehicle, especially near a traffic light. It needs much more room to stop. After passing one, leave **extra room** before moving back in front.\n- **Don't squeeze in on the right** of a truck turning right. It needs extra room and may swing wide.\n- If a truck is turning onto your road, **stop back** from the intersection. It may need part of your lane.\n- On a hill, leave room in front of you, because a truck may **roll back** when starting.\n- Passing takes **longer** than you think. Be sure you have room.\n- Use caution with **oversized loads**. They often travel slowly and will pull over to let traffic pass.\n\n*Driver's Guide pp. 99–100*"
+    },
+    {
+      "type": "concept",
+      "title": "Log hauling trucks",
+      "body": "**Never pass a log hauling truck that is turning** left or right off the highway.\n\nThe logs can extend up to **9 metres** past the back of the truck. When the truck turns, they swing out and can block **some or all lanes** of the highway, creating a danger zone.\n\n*Driver's Guide p. 100*"
+    },
+    {
+      "type": "concept",
+      "title": "School buses",
+      "body": "| Bus shows | On an undivided road | On a road divided by a median |\n| --- | --- | --- |\n| **Flashing amber** lights | **Be ready to stop**: the bus is about to stop. You may pass, with caution. | **From behind:** same as undivided. **From the front:** proceed with caution. |\n| **Flashing red** lights + **stop arm** | **Stop about 20 m away**, from **both directions**, in **all lanes** | **From behind: stop.** From the front: proceed with caution and watch for pedestrians. |\n\nStay stopped until the red lights **turn off** and the stop arm is **pulled back**. Failing to stop for a school bus costs **6 demerit points**.\n\n*Driver's Guide pp. 101–102, 109*"
+    },
+    {
+      "type": "concept",
+      "title": "Snowplows",
+      "body": "- Snowplows use **flashing amber and red lights**: \"amber and red means snowplow ahead.\"\n- Stay well back. Plows throw up snow clouds and sand.\n- **Passing is prohibited** when you can't see along the side of the plow, when passing would interfere with it, or when it can't be done safely.\n- Plows pull over every **5–8 km** to let traffic pass, so it's safer to wait.\n- When a plow is coming toward you, watch for vehicles **passing it in your lane**.\n\n*Driver's Guide p. 102*"
+    },
+    {
+      "type": "concept",
+      "title": "Railway and LRT crossings",
+      "body": "**Never race a train.** A train can take **a kilometre or more** to stop.\n\n- **Advance warning sign** (yellow, with a railway symbol): slow down, look, and listen. The speed tab is the recommended crossing speed.\n- **Crossing sign (crossbuck):** yield to trains. You must stop if a train is visible or sounding a signal within **500 m**.\n- **Stop sign at a crossing:** stop between **5 and 15 m** from the nearest rail.\n- **Flashing lights and bells:** stop at least **5 m** from the nearest rail, and wait until they stop.\n- **Gates:** **never drive around them**, even after a train has passed. Another may be coming.\n- Don't shift gears on the tracks, and don't start across unless you can clear it.\n- **Stalled on the tracks?** Get everyone out and away. Move **toward the approaching train**, away from the tracks, to avoid flying debris.\n- **LRT trains** are very quiet and can take up to **100 m** to stop.\n- Buses and vehicles carrying dangerous goods may be required to stop at crossings, so be ready.\n\n*Driver's Guide pp. 103–105*"
+    },
+    {
+      "type": "concept",
+      "title": "Funeral processions and off-highway vehicles",
+      "body": "- **Don't drive through** a funeral procession. Yield until it has passed.\n- Drivers **in** the procession, with headlights on, may continue through stop signs and red lights when closely following the vehicle ahead and it's safe.\n- Watch for **ATVs and snowmobiles** near or crossing the highway.\n\n*Driver's Guide p. 105*"
+    },
+    {
+      "type": "rules",
+      "title": "Key numbers",
+      "body": "| What | Number |\n| --- | --- |\n| Flashing yellow pedestrian light | max **30 km/h** |\n| Stopping back from a crosswalk | about **2–3 car lengths** |\n| Bicycle helmets required | under **18** |\n| Log overhang | up to **9 m** |\n| Stop for a school bus with red lights | about **20 m** away |\n| Snowplows pull over | every **5–8 km** |\n| Must stop for an approaching train | within **500 m** |\n| Stop sign at a railway crossing | **5–15 m** from the nearest rail |\n| Flashing lights / bells at a crossing | at least **5 m** from the nearest rail |\n| Train stopping distance | **1 km** or more |\n| LRT stopping distance | up to **100 m** |"
+    },
+    {
+      "type": "mistakes",
+      "title": "Don't mix these up",
+      "body": "- **School bus amber vs red:** amber means get ready to stop. Red with the stop arm means **stop**, in both directions on an undivided road.\n- **Divided highway:** only traffic **behind** the bus must stop for red lights. Oncoming traffic proceeds with caution.\n- **Walking a bike = pedestrian. Riding it = vehicle.**\n- **A motorcycle on the left of its lane** isn't signalling a left turn.\n- **Can't see the truck's mirrors?** The driver can't see you either.\n- **Railway gates:** never drive around them, even right after a train passes."
+    }
+  ]
+}

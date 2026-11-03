@@ -1,9 +1,9 @@
 {
-  "topic": { "slug": "license-information", "title": "License Information" },
+  "topic": { "slug": "license-information", "title": "Licensing & GDL" },
   "questions": [
     {
       "prompt": "Does a parent have the right to withdraw a previously given \"parental consent\" for someone under 18 years of age with respect to an operator's license?",
-      "explanation": "A parent or guardian who signed consent for an applicant under 18 can withdraw it while that person is still under 18, unless they are self-supporting or married. The licence is then cancelled. Key words: \"not self-supporting or married\".",
+      "explanation": "A parent or guardian who signed consent for an applicant under 18 can withdraw it while that person is still under 18, unless they are self-supporting or married. The licence is then suspended. Key words: \"not self-supporting or married\".",
       "choices": [
         { "text": "Yes, providing the person is still under the age of 18 and is not self-supporting or married", "correct": true },
         { "text": "Yes, provided that both parents verbally agree to withdraw the consent at a registry office" },

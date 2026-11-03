@@ -1,0 +1,67 @@
+{
+  "topic": { "slug": "road-signs", "title": "Road Signs" },
+  "blocks": [
+    {
+      "type": "intro",
+      "title": "What you'll learn",
+      "body": "**In this topic you'll learn:**\n\n- How to read a sign's **shape and colour** before you can read its words\n- The regulatory signs you must obey, and the warning signs that tell you what's ahead\n- Default speed limits, and the rules for **school and playground zones**\n- Construction zones and other special signs\n\nSign questions make up a large part of the knowledge test. Learn the shapes and colours first, and many signs become easy to guess."
+    },
+    {
+      "type": "concept",
+      "title": "Shape and colour tell you the type",
+      "body": "| Shape / colour | Meaning |\n| --- | --- |\n| Red **octagon** | Stop |\n| Red and white **upside-down triangle** | Yield |\n| **Red circle with slash** on white | That action is **not allowed** |\n| **Green circle** on white | That action **is allowed** |\n| White **rectangle**, black text | Regulation you must obey (e.g. speed limit) |\n| Yellow **diamond** | **Warning** of a hazard ahead |\n| Orange **diamond** | **Construction** zone |\n| Fluorescent yellow-green **pentagon** | **School** zone or area |\n| Black **square**, white symbol | **Lane control**: where each lane may go |\n| Green **rectangle** | Directions and distances |\n| Blue **square** | Services: fuel, food, lodging |\n\n*Driver's Guide pp. 25–26*"
+    },
+    {
+      "type": "concept",
+      "title": "Regulatory signs you must obey",
+      "body": "- **Stop:** come to a **complete stop** and go only when it's safe.\n- **Yield:** let traffic that is **not facing the sign**, and all pedestrians, go first.\n- **Do not enter** (red circle, white bar) and **Wrong way**: you are about to drive against traffic.\n- **Railway crossing** (white X with red border): **yield to trains**.\n- **Do not stop on tracks.**\n- **One way** (arrow): travel only in the direction of the arrow.\n- **Two-way traffic:** traffic goes both directions ahead.\n- **Divider ahead, keep right.**\n\n*Driver's Guide pp. 26–27*"
+    },
+    {
+      "type": "concept",
+      "title": "Permitted and prohibited actions",
+      "body": "**Green circle = allowed.** Examples: turn left only, turn right only, straight only, passing permitted, dangerous goods route, trucks, bicycles, snowmobiles.\n\n**Red circle with slash = not allowed.** Examples: no left turn, no right turn, **no U-turn**, **do not pass**, do not pass bicycles, no pedestrians, no trucks, no bicycles, no dangerous goods.\n\n**Parking signs:** a red circle over a **P** means no parking. A red circle over a **stop sign** means no stopping. An **arrow** shows which side of the sign the rule applies to, and times and days show when it applies.\n\n*Driver's Guide pp. 29–30*"
+    },
+    {
+      "type": "concept",
+      "title": "Lane control signs",
+      "body": "White arrows on a **black square** show where each lane must go: straight only, left turn only, straight or right, and so on.\n\n- **Dual turn** signs mean two lanes may turn together. **Stay in your lane** during and after the turn.\n- **Reserved lane** signs show a white **diamond** plus the vehicles allowed (buses, taxis, bicycles). Some reserved lanes apply at all times; others show the **hours and days** when they apply.\n\n*Driver's Guide p. 28*"
+    },
+    {
+      "type": "concept",
+      "title": "Speed limits",
+      "body": "A speed limit is the **maximum speed when conditions are ideal**. Driving at a speed that is unsafe for the conditions is illegal, even if you're under the limit.\n\n**Unless a sign says otherwise:**\n\n| Road | Limit |\n| --- | --- |\n| Provincial highway **outside** an urban area | **100 km/h** |\n| Provincial highway **inside** a city | **80 km/h** |\n| Other roads **outside** an urban area | **80 km/h** |\n| Roads **inside** an urban area | **50 km/h** |\n\nA **provincial highway** has a numbered route marker (1, 2, or 3 digits). Municipalities may set different limits, so always follow the posted sign.\n\n*Driver's Guide p. 27*"
+    },
+    {
+      "type": "concept",
+      "title": "School and playground zones",
+      "body": "|  | **School zone** | **Playground zone** |\n| --- | --- | --- |\n| Sign | School sign **with** a speed tab | Playground sign **with** a speed tab |\n| Speed | **30 km/h** unless posted | **30 km/h** unless posted |\n| When | **School days**: 8:00–9:30 a.m., 11:30 a.m.–1:30 p.m., 3:00–4:30 p.m. | **Every day**: 8:30 a.m. to **1 hour after sunset** |\n| Passing | **Not allowed** while in effect | **Not allowed** while in effect |\n\n- The 30 km/h limit applies in **both urban and rural** zones.\n- A zone ends at a sign showing a **higher speed** or **\"end\"** of the zone.\n- A school or playground sign **without** a speed tab marks an **area**, not a zone. There is no special speed limit, but drive with extra caution.\n- Towns may set different hours. If so, they are posted under the sign.\n\n*Driver's Guide pp. 30–32*"
+    },
+    {
+      "type": "visual",
+      "title": "Warning signs",
+      "body": "Yellow diamonds warn you **before** you reach a hazard, so you have time to react. They fall into groups:\n\n- **Regulation ahead:** stop ahead, yield ahead, traffic signals ahead, **school bus stop ahead**\n- **Curves:** sharp turn, curve, winding road. A yellow speed tab underneath is the **recommended** speed in ideal conditions.\n- **Crossings:** pedestrians, school crosswalk (yellow-green), animals, bicycles, snowmobiles\n- **Intersections:** hidden road, T and Y intersections, railway crossing, roundabout, and **dead end** (yellow-and-black checkerboard)\n- **Roads joining:** **merging traffic** (roads join and share the lane) vs **free flow** (an added lane, no merge needed)\n- **Narrowing:** road narrows, lane ends, **divided highway begins or ends**\n- **Road conditions:** hill, **bump**, pavement ends, slippery when wet, bridge ices, rumble strips, falling rock\n- **Hazard markers** (diagonal stripes) show an object beside the road. **Chevrons** show a sharp bend.\n\n*Driver's Guide pp. 32–35*",
+      "imgUrl": "/signs/merging-traffic.png"
+    },
+    {
+      "type": "concept",
+      "title": "Construction zones",
+      "body": "Construction signs are **orange**.\n\n- The construction zone speed limit applies **at all times**, even when no one is working. Bumps, fresh oil, and loose gravel can still be there.\n- When **workers are present**, speeding fines are **doubled**.\n- Obey the **flag person's** signals, and be ready to slow down or stop.\n\nCommon signs: people working, flag person ahead, survey crew, **uneven pavement**, detour, and end of construction.\n\n*Driver's Guide pp. 37, 86*"
+    },
+    {
+      "type": "visual",
+      "title": "Information and other signs",
+      "body": "- **Green** guide signs give directions and distances. **Route markers** show highway numbers (Trans-Canada, Yellowhead, provincial highways).\n- **Blue** service signs point to fuel, food, lodging, campgrounds, and EV charging. **Green** service signs point to the hospital (**H**), airport, and parking.\n- **Slow moving vehicle** (orange triangle, red border): shown on the back of vehicles that travel **under 40 km/h**, such as tractors and construction equipment. Be ready to slow down.\n- **Wide load:** an oversized load. Pass with care.\n- **Disabled parking:** only vehicles with a valid **placard or licence plate** may park or stop there.\n\n*Driver's Guide pp. 32, 36–37*",
+      "imgUrl": "/signs/slow-moving-vehicle.png"
+    },
+    {
+      "type": "rules",
+      "title": "Key numbers",
+      "body": "| What | Number |\n| --- | --- |\n| School and playground zone speed | **30 km/h** (unless posted) |\n| School zone hours (school days) | **8:00–9:30**, **11:30–1:30**, **3:00–4:30** |\n| Playground zone hours (every day) | **8:30 a.m.** to **1 hour after sunset** |\n| Provincial highway outside an urban area | **100 km/h** |\n| Provincial highway in a city / other rural roads | **80 km/h** |\n| Urban roads | **50 km/h** |\n| Slow moving vehicle sign | vehicles under **40 km/h** |\n| Construction zone fines | **doubled** when workers are present |"
+    },
+    {
+      "type": "mistakes",
+      "title": "Don't mix these up",
+      "body": "- **School zone vs playground zone:** school zones apply on **school days** at set times. Playground zones apply **every day** until an hour after sunset.\n- **Zone vs area:** a speed tab under the sign makes it a **zone** with a 30 km/h limit. No tab means an **area**: use caution, but there is no special limit.\n- **Green circle vs red slash:** green means allowed, red slash means not allowed.\n- **Merge vs free flow:** at a merge, two roads join and drivers must cooperate. Free flow adds a lane, so nobody has to merge.\n- **Yellow speed tab vs white speed limit:** yellow is a **recommended** speed for a curve. White is the **legal** limit.\n- **Construction speed limits apply at all times.** Workers being present only doubles the fine."
+    }
+  ]
+}

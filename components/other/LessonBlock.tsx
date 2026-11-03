@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
 import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import type { topicContent } from "@/db/schema";
 
 type Block = typeof topicContent.$inferSelect;
@@ -10,7 +11,7 @@ export function LessonBlock({ block }: { block: Block }) {
       return (
         <Card className="bg-muted/30">
           <CardContent className="prose max-w-none p-6">
-            <ReactMarkdown>{block.body}</ReactMarkdown>
+            <ReactMarkdown remarkPlugins={[remarkGfm]}>{block.body}</ReactMarkdown>
           </CardContent>
         </Card>
       );
@@ -22,7 +23,7 @@ export function LessonBlock({ block }: { block: Block }) {
             <CardTitle>{block.title}</CardTitle>
           </CardHeader>
           <CardContent className="prose max-w-none">
-            <ReactMarkdown>{block.body}</ReactMarkdown>
+            <ReactMarkdown remarkPlugins={[remarkGfm]}>{block.body}</ReactMarkdown>
           </CardContent>
         </Card>
       );
@@ -35,7 +36,7 @@ export function LessonBlock({ block }: { block: Block }) {
           </CardHeader>
           <CardContent className="flex flex-col md:flex-row gap-6">
             <div className="prose flex-1">
-              <ReactMarkdown>{block.body}</ReactMarkdown>
+              <ReactMarkdown remarkPlugins={[remarkGfm]}>{block.body}</ReactMarkdown>
             </div>
             {block.imgUrl && (
               <img
@@ -55,7 +56,7 @@ export function LessonBlock({ block }: { block: Block }) {
             <CardTitle>{block.title}</CardTitle>
           </CardHeader>
           <CardContent className="prose max-w-none">
-            <ReactMarkdown>{block.body}</ReactMarkdown>
+            <ReactMarkdown remarkPlugins={[remarkGfm]}>{block.body}</ReactMarkdown>
           </CardContent>
         </Card>
       );
@@ -67,7 +68,7 @@ export function LessonBlock({ block }: { block: Block }) {
             <CardTitle>{block.title}</CardTitle>
           </CardHeader>
           <CardContent className="prose max-w-none">
-            <ReactMarkdown>{block.body}</ReactMarkdown>
+            <ReactMarkdown remarkPlugins={[remarkGfm]}>{block.body}</ReactMarkdown>
           </CardContent>
         </Card>
       );

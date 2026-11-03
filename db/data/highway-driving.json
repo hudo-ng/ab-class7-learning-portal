@@ -1,0 +1,160 @@
+{
+  "topic": {
+    "slug": "highway-driving",
+    "title": "Highway Driving"
+  },
+  "questions": [
+    {
+      "prompt": "When facing a Merge sign a driver should:",
+      "explanation": "A merge sign means two lanes of traffic are joining. Use the acceleration lane to match highway speed, find a gap, and blend in smoothly. Don't stop unless you have to.",
+      "choices": [
+        {
+          "text": "Stop at the entrance to the other highway and wait until a gap in traffic occurs before proceeding"
+        },
+        {
+          "text": "Watch for a gap in traffic on the highway they are entering, adjust to highway speed in the acceleration lane and blend in smoothly",
+          "correct": true
+        },
+        {
+          "text": "Stop and yield the right-of-way to traffic already on the highway"
+        },
+        {
+          "text": "Reduce speed and proceed with caution"
+        }
+      ]
+    },
+    {
+      "prompt": "A deceleration lane is:",
+      "explanation": "A deceleration lane is an exit lane where you slow down after leaving the highway, instead of slowing down in the traffic lanes. Key words: \"deceleration lane\".",
+      "choices": [
+        {
+          "text": "A lane where vehicles reduce speed when exiting a highway",
+          "correct": true
+        },
+        {
+          "text": "The right lane of a four-lane highway for use by slower moving vehicles"
+        },
+        {
+          "text": "A lane on hills for use by slower moving vehicles"
+        },
+        {
+          "text": "The lane immediately to the right of a solid yellow line on a highway"
+        }
+      ]
+    },
+    {
+      "prompt": "An acceleration lane is:",
+      "explanation": "An acceleration lane is part of an on-ramp. It lets you speed up to match highway traffic before you merge. Key words: \"acceleration lane\".",
+      "choices": [
+        {
+          "text": "The left lane of a four-lane highway, for use when passing slow moving vehicles"
+        },
+        {
+          "text": "A lane on hills, designated for faster moving vehicles"
+        },
+        {
+          "text": "A lane in a merge area for use by vehicles entering the highway",
+          "correct": true
+        },
+        {
+          "text": "A lane with broken line markings"
+        }
+      ]
+    },
+    {
+      "prompt": "Is a driver allowed to exceed the speed limit when passing another vehicle?",
+      "explanation": "The speed limit always applies, including while passing. If you can't pass without speeding, don't pass.",
+      "choices": [
+        {
+          "text": "Yes, on primary highways only"
+        },
+        {
+          "text": "No, it is never permitted",
+          "correct": true
+        },
+        {
+          "text": "Yes, but not more than 10 km/h over the speed limit"
+        },
+        {
+          "text": "Only when passing more than one vehicle at a time"
+        }
+      ]
+    },
+    {
+      "prompt": "A \"weave zone\" is best described as:",
+      "explanation": "In a weave zone, an entrance lane and an exit lane share the same stretch of road, so drivers entering and drivers exiting must cross paths. Watch carefully and adjust your speed. Key words: \"entrance and exit lanes are close together\".",
+      "choices": [
+        {
+          "text": "A place on a highway where the entrance and exit lanes are close together and vehicles that are slowing to exit the highway must drive between vehicles that are accelerating to enter the highway",
+          "correct": true
+        },
+        {
+          "text": "A place where the highway has a series of curves that require the driver to slow down"
+        },
+        {
+          "text": "An area on the highway that is used for emergency parking"
+        },
+        {
+          "text": "A limited access area on a highway where a driver can legally back their vehicle when they miss their exit"
+        }
+      ]
+    },
+    {
+      "prompt": "If a driver is being followed by a vehicle that is attempting to pass on a two-way road, the driver should:",
+      "explanation": "When someone is passing you, stay in your lane, move to the right portion of it, and don't speed up. This gives the passing driver more room. Key words: \"right portion\".",
+      "choices": [
+        {
+          "text": "Stay in the lane and move to the right portion of the lane",
+          "correct": true
+        },
+        {
+          "text": "Turn on the right signal and drive in the parking lane"
+        },
+        {
+          "text": "Turn on the left signal and stay in the lane"
+        },
+        {
+          "text": "Stay in the lane and move to the left portion of the lane"
+        }
+      ]
+    },
+    {
+      "prompt": "On a two-lane highway, when passing other vehicles travelling in the same direction, a driver:",
+      "explanation": "On a two-lane highway, pass on the left, and only when it is safe and legal to do so.",
+      "choices": [
+        {
+          "text": "Should pass on the left when safe",
+          "correct": true
+        },
+        {
+          "text": "Should pass on the right when safe"
+        },
+        {
+          "text": "Should always travel 30 km/h faster than the vehicle being passed"
+        },
+        {
+          "text": "Should not pull out to pass until they are within 3 metres of the vehicle being passed"
+        }
+      ]
+    },
+    {
+      "prompt": "When driving in the right lane on a highway, what should a driver do if another vehicle attempts to merge from an acceleration lane on the right?",
+      "explanation": "Help merging traffic in: move to the left lane if it is safe, or adjust your speed to leave a gap.",
+      "choices": [
+        {
+          "text": "Move into the left lane, if it is safe to do so, or be prepared to adjust speed",
+          "correct": true
+        },
+        {
+          "text": "Stop to allow the other vehicle in"
+        },
+        {
+          "text": "Accelerate to close any gap in the traffic flow"
+        },
+        {
+          "text": "Insist that the other vehicle yield the right-of-way"
+        }
+      ]
+    }
+  ]
+}

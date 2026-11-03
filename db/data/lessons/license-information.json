@@ -1,0 +1,60 @@
+{
+  "topic": { "slug": "license-information", "title": "Licensing & GDL" },
+  "blocks": [
+    {
+      "type": "intro",
+      "title": "What you'll learn",
+      "body": "**In this topic you'll learn:**\n\n- The three stages of Alberta's Graduated Driver Licensing (GDL) program and the rules at each stage\n- What happens at the knowledge test and the road test\n- How demerit points work, and when your licence is suspended\n- What documents you must carry, and your responsibilities as a licence holder\n\nEvery new driver in Alberta goes through GDL, **regardless of age**."
+    },
+    {
+      "type": "concept",
+      "title": "Stage 1: Learner (Class 7)",
+      "body": "**To get a Class 7 learner's licence you must:**\n\n- be **14** or older\n- pass a vision screening and a **knowledge test**\n- have **parental consent** if you are under 18\n- have valid identification\n\n**While you are a learner:**\n\n- You must hold the learner's licence for at least **1 year**.\n- A **fully licensed (non-GDL)** driver aged **18 or older** must sit **next to you**.\n- You may **not drive from midnight to 5 a.m.**\n- You may not carry **more passengers than seat belts**.\n- You are suspended at **8 demerit points**.\n- Your alcohol and drug level must be **zero**.\n\n*Driver's Guide p. 10*"
+    },
+    {
+      "type": "concept",
+      "title": "Stage 2: Probationary (Class 5-GDL)",
+      "body": "**To become a probationary driver you must:**\n\n- have held your Class 7 for **1 year** (longer if you were suspended)\n- be **16** or older\n- pass the **Class 5 road test**\n\n**While you are a probationary driver:**\n\n- You stay probationary for at least **2 years**.\n- You may not carry **more passengers than seat belts**.\n- You are suspended at **8 demerit points**.\n- Your alcohol and drug level must be **zero**.\n- You **cannot supervise** a learner.\n- You cannot upgrade to a commercial licence (Class 1, 2, 3, or 4).\n\nThe midnight-to-5 a.m. restriction applies to **learners only**, not probationary drivers.\n\n*Driver's Guide p. 10*"
+    },
+    {
+      "type": "concept",
+      "title": "Stage 3: Exiting GDL (full Class 5)",
+      "body": "**To leave the GDL program you must:**\n\n- be at least **18**\n- have been probationary for at least **2 years**\n- have **no suspensions or traffic violations in the last 12 months**, including the zero alcohol and drug rule\n\nAn **approved driver training course** can shorten the probationary stage by **up to 6 months**.\n\n**Once you have a full Class 5:** you can have more demerit points, the zero-tolerance condition is removed, you can supervise a learner, and you can upgrade to a commercial licence.\n\n*Driver's Guide p. 11*"
+    },
+    {
+      "type": "concept",
+      "title": "Parental consent",
+      "body": "Anyone **under 18** applying for a licence needs a parent or legal guardian to sign a consent form at a registry office.\n\n- The parent or guardian can **withdraw consent in writing** at any time until the driver turns 18. The licence is then **suspended**.\n- Consent is **not needed** if the minor can prove they are **married or self-supporting**.\n\nThe same rules apply to registering a vehicle.\n\n*Driver's Guide pp. 16, 20*"
+    },
+    {
+      "type": "concept",
+      "title": "The knowledge test and the road test",
+      "body": "**Knowledge test:** taken on a computer at a registry agent office, with multiple-choice questions based on the **Driver's Guide**: safe driving practices, driving laws, and road signs. It is available in 25 languages. There is a fee for each attempt, and you can take only **one test per day**.\n\n**Class 5 road test:** about **45 minutes**, with no passengers or pets allowed. Your vehicle must be in good working order, with lights, horn, brakes, mirrors, seat belts, a clear windshield, good tires, valid plates and insurance, and enough fuel.\n\n**Automatic fails**, no matter your score:\n\n- speeding, or driving too fast for conditions\n- not stopping completely at a stop sign, or before turning right on a red light\n- failing to yield the right-of-way\n- blocking traffic by driving too slowly or stopping unnecessarily\n- climbing the curb while parking, or not parking legally within **3 attempts**\n- not slowing down or checking properly at uncontrolled intersections\n\n*Driver's Guide pp. 11–13, 15*"
+    },
+    {
+      "type": "concept",
+      "title": "Documents and responsibilities",
+      "body": "- You must have your **driver's licence with you** whenever you drive.\n- If a peace officer asks, you must show your **licence, registration, and insurance** (the \"pink card\").\n- Every vehicle must be **registered** and **insured**. Driving an uninsured vehicle is illegal.\n- You must report any **medical condition** that could affect your driving. That responsibility is yours, not your doctor's.\n- If your licence is lost or stolen, replace it right away. If it was stolen, report it to police first.\n- Keep your **address** up to date. Suspension notices are mailed to it.\n- **New residents** from elsewhere in Canada can use their old licence for **90 days**, and must register their vehicle within **3 months**.\n\n*Driver's Guide pp. 15–20*"
+    },
+    {
+      "type": "concept",
+      "title": "Demerit points and suspensions",
+      "body": "Demerit points go on your record when you are **convicted** of an offence. That includes simply paying the ticket. Points are removed **2 years** after the conviction.\n\n| | GDL drivers | Fully licensed drivers |\n| --- | --- | --- |\n| Warning letter | 4–7 points | 8–14 points |\n| **Automatic suspension** | **8 points** | **15 points** |\n| Points left after reinstatement | 3 | 7 |\n\n**Suspension length:** 1st, **1 month**. 2nd within a year, **3 months**. 3rd within two years, **6 months**.\n\nYou can't appeal a demerit suspension, but you can ask for a review if you think points were assigned in error. An approved **defensive driving course** gives a **3-point credit**.\n\n*Driver's Guide pp. 108–110*"
+    },
+    {
+      "type": "rules",
+      "title": "Demerit points for common offences",
+      "body": "| Points | Offence |\n| --- | --- |\n| **7** | Leaving the scene of a collision |\n| **6** | Careless driving · failing to stop for a school bus · racing · speeding 51+ km/h over |\n| **5** | Failing to stop for a peace officer |\n| **4** | Failing to yield to a pedestrian in a crosswalk · following too closely · speeding 31–50 km/h over |\n| **3** | Running a stop sign or red light · failing to report a collision · improper passing · speeding 16–30 km/h over · distracted driving |\n| **2** | Improper turn or U-turn · backing into an intersection or crosswalk · speeding up to 15 km/h over |\n| **2** *(GDL only)* | Driving midnight–5 a.m. as a learner · more passengers than seat belts · supervisor not fully qualified |\n\n*Driver's Guide pp. 91, 109–110*"
+    },
+    {
+      "type": "rules",
+      "title": "Key numbers",
+      "body": "| What | Number |\n| --- | --- |\n| Minimum age, learner (Class 7) | **14** |\n| Minimum age, probationary (Class 5-GDL) | **16** |\n| Minimum age to exit GDL | **18** |\n| Supervising driver | **18+**, fully licensed (non-GDL) |\n| Minimum time as a learner | **1 year** |\n| Minimum time as a probationary driver | **2 years** (up to **6 months** less with an approved course) |\n| Violation-free period to exit GDL | last **12 months** |\n| Learner curfew | **midnight to 5 a.m.** |\n| Suspension: GDL / fully licensed | **8** / **15** points |\n| Demerit points stay on record | **2 years** |\n| New resident (from Canada) | **90 days** to switch licence |"
+    },
+    {
+      "type": "mistakes",
+      "title": "Don't mix these up",
+      "body": "- **8 vs 15 points:** GDL drivers (learner *and* probationary) are suspended at 8. Fully licensed drivers are suspended at 15.\n- **The curfew is for learners only.** Probationary drivers have no midnight-to-5 a.m. restriction.\n- **Passengers vs seat belts** applies to **both** GDL stages.\n- **The supervisor must be fully licensed (non-GDL) and 18+.** A probationary driver can't supervise, even if they are an adult.\n- **Zero alcohol and drugs** applies to the whole GDL program, not just learners.\n- **Reporting medical conditions is the driver's job,** not the doctor's or the employer's."
+    }
+  ]
+}

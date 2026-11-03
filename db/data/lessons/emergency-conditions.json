@@ -1,0 +1,65 @@
+{
+  "topic": { "slug": "emergency-conditions", "title": "Emergencies & Hazardous Conditions" },
+  "blocks": [
+    {
+      "type": "intro",
+      "title": "What you'll learn",
+      "body": "**In this topic you'll learn:**\n\n- How to brake in an emergency, with and without ABS\n- How to recover from skids and from driving off the pavement\n- What to do when your vehicle breaks down\n- How to drive at night and in fog, rain, and winter conditions\n- What to do after a collision, and how to respond to emergency vehicles"
+    },
+    {
+      "type": "concept",
+      "title": "Emergency braking",
+      "body": "The goal is to stop **as quickly as possible without losing steering control**.\n\n| Your vehicle | What to do |\n| --- | --- |\n| **Has ABS** (most do) | Press the brake **firmly and steadily**. **Don't pump** or release it. You'll feel a vibration, which is normal. Steer where you want to go. |\n| **No ABS** | Use **threshold braking**: press firmly to just before the wheels lock. If they lock, **ease off slightly**, then press again. |\n\nLocked wheels mean you **can't steer**.\n\n*Driver's Guide p. 78*"
+    },
+    {
+      "type": "concept",
+      "title": "Skids",
+      "body": "**Most skids are caused by driver error:** going too fast for the conditions, steering too sharply, braking too hard, or accelerating too quickly.\n\n**In any skid:** keep your foot **off the brake**, and **look and steer where you want the front of the vehicle to go**, with small corrections.\n\n| Skid | Cause | What to do |\n| --- | --- | --- |\n| **Braking skid** (no ABS) | Wheels locked by hard braking | **Release the brake** until the wheels roll again, then brake more gently |\n| **Power skid** | Accelerating too hard, wheels spin | **Ease off the gas**, steer, and don't over-correct |\n| **Cornering skid** | Too fast in a turn | **Off the gas, no brakes**, steer where you want to go |\n\n*Driver's Guide pp. 78–79*"
+    },
+    {
+      "type": "concept",
+      "title": "If you drive off the pavement",
+      "body": "1. Keep a **firm grip** on the steering wheel.\n2. **Don't steer back right away.** A sharp turn back can send you across the road.\n3. Take your foot **off the gas** to slow down.\n4. **Avoid braking.** If you must, brake gently.\n5. Check for traffic, then **ease back** onto the road and straighten up in your lane.\n\n*Driver's Guide pp. 79–80*"
+    },
+    {
+      "type": "concept",
+      "title": "Breakdowns and vehicle failures",
+      "body": "**If you have to stop:** pull over somewhere safe, **not on a bridge or in a tunnel**. Turn on your **hazard lights** and raise the hood. On a highway, place **reflective triangles** behind the vehicle, **10–20 m** apart. If it's dangerous, everyone should wait **away from the vehicle, behind it**.\n\n- **Brake failure:** press the pedal harder and hold steady pressure. If that fails, carefully use the **park brake** and shift to a lower gear.\n- **Power steering failure:** you can still steer, it just takes more effort.\n- **Flat tire:** **don't brake right away**. Ease off the gas, hold the wheel firmly, keep straight, then brake gently and pull over.\n- **Both headlights fail:** turn on your hazards, try switching the headlights off and on, then slow down and pull over.\n\n*Driver's Guide pp. 80–81*"
+    },
+    {
+      "type": "concept",
+      "title": "Night driving and glare",
+      "body": "- Turn your **headlights on** at night, and **any time you can't see 150 m ahead**. Daytime running lights aren't enough, because your tail lights won't be on.\n- Switch to **low beams within 300 m of oncoming** vehicles, and **within 150 m of a vehicle you're following**.\n- **Don't overdrive your headlights:** drive slowly enough to stop within the distance they light up.\n- If oncoming headlights dazzle you, look **down and to the right edge** of your lane.\n- If glare makes it hard to see, slow down. Keep your windows clean.\n\n*Driver's Guide pp. 81–82*"
+    },
+    {
+      "type": "concept",
+      "title": "Fog, rain, and winter roads",
+      "body": "**Fog, smoke, rain:** use **low beams**, because high beams reflect back and cause glare. If you can't see well enough to drive safely, pull **well off the road**, turn on your hazards, and wait.\n\n**Hydroplaning** (tires riding on water): **don't brake**. Ease off the gas and steer where you want to go.\n\n**Ice and snow:**\n\n- **Black ice** looks shiny and black instead of grey-white. Slow down without braking.\n- **Shaded areas, bridges, and overpasses** stay icy longer, and **intersections** get icy quickly.\n- **Slow down**, and leave more room to stop. Speed is the most important thing to control.\n- **Don't use cruise control** on slippery roads.\n\n**Stranded in winter?** It's usually safer to **stay with your vehicle**. Run the engine only enough to stay warm, with a window **slightly open** to prevent **carbon monoxide** poisoning.\n\n*Driver's Guide pp. 82–83*"
+    },
+    {
+      "type": "concept",
+      "title": "Animals on the road",
+      "body": "- Slow down in areas with **wildlife warning signs**, and scan the sides of the road.\n- Animals are most active at **dusk and dawn**.\n- At night, watch for **eyes reflecting** your headlights.\n- Animals often travel in **groups**. If you see one, expect more.\n- If one appears suddenly, **brake hard** and steer away from oncoming traffic if you must avoid it.\n\n*Driver's Guide p. 84*"
+    },
+    {
+      "type": "concept",
+      "title": "After a collision",
+      "body": "**First on the scene?** Stop safely away from the collision, protect the scene with hazard lights and triangles, help if you can, and call for help. Give exact details about the location and any injuries.\n\n**Involved in a collision?**\n\n- Help where you can, protect the scene, and call emergency services if needed.\n- Exchange names, contact details, and insurance information.\n- Get witnesses' names and contact details.\n- **Don't discuss who was at fault.**\n- Note the time, place, and weather, and tell your insurance company.\n\n**You must report it to police if:** anyone is **injured or killed**, total damage is **over $5,000**, or any **traffic control device or public property** is damaged. If police are called, every driver must stay.\n\n*Driver's Guide p. 84*"
+    },
+    {
+      "type": "concept",
+      "title": "Emergency vehicles, tow trucks, and police",
+      "body": "**An emergency vehicle with its siren on, coming from any direction:**\n\n- **Pull as close as possible to the right curb** (on a one-way street, the nearest curb) and **stop**.\n- Stay stopped until it passes, and check that no others are coming.\n- Treat **flashing green lights** (volunteer firefighters) the same way.\n- Never follow within **150 m** of an emergency vehicle with its siren or lights on.\n\n**Passing stopped emergency vehicles or tow trucks** with lights flashing: slow to **60 km/h**, or the posted limit if lower, in the lane next to them. Fines are **doubled**.\n\n**Pulled over by police:** stop safely at the right edge (on a one-way street, the nearest edge). Put it in park, set the park brake, **stay in the vehicle**, have your licence, registration, and insurance ready, and don't move until told to.\n\n*Driver's Guide pp. 85–86*"
+    },
+    {
+      "type": "rules",
+      "title": "Key numbers",
+      "body": "| What | Number |\n| --- | --- |\n| Headlights on when you can't see | **150 m** ahead |\n| Low beams: oncoming vehicle | within **300 m** |\n| Low beams: vehicle ahead of you | within **150 m** |\n| Reflective triangles | **10–20 m** apart, behind the vehicle |\n| Report a collision to police | injury, death, or damage over **$5,000** |\n| Following an emergency vehicle | stay back at least **150 m** |\n| Passing stopped emergency vehicles or tow trucks | max **60 km/h** (or lower posted limit) |"
+    },
+    {
+      "type": "mistakes",
+      "title": "Don't mix these up",
+      "body": "- **ABS vs no ABS:** with ABS, press firmly and **don't pump**. Without ABS, use threshold braking and **ease off** if the wheels lock.\n- **In a skid, don't brake.** Look and steer where you want to go.\n- **300 m vs 150 m:** low beams within 300 m of **oncoming** traffic, and within 150 m when **following**.\n- **Siren behind you:** **pull right and stop**. Slowing down isn't enough.\n- **60 km/h** applies in the lane **next to** stopped emergency vehicles or tow trucks.\n- **Off the pavement:** don't jerk back onto the road. Slow down first, then ease back."
+    }
+  ]
+}
