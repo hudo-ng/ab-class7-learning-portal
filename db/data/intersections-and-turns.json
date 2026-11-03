@@ -209,6 +209,443 @@
           "text": "Both vehicles must stop"
         }
       ]
+    },
+    {
+      "prompt": "Which statements best describes the steps for turning right at a red traffic light?",
+      "explanation": "Signal, stop completely, check for traffic and pedestrians,. Yield right-of-way, and then proceed safely, unless a sign prohibits it.",
+      "choices": [
+        {
+          "text": "Right turns on a red traffic light are never permitted"
+        },
+        {
+          "text": "Signal and make sure there is no sign prohibiting the turn, stop, look left and right, yield the right-of-way, then proceed",
+          "correct": true
+        },
+        {
+          "text": "Reduce speed before the turn, look right for cyclists, signal and proceed"
+        },
+        {
+          "text": "Signal and reduce speed before the turn, look left, yield to vehicles and proceed"
+        }
+      ]
+    },
+    {
+      "prompt": "At a stop sign with no stop line and no marked crosswalk, where must you stop?",
+      "explanation": "If there is no stop line or marked crosswalk, stop within three metres of the intersecting roadway, where you won't interfere with pedestrians. (Driver's Guide p. 59)",
+      "choices": [
+        {
+          "text": "Within 3 metres of the intersecting roadway",
+          "correct": true
+        },
+        {
+          "text": "Within 10 metres of the intersecting roadway"
+        },
+        {
+          "text": "At the edge of the intersecting roadway, wherever you can see best"
+        },
+        {
+          "text": "Within 15 metres of the stop sign"
+        }
+      ]
+    },
+    {
+      "prompt": "At a four-way stop, which vehicle should go first?",
+      "explanation": "At three- and four-way stops, courtesy is to let the vehicle that arrived first go first. (Driver's Guide p. 59)",
+      "choices": [
+        {
+          "text": "The vehicle going straight"
+        },
+        {
+          "text": "The largest vehicle"
+        },
+        {
+          "text": "The vehicle that arrived first",
+          "correct": true
+        },
+        {
+          "text": "The vehicle on the left"
+        }
+      ]
+    },
+    {
+      "prompt": "Two vehicles arrive at a four-way stop at the same time. Which one should go first?",
+      "explanation": "If two vehicles arrive at the same time, courtesy allows the vehicle on the right to go first. (Driver's Guide p. 59)",
+      "choices": [
+        {
+          "text": "The vehicle on the left"
+        },
+        {
+          "text": "The vehicle turning left"
+        },
+        {
+          "text": "The faster vehicle"
+        },
+        {
+          "text": "The vehicle on the right",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "You approach a yield sign and there are no pedestrians or vehicles you need to yield to. You may:",
+      "explanation": "If no one needs you to yield, you may go through without coming to a complete stop. Approach at a speed that lets you stop easily. (Driver's Guide p. 59)",
+      "choices": [
+        {
+          "text": "Come to a complete stop before proceeding"
+        },
+        {
+          "text": "Proceed only after sounding your horn"
+        },
+        {
+          "text": "Wait for a green light"
+        },
+        {
+          "text": "Proceed without coming to a complete stop",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "At an intersection with no signs or traffic lights, you must yield to:",
+      "explanation": "At an uncontrolled intersection, you must yield the right-of-way to a vehicle on your right. (Driver's Guide p. 59)",
+      "choices": [
+        {
+          "text": "A vehicle approaching on your left"
+        },
+        {
+          "text": "The vehicle going faster"
+        },
+        {
+          "text": "A vehicle approaching on your right",
+          "correct": true
+        },
+        {
+          "text": "No one; the first vehicle into the intersection has the right-of-way"
+        }
+      ]
+    },
+    {
+      "prompt": "You have the right-of-way, but another driver does not seem to be yielding. What should you do?",
+      "explanation": "Even if you have the right-of-way, you are still responsible for doing everything you can to prevent a collision. (Driver's Guide p. 58)",
+      "choices": [
+        {
+          "text": "Proceed, since the law is on your side"
+        },
+        {
+          "text": "Sound your horn and continue"
+        },
+        {
+          "text": "Do everything you can to avoid a collision, even if it means giving up the right-of-way",
+          "correct": true
+        },
+        {
+          "text": "Speed up to get through first"
+        }
+      ]
+    },
+    {
+      "prompt": "A police officer directing traffic signals you to go through a red light. What should you do?",
+      "explanation": "Directions given by a peace officer or police officer must be followed over traffic signs or signals. (Driver's Guide p. 58)",
+      "choices": [
+        {
+          "text": "Follow the officer's directions",
+          "correct": true
+        },
+        {
+          "text": "Wait for the light to turn green"
+        },
+        {
+          "text": "Stop and ask the officer to confirm"
+        },
+        {
+          "text": "Turn right instead"
+        }
+      ]
+    },
+    {
+      "prompt": "The light is green, but traffic is backed up on the other side of the intersection. What should you do?",
+      "explanation": "Don't enter an intersection until you can clear it completely, including the crosswalk on the other side. (Driver's Guide p. 60)",
+      "choices": [
+        {
+          "text": "Enter the intersection, since your light is green"
+        },
+        {
+          "text": "Enter the intersection and stop in the crosswalk"
+        },
+        {
+          "text": "Wait behind the intersection until there is room to clear it completely",
+          "correct": true
+        },
+        {
+          "text": "Change lanes to go around the traffic"
+        }
+      ]
+    },
+    {
+      "prompt": "In which direction does traffic flow around a roundabout or traffic circle?",
+      "explanation": "Traffic always circulates counterclockwise around the centre island. (Driver's Guide p. 61)",
+      "choices": [
+        {
+          "text": "Clockwise"
+        },
+        {
+          "text": "Either direction, depending on your exit"
+        },
+        {
+          "text": "Counterclockwise",
+          "correct": true
+        },
+        {
+          "text": "The direction shown by the first sign only"
+        }
+      ]
+    },
+    {
+      "prompt": "In a single-lane roundabout, when should you turn on your right signal if you are not taking the first exit?",
+      "explanation": "Turn on your right signal after you pass the exit before the one you intend to use. (Driver's Guide pp. 61–62)",
+      "choices": [
+        {
+          "text": "As you enter the roundabout"
+        },
+        {
+          "text": "After passing the exit before the one you want",
+          "correct": true
+        },
+        {
+          "text": "Only after you have left the roundabout"
+        },
+        {
+          "text": "You don't need to signal in a roundabout"
+        }
+      ]
+    },
+    {
+      "prompt": "In a two-lane roundabout, which lane should you use if you plan to go past the first exit?",
+      "explanation": "Drivers planning to travel past the first exit should enter, stay in, and exit from the left lane. The right lane is for the first exit. (Driver's Guide pp. 62–63)",
+      "choices": [
+        {
+          "text": "The right lane"
+        },
+        {
+          "text": "Either lane, changing lanes as needed"
+        },
+        {
+          "text": "The right lane, then move left inside the circle"
+        },
+        {
+          "text": "The left lane",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "Inside a two-lane roundabout, who must yield?",
+      "explanation": "While in the circle, drivers in the right lane must yield to drivers in the left lane. Don't change lanes in the circle. (Driver's Guide p. 62)",
+      "choices": [
+        {
+          "text": "Drivers in the left lane yield to drivers in the right lane"
+        },
+        {
+          "text": "Drivers in the right lane yield to drivers in the left lane",
+          "correct": true
+        },
+        {
+          "text": "No one; both lanes have equal right-of-way"
+        },
+        {
+          "text": "Drivers who entered last yield to everyone"
+        }
+      ]
+    },
+    {
+      "prompt": "In a roundabout, you realize you can't exit safely at your intended exit. What should you do?",
+      "explanation": "If you can't stop or exit safely, stay in your lane and go around the roundabout again. (Driver's Guide p. 63)",
+      "choices": [
+        {
+          "text": "Stop in the roundabout until it is safe to exit"
+        },
+        {
+          "text": "Cut across the other lane to exit"
+        },
+        {
+          "text": "Stay in your lane and go around again",
+          "correct": true
+        },
+        {
+          "text": "Reverse back to the exit"
+        }
+      ]
+    },
+    {
+      "prompt": "When making a right turn, how close to the curb or edge of the road should you stay?",
+      "explanation": "Stay centred in the turning lane, not more than one metre from the curb or road's edge, as you approach, turn, and leave the intersection. (Driver's Guide p. 64)",
+      "choices": [
+        {
+          "text": "Within 3 metres"
+        },
+        {
+          "text": "In the centre of the road"
+        },
+        {
+          "text": "Within 1 metre",
+          "correct": true
+        },
+        {
+          "text": "As far from the curb as possible"
+        }
+      ]
+    },
+    {
+      "prompt": "You should be in the correct lane for a turn at least how far before the intersection?",
+      "explanation": "Be in your proper turning lane at least 15 metres (50 feet) before the intersection. (Driver's Guide pp. 63, 65)",
+      "choices": [
+        {
+          "text": "5 metres"
+        },
+        {
+          "text": "50 metres"
+        },
+        {
+          "text": "15 metres",
+          "correct": true
+        },
+        {
+          "text": "100 metres"
+        }
+      ]
+    },
+    {
+      "prompt": "You are waiting in the intersection to turn left. How should your front wheels be pointed?",
+      "explanation": "Keep your front wheels pointed straight ahead, so that if you are hit from behind you won't be pushed into oncoming traffic. (Driver's Guide p. 65)",
+      "choices": [
+        {
+          "text": "Turned to the left, ready for the turn"
+        },
+        {
+          "text": "Turned to the right"
+        },
+        {
+          "text": "It doesn't matter while you are stopped"
+        },
+        {
+          "text": "Straight ahead",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "When turning left from a two-way road onto another two-way road, which lane should you turn into?",
+      "explanation": "Turn from the lane nearest and to the right of the yellow line, into the lane nearest and to the right of the yellow line. (Driver's Guide p. 65)",
+      "choices": [
+        {
+          "text": "The curb lane on the far side"
+        },
+        {
+          "text": "Any lane that is clear"
+        },
+        {
+          "text": "The lane nearest and to the right of the yellow line",
+          "correct": true
+        },
+        {
+          "text": "The lane to the left of the yellow line"
+        }
+      ]
+    },
+    {
+      "prompt": "When turning left from a one-way road onto a two-way road, which lane should you turn from?",
+      "explanation": "Turn from the lane nearest the left side of the road, into the lane nearest to the right of the yellow line. (Driver's Guide p. 66)",
+      "choices": [
+        {
+          "text": "The lane nearest the left side of the one-way road",
+          "correct": true
+        },
+        {
+          "text": "The lane nearest the right side of the one-way road"
+        },
+        {
+          "text": "The centre lane"
+        },
+        {
+          "text": "Any lane, as long as you signal"
+        }
+      ]
+    },
+    {
+      "prompt": "You are turning right, and a vehicle is parked close to the corner in the curb lane of the road you are entering. What should you do?",
+      "explanation": "Turn into the first available lane to the left of the parked vehicle. Yield to vehicles approaching from your left in that lane. (Driver's Guide p. 64)",
+      "choices": [
+        {
+          "text": "Turn into the curb lane and stop behind the parked vehicle"
+        },
+        {
+          "text": "Wait until the parked vehicle leaves"
+        },
+        {
+          "text": "Turn into the first available lane to the left of the parked vehicle",
+          "correct": true
+        },
+        {
+          "text": "Turn wide into the far lane"
+        }
+      ]
+    },
+    {
+      "prompt": "Before turning left off a two-lane highway, why should you shoulder check to the left?",
+      "explanation": "Do a shoulder check to the left to be sure you are not being passed by another vehicle on your left. (Driver's Guide p. 65)",
+      "choices": [
+        {
+          "text": "To make sure no vehicle is passing you on the left",
+          "correct": true
+        },
+        {
+          "text": "To check for pedestrians on the right"
+        },
+        {
+          "text": "To look for a police vehicle"
+        },
+        {
+          "text": "To see the road you are turning onto"
+        }
+      ]
+    },
+    {
+      "prompt": "Outside urban areas, U-turns are not permitted:",
+      "explanation": "In rural areas, U-turns are not permitted on a curve, or on an approach to or near the crest of a hill where drivers within 150 metres can't see you. (Driver's Guide p. 67)",
+      "choices": [
+        {
+          "text": "On any highway"
+        },
+        {
+          "text": "Between 10 p.m. and 6 a.m."
+        },
+        {
+          "text": "Anywhere there is a broken centre line"
+        },
+        {
+          "text": "On a curve or near the crest of a hill where other drivers within 150 metres can't see you",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "Do right-of-way rules apply at intersections inside parking lots?",
+      "explanation": "Parking lots have intersections without signs or signals, and the right-of-way rules apply. (Driver's Guide p. 60)",
+      "choices": [
+        {
+          "text": "No, parking lots are private property"
+        },
+        {
+          "text": "Yes, the same rules as uncontrolled intersections apply",
+          "correct": true
+        },
+        {
+          "text": "Only if there are painted lines"
+        },
+        {
+          "text": "Only during business hours"
+        }
+      ]
     }
   ]
 }

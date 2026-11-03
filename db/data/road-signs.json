@@ -497,6 +497,942 @@
           "text": "60 km/h"
         }
       ]
+    },
+    {
+      "prompt": "Unless otherwise posted, what is the basic speed limit outside a city, town or village on a primary highway?",
+      "explanation": "100 km/h is the maximum speed limit on a provincial highway located outside an urban area in Alberta. (Refer to Driver's guide for car and light truck. Chap 2. p 27)",
+      "choices": [
+        {
+          "text": "120 km/h"
+        },
+        {
+          "text": "80 km/h"
+        },
+        {
+          "text": "100 km/h",
+          "correct": true
+        },
+        {
+          "text": "70 km/h"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "https://adqvuag38e1wwvsm.public.blob.vercel-storage.com/questions/1766878907152-danger-goods-route.png",
+      "explanation": "A green circle on a white sign means the action shown is permitted. This one, with a black diamond, marks a route that vehicles carrying dangerous goods may use. (Driver's Guide p. 29)",
+      "choices": [
+        {
+          "text": "Dangerous goods route",
+          "correct": true
+        },
+        {
+          "text": "Route for slow moving vehicles"
+        },
+        {
+          "text": "Route for vehicles over 4500kg"
+        },
+        {
+          "text": "Reserved lane for buses"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/wrong-way.png",
+      "explanation": "A red WRONG WAY sign means you are travelling against oncoming traffic. Stop and turn around safely. (Driver's Guide p. 26)",
+      "choices": [
+        {
+          "text": "Road closed ahead"
+        },
+        {
+          "text": "No stopping"
+        },
+        {
+          "text": "You are going the wrong way into oncoming traffic",
+          "correct": true
+        },
+        {
+          "text": "Do not pass"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/do-not-enter.png",
+      "explanation": "A white bar on a red circle means do not enter. It is often posted at the exit end of one-way roads and ramps. (Driver's Guide p. 26)",
+      "choices": [
+        {
+          "text": "No stopping"
+        },
+        {
+          "text": "Road closed for construction"
+        },
+        {
+          "text": "Railway crossing"
+        },
+        {
+          "text": "Do not enter",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/one-way.png",
+      "explanation": "A white arrow on a black rectangle means traffic may only travel in the direction of the arrow. (Driver's Guide p. 27)",
+      "choices": [
+        {
+          "text": "Right turn lane ahead"
+        },
+        {
+          "text": "Detour to the right"
+        },
+        {
+          "text": "Keep right of the divider"
+        },
+        {
+          "text": "Proceed in the direction of the arrow only",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/keep-right.png",
+      "explanation": "This sign is placed before a median or traffic island. Keep to the right of the divider. (Driver's Guide p. 27)",
+      "choices": [
+        {
+          "text": "Winding road ahead"
+        },
+        {
+          "text": "Right lane ends"
+        },
+        {
+          "text": "Merge to the right"
+        },
+        {
+          "text": "Divider ahead, keep right",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/turn-left-only.png",
+      "explanation": "A green circle on a white square means the action shown is permitted. Here, traffic must turn left. (Driver's Guide p. 29)",
+      "choices": [
+        {
+          "text": "No left turn"
+        },
+        {
+          "text": "Turn left only",
+          "correct": true
+        },
+        {
+          "text": "Left turn on green arrow only"
+        },
+        {
+          "text": "Sharp curve to the left"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/passing-permitted.png",
+      "explanation": "A green circle around two vehicles means passing is permitted. Pass only when it is safe. (Driver's Guide p. 29)",
+      "choices": [
+        {
+          "text": "Do not pass"
+        },
+        {
+          "text": "Two-way traffic"
+        },
+        {
+          "text": "Car pool lane"
+        },
+        {
+          "text": "Passing permitted",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/no-left-turn.png",
+      "explanation": "A red circle and slash means the action inside is not permitted. This sign prohibits left turns. (Driver's Guide p. 29)",
+      "choices": [
+        {
+          "text": "Turn left only"
+        },
+        {
+          "text": "No U-turn"
+        },
+        {
+          "text": "No left turn",
+          "correct": true
+        },
+        {
+          "text": "Left lane ends"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/no-right-turn.png",
+      "explanation": "A red circle and slash over a right arrow means right turns are not permitted at this location. (Driver's Guide p. 29)",
+      "choices": [
+        {
+          "text": "No right turn on red only"
+        },
+        {
+          "text": "No right turn",
+          "correct": true
+        },
+        {
+          "text": "Turn right only"
+        },
+        {
+          "text": "Sharp turn right"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/no-u-turn.png",
+      "explanation": "A red circle and slash over a U-shaped arrow means U-turns are not permitted. (Driver's Guide p. 29)",
+      "choices": [
+        {
+          "text": "No U-turn",
+          "correct": true
+        },
+        {
+          "text": "No left turn"
+        },
+        {
+          "text": "Turn around at the end of the road"
+        },
+        {
+          "text": "Detour ahead"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/do-not-pass-bicycles.png",
+      "explanation": "This prohibitive sign means you must not pass cyclists on this section of road. (Driver's Guide p. 29)",
+      "choices": [
+        {
+          "text": "Bicycles not allowed"
+        },
+        {
+          "text": "Bicycle lane ahead"
+        },
+        {
+          "text": "Share the road with bicycles"
+        },
+        {
+          "text": "Do not pass bicycles",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/no-trucks.png",
+      "explanation": "A red circle and slash over a truck means trucks are not permitted on this road. (Driver's Guide p. 30)",
+      "choices": [
+        {
+          "text": "Truck route"
+        },
+        {
+          "text": "Trucks entering the road"
+        },
+        {
+          "text": "Steep hill, trucks use low gear"
+        },
+        {
+          "text": "No trucks",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/no-dangerous-goods.png",
+      "explanation": "A red circle and slash over a black diamond means vehicles carrying dangerous goods are not permitted. A green circle with the diamond marks a dangerous goods route. (Driver's Guide pp. 29–30)",
+      "choices": [
+        {
+          "text": "Dangerous goods route"
+        },
+        {
+          "text": "Reserved lane ends"
+        },
+        {
+          "text": "No vehicles carrying dangerous goods",
+          "correct": true
+        },
+        {
+          "text": "No parking on the median"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/no-parking.png",
+      "explanation": "A red circle and slash over a P means parking is not permitted. An arrow under the symbol shows where the rule applies. (Driver's Guide p. 30)",
+      "choices": [
+        {
+          "text": "No stopping"
+        },
+        {
+          "text": "Parking permitted"
+        },
+        {
+          "text": "Parking for persons with disabilities only"
+        },
+        {
+          "text": "No parking",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/no-stopping.png",
+      "explanation": "A red circle and slash over a stop-sign shape means stopping is not permitted, not even briefly to drop off passengers. (Driver's Guide p. 30)",
+      "choices": [
+        {
+          "text": "No parking"
+        },
+        {
+          "text": "Stop sign removed"
+        },
+        {
+          "text": "Do not enter"
+        },
+        {
+          "text": "No stopping",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "You see this sign with no speed limit sign attached to it. What does it mean?",
+      "imgUrl": "/signs/school-zone.png",
+      "explanation": "A school sign without a speed sign marks a school area. Children may be walking or crossing, so use caution. With a speed sign attached, it is a school zone. (Driver's Guide p. 31)",
+      "choices": [
+        {
+          "text": "A school area: use caution, as children may be walking or crossing",
+          "correct": true
+        },
+        {
+          "text": "A school zone: the speed limit is 30 km/h"
+        },
+        {
+          "text": "A school crosswalk: you must stop"
+        },
+        {
+          "text": "A school bus stop ahead"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign has a 30 km/h speed sign attached. When is the 30 km/h limit in effect, unless other times are posted?",
+      "imgUrl": "/signs/school-zone.png",
+      "explanation": "This is a school zone. Unless other times are posted, it is in effect on school days from 8:00 to 9:30 a.m., 11:30 a.m. to 1:30 p.m., and 3:00 to 4:30 p.m. (Driver's Guide p. 30)",
+      "choices": [
+        {
+          "text": "Every day from 8:30 a.m. to one hour after sunset"
+        },
+        {
+          "text": "On school days, 8:00–9:30 a.m., 11:30 a.m.–1:30 p.m., and 3:00–4:30 p.m.",
+          "correct": true
+        },
+        {
+          "text": "At all times, every day of the year"
+        },
+        {
+          "text": "Only when children are visible"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign has a speed sign attached. When is the playground zone speed limit in effect, unless other times are posted?",
+      "imgUrl": "/signs/playground.png",
+      "explanation": "Playground zone restrictions are in effect every day from 8:30 a.m. to one hour after sunset, unless other times are posted. (Driver's Guide p. 31)",
+      "choices": [
+        {
+          "text": "On school days only, 8:00 a.m. to 4:30 p.m."
+        },
+        {
+          "text": "Every day from 8:30 a.m. to one hour after sunset",
+          "correct": true
+        },
+        {
+          "text": "Only on weekends and holidays"
+        },
+        {
+          "text": "Only when children are present"
+        }
+      ]
+    },
+    {
+      "prompt": "May you pass another vehicle travelling in the same direction in a zone marked by this sign and a speed limit sign, while the zone is in effect?",
+      "imgUrl": "/signs/playground.png",
+      "explanation": "You must not pass or attempt to pass another vehicle travelling in the same direction within a playground zone when the speed restriction is in effect. The same rule applies in school zones. (Driver's Guide p. 31)",
+      "choices": [
+        {
+          "text": "No, passing is not permitted",
+          "correct": true
+        },
+        {
+          "text": "Yes, if the vehicle ahead is going below 30 km/h"
+        },
+        {
+          "text": "Yes, if no children are visible"
+        },
+        {
+          "text": "Yes, on a multi-lane road"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/stop-ahead.png",
+      "explanation": "This warning sign tells you a stop sign is ahead, often where it is hidden by a curve or hill. Be ready to stop. (Driver's Guide p. 33)",
+      "choices": [
+        {
+          "text": "Yield sign ahead"
+        },
+        {
+          "text": "Stop sign ahead",
+          "correct": true
+        },
+        {
+          "text": "Do not enter ahead"
+        },
+        {
+          "text": "Construction zone ahead"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/signals-ahead.png",
+      "explanation": "This warning sign tells you there are traffic control signals ahead. (Driver's Guide p. 33)",
+      "choices": [
+        {
+          "text": "Railway crossing signals ahead"
+        },
+        {
+          "text": "Pedestrian-activated signals only"
+        },
+        {
+          "text": "Traffic control signals ahead",
+          "correct": true
+        },
+        {
+          "text": "Signals are not working"
+        }
+      ]
+    },
+    {
+      "prompt": "The yellow lights on this sign are flashing. What should you do?",
+      "imgUrl": "/signs/signals-prepare-to-stop.png",
+      "explanation": "When the yellow lights flash, prepare to stop: the traffic signal ahead is turning from green to yellow or yellow to red, or is already red. (Driver's Guide p. 33)",
+      "choices": [
+        {
+          "text": "Prepare to stop, because the signal ahead is changing or is red",
+          "correct": true
+        },
+        {
+          "text": "Speed up to get through before the light changes"
+        },
+        {
+          "text": "Proceed with caution; the signal ahead is flashing yellow"
+        },
+        {
+          "text": "Stop at the sign, then proceed"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/sharp-turn-right.png",
+      "explanation": "A right-angle arrow warns of a sharp turn to the right. A bent, curved arrow means a gentler curve. Slow down before the turn. (Driver's Guide p. 33)",
+      "choices": [
+        {
+          "text": "Right turn only"
+        },
+        {
+          "text": "Detour to the right"
+        },
+        {
+          "text": "Sharp turn right ahead",
+          "correct": true
+        },
+        {
+          "text": "Side road on the right"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/deer-crossing.png",
+      "explanation": "This sign warns that animals such as deer often cross here. Watch the ditches, especially at dusk and dawn. (Driver's Guide pp. 34, 84)",
+      "choices": [
+        {
+          "text": "Animal crossing",
+          "correct": true
+        },
+        {
+          "text": "Hunting area"
+        },
+        {
+          "text": "Wildlife park ahead"
+        },
+        {
+          "text": "Livestock on the road"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/bicycle-crossing.png",
+      "explanation": "A bicycle on a yellow diamond warns that cyclists may cross the road ahead. (Driver's Guide p. 34)",
+      "choices": [
+        {
+          "text": "Bicycle lane only"
+        },
+        {
+          "text": "No bicycles"
+        },
+        {
+          "text": "Bicycle route marker"
+        },
+        {
+          "text": "Bicycle crossing ahead",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/snowmobile-crossing.png",
+      "explanation": "This sign warns that motorized snow vehicles (snowmobiles) may cross the road ahead. (Driver's Guide p. 34)",
+      "choices": [
+        {
+          "text": "Snow plough ahead"
+        },
+        {
+          "text": "Motorized snow vehicles crossing",
+          "correct": true
+        },
+        {
+          "text": "No motorized snow vehicles"
+        },
+        {
+          "text": "Icy road ahead"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/side-road-right.png",
+      "explanation": "This sign warns of a side road (which may be hidden) joining from the right. Watch for vehicles entering. (Driver's Guide p. 34)",
+      "choices": [
+        {
+          "text": "Side road on the right ahead",
+          "correct": true
+        },
+        {
+          "text": "Sharp turn right"
+        },
+        {
+          "text": "Right lane ends"
+        },
+        {
+          "text": "T intersection ahead"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/y-intersection.png",
+      "explanation": "This sign warns that the road ahead splits into a Y intersection. (Driver's Guide p. 34)",
+      "choices": [
+        {
+          "text": "Y intersection ahead",
+          "correct": true
+        },
+        {
+          "text": "Divided highway begins"
+        },
+        {
+          "text": "Merging traffic"
+        },
+        {
+          "text": "Road narrows"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/t-intersection.png",
+      "explanation": "This sign warns that the road ends at a T intersection. You will have to turn left or right. (Driver's Guide p. 34)",
+      "choices": [
+        {
+          "text": "Side road on the right"
+        },
+        {
+          "text": "T intersection ahead",
+          "correct": true
+        },
+        {
+          "text": "Hospital ahead"
+        },
+        {
+          "text": "Dead end"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/roundabout-ahead.png",
+      "explanation": "This sign warns of a roundabout ahead. Slow down, yield to traffic already in the roundabout, and travel counterclockwise. (Driver's Guide pp. 34, 61)",
+      "choices": [
+        {
+          "text": "U-turns permitted"
+        },
+        {
+          "text": "Detour ahead"
+        },
+        {
+          "text": "Roundabout ahead",
+          "correct": true
+        },
+        {
+          "text": "Recycling depot"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/trucks-entering-right.png",
+      "explanation": "This sign warns that trucks may enter the road from the right. Be ready to slow down. (Driver's Guide p. 34)",
+      "choices": [
+        {
+          "text": "Truck route"
+        },
+        {
+          "text": "Trucks entering from the right",
+          "correct": true
+        },
+        {
+          "text": "No trucks"
+        },
+        {
+          "text": "Truck weigh station ahead"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/added-lane.png",
+      "explanation": "Roads join side-by-side but do not merge: the entering traffic gets its own lane (free flow). Neither lane needs to merge. (Driver's Guide p. 34)",
+      "choices": [
+        {
+          "text": "Added lane (free flow): traffic enters its own lane",
+          "correct": true
+        },
+        {
+          "text": "Merging traffic"
+        },
+        {
+          "text": "Right lane ends"
+        },
+        {
+          "text": "Divided highway begins"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/right-lane-ends.png",
+      "explanation": "The right lane ends ahead. Drivers in it must merge left when it is safe, and drivers in the left lane should let them in. (Driver's Guide p. 35)",
+      "choices": [
+        {
+          "text": "Road narrows on both sides"
+        },
+        {
+          "text": "Added lane on the right"
+        },
+        {
+          "text": "Passing lane begins"
+        },
+        {
+          "text": "Right lane ends",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/road-narrows-both.png",
+      "explanation": "Both edges of the road move in ahead, so the road becomes narrower on both sides. (Driver's Guide p. 35)",
+      "choices": [
+        {
+          "text": "Narrow passage (bridge)"
+        },
+        {
+          "text": "Divided highway ends"
+        },
+        {
+          "text": "Road narrows on both sides",
+          "correct": true
+        },
+        {
+          "text": "Right lane ends"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/narrow-passage.png",
+      "explanation": "This sign warns of a narrow passage, such as a narrow bridge, that may be only wide enough for one vehicle. (Driver's Guide p. 35)",
+      "choices": [
+        {
+          "text": "Divided highway begins"
+        },
+        {
+          "text": "Two-way traffic"
+        },
+        {
+          "text": "Road narrows on the left"
+        },
+        {
+          "text": "Narrow passage",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/divided-highway-ends.png",
+      "explanation": "The median ends ahead and traffic will travel in both directions on an undivided road. Keep right. (Driver's Guide p. 35)",
+      "choices": [
+        {
+          "text": "Divided highway begins"
+        },
+        {
+          "text": "Divided highway ends",
+          "correct": true
+        },
+        {
+          "text": "Keep right of the divider"
+        },
+        {
+          "text": "Two-way left turn lane"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/hill.png",
+      "explanation": "This sign warns of a steep hill. Check your speed, and with a manual transmission, shift to a lower gear to avoid overheating the brakes. (Driver's Guide pp. 35, 76)",
+      "choices": [
+        {
+          "text": "Steep hill ahead",
+          "correct": true
+        },
+        {
+          "text": "Trucks entering the road"
+        },
+        {
+          "text": "Falling rock"
+        },
+        {
+          "text": "Runaway lane"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/pavement-ends.png",
+      "explanation": "The paved surface ends ahead and the road continues as gravel or dirt. Slow down before you reach it. (Driver's Guide p. 35)",
+      "choices": [
+        {
+          "text": "Bump ahead"
+        },
+        {
+          "text": "Construction zone"
+        },
+        {
+          "text": "Pavement ends",
+          "correct": true
+        },
+        {
+          "text": "Lane markings end"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/rumble-strips.png",
+      "explanation": "This sign warns of rumble strips ahead: grooves in the pavement that make noise and vibration to alert drivers. (Driver's Guide p. 35)",
+      "choices": [
+        {
+          "text": "Railway crossing"
+        },
+        {
+          "text": "Pedestrian crosswalk"
+        },
+        {
+          "text": "Rumble strips ahead",
+          "correct": true
+        },
+        {
+          "text": "Bridge ices before road"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/chevron.png",
+      "explanation": "A chevron sign marks a sharp bend in the road and points in the direction of the turn. (Driver's Guide p. 35)",
+      "choices": [
+        {
+          "text": "Keep right"
+        },
+        {
+          "text": "Passing lane ahead"
+        },
+        {
+          "text": "A sharp bend in the direction shown",
+          "correct": true
+        },
+        {
+          "text": "One way to the right"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/single-file.png",
+      "explanation": "This sign warns that cyclists may use the full lane ahead, and the lane is too narrow for a vehicle and bicycle to travel side by side. (Driver's Guide p. 35)",
+      "choices": [
+        {
+          "text": "Cyclists may use the full lane, which is too narrow to share side by side",
+          "correct": true
+        },
+        {
+          "text": "Bicycle lane: vehicles prohibited"
+        },
+        {
+          "text": "Pass cyclists on the right"
+        },
+        {
+          "text": "Bicycle crossing ahead"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/flag-person.png",
+      "explanation": "This orange construction sign warns of a flag person ahead. Obey the flag person's signals and be ready to stop. (Driver's Guide p. 37)",
+      "choices": [
+        {
+          "text": "People working ahead"
+        },
+        {
+          "text": "Flag person ahead",
+          "correct": true
+        },
+        {
+          "text": "School crossing guard"
+        },
+        {
+          "text": "Police check stop"
+        }
+      ]
+    },
+    {
+      "prompt": "This sign indicates:",
+      "imgUrl": "/signs/survey-crew.png",
+      "explanation": "This orange construction sign warns that a survey crew is working ahead. Slow down and watch for workers. (Driver's Guide p. 37)",
+      "choices": [
+        {
+          "text": "Flag person ahead"
+        },
+        {
+          "text": "Photo radar ahead"
+        },
+        {
+          "text": "Uneven pavement"
+        },
+        {
+          "text": "Survey crew ahead",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "What shape and colour is a sign that marks a school zone or school area?",
+      "explanation": "School zone and school area signs are pentagon-shaped with a fluorescent yellow-green background. (Driver's Guide p. 25)",
+      "choices": [
+        {
+          "text": "A yellow diamond"
+        },
+        {
+          "text": "An orange diamond"
+        },
+        {
+          "text": "A fluorescent yellow-green pentagon",
+          "correct": true
+        },
+        {
+          "text": "A white rectangle"
+        }
+      ]
+    },
+    {
+      "prompt": "What colour background do signs giving construction area information have?",
+      "explanation": "Construction signs show information or pictures on an orange background, in a diamond shape. (Driver's Guide p. 25)",
+      "choices": [
+        {
+          "text": "Yellow"
+        },
+        {
+          "text": "Orange",
+          "correct": true
+        },
+        {
+          "text": "Green"
+        },
+        {
+          "text": "Blue"
+        }
+      ]
+    },
+    {
+      "prompt": "Signs on a blue background usually show:",
+      "explanation": "White messages on blue square signs show places for fuel, food, lodging, or assistance. Green signs give distances and destinations. (Driver's Guide p. 26)",
+      "choices": [
+        {
+          "text": "Distances to destinations"
+        },
+        {
+          "text": "Services such as fuel, food, lodging, or assistance",
+          "correct": true
+        },
+        {
+          "text": "Construction information"
+        },
+        {
+          "text": "Warnings of hazards ahead"
+        }
+      ]
     }
   ]
 }

@@ -117,6 +117,481 @@
           "correct": true
         }
       ]
+    },
+    {
+      "prompt": "When approaching an intersection and facing a traffic control light that is showing a green right-turn arrow and a red light, a driver:",
+      "explanation": "Must proceed cautiously in the direction of the arrow (right turn) when it's safe to do so, without stopping, as the arrow specifically permits the turn, overriding the solid red light for that specific movement, but always yield to pedestrians and other traffic.",
+      "choices": [
+        {
+          "text": " Must stop and wait for a green light before turning in the direction of the arrow"
+        },
+        {
+          "text": "May go straight through the intersection without stopping"
+        },
+        {
+          "text": "May proceed when safe, without stopping, in the direction of the arrow",
+          "correct": true
+        },
+        {
+          "text": "May turn left without stopping"
+        }
+      ]
+    },
+    {
+      "prompt": "A single solid white line between driving lanes in an urban area means:",
+      "explanation": "In Alberta , a solid white line means you are in a lane of traffic moving in the same direction, and changing lanes across it is generally not permitted or strongly discouraged for safety, especially in urban areas or where it separates lanes of traffic going the same way. A broken white line permits lane changes, while a solid white line means stay in your lane unless it's a designated turn lane.",
+      "choices": [
+        {
+          "text": "It is an line separating traffic travelling in opposite directions"
+        },
+        {
+          "text": "Traffic on the right is moving faster than traffic on the left"
+        },
+        {
+          "text": "Lane changing is not permitted",
+          "correct": true
+        },
+        {
+          "text": "Lane changing is permitted"
+        }
+      ]
+    },
+    {
+      "prompt": "When facing a solid red light, where must you stop?",
+      "explanation": "Stop before the stop line or crosswalk in front of you. If there is neither, stop before the intersection. (Driver's Guide p. 22)",
+      "choices": [
+        {
+          "text": "Inside the crosswalk, so you can see cross traffic"
+        },
+        {
+          "text": "At the edge of the intersection, past the stop line"
+        },
+        {
+          "text": "Before the stop line or crosswalk, or before the intersection if there is neither",
+          "correct": true
+        },
+        {
+          "text": "Anywhere within 10 metres of the light"
+        }
+      ]
+    },
+    {
+      "prompt": "When is a left turn permitted on a red light?",
+      "explanation": "Unless a sign prohibits it, the only left turn allowed on a red light is from a one-way street onto a one-way street, after a complete stop and yielding to other traffic. (Driver's Guide p. 22)",
+      "choices": [
+        {
+          "text": "From a one-way street onto a one-way street, after a complete stop",
+          "correct": true
+        },
+        {
+          "text": "From any street, after a complete stop"
+        },
+        {
+          "text": "Only when there is no oncoming traffic"
+        },
+        {
+          "text": "Never"
+        }
+      ]
+    },
+    {
+      "prompt": "A solid double red light has the same meaning as:",
+      "explanation": "A solid double red light has the same meaning as a single red light. (Driver's Guide p. 22)",
+      "choices": [
+        {
+          "text": "A flashing red light"
+        },
+        {
+          "text": "A single solid red light",
+          "correct": true
+        },
+        {
+          "text": "A four-way stop"
+        },
+        {
+          "text": "A red X lane signal"
+        }
+      ]
+    },
+    {
+      "prompt": "The light turns yellow while you are already in the intersection. What should you do?",
+      "explanation": "Drivers already in the intersection when the light turns yellow must safely clear the intersection. (Driver's Guide p. 22)",
+      "choices": [
+        {
+          "text": "Stop immediately where you are"
+        },
+        {
+          "text": "Reverse back behind the stop line"
+        },
+        {
+          "text": "Wait in the intersection for the next green light"
+        },
+        {
+          "text": "Safely clear the intersection",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "What is a \"stale\" green light?",
+      "explanation": "A stale green light has been green for a while and will soon turn yellow. Be prepared to stop. (Driver's Guide p. 22)",
+      "choices": [
+        {
+          "text": "A green light that is flashing"
+        },
+        {
+          "text": "A green light that has burned out"
+        },
+        {
+          "text": "A green light that has just turned green"
+        },
+        {
+          "text": "A green light that has been on for a while and will soon turn yellow",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "Approaching a green light, how can you tell it may be about to change?",
+      "explanation": "Check the pedestrian signal. If it shows \"Don't Walk\", the light may soon change, so be ready to stop. (Driver's Guide p. 23)",
+      "choices": [
+        {
+          "text": "The pedestrian signal shows \"Walk\""
+        },
+        {
+          "text": "The light is brighter than usual"
+        },
+        {
+          "text": "There is no traffic waiting on the cross street"
+        },
+        {
+          "text": "The pedestrian signal shows \"Don't Walk\"",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "You face a green arrow together with a solid green light. You may:",
+      "explanation": "With a green arrow and a solid green light, you may proceed in the arrow's direction without yielding. You may go in the other directions when it is safe and legal. (Driver's Guide p. 23)",
+      "choices": [
+        {
+          "text": "Proceed only in the direction of the arrow"
+        },
+        {
+          "text": "Stop, then proceed when safe"
+        },
+        {
+          "text": "Proceed only after the arrow turns off"
+        },
+        {
+          "text": "Proceed in the direction of the arrow without yielding",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "What does a flashing green traffic light mean?",
+      "explanation": "You may go through, turn left, or turn right without stopping. Opposing traffic faces a red light, but you must still yield to pedestrians and vehicles lawfully in the intersection. (Driver's Guide p. 23)",
+      "choices": [
+        {
+          "text": "Stop, then proceed when safe"
+        },
+        {
+          "text": "The light is about to turn red"
+        },
+        {
+          "text": "Only pedestrians may proceed"
+        },
+        {
+          "text": "You may go through or turn without stopping, yielding to pedestrians and vehicles in the intersection",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "When the traffic lights in all directions are flashing red, the intersection becomes:",
+      "explanation": "When lights in all directions are flashing red, the intersection becomes a four-way stop. (Driver's Guide p. 23)",
+      "choices": [
+        {
+          "text": "An uncontrolled intersection"
+        },
+        {
+          "text": "A yield intersection"
+        },
+        {
+          "text": "Closed to all traffic"
+        },
+        {
+          "text": "A four-way stop",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "On a vertical traffic signal, in what order are the lights from top to bottom?",
+      "explanation": "On a vertical signal, red is at the top, yellow in the centre, and green at the bottom. On a horizontal signal, red is on the left. (Driver's Guide p. 22)",
+      "choices": [
+        {
+          "text": "Green, yellow, red"
+        },
+        {
+          "text": "Yellow, red, green"
+        },
+        {
+          "text": "Red, green, yellow"
+        },
+        {
+          "text": "Red, yellow, green",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "A green arrow pointing down over a traffic lane means:",
+      "explanation": "A downward green arrow over a lane means you may drive in that lane. A red X means you may not. (Driver's Guide p. 24)",
+      "choices": [
+        {
+          "text": "You may drive in that lane",
+          "correct": true
+        },
+        {
+          "text": "The lane ends ahead"
+        },
+        {
+          "text": "The lane is for turning only"
+        },
+        {
+          "text": "Move out of that lane"
+        }
+      ]
+    },
+    {
+      "prompt": "A pedestrian is halfway across when the signal changes to \"Don't Walk\". What may the pedestrian do?",
+      "explanation": "Pedestrians who have already started crossing when \"Don't Walk\" appears may continue and clear the crosswalk. (Driver's Guide p. 23)",
+      "choices": [
+        {
+          "text": "Stop and wait in the middle of the road"
+        },
+        {
+          "text": "Continue crossing and clear the crosswalk",
+          "correct": true
+        },
+        {
+          "text": "Return to the curb they started from"
+        },
+        {
+          "text": "Wait for drivers to wave them on"
+        }
+      ]
+    },
+    {
+      "prompt": "What do yellow lane lines tell you?",
+      "explanation": "Yellow lines separate traffic travelling in opposite directions. The yellow line should always be on the driver's left. (Driver's Guide p. 38)",
+      "choices": [
+        {
+          "text": "Traffic on each side travels in the same direction"
+        },
+        {
+          "text": "The lane is reserved for buses"
+        },
+        {
+          "text": "Traffic on each side travels in opposite directions",
+          "correct": true
+        },
+        {
+          "text": "Parking is permitted along the line"
+        }
+      ]
+    },
+    {
+      "prompt": "What do white lane lines tell you?",
+      "explanation": "White lines separate lanes of traffic travelling in the same direction. (Driver's Guide p. 39)",
+      "choices": [
+        {
+          "text": "Traffic on each side travels in opposite directions"
+        },
+        {
+          "text": "Traffic on each side travels in the same direction",
+          "correct": true
+        },
+        {
+          "text": "Passing is never allowed"
+        },
+        {
+          "text": "The road edge is ahead"
+        }
+      ]
+    },
+    {
+      "prompt": "A broken white line between two lanes means:",
+      "explanation": "Broken white lines mean lane changing is permitted, when it is safe. (Driver's Guide p. 39)",
+      "choices": [
+        {
+          "text": "Lane changing is not permitted"
+        },
+        {
+          "text": "Lane changing is permitted when safe",
+          "correct": true
+        },
+        {
+          "text": "Traffic in the lanes moves in opposite directions"
+        },
+        {
+          "text": "The lane is ending"
+        }
+      ]
+    },
+    {
+      "prompt": "Within an urban area, may you pass across a single solid yellow line?",
+      "explanation": "Passing safely is permitted across a single solid yellow line within an urban area. In all other cases, single or double solid yellow lines mean no passing. (Driver's Guide p. 38)",
+      "choices": [
+        {
+          "text": "No, never"
+        },
+        {
+          "text": "Only on one-way streets"
+        },
+        {
+          "text": "Only to pass a cyclist"
+        },
+        {
+          "text": "Yes, if it can be done safely",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "Double solid yellow lines on the centre of a road mean:",
+      "explanation": "Double solid yellow lines mean passing is not permitted in either direction. (Driver's Guide p. 38)",
+      "choices": [
+        {
+          "text": "Passing is not permitted in either direction",
+          "correct": true
+        },
+        {
+          "text": "Passing is permitted for both directions"
+        },
+        {
+          "text": "Passing is permitted for the right lane only"
+        },
+        {
+          "text": "The road is one-way"
+        }
+      ]
+    },
+    {
+      "prompt": "Who may use a two-way left-turn lane in the centre of a road?",
+      "explanation": "A two-way left-turn lane is shared by left-turning traffic from both directions. You may cross the solid yellow line to enter it, close to where you turn. (Driver's Guide pp. 39, 67)",
+      "choices": [
+        {
+          "text": "Only traffic turning left from one direction"
+        },
+        {
+          "text": "Any vehicle wanting to pass slower traffic"
+        },
+        {
+          "text": "Emergency vehicles only"
+        },
+        {
+          "text": "Left-turning traffic from both directions",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "A white diamond painted on a lane means:",
+      "explanation": "Diamond markings show that a lane is reserved for specific vehicles, such as buses, taxis, or bicycles. Signs may give the times. (Driver's Guide p. 39)",
+      "choices": [
+        {
+          "text": "The lane is reserved for specific vehicles",
+          "correct": true
+        },
+        {
+          "text": "The lane is a passing lane"
+        },
+        {
+          "text": "There is a hazard ahead"
+        },
+        {
+          "text": "The lane is closed"
+        }
+      ]
+    },
+    {
+      "prompt": "When may a driver enter a bicycle lane?",
+      "explanation": "Vehicles may not drive in bicycle lanes, except when turning or entering or leaving a parking spot. Watch carefully for cyclists. (Driver's Guide p. 40)",
+      "choices": [
+        {
+          "text": "Only when turning or entering or leaving a parking spot",
+          "correct": true
+        },
+        {
+          "text": "Whenever no cyclists are present"
+        },
+        {
+          "text": "To pass a slow vehicle on the right"
+        },
+        {
+          "text": "During rush hour only"
+        }
+      ]
+    },
+    {
+      "prompt": "A painted island (a striped area on the road) means:",
+      "explanation": "Painted islands are not to be used for travel, and you must not park or stop on them. You may cross one only to enter or leave a driveway, alley, or private drive. (Driver's Guide p. 40)",
+      "choices": [
+        {
+          "text": "It is a passing lane for slow traffic"
+        },
+        {
+          "text": "It is a waiting area for left turns"
+        },
+        {
+          "text": "Don't travel, stop, or park on it, except to cross into or out of a driveway",
+          "correct": true
+        },
+        {
+          "text": "It is a parking area for emergency vehicles"
+        }
+      ]
+    },
+    {
+      "prompt": "A large white X painted on a rural highway warns of:",
+      "explanation": "X markings on rural highways show that you are approaching a railway crossing. An advance warning sign will also be posted. (Driver's Guide p. 40)",
+      "choices": [
+        {
+          "text": "A railway crossing ahead",
+          "correct": true
+        },
+        {
+          "text": "A closed lane ahead"
+        },
+        {
+          "text": "An intersection with no signs"
+        },
+        {
+          "text": "A school zone ahead"
+        }
+      ]
+    },
+    {
+      "prompt": "A bicycle symbol with two chevrons (arrows) above it painted in a traffic lane means:",
+      "explanation": "This marking guides cyclists and reminds drivers to expect cyclists in the same travel lane. (Driver's Guide p. 40)",
+      "choices": [
+        {
+          "text": "Bicycles are not allowed in this lane"
+        },
+        {
+          "text": "This lane is for bicycles only"
+        },
+        {
+          "text": "Expect cyclists to share this lane with you",
+          "correct": true
+        },
+        {
+          "text": "A bicycle crossing is ahead"
+        }
+      ]
     }
   ]
 }

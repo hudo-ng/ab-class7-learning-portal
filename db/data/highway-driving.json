@@ -155,6 +155,386 @@
           "text": "Insist that the other vehicle yield the right-of-way"
         }
       ]
+    },
+    {
+      "prompt": " A \"parking lane\" as defined in the Basic License Driver's Handbook is:",
+      "explanation": "A \"parking lane\" is defined as that portion of a primary highway between the edge of the roadway (to the right for traffic) and the nearest solid white line (not the centerline), essentially the shoulder or curb area where parking is permitted unless signed otherwise",
+      "choices": [
+        {
+          "text": "A lane closest to the curb, where parking is permitted but there are no meters"
+        },
+        {
+          "text": "That portion of a primary highway between the edge of the roadway to the right of the direction of traffic and the nearest solid white line, not being the centre line, marked on the roadway"
+        },
+        {
+          "text": "A lane immediately beside a row of parking meters in an urban area"
+        },
+        {
+          "text": " All of these responses are correct",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "Where in your lane should you normally drive on a marked roadway?",
+      "explanation": "When a roadway is divided into lanes by visible markings, drive in the centre of your lane. (Driver's Guide p. 70)",
+      "choices": [
+        {
+          "text": "Close to the right edge of your lane"
+        },
+        {
+          "text": "Close to the centre line"
+        },
+        {
+          "text": "In the centre of your lane",
+          "correct": true
+        },
+        {
+          "text": "Over the lane line, so others can see you"
+        }
+      ]
+    },
+    {
+      "prompt": "Before changing lanes, in what order should you do these steps?",
+      "explanation": "Make sure a lane change is allowed, check your mirrors, shoulder check, signal, then move over while keeping your speed. (Driver's Guide p. 71)",
+      "choices": [
+        {
+          "text": "Signal, change lanes, then check your mirrors"
+        },
+        {
+          "text": "Check mirrors, shoulder check, signal, then change lanes",
+          "correct": true
+        },
+        {
+          "text": "Change lanes, then signal"
+        },
+        {
+          "text": "Shoulder check, change lanes, then check mirrors"
+        }
+      ]
+    },
+    {
+      "prompt": "On a multi-lane highway, which lane should slower traffic use?",
+      "explanation": "Slower traffic should use the travel lane furthest to the right, unless it needs the left lane to turn left. This leaves the left lane for passing. (Driver's Guide p. 71)",
+      "choices": [
+        {
+          "text": "The lane furthest to the left"
+        },
+        {
+          "text": "The centre lane"
+        },
+        {
+          "text": "Any lane"
+        },
+        {
+          "text": "The lane furthest to the right",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "On a highway with a passing lane, what should slower vehicles do?",
+      "explanation": "Slower vehicles move into the right lane so other vehicles can pass safely in the left lane. (Driver's Guide p. 71)",
+      "choices": [
+        {
+          "text": "Move into the right lane so others can pass on the left",
+          "correct": true
+        },
+        {
+          "text": "Stay in the left lane and speed up"
+        },
+        {
+          "text": "Pull onto the shoulder"
+        },
+        {
+          "text": "Turn on their hazard lights and continue"
+        }
+      ]
+    },
+    {
+      "prompt": "A passing lane is ending. Who must cooperate?",
+      "explanation": "Drivers in the right lane must merge safely to the left, and drivers in the left lane must cooperate to let them in. (Driver's Guide p. 71)",
+      "choices": [
+        {
+          "text": "Right-lane drivers merge left, and left-lane drivers help them in",
+          "correct": true
+        },
+        {
+          "text": "Only right-lane drivers; left-lane drivers have the right-of-way"
+        },
+        {
+          "text": "Only left-lane drivers, who must move right"
+        },
+        {
+          "text": "Neither; vehicles should stop and take turns"
+        }
+      ]
+    },
+    {
+      "prompt": "Before passing another vehicle on a two-lane highway, which way should you shoulder check?",
+      "explanation": "Shoulder check to the left, to look for vehicles that may be passing you on the left in your blind spot. (Driver's Guide p. 72)",
+      "choices": [
+        {
+          "text": "To the right"
+        },
+        {
+          "text": "To the left",
+          "correct": true
+        },
+        {
+          "text": "Over both shoulders"
+        },
+        {
+          "text": "No shoulder check is needed when passing"
+        }
+      ]
+    },
+    {
+      "prompt": "After passing a vehicle on a two-lane highway, when can you return to your lane?",
+      "explanation": "Once you can see the vehicle you passed in your inside rear-view mirror, shoulder check right, signal right, and return to your lane. (Driver's Guide p. 72)",
+      "choices": [
+        {
+          "text": "As soon as your front bumper passes the other vehicle"
+        },
+        {
+          "text": "When you can see the passed vehicle in your inside rear-view mirror",
+          "correct": true
+        },
+        {
+          "text": "When the other driver flashes their headlights"
+        },
+        {
+          "text": "After counting to two"
+        }
+      ]
+    },
+    {
+      "prompt": "In which situation is passing another vehicle not allowed?",
+      "explanation": "Do not pass when another vehicle has stopped to let a pedestrian cross at a marked or unmarked crosswalk. (Driver's Guide p. 72)",
+      "choices": [
+        {
+          "text": "When the centre line is broken and the road ahead is clear"
+        },
+        {
+          "text": "When a vehicle has stopped for a pedestrian at a crosswalk",
+          "correct": true
+        },
+        {
+          "text": "When you are on a multi-lane highway"
+        },
+        {
+          "text": "When the vehicle ahead is going below the speed limit"
+        }
+      ]
+    },
+    {
+      "prompt": "What is the emergency stopping lane of a highway for?",
+      "explanation": "The shoulder of a primary highway is for drivers who need to stop because of an urgent situation or a problem with their vehicle. (Driver's Guide pp. 72–73)",
+      "choices": [
+        {
+          "text": "Passing slower vehicles"
+        },
+        {
+          "text": "Slower vehicles to drive in"
+        },
+        {
+          "text": "Stopping in an emergency or when your vehicle has a problem",
+          "correct": true
+        },
+        {
+          "text": "Waiting to merge onto the highway"
+        }
+      ]
+    },
+    {
+      "prompt": "May you use the shoulder of a highway to pass a vehicle that is turning left?",
+      "explanation": "No. Do not drive in the emergency stopping lane, and do not pass, or help another vehicle pass you, by using it. (Driver's Guide p. 73)",
+      "choices": [
+        {
+          "text": "Yes, if the shoulder is paved"
+        },
+        {
+          "text": "No, never use the shoulder for passing",
+          "correct": true
+        },
+        {
+          "text": "Yes, if you signal first"
+        },
+        {
+          "text": "Yes, at speeds under 50 km/h"
+        }
+      ]
+    },
+    {
+      "prompt": "When merging onto a highway, who has the right-of-way?",
+      "explanation": "Neither the merging vehicle nor the vehicles already on the highway have the right-of-way. Merging is a shared responsibility. (Driver's Guide p. 73)",
+      "choices": [
+        {
+          "text": "Neither; merging is a shared responsibility",
+          "correct": true
+        },
+        {
+          "text": "The merging vehicle"
+        },
+        {
+          "text": "Vehicles already on the highway"
+        },
+        {
+          "text": "Whichever vehicle is larger"
+        }
+      ]
+    },
+    {
+      "prompt": "Why should you avoid stopping in an acceleration lane when merging?",
+      "explanation": "Merging lanes are designed for reaching highway speed. Drivers behind you expect you to keep moving, and you could be hit from behind if you slow or stop. (Driver's Guide p. 73)",
+      "choices": [
+        {
+          "text": "It is illegal to stop anywhere on a highway"
+        },
+        {
+          "text": "It wastes fuel"
+        },
+        {
+          "text": "Drivers behind you expect you to keep moving and could hit you",
+          "correct": true
+        },
+        {
+          "text": "Merging traffic always has the right-of-way"
+        }
+      ]
+    },
+    {
+      "prompt": "When merging from an acceleration lane, when may you move into the highway lane?",
+      "explanation": "When it is safe and legal, move into your chosen gap after you are past the solid white line of the acceleration lane. (Driver's Guide p. 73)",
+      "choices": [
+        {
+          "text": "As soon as you enter the acceleration lane"
+        },
+        {
+          "text": "Only after coming to a complete stop"
+        },
+        {
+          "text": "Only when there is no traffic at all"
+        },
+        {
+          "text": "After you are past the solid white line, when it is safe",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "You have missed your exit on a highway. What should you do?",
+      "explanation": "If you miss your exit, don't stop. Continue to the next exit and plan to return to your route. Never stop and reverse on a highway or its shoulder. (Driver's Guide p. 74)",
+      "choices": [
+        {
+          "text": "Stop on the shoulder and reverse to the exit"
+        },
+        {
+          "text": "Continue to the next exit",
+          "correct": true
+        },
+        {
+          "text": "Make a U-turn across the median"
+        },
+        {
+          "text": "Slow down and cut across to the exit"
+        }
+      ]
+    },
+    {
+      "prompt": "Where should you do most of your slowing when exiting a highway?",
+      "explanation": "If possible, do most of your slowing in the deceleration lane. Some are short, so you may need to start slowing on the highway. (Driver's Guide p. 74)",
+      "choices": [
+        {
+          "text": "In the highway lane before the exit"
+        },
+        {
+          "text": "On the ramp after the deceleration lane"
+        },
+        {
+          "text": "In the deceleration lane",
+          "correct": true
+        },
+        {
+          "text": "On the shoulder"
+        }
+      ]
+    },
+    {
+      "prompt": "When should you reduce your speed for a curve?",
+      "explanation": "If you need to reduce speed, do it before entering the curve, and keep a safe, steady speed through it. (Driver's Guide p. 75)",
+      "choices": [
+        {
+          "text": "In the middle of the curve"
+        },
+        {
+          "text": "Before entering the curve",
+          "correct": true
+        },
+        {
+          "text": "As you exit the curve"
+        },
+        {
+          "text": "You shouldn't change speed for curves"
+        }
+      ]
+    },
+    {
+      "prompt": "Your vehicle starts to skid on a curve. What should you do?",
+      "explanation": "Stay off the brake and the accelerator, look where you want to go, and make small steering adjustments. (Driver's Guide p. 75)",
+      "choices": [
+        {
+          "text": "Stay off the brake and gas, look and steer where you want to go",
+          "correct": true
+        },
+        {
+          "text": "Brake hard and steer sharply"
+        },
+        {
+          "text": "Accelerate to regain traction"
+        },
+        {
+          "text": "Turn the wheel quickly in the opposite direction"
+        }
+      ]
+    },
+    {
+      "prompt": "As you approach the top of a hill on a two-lane road, you should:",
+      "explanation": "Move to the right in your lane. This may keep you from being hit by an oncoming vehicle that has crossed the centre line. Don't pass near the top of a hill. (Driver's Guide p. 76)",
+      "choices": [
+        {
+          "text": "Move toward the centre line for a better view"
+        },
+        {
+          "text": "Pass any slower vehicles before the crest"
+        },
+        {
+          "text": "Move to the right side of your lane",
+          "correct": true
+        },
+        {
+          "text": "Speed up to get over the hill quickly"
+        }
+      ]
+    },
+    {
+      "prompt": "Going down a steep hill in a vehicle with a manual transmission, why shift to a lower gear?",
+      "explanation": "Shifting to a lower gear can reduce the risk of your brakes overheating. (Driver's Guide p. 76)",
+      "choices": [
+        {
+          "text": "To reduce the risk of the brakes overheating",
+          "correct": true
+        },
+        {
+          "text": "To save fuel"
+        },
+        {
+          "text": "To go faster down the hill"
+        },
+        {
+          "text": "It is required by law on all hills"
+        }
+      ]
     }
   ]
 }

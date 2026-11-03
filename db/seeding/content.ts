@@ -16,6 +16,7 @@ interface QuestionData {
   explanation: string;
   imgUrl?: string;
   difficulty?: number;
+  active?: boolean; // false = draft, imported inactive for review
   choices: ChoiceData[];
 }
 
@@ -145,6 +146,7 @@ export async function importContent(
             explanation: q.explanation.trim(),
             imgUrl: q.imgUrl || null,
             difficulty: q.difficulty ?? 1,
+            isActive: q.active !== false,
           })
           .returning({ id: questions.id });
 

@@ -193,6 +193,481 @@
           "correct": true
         }
       ]
+    },
+    {
+      "prompt": "When backing a passenger vehicle to the left, the driver should:",
+      "explanation": "For Alberta Class 7 (Learner) drivers, backing rules emphasize extreme caution: check surroundings thoroughly (pedestrians, cyclists, vehicles), use mirrors & shoulder checks, look over the shoulder in the direction you're turning (e.g., left shoulder for left turn), steer slowly with two hands (one to steer, one to stabilize), and remember the front swings opposite to the back, requiring quick forward glances. Never reverse into intersections or crosswalks, and be aware that while backup cameras are allowed, you still need to look over your shoulder",
+      "choices": [
+        {
+          "text": "Look in the inside rea-view mirror and make steering adjustments as necessary"
+        },
+        {
+          "text": "Look over the right shoulder with occasional glances to the front"
+        },
+        {
+          "text": "Look over the left shoulder with occasional glances to the front",
+          "correct": true
+        },
+        {
+          "text": "Without shoulder checking, use the inside and outside rear view mirrors to ensure the best view to the rear and both sides of the vehicle"
+        }
+      ]
+    },
+    {
+      "prompt": "The recommended braking procedure to bring a vehicle to a normal, smooth stop is:",
+      "explanation": "To bring a vehicle to a smooth, normal stop, you should ease off the gas early, then apply light, gradual pressure to the brake pedal with your right foot, increasing pressure as needed, and finally ease off slightly just before stopping to prevent a jolt, making it a progressive and controlled deceleration.",
+      "choices": [
+        {
+          "text": "Continually increase brake pressure until the wheels lock"
+        },
+        {
+          "text": "Apply brake pressure, ease off slightly just before the vehicle stops, then re-apply sufficient pressure to stop",
+          "correct": true
+        },
+        {
+          "text": "Shift the vehicle into neutral and apply steady pressure to the brake pedal until the vehicle comes to a stop"
+        },
+        {
+          "text": "Pump the brake pedal smoothly until the vehicle stops"
+        }
+      ]
+    },
+    {
+      "prompt": "In what order should you complete these steps before driving?",
+      "explanation": "The recommended order is: lock the doors, adjust the seat, adjust the head restraint, adjust the mirrors, then fasten the seat belt. (Driver's Guide p. 44)",
+      "choices": [
+        {
+          "text": "Lock doors, adjust seat, adjust head restraint, adjust mirrors, fasten seat belt",
+          "correct": true
+        },
+        {
+          "text": "Fasten seat belt, adjust mirrors, adjust seat, lock doors, adjust head restraint"
+        },
+        {
+          "text": "Adjust mirrors, fasten seat belt, lock doors, adjust seat, adjust head restraint"
+        },
+        {
+          "text": "Adjust seat, fasten seat belt, adjust mirrors, adjust head restraint, lock doors"
+        }
+      ]
+    },
+    {
+      "prompt": "How far should you sit from the steering wheel?",
+      "explanation": "Sit at least 25 centimetres (10 inches) from the steering wheel, the distance recommended by Transport Canada. (Driver's Guide p. 44)",
+      "choices": [
+        {
+          "text": "At least 10 centimetres"
+        },
+        {
+          "text": "At least 50 centimetres"
+        },
+        {
+          "text": "At least 25 centimetres",
+          "correct": true
+        },
+        {
+          "text": "As close as possible"
+        }
+      ]
+    },
+    {
+      "prompt": "Where should you place your hands on the steering wheel?",
+      "explanation": "Place your left hand at about 9 o'clock and your right hand at about 3 o'clock. If the wheel design doesn't allow this, use 10 and 2. (Driver's Guide pp. 44, 48)",
+      "choices": [
+        {
+          "text": "Both hands at 12 o'clock"
+        },
+        {
+          "text": "At about 9 o'clock and 3 o'clock",
+          "correct": true
+        },
+        {
+          "text": "At about 4 o'clock and 8 o'clock"
+        },
+        {
+          "text": "One hand at the top of the wheel only"
+        }
+      ]
+    },
+    {
+      "prompt": "Ideally, how much space should there be between the back of your head and a tilting head restraint?",
+      "explanation": "If your head restraint tilts, move it forward. Less than 10 centimetres between your head and the restraint is ideal. (Driver's Guide p. 45)",
+      "choices": [
+        {
+          "text": "Less than 10 centimetres",
+          "correct": true
+        },
+        {
+          "text": "About 20 centimetres"
+        },
+        {
+          "text": "About 30 centimetres"
+        },
+        {
+          "text": "The space doesn't matter if the height is correct"
+        }
+      ]
+    },
+    {
+      "prompt": "How should you adjust your inside rear-view mirror?",
+      "explanation": "Adjust the inside mirror so the rear window is framed within it, showing as much behind you as possible. (Driver's Guide p. 45)",
+      "choices": [
+        {
+          "text": "So you can see your own face"
+        },
+        {
+          "text": "So the whole rear window is framed in the mirror",
+          "correct": true
+        },
+        {
+          "text": "So you can see the back seat passengers"
+        },
+        {
+          "text": "So you can see the lane to your left"
+        }
+      ]
+    },
+    {
+      "prompt": "When your outside mirrors are adjusted correctly, you should see:",
+      "explanation": "Adjust the outside mirrors to reduce blind spots. You should see your own vehicle in a small part of the mirror closest to it. (Driver's Guide p. 45)",
+      "choices": [
+        {
+          "text": "None of your own vehicle"
+        },
+        {
+          "text": "A small part of your own vehicle",
+          "correct": true
+        },
+        {
+          "text": "Mostly your own vehicle"
+        },
+        {
+          "text": "Only the road surface"
+        }
+      ]
+    },
+    {
+      "prompt": "Your vehicle has air bags. Are you still required to wear a seat belt?",
+      "explanation": "Yes. You are still required to wear your seat belt in a vehicle with air bags. (Driver's Guide p. 45)",
+      "choices": [
+        {
+          "text": "No, air bags replace seat belts"
+        },
+        {
+          "text": "Yes, seat belts are required even with air bags",
+          "correct": true
+        },
+        {
+          "text": "Only on highways"
+        },
+        {
+          "text": "Only in the back seat"
+        }
+      ]
+    },
+    {
+      "prompt": "When must you use your signal lights?",
+      "explanation": "You must signal when moving away from the curb or parking lane, turning left or right, and changing lanes. (Driver's Guide p. 49)",
+      "choices": [
+        {
+          "text": "Only when turning at intersections"
+        },
+        {
+          "text": "When moving away from the curb, turning, or changing lanes",
+          "correct": true
+        },
+        {
+          "text": "Only when other vehicles are nearby"
+        },
+        {
+          "text": "Only when changing lanes on a highway"
+        }
+      ]
+    },
+    {
+      "prompt": "Which hand signal tells other drivers you are turning right?",
+      "explanation": "To signal a right turn by hand, bend your left arm upward at the elbow. A straight arm means left, and an arm bent downward means slowing or stopping. (Driver's Guide p. 49)",
+      "choices": [
+        {
+          "text": "Left arm straight out"
+        },
+        {
+          "text": "Left arm bent downward at the elbow"
+        },
+        {
+          "text": "Right arm out of the passenger window"
+        },
+        {
+          "text": "Left arm bent upward at the elbow",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "Which hand signal tells other drivers you are slowing or stopping?",
+      "explanation": "To signal slowing or stopping by hand, bend your left arm downward at the elbow. (Driver's Guide p. 49)",
+      "choices": [
+        {
+          "text": "Left arm bent upward at the elbow"
+        },
+        {
+          "text": "Left arm straight out"
+        },
+        {
+          "text": "Left arm bent downward at the elbow",
+          "correct": true
+        },
+        {
+          "text": "Waving your left arm up and down"
+        }
+      ]
+    },
+    {
+      "prompt": "Total stopping distance is made up of:",
+      "explanation": "Total stopping distance = perception distance + reaction distance + braking distance. (Driver's Guide p. 50)",
+      "choices": [
+        {
+          "text": "Braking distance only"
+        },
+        {
+          "text": "Perception distance + reaction distance + braking distance",
+          "correct": true
+        },
+        {
+          "text": "Reaction distance + braking distance"
+        },
+        {
+          "text": "Following distance + braking distance"
+        }
+      ]
+    },
+    {
+      "prompt": "About how long does the average driver take to react by moving their foot from the gas to the brake?",
+      "explanation": "The average reaction time is about three-quarters of a second. Perception takes about another three-quarters of a second. (Driver's Guide pp. 49–50)",
+      "choices": [
+        {
+          "text": "About one-tenth of a second"
+        },
+        {
+          "text": "About three-quarters of a second",
+          "correct": true
+        },
+        {
+          "text": "About 3 seconds"
+        },
+        {
+          "text": "About 5 seconds"
+        }
+      ]
+    },
+    {
+      "prompt": "How fast should you drive when reversing?",
+      "explanation": "All reversing must be done at a crawl or slow walking speed. (Driver's Guide p. 51)",
+      "choices": [
+        {
+          "text": "At 20 km/h"
+        },
+        {
+          "text": "At the same speed as forward driving"
+        },
+        {
+          "text": "As quickly as possible to clear traffic"
+        },
+        {
+          "text": "At a crawl or slow walking speed",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "When reversing in a straight line, how much should you turn the steering wheel to correct your direction?",
+      "explanation": "To correct your steering when reversing straight, turn the wheel no more than a quarter turn. (Driver's Guide p. 51)",
+      "choices": [
+        {
+          "text": "About a half turn"
+        },
+        {
+          "text": "A full turn"
+        },
+        {
+          "text": "Do not turn the wheel at all"
+        },
+        {
+          "text": "No more than a quarter turn",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "When reversing, which way do you turn the steering wheel?",
+      "explanation": "Turn the wheel in the direction you want the rear of the vehicle to go. The front of the vehicle moves in the opposite direction. (Driver's Guide p. 51)",
+      "choices": [
+        {
+          "text": "In the opposite direction to where you want the rear to go"
+        },
+        {
+          "text": "In the direction you want the front of the vehicle to go"
+        },
+        {
+          "text": "Keep the wheel straight and let the vehicle find its path"
+        },
+        {
+          "text": "In the direction you want the rear of the vehicle to go",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "It is illegal to reverse your vehicle into:",
+      "explanation": "It is illegal to move your vehicle in reverse into an intersection or a crosswalk. (Driver's Guide p. 51)",
+      "choices": [
+        {
+          "text": "A driveway"
+        },
+        {
+          "text": "A parking stall"
+        },
+        {
+          "text": "An intersection or a crosswalk",
+          "correct": true
+        },
+        {
+          "text": "A curb lane"
+        }
+      ]
+    },
+    {
+      "prompt": "When reversing out of a driveway onto a street, you should:",
+      "explanation": "Steer into the nearest traffic lane, then go forward. Don't reverse into a second traffic lane. (Driver's Guide p. 51)",
+      "choices": [
+        {
+          "text": "Reverse across all lanes to the far side of the road"
+        },
+        {
+          "text": "Reverse into the second lane to leave room for traffic"
+        },
+        {
+          "text": "Reverse quickly so you block traffic for less time"
+        },
+        {
+          "text": "Reverse into the nearest traffic lane, then go forward",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "When parking facing uphill on a street without a curb, which way should you turn your front wheels?",
+      "explanation": "Uphill without a curb, turn the wheels to the right, toward the edge of the road. If the vehicle rolls, it will go off the road and not into traffic. (Driver's Guide p. 55)",
+      "choices": [
+        {
+          "text": "To the left, toward the centre of the road"
+        },
+        {
+          "text": "Straight ahead"
+        },
+        {
+          "text": "It doesn't matter if the park brake is set"
+        },
+        {
+          "text": "To the right, toward the edge of the road",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "How close to a driveway or private road entrance may you park?",
+      "explanation": "Do not park within one and a half metres (five feet) of access to a garage, private road, or driveway. (Driver's Guide p. 55)",
+      "choices": [
+        {
+          "text": "No closer than 5 metres"
+        },
+        {
+          "text": "No closer than 50 centimetres"
+        },
+        {
+          "text": "No closer than 10 metres"
+        },
+        {
+          "text": "No closer than 1.5 metres",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "How close to the nearest side of a marked crosswalk may you park?",
+      "explanation": "Do not park within five metres of the nearest side of a marked crosswalk. (Driver's Guide p. 56)",
+      "choices": [
+        {
+          "text": "No closer than 5 metres",
+          "correct": true
+        },
+        {
+          "text": "No closer than 1.5 metres"
+        },
+        {
+          "text": "No closer than 15 metres"
+        },
+        {
+          "text": "Right up to the edge of the crosswalk"
+        }
+      ]
+    },
+    {
+      "prompt": "When parked on a roadway outside an urban area, your vehicle must be visible from how far away in both directions?",
+      "explanation": "Outside urban areas, don't park unless there is a clear passage for traffic and your vehicle can be seen for 60 metres in both directions. (Driver's Guide p. 56)",
+      "choices": [
+        {
+          "text": "20 metres"
+        },
+        {
+          "text": "60 metres",
+          "correct": true
+        },
+        {
+          "text": "150 metres"
+        },
+        {
+          "text": "500 metres"
+        }
+      ]
+    },
+    {
+      "prompt": "How should you get out of a vehicle parked at the curb on a two-way street?",
+      "explanation": "Check your mirrors and shoulder check for traffic and cyclists, open the door no wider than necessary, get out quickly, and walk to the rear of the vehicle facing traffic. (Driver's Guide p. 53)",
+      "choices": [
+        {
+          "text": "Open the door fully and wait for traffic to go around you"
+        },
+        {
+          "text": "Get out quickly without checking, then walk to the front"
+        },
+        {
+          "text": "Check mirrors and shoulder check, open the door only as wide as needed, and walk to the rear facing traffic",
+          "correct": true
+        },
+        {
+          "text": "Signal left before opening the door"
+        }
+      ]
+    },
+    {
+      "prompt": "When leaving a parked car on a hill, you should always:",
+      "explanation": "Always set the park brake and put the transmission in Park (automatic) or a low gear (manual). (Driver's Guide p. 55)",
+      "choices": [
+        {
+          "text": "Leave the vehicle in neutral with the wheels straight"
+        },
+        {
+          "text": "Set the park brake only if the hill is steep"
+        },
+        {
+          "text": "Turn on your hazard lights"
+        },
+        {
+          "text": "Set the park brake and put the vehicle in Park or a low gear",
+          "correct": true
+        }
+      ]
     }
   ]
 }

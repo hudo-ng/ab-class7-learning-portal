@@ -193,6 +193,462 @@
           "correct": true
         }
       ]
+    },
+    {
+      "prompt": "Your vehicle has anti-lock brakes (ABS). How should you brake in an emergency?",
+      "explanation": "With ABS, apply steady, firm pressure to the brake pedal. Don't pump or release it, and steer where you want to go. (Driver's Guide p. 78)",
+      "choices": [
+        {
+          "text": "Pump the brake pedal quickly"
+        },
+        {
+          "text": "Press until the wheels lock, then release"
+        },
+        {
+          "text": "Apply steady, firm pressure and don't pump the pedal",
+          "correct": true
+        },
+        {
+          "text": "Brake lightly and steer sharply"
+        }
+      ]
+    },
+    {
+      "prompt": "During hard braking in a vehicle with ABS, you feel the brake pedal vibrate. What does this mean?",
+      "explanation": "ABS cycles the brakes on each wheel, which you feel as a vibration through the pedal. This is normal. Keep steady pressure on the pedal. (Driver's Guide p. 78)",
+      "choices": [
+        {
+          "text": "The brakes are failing; release the pedal"
+        },
+        {
+          "text": "A tire is flat"
+        },
+        {
+          "text": "The ABS is working normally; keep steady pressure",
+          "correct": true
+        },
+        {
+          "text": "You should pump the brake pedal instead"
+        }
+      ]
+    },
+    {
+      "prompt": "Your vehicle begins to skid. What should you do with the brake pedal?",
+      "explanation": "It is very important to keep your foot off the brake if you start to skid. Look and steer in the direction you want the front of the vehicle to go. (Driver's Guide p. 79)",
+      "choices": [
+        {
+          "text": "Press it as hard as possible"
+        },
+        {
+          "text": "Pump it rapidly"
+        },
+        {
+          "text": "Keep your foot off the brake",
+          "correct": true
+        },
+        {
+          "text": "Hold it halfway down"
+        }
+      ]
+    },
+    {
+      "prompt": "Your wheels spin because you accelerated too quickly (a power skid). What should you do?",
+      "explanation": "Take your foot off the gas so the wheels stop spinning, make any needed steering corrections without over-correcting, then accelerate gently. (Driver's Guide p. 79)",
+      "choices": [
+        {
+          "text": "Brake firmly"
+        },
+        {
+          "text": "Accelerate harder to regain traction"
+        },
+        {
+          "text": "Take your foot off the gas and steer where you want to go",
+          "correct": true
+        },
+        {
+          "text": "Shift into neutral"
+        }
+      ]
+    },
+    {
+      "prompt": "You are going too fast in a turn and the vehicle slides sideways (a cornering skid). What should you do?",
+      "explanation": "Take your foot off the gas, don't use the brakes, and look and steer where you want the front of the vehicle to go. (Driver's Guide p. 79)",
+      "choices": [
+        {
+          "text": "Brake hard to slow down"
+        },
+        {
+          "text": "Accelerate out of the skid"
+        },
+        {
+          "text": "Take your foot off the gas, don't brake, and steer where you want to go",
+          "correct": true
+        },
+        {
+          "text": "Steer sharply in the opposite direction"
+        }
+      ]
+    },
+    {
+      "prompt": "Your vehicle breaks down. Where should you avoid stopping?",
+      "explanation": "Don't stop on a bridge or in a tunnel. This can be very dangerous. Move to a safe location if possible. (Driver's Guide p. 80)",
+      "choices": [
+        {
+          "text": "On the shoulder of a highway"
+        },
+        {
+          "text": "On a bridge or in a tunnel",
+          "correct": true
+        },
+        {
+          "text": "In a parking lot"
+        },
+        {
+          "text": "On a side street"
+        }
+      ]
+    },
+    {
+      "prompt": "When your vehicle breaks down on a highway, how far apart should you place reflective triangles behind it?",
+      "explanation": "Place reflective triangles to the rear of your vehicle, about 10 to 20 metres apart. (Driver's Guide p. 80)",
+      "choices": [
+        {
+          "text": "About 1 to 2 metres apart"
+        },
+        {
+          "text": "About 100 metres apart"
+        },
+        {
+          "text": "Directly behind the vehicle, touching the bumper"
+        },
+        {
+          "text": "About 10 to 20 metres apart",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "Your vehicle has broken down in a dangerous spot. Where should you and your passengers wait for help?",
+      "explanation": "Have everyone leave the vehicle and wait at a safe location away from the vehicle and to the rear of it. (Driver's Guide p. 80)",
+      "choices": [
+        {
+          "text": "Inside the vehicle with seat belts on"
+        },
+        {
+          "text": "In front of the vehicle"
+        },
+        {
+          "text": "On the road beside the vehicle to flag down help"
+        },
+        {
+          "text": "Away from the vehicle, to the rear of it",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "A front tire goes flat while you are driving. What should you do first?",
+      "explanation": "Resist the urge to brake immediately. Take your foot off the gas, hold the wheel firmly, and keep the vehicle straight. Then brake gently and pull over. (Driver's Guide p. 81)",
+      "choices": [
+        {
+          "text": "Brake hard immediately"
+        },
+        {
+          "text": "Take your foot off the gas and hold the steering wheel firmly",
+          "correct": true
+        },
+        {
+          "text": "Accelerate to keep control"
+        },
+        {
+          "text": "Steer sharply onto the shoulder"
+        }
+      ]
+    },
+    {
+      "prompt": "Your power steering fails while driving. What happens?",
+      "explanation": "You can still steer the vehicle, but you'll need extra effort to turn the steering wheel. (Driver's Guide p. 81)",
+      "choices": [
+        {
+          "text": "You can no longer steer at all"
+        },
+        {
+          "text": "You can still steer, but it takes more effort",
+          "correct": true
+        },
+        {
+          "text": "The brakes also stop working"
+        },
+        {
+          "text": "The vehicle stops immediately"
+        }
+      ]
+    },
+    {
+      "prompt": "Both of your headlights fail at night. What should you do?",
+      "explanation": "Turn on your hazard lights and try switching the headlights off and on. If they don't come back, slow down and pull over somewhere safe. (Driver's Guide p. 81)",
+      "choices": [
+        {
+          "text": "Keep driving with your high beams"
+        },
+        {
+          "text": "Drive slowly to the nearest service station"
+        },
+        {
+          "text": "Turn on your hazard lights, try the headlight switch, then pull over safely",
+          "correct": true
+        },
+        {
+          "text": "Stop immediately in your lane"
+        }
+      ]
+    },
+    {
+      "prompt": "Besides at night, when must you turn on your headlights?",
+      "explanation": "You must turn your headlights on whenever you can't clearly see 150 metres ahead. (Driver's Guide p. 81)",
+      "choices": [
+        {
+          "text": "Only when it is raining"
+        },
+        {
+          "text": "Only on highways"
+        },
+        {
+          "text": "Whenever you can't clearly see 150 metres ahead",
+          "correct": true
+        },
+        {
+          "text": "Only in winter"
+        }
+      ]
+    },
+    {
+      "prompt": "Why aren't daytime running lights enough for driving at night?",
+      "explanation": "Daytime running lights aren't bright enough, and your tail lights and instrument panel lights won't be on. (Driver's Guide p. 81)",
+      "choices": [
+        {
+          "text": "They drain the battery"
+        },
+        {
+          "text": "They aren't bright enough, and your tail lights won't be on",
+          "correct": true
+        },
+        {
+          "text": "They are only for highways"
+        },
+        {
+          "text": "They blind oncoming drivers"
+        }
+      ]
+    },
+    {
+      "prompt": "You must switch to low beams when an oncoming vehicle is within:",
+      "explanation": "Use low beams within 300 metres of oncoming vehicles, and within 150 metres when following another vehicle. (Driver's Guide p. 82)",
+      "choices": [
+        {
+          "text": "300 metres",
+          "correct": true
+        },
+        {
+          "text": "150 metres"
+        },
+        {
+          "text": "50 metres"
+        },
+        {
+          "text": "500 metres"
+        }
+      ]
+    },
+    {
+      "prompt": "The headlights of an oncoming vehicle are blinding you. Where should you look?",
+      "explanation": "Look slightly down and to the right edge of your lane until the vehicle passes. (Driver's Guide p. 81)",
+      "choices": [
+        {
+          "text": "Directly at the oncoming headlights"
+        },
+        {
+          "text": "At the centre line"
+        },
+        {
+          "text": "Slightly down and to the right edge of your lane",
+          "correct": true
+        },
+        {
+          "text": "Into your rear-view mirror"
+        }
+      ]
+    },
+    {
+      "prompt": "Your tires lose contact with a wet road and begin to hydroplane. What should you do?",
+      "explanation": "Don't brake. Release pressure on the accelerator to let the vehicle slow, and steer where you want to go. (Driver's Guide p. 83)",
+      "choices": [
+        {
+          "text": "Don't brake; ease off the gas and steer where you want to go",
+          "correct": true
+        },
+        {
+          "text": "Brake firmly until the vehicle stops"
+        },
+        {
+          "text": "Accelerate to push through the water"
+        },
+        {
+          "text": "Turn the wheel sharply to get out of the water"
+        }
+      ]
+    },
+    {
+      "prompt": "Which road surface may have black ice?",
+      "explanation": "If the asphalt looks shiny and black instead of grey-white, it may be black ice. Reduce speed without braking. (Driver's Guide p. 82)",
+      "choices": [
+        {
+          "text": "Pavement that looks dry and grey-white"
+        },
+        {
+          "text": "Asphalt that looks shiny and black",
+          "correct": true
+        },
+        {
+          "text": "Roads covered with fresh snow"
+        },
+        {
+          "text": "Gravel roads"
+        }
+      ]
+    },
+    {
+      "prompt": "Why should you not use cruise control on icy roads?",
+      "explanation": "If your tires hit ice, cruise control will keep applying the accelerator and you could lose control. (Driver's Guide p. 83)",
+      "choices": [
+        {
+          "text": "It uses too much fuel in cold weather"
+        },
+        {
+          "text": "It keeps accelerating when the tires hit ice, which can cause a loss of control",
+          "correct": true
+        },
+        {
+          "text": "It doesn't work below 0°C"
+        },
+        {
+          "text": "It is illegal in winter"
+        }
+      ]
+    },
+    {
+      "prompt": "You are stranded in your vehicle in winter, and it is in a safe place. What is usually the safest choice?",
+      "explanation": "It is usually safer to stay with your vehicle. Run the engine only enough to stay warm, with a window open slightly to prevent carbon monoxide poisoning. (Driver's Guide p. 83)",
+      "choices": [
+        {
+          "text": "Walk to find help"
+        },
+        {
+          "text": "Stay with the vehicle and run the engine sparingly with a window slightly open",
+          "correct": true
+        },
+        {
+          "text": "Run the engine continuously with the windows closed"
+        },
+        {
+          "text": "Leave the vehicle and wait at the roadside"
+        }
+      ]
+    },
+    {
+      "prompt": "When are animals most active near roads?",
+      "explanation": "Be careful at dusk and dawn, when animals tend to be more active. (Driver's Guide p. 84)",
+      "choices": [
+        {
+          "text": "In the middle of the day"
+        },
+        {
+          "text": "Only in winter"
+        },
+        {
+          "text": "Only at midnight"
+        },
+        {
+          "text": "At dusk and dawn",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "After a collision, which of these should you avoid doing?",
+      "explanation": "Exchange information and record details, but do not discuss who was at fault. (Driver's Guide p. 84)",
+      "choices": [
+        {
+          "text": "Exchanging names and insurance information"
+        },
+        {
+          "text": "Writing down the names of witnesses"
+        },
+        {
+          "text": "Discussing who was at fault",
+          "correct": true
+        },
+        {
+          "text": "Notifying your insurance company"
+        }
+      ]
+    },
+    {
+      "prompt": "When passing an emergency vehicle or tow truck stopped with its lights flashing, what is your maximum speed in the lane next to it?",
+      "explanation": "Slow to 60 km/h, or the posted speed if it is lower, in the lane immediately next to the stopped vehicles. Fines are doubled. (Driver's Guide p. 85)",
+      "choices": [
+        {
+          "text": "30 km/h"
+        },
+        {
+          "text": "80 km/h"
+        },
+        {
+          "text": "60 km/h, or the posted speed if lower",
+          "correct": true
+        },
+        {
+          "text": "The posted speed limit"
+        }
+      ]
+    },
+    {
+      "prompt": "A vehicle with flashing green lights approaches. What should you do?",
+      "explanation": "Treat a vehicle with flashing green lights like any other emergency vehicle. Volunteer firefighters in some municipalities use them. (Driver's Guide p. 85)",
+      "choices": [
+        {
+          "text": "Ignore it; green lights mean go"
+        },
+        {
+          "text": "Speed up to stay ahead of it"
+        },
+        {
+          "text": "Treat it like any other emergency vehicle and yield",
+          "correct": true
+        },
+        {
+          "text": "Follow it closely"
+        }
+      ]
+    },
+    {
+      "prompt": "A police vehicle has stopped behind you with its lights flashing. What should you do?",
+      "explanation": "Stay calm and stay in your vehicle, put it in Park and set the park brake, have your licence, registration, and insurance ready, and wait for instructions. (Driver's Guide p. 86)",
+      "choices": [
+        {
+          "text": "Get out and walk to the police vehicle"
+        },
+        {
+          "text": "Drive to a well-lit area before stopping"
+        },
+        {
+          "text": "Leave the engine running in Drive"
+        },
+        {
+          "text": "Stay in your vehicle with your documents ready and wait for instructions",
+          "correct": true
+        }
+      ]
     }
   ]
 }

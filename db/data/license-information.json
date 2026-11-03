@@ -1,64 +1,577 @@
 {
-  "topic": { "slug": "license-information", "title": "Licensing & GDL" },
+  "topic": {
+    "slug": "license-information",
+    "title": "Licensing & GDL"
+  },
   "questions": [
     {
       "prompt": "Does a parent have the right to withdraw a previously given \"parental consent\" for someone under 18 years of age with respect to an operator's license?",
-      "explanation": "A parent or guardian who signed consent for an applicant under 18 can withdraw it while that person is still under 18, unless they are self-supporting or married. The licence is then suspended. Key words: \"not self-supporting or married\".",
+      "explanation": "A parent or guardian who signed consent for an applicant under 18 can withdraw it while that person is still under 18, unless they are self-supporting or married. The licence is then cancelled. Key words: \"not self-supporting or married\".",
       "choices": [
-        { "text": "Yes, providing the person is still under the age of 18 and is not self-supporting or married", "correct": true },
-        { "text": "Yes, provided that both parents verbally agree to withdraw the consent at a registry office" },
-        { "text": "No, once it is given it remains in effect until the person reaches 18 years of age" },
-        { "text": "No, but another consent form must be signed by both parents after a license suspension" }
+        {
+          "text": "Yes, providing the person is still under the age of 18 and is not self-supporting or married",
+          "correct": true
+        },
+        {
+          "text": "Yes, provided that both parents verbally agree to withdraw the consent at a registry office"
+        },
+        {
+          "text": "No, once it is given it remains in effect until the person reaches 18 years of age"
+        },
+        {
+          "text": "No, but another consent form must be signed by both parents after a license suspension"
+        }
       ]
     },
     {
       "prompt": "Under the Graduated Driver Licensing program, a driver will receive 2 demerits:",
       "explanation": "Learner and probationary drivers may not carry more passengers than there are seat belts in the vehicle. Breaking this GDL condition costs 2 demerit points. Key words: \"2 demerits\", \"seat belts\".",
       "choices": [
-        { "text": "For having more passengers than there are seat belts", "correct": true },
-        { "text": "For not wearing a seat belt securely fastened" },
-        { "text": "For not wearing a seat belt" },
-        { "text": "For not wearing a seat belt properly adjusted" }
+        {
+          "text": "For having more passengers than there are seat belts",
+          "correct": true
+        },
+        {
+          "text": "For not wearing a seat belt securely fastened"
+        },
+        {
+          "text": "For not wearing a seat belt"
+        },
+        {
+          "text": "For not wearing a seat belt properly adjusted"
+        }
       ]
     },
     {
       "prompt": "Who is responsible and legally obligated to report any medical condition, change in health, or physical disability that may affect a driver's ability to drive?",
       "explanation": "Drivers themselves are legally responsible for reporting any medical condition or disability that may affect their ability to drive safely. Key words: \"legally obligated\".",
       "choices": [
-        { "text": "The driver's employer" },
-        { "text": "The driver", "correct": true },
-        { "text": "The driver's doctor" },
-        { "text": "The driver's insurance company" }
+        {
+          "text": "The driver's employer"
+        },
+        {
+          "text": "The driver",
+          "correct": true
+        },
+        {
+          "text": "The driver's doctor"
+        },
+        {
+          "text": "The driver's insurance company"
+        }
       ]
     },
     {
       "prompt": "Under the Graduated Driver Licensing program, a learner with a Class 7 operator's license is suspended when they accumulate:",
       "explanation": "GDL drivers (learner and probationary) are suspended at 8 demerit points. Fully licensed drivers are suspended at 15. Key words: \"a learner\", \"suspended\".",
       "choices": [
-        { "text": "15 demerits" },
-        { "text": "12 demerits" },
-        { "text": "8 demerits", "correct": true },
-        { "text": "7 demerits" }
+        {
+          "text": "15 demerits"
+        },
+        {
+          "text": "12 demerits"
+        },
+        {
+          "text": "8 demerits",
+          "correct": true
+        },
+        {
+          "text": "7 demerits"
+        }
       ]
     },
     {
       "prompt": "Under the Graduated Driver Licensing program, what is the minimum amount of time that a person must serve as a probationary Class 5 driver?",
       "explanation": "A probationary (Class 5-GDL) driver must hold that licence for at least 2 years, and be suspension-free for the last 12 months, before they can become fully licensed. Key words: \"probationary Class 5 driver\".",
       "choices": [
-        { "text": "6 months" },
-        { "text": "18 months" },
-        { "text": "2 years", "correct": true },
-        { "text": "1 year" }
+        {
+          "text": "6 months"
+        },
+        {
+          "text": "18 months"
+        },
+        {
+          "text": "2 years",
+          "correct": true
+        },
+        {
+          "text": "1 year"
+        }
       ]
     },
     {
       "prompt": "A road test will be refused by a driver examiner if:",
       "explanation": "An examiner will refuse to conduct a road test in a vehicle that is not mechanically safe, for example one with faulty brakes, lights or signals.",
       "choices": [
-        { "text": "The vehicle has a seating capacity greater than 7" },
-        { "text": "The vehicle is registered as a farm vehicle" },
-        { "text": "The vehicle is a rental vehicle" },
-        { "text": "The vehicle is not mechanically safe", "correct": true }
+        {
+          "text": "The vehicle has a seating capacity greater than 7"
+        },
+        {
+          "text": "The vehicle is registered as a farm vehicle"
+        },
+        {
+          "text": "The vehicle is a rental vehicle"
+        },
+        {
+          "text": "The vehicle is not mechanically safe",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "Alberta has a demerit point system where a fully licensed (non-learner, non-probationary) driver is suspended when they accumulate:",
+      "explanation": "In Alberta, a fully licensed (non-learner, non-probationary Class 5) driver's license is automatically suspended if they accumulate 15 or more demerit points within a two-year period.\nFor drivers with a Graduated Driver's License (GDL), including those with a Class 7 learner's permit, the rules are stricter: their license is suspended if they accumulate 8 or more demerit points within a two-year period.",
+      "choices": [
+        {
+          "text": "15 points",
+          "correct": true
+        },
+        {
+          "text": "8 points"
+        },
+        {
+          "text": "12 points"
+        },
+        {
+          "text": "5 points"
+        }
+      ]
+    },
+    {
+      "prompt": "What is the minimum age to apply for a Class 7 learner's licence in Alberta?",
+      "explanation": "You must be 14 or older to get a Class 7 learner's licence, with parental consent if you are under 18. (Driver's Guide p. 10)",
+      "choices": [
+        {
+          "text": "14",
+          "correct": true
+        },
+        {
+          "text": "16"
+        },
+        {
+          "text": "15"
+        },
+        {
+          "text": "18"
+        }
+      ]
+    },
+    {
+      "prompt": "Who may supervise a Class 7 learner driver?",
+      "explanation": "A learner must be accompanied by a fully licensed (non-GDL) driver who is 18 or older and seated next to them. (Driver's Guide p. 10)",
+      "choices": [
+        {
+          "text": "A fully licensed (non-GDL) driver aged 18 or older, seated next to the learner",
+          "correct": true
+        },
+        {
+          "text": "Any licensed driver aged 18 or older, seated anywhere in the vehicle"
+        },
+        {
+          "text": "A probationary driver aged 21 or older"
+        },
+        {
+          "text": "Only a parent or guardian"
+        }
+      ]
+    },
+    {
+      "prompt": "During which hours is a Class 7 learner not permitted to drive?",
+      "explanation": "Learners may not drive from midnight to 5 a.m. This curfew applies to the learner stage only. (Driver's Guide p. 10)",
+      "choices": [
+        {
+          "text": "Midnight to 5 a.m.",
+          "correct": true
+        },
+        {
+          "text": "11 p.m. to 6 a.m."
+        },
+        {
+          "text": "10 p.m. to 5 a.m."
+        },
+        {
+          "text": "1 a.m. to 6 a.m."
+        }
+      ]
+    },
+    {
+      "prompt": "How long must you hold a Class 7 learner's licence before you can take the Class 5 road test?",
+      "explanation": "You must hold your learner's licence for at least one year. This time is extended if you receive a suspension. (Driver's Guide p. 10)",
+      "choices": [
+        {
+          "text": "At least 6 months"
+        },
+        {
+          "text": "At least 2 years"
+        },
+        {
+          "text": "At least 1 year",
+          "correct": true
+        },
+        {
+          "text": "At least 3 months"
+        }
+      ]
+    },
+    {
+      "prompt": "What is the minimum age to hold a Class 5-GDL (probationary) licence?",
+      "explanation": "To become a probationary driver you must be at least 16, have held your learner's licence for a year, and pass the Class 5 road test. (Driver's Guide pp. 10, 13)",
+      "choices": [
+        {
+          "text": "14"
+        },
+        {
+          "text": "17"
+        },
+        {
+          "text": "16",
+          "correct": true
+        },
+        {
+          "text": "18"
+        }
+      ]
+    },
+    {
+      "prompt": "Which of these is a condition for Class 5-GDL probationary drivers?",
+      "explanation": "Probationary drivers may not carry more passengers than there are seat belts. The midnight-to-5 a.m. curfew and the supervisor requirement apply to learners only. (Driver's Guide p. 10)",
+      "choices": [
+        {
+          "text": "No driving between midnight and 5 a.m."
+        },
+        {
+          "text": "A supervising driver must be in the front seat"
+        },
+        {
+          "text": "No more passengers than there are seat belts",
+          "correct": true
+        },
+        {
+          "text": "No driving on provincial highways"
+        }
+      ]
+    },
+    {
+      "prompt": "Can a Class 5-GDL probationary driver act as the supervising driver for a learner?",
+      "explanation": "No. A probationary driver cannot supervise a learner. Only a fully licensed (non-GDL) driver aged 18 or older can. (Driver's Guide p. 10)",
+      "choices": [
+        {
+          "text": "Yes, if they are 18 or older"
+        },
+        {
+          "text": "No, the supervisor must be fully licensed (non-GDL)",
+          "correct": true
+        },
+        {
+          "text": "Yes, after one year as a probationary driver"
+        },
+        {
+          "text": "Yes, if a parent gives written consent"
+        }
+      ]
+    },
+    {
+      "prompt": "To exit the GDL program and receive a full Class 5 licence, you must:",
+      "explanation": "You must be at least 18, have been probationary for at least two years, and have no suspensions or traffic violations in the last 12 months. (Driver's Guide p. 11)",
+      "choices": [
+        {
+          "text": "Be at least 16 and have been probationary for 1 year"
+        },
+        {
+          "text": "Pass a second knowledge test after 2 years"
+        },
+        {
+          "text": "Be at least 18, have been probationary for 2 years, and have no suspensions or violations in the last 12 months",
+          "correct": true
+        },
+        {
+          "text": "Be at least 21 and have no demerit points"
+        }
+      ]
+    },
+    {
+      "prompt": "Completing an approved driver training course can reduce the probationary stage by up to:",
+      "explanation": "An approved driver training course, recorded on your licence as condition code U, can reduce the probationary stage by up to six months. (Driver's Guide p. 11)",
+      "choices": [
+        {
+          "text": "6 months",
+          "correct": true
+        },
+        {
+          "text": "1 year"
+        },
+        {
+          "text": "3 months"
+        },
+        {
+          "text": "It cannot be reduced"
+        }
+      ]
+    },
+    {
+      "prompt": "What blood alcohol level is allowed for a GDL driver (learner or probationary)?",
+      "explanation": "GDL drivers must have a zero alcohol and drug level when driving. (Driver's Guide pp. 10, 112)",
+      "choices": [
+        {
+          "text": "Zero",
+          "correct": true
+        },
+        {
+          "text": "Less than 0.05"
+        },
+        {
+          "text": "Less than 0.08"
+        },
+        {
+          "text": "Less than 0.02"
+        }
+      ]
+    },
+    {
+      "prompt": "How many times per day may you take the knowledge test?",
+      "explanation": "There is a fee for each knowledge test, and you can take only one test per day. (Driver's Guide p. 11)",
+      "choices": [
+        {
+          "text": "Twice"
+        },
+        {
+          "text": "Three times"
+        },
+        {
+          "text": "Once",
+          "correct": true
+        },
+        {
+          "text": "As many times as you like"
+        }
+      ]
+    },
+    {
+      "prompt": "Which of these results in an automatic failure on the Class 5 road test?",
+      "explanation": "Failing to stop completely before a stop sign, or before turning right on a red light, is an automatic fail regardless of your point total. (Driver's Guide p. 13)",
+      "choices": [
+        {
+          "text": "Using hand-over-hand steering on a turn"
+        },
+        {
+          "text": "Checking your mirrors frequently"
+        },
+        {
+          "text": "Parking successfully on the second attempt"
+        },
+        {
+          "text": "Not stopping completely before turning right on a red light",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "On the Class 5 road test, you fail automatically if you cannot park legally within how many attempts?",
+      "explanation": "Climbing the curb while parking, or being unable to park legally in three attempts, results in automatic failure. (Driver's Guide p. 13)",
+      "choices": [
+        {
+          "text": "2 attempts"
+        },
+        {
+          "text": "4 attempts"
+        },
+        {
+          "text": "3 attempts",
+          "correct": true
+        },
+        {
+          "text": "5 attempts"
+        }
+      ]
+    },
+    {
+      "prompt": "When a peace officer asks, what documents must a driver produce?",
+      "explanation": "On request of a peace officer, a driver must produce their driver's licence, vehicle registration, and insurance. (Driver's Guide p. 15)",
+      "choices": [
+        {
+          "text": "Driver's licence only"
+        },
+        {
+          "text": "Driver's licence, vehicle registration, and proof of insurance",
+          "correct": true
+        },
+        {
+          "text": "Vehicle registration and a birth certificate"
+        },
+        {
+          "text": "Proof of insurance and a vehicle inspection report"
+        }
+      ]
+    },
+    {
+      "prompt": "The financial responsibility card that proves your vehicle is insured is commonly called the:",
+      "explanation": "Your insurance company issues a financial responsibility card, the pink card. It must be shown when registering a vehicle and when a peace officer asks. (Driver's Guide p. 20)",
+      "choices": [
+        {
+          "text": "Pink card",
+          "correct": true
+        },
+        {
+          "text": "Green card"
+        },
+        {
+          "text": "Blue slip"
+        },
+        {
+          "text": "White certificate"
+        }
+      ]
+    },
+    {
+      "prompt": "A new Alberta resident moving from another Canadian province may use their out-of-province licence for how long?",
+      "explanation": "New residents from elsewhere in Canada may use their out-of-province licence for the first 90 days, and must apply for an Alberta licence within that time. (Driver's Guide p. 16)",
+      "choices": [
+        {
+          "text": "30 days"
+        },
+        {
+          "text": "6 months"
+        },
+        {
+          "text": "1 year"
+        },
+        {
+          "text": "90 days",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "Your driver's licence has been stolen. What must you do?",
+      "explanation": "Report the theft to the police, then give a copy of the police report to the registry agent when you apply for a replacement. (Driver's Guide p. 19)",
+      "choices": [
+        {
+          "text": "Keep driving until your licence expires, then renew it"
+        },
+        {
+          "text": "Wait 30 days in case it is returned"
+        },
+        {
+          "text": "Report it to the police and apply for a replacement at a registry agent",
+          "correct": true
+        },
+        {
+          "text": "Notify your insurance company only"
+        }
+      ]
+    },
+    {
+      "prompt": "A fully licensed driver receives a warning letter about their demerit points at:",
+      "explanation": "Fully licensed drivers get a warning letter at 8 to 14 demerit points within two years, and are suspended at 15. (Driver's Guide p. 108)",
+      "choices": [
+        {
+          "text": "4 to 7 points"
+        },
+        {
+          "text": "8 to 14 points",
+          "correct": true
+        },
+        {
+          "text": "10 to 15 points"
+        },
+        {
+          "text": "15 points or more"
+        }
+      ]
+    },
+    {
+      "prompt": "How long do demerit points stay on your driving record?",
+      "explanation": "Demerit points are removed two years after the date of the conviction. (Driver's Guide p. 110)",
+      "choices": [
+        {
+          "text": "1 year from the date of conviction"
+        },
+        {
+          "text": "5 years from the date of conviction"
+        },
+        {
+          "text": "10 years from the date of conviction"
+        },
+        {
+          "text": "2 years from the date of conviction",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "How long is the first automatic suspension for reaching the demerit point limit?",
+      "explanation": "The first demerit suspension is one month, the second within a year is three months, and the third within two years is six months. (Driver's Guide p. 110)",
+      "choices": [
+        {
+          "text": "3 months"
+        },
+        {
+          "text": "6 months"
+        },
+        {
+          "text": "1 year"
+        },
+        {
+          "text": "1 month",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "Completing a Government-approved defensive driving course before reaching 15 points gives you:",
+      "explanation": "A three-point credit is applied to your driving record for two years. (Driver's Guide p. 110)",
+      "choices": [
+        {
+          "text": "Removal of all demerit points"
+        },
+        {
+          "text": "A 1-point credit on your driving record"
+        },
+        {
+          "text": "A 3-point credit on your driving record",
+          "correct": true
+        },
+        {
+          "text": "An exemption from all suspensions"
+        }
+      ]
+    },
+    {
+      "prompt": "How many demerit points are given for speeding 31 to 50 km/h over the limit?",
+      "explanation": "Speeding by 31 to 50 km/h over the limit costs 4 demerit points. Speeding by 51 km/h or more costs 6. (Driver's Guide p. 109)",
+      "choices": [
+        {
+          "text": "4",
+          "correct": true
+        },
+        {
+          "text": "2"
+        },
+        {
+          "text": "3"
+        },
+        {
+          "text": "6"
+        }
+      ]
+    },
+    {
+      "prompt": "Which offence carries the most demerit points?",
+      "explanation": "Failing to remain at the scene of a collision carries 7 demerit points, the highest on the list. (Driver's Guide p. 109)",
+      "choices": [
+        {
+          "text": "Failing to stop for a school bus"
+        },
+        {
+          "text": "Failing to remain at the scene of a collision",
+          "correct": true
+        },
+        {
+          "text": "Following too closely"
+        },
+        {
+          "text": "Failing to stop at a stop sign"
+        }
       ]
     }
   ]

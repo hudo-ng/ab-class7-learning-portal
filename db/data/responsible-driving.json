@@ -117,6 +117,462 @@
           "text": "1 to 6 seconds ahead"
         }
       ]
+    },
+    {
+      "prompt": "When driving in rural areas, how far ahead should you look?",
+      "explanation": "In rural areas, look at least 20 to 25 seconds ahead. In urban areas, look 12 to 15 seconds ahead. (Driver's Guide p. 89)",
+      "choices": [
+        {
+          "text": "12 to 15 seconds"
+        },
+        {
+          "text": "5 to 10 seconds"
+        },
+        {
+          "text": "40 to 50 seconds"
+        },
+        {
+          "text": "20 to 25 seconds",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "How often should you check your rear-view mirrors while driving?",
+      "explanation": "Glance in your rear-view mirrors every 8 to 12 seconds, and whenever you expect to slow or stop. (Driver's Guide p. 89)",
+      "choices": [
+        {
+          "text": "Every 30 seconds"
+        },
+        {
+          "text": "Every 8 to 12 seconds",
+          "correct": true
+        },
+        {
+          "text": "Only when changing lanes"
+        },
+        {
+          "text": "Every 2 to 3 seconds"
+        }
+      ]
+    },
+    {
+      "prompt": "Which of these is a variable hazard (one that changes during the day)?",
+      "explanation": "Variable hazards change, such as pedestrians, left-turning vehicles, icy roads, stale green lights, and emergency vehicles. Curves, hills, and intersections are fixed hazards. (Driver's Guide p. 89)",
+      "choices": [
+        {
+          "text": "A sharp curve"
+        },
+        {
+          "text": "A hidden driveway"
+        },
+        {
+          "text": "A merging roadway"
+        },
+        {
+          "text": "School children walking near the road",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "What is proactive driving?",
+      "explanation": "Proactive driving means anticipating possible hazards and acting to reduce or avoid danger before it happens. Never assume other drivers will drive carefully. (Driver's Guide p. 89)",
+      "choices": [
+        {
+          "text": "Driving at the speed limit at all times"
+        },
+        {
+          "text": "Reacting quickly once a hazard appears"
+        },
+        {
+          "text": "Anticipating hazards and acting to avoid danger before it happens",
+          "correct": true
+        },
+        {
+          "text": "Always having the right-of-way"
+        }
+      ]
+    },
+    {
+      "prompt": "What following distance is recommended for drivers of large vehicles such as motor homes?",
+      "explanation": "Drivers of large vehicles, such as motor homes, should keep a minimum four-second following distance. (Driver's Guide p. 90)",
+      "choices": [
+        {
+          "text": "At least 2 seconds"
+        },
+        {
+          "text": "At least 1 second"
+        },
+        {
+          "text": "At least 4 seconds",
+          "correct": true
+        },
+        {
+          "text": "At least 10 seconds"
+        }
+      ]
+    },
+    {
+      "prompt": "When road or weather conditions are poor, your following distance should be:",
+      "explanation": "Under normal conditions, keep at least two seconds. When conditions are less than ideal, increase your following distance. (Driver's Guide pp. 81, 90)",
+      "choices": [
+        {
+          "text": "Exactly 2 seconds"
+        },
+        {
+          "text": "Less than 2 seconds, so you can keep up with traffic"
+        },
+        {
+          "text": "The same as in good conditions"
+        },
+        {
+          "text": "More than 2 seconds",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "How many demerit points are given for distracted driving offences such as texting or using a hand-held phone?",
+      "explanation": "The Traffic Safety Act sets a fine and three demerit points for distracted driving offences. (Driver's Guide p. 91)",
+      "choices": [
+        {
+          "text": "2"
+        },
+        {
+          "text": "4"
+        },
+        {
+          "text": "3",
+          "correct": true
+        },
+        {
+          "text": "6"
+        }
+      ]
+    },
+    {
+      "prompt": "Which of these is a distracted driving offence under the Traffic Safety Act?",
+      "explanation": "Entering information into a GPS unit while driving is a distracted driving offence, along with texting, using hand-held phones, reading, and personal grooming. (Driver's Guide p. 91)",
+      "choices": [
+        {
+          "text": "Entering a destination into a GPS unit while driving",
+          "correct": true
+        },
+        {
+          "text": "Adjusting your mirrors before driving"
+        },
+        {
+          "text": "Listening to the radio"
+        },
+        {
+          "text": "Talking with a passenger"
+        }
+      ]
+    },
+    {
+      "prompt": "You need to make a phone call while driving. What should you do?",
+      "explanation": "Stop in a safe and legal place before making or receiving a call, or sending or reading a text. (Driver's Guide p. 90)",
+      "choices": [
+        {
+          "text": "Use the phone only at red lights"
+        },
+        {
+          "text": "Hold the phone below the window"
+        },
+        {
+          "text": "Stop in a safe and legal place first",
+          "correct": true
+        },
+        {
+          "text": "Make the call quickly while driving slowly"
+        }
+      ]
+    },
+    {
+      "prompt": "A 17-year-old passenger in your vehicle is not wearing a seat belt. Who can be fined?",
+      "explanation": "Passengers 16 years of age and older who aren't properly secured can be fined themselves. The driver is responsible for passengers under 16. (Driver's Guide p. 91)",
+      "choices": [
+        {
+          "text": "Only the driver"
+        },
+        {
+          "text": "The vehicle owner"
+        },
+        {
+          "text": "No one, if the passenger is in the back seat"
+        },
+        {
+          "text": "The passenger",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "Which children must be secured in a child safety seat?",
+      "explanation": "A child under six years of age who weighs no more than 18 kilograms (40 pounds) must be properly secured in a child safety seat. (Driver's Guide p. 91)",
+      "choices": [
+        {
+          "text": "All children under 12"
+        },
+        {
+          "text": "Children under 2 only"
+        },
+        {
+          "text": "Children under 6 who weigh 18 kg or less",
+          "correct": true
+        },
+        {
+          "text": "Children who weigh less than 30 kg"
+        }
+      ]
+    },
+    {
+      "prompt": "Forward-facing child safety seats are designed for children weighing:",
+      "explanation": "Forward-facing child safety seats are designed for children 10 to 18 kilograms (22 to 40 pounds). The tether strap must be used. (Driver's Guide p. 92)",
+      "choices": [
+        {
+          "text": "10 to 18 kilograms",
+          "correct": true
+        },
+        {
+          "text": "Under 10 kilograms"
+        },
+        {
+          "text": "18 to 36 kilograms"
+        },
+        {
+          "text": "Over 36 kilograms"
+        }
+      ]
+    },
+    {
+      "prompt": "A child weighs more than 18 kilograms. What should they use before moving to the vehicle's seat belt alone?",
+      "explanation": "Children over 18 kilograms (40 pounds) should be secured in an approved booster seat before using only the vehicle's seat belt. (Driver's Guide p. 92)",
+      "choices": [
+        {
+          "text": "An approved booster seat",
+          "correct": true
+        },
+        {
+          "text": "A rear-facing infant seat"
+        },
+        {
+          "text": "No restraint is needed"
+        },
+        {
+          "text": "An adult seat belt worn under the arm"
+        }
+      ]
+    },
+    {
+      "prompt": "What label must a child safety seat used in Canada have?",
+      "explanation": "All child safety seats used in Canada must have a label stating they meet Canada Motor Vehicle Safety Standard 213. (Driver's Guide p. 91)",
+      "choices": [
+        {
+          "text": "A label from the store where it was bought"
+        },
+        {
+          "text": "Any international safety certification"
+        },
+        {
+          "text": "No label is required"
+        },
+        {
+          "text": "A label stating it meets Canada Motor Vehicle Safety Standard 213",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "You are feeling tired while driving on a long trip. What should you do?",
+      "explanation": "If you feel tired, stop for a rest and walk around your vehicle. Fatigue slows reactions and impairs judgement. (Driver's Guide p. 107)",
+      "choices": [
+        {
+          "text": "Open the window and keep driving"
+        },
+        {
+          "text": "Turn up the heat to stay comfortable"
+        },
+        {
+          "text": "Drive faster to finish the trip sooner"
+        },
+        {
+          "text": "Stop for a rest",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "When does impairment from alcohol or drugs begin?",
+      "explanation": "Impairment begins with the first drink or drug use. (Driver's Guide p. 108)",
+      "choices": [
+        {
+          "text": "With the first drink or drug use",
+          "correct": true
+        },
+        {
+          "text": "Only above a blood alcohol level of 0.08"
+        },
+        {
+          "text": "Only after three drinks"
+        },
+        {
+          "text": "Only when you feel drunk"
+        }
+      ]
+    },
+    {
+      "prompt": "A GDL driver is found to have any alcohol in their body while driving. Under the IRS ZERO: Novice program, the penalty includes:",
+      "explanation": "IRS ZERO: Novice brings an immediate 30-day licence suspension, a seven-day vehicle seizure, and a $200 fine plus a 20 per cent victim fine surcharge. (Driver's Guide p. 112)",
+      "choices": [
+        {
+          "text": "A warning letter only"
+        },
+        {
+          "text": "A 3-day suspension and a $300 fine"
+        },
+        {
+          "text": "A lifetime licence suspension"
+        },
+        {
+          "text": "A 30-day licence suspension, a 7-day vehicle seizure, and a $200 fine",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "The IRS: WARN program applies to drivers with a blood alcohol concentration of at least:",
+      "explanation": "IRS: WARN applies at 50 milligrams of alcohol in 100 millilitres of blood (0.05) or more. IRS: FAIL applies at 80 milligrams (0.08). (Driver's Guide p. 112)",
+      "choices": [
+        {
+          "text": "80 mg in 100 mL of blood (0.08)"
+        },
+        {
+          "text": "20 mg in 100 mL of blood (0.02)"
+        },
+        {
+          "text": "100 mg in 100 mL of blood (0.10)"
+        },
+        {
+          "text": "50 mg in 100 mL of blood (0.05)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "Which of these leads to an IRS: FAIL penalty?",
+      "explanation": "IRS: FAIL applies to a blood alcohol concentration of 80 mg or more, impairment by alcohol or drugs, or refusing without reasonable excuse to comply with a test demand. (Driver's Guide p. 113)",
+      "choices": [
+        {
+          "text": "A blood alcohol level of 0.03 for a fully licensed driver"
+        },
+        {
+          "text": "Driving while tired"
+        },
+        {
+          "text": "Taking prescribed medication that has no side effects"
+        },
+        {
+          "text": "Refusing a breath test demand without a reasonable excuse",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "What happens to the vehicle when someone is caught driving while their licence is suspended?",
+      "explanation": "The vehicle is seized and impounded for 30 days, regardless of who the registered owner is. The owner pays towing and impound fees. (Driver's Guide p. 115)",
+      "choices": [
+        {
+          "text": "Nothing, if someone else owns it"
+        },
+        {
+          "text": "It is impounded for 24 hours"
+        },
+        {
+          "text": "It is sold at auction"
+        },
+        {
+          "text": "It is impounded for 30 days, no matter who owns it",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "prompt": "A load extends 1.5 metres or more past the rear of your vehicle. What is required during daylight?",
+      "explanation": "During daylight, attach a red flag at least 30 centimetres square to the end of the load. At night, use a red light. (Driver's Guide p. 95)",
+      "choices": [
+        {
+          "text": "A yellow flag of any size"
+        },
+        {
+          "text": "A red flag at least 30 cm square on the end of the load",
+          "correct": true
+        },
+        {
+          "text": "Hazard lights turned on"
+        },
+        {
+          "text": "Nothing during daylight"
+        }
+      ]
+    },
+    {
+      "prompt": "May passengers ride in the open box of a pickup truck?",
+      "explanation": "No. You must not allow anyone to ride on the outside of your vehicle, including the open box of a pickup truck. Both you and the rider can be charged. (Driver's Guide p. 95)",
+      "choices": [
+        {
+          "text": "No, it is illegal, and both the driver and rider can be charged",
+          "correct": true
+        },
+        {
+          "text": "Yes, if they are seated"
+        },
+        {
+          "text": "Yes, on rural roads only"
+        },
+        {
+          "text": "Yes, at speeds under 50 km/h"
+        }
+      ]
+    },
+    {
+      "prompt": "In a residential area, during which hours must you not operate a vehicle in a way that disturbs residents?",
+      "explanation": "In a residential area, you must not operate a vehicle in a way that disturbs residents between 10 p.m. and 7 a.m. (Driver's Guide p. 95)",
+      "choices": [
+        {
+          "text": "Midnight to 5 a.m."
+        },
+        {
+          "text": "10 p.m. to 7 a.m.",
+          "correct": true
+        },
+        {
+          "text": "9 p.m. to 6 a.m."
+        },
+        {
+          "text": "11 p.m. to 8 a.m."
+        }
+      ]
+    },
+    {
+      "prompt": "Driving without due care and attention, or without reasonable consideration for others, is called:",
+      "explanation": "Driving without care and attention, or without reasonable consideration for others, is careless driving, which carries 6 demerit points. (Driver's Guide pp. 95, 109)",
+      "choices": [
+        {
+          "text": "Careless driving",
+          "correct": true
+        },
+        {
+          "text": "Distracted driving"
+        },
+        {
+          "text": "Impaired driving"
+        },
+        {
+          "text": "Stunting"
+        }
+      ]
     }
   ]
 }

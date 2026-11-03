@@ -98,6 +98,538 @@
           "text": "Flash the high beam headlights before proceeding"
         }
       ]
+    },
+    {
+      "prompt": "When stopping for a pedestrian at a crosswalk, about how far back should you stop?",
+      "explanation": "Stopping about two to three car lengths back lets drivers in other lanes see the pedestrian and stop in time. (Driver's Guide p. 97)",
+      "choices": [
+        {
+          "text": "About 2 to 3 car lengths",
+          "correct": true
+        },
+        {
+          "text": "Right at the edge of the crosswalk"
+        },
+        {
+          "text": "About 1 metre"
+        },
+        {
+          "text": "About 10 car lengths"
+        }
+      ]
+    },
+    {
+      "prompt": "You see a flashing yellow pedestrian-activated light at a crosswalk. What must you do?",
+      "explanation": "At a flashing yellow pedestrian-activated light, slow to 30 km/h and yield to pedestrians who want to cross. (Driver's Guide p. 97)",
+      "choices": [
+        {
+          "text": "Slow to 30 km/h and yield to pedestrians wanting to cross",
+          "correct": true
+        },
+        {
+          "text": "Stop only if a pedestrian is already in the crosswalk"
+        },
+        {
+          "text": "Continue at the posted speed; the light is only for pedestrians"
+        },
+        {
+          "text": "Sound your horn to warn pedestrians and continue"
+        }
+      ]
+    },
+    {
+      "prompt": "A pedestrian starts crossing at an intersection that has no painted crosswalk lines. What must you do?",
+      "explanation": "Every intersection has a crosswalk, marked or unmarked, unless a sign says otherwise. Once a pedestrian has entered it, you must yield. (Driver's Guide pp. 41, 97)",
+      "choices": [
+        {
+          "text": "Yield, because there is an unmarked crosswalk at the intersection",
+          "correct": true
+        },
+        {
+          "text": "Continue, because pedestrians must use marked crosswalks"
+        },
+        {
+          "text": "Yield only if the intersection has a traffic light"
+        },
+        {
+          "text": "Sound your horn and proceed carefully"
+        }
+      ]
+    },
+    {
+      "prompt": "A person walking beside and pushing a bicycle is considered:",
+      "explanation": "A cyclist who is walking beside and pushing a bicycle is a pedestrian. When riding, the bicycle is a vehicle. (Driver's Guide p. 97)",
+      "choices": [
+        {
+          "text": "A pedestrian",
+          "correct": true
+        },
+        {
+          "text": "A cyclist who must follow the rules for vehicles"
+        },
+        {
+          "text": "A slow moving vehicle"
+        },
+        {
+          "text": "A vehicle that must use the bicycle lane"
+        }
+      ]
+    },
+    {
+      "prompt": "What is the correct way to pass a cyclist?",
+      "explanation": "When passing a cyclist, change lanes as you would to pass any other vehicle. (Driver's Guide p. 98)",
+      "choices": [
+        {
+          "text": "Change lanes, as you would to pass another vehicle",
+          "correct": true
+        },
+        {
+          "text": "Stay in your lane and pass as closely as is safe"
+        },
+        {
+          "text": "Sound your horn and pass once the cyclist moves to the curb"
+        },
+        {
+          "text": "Pass on the cyclist's right side"
+        }
+      ]
+    },
+    {
+      "prompt": "You are parked at the curb and want to open your door. Who is responsible for making sure it is safe to do so?",
+      "explanation": "Always check for cyclists before opening your door. It is the driver's responsibility to wait until it is safe. (Driver's Guide p. 98)",
+      "choices": [
+        {
+          "text": "The driver",
+          "correct": true
+        },
+        {
+          "text": "Cyclists, who must watch for opening doors"
+        },
+        {
+          "text": "The driver and cyclists share it equally"
+        },
+        {
+          "text": "No one, if the vehicle is legally parked"
+        }
+      ]
+    },
+    {
+      "prompt": "In Alberta, who is required by law to wear an approved bicycle helmet?",
+      "explanation": "Cyclists and passengers on a bicycle who are under 18 years of age must wear an approved bicycle safety helmet. (Driver's Guide p. 97)",
+      "choices": [
+        {
+          "text": "Cyclists and passengers under 18 years of age",
+          "correct": true
+        },
+        {
+          "text": "All cyclists, regardless of age"
+        },
+        {
+          "text": "Cyclists under 16 years of age"
+        },
+        {
+          "text": "Only cyclists riding on highways"
+        }
+      ]
+    },
+    {
+      "prompt": "A motorcycle ahead of you is riding in the left part of its lane. This most likely means the rider:",
+      "explanation": "Motorcycle riders often ride in the left portion of their lane to be more visible. It does not mean they are turning left. (Driver's Guide p. 98)",
+      "choices": [
+        {
+          "text": "Is positioned to be more visible to other road users",
+          "correct": true
+        },
+        {
+          "text": "Is preparing to turn left"
+        },
+        {
+          "text": "Wants you to pass on the right"
+        },
+        {
+          "text": "Is about to stop"
+        }
+      ]
+    },
+    {
+      "prompt": "May you drive side by side with a motorcycle in the same lane?",
+      "explanation": "Never share a lane with a motorcycle rider. A motorcycle needs the whole lane to travel safely. (Driver's Guide p. 99)",
+      "choices": [
+        {
+          "text": "No, a motorcycle needs the whole lane",
+          "correct": true
+        },
+        {
+          "text": "Yes, if the lane is wide enough"
+        },
+        {
+          "text": "Yes, but only on multi-lane highways"
+        },
+        {
+          "text": "Yes, if the rider waves you past"
+        }
+      ]
+    },
+    {
+      "prompt": "You are following a large truck and cannot see either of its side mirrors. What does this tell you?",
+      "explanation": "If you can't see both of a large vehicle's side mirrors, you are too close, and the driver probably can't see you. If you can see the driver in the mirror, the driver can see you. (Driver's Guide p. 99)",
+      "choices": [
+        {
+          "text": "You are too close, and the driver probably cannot see you",
+          "correct": true
+        },
+        {
+          "text": "The truck's mirrors are not adjusted properly"
+        },
+        {
+          "text": "You are at a safe following distance"
+        },
+        {
+          "text": "The truck is about to turn"
+        }
+      ]
+    },
+    {
+      "prompt": "A large truck ahead of you is turning right. Where is the most dangerous place for your vehicle to be?",
+      "explanation": "Large vehicles need extra room to turn. Stay well back and never drive in the space on the right of a truck that is turning right, or you could be squeezed against the curb. (Driver's Guide p. 99)",
+      "choices": [
+        {
+          "text": "In the space between the truck and the curb on its right",
+          "correct": true
+        },
+        {
+          "text": "Several car lengths behind the truck"
+        },
+        {
+          "text": "Well back in the lane to the left of the truck"
+        },
+        {
+          "text": "Stopped behind the truck with a large gap"
+        }
+      ]
+    },
+    {
+      "prompt": "A large truck is turning onto the road you are on and may need to use part of your lane. What should you do?",
+      "explanation": "A large vehicle may need to cross the centre line or use part of your lane to turn. Stop back from the intersection to give it room. (Driver's Guide p. 100)",
+      "choices": [
+        {
+          "text": "Stop back from the intersection to give it room to turn",
+          "correct": true
+        },
+        {
+          "text": "Move up to the stop line so the truck driver can see you"
+        },
+        {
+          "text": "Sound your horn to warn the truck driver"
+        },
+        {
+          "text": "Continue, since the truck must stay in its own lane"
+        }
+      ]
+    },
+    {
+      "prompt": "The logs on a loaded log hauling truck can extend up to how far beyond the rear of the truck?",
+      "explanation": "Logs can extend as much as nine metres beyond the rear of the truck, which is why a turning log truck can block every lane. (Driver's Guide p. 100)",
+      "choices": [
+        {
+          "text": "9 metres",
+          "correct": true
+        },
+        {
+          "text": "3 metres"
+        },
+        {
+          "text": "1.5 metres"
+        },
+        {
+          "text": "15 metres"
+        }
+      ]
+    },
+    {
+      "prompt": "On a four-lane undivided highway, a school bus stops with its red lights flashing and its stop arm out. Who must stop?",
+      "explanation": "On an undivided highway, traffic in every lane, in both directions, must stop for a school bus with its red lights flashing. (Driver's Guide p. 101)",
+      "choices": [
+        {
+          "text": "Traffic in all four lanes, in both directions",
+          "correct": true
+        },
+        {
+          "text": "Only traffic behind the bus"
+        },
+        {
+          "text": "Only traffic in the lane next to the bus"
+        },
+        {
+          "text": "Only oncoming traffic"
+        }
+      ]
+    },
+    {
+      "prompt": "When a school bus has its red lights flashing, about how far away from the bus must you stop?",
+      "explanation": "Stop about 20 metres (four to five car lengths) away, so drivers behind you can see the lights and the students crossing. (Driver's Guide p. 101)",
+      "choices": [
+        {
+          "text": "About 20 metres",
+          "correct": true
+        },
+        {
+          "text": "About 5 metres"
+        },
+        {
+          "text": "About 50 metres"
+        },
+        {
+          "text": "About 100 metres"
+        }
+      ]
+    },
+    {
+      "prompt": "On a highway divided by a median, you are approaching a school bus from the front and its red lights are flashing. What should you do?",
+      "explanation": "On a divided highway, only traffic behind the bus must stop. Traffic approaching from the front may proceed with caution, watching for pedestrians. (Driver's Guide p. 102)",
+      "choices": [
+        {
+          "text": "Proceed with caution and watch for pedestrians",
+          "correct": true
+        },
+        {
+          "text": "Stop about 20 metres from the bus"
+        },
+        {
+          "text": "Stop until the red lights are turned off"
+        },
+        {
+          "text": "Speed up to clear the area quickly"
+        }
+      ]
+    },
+    {
+      "prompt": "You have stopped for a school bus with its red lights flashing. When may you proceed?",
+      "explanation": "Remain stopped until the alternating red lights are turned off and the stop sign on the driver's side is no longer extended. (Driver's Guide p. 102)",
+      "choices": [
+        {
+          "text": "When the red lights are off and the stop arm is no longer extended",
+          "correct": true
+        },
+        {
+          "text": "As soon as all the students have left the bus"
+        },
+        {
+          "text": "When the bus driver waves you on"
+        },
+        {
+          "text": "After waiting 30 seconds"
+        }
+      ]
+    },
+    {
+      "prompt": "A vehicle ahead has flashing amber and red lights and is spraying snow and sand. What is it?",
+      "explanation": "Snowplows use flashing amber and red lights to be more visible: \"flashing amber and red means snowplow ahead\". (Driver's Guide p. 102)",
+      "choices": [
+        {
+          "text": "A snowplow",
+          "correct": true
+        },
+        {
+          "text": "A school bus that is about to stop"
+        },
+        {
+          "text": "A tow truck"
+        },
+        {
+          "text": "An oversized load"
+        }
+      ]
+    },
+    {
+      "prompt": "Where it is safe, snowplow operators move to the side of the road to let traffic pass about every:",
+      "explanation": "Snowplow operators move over every five to eight kilometres, where it is safe, to let vehicles pass. It is safer to wait for them than to pass. (Driver's Guide p. 102)",
+      "choices": [
+        {
+          "text": "5 to 8 kilometres",
+          "correct": true
+        },
+        {
+          "text": "1 to 2 kilometres"
+        },
+        {
+          "text": "15 to 20 kilometres"
+        },
+        {
+          "text": "50 kilometres"
+        }
+      ]
+    },
+    {
+      "prompt": "Passing a snowplow is strictly prohibited when:",
+      "explanation": "Passing a snowplow is prohibited when the view along its side is obstructed, when passing would impede its operation, or when it can't be done safely. (Driver's Guide p. 102)",
+      "choices": [
+        {
+          "text": "The view along the side of the snowplow is obstructed",
+          "correct": true
+        },
+        {
+          "text": "The snowplow is travelling below the speed limit"
+        },
+        {
+          "text": "The snowplow has its flashing lights on"
+        },
+        {
+          "text": "The road is a two-lane highway"
+        }
+      ]
+    },
+    {
+      "prompt": "At a railway crossing sign, you must stop if a train is visible or sounding a signal and is approaching within:",
+      "explanation": "You must stop when a train is visible or sounding a signal and approaching within 500 metres (about five city blocks) of the crossing. (Driver's Guide p. 103)",
+      "choices": [
+        {
+          "text": "500 metres of the crossing",
+          "correct": true
+        },
+        {
+          "text": "100 metres of the crossing"
+        },
+        {
+          "text": "50 metres of the crossing"
+        },
+        {
+          "text": "2 kilometres of the crossing"
+        }
+      ]
+    },
+    {
+      "prompt": "At a railway crossing with a stop sign, where must you stop?",
+      "explanation": "A stop sign at a railway crossing means a complete stop between 5 metres and 15 metres from the nearest rail. Don't proceed until you're sure no train is coming. (Driver's Guide p. 103)",
+      "choices": [
+        {
+          "text": "Between 5 and 15 metres from the nearest rail",
+          "correct": true
+        },
+        {
+          "text": "Within 2 metres of the nearest rail"
+        },
+        {
+          "text": "At least 30 metres from the nearest rail"
+        },
+        {
+          "text": "Anywhere before the tracks, as long as you stop"
+        }
+      ]
+    },
+    {
+      "prompt": "The lights are flashing and the bells are ringing at a railway crossing. The driver nearest the crossing must stop at least how far from the nearest rail?",
+      "explanation": "The driver of the vehicle nearest the crossing must stop at least five metres back from the nearest rail, and wait until the lights and bells stop. (Driver's Guide p. 104)",
+      "choices": [
+        {
+          "text": "5 metres",
+          "correct": true
+        },
+        {
+          "text": "1 metre"
+        },
+        {
+          "text": "15 metres"
+        },
+        {
+          "text": "20 metres"
+        }
+      ]
+    },
+    {
+      "prompt": "A train has just passed a railway crossing and the gates are starting to rise. What should you do?",
+      "explanation": "Remain stopped until the gates are fully raised, the lights stop flashing, and the bells stop ringing. Never cross while a gate is down, rising, or lowering. Another train may be coming. (Driver's Guide p. 104)",
+      "choices": [
+        {
+          "text": "Stay stopped until the gates are up and the lights and bells have stopped",
+          "correct": true
+        },
+        {
+          "text": "Go as soon as the gates start to rise"
+        },
+        {
+          "text": "Drive around the gates if no other train is visible"
+        },
+        {
+          "text": "Proceed once the last car of the train has passed"
+        }
+      ]
+    },
+    {
+      "prompt": "Your vehicle stalls on a railway crossing and a train is approaching. What should you do?",
+      "explanation": "Get everyone out and away from the tracks. Move toward the direction the train is coming from, so you won't be hit by flying debris if the train strikes the vehicle. (Driver's Guide p. 104)",
+      "choices": [
+        {
+          "text": "Get everyone out and move away from the tracks, toward the direction the train is coming from",
+          "correct": true
+        },
+        {
+          "text": "Keep trying to restart the engine"
+        },
+        {
+          "text": "Get everyone out and move away in the direction the train is travelling"
+        },
+        {
+          "text": "Stay in the vehicle with seat belts fastened"
+        }
+      ]
+    },
+    {
+      "prompt": "Because of its weight and speed, a light rail transit (LRT) train may need up to how far to stop in an emergency?",
+      "explanation": "An LRT train may take up to 100 metres to stop in an emergency. LRT trains are also very quiet, so never drive around the gates. (Driver's Guide p. 105)",
+      "choices": [
+        {
+          "text": "100 metres",
+          "correct": true
+        },
+        {
+          "text": "10 metres"
+        },
+        {
+          "text": "30 metres"
+        },
+        {
+          "text": "1 kilometre"
+        }
+      ]
+    },
+    {
+      "prompt": "You are driving in a funeral procession with your headlights on. Which statement is true?",
+      "explanation": "Drivers in a funeral procession, with headlights on, may continue through a stop sign or red light if they are closely following the vehicle ahead and it is safe. (Driver's Guide p. 105)",
+      "choices": [
+        {
+          "text": "You may continue through a stop sign or red light if you are closely following the vehicle ahead and it is safe",
+          "correct": true
+        },
+        {
+          "text": "You must stop at every stop sign and red light like other traffic"
+        },
+        {
+          "text": "You may pass other vehicles in the procession"
+        },
+        {
+          "text": "You don't need your headlights on in daylight"
+        }
+      ]
+    },
+    {
+      "prompt": "When passing a large truck on a two-way highway, a driver should:",
+      "explanation": "When passing a large truck on a two-way highway in Alberta (or anywhere), a Class 7 driver should signal clearly, accelerate to pass quickly and safely, avoid lingering in the blind spot, and then return to their lane only when they can see the truck's front bumper or headlights in their rearview mirror, giving plenty of space to the truck.",
+      "choices": [
+        {
+          "text": "Leave extra room before returning to their lane",
+          "correct": true
+        },
+        {
+          "text": "Return to their lane once they have cleared the truck's front bumper"
+        },
+        {
+          "text": "Return to their lane when signaled by the truck's headlights"
+        },
+        {
+          "text": "Return to their lane when the truck is no longer visible in any of their rear-view mirrors"
+        }
+      ]
     }
   ]
 }
