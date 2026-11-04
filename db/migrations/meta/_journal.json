@@ -85,6 +85,13 @@
       "when": 1793218176872,
       "tag": "0011_optimal_monster_badoon",
       "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1793810322229,
+      "tag": "0012_stale_multiple_man",
+      "breakpoints": true
     }
   ]
 }

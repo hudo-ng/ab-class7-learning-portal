@@ -97,3 +97,28 @@ export const choicesRelations = relations(choices, ({ one }) => ({
     references: [questions.id],
   }),
 }));
+
+export const answerSource = pgEnum("answer_source", ["practice", "mock"]);
+
+export const answerAttempts = pgTable(
+  "answer_attempts",
+  {
+    id: uuid("id").defaultRandom().primaryKey(),
+    userId: uuid("user_id")
+      .notNull()
+      .references(() => users.id, { onDelete: "cascade" }),
+    questionId: uuid("question_id")
+      .notNull()
+      .references(() => questions.id, { onDelete: "cascade" }),
+    isCorrect: boolean("is_correct").notNull(),
+    source: answerSource("source").notNull(),
+    createdAt: timestamp("created_at").defaultNow().notNull(),
+  },
+  (t) => [
+    index("answer_attempts_user_question_idx").on(
+      t.userId,
+      t.questionId,
+      t.createdAt,
+    ),
+  ],
+);

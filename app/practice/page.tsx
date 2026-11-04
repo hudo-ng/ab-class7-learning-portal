@@ -1,3 +1,7 @@
+import { getServerSession } from "next-auth";
+import { authOptions } from "@/app/api/auth/[...nextauth]/route";
+import { getTopicProgress } from "@/db/queries/progess";
+import { MASTERY_WINDOW } from "@/lib/exam-blueprint";
 import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { db } from "@/db";
@@ -5,6 +9,10 @@ import { topics } from "@/db/schema";
 import { ArrowRight } from "lucide-react";
 
 export default async function PracticeIndexPage() {
+  const session = await getServerSession(authOptions);
+  const progress = session ? await getTopicProgress(session.user.id) : [];
+  const byId = new Map(progress.map((p) => [p.id, p]));
+
   const allTopics = await db.select().from(topics);
 
   return (
@@ -24,9 +32,25 @@ export default async function PracticeIndexPage() {
                 <CardTitle>{topic.title}</CardTitle>
               </CardHeader>
               <CardContent className="flex justify-between items-end">
-                <span className="text-sm text-muted-foreground">
-                  Start practicing
-                </span>
+                {(() => {
+                  const p = byId.get(topic.id);
+                  if (!p)
+                    return (
+                      <span className="text-sm text-muted-foreground">
+                        Start practicing
+                      </span>
+                    );
+                  if (p.complete)
+                    return (
+                      <span className="text-sm text-green-600">✓ Complete</span>
+                    );
+                  return (
+                    <span className="text-sm text-muted-foreground">
+                      {p.correct} correct of last {p.answered} /{" "}
+                      {MASTERY_WINDOW}
+                    </span>
+                  );
+                })()}
                 <ArrowRight className="h-4 w-4 text-muted-foreground" />
               </CardContent>
             </Card>

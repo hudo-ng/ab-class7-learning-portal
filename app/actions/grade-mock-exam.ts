@@ -1,9 +1,10 @@
 "use server";
 
 import { db } from "@/db/index";
-import { choices } from "@/db/schema";
+import { choices, answerAttempts } from "@/db/schema";
 import { eq, inArray, and } from "drizzle-orm";
 import { requireApprovedUser } from "@/lib/auth";
+import { isMockExamUnlocked } from "@/db/queries/progess";
 
 interface Answer {
   questionId: string;
@@ -15,7 +16,14 @@ const UUID_RE =
   /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 
 export async function gradeMockExam(answers: Answer[]) {
-  await requireApprovedUser();
+  const session = await requireApprovedUser();
+
+  if (
+    session.user.role !== "ADMIN" &&
+    !(await isMockExamUnlocked(session.user.id))
+  ) {
+    throw new Error("Complete all practice topics to unlock the mock exam");
+  }
 
   if (
     !Array.isArray(answers) ||
@@ -62,6 +70,18 @@ export async function gradeMockExam(answers: Answer[]) {
     if (isCorrect) correctCount++;
     return { questionId, choiceId, correctChoiceId, isCorrect };
   });
+
+  const toRecord = details.filter((d) => d.correctChoiceId !== null);
+  if (toRecord.length > 0) {
+    await db.insert(answerAttempts).values(
+      toRecord.map((d) => ({
+        userId: session.user.id,
+        questionId: d.questionId,
+        isCorrect: d.isCorrect,
+        source: "mock" as const,
+      })),
+    );
+  }
 
   return {
     total: questionIds.length,

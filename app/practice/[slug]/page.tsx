@@ -4,6 +4,7 @@ import { PracticeCards } from "@/components/other/PracticeCards";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/app/api/auth/[...nextauth]/route";
 import { Button } from "@/components/ui/button";
+
 interface Props {
   params: { slug: string };
 }
@@ -39,7 +40,7 @@ export default async function PracticePage({ params }: Props) {
   let data;
 
   try {
-    data = await getPracticeQuestionsByTopicSlug(slug, 5);
+    data = await getPracticeQuestionsByTopicSlug(slug, session.user.id);
   } catch {
     return notFound();
   }

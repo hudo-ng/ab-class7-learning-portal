@@ -1,10 +1,12 @@
 import { db } from "@/db/index";
-import { topics, questions } from "@/db/schema";
+import { topics, questions, answerAttempts } from "@/db/schema";
 import { and, eq, sql } from "drizzle-orm";
+import { PRACTICE_SET_SIZE } from "@/lib/exam-blueprint";
 
 export async function getPracticeQuestionsByTopicSlug(
   topicSlug: string,
-  limit = 5,
+  userId: string,
+  limit = PRACTICE_SET_SIZE,
 ) {
   const topic = await db.query.topics.findFirst({
     where: eq(topics.slug, topicSlug),
@@ -15,7 +17,20 @@ export async function getPracticeQuestionsByTopicSlug(
 
   const rows = await db.query.questions.findMany({
     where: and(eq(questions.topicId, topic.id), eq(questions.isActive, true)),
-    orderBy: sql`random()`,
+    orderBy: (q) => [
+      // Never answered first (0), then last answered wrong (1), then right (2)
+      sql`coalesce((
+        select aa.is_correct::int + 1
+        from answer_attempts aa
+        where aa.question_id = ${q.id}
+          and aa.user_id = ${userId}
+          and aa.source = 'practice'
+        order by aa.created_at desc
+        limit 1
+      ), 0)`,
+      sql`random()`,
+    ],
+
     limit,
     columns: { id: true, prompt: true, explanation: true, imgUrl: true },
     with: {

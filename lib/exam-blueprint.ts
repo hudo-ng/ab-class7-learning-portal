@@ -1,3 +1,4 @@
+// Exam blueprint constants
 export const EXAM_BLUEPRINT: Record<string, number> = {
   "road-signs": 6,
   "intersections-and-turns": 4,
@@ -13,5 +14,11 @@ export const EXAM_BLUEPRINT: Record<string, number> = {
 export const EXAM_QUESTION_COUNT = Object.values(EXAM_BLUEPRINT).reduce(
   (a, b) => a + b,
   0,
-); // 30
+);
 export const PASS_MARK = 25;
+
+// Practice exam constants
+
+export const MASTERY_WINDOW = 15;
+export const MASTERY_CORRECT = 13;
+export const PRACTICE_SET_SIZE = 15;
