@@ -3,18 +3,17 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { db } from "@/db";
 import { topics } from "@/db/schema";
 import { ArrowRight } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 
 export default async function LearnIndexPage() {
   const allTopics = await db.select().from(topics);
+  const t = await getTranslations("Learn");
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-10 space-y-8">
       <div>
-        <h1 className="text-3xl font-bold">Learn</h1>
-        <p className="text-muted-foreground mt-2">
-          Study the key topics you need to pass the Alberta Class 7 knowledge
-          test.
-        </p>
+        <h1 className="text-3xl font-bold">{t("title")}</h1>
+        <p className="text-muted-foreground mt-2">{t("subtitle")}</p>
       </div>
 
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -26,7 +25,7 @@ export default async function LearnIndexPage() {
               </CardHeader>
               <CardContent className="flex justify-between items-end">
                 <span className="text-sm text-muted-foreground">
-                  Start learning
+                  {t("startLearning")}
                 </span>
                 <ArrowRight className="h-4 w-4 text-muted-foreground" />
               </CardContent>

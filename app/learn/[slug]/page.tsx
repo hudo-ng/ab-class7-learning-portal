@@ -4,6 +4,7 @@ import { eq } from "drizzle-orm";
 import { LessonBlock } from "@/components/other/LessonBlock";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { getTranslations } from "next-intl/server";
 
 export default async function TopicPage({
   params,
@@ -16,6 +17,7 @@ export default async function TopicPage({
   });
 
   if (!topic) return null;
+  const t = await getTranslations("Learn");
 
   const blocks = await db.query.topicContent.findMany({
     where: eq(topicContent.topicId, topic.id),
@@ -26,9 +28,7 @@ export default async function TopicPage({
     <div className="mx-auto max-w-5xl px-4 py-10 space-y-10">
       <header className="space-y-2">
         <h1 className="text-3xl font-bold">{topic.title}</h1>
-        <p className="text-muted-foreground">
-          Learn the key concepts before practicing exam questions.
-        </p>
+        <p className="text-muted-foreground">{t("topicSubtitle")}</p>
       </header>
 
       {blocks.map((block) => (
@@ -37,7 +37,7 @@ export default async function TopicPage({
 
       <div className="flex justify-end pt-6">
         <Button asChild>
-          <Link href={`/practice/${topic.slug}`}>Practice this topic →</Link>
+          <Link href={`/practice/${topic.slug}`}>{t("practiceTopic")}</Link>
         </Button>
       </div>
     </div>

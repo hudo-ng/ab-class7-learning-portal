@@ -7,6 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { db } from "@/db";
 import { topics } from "@/db/schema";
 import { ArrowRight } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 
 export default async function PracticeIndexPage() {
   const session = await getServerSession(authOptions);
@@ -14,14 +15,13 @@ export default async function PracticeIndexPage() {
   const byId = new Map(progress.map((p) => [p.id, p]));
 
   const allTopics = await db.select().from(topics);
+  const t = await getTranslations("Practice");
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-10 space-y-8">
       <div>
-        <h1 className="text-3xl font-bold">Practice</h1>
-        <p className="text-muted-foreground mt-2">
-          Practice questions to prepare for the Alberta Class 7 knowledge test.
-        </p>
+        <h1 className="text-3xl font-bold">{t("title")}</h1>
+        <p className="text-muted-foreground mt-2">{t("subtitle")}</p>
       </div>
 
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -37,17 +37,22 @@ export default async function PracticeIndexPage() {
                   if (!p || p.answered === 0)
                     return (
                       <span className="text-sm text-muted-foreground">
-                        Start practicing
+                        {t("start")}
                       </span>
                     );
                   if (p.complete)
                     return (
-                      <span className="text-sm text-green-600">✓ Complete</span>
+                      <span className="text-sm text-green-600">
+                        {t("complete")}
+                      </span>
                     );
                   return (
                     <span className="text-sm text-muted-foreground">
-                      {p.correct} correct of last {p.answered} /{" "}
-                      {MASTERY_WINDOW}
+                      {t("progress", {
+                        correct: p.correct,
+                        answered: p.answered,
+                        window: MASTERY_WINDOW,
+                      })}
                     </span>
                   );
                 })()}

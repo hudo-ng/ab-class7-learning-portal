@@ -4,6 +4,7 @@ import { PracticeCards } from "@/components/other/PracticeCards";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/app/api/auth/[...nextauth]/route";
 import { Button } from "@/components/ui/button";
+import { getTranslations } from "next-intl/server";
 
 interface Props {
   params: { slug: string };
@@ -11,15 +12,14 @@ interface Props {
 
 export default async function PracticePage({ params }: Props) {
   const session = await getServerSession(authOptions);
+  const t = await getTranslations("Common");
   if (!session) {
     return (
       <div className="rounded-xl border bg-muted/30 p-6 space-y-3">
-        <p className="font-medium">Want to practice or take the mock exam?</p>
-        <p className="text-sm text-muted-foreground">
-          Create a free account to unlock practice questions and mock exams.
-        </p>
+        <p className="font-medium">{t("practicePromptTitle")}</p>
+        <p className="text-sm text-muted-foreground">{t("signupPromptBody")}</p>
         <Button asChild>
-          <a href="/register">Create free account</a>
+          <a href="/register">{t("createFreeAccount")}</a>
         </Button>
       </div>
     );
@@ -28,10 +28,8 @@ export default async function PracticePage({ params }: Props) {
   if (!session.user?.isApproved) {
     return (
       <div className="rounded-xl border bg-muted/30 p-6 space-y-3">
-        <p className="font-medium">Want to practice or take the mock exam?</p>
-        <p className="text-sm text-muted-foreground">
-          Your account is not approved yet.
-        </p>
+        <p className="font-medium">{t("practicePromptTitle")}</p>
+        <p className="text-sm text-muted-foreground">{t("notApproved")}</p>
       </div>
     );
   }

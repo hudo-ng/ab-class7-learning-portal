@@ -1,4 +1,5 @@
 import clsx from "clsx";
+import { useTranslations } from "next-intl";
 
 interface Props {
   currentIndex: number;
@@ -15,11 +16,12 @@ export default function QuestionNavigator({
   submitted,
   onJump,
 }: Props) {
+  const t = useTranslations("MockExam");
   return (
     <>
       <div className="mb-6">
         <h3 className="text-sm font-medium text-gray-700 mb-2">
-          Questions ({answers.length} answered)
+          {t("navigatorTitle", { answered: answers.length })}
         </h3>
 
         <div className="grid grid-cols-5 sm:grid-cols-8 md:grid-cols-10 gap-2 max-h-50 overflow-y-auto p-2 border rounded-lg bg-gray-50">

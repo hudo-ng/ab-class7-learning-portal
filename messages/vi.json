@@ -1,0 +1,123 @@
+{
+  "Metadata": {
+    "title": "AB Learning Class 7",
+    "description": "Học luật giao thông, luyện câu hỏi theo dạng đề thi và làm bài thi thử có giới hạn thời gian cho bài thi lý thuyết Class 7 của Alberta."
+  },
+  "Nav": {
+    "learn": "Học",
+    "practice": "Luyện tập",
+    "mockExam": "Thi thử",
+    "admin": "Quản trị",
+    "login": "Đăng nhập",
+    "signUp": "Đăng ký",
+    "logout": "Đăng xuất",
+    "logoutConfirm": "Bạn có chắc muốn đăng xuất không?",
+    "language": "Ngôn ngữ"
+  },
+  "Common": {
+    "practicePromptTitle": "Bạn muốn luyện tập hoặc làm bài thi thử?",
+    "mockPromptTitle": "Bạn muốn làm bài thi thử?",
+    "signupPromptBody": "Tạo tài khoản miễn phí để mở khóa câu hỏi luyện tập và bài thi thử.",
+    "createFreeAccount": "Tạo tài khoản miễn phí",
+    "notApproved": "Tài khoản của bạn chưa được duyệt.",
+    "questionImageAlt": "Hình minh họa câu hỏi"
+  },
+  "Home": {
+    "title": "Class 7 Alberta thật đơn giản",
+    "subtitle": "Học luật giao thông, luyện câu hỏi sát đề thật và tự tin vượt qua bài thi lý thuyết Class 7 của Alberta.",
+    "startLearning": "Bắt đầu học",
+    "createAccount": "Tạo tài khoản miễn phí",
+    "learnTitle": "📘 Học",
+    "learnBody": "Giải thích rõ ràng, có hình ảnh và ví dụ.",
+    "practiceTitle": "📝 Luyện tập",
+    "practiceBody": "Luyện các câu hỏi theo dạng đề thi thật.",
+    "mockTitle": "⏱ Thi thử",
+    "mockBody": "Bài thi thử có giới hạn thời gian như bài thi thật.",
+    "ctaTitle": "Sẵn sàng kiểm tra bản thân?",
+    "ctaBody": "Tạo tài khoản miễn phí để mở khóa câu hỏi luyện tập và bài thi thử.",
+    "ctaButton": "Mở khóa luyện tập"
+  },
+  "Footer": {
+    "credit": "Có sử dụng thông tin được cấp phép theo <licence>Open Government Licence – Alberta</licence>, từ Alberta Driver's Guide. Trang web này không liên kết với Chính phủ Alberta."
+  },
+  "Login": {
+    "title": "Đăng nhập vào tài khoản",
+    "description": "Nhập email của bạn bên dưới để đăng nhập",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "submit": "Đăng nhập",
+    "submitting": "Đang đăng nhập...",
+    "invalid": "Email hoặc mật khẩu không đúng",
+    "noAccount": "Chưa có tài khoản?",
+    "register": "Đăng ký"
+  },
+  "Register": {
+    "title": "Tạo tài khoản",
+    "description": "Đăng ký để mở khóa câu hỏi luyện tập và bài thi thử.",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "confirmPassword": "Xác nhận mật khẩu",
+    "submit": "Tạo tài khoản",
+    "haveAccount": "Đã có tài khoản?",
+    "login": "Đăng nhập",
+    "successTitle": "Đã tạo tài khoản 🎉",
+    "successBody": "Tài khoản của bạn đã được tạo thành công.",
+    "redirecting": "Bạn sẽ được chuyển đến trang đăng nhập trong giây lát.",
+    "goToLogin": "Đến trang đăng nhập ngay",
+    "errors": {
+      "passwordMismatch": "Mật khẩu không khớp",
+      "required": "Vui lòng điền đầy đủ các trường",
+      "passwordTooShort": "Mật khẩu phải có ít nhất {min} ký tự",
+      "emailTaken": "Email này đã được sử dụng"
+    }
+  },
+  "Learn": {
+    "title": "Học",
+    "subtitle": "Học các chủ đề quan trọng bạn cần để vượt qua bài thi lý thuyết Class 7 của Alberta.",
+    "startLearning": "Bắt đầu học",
+    "topicSubtitle": "Nắm vững các khái niệm chính trước khi luyện câu hỏi thi.",
+    "practiceTopic": "Luyện tập chủ đề này →"
+  },
+  "Practice": {
+    "title": "Luyện tập",
+    "subtitle": "Luyện câu hỏi để chuẩn bị cho bài thi lý thuyết Class 7 của Alberta.",
+    "start": "Bắt đầu luyện tập",
+    "complete": "✓ Hoàn thành",
+    "progress": "Đúng {correct} trong {answered} / {window} câu gần nhất",
+    "questionOf": "Câu {current} / {total}",
+    "correct": "Chính xác! Làm tốt lắm.",
+    "incorrect": "Sai rồi. Đáp án đúng được tô sáng ở trên.",
+    "explanation": "Giải thích:",
+    "next": "Câu tiếp theo",
+    "finish": "Hoàn thành luyện tập",
+    "completeTitle": "Đã hoàn thành luyện tập 🎉",
+    "completeBody": "Bạn đã làm xong cả {total} câu hỏi.",
+    "restart": "Luyện tập lại"
+  },
+  "MockExam": {
+    "title": "Thi thử",
+    "lockedTitle": "Bài thi thử đang bị khóa",
+    "lockedIntro": "Hoàn thành tất cả chủ đề luyện tập để mở khóa (đã xong {done} / {total}).",
+    "lockedRule": "Một chủ đề được tính là hoàn thành khi bạn trả lời đúng {correct} trong {window} câu gần nhất.",
+    "topicScore": "{correct} / {answered}",
+    "practiceLink": "Đúng {correct} / {answered} · Luyện tập",
+    "navigatorTitle": "Câu hỏi (đã trả lời {answered})",
+    "answered": "Đã trả lời {answered} / {total}",
+    "questionOf": "Câu {current} / {total}",
+    "previous": "Câu trước",
+    "next": "Câu sau",
+    "submit": "Nộp bài",
+    "answerAll": "Vui lòng trả lời tất cả câu hỏi trước khi nộp bài.",
+    "confirmTitle": "Nộp bài thi thử?",
+    "confirmBody": "Bạn sẽ không thể thay đổi câu trả lời sau khi nộp bài.",
+    "cancel": "Hủy",
+    "confirmSubmit": "Nộp bài",
+    "submitError": "Không thể nộp bài. Vui lòng thử lại.",
+    "resultTitle": "Kết quả thi thử",
+    "resultSummary": "Đúng {correct} / {total} ({score}%)",
+    "passed": "Đạt 🎉",
+    "failed": "Chưa đạt (cần {pass})",
+    "correct": "Đúng",
+    "incorrect": "Sai"
+  }
+}

@@ -15,6 +15,7 @@ import { useState, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { signIn } from "next-auth/react";
+import { useTranslations } from "next-intl";
 
 export default function LoginPage() {
   return (
@@ -25,18 +26,19 @@ export default function LoginPage() {
 }
 
 function LoginForm() {
+  const t = useTranslations("Login");
   const router = useRouter();
   const searchParams = useSearchParams();
   const callbackUrl = searchParams.get("callbackUrl") || "/";
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [error, setError] = useState("");
+  const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    setError("");
+    setError(false);
     setLoading(true);
 
     const res = await signIn("credentials", {
@@ -48,7 +50,7 @@ function LoginForm() {
     setLoading(false);
 
     if (!res || res.error) {
-      setError("Invalid email or password");
+      setError(true);
       return;
     }
 
@@ -60,17 +62,15 @@ function LoginForm() {
     <div className="max-w-sm mx-auto mt-20 space-y-4">
       <Card className="w-full max-w-sm">
         <CardHeader>
-          <CardTitle>Login to your account</CardTitle>
-          <CardDescription>
-            Enter your email below to login to your account
-          </CardDescription>
+          <CardTitle>{t("title")}</CardTitle>
+          <CardDescription>{t("description")}</CardDescription>
         </CardHeader>
 
         <form onSubmit={handleSubmit}>
           <CardContent>
             <div className="flex flex-col gap-6">
               <div className="grid gap-2">
-                <Label htmlFor="email">Email</Label>
+                <Label htmlFor="email">{t("email")}</Label>
                 <Input
                   id="email"
                   type="email"
@@ -80,7 +80,7 @@ function LoginForm() {
                 />
               </div>
               <div className="grid gap-2">
-                <Label htmlFor="password">Password</Label>
+                <Label htmlFor="password">{t("password")}</Label>
                 <Input
                   id="password"
                   type="password"
@@ -88,20 +88,22 @@ function LoginForm() {
                   onChange={(e) => setPassword(e.target.value)}
                 />
               </div>
-              {error && <p className="text-sm text-destructive">{error}</p>}
+              {error && (
+                <p className="text-sm text-destructive">{t("invalid")}</p>
+              )}
             </div>
           </CardContent>
           <CardFooter className="flex-col gap-2 pt-6">
             <Button type="submit" className="w-full" disabled={loading}>
-              {loading ? "Logging in..." : "Login"}
+              {loading ? t("submitting") : t("submit")}
             </Button>
             <p className="text-sm text-muted-foreground">
-              Don&apos;t have an account yet?{" "}
+              {t("noAccount")}{" "}
               <Link
                 href="/register"
                 className="font-medium text-foreground underline-offset-4 hover:underline"
               >
-                Register
+                {t("register")}
               </Link>
             </p>
           </CardFooter>

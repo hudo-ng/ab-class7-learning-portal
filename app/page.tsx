@@ -1,54 +1,47 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { getServerSession } from "next-auth";
+import { getTranslations } from "next-intl/server";
 import { authOptions } from "./api/auth/[...nextauth]/route";
 
 export default async function HomePage() {
   const session = await getServerSession(authOptions);
+  const t = await getTranslations("Home");
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-20 space-y-16">
 
       <section className="text-center space-y-4">
-        <h1 className="text-4xl font-bold">Alberta Class 7 Made Simple</h1>
+        <h1 className="text-4xl font-bold">{t("title")}</h1>
         <p className="text-muted-foreground max-w-xl mx-auto">
-          Learn road rules, practice real questions, and pass your Alberta Class
-          7 knowledge test with confidence.
+          {t("subtitle")}
         </p>
 
         <div className="flex justify-center gap-4">
           <Button asChild>
-            <Link href="/learn">Start Learning</Link>
+            <Link href="/learn">{t("startLearning")}</Link>
           </Button>
 
           {!session && (
             <Button variant="outline" asChild>
-              <Link href="/register">Create Free Account</Link>
+              <Link href="/register">{t("createAccount")}</Link>
             </Button>
           )}
         </div>
       </section>
 
       <section className="grid md:grid-cols-3 gap-6 text-center">
-        <Feature title="📘 Learn">
-          Clear explanations, images, and examples.
-        </Feature>
-        <Feature title="📝 Practice">
-          Practice real exam-style questions.
-        </Feature>
-        <Feature title="⏱ Mock Exam">
-          Timed mock exams like the real test.
-        </Feature>
+        <Feature title={t("learnTitle")}>{t("learnBody")}</Feature>
+        <Feature title={t("practiceTitle")}>{t("practiceBody")}</Feature>
+        <Feature title={t("mockTitle")}>{t("mockBody")}</Feature>
       </section>
 
       {!session && (
         <section className="rounded-xl border bg-muted/30 p-8 text-center space-y-4">
-          <h2 className="text-2xl font-semibold">Ready to test yourself?</h2>
-          <p className="text-muted-foreground">
-            Create a free account to unlock practice questions and mock exams.
-          </p>
+          <h2 className="text-2xl font-semibold">{t("ctaTitle")}</h2>
+          <p className="text-muted-foreground">{t("ctaBody")}</p>
           <Button asChild>
-            <Link href="/register">Unlock Practice</Link>
+            <Link href="/register">{t("ctaButton")}</Link>
           </Button>
         </section>
       )}

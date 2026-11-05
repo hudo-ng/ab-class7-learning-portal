@@ -16,6 +16,7 @@ import { gradeMockExam } from "@/app/actions/grade-mock-exam";
 import { PASS_MARK } from "@/lib/exam-blueprint";
 import QuestionNavigator from "./QuestionNavigator";
 import clsx from "clsx";
+import { useTranslations } from "next-intl";
 
 interface Question {
   questionId: string;
@@ -33,6 +34,8 @@ export default function MockExamUI({
 }: {
   questions: Question[];
 }) {
+  const t = useTranslations("MockExam");
+  const tCommon = useTranslations("Common");
   // Freeze the set the student started with; a page re-render must not swap it mid-exam
   const [questions] = useState(initialQuestions);
   const [answers, setAnswers] = useState<
@@ -100,7 +103,7 @@ export default function MockExamUI({
       setSubmitted(true);
       setPhase("result");
     } catch {
-      alert("Could not submit the exam. Please try again.");
+      alert(t("submitError"));
     }
   }
 
@@ -114,12 +117,16 @@ export default function MockExamUI({
     const passed = result.correct >= PASS_MARK;
     return (
       <Card>
-        <CardHeader>Mock Exam Result</CardHeader>
+        <CardHeader>{t("resultTitle")}</CardHeader>
         <CardContent className="space-y-4">
           <Alert>
             <AlertDescription>
-              {result.correct} / {questions.length} correct ({result.score}%) —{" "}
-              {passed ? "Passed 🎉" : `Failed (need ${PASS_MARK})`}
+              {t("resultSummary", {
+                correct: result.correct,
+                total: questions.length,
+                score: result.score,
+              })}{" "}
+              — {passed ? t("passed") : t("failed", { pass: PASS_MARK })}
             </AlertDescription>
           </Alert>
 
@@ -163,7 +170,7 @@ export default function MockExamUI({
                         graded.isCorrect ? "text-green-700" : "text-red-700"
                       }
                     >
-                      {graded.isCorrect ? "Correct" : "Incorrect"}
+                      {graded.isCorrect ? t("correct") : t("incorrect")}
                     </AlertDescription>
                   </Alert>
                   <p className="text-sm text-muted-foreground font-medium">
@@ -190,7 +197,10 @@ export default function MockExamUI({
       <div className="space-y-4">
         <div className="flex justify-between text-sm">
           <span>
-            Answered {answers.length} / {questions.length}
+            {t("answered", {
+              answered: answers.length,
+              total: questions.length,
+            })}
           </span>
           <span className="font-mono">⏱ {formatTime(timeLeft)}</span>
         </div>
@@ -198,7 +208,10 @@ export default function MockExamUI({
         <Card>
           <CardContent className="p-6 space-y-4">
             <p className="font-medium">
-              Question {currentIndex + 1} of {questions.length}
+              {t("questionOf", {
+                current: currentIndex + 1,
+                total: questions.length,
+              })}
             </p>
 
             <p className="text-base font-semibold leading-relaxed">
@@ -240,7 +253,7 @@ export default function MockExamUI({
                   <div className="w-full max-w-70 rounded-xl border bg-muted/30 p-3">
                     <img
                       src={currentQuestion.imgUrl}
-                      alt="Question illustration"
+                      alt={tCommon("questionImageAlt")}
                       className="mx-auto max-h-64 w-auto object-contain"
                     />
                   </div>
@@ -254,14 +267,14 @@ export default function MockExamUI({
                 disabled={currentIndex === 0}
                 onClick={prevQuestion}
               >
-                Previous
+                {t("previous")}
               </Button>
 
               <Button
                 disabled={currentIndex === questions.length - 1}
                 onClick={nextQuestion}
               >
-                Next
+                {t("next")}
               </Button>
             </div>
           </CardContent>
@@ -272,11 +285,11 @@ export default function MockExamUI({
           disabled={Object.keys(answers).length !== questions.length}
           onClick={() => setPhase("confirm")}
         >
-          Submit Exam
+          {t("submit")}
         </Button>
         {Object.keys(answers).length !== questions.length && (
           <p className="text-xs text-muted-foreground text-center">
-            Please answer all questions before submitting.
+            {t("answerAll")}
           </p>
         )}
       </div>
@@ -284,16 +297,16 @@ export default function MockExamUI({
       <Dialog open={phase === "confirm"} onOpenChange={() => setPhase("exam")}>
         <DialogContent>
           <DialogHeader>
-            <DialogTitle>Submit Mock exam?</DialogTitle>
+            <DialogTitle>{t("confirmTitle")}</DialogTitle>
           </DialogHeader>
           <p className="text-sm text-muted-foreground">
-            You won’t be able to change your answers after submitting.
+            {t("confirmBody")}
           </p>
           <DialogFooter>
             <Button variant="outline" onClick={() => setPhase("exam")}>
-              Cancel
+              {t("cancel")}
             </Button>
-            <Button onClick={submitExam}>Submit</Button>
+            <Button onClick={submitExam}>{t("confirmSubmit")}</Button>
           </DialogFooter>
         </DialogContent>
       </Dialog>

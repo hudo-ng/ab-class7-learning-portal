@@ -1,0 +1,123 @@
+{
+  "Metadata": {
+    "title": "AB Learning Class 7",
+    "description": "Learn the rules, practise exam-style questions and take timed mock exams for the Alberta Class 7 knowledge test."
+  },
+  "Nav": {
+    "learn": "Learn",
+    "practice": "Practice",
+    "mockExam": "Mock Exam",
+    "admin": "Admin",
+    "login": "Login",
+    "signUp": "Sign up",
+    "logout": "Logout",
+    "logoutConfirm": "Are you sure you want to logout?",
+    "language": "Language"
+  },
+  "Common": {
+    "practicePromptTitle": "Want to practice or take the mock exam?",
+    "mockPromptTitle": "Want to take the mock exam?",
+    "signupPromptBody": "Create a free account to unlock practice questions and mock exams.",
+    "createFreeAccount": "Create free account",
+    "notApproved": "Your account is not approved yet.",
+    "questionImageAlt": "Question illustration"
+  },
+  "Home": {
+    "title": "Alberta Class 7 Made Simple",
+    "subtitle": "Learn road rules, practice real questions, and pass your Alberta Class 7 knowledge test with confidence.",
+    "startLearning": "Start Learning",
+    "createAccount": "Create Free Account",
+    "learnTitle": "📘 Learn",
+    "learnBody": "Clear explanations, images, and examples.",
+    "practiceTitle": "📝 Practice",
+    "practiceBody": "Practice real exam-style questions.",
+    "mockTitle": "⏱ Mock Exam",
+    "mockBody": "Timed mock exams like the real test.",
+    "ctaTitle": "Ready to test yourself?",
+    "ctaBody": "Create a free account to unlock practice questions and mock exams.",
+    "ctaButton": "Unlock Practice"
+  },
+  "Footer": {
+    "credit": "Contains information licensed under the <licence>Open Government Licence – Alberta</licence>, from the Alberta Driver's Guide. This site is not affiliated with the Government of Alberta."
+  },
+  "Login": {
+    "title": "Login to your account",
+    "description": "Enter your email below to login to your account",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Login",
+    "submitting": "Logging in...",
+    "invalid": "Invalid email or password",
+    "noAccount": "Don't have an account yet?",
+    "register": "Register"
+  },
+  "Register": {
+    "title": "Create your account",
+    "description": "Sign up to unlock practice questions and exams.",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "submit": "Create account",
+    "haveAccount": "Already have an account?",
+    "login": "Log in",
+    "successTitle": "Account created 🎉",
+    "successBody": "Your account has been created successfully.",
+    "redirecting": "You'll be redirected to the login page shortly.",
+    "goToLogin": "Go to login now",
+    "errors": {
+      "passwordMismatch": "Passwords do not match",
+      "required": "All fields are required",
+      "passwordTooShort": "Password must be at least {min} characters long",
+      "emailTaken": "User with this email already exists"
+    }
+  },
+  "Learn": {
+    "title": "Learn",
+    "subtitle": "Study the key topics you need to pass the Alberta Class 7 knowledge test.",
+    "startLearning": "Start learning",
+    "topicSubtitle": "Learn the key concepts before practicing exam questions.",
+    "practiceTopic": "Practice this topic →"
+  },
+  "Practice": {
+    "title": "Practice",
+    "subtitle": "Practice questions to prepare for the Alberta Class 7 knowledge test.",
+    "start": "Start practicing",
+    "complete": "✓ Complete",
+    "progress": "{correct} correct of last {answered} / {window}",
+    "questionOf": "Question {current} of {total}",
+    "correct": "Correct! Well done.",
+    "incorrect": "Incorrect. The correct answer is highlighted above.",
+    "explanation": "Explanation:",
+    "next": "Next Question",
+    "finish": "Finish Practice",
+    "completeTitle": "Practice Complete 🎉",
+    "completeBody": "You've finished all {total} questions.",
+    "restart": "Restart Practice"
+  },
+  "MockExam": {
+    "title": "Mock Exam",
+    "lockedTitle": "Mock exam locked",
+    "lockedIntro": "Complete every topic in practice to unlock it ({done} / {total} done).",
+    "lockedRule": "A topic is complete when you get {correct} of your last {window} questions right.",
+    "topicScore": "{correct} / {answered}",
+    "practiceLink": "{correct} / {answered} correct · Practice",
+    "navigatorTitle": "Questions ({answered} answered)",
+    "answered": "Answered {answered} / {total}",
+    "questionOf": "Question {current} of {total}",
+    "previous": "Previous",
+    "next": "Next",
+    "submit": "Submit Exam",
+    "answerAll": "Please answer all questions before submitting.",
+    "confirmTitle": "Submit mock exam?",
+    "confirmBody": "You won't be able to change your answers after submitting.",
+    "cancel": "Cancel",
+    "confirmSubmit": "Submit",
+    "submitError": "Could not submit the exam. Please try again.",
+    "resultTitle": "Mock Exam Result",
+    "resultSummary": "{correct} / {total} correct ({score}%)",
+    "passed": "Passed 🎉",
+    "failed": "Failed (need {pass})",
+    "correct": "Correct",
+    "incorrect": "Incorrect"
+  }
+}

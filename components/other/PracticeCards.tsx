@@ -7,6 +7,7 @@ import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Progress } from "@/components/ui/progress";
 import { validateUserAnswer } from "@/app/actions/validate-answer";
 import clsx from "clsx";
+import { useTranslations } from "next-intl";
 
 interface Choice {
   choiceId: string;
@@ -22,6 +23,8 @@ interface Question {
 }
 
 export function PracticeCards({ questions }: { questions: Question[] }) {
+  const t = useTranslations("Practice");
+  const tCommon = useTranslations("Common");
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<string | null>(null);
   const [showExplanation, setShowExplanation] = useState(false);
@@ -40,7 +43,8 @@ export function PracticeCards({ questions }: { questions: Question[] }) {
     setSelected(null);
     setShowExplanation(false);
     setResult(null);
-    setIndex((prev) => Math.min(prev + 1, totalQuestions - 1));
+    // Going past the last question shows the "Practice Complete" screen
+    setIndex((prev) => prev + 1);
   }
 
   function submitAnswer(choiceId: string) {
@@ -62,11 +66,11 @@ export function PracticeCards({ questions }: { questions: Question[] }) {
     return (
       <Card className="p-6">
         <CardContent className="text-center space-y-4">
-          <h2 className="text-2xl font-bold">Practice Complete 🎉</h2>
+          <h2 className="text-2xl font-bold">{t("completeTitle")}</h2>
           <p className="text-muted-foreground">
-            You&apos;ve finished all {totalQuestions} questions.
+            {t("completeBody", { total: totalQuestions })}
           </p>
-          <Button onClick={() => setIndex(0)}>Restart Practice</Button>
+          <Button onClick={() => setIndex(0)}>{t("restart")}</Button>
         </CardContent>
       </Card>
     );
@@ -79,7 +83,7 @@ export function PracticeCards({ questions }: { questions: Question[] }) {
         <div className="space-y-2">
           <div className="flex justify-between text-sm text-muted-foreground">
             <span>
-              Question {index + 1} of {totalQuestions}
+              {t("questionOf", { current: index + 1, total: totalQuestions })}
             </span>
             <span>{Math.round(progress)}%</span>
           </div>
@@ -95,7 +99,7 @@ export function PracticeCards({ questions }: { questions: Question[] }) {
             <div className="w-full max-w-md rounded-xl border bg-muted/30 p-3">
               <img
                 src={currentQuestion.imgUrl}
-                alt="Question illustration"
+                alt={tCommon("questionImageAlt")}
                 className="mx-auto max-h-64 w-auto object-contain rounded-lg"
               />
             </div>
@@ -140,9 +144,7 @@ export function PracticeCards({ questions }: { questions: Question[] }) {
             className="mt-4"
           >
             <AlertDescription className="text-base font-medium">
-              {result.isCorrect
-                ? "Correct! Well done."
-                : "Incorrect. The correct answer is highlighted above."}
+              {result.isCorrect ? t("correct") : t("incorrect")}
             </AlertDescription>
           </Alert>
         )}
@@ -150,7 +152,7 @@ export function PracticeCards({ questions }: { questions: Question[] }) {
         {showExplanation && (
           <div className="rounded-lg bg-muted/50 p-4 text-sm leading-relaxed border">
             <p className="font-medium text-muted-foreground mb-1">
-              Explanation:
+              {t("explanation")}
             </p>
             {currentQuestion.explanation}
           </div>
@@ -161,9 +163,8 @@ export function PracticeCards({ questions }: { questions: Question[] }) {
             className="w-full mt-2"
             size="lg"
             onClick={nextQuestion}
-            disabled={index === totalQuestions - 1}
           >
-            {index === totalQuestions - 1 ? "Finish Practice" : "Next Question"}
+            {index === totalQuestions - 1 ? t("finish") : t("next")}
           </Button>
         )}
       </CardContent>

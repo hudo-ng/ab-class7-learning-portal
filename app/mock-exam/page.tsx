@@ -6,18 +6,21 @@ import { Button } from "@/components/ui/button";
 import { getTopicProgress } from "@/db/queries/progress";
 import { MASTERY_CORRECT, MASTERY_WINDOW } from "@/lib/exam-blueprint";
 import Link from "next/link";
+import { getTranslations } from "next-intl/server";
 
 export default async function MockExamPage() {
   const session = await getServerSession(authOptions);
+  const tCommon = await getTranslations("Common");
+  const t = await getTranslations("MockExam");
   if (!session) {
     return (
       <div className="rounded-xl border bg-muted/30 p-6 space-y-3">
-        <p className="font-medium">Want to take the mock exam?</p>
+        <p className="font-medium">{tCommon("mockPromptTitle")}</p>
         <p className="text-sm text-muted-foreground">
-          Create a free account to unlock practice questions and mock exams.
+          {tCommon("signupPromptBody")}
         </p>
         <Button asChild>
-          <a href="/register">Create free account</a>
+          <a href="/register">{tCommon("createFreeAccount")}</a>
         </Button>
       </div>
     );
@@ -26,9 +29,9 @@ export default async function MockExamPage() {
   if (!session.user?.isApproved) {
     return (
       <div className="rounded-xl border bg-muted/30 p-6 space-y-3">
-        <p className="font-medium">Want to take the mock exam?</p>
+        <p className="font-medium">{tCommon("mockPromptTitle")}</p>
         <p className="text-sm text-muted-foreground">
-          Your account is not approved yet.
+          {tCommon("notApproved")}
         </p>
       </div>
     );
@@ -36,37 +39,45 @@ export default async function MockExamPage() {
 
   if (session.user.role !== "ADMIN") {
     const progress = await getTopicProgress(session.user.id);
-    const done = progress.filter((t) => t.complete).length;
+    const done = progress.filter((topic) => topic.complete).length;
     if (done < progress.length) {
       return (
         <main className="mx-auto max-w-3xl px-4 py-8 space-y-6">
           <div>
-            <h1 className="text-2xl font-bold">Mock exam locked</h1>
+            <h1 className="text-2xl font-bold">{t("lockedTitle")}</h1>
             <p className="text-muted-foreground mt-1">
-              Complete every topic in practice to unlock it ({done} /{" "}
-              {progress.length} done). A topic is complete when you get{" "}
-              {MASTERY_CORRECT} of your last {MASTERY_WINDOW} questions right.
+              {t("lockedIntro", { done, total: progress.length })}{" "}
+              {t("lockedRule", {
+                correct: MASTERY_CORRECT,
+                window: MASTERY_WINDOW,
+              })}
             </p>
           </div>
           <ul className="space-y-2">
-            {progress.map((t) => (
+            {progress.map((topic) => (
               <li
-                key={t.id}
+                key={topic.id}
                 className="flex items-center justify-between rounded-lg border p-3"
               >
                 <span>
-                  {t.complete ? "✅" : "⬜"} {t.title}
+                  {topic.complete ? "✅" : "⬜"} {topic.title}
                 </span>
-                {t.complete ? (
+                {topic.complete ? (
                   <span className="text-sm text-muted-foreground">
-                    {t.correct} / {t.answered}
+                    {t("topicScore", {
+                      correct: topic.correct,
+                      answered: topic.answered,
+                    })}
                   </span>
                 ) : (
                   <Link
-                    href={`/practice/${t.slug}`}
+                    href={`/practice/${topic.slug}`}
                     className="text-sm underline"
                   >
-                    {t.correct} / {t.answered} correct · Practice
+                    {t("practiceLink", {
+                      correct: topic.correct,
+                      answered: topic.answered,
+                    })}
                   </Link>
                 )}
               </li>
@@ -81,7 +92,7 @@ export default async function MockExamPage() {
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-8 space-y-4">
-      <h1 className="text-2xl font-bold">Mock Exam</h1>
+      <h1 className="text-2xl font-bold">{t("title")}</h1>
       <MockExamUI questions={questions} />
     </main>
   );

@@ -1,12 +1,14 @@
+import type en from "@/messages/en.json";
+
 type NavItem = {
-    label: string;
-    href: string;
-    auth?: "guest" | "user" | "admin";
-}
+  labelKey: keyof (typeof en)["Nav"];
+  href: string;
+  auth?: "guest" | "user" | "admin";
+};
 
 export const NAV_ITEMS: NavItem[] = [
-    {label: "Learn", href: "/learn", },
-    {label: "Practice", href: "/practice", auth: "user"},
-    {label: "Mock Exam", href: "/mock-exam", auth: "user" },
-    {label: "Admin", href: "/admin", auth: "admin" },   
-]
+  { labelKey: "learn", href: "/learn" },
+  { labelKey: "practice", href: "/practice", auth: "user" },
+  { labelKey: "mockExam", href: "/mock-exam", auth: "user" },
+  { labelKey: "admin", href: "/admin", auth: "admin" },
+];

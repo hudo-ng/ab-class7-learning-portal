@@ -4,8 +4,20 @@ import { db } from "@/db";
 import { users } from "@/db/schema";
 import { sql } from "drizzle-orm";
 import bcrypt from "bcrypt";
+import { MIN_PASSWORD_LENGTH } from "@/lib/validation";
 
-export async function registerUser(formData: FormData) {
+// Codes, not sentences: the form translates them (messages: Register.errors.*)
+export type RegisterError =
+  | "passwordMismatch"
+  | "required"
+  | "passwordTooShort"
+  | "emailTaken";
+
+type RegisterResult = { error: RegisterError } | { success: true };
+
+export async function registerUser(
+  formData: FormData,
+): Promise<RegisterResult> {
   const email = String(formData.get("email") ?? "")
     .trim()
     .toLowerCase();
@@ -13,15 +25,15 @@ export async function registerUser(formData: FormData) {
   const confirmPassword = formData.get("confirmPassword") as string;
 
   if (password !== confirmPassword) {
-    return { error: "Passwords do not match" };
+    return { error: "passwordMismatch" };
   }
 
   if (!email || !password || !confirmPassword) {
-    return { error: "All fields are required" };
+    return { error: "required" };
   }
 
-  if (password.length < 8) {
-    return { error: "Password must be at least 8 characters long" };
+  if (password.length < MIN_PASSWORD_LENGTH) {
+    return { error: "passwordTooShort" };
   }
 
   const existingUser = await db.query.users.findFirst({
@@ -29,7 +41,7 @@ export async function registerUser(formData: FormData) {
   });
 
   if (existingUser) {
-    return { error: "User with this email already exists" };
+    return { error: "emailTaken" };
   }
 
   const hashedPassword = await bcrypt.hash(password, 10);
