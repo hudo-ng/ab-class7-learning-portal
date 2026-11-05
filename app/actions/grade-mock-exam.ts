@@ -4,7 +4,7 @@ import { db } from "@/db/index";
 import { choices, answerAttempts } from "@/db/schema";
 import { eq, inArray, and } from "drizzle-orm";
 import { requireApprovedUser } from "@/lib/auth";
-import { isMockExamUnlocked } from "@/db/queries/progess";
+import { isMockExamUnlocked } from "@/db/queries/progress";
 
 interface Answer {
   questionId: string;

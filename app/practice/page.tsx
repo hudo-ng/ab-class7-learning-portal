@@ -1,6 +1,6 @@
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/app/api/auth/[...nextauth]/route";
-import { getTopicProgress } from "@/db/queries/progess";
+import { getTopicProgress } from "@/db/queries/progress";
 import { MASTERY_WINDOW } from "@/lib/exam-blueprint";
 import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -34,7 +34,7 @@ export default async function PracticeIndexPage() {
               <CardContent className="flex justify-between items-end">
                 {(() => {
                   const p = byId.get(topic.id);
-                  if (!p)
+                  if (!p || p.answered === 0)
                     return (
                       <span className="text-sm text-muted-foreground">
                         Start practicing

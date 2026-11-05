@@ -3,7 +3,7 @@ import MockExamUI from "@/components/other/MockExam";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/app/api/auth/[...nextauth]/route";
 import { Button } from "@/components/ui/button";
-import { getTopicProgress } from "@/db/queries/progess";
+import { getTopicProgress } from "@/db/queries/progress";
 import { MASTERY_CORRECT, MASTERY_WINDOW } from "@/lib/exam-blueprint";
 import Link from "next/link";
 
