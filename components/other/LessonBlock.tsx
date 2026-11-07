@@ -3,7 +3,10 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import type { topicContent } from "@/db/schema";
 
-type Block = typeof topicContent.$inferSelect;
+type Block = Pick<
+  typeof topicContent.$inferSelect,
+  "type" | "title" | "body" | "imgUrl"
+>;
 
 export function LessonBlock({ block }: { block: Block }) {
   switch (block.type) {

@@ -4,17 +4,19 @@ import { getTopicProgress } from "@/db/queries/progress";
 import { MASTERY_WINDOW } from "@/lib/exam-blueprint";
 import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { db } from "@/db";
-import { topics } from "@/db/schema";
+import { getLocalizedTopics } from "@/db/queries/localized";
 import { ArrowRight } from "lucide-react";
-import { getTranslations } from "next-intl/server";
+import { getLocale, getTranslations } from "next-intl/server";
 
 export default async function PracticeIndexPage() {
   const session = await getServerSession(authOptions);
-  const progress = session ? await getTopicProgress(session.user.id) : [];
+  const locale = await getLocale();
+  const progress = session
+    ? await getTopicProgress(session.user.id, locale)
+    : [];
   const byId = new Map(progress.map((p) => [p.id, p]));
 
-  const allTopics = await db.select().from(topics);
+  const allTopics = await getLocalizedTopics(locale);
   const t = await getTranslations("Practice");
 
   return (

@@ -1,10 +1,11 @@
-import { db } from "@/db";
-import { topicContent, topics } from "@/db/schema";
-import { eq } from "drizzle-orm";
+import {
+  getLocalizedLessonBlocks,
+  getLocalizedTopicBySlug,
+} from "@/db/queries/localized";
 import { LessonBlock } from "@/components/other/LessonBlock";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { getTranslations } from "next-intl/server";
+import { getLocale, getTranslations } from "next-intl/server";
 
 export default async function TopicPage({
   params,
@@ -12,23 +13,25 @@ export default async function TopicPage({
   params: { slug: string };
 }) {
   const { slug } = await params;
-  const topic = await db.query.topics.findFirst({
-    where: eq(topics.slug, slug),
-  });
+  const locale = await getLocale();
+  const topic = await getLocalizedTopicBySlug(slug, locale);
 
   if (!topic) return null;
   const t = await getTranslations("Learn");
 
-  const blocks = await db.query.topicContent.findMany({
-    where: eq(topicContent.topicId, topic.id),
-    orderBy: topicContent.order,
-  });
+  const blocks = await getLocalizedLessonBlocks(topic.id, locale);
+  const hasTranslation = blocks.some((b) => b.translated);
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-10 space-y-10">
       <header className="space-y-2">
         <h1 className="text-3xl font-bold">{topic.title}</h1>
         <p className="text-muted-foreground">{t("topicSubtitle")}</p>
+        {hasTranslation && (
+          <p className="text-xs text-muted-foreground italic">
+            {t("unofficialTranslation")}
+          </p>
+        )}
       </header>
 
       {blocks.map((block) => (

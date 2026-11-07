@@ -1,0 +1,120 @@
+{
+  "topic": {
+    "en": "Highway Driving",
+    "sourceHash": "5c535c0d9fd0de5c9210e9917cf873a4",
+    "title": "Lái xe trên đường cao tốc",
+    "status": "approved"
+  },
+  "blocks": [
+    {
+      "en": {
+        "title": "What you'll learn",
+        "body": "**In this topic you'll learn:**\n\n- How to choose your lane, check blind spots, and change lanes safely\n- How and when to pass, and when passing is illegal\n- How to merge onto a highway and exit it\n- How to handle weave zones, curves, and hills"
+      },
+      "sourceHash": "e942910b48525a2ec4466543283e1d19",
+      "title": "Bạn sẽ học được gì",
+      "body": "**Trong chủ đề này, bạn sẽ học:**\n\n- Cách chọn làn, kiểm tra điểm mù và chuyển làn an toàn\n- Cách vượt xe, khi nào nên vượt, và khi nào vượt xe là vi phạm luật\n- Cách nhập vào đường cao tốc và ra khỏi đường cao tốc\n- Cách xử lý vùng đan xen (weave zones), khúc cua và đồi dốc",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Lane position and blind spots",
+        "body": "Drive in the **centre of your lane**, and choose your lane early. Don't leave lane changes to the last minute.\n\nYour mirrors can't show everything beside you. The areas they miss are your **blind spots**. Set your mirrors to keep them small: frame the rear window in the inside mirror, and just see the edge of your own car in each side mirror.\n\n**To change lanes:**\n\n1. Make sure a lane change is allowed.\n2. Check the inside and outside mirrors.\n3. **Shoulder check** the blind spot on the side you're moving to.\n4. Signal.\n5. Move over when safe, **keeping your speed**.\n6. Turn the signal off.\n\n*Driver's Guide pp. 70–71*"
+      },
+      "sourceHash": "6624f7ca6c42bf51f6a468a76105f450",
+      "title": "Vị trí trong làn và điểm mù",
+      "body": "Lái xe ở **giữa làn của bạn**, và chọn làn từ sớm. Đừng để đến phút cuối mới chuyển làn.\n\nGương của bạn không thể cho thấy mọi thứ bên cạnh xe. Những vùng gương không nhìn thấy được là **điểm mù (blind spots)**. Hãy chỉnh gương để thu nhỏ các vùng này: gương trong xe nhìn trọn kính hậu, và mỗi gương bên chỉ thấy vừa mép xe của bạn.\n\n**Để chuyển làn:**\n\n1. Đảm bảo được phép chuyển làn.\n2. Kiểm tra gương trong và gương ngoài.\n3. **Quay đầu kiểm tra (shoulder check)** điểm mù ở phía bạn sắp chuyển sang.\n4. Bật đèn xi nhan.\n5. Chuyển sang khi an toàn, **giữ nguyên tốc độ**.\n6. Tắt đèn xi nhan.\n\n*Driver's Guide tr. 70–71*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Passing on multi-lane highways",
+        "body": "- **Slower traffic keeps to the right lane**, unless turning left. The left lane is for passing.\n- **Passing lanes** are extra lanes added on some highways, often in the mountains. **Slower vehicles move into the right lane** so others can pass on the left.\n- Where a passing lane ends, drivers in the right lane merge left, and drivers in the left lane help them in.\n\n*Driver's Guide p. 71*"
+      },
+      "sourceHash": "9162d18c48cf29708853ca4ddb00f3b7",
+      "title": "Vượt xe trên đường cao tốc nhiều làn",
+      "body": "- **Xe chạy chậm hơn đi ở làn bên phải**, trừ khi rẽ trái. Làn bên trái dùng để vượt.\n- **Làn vượt (passing lanes)** là các làn thêm vào trên một số đường cao tốc, thường ở vùng núi. **Xe chạy chậm hơn chuyển sang làn phải** để xe khác vượt bên trái.\n- Ở chỗ làn vượt kết thúc, tài xế ở làn phải nhập sang trái, và tài xế ở làn trái giúp họ nhập vào.\n\n*Driver's Guide tr. 71*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Passing on a two-lane highway",
+        "body": "Passing into the oncoming lane can cause **head-on collisions**. Pass only where it's legal, when it's necessary, and with extreme care.\n\n1. Keep a safe following distance behind the vehicle you want to pass.\n2. Check that there's no oncoming traffic for a safe distance, and check your mirrors.\n3. **Shoulder check left**, in case someone is passing you.\n4. Signal left, then pass. **You may not exceed the speed limit while passing.**\n5. When you can see the passed vehicle in your **inside mirror**, shoulder check right, signal right, and return to your lane.\n6. Turn your signal off.\n\n**Being passed?** Stay in your lane, move to the **right side** of it, and don't speed up.\n\n*Driver's Guide pp. 71–72*"
+      },
+      "sourceHash": "59ce70144e26e49c43f77c7a4684d1b1",
+      "title": "Vượt xe trên đường cao tốc hai làn",
+      "body": "Vượt xe bằng cách đi sang làn ngược chiều có thể gây ra **tai nạn đâm trực diện (head-on collisions)**. Chỉ vượt ở nơi được phép, khi thật cần thiết, và hết sức cẩn thận.\n\n1. Giữ khoảng cách an toàn phía sau xe bạn muốn vượt.\n2. Kiểm tra không có xe ngược chiều trong một khoảng cách an toàn, và kiểm tra gương.\n3. **Quay đầu kiểm tra bên trái**, phòng khi có xe đang vượt bạn.\n4. Bật xi nhan trái, rồi vượt. **Bạn không được chạy quá giới hạn tốc độ khi vượt.**\n5. Khi bạn thấy xe vừa được vượt trong **gương trong xe**, quay đầu kiểm tra bên phải, bật xi nhan phải, và trở về làn của mình.\n6. Tắt đèn xi nhan.\n\n**Đang bị vượt?** Giữ nguyên làn, đi sát về **phía bên phải** của làn, và không tăng tốc.\n\n*Driver's Guide tr. 71–72*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "When passing is illegal",
+        "body": "**Do not pass when:**\n\n- oncoming vehicles are too close. If in doubt, don't pass.\n- a **solid yellow line** is on your side\n- a sign marks a **no-passing zone**\n- you're in a **school or playground zone** while it's in effect\n- a vehicle has stopped for a **pedestrian** at a crosswalk\n- a **school bus** has its **red lights flashing** and stop arm out\n- you're on a **curve** of a two-lane highway\n- you're near the **top of a hill** and can't see what's ahead\n\nDon't use the **shoulder** to pass, or to help someone pass you.\n\n*Driver's Guide pp. 72–76*"
+      },
+      "sourceHash": "229669e102be29f4c575ae6f601ce6d4",
+      "title": "Khi nào vượt xe là vi phạm",
+      "body": "**Không được vượt khi:**\n\n- xe ngược chiều ở quá gần. Nếu bạn không chắc chắn, đừng vượt.\n- có **vạch vàng liền** ở phía bạn\n- có biển báo **khu vực cấm vượt (no-passing zone)**\n- bạn đang ở trong **khu vực trường học hoặc sân chơi** trong thời gian áp dụng\n- có xe đã dừng lại cho **người đi bộ** ở lối qua đường\n- **xe buýt trường học** đang **nhấp nháy đèn đỏ** và đưa tay biển dừng ra\n- bạn đang ở **khúc cua** trên đường cao tốc hai làn\n- bạn đang ở gần **đỉnh dốc** và không thấy được phía trước\n\nKhông được dùng **lề đường (shoulder)** để vượt, hoặc để giúp người khác vượt bạn.\n\n*Driver's Guide tr. 72–76*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "The emergency stopping lane",
+        "body": "The shoulder of a primary highway, between the edge of the road and the first travel lane, is the **emergency stopping lane**. Use it only to stop in an emergency or when your vehicle has a problem.\n\n- **Never drive** in it.\n- **Never pass**, or help another vehicle pass you, by using it.\n- If you miss an exit, **don't stop or reverse** on the highway or the shoulder.\n\n*Driver's Guide pp. 72–74*"
+      },
+      "sourceHash": "268bd53a3ce56e5dfa459a1c8bbb8579",
+      "title": "Làn dừng khẩn cấp",
+      "body": "Lề đường của đường cao tốc chính, nằm giữa mép đường và làn xe chạy đầu tiên, là **làn dừng khẩn cấp (emergency stopping lane)**. Chỉ dùng làn này để dừng khi khẩn cấp hoặc khi xe của bạn gặp sự cố.\n\n- **Không bao giờ chạy xe** trong làn này.\n- **Không bao giờ vượt**, hoặc giúp xe khác vượt bạn, bằng cách dùng làn này.\n- Nếu bạn lỡ lối ra, **không được dừng hoặc lùi xe** trên đường cao tốc hoặc trên lề đường.\n\n*Driver's Guide tr. 72–74*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Merging onto a highway",
+        "body": "**Neither the merging driver nor the drivers already on the highway have the right-of-way.** Merging is a **shared responsibility**.\n\n- Use the **acceleration lane** to reach the speed of highway traffic.\n- Check traffic as soon as you can see the highway. Pick a gap and adjust your speed to it.\n- Signal **before or in** the acceleration lane, and keep shoulder checking.\n- Move over only **after the solid white line** ends, matching the speed of traffic.\n- **Don't slow down abruptly or stop.** Drivers behind you expect you to keep moving.\n\n**Already on the highway?** If it's safe, **move left** to leave the right lane for merging traffic.\n\n*Driver's Guide p. 73*"
+      },
+      "sourceHash": "267be0421b43f5bc8daf9c4237ef3b66",
+      "title": "Nhập vào đường cao tốc",
+      "body": "**Cả tài xế đang nhập làn lẫn tài xế đã ở trên đường cao tốc đều không có quyền ưu tiên.** Nhập làn là **trách nhiệm chung**.\n\n- Dùng **làn tăng tốc (acceleration lane)** để đạt tốc độ của dòng xe trên đường cao tốc.\n- Quan sát dòng xe ngay khi bạn nhìn thấy đường cao tốc. Chọn một khoảng trống và điều chỉnh tốc độ theo khoảng trống đó.\n- Bật xi nhan **trước hoặc khi đang ở trong** làn tăng tốc, và liên tục quay đầu kiểm tra.\n- Chỉ chuyển sang **sau khi vạch trắng liền** kết thúc, với tốc độ bằng dòng xe.\n- **Không giảm tốc đột ngột hoặc dừng lại.** Tài xế phía sau mong bạn tiếp tục di chuyển.\n\n**Bạn đã ở trên đường cao tốc?** Nếu an toàn, hãy **chuyển sang trái** để nhường làn phải cho xe đang nhập vào.\n\n*Driver's Guide tr. 73*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Exiting and weave zones",
+        "body": "**To exit:**\n\n- Be in the correct lane well before your exit, and signal early.\n- Move into the **deceleration lane** and do most of your slowing there. Some are short, so you may need to start slowing before it.\n- **Missed your exit?** Keep going to the next one. Never stop or reverse.\n\n**Weave zones:** on some interchanges, the entrance and the exit share the **same lane**. Drivers slowing to exit cross paths with drivers speeding up to enter. Control your speed, time your lane change carefully, and cooperate.\n\n*Driver's Guide p. 74*"
+      },
+      "sourceHash": "06cde6b1f3304471514f408491a2e2de",
+      "title": "Ra khỏi đường cao tốc và vùng đan xen",
+      "body": "**Để ra khỏi đường cao tốc:**\n\n- Vào đúng làn từ sớm trước lối ra, và bật xi nhan sớm.\n- Chuyển vào **làn giảm tốc (deceleration lane)** và giảm phần lớn tốc độ ở đó. Một số làn giảm tốc khá ngắn, nên bạn có thể cần bắt đầu giảm tốc trước khi vào.\n- **Lỡ lối ra?** Tiếp tục đi đến lối ra kế tiếp. Không bao giờ dừng hoặc lùi xe.\n\n**Vùng đan xen (weave zones):** ở một số nút giao, lối vào và lối ra dùng chung **một làn**. Tài xế đang giảm tốc để ra cắt ngang đường đi của tài xế đang tăng tốc để vào. Hãy kiểm soát tốc độ, chọn thời điểm chuyển làn cẩn thận, và phối hợp với nhau.\n\n*Driver's Guide tr. 74*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Curves and hills",
+        "body": "**Curves:**\n\n- **Slow down before** the curve, not in it. Stay centred in your lane.\n- Look well ahead, around the curve.\n- If you skid in a curve, **stay off both the brake and the gas**. Look and steer where you want to go, with small corrections.\n\n**Hills:**\n\n- Going up, move to the **right side of your lane** near the top, in case an oncoming vehicle has crossed the centre line.\n- Don't pass near the top of a hill.\n- Going down a steep hill, adjust your speed, since stopping takes longer. In a manual vehicle, shift to a **lower gear** so your brakes don't overheat.\n\n*Driver's Guide pp. 75–76*"
+      },
+      "sourceHash": "f6790f8a5ec715752f9d39310d60062b",
+      "title": "Khúc cua và đồi dốc",
+      "body": "**Khúc cua:**\n\n- **Giảm tốc trước** khúc cua, thay vì trong khúc cua. Giữ xe ở giữa làn.\n- Nhìn xa về phía trước, theo hướng khúc cua.\n- Nếu xe bị trượt trong khúc cua, **không đạp phanh và không đạp ga**. Nhìn và đánh lái về hướng bạn muốn đi, với những điều chỉnh nhỏ.\n\n**Đồi dốc:**\n\n- Khi lên dốc, gần đến đỉnh hãy đi về **phía bên phải của làn**, phòng khi có xe ngược chiều lấn qua vạch giữa.\n- Không vượt xe gần đỉnh dốc.\n- Khi xuống dốc cao, hãy điều chỉnh tốc độ, vì dừng xe sẽ mất nhiều thời gian hơn. Với xe số sàn, chuyển sang **số thấp hơn** để phanh không bị quá nóng.\n\n*Driver's Guide tr. 75–76*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Quick reference",
+        "body": "| Situation | Rule |\n| --- | --- |\n| Multi-lane highway | Slower traffic keeps **right** |\n| Passing lane | **Slower** vehicles move right |\n| While passing | Never exceed the **speed limit** |\n| Return after passing | When the passed vehicle shows in your **inside mirror** |\n| Being passed | Stay in your lane, move **right** within it |\n| Merging | **Shared** responsibility, nobody has right-of-way |\n| Missed exit | Continue to the **next** exit |\n| Shoulder | **Emergencies only**, never for driving or passing |"
+      },
+      "sourceHash": "a26f3b7daf1bfe24b194007ea3d09a8a",
+      "title": "Tra cứu nhanh",
+      "body": "| Tình huống | Quy tắc |\n| --- | --- |\n| Đường cao tốc nhiều làn | Xe chạy chậm hơn đi bên **phải** |\n| Làn vượt | Xe **chậm hơn** chuyển sang phải |\n| Khi đang vượt | Không bao giờ vượt quá **giới hạn tốc độ** |\n| Trở về làn sau khi vượt | Khi thấy xe vừa vượt trong **gương trong xe** |\n| Đang bị vượt | Giữ nguyên làn, đi sát về bên **phải** trong làn |\n| Nhập làn | Trách nhiệm **chung**, không ai có quyền ưu tiên |\n| Lỡ lối ra | Đi tiếp đến lối ra **kế tiếp** |\n| Lề đường | **Chỉ khi khẩn cấp**, không bao giờ để chạy xe hoặc vượt |",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Don't mix these up",
+        "body": "- **Acceleration lane vs deceleration lane:** you speed up in the acceleration lane to join traffic. You slow down in the deceleration lane after leaving it.\n- **Merging is shared:** the merging driver doesn't have to stop, and highway drivers should make room when they can.\n- **Passing lanes:** the **slower** vehicle moves right. The faster one passes on the left.\n- **No speeding to pass.** If you can't pass within the limit, don't pass.\n- **School bus: amber vs red lights.** Amber means be ready to stop (passing is possible, with caution). Red with the stop arm out means stop, no passing.\n- **Missed exit:** never reverse or stop on the highway or the shoulder."
+      },
+      "sourceHash": "e3fc8f359c62ac3f7db259221ac22395",
+      "title": "Đừng nhầm lẫn những điều này",
+      "body": "- **Làn tăng tốc và làn giảm tốc:** bạn tăng tốc trong làn tăng tốc để nhập vào dòng xe. Bạn giảm tốc trong làn giảm tốc sau khi rời khỏi dòng xe.\n- **Nhập làn là trách nhiệm chung:** tài xế đang nhập làn không cần phải dừng, và tài xế trên đường cao tốc nên nhường chỗ khi có thể.\n- **Làn vượt:** xe **chậm hơn** chuyển sang phải. Xe nhanh hơn vượt bên trái.\n- **Không được chạy quá tốc độ để vượt.** Nếu không thể vượt trong giới hạn tốc độ, đừng vượt.\n- **Xe buýt trường học: đèn vàng cam và đèn đỏ.** Đèn vàng cam nghĩa là sẵn sàng dừng lại (vẫn có thể vượt, nhưng phải cẩn thận). Đèn đỏ cùng tay biển dừng đưa ra nghĩa là phải dừng, không được vượt.\n- **Lỡ lối ra:** không bao giờ lùi xe hoặc dừng trên đường cao tốc hoặc lề đường.",
+      "status": "approved"
+    }
+  ]
+}

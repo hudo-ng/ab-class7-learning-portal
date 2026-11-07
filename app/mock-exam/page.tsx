@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { getTopicProgress } from "@/db/queries/progress";
 import { MASTERY_CORRECT, MASTERY_WINDOW } from "@/lib/exam-blueprint";
 import Link from "next/link";
-import { getTranslations } from "next-intl/server";
+import { getLocale, getTranslations } from "next-intl/server";
 
 export default async function MockExamPage() {
   const session = await getServerSession(authOptions);
@@ -38,7 +38,10 @@ export default async function MockExamPage() {
   }
 
   if (session.user.role !== "ADMIN") {
-    const progress = await getTopicProgress(session.user.id);
+    const progress = await getTopicProgress(
+      session.user.id,
+      await getLocale(),
+    );
     const done = progress.filter((topic) => topic.complete).length;
     if (done < progress.length) {
       return (

@@ -66,7 +66,7 @@
     "goToLogin": "Đến trang đăng nhập ngay",
     "errors": {
       "passwordMismatch": "Mật khẩu không khớp",
-      "required": "Vui lòng điền đầy đủ các trường",
+      "required": "Vui lòng điền đầy đủ các thông tin bắt buộc",
       "passwordTooShort": "Mật khẩu phải có ít nhất {min} ký tự",
       "emailTaken": "Email này đã được sử dụng"
     }
@@ -76,7 +76,8 @@
     "subtitle": "Học các chủ đề quan trọng bạn cần để vượt qua bài thi lý thuyết Class 7 của Alberta.",
     "startLearning": "Bắt đầu học",
     "topicSubtitle": "Nắm vững các khái niệm chính trước khi luyện câu hỏi thi.",
-    "practiceTopic": "Luyện tập chủ đề này →"
+    "practiceTopic": "Luyện tập chủ đề này →",
+    "unofficialTranslation": "Bản dịch không chính thức. Bản tiếng Anh là bản gốc."
   },
   "Practice": {
     "title": "Luyện tập",
@@ -85,8 +86,8 @@
     "complete": "✓ Hoàn thành",
     "progress": "Đúng {correct} trong {answered} / {window} câu gần nhất",
     "questionOf": "Câu {current} / {total}",
-    "correct": "Chính xác! Làm tốt lắm.",
-    "incorrect": "Sai rồi. Đáp án đúng được tô sáng ở trên.",
+    "correct": "Chính xác!.",
+    "incorrect": "Không chính xác. Đáp án đúng được tô màu xanh.",
     "explanation": "Giải thích:",
     "next": "Câu tiếp theo",
     "finish": "Hoàn thành luyện tập",

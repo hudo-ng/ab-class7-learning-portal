@@ -1,0 +1,130 @@
+{
+  "topic": {
+    "en": "Road Signs",
+    "sourceHash": "0237022adc5e0087367ef5c933a8edc8",
+    "title": "Biển báo giao thông",
+    "status": "approved"
+  },
+  "blocks": [
+    {
+      "en": {
+        "title": "What you'll learn",
+        "body": "**In this topic you'll learn:**\n\n- How to read a sign's **shape and colour** before you can read its words\n- The regulatory signs you must obey, and the warning signs that tell you what's ahead\n- Default speed limits, and the rules for **school and playground zones**\n- Construction zones and other special signs\n\nSign questions make up a large part of the knowledge test. Learn the shapes and colours first, and many signs become easy to guess."
+      },
+      "sourceHash": "627b8c8dffa04056799482c264eb7ea4",
+      "title": "Bạn sẽ học được gì",
+      "body": "**Trong chủ đề này, bạn sẽ học:**\n\n- Cách nhận biết biển báo qua **hình dạng và màu sắc** trước cả khi đọc được chữ trên biển\n- Các biển báo hiệu lệnh bạn phải tuân theo, và các biển cảnh báo cho biết điều gì đang ở phía trước\n- Giới hạn tốc độ mặc định, và các quy định về **khu vực trường học và sân chơi**\n- Khu vực công trường và các biển báo đặc biệt khác\n\nCâu hỏi về biển báo chiếm một phần lớn trong bài thi lý thuyết. Hãy học hình dạng và màu sắc trước, khi đó nhiều biển báo sẽ trở nên dễ đoán.",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Shape and colour tell you the type",
+        "body": "| Shape / colour | Meaning |\n| --- | --- |\n| Red **octagon** | Stop |\n| Red and white **upside-down triangle** | Yield |\n| **Red circle with slash** on white | That action is **not allowed** |\n| **Green circle** on white | That action **is allowed** |\n| White **rectangle**, black text | Regulation you must obey (e.g. speed limit) |\n| Yellow **diamond** | **Warning** of a hazard ahead |\n| Orange **diamond** | **Construction** zone |\n| Fluorescent yellow-green **pentagon** | **School** zone or area |\n| Black **square**, white symbol | **Lane control**: where each lane may go |\n| Green **rectangle** | Directions and distances |\n| Blue **square** | Services: fuel, food, lodging |\n\n*Driver's Guide pp. 25–26*"
+      },
+      "sourceHash": "5aa5e9c8712d75ae2b667ab437cc4e83",
+      "title": "Hình dạng và màu sắc cho biết loại biển",
+      "body": "| Hình dạng / màu sắc | Ý nghĩa |\n| --- | --- |\n| **Hình bát giác** màu đỏ | Dừng lại (Stop) |\n| **Hình tam giác ngược** màu đỏ trắng | Nhường đường (Yield) |\n| **Vòng tròn đỏ có gạch chéo** trên nền trắng | Hành động đó **không được phép** |\n| **Vòng tròn xanh lá** trên nền trắng | Hành động đó **được phép** |\n| **Hình chữ nhật** màu trắng, chữ đen | Quy định bạn phải tuân theo (ví dụ: giới hạn tốc độ) |\n| **Hình thoi** màu vàng | **Cảnh báo** nguy hiểm phía trước |\n| **Hình thoi** màu cam | Khu vực **công trường** |\n| **Hình ngũ giác** màu vàng-xanh huỳnh quang | Khu vực **trường học** |\n| **Hình vuông** màu đen, ký hiệu trắng | **Điều khiển làn đường**: mỗi làn được đi hướng nào |\n| **Hình chữ nhật** màu xanh lá | Chỉ đường và khoảng cách |\n| **Hình vuông** màu xanh dương | Dịch vụ: xăng, đồ ăn, chỗ nghỉ |\n\n*Driver's Guide tr. 25–26*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Regulatory signs you must obey",
+        "body": "- **Stop:** come to a **complete stop** and go only when it's safe.\n- **Yield:** let traffic that is **not facing the sign**, and all pedestrians, go first.\n- **Do not enter** (red circle, white bar) and **Wrong way**: you are about to drive against traffic.\n- **Railway crossing** (white X with red border): **yield to trains**.\n- **Do not stop on tracks.**\n- **One way** (arrow): travel only in the direction of the arrow.\n- **Two-way traffic:** traffic goes both directions ahead.\n- **Divider ahead, keep right.**\n\n*Driver's Guide pp. 26–27*"
+      },
+      "sourceHash": "81bf4f30627776b60ae3b546d9b688ad",
+      "title": "Biển báo hiệu lệnh bạn phải tuân theo",
+      "body": "- **Dừng lại (Stop):** **dừng hẳn** và chỉ đi tiếp khi an toàn.\n- **Nhường đường (Yield):** để cho xe **không đối diện với biển báo**, và tất cả người đi bộ, đi trước.\n- **Cấm đi vào (Do not enter)** (vòng tròn đỏ, vạch trắng) và **Đi sai chiều (Wrong way)**: bạn sắp chạy ngược chiều xe.\n- **Đường sắt giao cắt (Railway crossing)** (chữ X trắng viền đỏ): **nhường đường cho tàu hỏa**.\n- **Không dừng trên đường ray (Do not stop on tracks).**\n- **Đường một chiều (One way)** (mũi tên): chỉ được đi theo hướng mũi tên.\n- **Đường hai chiều (Two-way traffic):** phía trước có xe đi cả hai chiều.\n- **Phía trước có dải phân cách, đi bên phải (Divider ahead, keep right).**\n\n*Driver's Guide tr. 26–27*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Permitted and prohibited actions",
+        "body": "**Green circle = allowed.** Examples: turn left only, turn right only, straight only, passing permitted, dangerous goods route, trucks, bicycles, snowmobiles.\n\n**Red circle with slash = not allowed.** Examples: no left turn, no right turn, **no U-turn**, **do not pass**, do not pass bicycles, no pedestrians, no trucks, no bicycles, no dangerous goods.\n\n**Parking signs:** a red circle over a **P** means no parking. A red circle over a **stop sign** means no stopping. An **arrow** shows which side of the sign the rule applies to, and times and days show when it applies.\n\n*Driver's Guide pp. 29–30*"
+      },
+      "sourceHash": "681222734225d13b42f0e99e7a2f9fab",
+      "title": "Hành động được phép và bị cấm",
+      "body": "**Vòng tròn xanh lá = được phép.** Ví dụ: chỉ được rẽ trái, chỉ được rẽ phải, chỉ được đi thẳng, được phép vượt, tuyến đường cho hàng nguy hiểm, xe tải, xe đạp, xe trượt tuyết (snowmobile).\n\n**Vòng tròn đỏ có gạch chéo = không được phép.** Ví dụ: cấm rẽ trái, cấm rẽ phải, **cấm quay đầu (no U-turn)**, **cấm vượt (do not pass)**, cấm vượt xe đạp, cấm người đi bộ, cấm xe tải, cấm xe đạp, cấm hàng nguy hiểm.\n\n**Biển báo đậu xe:** vòng tròn đỏ trên chữ **P** nghĩa là cấm đậu xe. Vòng tròn đỏ trên **biển báo dừng** nghĩa là cấm dừng xe. **Mũi tên** cho biết quy định áp dụng ở phía nào của biển, còn giờ và ngày cho biết khi nào quy định có hiệu lực.\n\n*Driver's Guide tr. 29–30*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Lane control signs",
+        "body": "White arrows on a **black square** show where each lane must go: straight only, left turn only, straight or right, and so on.\n\n- **Dual turn** signs mean two lanes may turn together. **Stay in your lane** during and after the turn.\n- **Reserved lane** signs show a white **diamond** plus the vehicles allowed (buses, taxis, bicycles). Some reserved lanes apply at all times; others show the **hours and days** when they apply.\n\n*Driver's Guide p. 28*"
+      },
+      "sourceHash": "dd9b5dee043995f71a3a0cddf4137ae2",
+      "title": "Biển báo điều khiển làn đường",
+      "body": "Mũi tên trắng trên **hình vuông màu đen** cho biết mỗi làn phải đi hướng nào: chỉ đi thẳng, chỉ rẽ trái, đi thẳng hoặc rẽ phải, v.v.\n\n- Biển **rẽ hai làn (dual turn)** nghĩa là hai làn có thể rẽ cùng lúc. **Giữ nguyên làn của bạn** trong và sau khi rẽ.\n- Biển **làn dành riêng (reserved lane)** có **hình thoi** màu trắng cùng các loại xe được phép (xe buýt, taxi, xe đạp). Một số làn dành riêng áp dụng mọi lúc; số khác ghi rõ **giờ và ngày** áp dụng.\n\n*Driver's Guide tr. 28*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Speed limits",
+        "body": "A speed limit is the **maximum speed when conditions are ideal**. Driving at a speed that is unsafe for the conditions is illegal, even if you're under the limit.\n\n**Unless a sign says otherwise:**\n\n| Road | Limit |\n| --- | --- |\n| Provincial highway **outside** an urban area | **100 km/h** |\n| Provincial highway **inside** a city | **80 km/h** |\n| Other roads **outside** an urban area | **80 km/h** |\n| Roads **inside** an urban area | **50 km/h** |\n\nA **provincial highway** has a numbered route marker (1, 2, or 3 digits). Municipalities may set different limits, so always follow the posted sign.\n\n*Driver's Guide p. 27*"
+      },
+      "sourceHash": "7cb76c61618b06afb077b9097c5640c4",
+      "title": "Giới hạn tốc độ",
+      "body": "Giới hạn tốc độ là **tốc độ tối đa khi điều kiện lý tưởng**. Chạy xe với tốc độ không an toàn so với điều kiện thực tế là vi phạm pháp luật, ngay cả khi bạn chạy dưới giới hạn.\n\n**Trừ khi có biển báo khác:**\n\n| Đường | Giới hạn |\n| --- | --- |\n| Quốc lộ tỉnh (provincial highway) **bên ngoài** khu đô thị | **100 km/h** |\n| Quốc lộ tỉnh **bên trong** thành phố | **80 km/h** |\n| Các đường khác **bên ngoài** khu đô thị | **80 km/h** |\n| Đường **bên trong** khu đô thị | **50 km/h** |\n\n**Quốc lộ tỉnh** có biển số hiệu tuyến đường (1, 2 hoặc 3 chữ số). Chính quyền địa phương có thể đặt giới hạn khác, vì vậy luôn tuân theo biển báo được cắm.\n\n*Driver's Guide tr. 27*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "School and playground zones",
+        "body": "|  | **School zone** | **Playground zone** |\n| --- | --- | --- |\n| Sign | School sign **with** a speed tab | Playground sign **with** a speed tab |\n| Speed | **30 km/h** unless posted | **30 km/h** unless posted |\n| When | **School days**: 8:00–9:30 a.m., 11:30 a.m.–1:30 p.m., 3:00–4:30 p.m. | **Every day**: 8:30 a.m. to **1 hour after sunset** |\n| Passing | **Not allowed** while in effect | **Not allowed** while in effect |\n\n- The 30 km/h limit applies in **both urban and rural** zones.\n- A zone ends at a sign showing a **higher speed** or **\"end\"** of the zone.\n- A school or playground sign **without** a speed tab marks an **area**, not a zone. There is no special speed limit, but drive with extra caution.\n- Towns may set different hours. If so, they are posted under the sign.\n\n*Driver's Guide pp. 30–32*"
+      },
+      "sourceHash": "c07547395f4b50e5ec946a611767b347",
+      "title": "Khu vực trường học và sân chơi",
+      "body": "|  | **Khu vực trường học (school zone)** | **Khu vực sân chơi (playground zone)** |\n| --- | --- | --- |\n| Biển báo | Biển trường học **có** bảng tốc độ phía dưới | Biển sân chơi **có** bảng tốc độ phía dưới |\n| Tốc độ | **30 km/h** trừ khi có biển khác | **30 km/h** trừ khi có biển khác |\n| Thời gian | **Ngày đi học**: 8:00–9:30 sáng, 11:30 sáng–1:30 chiều, 3:00–4:30 chiều | **Mọi ngày**: 8:30 sáng đến **1 giờ sau khi mặt trời lặn** |\n| Vượt xe | **Không được phép** trong thời gian áp dụng | **Không được phép** trong thời gian áp dụng |\n\n- Giới hạn 30 km/h áp dụng ở cả khu vực **đô thị và nông thôn**.\n- Khu vực kết thúc tại biển báo có **tốc độ cao hơn** hoặc biển **\"kết thúc\" (end)** khu vực.\n- Biển trường học hoặc sân chơi **không có** bảng tốc độ chỉ đánh dấu một **vùng (area)**, không phải khu vực (zone). Không có giới hạn tốc độ đặc biệt, nhưng hãy lái xe đặc biệt thận trọng.\n- Các thị trấn có thể đặt giờ khác. Nếu vậy, giờ sẽ được ghi bên dưới biển.\n\n*Driver's Guide tr. 30–32*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Warning signs",
+        "body": "Yellow diamonds warn you **before** you reach a hazard, so you have time to react. They fall into groups:\n\n- **Regulation ahead:** stop ahead, yield ahead, traffic signals ahead, **school bus stop ahead**\n- **Curves:** sharp turn, curve, winding road. A yellow speed tab underneath is the **recommended** speed in ideal conditions.\n- **Crossings:** pedestrians, school crosswalk (yellow-green), animals, bicycles, snowmobiles\n- **Intersections:** hidden road, T and Y intersections, railway crossing, roundabout, and **dead end** (yellow-and-black checkerboard)\n- **Roads joining:** **merging traffic** (roads join and share the lane) vs **free flow** (an added lane, no merge needed)\n- **Narrowing:** road narrows, lane ends, **divided highway begins or ends**\n- **Road conditions:** hill, **bump**, pavement ends, slippery when wet, bridge ices, rumble strips, falling rock\n- **Hazard markers** (diagonal stripes) show an object beside the road. **Chevrons** show a sharp bend.\n\n*Driver's Guide pp. 32–35*"
+      },
+      "sourceHash": "15a66511e701664675b3e48b3f7fb4fa",
+      "title": "Biển cảnh báo",
+      "body": "Biển hình thoi màu vàng cảnh báo bạn **trước khi** đến chỗ nguy hiểm, để bạn có thời gian phản ứng. Chúng chia thành các nhóm:\n\n- **Quy định phía trước:** phía trước có biển dừng, phía trước có biển nhường đường, phía trước có đèn giao thông, **phía trước có trạm dừng xe buýt trường học**\n- **Khúc cua:** rẽ gắt, khúc cua, đường quanh co. Bảng tốc độ màu vàng bên dưới là tốc độ **khuyến nghị** khi điều kiện lý tưởng.\n- **Chỗ băng qua đường:** người đi bộ, lối qua đường trường học (màu vàng-xanh), thú vật, xe đạp, xe trượt tuyết\n- **Giao lộ:** đường khuất, giao lộ chữ T và chữ Y, đường sắt giao cắt, vòng xuyến (roundabout), và **đường cụt (dead end)** (ô bàn cờ vàng đen)\n- **Đường nhập vào:** **xe nhập làn (merging traffic)** (hai đường nhập lại và dùng chung làn) và **làn thêm (free flow)** (có thêm một làn, không cần nhập làn)\n- **Đường hẹp lại:** đường hẹp, hết làn, **bắt đầu hoặc kết thúc đường có dải phân cách**\n- **Tình trạng mặt đường:** dốc, **gờ nổi (bump)**, hết đường nhựa, trơn khi ướt, cầu đóng băng, gờ rung (rumble strips), đá lở\n- **Biển đánh dấu chướng ngại (hazard markers)** (sọc chéo) cho biết có vật cản bên đường. **Biển mũi tên chữ V (chevrons)** cho biết có khúc cua gắt.\n\n*Driver's Guide tr. 32–35*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Construction zones",
+        "body": "Construction signs are **orange**.\n\n- The construction zone speed limit applies **at all times**, even when no one is working. Bumps, fresh oil, and loose gravel can still be there.\n- When **workers are present**, speeding fines are **doubled**.\n- Obey the **flag person's** signals, and be ready to slow down or stop.\n\nCommon signs: people working, flag person ahead, survey crew, **uneven pavement**, detour, and end of construction.\n\n*Driver's Guide pp. 37, 86*"
+      },
+      "sourceHash": "3eb710609e2927245198c2463f9f7008",
+      "title": "Khu vực công trường",
+      "body": "Biển báo công trường có màu **cam**.\n\n- Giới hạn tốc độ trong khu vực công trường áp dụng **mọi lúc**, ngay cả khi không có ai làm việc. Mặt đường vẫn có thể có gờ, nhựa mới hoặc sỏi rời.\n- Khi **có công nhân đang làm việc**, tiền phạt chạy quá tốc độ được **nhân đôi**.\n- Tuân theo hiệu lệnh của **người cầm cờ (flag person)**, và sẵn sàng giảm tốc độ hoặc dừng lại.\n\nCác biển thường gặp: có người đang làm việc, phía trước có người cầm cờ, đội khảo sát, **mặt đường không bằng phẳng (uneven pavement)**, đường vòng (detour), và hết khu vực công trường.\n\n*Driver's Guide tr. 37, 86*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Information and other signs",
+        "body": "- **Green** guide signs give directions and distances. **Route markers** show highway numbers (Trans-Canada, Yellowhead, provincial highways).\n- **Blue** service signs point to fuel, food, lodging, campgrounds, and EV charging. **Green** service signs point to the hospital (**H**), airport, and parking.\n- **Slow moving vehicle** (orange triangle, red border): shown on the back of vehicles that travel **under 40 km/h**, such as tractors and construction equipment. Be ready to slow down.\n- **Wide load:** an oversized load. Pass with care.\n- **Disabled parking:** only vehicles with a valid **placard or licence plate** may park or stop there.\n\n*Driver's Guide pp. 32, 36–37*"
+      },
+      "sourceHash": "275448d489de52bc80d0a813e389ce13",
+      "title": "Biển thông tin và các biển khác",
+      "body": "- Biển chỉ dẫn màu **xanh lá** cho biết hướng đi và khoảng cách. **Biển số hiệu tuyến đường (route markers)** cho biết số của đường cao tốc (Trans-Canada, Yellowhead, quốc lộ tỉnh).\n- Biển dịch vụ màu **xanh dương** chỉ đến trạm xăng, đồ ăn, chỗ nghỉ, khu cắm trại và trạm sạc xe điện. Biển dịch vụ màu **xanh lá** chỉ đến bệnh viện (**H**), sân bay và bãi đậu xe.\n- **Xe chạy chậm (slow moving vehicle)** (tam giác màu cam, viền đỏ): gắn phía sau những xe chạy **dưới 40 km/h**, như máy kéo và thiết bị xây dựng. Hãy sẵn sàng giảm tốc độ.\n- **Hàng quá khổ (wide load):** xe chở hàng quá khổ. Vượt một cách cẩn thận.\n- **Chỗ đậu xe cho người khuyết tật:** chỉ những xe có **thẻ hoặc biển số xe** hợp lệ mới được đậu hoặc dừng ở đó.\n\n*Driver's Guide tr. 32, 36–37*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Key numbers",
+        "body": "| What | Number |\n| --- | --- |\n| School and playground zone speed | **30 km/h** (unless posted) |\n| School zone hours (school days) | **8:00–9:30**, **11:30–1:30**, **3:00–4:30** |\n| Playground zone hours (every day) | **8:30 a.m.** to **1 hour after sunset** |\n| Provincial highway outside an urban area | **100 km/h** |\n| Provincial highway in a city / other rural roads | **80 km/h** |\n| Urban roads | **50 km/h** |\n| Slow moving vehicle sign | vehicles under **40 km/h** |\n| Construction zone fines | **doubled** when workers are present |"
+      },
+      "sourceHash": "232e3aa50037039fbc6ad114964fd2c8",
+      "title": "Các con số quan trọng",
+      "body": "| Nội dung | Con số |\n| --- | --- |\n| Tốc độ khu vực trường học và sân chơi | **30 km/h** (trừ khi có biển khác) |\n| Giờ khu vực trường học (ngày đi học) | **8:00–9:30**, **11:30–1:30**, **3:00–4:30** |\n| Giờ khu vực sân chơi (mọi ngày) | **8:30 sáng** đến **1 giờ sau khi mặt trời lặn** |\n| Quốc lộ tỉnh bên ngoài khu đô thị | **100 km/h** |\n| Quốc lộ tỉnh trong thành phố / các đường nông thôn khác | **80 km/h** |\n| Đường trong đô thị | **50 km/h** |\n| Biển xe chạy chậm | xe chạy dưới **40 km/h** |\n| Tiền phạt trong khu vực công trường | **nhân đôi** khi có công nhân làm việc |",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Don't mix these up",
+        "body": "- **School zone vs playground zone:** school zones apply on **school days** at set times. Playground zones apply **every day** until an hour after sunset.\n- **Zone vs area:** a speed tab under the sign makes it a **zone** with a 30 km/h limit. No tab means an **area**: use caution, but there is no special limit.\n- **Green circle vs red slash:** green means allowed, red slash means not allowed.\n- **Merge vs free flow:** at a merge, two roads join and drivers must cooperate. Free flow adds a lane, so nobody has to merge.\n- **Yellow speed tab vs white speed limit:** yellow is a **recommended** speed for a curve. White is the **legal** limit.\n- **Construction speed limits apply at all times.** Workers being present only doubles the fine."
+      },
+      "sourceHash": "3f30bc81d9147cdefd15565ac10fac50",
+      "title": "Đừng nhầm lẫn những điều này",
+      "body": "- **Khu vực trường học và khu vực sân chơi:** khu vực trường học áp dụng vào **ngày đi học** trong các khung giờ cố định. Khu vực sân chơi áp dụng **mọi ngày** cho đến 1 giờ sau khi mặt trời lặn.\n- **Khu vực (zone) và vùng (area):** bảng tốc độ dưới biển báo biến nó thành **khu vực** có giới hạn 30 km/h. Không có bảng tốc độ nghĩa là **vùng**: hãy thận trọng, nhưng không có giới hạn đặc biệt.\n- **Vòng tròn xanh và gạch chéo đỏ:** xanh nghĩa là được phép, gạch chéo đỏ nghĩa là không được phép.\n- **Nhập làn và làn thêm:** khi nhập làn, hai đường nhập lại và tài xế phải phối hợp với nhau. Làn thêm (free flow) có thêm một làn, nên không ai phải nhập làn.\n- **Bảng tốc độ màu vàng và giới hạn tốc độ màu trắng:** màu vàng là tốc độ **khuyến nghị** cho khúc cua. Màu trắng là giới hạn **theo luật**.\n- **Giới hạn tốc độ trong công trường áp dụng mọi lúc.** Có công nhân làm việc chỉ khiến tiền phạt tăng gấp đôi.",
+      "status": "approved"
+    }
+  ]
+}

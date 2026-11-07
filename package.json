@@ -10,6 +10,8 @@
     "db:seed-admin": "tsx ./db/seedAdmin.ts",
     "db:seed-road-signs": "tsx ./db/seedRoadSigns.ts",
     "db:seed-lessons": "tsx ./db/seedLessons.ts",
+    "db:seed-translations": "tsx ./db/seedTranslations.ts",
+    "db:translation-templates": "tsx ./db/scripts/translation-templates.ts",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "lint": "eslint"

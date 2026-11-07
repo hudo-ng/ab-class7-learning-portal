@@ -1,16 +1,16 @@
 import { db } from "@/db/index";
-import { topics, questions, answerAttempts } from "@/db/schema";
+import { questions } from "@/db/schema";
 import { and, eq, sql } from "drizzle-orm";
 import { PRACTICE_SET_SIZE } from "@/lib/exam-blueprint";
+import { getLocalizedTopicBySlug } from "@/db/queries/localized";
 
 export async function getPracticeQuestionsByTopicSlug(
   topicSlug: string,
   userId: string,
+  locale: string,
   limit = PRACTICE_SET_SIZE,
 ) {
-  const topic = await db.query.topics.findFirst({
-    where: eq(topics.slug, topicSlug),
-  });
+  const topic = await getLocalizedTopicBySlug(topicSlug, locale);
   if (!topic) {
     return [];
   }

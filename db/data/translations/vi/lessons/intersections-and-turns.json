@@ -1,0 +1,140 @@
+{
+  "topic": {
+    "en": "Intersections, Right-of-Way & Turns",
+    "sourceHash": "f587aca87fae21286cbc0a691d4b5360",
+    "title": "Giao lộ, quyền ưu tiên & rẽ xe",
+    "status": "approved"
+  },
+  "blocks": [
+    {
+      "en": {
+        "title": "What you'll learn",
+        "body": "**In this topic you'll learn:**\n\n- Who has the right-of-way at stop signs, yield signs, four-way stops, and uncontrolled intersections\n- Where exactly to stop at an intersection\n- How to use single-lane and two-lane roundabouts\n- How to make right turns, left turns, dual turns, and U-turns correctly\n\nIntersections are where most conflicts between road users happen, and they come up often on the test."
+      },
+      "sourceHash": "09611ffc11c66622c43f7afdc19c1d81",
+      "title": "Bạn sẽ học được gì",
+      "body": "**Trong chủ đề này, bạn sẽ học:**\n\n- Ai có quyền ưu tiên ở biển dừng, biển nhường đường, giao lộ dừng bốn hướng và giao lộ không có điều khiển\n- Chính xác phải dừng ở đâu tại giao lộ\n- Cách đi qua vòng xuyến một làn và hai làn\n- Cách rẽ phải, rẽ trái, rẽ hai làn và quay đầu đúng cách\n\nGiao lộ là nơi xảy ra phần lớn xung đột giữa những người tham gia giao thông, và chủ đề này xuất hiện thường xuyên trong bài thi.",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Right-of-way: the basics",
+        "body": "Right-of-way rules decide **who yields** and who goes. They come from signs, signals, and sometimes your position relative to other vehicles.\n\n- **Having the right-of-way doesn't mean you can take it.** You must still do everything you can to avoid a collision. Make sure the other driver is actually yielding before you go.\n- A **peace officer's directions** override signs and signals.\n\n*Driver's Guide p. 58*"
+      },
+      "sourceHash": "dc751e6ff3e6c3d148bd503af4f73b2b",
+      "title": "Quyền ưu tiên: điều cơ bản",
+      "body": "Quy tắc quyền ưu tiên (right-of-way) quyết định **ai phải nhường** và ai được đi. Quy tắc này đến từ biển báo, đèn tín hiệu, và đôi khi từ vị trí của bạn so với các xe khác.\n\n- **Có quyền ưu tiên không có nghĩa là bạn được giành lấy nó.** Bạn vẫn phải làm mọi cách để tránh va chạm. Hãy chắc chắn tài xế kia thực sự đang nhường trước khi bạn đi.\n- **Hiệu lệnh của cảnh sát (peace officer)** có giá trị cao hơn biển báo và đèn tín hiệu.\n\n*Driver's Guide tr. 58*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Stop signs: where to stop",
+        "body": "Come to a **complete stop** at the first of these that applies:\n\n1. **Before the stop line**, if there is one.\n2. If there's no stop line, **before the marked crosswalk**.\n3. If there's neither, **within 3 metres** of the intersecting road, where you won't block pedestrians.\n\nThen yield to pedestrians and traffic, and go only when it's safe.\n\n*Driver's Guide pp. 58–59*"
+      },
+      "sourceHash": "de868997b66d25c9a8d10695a6beb81a",
+      "title": "Biển dừng: dừng ở đâu",
+      "body": "**Dừng hẳn** tại vị trí đầu tiên áp dụng trong các vị trí sau:\n\n1. **Trước vạch dừng**, nếu có.\n2. Nếu không có vạch dừng, **trước lối qua đường có kẻ vạch**.\n3. Nếu không có cả hai, **trong vòng 3 mét** trước đường giao cắt, ở chỗ bạn không chắn lối người đi bộ.\n\nSau đó nhường người đi bộ và các xe khác, và chỉ đi khi an toàn.\n\n*Driver's Guide tr. 58–59*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Four-way stops and yield signs",
+        "body": "**Three- and four-way stops (\"courtesy corners\"):** everyone stops.\n\n- The vehicle that **arrived first goes first**.\n- If two arrive at the **same time**, the vehicle on the **right** goes first.\n\n**Yield signs:** slow down and be ready to stop. Give the right-of-way to traffic that doesn't face a yield sign and to pedestrians. **If no one is coming, you don't have to stop**, but approach slowly enough that you could.\n\n*Driver's Guide p. 59*"
+      },
+      "sourceHash": "f0c5d1e80d69cbc05206023e098696f3",
+      "title": "Giao lộ dừng bốn hướng và biển nhường đường",
+      "body": "**Giao lộ dừng ba và bốn hướng (\"courtesy corners\"):** mọi xe đều phải dừng.\n\n- Xe **đến trước được đi trước**.\n- Nếu hai xe đến **cùng lúc**, xe ở bên **phải** được đi trước.\n\n**Biển nhường đường (Yield):** giảm tốc và sẵn sàng dừng lại. Nhường quyền ưu tiên cho: xe không đối diện biển nhường đường và người đi bộ. **Nếu không có xe đến, bạn không bắt buộc phải dừng**, nhưng hãy đến gần đủ chậm để có thể dừng nếu cần.\n\n*Driver's Guide tr. 59*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Uncontrolled intersections",
+        "body": "At an intersection with **no signs or signals**, you must **yield to the vehicle on your right**. Slow down enough to stop, especially when fences, trees, or parked cars block your view.\n\n- **Uncontrolled T intersections:** the same rule applies, so the driver on the **right** has the right-of-way. Watch out: the driver going straight across the top of the T may wrongly assume they have it.\n- **Left turns:** a driver turning left across oncoming traffic must wait until it's safe.\n- **Parking lots** have uncontrolled intersections, and the same rules apply.\n\n**Leaving an alley, driveway, or parking lot:** stop **before the sidewalk**, stop again before entering the street, and yield to pedestrians.\n\n*Driver's Guide pp. 59–60*"
+      },
+      "sourceHash": "0776f49d1680ea44ed6ba5a250af506d",
+      "title": "Giao lộ không có điều khiển",
+      "body": "Tại giao lộ **không có biển báo hay đèn tín hiệu**, bạn phải **nhường xe ở bên phải của bạn**. Giảm tốc đủ để có thể dừng, nhất là khi hàng rào, cây cối hoặc xe đậu che khuất tầm nhìn.\n\n- **Giao lộ chữ T không có điều khiển:** áp dụng cùng quy tắc, nên tài xế ở bên **phải** có quyền ưu tiên. Hãy cẩn thận: tài xế đang đi thẳng ngang qua đầu chữ T có thể lầm tưởng mình có quyền ưu tiên.\n- **Rẽ trái:** tài xế rẽ trái cắt ngang dòng xe ngược chiều phải chờ đến khi an toàn.\n- **Bãi đậu xe** có các giao lộ không có điều khiển, và áp dụng cùng quy tắc.\n\n**Khi ra khỏi hẻm, lối xe vào nhà hoặc bãi đậu xe:** dừng **trước vỉa hè**, dừng lần nữa trước khi đi vào đường, và nhường người đi bộ.\n\n*Driver's Guide tr. 59–60*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Pedestrians and keeping intersections clear",
+        "body": "- **Every intersection has crosswalks**, marked or not. Yield to pedestrians in them.\n- **Never pass a vehicle that has stopped for a pedestrian.** It may be hiding someone crossing.\n- **Don't enter an intersection unless you can clear it**, including the crosswalk on the far side. Stopping in the middle blocks cross traffic and pedestrians.\n\n*Driver's Guide pp. 60–61*"
+      },
+      "sourceHash": "89939b5acb7f044047c63c034c3d6597",
+      "title": "Người đi bộ và giữ giao lộ thông thoáng",
+      "body": "- **Giao lộ nào cũng có lối qua đường**, dù có kẻ vạch hay không. Hãy nhường người đi bộ trên đó.\n- **Không bao giờ vượt xe đang dừng lại cho người đi bộ.** Chiếc xe đó có thể đang che khuất người đang qua đường.\n- **Không đi vào giao lộ trừ khi bạn có thể đi hết qua giao lộ**, kể cả lối qua đường ở phía bên kia. Dừng giữa giao lộ sẽ chắn đường xe cắt ngang và người đi bộ.\n\n*Driver's Guide tr. 60–61*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Roundabouts and traffic circles",
+        "body": "Traffic always flows **counterclockwise**. **Entering vehicles yield to traffic already in the circle.**\n\n**Single-lane:** to leave at the **first exit**, signal right as you approach. For a later exit, turn on your right signal **after passing the exit before yours**.\n\n**Two-lane:**\n\n| Lane | Use it to | Enter and exit |\n| --- | --- | --- |\n| **Right** | Take the **first exit** | Enter from and exit to the right lane |\n| **Left** | Go **past the first exit** | Enter from and exit to the left lane |\n\n- **Don't change lanes** in the circle. Drivers in the right lane yield to drivers in the left lane.\n- When leaving from the left lane, check for traffic in the right lane.\n- If you can't exit safely, go around again.\n- Watch for pedestrians and cyclists at crosswalks, which are set back from the circle.\n\n*Driver's Guide pp. 61–63*"
+      },
+      "sourceHash": "00bc324cc054cd80954366f6ccc98731",
+      "title": "Vòng xuyến và bùng binh",
+      "body": "Xe luôn chạy theo **ngược chiều kim đồng hồ**. **Xe đi vào phải nhường xe đã ở trong vòng xuyến.**\n\n**Vòng xuyến một làn:** để ra ở **lối ra đầu tiên**, bật xi nhan phải khi đến gần. Với lối ra sau đó, bật xi nhan phải **sau khi đi qua lối ra ngay trước lối ra của bạn**.\n\n**Vòng xuyến hai làn:**\n\n| Làn | Dùng để | Vào và ra |\n| --- | --- | --- |\n| **Phải** | Ra ở **lối ra đầu tiên** | Vào từ làn phải và ra vào làn phải |\n| **Trái** | Đi **qua lối ra đầu tiên** | Vào từ làn trái và ra vào làn trái |\n\n- **Không chuyển làn** trong vòng xuyến. Tài xế ở làn phải nhường tài xế ở làn trái.\n- Khi ra từ làn trái, hãy kiểm tra xe ở làn phải.\n- Nếu không thể ra an toàn, hãy đi thêm một vòng.\n- Chú ý người đi bộ và người đi xe đạp ở các lối qua đường, vốn được đặt lùi ra xa vòng xuyến.\n\n*Driver's Guide tr. 61–63*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Right turns",
+        "body": "- Be in the correct lane at least **15 metres** before the intersection.\n- Stay within **1 metre** of the curb as you approach, turn, and leave.\n- Shoulder check **right** for cyclists, and **yield to pedestrians**. Don't enter the crosswalk until they're clear.\n- Turn into the **first available lane**, the curb lane. If a parked car is close to the corner, turn into the next lane instead.\n- **Don't swing wide** into two lanes.\n- **Right on red** is allowed after a **complete stop** unless a sign prohibits it.\n\n*Driver's Guide pp. 63–64*"
+      },
+      "sourceHash": "59ee6e014d51bec21b5563827a07aa74",
+      "title": "Rẽ phải",
+      "body": "- Vào đúng làn ít nhất **15 mét** trước giao lộ.\n- Giữ xe cách lề đường trong vòng **1 mét** khi đến gần, khi rẽ và khi ra khỏi chỗ rẽ.\n- Quay đầu kiểm tra bên **phải** để tìm người đi xe đạp, và **nhường người đi bộ**. Không đi vào lối qua đường cho đến khi họ đã đi qua.\n- Rẽ vào **làn gần nhất có thể**, tức làn sát lề. Nếu có xe đậu gần góc đường, hãy rẽ vào làn kế tiếp.\n- **Không ôm cua rộng** sang hai làn.\n- **Rẽ phải khi đèn đỏ** được phép sau khi **dừng hẳn**, trừ khi có biển cấm.\n\n*Driver's Guide tr. 63–64*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Left turns",
+        "body": "Poor judgement on left turns is a **leading cause of collisions**. Be in your lane at least **15 metres** before the intersection.\n\n| Turning from → onto | Turn from | Turn into |\n| --- | --- | --- |\n| Two-way → two-way | Lane just right of the yellow line | Lane just right of the yellow line |\n| Two-way → one-way | Lane just right of the yellow line | **First lane on the left side** |\n| One-way → two-way | **Leftmost** lane | Lane just right of the yellow line |\n| One-way → one-way | **Leftmost** lane | **Leftmost** lane (also allowed on red after a full stop) |\n\n- **Waiting in the intersection?** Keep your **wheels pointed straight**, so a rear-end collision won't push you into oncoming traffic.\n- Before turning left off a two-lane highway, **shoulder check left** in case someone is passing you.\n- Yield to oncoming traffic and to pedestrians crossing on your left.\n\n*Driver's Guide pp. 65–66*"
+      },
+      "sourceHash": "1acd19e756abc6861d9e87f94c030aa5",
+      "title": "Rẽ trái",
+      "body": "Phán đoán sai lầm khi rẽ trái là **một trong những nguyên nhân hàng đầu gây va chạm**. Hãy vào đúng làn ít nhất **15 mét** trước giao lộ.\n\n| Rẽ từ → vào | Rẽ từ | Rẽ vào |\n| --- | --- | --- |\n| Hai chiều → hai chiều | Làn ngay bên phải vạch vàng | Làn ngay bên phải vạch vàng |\n| Hai chiều → một chiều | Làn ngay bên phải vạch vàng | **Làn đầu tiên ở phía bên trái** |\n| Một chiều → hai chiều | Làn **ngoài cùng bên trái** | Làn ngay bên phải vạch vàng |\n| Một chiều → một chiều | Làn **ngoài cùng bên trái** | Làn **ngoài cùng bên trái** (cũng được phép khi đèn đỏ sau khi dừng hẳn) |\n\n- **Đang chờ trong giao lộ?** Giữ **bánh xe thẳng**, để nếu bị đâm từ phía sau, xe bạn sẽ không bị đẩy vào dòng xe ngược chiều.\n- Trước khi rẽ trái khỏi đường cao tốc hai làn, **quay đầu kiểm tra bên trái** phòng khi có xe đang vượt bạn.\n- Nhường xe ngược chiều và người đi bộ đang qua đường ở bên trái bạn.\n\n*Driver's Guide tr. 65–66*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Dual turns and two-way left-turn lanes",
+        "body": "**Dual turns** are only allowed where signs or markings show them. Turn from your marked lane **into the matching lane**, and never swing wide or change lanes during the turn. Watch the vehicle beside you. If the lanes merge after the turn, the lane that ends must change lanes properly.\n\n**Two-way left-turn lanes:** the centre lane is shared by left-turning traffic from **both directions**. You may cross the solid yellow line to enter it, but enter only **close to where you'll turn**, and watch for oncoming vehicles in it.\n\n*Driver's Guide pp. 66–67*"
+      },
+      "sourceHash": "c5ba9465a5eadf6aa19305d19d30f08b",
+      "title": "Rẽ hai làn và làn rẽ trái hai chiều",
+      "body": "**Rẽ hai làn (dual turns)** chỉ được phép ở nơi có biển báo hoặc vạch kẻ cho phép. Rẽ từ làn được đánh dấu của bạn **vào làn tương ứng**, và không bao giờ ôm cua rộng hoặc chuyển làn khi đang rẽ. Chú ý xe bên cạnh bạn. Nếu các làn nhập lại sau khi rẽ, xe ở làn bị hết phải chuyển làn đúng cách.\n\n**Làn rẽ trái hai chiều (two-way left-turn lanes):** làn giữa được dùng chung bởi xe rẽ trái từ **cả hai hướng**. Bạn có thể cắt qua vạch vàng liền để vào làn này, nhưng chỉ vào khi **đã gần chỗ bạn sẽ rẽ**, và chú ý xe ngược chiều trong làn.\n\n*Driver's Guide tr. 66–67*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "U-turns",
+        "body": "Make a U-turn only when it's safe. **U-turns are not allowed:**\n\n- at intersections with **traffic lights**, unless a sign permits it\n- where a **sign prohibits** them\n\n**In urban areas, also not:**\n\n- between intersections (mid-block)\n- at an **alley** intersection\n- where one of the roads is an entrance to a **public parking lot**\n\n**Outside urban areas, also not:**\n\n- on a **curve**\n- near the **crest of a hill**, where drivers within **150 metres** can't see you\n\n*Driver's Guide p. 67*"
+      },
+      "sourceHash": "64341174f68b709e1feca2961757a6d5",
+      "title": "Quay đầu xe",
+      "body": "Chỉ quay đầu khi an toàn. **Không được quay đầu:**\n\n- tại giao lộ có **đèn giao thông**, trừ khi có biển cho phép\n- ở nơi có **biển cấm** quay đầu\n\n**Trong khu vực đô thị, cũng không được quay đầu:**\n\n- giữa hai giao lộ (giữa dãy phố)\n- tại giao lộ với **hẻm**\n- ở nơi một trong các con đường là lối vào **bãi đậu xe công cộng**\n\n**Ngoài khu vực đô thị, cũng không được quay đầu:**\n\n- ở **khúc cua**\n- gần **đỉnh dốc**, nơi tài xế khác trong vòng **150 mét** không thể nhìn thấy bạn\n\n*Driver's Guide tr. 67*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Key numbers",
+        "body": "| What | Number |\n| --- | --- |\n| Stop if there's no stop line or crosswalk | within **3 m** of the intersecting road |\n| Be in your turning lane | at least **15 m** before the intersection |\n| Distance from curb when turning right | within **1 m** |\n| No rural U-turn near a hill crest | if drivers within **150 m** can't see you |"
+      },
+      "sourceHash": "3a65535f260a94f30c804e2f875f0eae",
+      "title": "Các con số quan trọng",
+      "body": "| Nội dung | Con số |\n| --- | --- |\n| Dừng khi không có vạch dừng hoặc lối qua đường | trong vòng **3 m** trước đường giao cắt |\n| Vào làn rẽ | ít nhất **15 m** trước giao lộ |\n| Khoảng cách với lề khi rẽ phải | trong vòng **1 m** |\n| Cấm quay đầu gần đỉnh dốc ở nông thôn | nếu tài xế trong vòng **150 m** không thấy bạn |",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Don't mix these up",
+        "body": "- **Four-way stop:** first to arrive goes first. Arriving together, the vehicle on the **right** goes first.\n- **Uncontrolled intersections (including T intersections):** yield to the vehicle on your **right**.\n- **Yield sign:** you only have to stop if someone needs you to yield.\n- **Roundabouts:** entering traffic yields to traffic in the circle. Inside a two-lane circle, the **right** lane yields to the **left**.\n- **Waiting to turn left:** keep the wheels **straight**, not turned.\n- **U-turns are never allowed at traffic lights** unless a sign permits them."
+      },
+      "sourceHash": "32ffc8d4b2a4934f7f6be40f4b45153a",
+      "title": "Đừng nhầm lẫn những điều này",
+      "body": "- **Giao lộ dừng bốn hướng:** xe đến trước đi trước. Nếu đến cùng lúc, xe ở bên **phải** đi trước.\n- **Giao lộ không có điều khiển (kể cả giao lộ chữ T):** nhường xe ở bên **phải** của bạn.\n- **Biển nhường đường:** bạn chỉ phải dừng khi có người cần bạn nhường.\n- **Vòng xuyến:** xe đi vào nhường xe trong vòng xuyến. Trong vòng xuyến hai làn, làn **phải** nhường làn **trái**.\n- **Chờ rẽ trái:** giữ bánh xe **thẳng**, không đánh lái sẵn.\n- **Không bao giờ được quay đầu tại đèn giao thông** trừ khi có biển cho phép.",
+      "status": "approved"
+    }
+  ]
+}

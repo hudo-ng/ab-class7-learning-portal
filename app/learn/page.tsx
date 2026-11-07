@@ -1,12 +1,11 @@
 import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { db } from "@/db";
-import { topics } from "@/db/schema";
+import { getLocalizedTopics } from "@/db/queries/localized";
 import { ArrowRight } from "lucide-react";
-import { getTranslations } from "next-intl/server";
+import { getLocale, getTranslations } from "next-intl/server";
 
 export default async function LearnIndexPage() {
-  const allTopics = await db.select().from(topics);
+  const allTopics = await getLocalizedTopics(await getLocale());
   const t = await getTranslations("Learn");
 
   return (

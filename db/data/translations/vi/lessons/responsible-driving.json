@@ -1,0 +1,120 @@
+{
+  "topic": {
+    "en": "Safe & Legal Driving",
+    "sourceHash": "59ed91b62a7d020fe317138e9bf5861c",
+    "title": "Lái xe an toàn & đúng luật",
+    "status": "approved"
+  },
+  "blocks": [
+    {
+      "en": {
+        "title": "What you'll learn",
+        "body": "**In this topic you'll learn:**\n\n- How proactive drivers scan ahead and keep a space cushion\n- The 2-second following rule\n- Distracted driving laws, seat belts, and child safety seats\n- How fatigue, medication, alcohol, and drugs affect driving, and the penalties for impaired driving\n- Other traffic laws every driver should know"
+      },
+      "sourceHash": "9563d38a131bad6d9e1f4ec576820ffd",
+      "title": "Bạn sẽ học được gì",
+      "body": "**Trong chủ đề này, bạn sẽ học:**\n\n- Cách tài xế chủ động quan sát phía trước và giữ khoảng đệm an toàn\n- Quy tắc giữ khoảng cách 2 giây\n- Luật về lái xe mất tập trung, dây an toàn và ghế an toàn cho trẻ em\n- Ảnh hưởng của mệt mỏi, thuốc, rượu bia và chất kích thích đến việc lái xe, cùng các hình phạt khi lái xe trong tình trạng suy giảm năng lực\n- Các luật giao thông khác mà mọi tài xế nên biết",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Scan ahead, check behind",
+        "body": "**Proactive driving** means spotting hazards early and acting before they become emergencies. Never assume other drivers will do the right thing.\n\n- **Urban areas:** look **12–15 seconds** ahead, about **1 to 1½ blocks**.\n- **Rural areas:** look **20–25 seconds** ahead.\n- Check your mirrors every **8–12 seconds**, and whenever you're about to slow or stop.\n- Watch for **fixed hazards** (curves, hills, hidden driveways, intersections, merges) and **variable hazards** (pedestrians, left-turning vehicles, icy roads, \"stale\" green lights, emergency vehicles).\n- Always have an **escape route** in mind.\n\n*Driver's Guide p. 89*"
+      },
+      "sourceHash": "909090a5b71e88b583543fcfcc68366d",
+      "title": "Quan sát phía trước, kiểm tra phía sau",
+      "body": "**Lái xe chủ động (proactive driving)** nghĩa là phát hiện nguy hiểm sớm và hành động trước khi chúng trở thành tình huống khẩn cấp. Không bao giờ cho rằng tài xế khác sẽ làm đúng.\n\n- **Khu vực đô thị:** nhìn trước **12–15 giây**, khoảng **1 đến 1½ dãy phố**.\n- **Khu vực nông thôn:** nhìn trước **20–25 giây**.\n- Kiểm tra gương mỗi **8–12 giây**, và mỗi khi bạn sắp giảm tốc hoặc dừng lại.\n- Chú ý **nguy hiểm cố định** (khúc cua, đồi dốc, lối xe khuất, giao lộ, chỗ nhập làn) và **nguy hiểm thay đổi** (người đi bộ, xe rẽ trái, đường đóng băng, đèn xanh \"cũ\", xe ưu tiên).\n- Luôn nghĩ sẵn một **lối thoát** trong đầu.\n\n*Driver's Guide tr. 89*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Following distance and space cushion",
+        "body": "**The 2-second rule:** when the vehicle ahead passes a fixed point, count *\"one-thousand-and-one, one-thousand-and-two\"*. If you reach the point before you finish, you're too close. It works **at any speed**.\n\n- Leave **more** than 2 seconds in poor conditions.\n- Large vehicles such as motor homes should leave at least **4 seconds**.\n\n**Being tailgated?** If safe, **slow down slightly** to encourage the driver to pass. If they don't, leave more space ahead of you.\n\n**Stopped in traffic?** Leave enough room to **pull into another lane without reversing**. It protects you if you're hit from behind, or if someone skids toward you.\n\n*Driver's Guide pp. 89–90*"
+      },
+      "sourceHash": "ebd34a64bed5fa8778411bc645f48ac7",
+      "title": "Khoảng cách theo sau và khoảng đệm an toàn",
+      "body": "**Quy tắc 2 giây:** khi xe phía trước đi qua một điểm cố định, hãy đếm *\"một-nghìn-lẻ-một, một-nghìn-lẻ-hai\"*. Nếu bạn đến điểm đó trước khi đếm xong, bạn đang đi quá gần. Quy tắc này áp dụng **ở mọi tốc độ**.\n\n- Giữ khoảng cách **hơn** 2 giây khi điều kiện xấu.\n- Xe lớn như nhà di động (motor home) nên giữ ít nhất **4 giây**.\n\n**Bị xe phía sau bám sát?** Nếu an toàn, hãy **giảm tốc nhẹ** để khuyến khích tài xế đó vượt. Nếu họ không vượt, hãy chừa thêm khoảng trống phía trước bạn.\n\n**Dừng giữa dòng xe?** Chừa đủ khoảng trống để **có thể chuyển sang làn khác mà không cần lùi xe**. Điều này bảo vệ bạn nếu bị đâm từ phía sau, hoặc nếu có xe trượt về phía bạn.\n\n*Driver's Guide tr. 89–90*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Distracted driving",
+        "body": "Don't use a phone or other device while driving. The guide advises against **hands-free** calls too. If you need to call or text, stop somewhere safe and legal.\n\nThese distractions carry a **fine and 3 demerit points**:\n\n- using a **hand-held phone**, or **texting or emailing**\n- using laptops, video games, cameras, or video screens\n- programming a music player or **entering a GPS destination**\n- **reading**, or writing, printing, or sketching\n- **personal grooming**\n\n*Driver's Guide pp. 90–91*"
+      },
+      "sourceHash": "29b6782ae2f9ba6953090fd4dba69ecc",
+      "title": "Lái xe mất tập trung",
+      "body": "Không sử dụng điện thoại hoặc thiết bị khác khi đang lái xe. Nếu cần gọi điện hoặc nhắn tin, hãy dừng xe ở nơi an toàn và hợp pháp.\n\nNhững hành vi gây mất tập trung sau đây bị **phạt tiền và 3 điểm trừ (demerit points)**:\n\n- dùng **điện thoại cầm tay**, hoặc **nhắn tin hay gửi email**\n- dùng máy tính xách tay, trò chơi điện tử, máy ảnh hoặc màn hình video\n- cài đặt máy nghe nhạc hoặc **nhập điểm đến vào GPS**\n- **đọc**, hoặc viết, in, vẽ phác\n- **chải chuốt cá nhân**\n\n*Driver's Guide tr. 90–91*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Seat belts and child seats",
+        "body": "Everyone must be properly buckled up, or in an approved child seat.\n\n- Passengers **16 and older** can be fined for not wearing a seat belt.\n- **The driver is responsible** for every passenger **under 16**.\n\n**Child seats:**\n\n| Stage | Rule |\n| --- | --- |\n| **Rear-facing** | From birth, until the child reaches the manufacturer's weight to switch |\n| **Forward-facing** | Children **10–18 kg**. Use the **tether strap** |\n| **Booster seat** | Children over **18 kg**, before using the seat belt alone |\n\nA child **under 6** who weighs **18 kg or less** must be in a child safety seat. Seats must carry the Canadian safety label (**CMVSS 213**).\n\n*Driver's Guide pp. 91–92*"
+      },
+      "sourceHash": "ea0fd8c6394ce5c8a4ee9e522abe3fbc",
+      "title": "Dây an toàn và ghế trẻ em",
+      "body": "Mọi người phải thắt dây an toàn đúng cách, hoặc ngồi trong ghế trẻ em đạt chuẩn.\n\n- Hành khách **từ 16 tuổi trở lên** có thể bị phạt nếu không thắt dây an toàn.\n- **Tài xế chịu trách nhiệm** cho mọi hành khách **dưới 16 tuổi**.\n\n**Ghế trẻ em:**\n\n| Giai đoạn | Quy định |\n| --- | --- |\n| **Ghế quay về phía sau** | Từ khi mới sinh, cho đến khi trẻ đạt cân nặng chuyển đổi theo nhà sản xuất |\n| **Ghế quay về phía trước** | Trẻ **10–18 kg**. Dùng **dây neo (tether strap)** |\n| **Ghế nâng (booster seat)** | Trẻ trên **18 kg**, trước khi chỉ dùng dây an toàn |\n\nTrẻ **dưới 6 tuổi** và nặng **18 kg trở xuống** phải ngồi ghế an toàn cho trẻ em. Ghế phải có nhãn an toàn của Canada (**CMVSS 213**).\n\n*Driver's Guide tr. 91–92*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Fatigue and medication",
+        "body": "**Fatigue** slows your reactions and clouds your judgement, and can lead you to drift off the road or into another lane. It's caused by lack of sleep, stress, boredom, long drives, illness, and eye strain, and made worse by heavy meals, alcohol, or a warm car.\n\n- Start rested, keep the car cool and ventilated, keep your eyes moving, and **stop to rest** when you feel tired.\n\n**Medications**, even over-the-counter ones, can cause drowsiness or dizziness. Ask your doctor or pharmacist, and know how they combine with alcohol.\n\n*Driver's Guide p. 107*"
+      },
+      "sourceHash": "a7ecffad4d9020744de641abf01c58e0",
+      "title": "Mệt mỏi và thuốc",
+      "body": "**Mệt mỏi** làm chậm phản xạ và khiến bạn phán đoán kém, có thể khiến bạn lái xe trôi ra khỏi đường hoặc sang làn khác. Nguyên nhân là thiếu ngủ, căng thẳng, buồn chán, lái xe đường dài, bệnh tật và mỏi mắt, và tình trạng sẽ tệ hơn khi ăn no, uống rượu bia hoặc trong xe quá ấm.\n\n- Hãy bắt đầu chuyến đi khi đã nghỉ ngơi đủ, giữ xe mát và thông thoáng, đảo mắt thường xuyên, và **dừng lại nghỉ** khi thấy mệt.\n\n**Thuốc**, kể cả thuốc không kê đơn, có thể gây buồn ngủ hoặc chóng mặt. Hãy hỏi bác sĩ hoặc dược sĩ, và biết thuốc tác động thế nào khi dùng chung với rượu bia.\n\n*Driver's Guide tr. 107*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Alcohol, drugs, and the law",
+        "body": "**Impairment begins with the first drink or drug use.** Impaired driving remains a major cause of deaths and injuries on Alberta roads.\n\nAlberta's **Immediate Roadside Sanctions (IRS)** apply on the spot:\n\n| Program | Applies to | First occurrence |\n| --- | --- | --- |\n| **IRS ZERO: Novice** | **Any** alcohol or drugs, **GDL drivers** | **30-day** suspension, **7-day** vehicle seizure, **$200** fine |\n| **IRS: WARN** | Blood alcohol **50 mg** or more (0.05) | **3-day** suspension, **3-day** seizure, **$300** fine |\n| **IRS: FAIL** | Blood alcohol **80 mg** or more (0.08), impairment by drugs, or **refusing** a test | **90 days** no driving, then **12 months** suspended (interlock option), **30-day** seizure, **$1,000** fine, required course |\n| **IRS: 24-hour** | Impaired by alcohol, drugs, or a **physical or medical condition** | 24-hour disqualification |\n\nPenalties increase for repeat occurrences, and criminal charges can bring jail time and a criminal record.\n\n*Driver's Guide pp. 107–114*"
+      },
+      "sourceHash": "75f45fb975abbeb7dcf3f3a7f88fd51c",
+      "title": "Rượu bia, chất kích thích và pháp luật",
+      "body": "**Sự suy giảm năng lực bắt đầu từ ly rượu đầu tiên hoặc lần dùng chất kích thích đầu tiên.** Lái xe khi suy giảm năng lực vẫn là nguyên nhân lớn gây tử vong và thương tích trên đường ở Alberta.\n\n**Các biện pháp xử phạt tại chỗ (Immediate Roadside Sanctions, IRS)** của Alberta được áp dụng ngay lập tức:\n\n| Chương trình | Áp dụng cho | Lần vi phạm đầu tiên |\n| --- | --- | --- |\n| **IRS ZERO: Novice** | **Bất kỳ** lượng rượu bia hoặc chất kích thích nào, **tài xế GDL** | Treo bằng **30 ngày**, tạm giữ xe **7 ngày**, phạt **$200** |\n| **IRS: WARN** | Nồng độ cồn trong máu từ **50 mg** trở lên (0.05) | Treo bằng **3 ngày**, tạm giữ xe **3 ngày**, phạt **$300** |\n| **IRS: FAIL** | Nồng độ cồn trong máu từ **80 mg** trở lên (0.08), suy giảm do chất kích thích, hoặc **từ chối** kiểm tra | **90 ngày** không được lái xe, sau đó treo bằng **12 tháng** (có lựa chọn lắp thiết bị khóa liên động (interlock)), tạm giữ xe **30 ngày**, phạt **$1,000**, bắt buộc học khóa học |\n| **IRS: 24-hour** | Suy giảm do rượu bia, chất kích thích, hoặc **tình trạng thể chất hay bệnh lý** | Cấm lái xe 24 giờ |\n\nHình phạt tăng lên khi tái phạm, và các cáo buộc hình sự có thể dẫn đến án tù và tiền án.\n\n*Driver's Guide tr. 107–114*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Driving while suspended",
+        "body": "Driving while your licence is **suspended or disqualified** can mean **jail, fines, or both**, plus another suspension. The vehicle is **impounded for 30 days**, no matter who owns it, and the owner pays the towing and storage costs.\n\nYou must give up your licence at a registry office on or before the date your suspension starts.\n\n*Driver's Guide pp. 110, 115*"
+      },
+      "sourceHash": "df499b8a7af740e43a88fc6ec87815c1",
+      "title": "Lái xe khi đang bị treo bằng",
+      "body": "Lái xe trong khi bằng lái đang bị **treo hoặc bị tước quyền lái** có thể bị **phạt tù, phạt tiền, hoặc cả hai**, cùng với một lần treo bằng nữa. Xe sẽ bị **tạm giữ 30 ngày**, bất kể ai là chủ xe, và chủ xe phải trả chi phí kéo xe và lưu giữ xe.\n\nBạn phải nộp lại bằng lái tại văn phòng đăng ký (registry office) vào hoặc trước ngày bắt đầu bị treo bằng.\n\n*Driver's Guide tr. 110, 115*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Other traffic laws",
+        "body": "- **No towing people** on skis, toboggans, bicycles, and so on.\n- **No riding** in a towed trailer, or on the outside of a vehicle, **including the box of a pickup truck**.\n- People **under 14** can't drive a tractor or farm equipment on a highway.\n- If your rear view is blocked, you need **outside mirrors on both sides**.\n- A load extending **1.5 m or more** past the rear needs a **red flag** (at least **30 cm** square) by day, and a **red light** at night.\n- Don't disturb residents with your vehicle between **10 p.m. and 7 a.m.**\n- Driving without due care and attention, or without consideration for others, is **careless driving** (6 demerit points).\n- Don't drive **in two lanes** at once.\n\n*Driver's Guide pp. 94–95*"
+      },
+      "sourceHash": "430c7333fe5f8072c77ed5a90bd9a390",
+      "title": "Các luật giao thông khác",
+      "body": "- **Không được kéo người** trên ván trượt tuyết, xe trượt (toboggan), xe đạp, v.v.\n- **Không được ngồi** trong rơ-moóc đang được kéo, hoặc ở bên ngoài xe, **kể cả thùng sau của xe bán tải (pickup truck)**.\n- Người **dưới 14 tuổi** không được lái máy kéo hoặc máy nông nghiệp trên đường cao tốc.\n- Nếu tầm nhìn phía sau bị che khuất, bạn cần có **gương ngoài ở cả hai bên**.\n- Hàng hóa nhô ra phía sau **từ 1.5 m trở lên** cần có **cờ đỏ** (ít nhất **30 cm** mỗi cạnh) vào ban ngày, và **đèn đỏ** vào ban đêm.\n- Không làm phiền cư dân bằng xe của bạn trong khoảng **10 giờ tối đến 7 giờ sáng**.\n- Lái xe không cẩn trọng và chú ý, hoặc không tôn trọng người khác, là **lái xe bất cẩn (careless driving)** (6 điểm trừ).\n- Không được chạy xe **trên hai làn** cùng lúc.\n\n*Driver's Guide tr. 94–95*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Key numbers",
+        "body": "| What | Number |\n| --- | --- |\n| Look ahead, urban / rural | **12–15 s** / **20–25 s** |\n| Check mirrors | every **8–12 s** |\n| Following distance | at least **2 s** (**4 s** for large vehicles) |\n| Driver responsible for passengers | under **16** |\n| Child seat required | under **6** and **18 kg** or less |\n| Forward-facing seat | **10–18 kg** |\n| Distracted driving | fine + **3** demerits |\n| GDL drivers | **zero** alcohol and drugs |\n| IRS: WARN / IRS: FAIL | **50 mg** / **80 mg** blood alcohol |\n| Load sticking out the back | **1.5 m** or more needs a red flag / light |\n| Quiet hours in residential areas | **10 p.m.–7 a.m.** |"
+      },
+      "sourceHash": "96f42ef5c8e78b390aab4ee1e449498c",
+      "title": "Các con số quan trọng",
+      "body": "| Nội dung | Con số |\n| --- | --- |\n| Nhìn trước, đô thị / nông thôn | **12–15 giây** / **20–25 giây** |\n| Kiểm tra gương | mỗi **8–12 giây** |\n| Khoảng cách theo sau | ít nhất **2 giây** (**4 giây** với xe lớn) |\n| Tài xế chịu trách nhiệm cho hành khách | dưới **16** tuổi |\n| Bắt buộc ghế trẻ em | dưới **6** tuổi và nặng **18 kg** trở xuống |\n| Ghế quay về phía trước | **10–18 kg** |\n| Lái xe mất tập trung | phạt tiền + **3** điểm trừ |\n| Tài xế GDL | **không** được có rượu bia và chất kích thích |\n| IRS: WARN / IRS: FAIL | nồng độ cồn trong máu **50 mg** / **80 mg** |\n| Hàng nhô ra phía sau | từ **1.5 m** trở lên cần cờ đỏ / đèn đỏ |\n| Giờ yên tĩnh ở khu dân cư | **10 giờ tối–7 giờ sáng** |",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Don't mix these up",
+        "body": "- **Under 16 vs 16 and older:** the driver is fined for unbelted passengers under 16. Passengers 16 and older are fined themselves.\n- **Zero vs 0.05 vs 0.08:** GDL drivers must have **zero**. WARN starts at **0.05**. FAIL starts at **0.08**, or any impairment or a refusal.\n- **The 2-second rule works at any speed.** It isn't only for highways.\n- **Tailgater behind you:** slow down a little to let them pass. Never brake suddenly.\n- **Urban vs rural scanning:** 12–15 seconds in town, 20–25 seconds on rural roads.\n- **Hands-free isn't safe.** The guide advises against any phone use while driving."
+      },
+      "sourceHash": "08d67953960e4ef11c3c2d83b3017b52",
+      "title": "Đừng nhầm lẫn những điều này",
+      "body": "- **Dưới 16 tuổi và từ 16 tuổi trở lên:** tài xế bị phạt nếu hành khách dưới 16 tuổi không thắt dây an toàn. Hành khách từ 16 tuổi trở lên tự chịu phạt.\n- **Không (zero), 0.05 và 0.08:** tài xế GDL phải ở mức **không**. WARN bắt đầu từ **0.05**. FAIL bắt đầu từ **0.08**, hoặc khi có bất kỳ sự suy giảm nào hoặc từ chối kiểm tra.\n- **Quy tắc 2 giây áp dụng ở mọi tốc độ.** Không chỉ dành cho đường cao tốc.\n- **Có xe bám sát phía sau:** giảm tốc nhẹ để họ vượt. Không bao giờ phanh gấp.\n- **Quan sát ở đô thị và nông thôn:** 12–15 giây trong thành phố, 20–25 giây trên đường nông thôn.\n- **Rảnh tay (hands-free) không có nghĩa là an toàn.** Sách hướng dẫn khuyên không dùng điện thoại dưới bất kỳ hình thức nào khi đang lái xe.",
+      "status": "approved"
+    }
+  ]
+}

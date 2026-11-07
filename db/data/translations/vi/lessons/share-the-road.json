@@ -1,0 +1,130 @@
+{
+  "topic": {
+    "en": "Sharing the Road",
+    "sourceHash": "8c24f8b32cb34cd5904a0c51222d19e2",
+    "title": "Chia sẻ đường với người khác",
+    "status": "approved"
+  },
+  "blocks": [
+    {
+      "en": {
+        "title": "What you'll learn",
+        "body": "**In this topic you'll learn:**\n\n- How to protect pedestrians, cyclists, and motorcycle riders, the road users with the least protection\n- How to drive safely around large trucks, log haulers, and snowplows\n- The **school bus** rules, which drivers often get wrong\n- How to cross railway and light rail tracks safely"
+      },
+      "sourceHash": "c99b7a887a3c827cd30dcdec29a9cd83",
+      "title": "Bạn sẽ học được gì",
+      "body": "**Trong chủ đề này, bạn sẽ học:**\n\n- Cách bảo vệ người đi bộ, người đi xe đạp và người đi xe mô tô, những người tham gia giao thông ít được bảo vệ nhất\n- Cách lái xe an toàn quanh xe tải lớn, xe chở gỗ và xe ủi tuyết\n- Các quy định về **xe buýt trường học**, điều mà tài xế thường làm sai\n- Cách băng qua đường ray xe lửa và đường ray tàu điện nhẹ (light rail) một cách an toàn",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Pedestrians",
+        "body": "- A pedestrian in an urban area may signal that they want to cross by **raising an arm at a right angle and pointing** to the other curb. You must **stop before the crosswalk** and let them cross.\n- Once a pedestrian is in a **marked or unmarked crosswalk**, you must yield.\n- Stop about **2–3 car lengths** back, so drivers in other lanes can see the pedestrian.\n- **Never pass** a vehicle as you approach a crosswalk. It may be stopping for someone you can't see.\n- At a **flashing yellow pedestrian light**, slow to **30 km/h** and yield.\n- Watch for children near parked cars. Look **under** parked vehicles for feet and bicycle wheels.\n- Be patient with people using a **white cane or guide dog**.\n\n*Driver's Guide p. 97*"
+      },
+      "sourceHash": "f38535a5f30462ff908f311b664bc85c",
+      "title": "Người đi bộ",
+      "body": "- Người đi bộ trong khu vực đô thị có thể ra hiệu muốn qua đường bằng cách **giơ tay vuông góc và chỉ** về phía lề bên kia. Bạn phải **dừng lại trước lối qua đường** và để họ đi qua.\n- Khi người đi bộ đã ở trên **lối qua đường có hoặc không có kẻ vạch**, bạn phải nhường đường.\n- Dừng lại cách khoảng **2–3 thân xe**, để tài xế ở các làn khác có thể nhìn thấy người đi bộ.\n- **Không bao giờ vượt** xe khác khi bạn đang đến gần lối qua đường. Xe đó có thể đang dừng cho một người mà bạn không nhìn thấy.\n- Tại **đèn vàng nhấp nháy cho người đi bộ**, giảm tốc xuống **30 km/h** và nhường đường.\n- Chú ý trẻ em gần các xe đang đậu. Nhìn **dưới gầm** xe đậu để thấy chân người và bánh xe đạp.\n- Hãy kiên nhẫn với người dùng **gậy trắng hoặc chó dẫn đường**.\n\n*Driver's Guide tr. 97*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Cyclists",
+        "body": "- A bicycle being ridden is a **vehicle**, and its rider follows the same rules. A person **walking** a bicycle is a **pedestrian**.\n- Cyclists ride near the right curb, but may move out to avoid grates, potholes, or gravel.\n- **To pass a cyclist, change lanes**, as you would for a car.\n- Before turning right, **shoulder check right** for cyclists beside you.\n- **Before opening your door**, check for cyclists. That's the driver's responsibility.\n- **Don't follow too closely.** Bicycles have no brake lights.\n- Riders and passengers **under 18** must wear a bicycle helmet.\n\n*Driver's Guide pp. 97–98*"
+      },
+      "sourceHash": "75008e0a941fe9dbfc0d233ccf340ae6",
+      "title": "Người đi xe đạp",
+      "body": "- Xe đạp đang được chạy là một **phương tiện**, và người đi xe tuân theo cùng các quy định. Người **dắt bộ** xe đạp là **người đi bộ**.\n- Người đi xe đạp chạy gần lề phải, nhưng có thể lấn ra để tránh nắp cống, ổ gà hoặc sỏi.\n- **Để vượt người đi xe đạp, hãy chuyển làn**, như khi vượt ô tô.\n- Trước khi rẽ phải, **quay đầu kiểm tra bên phải** để tìm người đi xe đạp bên cạnh bạn.\n- **Trước khi mở cửa xe**, hãy kiểm tra người đi xe đạp. Đó là trách nhiệm của tài xế.\n- **Không đi quá sát phía sau.** Xe đạp không có đèn phanh.\n- Người đi xe và người ngồi sau **dưới 18 tuổi** phải đội mũ bảo hiểm xe đạp.\n\n*Driver's Guide tr. 97–98*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Motorcycles",
+        "body": "- Riders often use the **left part of their lane** to be more visible. **It doesn't mean they're turning left.**\n- **Never share a lane** with a motorcycle. It needs the whole lane.\n- Leave **extra following distance**, because motorcycles can stop very quickly.\n- When turning left, look carefully for oncoming motorcycles. They're hard to see, and their speed is hard to judge.\n- A rider's shoulder check is a clue they may change lanes or turn.\n\n*Driver's Guide pp. 98–99*"
+      },
+      "sourceHash": "431f3fd00734babf5c969d60b4c35966",
+      "title": "Xe mô tô",
+      "body": "- Người đi xe mô tô thường đi ở **phần bên trái của làn** để dễ được nhìn thấy hơn. **Điều đó không có nghĩa là họ sắp rẽ trái.**\n- **Không bao giờ đi chung làn** với xe mô tô. Xe mô tô cần cả làn đường.\n- Giữ **khoảng cách theo sau xa hơn**, vì xe mô tô có thể dừng rất nhanh.\n- Khi rẽ trái, hãy quan sát kỹ xe mô tô đi ngược chiều. Chúng khó nhìn thấy, và khó ước lượng tốc độ.\n- Việc người đi mô tô quay đầu kiểm tra là dấu hiệu họ có thể chuyển làn hoặc rẽ.\n\n*Driver's Guide tr. 98–99*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Large trucks and buses",
+        "body": "- **Blind spots are huge.** If you can't see a truck's side mirrors, you're too close. If you can see the driver in the mirror, they can see you.\n- **Don't cut in front** of a large vehicle, especially near a traffic light. It needs much more room to stop. After passing one, leave **extra room** before moving back in front.\n- **Don't squeeze in on the right** of a truck turning right. It needs extra room and may swing wide.\n- If a truck is turning onto your road, **stop back** from the intersection. It may need part of your lane.\n- On a hill, leave room in front of you, because a truck may **roll back** when starting.\n- Passing takes **longer** than you think. Be sure you have room.\n- Use caution with **oversized loads**. They often travel slowly and will pull over to let traffic pass.\n\n*Driver's Guide pp. 99–100*"
+      },
+      "sourceHash": "5a5c80bc1211c5eec6c9614805342e51",
+      "title": "Xe tải lớn và xe buýt",
+      "body": "- **Điểm mù rất lớn.** Nếu bạn không nhìn thấy gương bên của xe tải, bạn đang ở quá gần. Nếu bạn thấy tài xế trong gương, họ cũng thấy bạn.\n- **Không cắt ngang đầu** xe lớn, nhất là gần đèn giao thông. Xe lớn cần nhiều khoảng cách hơn để dừng. Sau khi vượt xe lớn, chừa **thêm khoảng trống** trước khi trở về phía trước xe đó.\n- **Không len vào bên phải** xe tải đang rẽ phải. Xe tải cần thêm chỗ và có thể ôm cua rộng.\n- Nếu xe tải đang rẽ vào đường của bạn, hãy **dừng lùi lại** cách xa giao lộ. Xe tải có thể cần một phần làn của bạn.\n- Trên dốc, chừa khoảng trống phía trước bạn, vì xe tải có thể bị **trôi ngược** khi khởi hành.\n- Vượt xe lớn mất **nhiều thời gian hơn** bạn nghĩ. Hãy chắc chắn bạn có đủ khoảng trống.\n- Cẩn thận với **xe chở hàng quá khổ**. Chúng thường chạy chậm và sẽ tấp vào lề để xe khác vượt.\n\n*Driver's Guide tr. 99–100*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Log hauling trucks",
+        "body": "**Never pass a log hauling truck that is turning** left or right off the highway.\n\nThe logs can extend up to **9 metres** past the back of the truck. When the truck turns, they swing out and can block **some or all lanes** of the highway, creating a danger zone.\n\n*Driver's Guide p. 100*"
+      },
+      "sourceHash": "1e100d8a9c815cfcdc94cb7da63da718",
+      "title": "Xe chở gỗ",
+      "body": "**Không bao giờ vượt xe chở gỗ đang rẽ** trái hoặc phải ra khỏi đường cao tốc.\n\nGỗ có thể nhô ra đến **9 mét** phía sau xe tải. Khi xe tải rẽ, gỗ sẽ quét ra ngoài và có thể chắn **một phần hoặc toàn bộ các làn** của đường cao tốc, tạo thành một vùng nguy hiểm.\n\n*Driver's Guide tr. 100*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "School buses",
+        "body": "| Bus shows | On an undivided road | On a road divided by a median |\n| --- | --- | --- |\n| **Flashing amber** lights | **Be ready to stop**: the bus is about to stop. You may pass, with caution. | **From behind:** same as undivided. **From the front:** proceed with caution. |\n| **Flashing red** lights + **stop arm** | **Stop about 20 m away**, from **both directions**, in **all lanes** | **From behind: stop.** From the front: proceed with caution and watch for pedestrians. |\n\nStay stopped until the red lights **turn off** and the stop arm is **pulled back**. Failing to stop for a school bus costs **6 demerit points**.\n\n*Driver's Guide pp. 101–102, 109*"
+      },
+      "sourceHash": "c05a6ec41cc46084332267b58af54015",
+      "title": "Xe buýt trường học",
+      "body": "| Xe buýt bật | Trên đường không có dải phân cách | Trên đường có dải phân cách ở giữa |\n| --- | --- | --- |\n| Đèn **vàng cam nhấp nháy** | **Sẵn sàng dừng lại**: xe buýt sắp dừng. Bạn có thể vượt, nhưng phải thận trọng. | **Từ phía sau:** như đường không có dải phân cách. **Từ phía trước:** đi tiếp một cách thận trọng. |\n| Đèn **đỏ nhấp nháy** + **tay biển dừng (stop arm)** | **Dừng lại cách khoảng 20 m**, từ **cả hai hướng**, ở **tất cả các làn** | **Từ phía sau: dừng lại.** Từ phía trước: đi tiếp thận trọng và chú ý người đi bộ. |\n\nTiếp tục dừng cho đến khi đèn đỏ **tắt** và tay biển dừng được **thu lại**. Không dừng lại cho xe buýt trường học bị **6 điểm trừ**.\n\n*Driver's Guide tr. 101–102, 109*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Snowplows",
+        "body": "- Snowplows use **flashing amber and red lights**: \"amber and red means snowplow ahead.\"\n- Stay well back. Plows throw up snow clouds and sand.\n- **Passing is prohibited** when you can't see along the side of the plow, when passing would interfere with it, or when it can't be done safely.\n- Plows pull over every **5–8 km** to let traffic pass, so it's safer to wait.\n- When a plow is coming toward you, watch for vehicles **passing it in your lane**.\n\n*Driver's Guide p. 102*"
+      },
+      "sourceHash": "cd34ef498d3d7c7aa6884bed6832846e",
+      "title": "Xe ủi tuyết",
+      "body": "- Xe ủi tuyết dùng **đèn nhấp nháy màu vàng cam và đỏ**: \"vàng cam và đỏ nghĩa là phía trước có xe ủi tuyết.\"\n- Giữ khoảng cách thật xa. Xe ủi tuyết hất lên những đám bụi tuyết và cát.\n- **Cấm vượt** khi bạn không nhìn thấy dọc bên hông xe ủi tuyết, khi việc vượt sẽ cản trở xe, hoặc khi không thể vượt an toàn.\n- Xe ủi tuyết tấp vào lề mỗi **5–8 km** để xe khác vượt, vì vậy chờ đợi sẽ an toàn hơn.\n- Khi xe ủi tuyết đang đi về phía bạn, hãy chú ý những xe **đang vượt nó trên làn của bạn**.\n\n*Driver's Guide tr. 102*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Railway and LRT crossings",
+        "body": "**Never race a train.** A train can take **a kilometre or more** to stop.\n\n- **Advance warning sign** (yellow, with a railway symbol): slow down, look, and listen. The speed tab is the recommended crossing speed.\n- **Crossing sign (crossbuck):** yield to trains. You must stop if a train is visible or sounding a signal within **500 m**.\n- **Stop sign at a crossing:** stop between **5 and 15 m** from the nearest rail.\n- **Flashing lights and bells:** stop at least **5 m** from the nearest rail, and wait until they stop.\n- **Gates:** **never drive around them**, even after a train has passed. Another may be coming.\n- Don't shift gears on the tracks, and don't start across unless you can clear it.\n- **Stalled on the tracks?** Get everyone out and away. Move **toward the approaching train**, away from the tracks, to avoid flying debris.\n- **LRT trains** are very quiet and can take up to **100 m** to stop.\n- Buses and vehicles carrying dangerous goods may be required to stop at crossings, so be ready.\n\n*Driver's Guide pp. 103–105*"
+      },
+      "sourceHash": "c138e0336ad31fcd147c75d7c8a8f1b1",
+      "title": "Chỗ giao cắt đường sắt và tàu điện nhẹ (LRT)",
+      "body": "**Không bao giờ đua với tàu hỏa.** Tàu hỏa có thể cần **một kilômét hoặc hơn** để dừng lại.\n\n- **Biển cảnh báo trước** (màu vàng, có ký hiệu đường sắt): giảm tốc, nhìn và lắng nghe. Bảng tốc độ là tốc độ khuyến nghị khi băng qua.\n- **Biển giao cắt đường sắt (crossbuck):** nhường đường cho tàu hỏa. Bạn phải dừng lại nếu thấy tàu hoặc nghe tín hiệu còi tàu trong vòng **500 m**.\n- **Biển dừng ở chỗ giao cắt:** dừng lại cách đường ray gần nhất từ **5 đến 15 m**.\n- **Đèn nhấp nháy và chuông:** dừng lại cách đường ray gần nhất ít nhất **5 m**, và chờ cho đến khi chúng ngừng.\n- **Thanh chắn:** **không bao giờ lách vòng qua thanh chắn**, kể cả sau khi tàu đã đi qua. Có thể có một chuyến tàu khác đang đến.\n- Không chuyển số khi đang trên đường ray, và không bắt đầu băng qua trừ khi bạn có thể đi hết qua.\n- **Xe chết máy trên đường ray?** Đưa mọi người ra ngoài và tránh xa. Di chuyển **về phía con tàu đang đến**, tránh xa đường ray, để tránh mảnh vỡ văng ra.\n- **Tàu LRT** chạy rất êm và có thể cần đến **100 m** để dừng lại.\n- Xe buýt và xe chở hàng nguy hiểm có thể phải dừng tại chỗ giao cắt, vì vậy hãy sẵn sàng.\n\n*Driver's Guide tr. 103–105*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Funeral processions and off-highway vehicles",
+        "body": "- **Don't drive through** a funeral procession. Yield until it has passed.\n- Drivers **in** the procession, with headlights on, may continue through stop signs and red lights when closely following the vehicle ahead and it's safe.\n- Watch for **ATVs and snowmobiles** near or crossing the highway.\n\n*Driver's Guide p. 105*"
+      },
+      "sourceHash": "b5087e71b17d19379ffc8d60f1059205",
+      "title": "Đoàn xe tang và xe địa hình",
+      "body": "- **Không chạy xen ngang** đoàn xe tang. Hãy nhường đường cho đến khi đoàn xe đi qua.\n- Tài xế **trong** đoàn xe tang, có bật đèn pha, có thể tiếp tục đi qua biển dừng và đèn đỏ khi đang theo sát xe phía trước và việc đó an toàn.\n- Chú ý **xe địa hình (ATV) và xe trượt tuyết** ở gần hoặc đang băng qua đường cao tốc.\n\n*Driver's Guide tr. 105*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Key numbers",
+        "body": "| What | Number |\n| --- | --- |\n| Flashing yellow pedestrian light | max **30 km/h** |\n| Stopping back from a crosswalk | about **2–3 car lengths** |\n| Bicycle helmets required | under **18** |\n| Log overhang | up to **9 m** |\n| Stop for a school bus with red lights | about **20 m** away |\n| Snowplows pull over | every **5–8 km** |\n| Must stop for an approaching train | within **500 m** |\n| Stop sign at a railway crossing | **5–15 m** from the nearest rail |\n| Flashing lights / bells at a crossing | at least **5 m** from the nearest rail |\n| Train stopping distance | **1 km** or more |\n| LRT stopping distance | up to **100 m** |"
+      },
+      "sourceHash": "fb50d123ae33d2fe3ba0cb12342db5d8",
+      "title": "Các con số quan trọng",
+      "body": "| Nội dung | Con số |\n| --- | --- |\n| Đèn vàng nhấp nháy cho người đi bộ | tối đa **30 km/h** |\n| Dừng lùi lại cách lối qua đường | khoảng **2–3 thân xe** |\n| Bắt buộc đội mũ bảo hiểm xe đạp | dưới **18** tuổi |\n| Gỗ nhô ra phía sau | đến **9 m** |\n| Dừng cho xe buýt trường học bật đèn đỏ | cách khoảng **20 m** |\n| Xe ủi tuyết tấp vào lề | mỗi **5–8 km** |\n| Phải dừng khi tàu đang đến | trong vòng **500 m** |\n| Biển dừng tại chỗ giao cắt đường sắt | cách đường ray gần nhất **5–15 m** |\n| Đèn nhấp nháy / chuông tại chỗ giao cắt | cách đường ray gần nhất ít nhất **5 m** |\n| Quãng đường dừng của tàu hỏa | **1 km** hoặc hơn |\n| Quãng đường dừng của tàu LRT | đến **100 m** |",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Don't mix these up",
+        "body": "- **School bus amber vs red:** amber means get ready to stop. Red with the stop arm means **stop**, in both directions on an undivided road.\n- **Divided highway:** only traffic **behind** the bus must stop for red lights. Oncoming traffic proceeds with caution.\n- **Walking a bike = pedestrian. Riding it = vehicle.**\n- **A motorcycle on the left of its lane** isn't signalling a left turn.\n- **Can't see the truck's mirrors?** The driver can't see you either.\n- **Railway gates:** never drive around them, even right after a train passes."
+      },
+      "sourceHash": "90107b08a1f1f2d1b7f2d26852cc285c",
+      "title": "Đừng nhầm lẫn những điều này",
+      "body": "- **Xe buýt trường học, đèn vàng cam và đèn đỏ:** vàng cam nghĩa là chuẩn bị dừng. Đỏ cùng tay biển dừng nghĩa là **dừng lại**, ở cả hai hướng trên đường không có dải phân cách.\n- **Đường có dải phân cách:** chỉ xe **phía sau** xe buýt phải dừng khi đèn đỏ. Xe ngược chiều đi tiếp một cách thận trọng.\n- **Dắt bộ xe đạp = người đi bộ. Chạy xe đạp = phương tiện.**\n- **Xe mô tô đi bên trái làn** không có nghĩa là đang báo hiệu rẽ trái.\n- **Không thấy gương của xe tải?** Tài xế xe tải cũng không thấy bạn.\n- **Thanh chắn đường sắt:** không bao giờ lách vòng qua, kể cả ngay sau khi tàu vừa đi qua.",
+      "status": "approved"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "topic": {
+    "en": "Signals & Pavement Markings",
+    "sourceHash": "5d77cbb1a938089e4688b2a0c60bea9d",
+    "title": "Đèn tín hiệu & Vạch kẻ đường",
+    "status": "approved"
+  },
+  "blocks": [
+    {
+      "en": {
+        "title": "What you'll learn",
+        "body": "**In this topic you'll learn:**\n\n- What each traffic light means: solid, flashing, and arrows\n- Pedestrian signals and lane reversal signals\n- What line colours and patterns on the road tell you about passing and lane changes\n- Other pavement markings: arrows, reserved lanes, bicycle lanes, and painted islands"
+      },
+      "sourceHash": "26ad1632ed2f38a877c6da6a2b53b6ff",
+      "title": "Bạn sẽ học được gì",
+      "body": "**Trong chủ đề này, bạn sẽ học:**\n\n- Ý nghĩa của từng loại đèn giao thông: đèn sáng liên tục, đèn nhấp nháy và đèn mũi tên\n- Đèn tín hiệu cho người đi bộ và đèn đảo chiều làn (lane reversal signals)\n- Màu sắc và kiểu vạch kẻ trên đường cho biết điều gì về việc vượt xe và chuyển làn\n- Các vạch kẻ đường khác: mũi tên, làn dành riêng, làn xe đạp và đảo sơn (painted islands)",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Solid lights",
+        "body": "Lights are ordered **red, yellow, green** from top to bottom (or left to right on horizontal signals).\n\n**Solid red:** stop **before the stop line or crosswalk**, or before the intersection if there's neither. Stay stopped until green, except:\n\n- **Right on red** is allowed after a **complete stop**, unless a sign prohibits it. Yield to everyone.\n- **Left on red** is allowed only from a **one-way street onto a one-way street**, after a complete stop.\n\n**Solid yellow:** the light is about to turn red. **Stop** before the intersection, unless you are so close that you **can't stop safely**. If you're already in the intersection, clear it.\n\n**Solid green:** go, but yield to oncoming traffic when turning left, and to pedestrians in the crosswalk.\n\n**Tip, the \"stale\" green:** if the pedestrian signal shows **Don't Walk**, the light will soon change, so be ready to stop.\n\n*Driver's Guide pp. 22–23*"
+      },
+      "sourceHash": "eb1e9ac847c54af2abc62509020bf6dd",
+      "title": "Đèn sáng liên tục",
+      "body": "Đèn được sắp xếp theo thứ tự **đỏ, vàng, xanh** từ trên xuống dưới (hoặc từ trái sang phải với đèn nằm ngang).\n\n**Đèn đỏ liên tục:** dừng lại **trước vạch dừng hoặc lối qua đường cho người đi bộ**, hoặc trước giao lộ nếu không có cả hai. Tiếp tục dừng cho đến khi đèn xanh, ngoại trừ:\n\n- **Rẽ phải khi đèn đỏ** (right on red) được phép sau khi **dừng hẳn**, trừ khi có biển cấm. Nhường đường cho tất cả mọi người.\n- **Rẽ trái khi đèn đỏ** chỉ được phép từ **đường một chiều sang đường một chiều**, sau khi dừng hẳn.\n\n**Đèn vàng liên tục:** đèn sắp chuyển sang đỏ. **Dừng lại** trước giao lộ, trừ khi bạn đã ở quá gần và **không thể dừng an toàn**. Nếu bạn đã ở trong giao lộ, hãy đi tiếp cho ra khỏi giao lộ.\n\n**Đèn xanh liên tục:** được đi, nhưng phải nhường xe đi ngược chiều khi rẽ trái, và nhường người đi bộ trên lối qua đường.\n\n**Mẹo, đèn xanh \"cũ\" (stale green):** nếu đèn người đi bộ đang hiện **Don't Walk** (Không được đi), đèn sắp chuyển, vì vậy hãy sẵn sàng dừng lại.\n\n*Driver's Guide tr. 22–23*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Arrows and flashing lights",
+        "body": "| Signal | What to do |\n| --- | --- |\n| **Green arrow + green light** | Go in the arrow's direction **without yielding**. Other directions: go when safe. |\n| **Green arrow + red light** | Go **only** in the arrow's direction, without stopping. |\n| **Flashing red** | Treat it like a **stop sign**: stop, then go when safe. Flashing red in all directions makes a **four-way stop**. |\n| **Flashing yellow** | Proceed **with caution**, yielding to pedestrians and vehicles in the intersection. |\n| **Flashing green** | You may go straight or turn without stopping. Opposing traffic has a red light, but still yield to pedestrians. |\n\n*Driver's Guide p. 23*"
+      },
+      "sourceHash": "01238fefb0988c2b4ee347c1e571f7a9",
+      "title": "Đèn mũi tên và đèn nhấp nháy",
+      "body": "| Tín hiệu | Cần làm gì |\n| --- | --- |\n| **Mũi tên xanh + đèn xanh** | Đi theo hướng mũi tên **mà không cần nhường đường**. Các hướng khác: đi khi an toàn. |\n| **Mũi tên xanh + đèn đỏ** | **Chỉ** được đi theo hướng mũi tên, không cần dừng. |\n| **Đèn đỏ nhấp nháy** | Xem như **biển báo dừng (stop sign)**: dừng lại, rồi đi khi an toàn. Đèn đỏ nhấp nháy ở mọi hướng tạo thành **giao lộ dừng bốn hướng (four-way stop)**. |\n| **Đèn vàng nhấp nháy** | Đi tiếp **một cách thận trọng**, nhường người đi bộ và xe đang ở trong giao lộ. |\n| **Đèn xanh nhấp nháy** | Bạn có thể đi thẳng hoặc rẽ mà không cần dừng. Hướng đối diện đang có đèn đỏ, nhưng bạn vẫn phải nhường người đi bộ. |\n\n*Driver's Guide tr. 23*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Pedestrian and lane reversal signals",
+        "body": "**Pedestrian signals:** a walking figure means pedestrians may cross. An orange hand means **Don't Walk**, though people already crossing may finish. Some signals count down the seconds left.\n\n**Pedestrian crossing signs with flashing yellow lights:** slow to **30 km/h** or less and yield or stop for pedestrians.\n\n**Lane reversal signals** control lanes whose direction changes during the day:\n\n- **Red X** over a lane: do **not** enter or stay in that lane. Oncoming traffic is using it.\n- **Green arrow pointing down:** you may drive in that lane.\n\n*Driver's Guide pp. 23–24*"
+      },
+      "sourceHash": "0f9148a4e8cbae8b459ca8d14341ff53",
+      "title": "Đèn cho người đi bộ và đèn đảo chiều làn",
+      "body": "**Đèn tín hiệu cho người đi bộ:** hình người đang đi nghĩa là người đi bộ được qua đường. Bàn tay màu cam nghĩa là **Don't Walk** (Không được đi), nhưng người đang qua đường có thể đi tiếp cho hết. Một số đèn có đếm ngược số giây còn lại.\n\n**Biển báo lối qua đường cho người đi bộ có đèn vàng nhấp nháy:** giảm tốc độ xuống **30 km/h** hoặc thấp hơn, và nhường đường hoặc dừng lại cho người đi bộ.\n\n**Đèn đảo chiều làn (lane reversal signals)** điều khiển những làn đường thay đổi chiều đi trong ngày:\n\n- **Dấu X màu đỏ** phía trên làn: **không** được đi vào hoặc ở lại trong làn đó. Xe ngược chiều đang sử dụng làn này.\n- **Mũi tên xanh chỉ xuống:** bạn được phép chạy trong làn đó.\n\n*Driver's Guide tr. 23–24*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Line colours and patterns",
+        "body": "**Colour tells you direction:**\n\n- **Yellow** lines separate traffic going in **opposite** directions. The yellow line should always be on your **left**.\n- **White** lines separate lanes going in the **same** direction.\n\n**Pattern tells you whether you may cross:**\n\n- **Solid** line: crossing it to pass or change lanes is **not permitted**.\n- **Broken** line: crossing it to pass or change lanes is **permitted**, when safe.\n\n*Driver's Guide pp. 38–39*"
+      },
+      "sourceHash": "b9d55ab37c2d6dfe4485089ba2612365",
+      "title": "Màu sắc và kiểu vạch kẻ",
+      "body": "**Màu sắc cho biết hướng đi:**\n\n- Vạch **vàng** phân cách các dòng xe đi **ngược chiều** nhau. Vạch vàng luôn phải ở bên **trái** bạn.\n- Vạch **trắng** phân cách các làn xe đi **cùng chiều**.\n\n**Kiểu vạch cho biết bạn có được cắt qua hay không:**\n\n- Vạch **liền**: **không được phép** cắt qua để vượt xe hoặc chuyển làn.\n- Vạch **đứt**: **được phép** cắt qua để vượt xe hoặc chuyển làn, khi an toàn.\n\n*Driver's Guide tr. 38–39*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Yellow lines and passing",
+        "body": "| Centre line | Passing |\n| --- | --- |\n| **Broken** yellow | Allowed when safe |\n| **Solid and broken** together | Allowed only for the driver with the **broken** line on their side |\n| **Single solid** yellow | Not allowed, **except** passing safely inside an **urban area** |\n| **Double solid** yellow | Not allowed |\n\nThe exception: you may cross the solid yellow line to enter a **two-way left-turn lane**.\n\n*Driver's Guide pp. 38, 67*"
+      },
+      "sourceHash": "eb42dcbed68e0bf95304c8abb2bc7d21",
+      "title": "Vạch vàng và việc vượt xe",
+      "body": "| Vạch giữa đường | Vượt xe |\n| --- | --- |\n| Vạch vàng **đứt** | Được phép khi an toàn |\n| **Vạch liền và vạch đứt** đi cùng nhau | Chỉ được phép với tài xế có vạch **đứt** ở phía mình |\n| Vạch vàng **liền đơn** | Không được phép, **ngoại trừ** vượt xe an toàn trong **khu vực đô thị** |\n| Vạch vàng **liền đôi** | Không được phép |\n\nNgoại lệ: bạn có thể cắt qua vạch vàng liền để đi vào **làn rẽ trái hai chiều (two-way left-turn lane)**.\n\n*Driver's Guide tr. 38, 67*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Other pavement markings",
+        "body": "- **Arrows** show the movements allowed from a lane.\n- **Two-way left-turn lane:** the centre lane is shared by left-turning traffic from **both directions**. Enter it only close to where you will turn.\n- **Diamond** markings show a lane **reserved** for certain vehicles (buses, taxis, bicycles).\n- **Bicycle lanes:** don't drive in them, except to turn or to get in or out of a parking spot. The line is usually dashed near corners where you may enter to turn right. A bicycle with **two chevrons** above it means cyclists share your lane.\n- **Large X** on a rural highway: a **railway crossing** is ahead.\n- **Painted island** (striped area): not for travel, stopping, or parking. You may cross it only to enter or leave a driveway or alley.\n- **Crosswalks** exist at intersections even when they **aren't marked**. **Stop lines** show where to stop.\n- **No stopping zone** (box with an X near an intersection): leave it clear for large turning vehicles.\n\n*Driver's Guide pp. 39–41*"
+      },
+      "sourceHash": "c2d36e1dea9db81c61345726e588cbc5",
+      "title": "Các vạch kẻ đường khác",
+      "body": "- **Mũi tên** cho biết các hướng đi được phép từ một làn.\n- **Làn rẽ trái hai chiều:** làn giữa được dùng chung bởi xe rẽ trái từ **cả hai hướng**. Chỉ đi vào làn này khi đã gần chỗ bạn sẽ rẽ.\n- Ký hiệu **hình thoi** cho biết làn đường **dành riêng** cho một số loại xe (xe buýt, taxi, xe đạp).\n- **Làn xe đạp:** không được chạy xe trong làn này, trừ khi rẽ hoặc ra vào chỗ đậu xe. Gần các góc đường, vạch thường là vạch đứt, là nơi bạn có thể đi vào để rẽ phải. Hình xe đạp có **hai dấu mũi tên chữ V (chevrons)** phía trên nghĩa là người đi xe đạp dùng chung làn với bạn.\n- **Chữ X lớn** trên đường cao tốc ở vùng nông thôn: phía trước có **chỗ đường ray xe lửa cắt ngang**.\n- **Đảo sơn** (vùng kẻ sọc): không dành cho xe chạy, dừng hoặc đậu. Bạn chỉ được cắt qua để vào hoặc ra khỏi lối xe vào nhà hoặc hẻm.\n- **Lối qua đường cho người đi bộ** vẫn tồn tại ở các giao lộ ngay cả khi **không được kẻ vạch**. **Vạch dừng** cho biết vị trí phải dừng lại.\n- **Khu vực cấm dừng** (ô vuông có chữ X gần giao lộ): để trống cho xe lớn rẽ.\n\n*Driver's Guide tr. 39–41*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Quick reference",
+        "body": "| You see | Meaning |\n| --- | --- |\n| Solid red | Stop. Right turn OK after a full stop unless a sign says no. |\n| Flashing red | Stop sign |\n| Solid yellow | Stop unless you can't stop safely |\n| Flashing yellow | Caution, yield, then go |\n| Green arrow + red | Only the arrow's direction |\n| Red X over lane | Don't use this lane |\n| Flashing yellow on a crosswalk sign | Max **30 km/h**, yield to pedestrians |\n| Yellow line | Traffic in opposite directions, keep it on your left |\n| White line | Traffic in the same direction |\n| Solid line | Don't cross to pass or change lanes |\n| Broken line | You may cross when safe |"
+      },
+      "sourceHash": "2f39f986c3509a45b5d7a4a363981ba8",
+      "title": "Tra cứu nhanh",
+      "body": "| Bạn thấy | Ý nghĩa |\n| --- | --- |\n| Đèn đỏ liên tục | Dừng lại. Được rẽ phải sau khi dừng hẳn, trừ khi có biển cấm. |\n| Đèn đỏ nhấp nháy | Như biển báo dừng |\n| Đèn vàng liên tục | Dừng lại, trừ khi không thể dừng an toàn |\n| Đèn vàng nhấp nháy | Thận trọng, nhường đường, rồi đi |\n| Mũi tên xanh + đèn đỏ | Chỉ được đi theo hướng mũi tên |\n| Dấu X đỏ trên làn | Không được dùng làn này |\n| Đèn vàng nhấp nháy trên biển báo lối qua đường | Tối đa **30 km/h**, nhường người đi bộ |\n| Vạch vàng | Xe đi ngược chiều, giữ vạch ở bên trái bạn |\n| Vạch trắng | Xe đi cùng chiều |\n| Vạch liền | Không cắt qua để vượt xe hoặc chuyển làn |\n| Vạch đứt | Được cắt qua khi an toàn |",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Don't mix these up",
+        "body": "- **Flashing red vs solid red:** flashing red is a stop sign (stop, then go when safe). Solid red means stay stopped until green.\n- **Flashing yellow vs solid yellow:** flashing means proceed with caution. Solid means stop if you safely can.\n- **Left on red** is only allowed from a **one-way onto a one-way** street.\n- **Solid + broken yellow:** only the line on **your** side counts.\n- **Single solid yellow** in an **urban** area can be crossed to pass safely. Elsewhere it means no passing.\n- **Unmarked crosswalks are still crosswalks.** Every intersection has one unless a sign says no crossing."
+      },
+      "sourceHash": "41218186ec53a1dc3b9950288474511a",
+      "title": "Đừng nhầm lẫn những điều này",
+      "body": "- **Đèn đỏ nhấp nháy và đèn đỏ liên tục:** đèn đỏ nhấp nháy giống biển báo dừng (dừng lại, rồi đi khi an toàn). Đèn đỏ liên tục nghĩa là phải dừng cho đến khi đèn xanh.\n- **Đèn vàng nhấp nháy và đèn vàng liên tục:** nhấp nháy nghĩa là đi tiếp một cách thận trọng. Liên tục nghĩa là dừng lại nếu bạn có thể dừng an toàn.\n- **Rẽ trái khi đèn đỏ** chỉ được phép từ **đường một chiều sang đường một chiều**.\n- **Vạch vàng liền + đứt:** chỉ vạch ở phía **bạn** mới có giá trị.\n- **Vạch vàng liền đơn** trong khu vực **đô thị** có thể được cắt qua để vượt xe an toàn. Ở nơi khác, vạch này nghĩa là cấm vượt.\n- **Lối qua đường không kẻ vạch vẫn là lối qua đường.** Giao lộ nào cũng có, trừ khi có biển cấm người đi bộ qua đường.",
+      "status": "approved"
+    }
+  ]
+}

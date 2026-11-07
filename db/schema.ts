@@ -7,6 +7,7 @@ import {
   boolean,
   pgEnum,
   index,
+  primaryKey,
 } from "drizzle-orm/pg-core";
 import { relations } from "drizzle-orm";
 
@@ -121,4 +122,41 @@ export const answerAttempts = pgTable(
       t.createdAt,
     ),
   ],
+);
+
+export const translationStatus = pgEnum("translation_status", [
+  "draft",
+  "approved",
+]);
+
+export const topicTranslations = pgTable(
+  "topic_translations",
+  {
+    topicId: uuid("topic_id")
+      .notNull()
+      .references(() => topics.id, { onDelete: "cascade" }),
+    locale: text("locale").notNull(),
+    title: text("title").notNull(),
+    status: translationStatus("status").notNull().default("draft"),
+    sourceHash: text("source_hash").notNull(), // md5(topics.title)
+    updatedAt: timestamp("updated_at").defaultNow().notNull(),
+  },
+  (t) => [primaryKey({ columns: [t.topicId, t.locale] })],
+);
+
+export const topicContentTranslations = pgTable(
+  "topic_content_translations",
+  {
+    topicId: uuid("topic_id")
+      .notNull()
+      .references(() => topics.id, { onDelete: "cascade" }),
+    order: integer("order").notNull(),
+    locale: text("locale").notNull(),
+    title: text("title").notNull(),
+    body: text("body").notNull(),
+    status: translationStatus("status").notNull().default("draft"),
+    sourceHash: text("source_hash").notNull(), // md5(title || '\n' || body)
+    updatedAt: timestamp("updated_at").defaultNow().notNull(),
+  },
+  (t) => [primaryKey({ columns: [t.topicId, t.order, t.locale] })],
 );

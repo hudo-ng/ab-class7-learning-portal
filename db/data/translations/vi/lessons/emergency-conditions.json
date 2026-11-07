@@ -1,0 +1,130 @@
+{
+  "topic": {
+    "en": "Emergencies & Hazardous Conditions",
+    "sourceHash": "d1b38d99c369216f8f923d7179f97119",
+    "title": "Tình huống khẩn cấp & điều kiện nguy hiểm",
+    "status": "approved"
+  },
+  "blocks": [
+    {
+      "en": {
+        "title": "What you'll learn",
+        "body": "**In this topic you'll learn:**\n\n- How to brake in an emergency, with and without ABS\n- How to recover from skids and from driving off the pavement\n- What to do when your vehicle breaks down\n- How to drive at night and in fog, rain, and winter conditions\n- What to do after a collision, and how to respond to emergency vehicles"
+      },
+      "sourceHash": "916b2fa861d3ef49cceabcc797b4ba21",
+      "title": "Bạn sẽ học được gì",
+      "body": "**Trong chủ đề này, bạn sẽ học:**\n\n- Cách phanh khẩn cấp, khi xe có và không có ABS\n- Cách xử lý khi xe bị trượt và khi xe chạy lệch ra khỏi mặt đường nhựa\n- Cần làm gì khi xe bị hỏng\n- Cách lái xe vào ban đêm và trong sương mù, mưa và điều kiện mùa đông\n- Cần làm gì sau va chạm, và cách phản ứng với xe ưu tiên",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Emergency braking",
+        "body": "The goal is to stop **as quickly as possible without losing steering control**.\n\n| Your vehicle | What to do |\n| --- | --- |\n| **Has ABS** (most do) | Press the brake **firmly and steadily**. **Don't pump** or release it. You'll feel a vibration, which is normal. Steer where you want to go. |\n| **No ABS** | Use **threshold braking**: press firmly to just before the wheels lock. If they lock, **ease off slightly**, then press again. |\n\nLocked wheels mean you **can't steer**.\n\n*Driver's Guide p. 78*"
+      },
+      "sourceHash": "b80b80ad2d4e8dd0292d8e4e3e34326c",
+      "title": "Phanh khẩn cấp",
+      "body": "Mục tiêu là dừng xe **nhanh nhất có thể mà không mất khả năng điều khiển tay lái**.\n\n| Xe của bạn | Cần làm gì |\n| --- | --- |\n| **Có ABS** (hầu hết các xe) | Đạp phanh **mạnh và đều**. **Không nhấp nhả phanh** hoặc buông phanh. Bạn sẽ cảm thấy rung, điều này là bình thường. Đánh lái về hướng bạn muốn đi. |\n| **Không có ABS** | Dùng **kỹ thuật phanh ngưỡng (threshold braking)**: đạp mạnh đến ngay trước khi bánh xe bị bó cứng. Nếu bánh bị bó cứng, **nhả phanh ra một chút**, rồi đạp lại. |\n\nBánh xe bị bó cứng nghĩa là bạn **không thể đánh lái**.\n\n*Driver's Guide tr. 78*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Skids",
+        "body": "**Most skids are caused by driver error:** going too fast for the conditions, steering too sharply, braking too hard, or accelerating too quickly.\n\n**In any skid:** keep your foot **off the brake**, and **look and steer where you want the front of the vehicle to go**, with small corrections.\n\n| Skid | Cause | What to do |\n| --- | --- | --- |\n| **Braking skid** (no ABS) | Wheels locked by hard braking | **Release the brake** until the wheels roll again, then brake more gently |\n| **Power skid** | Accelerating too hard, wheels spin | **Ease off the gas**, steer, and don't over-correct |\n| **Cornering skid** | Too fast in a turn | **Off the gas, no brakes**, steer where you want to go |\n\n*Driver's Guide pp. 78–79*"
+      },
+      "sourceHash": "4ed60a482b2ba47db5758d4a55f3a964",
+      "title": "Xe bị trượt",
+      "body": "**Phần lớn các trường hợp trượt là do lỗi của tài xế:** chạy quá nhanh so với điều kiện, đánh lái quá gắt, phanh quá mạnh, hoặc tăng tốc quá nhanh.\n\n**Với bất kỳ kiểu trượt nào:** **không đạp phanh**, và **nhìn và đánh lái về hướng bạn muốn đầu xe đi tới**, với những điều chỉnh nhỏ.\n\n| Kiểu trượt | Nguyên nhân | Cần làm gì |\n| --- | --- | --- |\n| **Trượt do phanh** (không có ABS) | Bánh xe bị bó cứng do phanh gấp | **Nhả phanh** cho đến khi bánh xe lăn lại, rồi phanh nhẹ hơn |\n| **Trượt do tăng tốc** | Tăng tốc quá mạnh, bánh xe quay trơn | **Nhả nhẹ chân ga**, đánh lái, và không điều chỉnh quá mức |\n| **Trượt khi vào cua** | Vào cua quá nhanh | **Nhả ga, không phanh**, đánh lái về hướng bạn muốn đi |\n\n*Driver's Guide tr. 78–79*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "If you drive off the pavement",
+        "body": "1. Keep a **firm grip** on the steering wheel.\n2. **Don't steer back right away.** A sharp turn back can send you across the road.\n3. Take your foot **off the gas** to slow down.\n4. **Avoid braking.** If you must, brake gently.\n5. Check for traffic, then **ease back** onto the road and straighten up in your lane.\n\n*Driver's Guide pp. 79–80*"
+      },
+      "sourceHash": "15f6c506753f78e13c17b4c2d94982cf",
+      "title": "Nếu xe chạy lệch ra khỏi mặt đường nhựa",
+      "body": "1. **Nắm chắc** vô lăng.\n2. **Không đánh lái trở lại ngay.** Đánh lái nhanh trở lại có thể khiến xe lao sang bên kia đường.\n3. **Nhả chân ga** để giảm tốc.\n4. **Tránh phanh.** Nếu buộc phải phanh, hãy phanh nhẹ.\n5. Kiểm tra xe cộ, rồi **từ từ đưa xe trở lại** mặt đường và chạy thẳng trong làn của bạn.\n\n*Driver's Guide tr. 79–80*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Breakdowns and vehicle failures",
+        "body": "**If you have to stop:** pull over somewhere safe, **not on a bridge or in a tunnel**. Turn on your **hazard lights** and raise the hood. On a highway, place **reflective triangles** behind the vehicle, **10–20 m** apart. If it's dangerous, everyone should wait **away from the vehicle, behind it**.\n\n- **Brake failure:** press the pedal harder and hold steady pressure. If that fails, carefully use the **park brake** and shift to a lower gear.\n- **Power steering failure:** you can still steer, it just takes more effort.\n- **Flat tire:** **don't brake right away**. Ease off the gas, hold the wheel firmly, keep straight, then brake gently and pull over.\n- **Both headlights fail:** turn on your hazards, try switching the headlights off and on, then slow down and pull over.\n\n*Driver's Guide pp. 80–81*"
+      },
+      "sourceHash": "d6d37ad6068005a7e64e42dced570dfc",
+      "title": "Xe bị hỏng và sự cố kỹ thuật",
+      "body": "**Nếu phải dừng xe:** tấp vào nơi an toàn, **không dừng trên cầu hoặc trong đường hầm**. Bật **đèn khẩn cấp (hazard lights)** và mở nắp capô. Trên đường cao tốc, đặt **tam giác phản quang** phía sau xe, cách nhau **10–20 m**. Nếu nguy hiểm, mọi người nên chờ **cách xa xe, ở phía sau xe**.\n\n- **Mất phanh:** đạp thắng mạnh hơn và giữ lực đều. Nếu vẫn không được, cẩn thận dùng **phanh tay (park brake)** và chuyển sang số thấp hơn.\n- **Hỏng trợ lực lái:** bạn vẫn có thể đánh lái, chỉ cần dùng nhiều sức hơn.\n- **Xì lốp:** **không phanh ngay**. Nhả nhẹ chân ga, giữ chắc vô lăng, giữ xe đi thẳng, rồi phanh nhẹ và tấp vào lề.\n- **Cả hai đèn pha đều hỏng:** bật đèn khẩn cấp, thử tắt rồi bật lại đèn pha, sau đó giảm tốc và tấp vào lề.\n\n*Driver's Guide tr. 80–81*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Night driving and glare",
+        "body": "- Turn your **headlights on** at night, and **any time you can't see 150 m ahead**. Daytime running lights aren't enough, because your tail lights won't be on.\n- Switch to **low beams within 300 m of oncoming** vehicles, and **within 150 m of a vehicle you're following**.\n- **Don't overdrive your headlights:** drive slowly enough to stop within the distance they light up.\n- If oncoming headlights dazzle you, look **down and to the right edge** of your lane.\n- If glare makes it hard to see, slow down. Keep your windows clean.\n\n*Driver's Guide pp. 81–82*"
+      },
+      "sourceHash": "be38984ab03ee2bfb27c5176e17ac9aa",
+      "title": "Lái xe ban đêm và chói mắt",
+      "body": "- **Bật đèn pha** vào ban đêm, và **bất cứ khi nào bạn không nhìn thấy xa 150 m phía trước**. Đèn chạy ban ngày (daytime running lights) là chưa đủ, vì đèn hậu của bạn sẽ không sáng.\n- Chuyển sang **đèn cốt (low beams) khi xe ngược chiều cách trong vòng 300 m**, và **khi bạn đi sau một xe trong vòng 150 m**.\n- **Đừng chạy nhanh hơn tầm chiếu của đèn pha:** chạy đủ chậm để có thể dừng trong khoảng cách mà đèn chiếu sáng.\n- Nếu đèn xe ngược chiều làm bạn lóa mắt, hãy nhìn **xuống và về phía mép phải** của làn.\n- Nếu bị chói khiến khó nhìn, hãy giảm tốc. Giữ kính xe sạch sẽ.\n\n*Driver's Guide tr. 81–82*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Fog, rain, and winter roads",
+        "body": "**Fog, smoke, rain:** use **low beams**, because high beams reflect back and cause glare. If you can't see well enough to drive safely, pull **well off the road**, turn on your hazards, and wait.\n\n**Hydroplaning** (tires riding on water): **don't brake**. Ease off the gas and steer where you want to go.\n\n**Ice and snow:**\n\n- **Black ice** looks shiny and black instead of grey-white. Slow down without braking.\n- **Shaded areas, bridges, and overpasses** stay icy longer, and **intersections** get icy quickly.\n- **Slow down**, and leave more room to stop. Speed is the most important thing to control.\n- **Don't use cruise control** on slippery roads.\n\n**Stranded in winter?** It's usually safer to **stay with your vehicle**. Run the engine only enough to stay warm, with a window **slightly open** to prevent **carbon monoxide** poisoning.\n\n*Driver's Guide pp. 82–83*"
+      },
+      "sourceHash": "627527189f04067c19720cab5f039e4d",
+      "title": "Sương mù, mưa và đường mùa đông",
+      "body": "**Sương mù, khói, mưa:** dùng **đèn cốt**, vì đèn pha chiếu xa (high beams) sẽ phản chiếu lại và gây chói. Nếu bạn không nhìn đủ rõ để lái xe an toàn, hãy tấp **hẳn ra khỏi đường**, bật đèn khẩn cấp, và chờ.\n\n**Hiện tượng trượt nước (hydroplaning)** (lốp xe lướt trên mặt nước): **không phanh**. Nhả nhẹ chân ga và đánh lái về hướng bạn muốn đi.\n\n**Băng và tuyết:**\n\n- **Băng đen (black ice)** trông bóng và đen thay vì trắng xám. Giảm tốc mà không phanh.\n- **Chỗ có bóng râm, cầu và cầu vượt** đóng băng lâu hơn, và **giao lộ** đóng băng nhanh.\n- **Giảm tốc**, và chừa thêm khoảng cách để dừng. Tốc độ là điều quan trọng nhất cần kiểm soát.\n- **Không dùng chế độ giữ tốc độ (cruise control)** trên đường trơn.\n\n**Bị mắc kẹt vào mùa đông?** Thường thì **ở lại trong xe** sẽ an toàn hơn. Chỉ nổ máy đủ để giữ ấm, và **hé mở** một cửa sổ để tránh ngộ độc **khí carbon monoxide (CO)**.\n\n*Driver's Guide tr. 82–83*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Animals on the road",
+        "body": "- Slow down in areas with **wildlife warning signs**, and scan the sides of the road.\n- Animals are most active at **dusk and dawn**.\n- At night, watch for **eyes reflecting** your headlights.\n- Animals often travel in **groups**. If you see one, expect more.\n- If one appears suddenly, **brake hard** and steer away from oncoming traffic if you must avoid it.\n\n*Driver's Guide p. 84*"
+      },
+      "sourceHash": "b07edaf72e9b1fc0bd3dc7736e16836f",
+      "title": "Thú vật trên đường",
+      "body": "- Giảm tốc ở những khu vực có **biển cảnh báo động vật hoang dã**, và quan sát hai bên đường.\n- Thú vật hoạt động nhiều nhất vào **lúc chạng vạng và bình minh**.\n- Vào ban đêm, chú ý những **đôi mắt phản chiếu** ánh đèn pha của bạn.\n- Thú vật thường đi theo **bầy**. Nếu bạn thấy một con, hãy chờ đợi sẽ có thêm.\n- Nếu thú vật bất ngờ xuất hiện, **phanh mạnh** và đánh lái tránh xa dòng xe ngược chiều nếu bạn buộc phải né.\n\n*Driver's Guide tr. 84*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "After a collision",
+        "body": "**First on the scene?** Stop safely away from the collision, protect the scene with hazard lights and triangles, help if you can, and call for help. Give exact details about the location and any injuries.\n\n**Involved in a collision?**\n\n- Help where you can, protect the scene, and call emergency services if needed.\n- Exchange names, contact details, and insurance information.\n- Get witnesses' names and contact details.\n- **Don't discuss who was at fault.**\n- Note the time, place, and weather, and tell your insurance company.\n\n**You must report it to police if:** anyone is **injured or killed**, total damage is **over $5,000**, or any **traffic control device or public property** is damaged. If police are called, every driver must stay.\n\n*Driver's Guide p. 84*"
+      },
+      "sourceHash": "de32ce2058686b2eddd89673a0f3b09e",
+      "title": "Sau khi va chạm",
+      "body": "**Bạn là người đầu tiên có mặt?** Dừng xe an toàn cách xa chỗ va chạm, bảo vệ hiện trường bằng đèn khẩn cấp và tam giác phản quang, giúp đỡ nếu có thể, và gọi cứu trợ. Cung cấp chính xác vị trí và tình trạng thương tích.\n\n**Bạn có liên quan đến vụ va chạm?**\n\n- Giúp đỡ khi có thể, bảo vệ hiện trường, và gọi dịch vụ khẩn cấp nếu cần.\n- Trao đổi họ tên, thông tin liên lạc và thông tin bảo hiểm.\n- Ghi lại họ tên và thông tin liên lạc của nhân chứng.\n- **Không tranh luận xem ai có lỗi.**\n- Ghi lại thời gian, địa điểm và thời tiết, và báo cho công ty bảo hiểm.\n\n**Bạn phải báo cảnh sát nếu:** có người **bị thương hoặc tử vong**, tổng thiệt hại **trên $5,000**, hoặc có bất kỳ **thiết bị điều khiển giao thông hay tài sản công** nào bị hư hại. Nếu cảnh sát được gọi đến, mọi tài xế đều phải ở lại.\n\n*Driver's Guide tr. 84*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Emergency vehicles, tow trucks, and police",
+        "body": "**An emergency vehicle with its siren on, coming from any direction:**\n\n- **Pull as close as possible to the right curb** (on a one-way street, the nearest curb) and **stop**.\n- Stay stopped until it passes, and check that no others are coming.\n- Treat **flashing green lights** (volunteer firefighters) the same way.\n- Never follow within **150 m** of an emergency vehicle with its siren or lights on.\n\n**Passing stopped emergency vehicles or tow trucks** with lights flashing: slow to **60 km/h**, or the posted limit if lower, in the lane next to them. Fines are **doubled**.\n\n**Pulled over by police:** stop safely at the right edge (on a one-way street, the nearest edge). Put it in park, set the park brake, **stay in the vehicle**, have your licence, registration, and insurance ready, and don't move until told to.\n\n*Driver's Guide pp. 85–86*"
+      },
+      "sourceHash": "7fc32c3a8082635b1b247d3b4f62aadc",
+      "title": "Xe ưu tiên, xe kéo và cảnh sát",
+      "body": "**Xe ưu tiên đang hú còi, đến từ bất kỳ hướng nào:**\n\n- **Tấp vào sát lề phải nhất có thể** (trên đường một chiều, tấp vào lề gần nhất) và **dừng lại**.\n- Tiếp tục dừng cho đến khi xe ưu tiên đi qua, và kiểm tra không còn xe nào khác đang đến.\n- Đối xử với **đèn xanh lá nhấp nháy** (lính cứu hỏa tình nguyện) theo cách tương tự.\n- Không bao giờ chạy theo sau xe ưu tiên đang hú còi hoặc bật đèn trong vòng **150 m**.\n\n**Khi đi qua xe ưu tiên hoặc xe kéo đang dừng** và nhấp nháy đèn: giảm tốc xuống **60 km/h**, hoặc giới hạn tốc độ được cắm nếu thấp hơn, ở làn ngay cạnh các xe đó. Tiền phạt được **nhân đôi**.\n\n**Bị cảnh sát yêu cầu dừng xe:** dừng an toàn ở mép bên phải (trên đường một chiều, mép gần nhất). Chuyển sang số P, kéo phanh tay, **ở yên trong xe**, chuẩn bị sẵn bằng lái, giấy đăng ký xe và bảo hiểm, và không di chuyển cho đến khi được yêu cầu.\n\n*Driver's Guide tr. 85–86*",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Key numbers",
+        "body": "| What | Number |\n| --- | --- |\n| Headlights on when you can't see | **150 m** ahead |\n| Low beams: oncoming vehicle | within **300 m** |\n| Low beams: vehicle ahead of you | within **150 m** |\n| Reflective triangles | **10–20 m** apart, behind the vehicle |\n| Report a collision to police | injury, death, or damage over **$5,000** |\n| Following an emergency vehicle | stay back at least **150 m** |\n| Passing stopped emergency vehicles or tow trucks | max **60 km/h** (or lower posted limit) |"
+      },
+      "sourceHash": "d30b19c7f756858ac82ae11eb73f20b9",
+      "title": "Các con số quan trọng",
+      "body": "| Nội dung | Con số |\n| --- | --- |\n| Bật đèn pha khi không nhìn thấy | xa **150 m** phía trước |\n| Đèn cốt: xe ngược chiều | trong vòng **300 m** |\n| Đèn cốt: xe phía trước bạn | trong vòng **150 m** |\n| Tam giác phản quang | cách nhau **10–20 m**, phía sau xe |\n| Báo cảnh sát về va chạm | có thương tích, tử vong, hoặc thiệt hại trên **$5,000** |\n| Đi theo sau xe ưu tiên | cách xa ít nhất **150 m** |\n| Đi qua xe ưu tiên hoặc xe kéo đang dừng | tối đa **60 km/h** (hoặc giới hạn thấp hơn được cắm) |",
+      "status": "approved"
+    },
+    {
+      "en": {
+        "title": "Don't mix these up",
+        "body": "- **ABS vs no ABS:** with ABS, press firmly and **don't pump**. Without ABS, use threshold braking and **ease off** if the wheels lock.\n- **In a skid, don't brake.** Look and steer where you want to go.\n- **300 m vs 150 m:** low beams within 300 m of **oncoming** traffic, and within 150 m when **following**.\n- **Siren behind you:** **pull right and stop**. Slowing down isn't enough.\n- **60 km/h** applies in the lane **next to** stopped emergency vehicles or tow trucks.\n- **Off the pavement:** don't jerk back onto the road. Slow down first, then ease back."
+      },
+      "sourceHash": "8b0c0571a1ffd00f3e56b65b28680925",
+      "title": "Đừng nhầm lẫn những điều này",
+      "body": "- **Có ABS và không có ABS:** có ABS, đạp mạnh và **không nhấp nhả**. Không có ABS, dùng kỹ thuật phanh ngưỡng và **nhả bớt phanh** nếu bánh xe bị bó cứng.\n- **Khi xe bị trượt, không phanh.** Nhìn và đánh lái về hướng bạn muốn đi.\n- **300 m và 150 m:** dùng đèn cốt khi xe **ngược chiều** cách trong vòng 300 m, và trong vòng 150 m khi **đi theo sau**.\n- **Có còi hú phía sau:** **tấp vào bên phải và dừng lại**. Chỉ giảm tốc là chưa đủ.\n- **60 km/h** áp dụng ở làn **ngay cạnh** xe ưu tiên hoặc xe kéo đang dừng.\n- **Xe chạy lệch khỏi mặt đường nhựa:** không giật lái trở lại đường. Giảm tốc trước, rồi từ từ đưa xe trở lại.",
+      "status": "approved"
+    }
+  ]
+}
