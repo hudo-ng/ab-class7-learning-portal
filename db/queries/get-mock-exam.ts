@@ -2,6 +2,7 @@ import { db } from "@/db/index";
 import { questions, topics } from "@/db/schema";
 import { eq, sql, inArray, notInArray, and } from "drizzle-orm";
 import { EXAM_BLUEPRINT, EXAM_QUESTION_COUNT } from "@/lib/exam-blueprint";
+import { localizeQuestions } from "@/db/queries/localized";
 
 function pick(where: ReturnType<typeof and>, limit: number) {
   return db.query.questions.findMany({
@@ -18,7 +19,7 @@ function pick(where: ReturnType<typeof and>, limit: number) {
   });
 }
 
-export async function getMockExamQuestions() {
+export async function getMockExamQuestions(locale: string) {
   const topicRows = await db
     .select({ id: topics.id, slug: topics.slug })
     .from(topics)
@@ -56,11 +57,14 @@ export async function getMockExamQuestions() {
     [rows[i], rows[j]] = [rows[j], rows[i]];
   }
 
-  return rows.map((q) => ({
+  const localized = await localizeQuestions(rows, locale);
+
+  return localized.map((q) => ({
     questionId: q.id,
     prompt: q.prompt,
     explanation: q.explanation,
     imgUrl: q.imgUrl ?? undefined,
     choices: q.choices.map((c) => ({ choiceId: c.id, choiceText: c.text })),
+    translated: q.translated,
   }));
 }

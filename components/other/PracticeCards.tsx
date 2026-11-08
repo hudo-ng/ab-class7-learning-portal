@@ -20,6 +20,7 @@ interface Question {
   explanation: string;
   imgUrl?: string | null;
   choices: Choice[];
+  translated?: boolean;
 }
 
 export function PracticeCards({ questions }: { questions: Question[] }) {
@@ -93,6 +94,12 @@ export function PracticeCards({ questions }: { questions: Question[] }) {
         <h2 className="text-xl font-semibold leading-relaxed">
           {currentQuestion.prompt}
         </h2>
+
+        {currentQuestion.translated && (
+          <p className="text-xs text-muted-foreground italic">
+            {tCommon("unofficialTranslation")}
+          </p>
+        )}
 
         {currentQuestion.imgUrl && (
           <div className="flex justify-center">

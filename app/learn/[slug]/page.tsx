@@ -18,6 +18,7 @@ export default async function TopicPage({
 
   if (!topic) return null;
   const t = await getTranslations("Learn");
+  const tCommon = await getTranslations("Common");
 
   const blocks = await getLocalizedLessonBlocks(topic.id, locale);
   const hasTranslation = blocks.some((b) => b.translated);
@@ -29,7 +30,7 @@ export default async function TopicPage({
         <p className="text-muted-foreground">{t("topicSubtitle")}</p>
         {hasTranslation && (
           <p className="text-xs text-muted-foreground italic">
-            {t("unofficialTranslation")}
+            {tCommon("unofficialTranslation")}
           </p>
         )}
       </header>

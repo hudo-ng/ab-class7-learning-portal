@@ -1,0 +1,818 @@
+{
+  "questions": [
+    {
+      "id": "bf039040-8196-4965-a0ae-67fffee8bef0",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When are dual turns permitted at an intersection?",
+        "explanation": "Two lanes may turn at the same time only where pavement markings or signs show that dual turns are allowed. Key words: \"dual turns\".",
+        "choices": [
+          "Only when turning from a one-way road onto a one-way road",
+          "Any time there are at least 2 lanes on the road being entered",
+          "Only when indicated by pavement markings or traffic control signs",
+          "Only when the road has 6 or more lanes"
+        ]
+      },
+      "sourceHash": "dc7576075304470b60de45ce48e55d28",
+      "prompt": "Khi nào được phép rẽ hai làn (dual turns) tại giao lộ?",
+      "explanation": "Hai làn chỉ được rẽ cùng lúc ở nơi có vạch kẻ đường hoặc biển báo cho phép rẽ hai làn. Từ khóa: \"rẽ hai làn\" (dual turns).",
+      "choices": [
+        "Chỉ khi rẽ từ đường một chiều vào đường một chiều",
+        "Bất cứ lúc nào đường bạn rẽ vào có ít nhất 2 làn",
+        "Chỉ khi có vạch kẻ đường hoặc biển báo giao thông cho phép",
+        "Chỉ khi đường có từ 6 làn trở lên"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "6456efeb-ae94-4f21-baf4-c7153d19957d",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Unless otherwise permitted, what lane must a driver be in to turn left from a one-way road?",
+        "explanation": "To turn left from a one-way road, start from the lane nearest the left curb, unless signs or pavement markings allow another lane.",
+        "choices": [
+          "The centre lane",
+          "The lane closest to the right curb",
+          "The left lane nearest the left curb",
+          "The lane to the right of centre"
+        ]
+      },
+      "sourceHash": "8fb0eb6df50cc20d84d4887bdefa1878",
+      "prompt": "Trừ khi có quy định khác, tài xế phải ở làn nào để rẽ trái từ đường một chiều?",
+      "explanation": "Để rẽ trái từ đường một chiều, hãy bắt đầu từ làn gần lề trái nhất, trừ khi biển báo hoặc vạch kẻ đường cho phép làn khác.",
+      "choices": [
+        "Làn ở giữa",
+        "Làn gần lề phải nhất",
+        "Làn bên trái, gần lề trái nhất",
+        "Làn ngay bên phải tim đường"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "29ee4b8d-ef54-4706-8243-60be8c8f72c1",
+      "imgUrl": null,
+      "en": {
+        "prompt": "At a stop sign, a driver must:",
+        "explanation": "Stop before the stop line or the marked crosswalk. If there is neither, stop before entering the intersection at a point where you can see approaching traffic.",
+        "choices": [
+          "Stop in a position where the visibility is the greatest",
+          "Stop 10 metres before a marked crosswalk or stop line",
+          "Stop in the marked crosswalk or on the stop line",
+          "Stop before entering a marked crosswalk or crossing a stop line"
+        ]
+      },
+      "sourceHash": "51a3be5045c029af6543eda72416e9d9",
+      "prompt": "Tại biển báo dừng, tài xế phải:",
+      "explanation": "Dừng lại trước vạch dừng hoặc lối qua đường có kẻ vạch. Nếu không có cả hai, dừng lại trước khi vào giao lộ, tại chỗ bạn có thể nhìn thấy xe đang đến.",
+      "choices": [
+        "Dừng ở vị trí có tầm nhìn tốt nhất",
+        "Dừng cách lối qua đường có kẻ vạch hoặc vạch dừng 10 mét",
+        "Dừng trên lối qua đường có kẻ vạch hoặc trên vạch dừng",
+        "Dừng trước khi đi vào lối qua đường có kẻ vạch hoặc vượt qua vạch dừng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "f0a8883d-c027-4a4b-b6e3-edf9f5070585",
+      "imgUrl": null,
+      "en": {
+        "prompt": "An \"uncontrolled intersection\":",
+        "explanation": "An uncontrolled intersection has no traffic lights or signs. Slow down, be ready to stop, and yield to the vehicle on your right.",
+        "choices": [
+          "Has a flashing yellow light for one direction of traffic and a flashing red light for the other direction of traffic",
+          "Has traffic signs but no traffic control signal lights",
+          "Has no traffic control signal lights or traffic signs",
+          "Has Yield signs but no Stop signs"
+        ]
+      },
+      "sourceHash": "27325ad6859da25e8ca61ed7765ffd58",
+      "prompt": "\"Giao lộ không có điều khiển\" (uncontrolled intersection):",
+      "explanation": "Giao lộ không có điều khiển là giao lộ không có đèn giao thông hay biển báo. Hãy giảm tốc, sẵn sàng dừng lại, và nhường xe ở bên phải của bạn.",
+      "choices": [
+        "Có đèn vàng nhấp nháy cho một hướng và đèn đỏ nhấp nháy cho hướng còn lại",
+        "Có biển báo nhưng không có đèn tín hiệu giao thông",
+        "Không có đèn tín hiệu giao thông hay biển báo",
+        "Có biển nhường đường nhưng không có biển dừng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "7e6d13b4-6a6f-4fd8-a262-35324c2da29e",
+      "imgUrl": null,
+      "en": {
+        "prompt": "U-turns in urban areas are not permitted at:",
+        "explanation": "In urban areas, U-turns are not allowed at intersections controlled by traffic lights unless a sign allows them. They are also not allowed between intersections or at alleys. Key words: \"urban areas\", \"not\".",
+        "choices": [
+          "An intersection with marked traffic lanes",
+          "Roads with a landscaped median",
+          "An intersection controlled by a traffic control signal",
+          "An intersection controlled by Stop signs"
+        ]
+      },
+      "sourceHash": "84ea17cc4c8743e34cb9a27264ffde22",
+      "prompt": "Trong khu vực đô thị, không được quay đầu xe tại:",
+      "explanation": "Trong khu vực đô thị, không được quay đầu xe tại giao lộ có đèn giao thông, trừ khi có biển cho phép. Cũng không được quay đầu giữa hai giao lộ hoặc tại hẻm. Từ khóa: \"khu vực đô thị\", \"không được\".",
+      "choices": [
+        "Giao lộ có kẻ vạch làn đường",
+        "Đường có dải phân cách trồng cây",
+        "Giao lộ có đèn tín hiệu giao thông điều khiển",
+        "Giao lộ có biển dừng điều khiển"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "8ada42dd-1bfb-47c4-9e55-7c1dedd08789",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A driver attempting to turn left at a steady green traffic light:",
+        "explanation": "A steady green light does not give a left-turning driver the right-of-way. Yield to oncoming traffic and pedestrians, and turn only when it is safe.",
+        "choices": [
+          "Has the right-of-way over oncoming traffic",
+          "Must stop before the pedestrian crosswalk line, then proceed",
+          "Has the right-of-way over pedestrians",
+          "Must not cross the path of an approaching vehicle unless it is safe"
+        ]
+      },
+      "sourceHash": "4358215f6b1803ffd2e0b4524109293d",
+      "prompt": "Tài xế muốn rẽ trái khi đèn xanh sáng liên tục:",
+      "explanation": "Đèn xanh sáng liên tục không cho tài xế rẽ trái quyền ưu tiên. Hãy nhường xe ngược chiều và người đi bộ, và chỉ rẽ khi an toàn.",
+      "choices": [
+        "Có quyền ưu tiên so với xe ngược chiều",
+        "Phải dừng lại trước vạch lối qua đường cho người đi bộ, rồi mới đi tiếp",
+        "Có quyền ưu tiên so với người đi bộ",
+        "Không được cắt ngang đường đi của xe đang đến, trừ khi an toàn"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "c934c14e-1e10-48b6-bb21-639e85591967",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When turning left from a two-way road onto a one-way road, what lane should the vehicle enter?",
+        "explanation": "When turning left onto a one-way road, enter the lane nearest the left curb. Key words: \"onto a one-way road\", \"left side\".",
+        "choices": [
+          "The lane immediately to the right of centre",
+          "The lane nearest the curb on the left side of the one-way road",
+          "The centre lane of the one-way road",
+          "The right lane of the one-way road"
+        ]
+      },
+      "sourceHash": "4fbc17d738630899647c9230b25a4e88",
+      "prompt": "Khi rẽ trái từ đường hai chiều vào đường một chiều, xe nên đi vào làn nào?",
+      "explanation": "Khi rẽ trái vào đường một chiều, hãy đi vào làn gần lề trái nhất. Từ khóa: \"vào đường một chiều\", \"bên trái\".",
+      "choices": [
+        "Làn ngay bên phải tim đường",
+        "Làn gần lề bên trái nhất của đường một chiều",
+        "Làn giữa của đường một chiều",
+        "Làn bên phải của đường một chiều"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "724d1c09-e30a-4f75-8357-2f456beeb234",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A driver entering a traffic circle:",
+        "explanation": "Vehicles already in a traffic circle have the right-of-way. When entering, yield to them and wait for a safe gap. Key words: \"entering\".",
+        "choices": [
+          "Must yield to traffic on the right",
+          "Must yield to vehicles in the traffic circle",
+          "Has the right-of-way"
+        ]
+      },
+      "sourceHash": "68afbcc21691139b69006dd5b54a9ccf",
+      "prompt": "Tài xế đang đi vào vòng xuyến (traffic circle):",
+      "explanation": "Xe đã ở trong vòng xuyến có quyền ưu tiên. Khi đi vào, hãy nhường các xe đó và chờ khoảng trống an toàn. Từ khóa: \"đi vào\" (entering).",
+      "choices": [
+        "Phải nhường xe ở bên phải",
+        "Phải nhường xe đang ở trong vòng xuyến",
+        "Có quyền ưu tiên"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "413cb365-080b-4d2d-91f4-182ee0b5f463",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A vehicle exiting a parking lot onto a roadway:",
+        "explanation": "When leaving a parking lot, alley or driveway, come to a complete stop before the sidewalk area, then yield to pedestrians and to traffic on the road.",
+        "choices": [
+          "Must stop only if there is a Stop sign",
+          "Is not required to stop",
+          "Must stop before crossing the sidewalk only if there are pedestrians present",
+          "Must come to a complete stop"
+        ]
+      },
+      "sourceHash": "c279936208bbdab600c70a7f5d0e29e2",
+      "prompt": "Xe đi từ bãi đậu xe ra đường:",
+      "explanation": "Khi ra khỏi bãi đậu xe, hẻm hoặc lối xe vào nhà, hãy dừng hẳn trước khu vực vỉa hè, rồi nhường người đi bộ và các xe trên đường.",
+      "choices": [
+        "Chỉ phải dừng nếu có biển dừng",
+        "Không bắt buộc phải dừng",
+        "Chỉ phải dừng trước khi đi qua vỉa hè nếu có người đi bộ",
+        "Phải dừng hẳn"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "8802342a-4aa6-4053-8401-1a19518d75ae",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When approaching a Yield sign, you must:",
+        "explanation": "At a yield sign, slow down and be ready to stop. Give the right-of-way to traffic that does not face the sign and to all pedestrians, and go only when it is safe.",
+        "choices": [
+          "Yield the right-of-way to traffic not facing the sign and all pedestrians in the intersection",
+          "Always sound the horn to warn other traffic within the intersection",
+          "Expect all other vehicles to yield the right-of-way to you",
+          "Come to a stop and proceed after looking to the right and left"
+        ]
+      },
+      "sourceHash": "c18cfc81f438985be2b36925cfd5d06a",
+      "prompt": "Khi đến gần biển nhường đường (Yield), bạn phải:",
+      "explanation": "Tại biển nhường đường, hãy giảm tốc và sẵn sàng dừng lại. Nhường quyền ưu tiên cho xe không đối diện biển báo và cho mọi người đi bộ, và chỉ đi khi an toàn.",
+      "choices": [
+        "Nhường quyền ưu tiên cho xe không đối diện biển báo và mọi người đi bộ trong giao lộ",
+        "Luôn bấm còi để cảnh báo các xe khác trong giao lộ",
+        "Chờ đợi mọi xe khác nhường quyền ưu tiên cho bạn",
+        "Dừng lại và đi tiếp sau khi nhìn sang phải và trái"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "ddf6fc2b-7819-43c7-a0b4-557d143164db",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When two vehicles approach an uncontrolled \"T\" intersection at right angles to each other at approximately the same time:",
+        "explanation": "At an uncontrolled intersection, including a \"T\" intersection, the vehicle on the left yields to the vehicle on the right. Key words: \"left\".",
+        "choices": [
+          "The vehicle on the left must yield the right-of-way",
+          "The vehicle on the left has the right-of-way",
+          "The vehicle going straight through always has the right-of-way",
+          "Both vehicles must stop"
+        ]
+      },
+      "sourceHash": "dd8f5edc58d72f1110544c0aa0d46cb1",
+      "prompt": "Khi hai xe đến gần một giao lộ chữ \"T\" không có điều khiển, theo hướng vuông góc với nhau, vào khoảng cùng một lúc:",
+      "explanation": "Tại giao lộ không có điều khiển, kể cả giao lộ chữ \"T\", xe bên trái phải nhường xe bên phải. Từ khóa: \"bên trái\".",
+      "choices": [
+        "Xe bên trái phải nhường quyền ưu tiên",
+        "Xe bên trái có quyền ưu tiên",
+        "Xe đi thẳng luôn có quyền ưu tiên",
+        "Cả hai xe đều phải dừng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "f3abab59-e850-4b51-8833-c09eac815fb6",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Which statements best describes the steps for turning right at a red traffic light?",
+        "explanation": "Signal, stop completely, check for traffic and pedestrians,. Yield right-of-way, and then proceed safely, unless a sign prohibits it.",
+        "choices": [
+          "Right turns on a red traffic light are never permitted",
+          "Signal and make sure there is no sign prohibiting the turn, stop, look left and right, yield the right-of-way, then proceed",
+          "Reduce speed before the turn, look right for cyclists, signal and proceed",
+          "Signal and reduce speed before the turn, look left, yield to vehicles and proceed"
+        ]
+      },
+      "sourceHash": "8503892875ef606e995caa87b36f858c",
+      "prompt": "Câu nào mô tả đúng nhất các bước rẽ phải khi đèn giao thông đỏ?",
+      "explanation": "Bật xi nhan, dừng hẳn, kiểm tra xe cộ và người đi bộ, nhường quyền ưu tiên, rồi đi tiếp một cách an toàn, trừ khi có biển cấm.",
+      "choices": [
+        "Không bao giờ được rẽ phải khi đèn đỏ",
+        "Bật xi nhan và chắc chắn không có biển cấm rẽ, dừng lại, nhìn trái và phải, nhường quyền ưu tiên, rồi đi tiếp",
+        "Giảm tốc trước khi rẽ, nhìn bên phải tìm người đi xe đạp, bật xi nhan và đi tiếp",
+        "Bật xi nhan và giảm tốc trước khi rẽ, nhìn bên trái, nhường xe và đi tiếp"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "e057633c-aed8-441f-81eb-e7b24216ce53",
+      "imgUrl": null,
+      "en": {
+        "prompt": "At a stop sign with no stop line and no marked crosswalk, where must you stop?",
+        "explanation": "If there is no stop line or marked crosswalk, stop within three metres of the intersecting roadway, where you won't interfere with pedestrians. (Driver's Guide p. 59)",
+        "choices": [
+          "Within 3 metres of the intersecting roadway",
+          "Within 10 metres of the intersecting roadway",
+          "At the edge of the intersecting roadway, wherever you can see best",
+          "Within 15 metres of the stop sign"
+        ]
+      },
+      "sourceHash": "2dc97c9bd4b5abca7d84c2e06ac8dac7",
+      "prompt": "Tại biển báo dừng không có vạch dừng và không có lối qua đường có kẻ vạch, bạn phải dừng ở đâu?",
+      "explanation": "Nếu không có vạch dừng hoặc lối qua đường có kẻ vạch, hãy dừng lại trong vòng 3 mét trước đường giao cắt, ở chỗ bạn không cản trở người đi bộ. (Driver's Guide tr. 59)",
+      "choices": [
+        "Trong vòng 3 mét trước đường giao cắt",
+        "Trong vòng 10 mét trước đường giao cắt",
+        "Ở mép đường giao cắt, ở bất cứ chỗ nào bạn nhìn rõ nhất",
+        "Trong vòng 15 mét trước biển dừng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "5eeba8fc-6a87-41e1-bdd2-722e5f10c66c",
+      "imgUrl": null,
+      "en": {
+        "prompt": "At a four-way stop, which vehicle should go first?",
+        "explanation": "At three- and four-way stops, courtesy is to let the vehicle that arrived first go first. (Driver's Guide p. 59)",
+        "choices": [
+          "The vehicle going straight",
+          "The largest vehicle",
+          "The vehicle that arrived first",
+          "The vehicle on the left"
+        ]
+      },
+      "sourceHash": "e5cb4ec1d29a5fff0291bebcfe31c250",
+      "prompt": "Tại giao lộ dừng bốn hướng, xe nào nên đi trước?",
+      "explanation": "Tại giao lộ dừng ba và bốn hướng (courtesy corners), theo phép lịch sự, xe đến trước được đi trước. (Driver's Guide tr. 59)",
+      "choices": [
+        "Xe đi thẳng",
+        "Xe lớn nhất",
+        "Xe đến trước",
+        "Xe ở bên trái"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "42eb5149-08b4-440f-8c1d-cf6990a73ad5",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Two vehicles arrive at a four-way stop at the same time. Which one should go first?",
+        "explanation": "If two vehicles arrive at the same time, courtesy allows the vehicle on the right to go first. (Driver's Guide p. 59)",
+        "choices": [
+          "The vehicle on the left",
+          "The vehicle turning left",
+          "The faster vehicle",
+          "The vehicle on the right"
+        ]
+      },
+      "sourceHash": "a0e42d69de21e640b5d17f8ef9f55692",
+      "prompt": "Hai xe đến giao lộ dừng bốn hướng cùng một lúc. Xe nào nên đi trước?",
+      "explanation": "Nếu hai xe đến cùng lúc, theo phép lịch sự, xe ở bên phải được đi trước. (Driver's Guide tr. 59)",
+      "choices": [
+        "Xe ở bên trái",
+        "Xe đang rẽ trái",
+        "Xe chạy nhanh hơn",
+        "Xe ở bên phải"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "185f538e-810e-4f81-9706-88c80b6f4143",
+      "imgUrl": null,
+      "en": {
+        "prompt": "You approach a yield sign and there are no pedestrians or vehicles you need to yield to. You may:",
+        "explanation": "If no one needs you to yield, you may go through without coming to a complete stop. Approach at a speed that lets you stop easily. (Driver's Guide p. 59)",
+        "choices": [
+          "Come to a complete stop before proceeding",
+          "Proceed only after sounding your horn",
+          "Wait for a green light",
+          "Proceed without coming to a complete stop"
+        ]
+      },
+      "sourceHash": "64cc44d4cc994ed7b45083b2aa3440b4",
+      "prompt": "Bạn đến gần biển nhường đường và không có người đi bộ hay xe nào bạn cần nhường. Bạn được:",
+      "explanation": "Nếu không có ai cần bạn nhường, bạn được đi qua mà không cần dừng hẳn. Hãy đến gần với tốc độ đủ để có thể dễ dàng dừng lại. (Driver's Guide tr. 59)",
+      "choices": [
+        "Dừng hẳn trước khi đi tiếp",
+        "Chỉ đi tiếp sau khi bấm còi",
+        "Chờ đèn xanh",
+        "Đi tiếp mà không cần dừng hẳn"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "56ba11f2-b09a-4cc4-a7f2-fdae3d747c4e",
+      "imgUrl": null,
+      "en": {
+        "prompt": "At an intersection with no signs or traffic lights, you must yield to:",
+        "explanation": "At an uncontrolled intersection, you must yield the right-of-way to a vehicle on your right. (Driver's Guide p. 59)",
+        "choices": [
+          "A vehicle approaching on your left",
+          "The vehicle going faster",
+          "A vehicle approaching on your right",
+          "No one; the first vehicle into the intersection has the right-of-way"
+        ]
+      },
+      "sourceHash": "4cf6f866a2f5478894132dad739d6bd4",
+      "prompt": "Tại giao lộ không có biển báo hay đèn giao thông, bạn phải nhường:",
+      "explanation": "Tại giao lộ không có điều khiển, bạn phải nhường quyền ưu tiên cho xe ở bên phải của bạn. (Driver's Guide tr. 59)",
+      "choices": [
+        "Xe đang đến từ bên trái của bạn",
+        "Xe chạy nhanh hơn",
+        "Xe đang đến từ bên phải của bạn",
+        "Không ai cả; xe vào giao lộ trước có quyền ưu tiên"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "cabad96b-6bde-4dff-9256-04cc716929fd",
+      "imgUrl": null,
+      "en": {
+        "prompt": "You have the right-of-way, but another driver does not seem to be yielding. What should you do?",
+        "explanation": "Even if you have the right-of-way, you are still responsible for doing everything you can to prevent a collision. (Driver's Guide p. 58)",
+        "choices": [
+          "Proceed, since the law is on your side",
+          "Sound your horn and continue",
+          "Do everything you can to avoid a collision, even if it means giving up the right-of-way",
+          "Speed up to get through first"
+        ]
+      },
+      "sourceHash": "bb9cde6f8cdda0f563e1453e63a60b20",
+      "prompt": "Bạn có quyền ưu tiên, nhưng một tài xế khác có vẻ không nhường. Bạn nên làm gì?",
+      "explanation": "Ngay cả khi bạn có quyền ưu tiên, bạn vẫn có trách nhiệm làm mọi cách có thể để tránh va chạm. (Driver's Guide tr. 58)",
+      "choices": [
+        "Đi tiếp, vì luật đứng về phía bạn",
+        "Bấm còi và đi tiếp",
+        "Làm mọi cách để tránh va chạm, kể cả khi phải nhường quyền ưu tiên",
+        "Tăng tốc để đi qua trước"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "e326e686-d136-4d34-9d70-0a7f7f47a336",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A police officer directing traffic signals you to go through a red light. What should you do?",
+        "explanation": "Directions given by a peace officer or police officer must be followed over traffic signs or signals. (Driver's Guide p. 58)",
+        "choices": [
+          "Follow the officer's directions",
+          "Wait for the light to turn green",
+          "Stop and ask the officer to confirm",
+          "Turn right instead"
+        ]
+      },
+      "sourceHash": "11b52720d8220326cf630f46be91cd9d",
+      "prompt": "Một cảnh sát đang điều khiển giao thông ra hiệu cho bạn đi qua đèn đỏ. Bạn nên làm gì?",
+      "explanation": "Phải tuân theo hiệu lệnh của cảnh sát (peace officer hoặc police officer), vì hiệu lệnh này có giá trị cao hơn biển báo và đèn tín hiệu. (Driver's Guide tr. 58)",
+      "choices": [
+        "Làm theo hiệu lệnh của cảnh sát",
+        "Chờ đèn chuyển xanh",
+        "Dừng lại và hỏi cảnh sát để xác nhận",
+        "Rẽ phải thay vì đi thẳng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "7a54145e-58d8-40f8-9ad9-5572026f8fb1",
+      "imgUrl": null,
+      "en": {
+        "prompt": "The light is green, but traffic is backed up on the other side of the intersection. What should you do?",
+        "explanation": "Don't enter an intersection until you can clear it completely, including the crosswalk on the other side. (Driver's Guide p. 60)",
+        "choices": [
+          "Enter the intersection, since your light is green",
+          "Enter the intersection and stop in the crosswalk",
+          "Wait behind the intersection until there is room to clear it completely",
+          "Change lanes to go around the traffic"
+        ]
+      },
+      "sourceHash": "4db93de7efe13afefcc53fd1ad55b221",
+      "prompt": "Đèn đang xanh, nhưng xe đang ùn ứ ở phía bên kia giao lộ. Bạn nên làm gì?",
+      "explanation": "Không đi vào giao lộ cho đến khi bạn có thể đi hết qua giao lộ, kể cả lối qua đường ở phía bên kia. (Driver's Guide tr. 60)",
+      "choices": [
+        "Đi vào giao lộ, vì đèn của bạn đang xanh",
+        "Đi vào giao lộ và dừng trên lối qua đường",
+        "Chờ phía trước giao lộ cho đến khi có đủ chỗ để đi hết qua",
+        "Chuyển làn để đi vòng qua dòng xe"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "fbca9a3a-c30c-4d1d-b3d9-6d3763d2f271",
+      "imgUrl": null,
+      "en": {
+        "prompt": "In which direction does traffic flow around a roundabout or traffic circle?",
+        "explanation": "Traffic always circulates counterclockwise around the centre island. (Driver's Guide p. 61)",
+        "choices": [
+          "Clockwise",
+          "Either direction, depending on your exit",
+          "Counterclockwise",
+          "The direction shown by the first sign only"
+        ]
+      },
+      "sourceHash": "c7cd2195edcc4b98e9e5343f1c68a886",
+      "prompt": "Xe chạy quanh vòng xuyến (roundabout hoặc traffic circle) theo chiều nào?",
+      "explanation": "Xe luôn chạy quanh đảo trung tâm theo ngược chiều kim đồng hồ. (Driver's Guide tr. 61)",
+      "choices": [
+        "Theo chiều kim đồng hồ",
+        "Chiều nào cũng được, tùy theo lối ra của bạn",
+        "Ngược chiều kim đồng hồ",
+        "Chỉ theo chiều của biển báo đầu tiên"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "aa78fe3a-1d65-4c6f-886b-44f6c7faee85",
+      "imgUrl": null,
+      "en": {
+        "prompt": "In a single-lane roundabout, when should you turn on your right signal if you are not taking the first exit?",
+        "explanation": "Turn on your right signal after you pass the exit before the one you intend to use. (Driver's Guide pp. 61–62)",
+        "choices": [
+          "As you enter the roundabout",
+          "After passing the exit before the one you want",
+          "Only after you have left the roundabout",
+          "You don't need to signal in a roundabout"
+        ]
+      },
+      "sourceHash": "caa566a75ad4d03d8043a5529c19b2ac",
+      "prompt": "Trong vòng xuyến một làn, nếu không ra ở lối ra đầu tiên, khi nào bạn nên bật xi nhan phải?",
+      "explanation": "Bật xi nhan phải sau khi bạn đi qua lối ra ngay trước lối ra bạn định dùng. (Driver's Guide tr. 61–62)",
+      "choices": [
+        "Khi bạn đi vào vòng xuyến",
+        "Sau khi đi qua lối ra ngay trước lối ra bạn muốn",
+        "Chỉ sau khi bạn đã ra khỏi vòng xuyến",
+        "Bạn không cần bật xi nhan trong vòng xuyến"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "6478dfb3-a680-44eb-a26b-501d17998e61",
+      "imgUrl": null,
+      "en": {
+        "prompt": "In a two-lane roundabout, which lane should you use if you plan to go past the first exit?",
+        "explanation": "Drivers planning to travel past the first exit should enter, stay in, and exit from the left lane. The right lane is for the first exit. (Driver's Guide pp. 62–63)",
+        "choices": [
+          "The right lane",
+          "Either lane, changing lanes as needed",
+          "The right lane, then move left inside the circle",
+          "The left lane"
+        ]
+      },
+      "sourceHash": "b1d64cf9c2d82696963ca164f81c6ed0",
+      "prompt": "Trong vòng xuyến hai làn, bạn nên dùng làn nào nếu định đi qua lối ra đầu tiên?",
+      "explanation": "Tài xế định đi qua lối ra đầu tiên nên vào, đi và ra từ làn trái. Làn phải dành cho lối ra đầu tiên. (Driver's Guide tr. 62–63)",
+      "choices": [
+        "Làn phải",
+        "Làn nào cũng được, chuyển làn khi cần",
+        "Làn phải, rồi chuyển sang trái khi ở trong vòng xuyến",
+        "Làn trái"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "b8999d59-2df5-480a-b36a-24284c491adb",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Inside a two-lane roundabout, who must yield?",
+        "explanation": "While in the circle, drivers in the right lane must yield to drivers in the left lane. Don't change lanes in the circle. (Driver's Guide p. 62)",
+        "choices": [
+          "Drivers in the left lane yield to drivers in the right lane",
+          "Drivers in the right lane yield to drivers in the left lane",
+          "No one; both lanes have equal right-of-way",
+          "Drivers who entered last yield to everyone"
+        ]
+      },
+      "sourceHash": "e847d9d83fa5eefa81417455e71e09c0",
+      "prompt": "Bên trong vòng xuyến hai làn, ai phải nhường?",
+      "explanation": "Khi ở trong vòng xuyến, tài xế ở làn phải phải nhường tài xế ở làn trái. Không chuyển làn trong vòng xuyến. (Driver's Guide tr. 62)",
+      "choices": [
+        "Tài xế ở làn trái nhường tài xế ở làn phải",
+        "Tài xế ở làn phải nhường tài xế ở làn trái",
+        "Không ai cả; cả hai làn có quyền ưu tiên ngang nhau",
+        "Tài xế vào sau cùng nhường mọi người"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "cd8f8b34-38bb-41d6-be91-cf1bd186120b",
+      "imgUrl": null,
+      "en": {
+        "prompt": "In a roundabout, you realize you can't exit safely at your intended exit. What should you do?",
+        "explanation": "If you can't stop or exit safely, stay in your lane and go around the roundabout again. (Driver's Guide p. 63)",
+        "choices": [
+          "Stop in the roundabout until it is safe to exit",
+          "Cut across the other lane to exit",
+          "Stay in your lane and go around again",
+          "Reverse back to the exit"
+        ]
+      },
+      "sourceHash": "0174e565a2de368130cc58325357f0f7",
+      "prompt": "Trong vòng xuyến, bạn nhận ra mình không thể ra an toàn ở lối ra định đi. Bạn nên làm gì?",
+      "explanation": "Nếu bạn không thể dừng hoặc ra an toàn, hãy giữ nguyên làn và đi thêm một vòng nữa. (Driver's Guide tr. 63)",
+      "choices": [
+        "Dừng lại trong vòng xuyến cho đến khi ra được an toàn",
+        "Cắt ngang làn bên kia để ra",
+        "Giữ nguyên làn và đi thêm một vòng",
+        "Lùi xe lại lối ra"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "60fb381e-3d39-4f69-904b-fc0994664217",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When making a right turn, how close to the curb or edge of the road should you stay?",
+        "explanation": "Stay centred in the turning lane, not more than one metre from the curb or road's edge, as you approach, turn, and leave the intersection. (Driver's Guide p. 64)",
+        "choices": [
+          "Within 3 metres",
+          "In the centre of the road",
+          "Within 1 metre",
+          "As far from the curb as possible"
+        ]
+      },
+      "sourceHash": "a898ab47218473f94906a2fd8f507738",
+      "prompt": "Khi rẽ phải, bạn nên giữ xe cách lề đường hoặc mép đường bao xa?",
+      "explanation": "Giữ xe ở giữa làn rẽ, cách lề hoặc mép đường không quá 1 mét, khi đến gần, khi rẽ và khi ra khỏi giao lộ. (Driver's Guide tr. 64)",
+      "choices": [
+        "Trong vòng 3 mét",
+        "Ở giữa đường",
+        "Trong vòng 1 mét",
+        "Càng xa lề càng tốt"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "a1131d5b-f3fb-49be-9d0b-fa979f4dd348",
+      "imgUrl": null,
+      "en": {
+        "prompt": "You should be in the correct lane for a turn at least how far before the intersection?",
+        "explanation": "Be in your proper turning lane at least 15 metres (50 feet) before the intersection. (Driver's Guide pp. 63, 65)",
+        "choices": [
+          "5 metres",
+          "50 metres",
+          "15 metres",
+          "100 metres"
+        ]
+      },
+      "sourceHash": "cb12717e299891572b5a752dabe4607d",
+      "prompt": "Bạn nên ở đúng làn để rẽ ít nhất bao xa trước giao lộ?",
+      "explanation": "Hãy ở đúng làn rẽ ít nhất 15 mét (50 feet) trước giao lộ. (Driver's Guide tr. 63, 65)",
+      "choices": [
+        "5 mét",
+        "50 mét",
+        "15 mét",
+        "100 mét"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "8781a5ee-53ca-4b3c-95ab-91f7357744ec",
+      "imgUrl": null,
+      "en": {
+        "prompt": "You are waiting in the intersection to turn left. How should your front wheels be pointed?",
+        "explanation": "Keep your front wheels pointed straight ahead, so that if you are hit from behind you won't be pushed into oncoming traffic. (Driver's Guide p. 65)",
+        "choices": [
+          "Turned to the left, ready for the turn",
+          "Turned to the right",
+          "It doesn't matter while you are stopped",
+          "Straight ahead"
+        ]
+      },
+      "sourceHash": "2c0d9dd580f21a9ae88be5cee29802d1",
+      "prompt": "Bạn đang chờ trong giao lộ để rẽ trái. Bánh trước của bạn nên hướng thế nào?",
+      "explanation": "Giữ bánh trước hướng thẳng về phía trước, để nếu bị đâm từ phía sau, xe bạn sẽ không bị đẩy vào dòng xe ngược chiều. (Driver's Guide tr. 65)",
+      "choices": [
+        "Đánh sang trái, sẵn sàng để rẽ",
+        "Đánh sang phải",
+        "Không quan trọng khi bạn đang dừng",
+        "Thẳng về phía trước"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "f3bacb71-20ca-40ce-8477-ab3e2cbdff14",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When turning left from a two-way road onto another two-way road, which lane should you turn into?",
+        "explanation": "Turn from the lane nearest and to the right of the yellow line, into the lane nearest and to the right of the yellow line. (Driver's Guide p. 65)",
+        "choices": [
+          "The curb lane on the far side",
+          "Any lane that is clear",
+          "The lane nearest and to the right of the yellow line",
+          "The lane to the left of the yellow line"
+        ]
+      },
+      "sourceHash": "ca83addf5707b0e046d407f3b2485f70",
+      "prompt": "Khi rẽ trái từ đường hai chiều vào một đường hai chiều khác, bạn nên rẽ vào làn nào?",
+      "explanation": "Rẽ từ làn gần nhất bên phải vạch vàng, vào làn gần nhất bên phải vạch vàng. (Driver's Guide tr. 65)",
+      "choices": [
+        "Làn sát lề ở phía bên kia",
+        "Bất kỳ làn nào đang trống",
+        "Làn gần nhất bên phải vạch vàng",
+        "Làn bên trái vạch vàng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "7217fad7-6e6a-4fce-9b7d-5631cb09a889",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When turning left from a one-way road onto a two-way road, which lane should you turn from?",
+        "explanation": "Turn from the lane nearest the left side of the road, into the lane nearest to the right of the yellow line. (Driver's Guide p. 66)",
+        "choices": [
+          "The lane nearest the left side of the one-way road",
+          "The lane nearest the right side of the one-way road",
+          "The centre lane",
+          "Any lane, as long as you signal"
+        ]
+      },
+      "sourceHash": "bded136edd7c1a84f65a76fc9532c151",
+      "prompt": "Khi rẽ trái từ đường một chiều vào đường hai chiều, bạn nên rẽ từ làn nào?",
+      "explanation": "Rẽ từ làn gần phía bên trái của đường nhất, vào làn gần nhất bên phải vạch vàng. (Driver's Guide tr. 66)",
+      "choices": [
+        "Làn gần phía bên trái của đường một chiều nhất",
+        "Làn gần phía bên phải của đường một chiều nhất",
+        "Làn ở giữa",
+        "Làn nào cũng được, miễn là bạn bật xi nhan"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "4bb969f4-8da6-44e5-b15e-09efe66376a4",
+      "imgUrl": null,
+      "en": {
+        "prompt": "You are turning right, and a vehicle is parked close to the corner in the curb lane of the road you are entering. What should you do?",
+        "explanation": "Turn into the first available lane to the left of the parked vehicle. Yield to vehicles approaching from your left in that lane. (Driver's Guide p. 64)",
+        "choices": [
+          "Turn into the curb lane and stop behind the parked vehicle",
+          "Wait until the parked vehicle leaves",
+          "Turn into the first available lane to the left of the parked vehicle",
+          "Turn wide into the far lane"
+        ]
+      },
+      "sourceHash": "efe2203816ef79f808e0565324557b5b",
+      "prompt": "Bạn đang rẽ phải, và có một xe đậu sát góc đường ở làn sát lề của con đường bạn sắp rẽ vào. Bạn nên làm gì?",
+      "explanation": "Rẽ vào làn trống đầu tiên ở bên trái xe đang đậu. Nhường các xe đang đến từ bên trái bạn trong làn đó. (Driver's Guide tr. 64)",
+      "choices": [
+        "Rẽ vào làn sát lề và dừng sau xe đang đậu",
+        "Chờ cho đến khi xe đang đậu rời đi",
+        "Rẽ vào làn trống đầu tiên ở bên trái xe đang đậu",
+        "Ôm cua rộng vào làn xa nhất"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "7e742c51-7ac2-45a5-ba51-db9b2ab7845e",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Before turning left off a two-lane highway, why should you shoulder check to the left?",
+        "explanation": "Do a shoulder check to the left to be sure you are not being passed by another vehicle on your left. (Driver's Guide p. 65)",
+        "choices": [
+          "To make sure no vehicle is passing you on the left",
+          "To check for pedestrians on the right",
+          "To look for a police vehicle",
+          "To see the road you are turning onto"
+        ]
+      },
+      "sourceHash": "af95623d97374f67528a986a5c3d15fd",
+      "prompt": "Trước khi rẽ trái khỏi đường cao tốc hai làn, tại sao bạn nên quay đầu kiểm tra (shoulder check) bên trái?",
+      "explanation": "Quay đầu kiểm tra bên trái để chắc chắn không có xe nào đang vượt bạn ở bên trái. (Driver's Guide tr. 65)",
+      "choices": [
+        "Để chắc chắn không có xe nào đang vượt bạn ở bên trái",
+        "Để kiểm tra người đi bộ ở bên phải",
+        "Để tìm xe cảnh sát",
+        "Để nhìn con đường bạn sắp rẽ vào"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "62952151-820d-42c3-bbdd-2adc72dbedef",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Outside urban areas, U-turns are not permitted:",
+        "explanation": "In rural areas, U-turns are not permitted on a curve, or on an approach to or near the crest of a hill where drivers within 150 metres can't see you. (Driver's Guide p. 67)",
+        "choices": [
+          "On any highway",
+          "Between 10 p.m. and 6 a.m.",
+          "Anywhere there is a broken centre line",
+          "On a curve or near the crest of a hill where other drivers within 150 metres can't see you"
+        ]
+      },
+      "sourceHash": "a6356b4a5ddf0432258dfa70939c3c4c",
+      "prompt": "Ngoài khu vực đô thị, không được quay đầu xe:",
+      "explanation": "Ở vùng nông thôn, không được quay đầu xe ở khúc cua, hoặc khi đang lên gần đỉnh dốc, nơi tài xế trong vòng 150 mét không thể nhìn thấy bạn. (Driver's Guide tr. 67)",
+      "choices": [
+        "Trên bất kỳ đường cao tốc nào",
+        "Từ 10 giờ tối đến 6 giờ sáng",
+        "Bất cứ nơi nào có vạch giữa đường là vạch đứt",
+        "Ở khúc cua hoặc gần đỉnh dốc, nơi các tài xế khác trong vòng 150 mét không thể nhìn thấy bạn"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "35f926b7-9159-412c-86a3-dcb970b3c03f",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Do right-of-way rules apply at intersections inside parking lots?",
+        "explanation": "Parking lots have intersections without signs or signals, and the right-of-way rules apply. (Driver's Guide p. 60)",
+        "choices": [
+          "No, parking lots are private property",
+          "Yes, the same rules as uncontrolled intersections apply",
+          "Only if there are painted lines",
+          "Only during business hours"
+        ]
+      },
+      "sourceHash": "446dc3c1dac46e2e2113e7719fac9757",
+      "prompt": "Quy tắc quyền ưu tiên có áp dụng tại các giao lộ bên trong bãi đậu xe không?",
+      "explanation": "Bãi đậu xe có các giao lộ không có biển báo hay đèn tín hiệu, và quy tắc quyền ưu tiên vẫn được áp dụng. (Driver's Guide tr. 60)",
+      "choices": [
+        "Không, bãi đậu xe là tài sản tư nhân",
+        "Có, áp dụng cùng quy tắc như giao lộ không có điều khiển",
+        "Chỉ khi có vạch sơn",
+        "Chỉ trong giờ làm việc"
+      ],
+      "status": "approved"
+    }
+  ]
+}

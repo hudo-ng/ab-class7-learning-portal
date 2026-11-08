@@ -2,7 +2,10 @@ import { db } from "@/db/index";
 import { questions } from "@/db/schema";
 import { and, eq, sql } from "drizzle-orm";
 import { PRACTICE_SET_SIZE } from "@/lib/exam-blueprint";
-import { getLocalizedTopicBySlug } from "@/db/queries/localized";
+import {
+  getLocalizedTopicBySlug,
+  localizeQuestions,
+} from "@/db/queries/localized";
 
 export async function getPracticeQuestionsByTopicSlug(
   topicSlug: string,
@@ -41,12 +44,15 @@ export async function getPracticeQuestionsByTopicSlug(
     },
   });
 
-  const questionsArray = rows.map((q) => ({
+  const localized = await localizeQuestions(rows, locale);
+
+  const questionsArray = localized.map((q) => ({
     questionId: q.id,
     prompt: q.prompt,
     explanation: q.explanation,
     imgUrl: q.imgUrl,
     choices: q.choices.map((c) => ({ choiceId: c.id, text: c.text })),
+    translated: q.translated,
   }));
 
   return { questions: questionsArray, topicTitle: topic.title };

@@ -1,0 +1,748 @@
+{
+  "questions": [
+    {
+      "id": "180aec74-d840-41fe-8ea5-814a808f5fc3",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A traffic-lane control light with an illuminated red \"X\" means:",
+        "explanation": "A red X over a lane means you must not drive in that lane. A green arrow pointing down means the lane is open.",
+        "choices": [
+          "Prepare for an emergency vehicle travelling in that lane",
+          "Reduce speed to below 30 km/h",
+          "Use that lane only for the purpose of making a left turn",
+          "Travel is not permitted in that lane"
+        ]
+      },
+      "sourceHash": "58a603c9a95b46a8574072bc3d6ee1a0",
+      "prompt": "Đèn điều khiển làn đường có chữ \"X\" màu đỏ sáng nghĩa là:",
+      "explanation": "Chữ X màu đỏ phía trên một làn nghĩa là bạn không được lái xe trong làn đó. Mũi tên xanh chỉ xuống nghĩa là làn đó được phép đi.",
+      "choices": [
+        "Chuẩn bị cho xe ưu tiên đang chạy trong làn đó",
+        "Giảm tốc xuống dưới 30 km/h",
+        "Chỉ dùng làn đó để rẽ trái",
+        "Không được đi trong làn đó"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "16d26826-2718-45f8-99d2-38f6758987e7",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A driver approaching a flashing red traffic light must:",
+        "explanation": "Treat a flashing red light like a stop sign: come to a complete stop, then go only when it is safe. Key words: \"flashing red traffic light\".",
+        "choices": [
+          "Stop and wait for the flashing green light",
+          "Reduce speed and proceed with caution",
+          "Stop and proceed only when safe to do so",
+          "Stop until the signal light turns green"
+        ]
+      },
+      "sourceHash": "f6c2d286f6fc4c98abcf1b6dcd9deb91",
+      "prompt": "Khi đến gần đèn giao thông đỏ nhấp nháy, tài xế phải:",
+      "explanation": "Xem đèn đỏ nhấp nháy như biển báo dừng: dừng hẳn, rồi chỉ đi khi an toàn. Từ khóa: \"đèn giao thông đỏ nhấp nháy\" (flashing red traffic light).",
+      "choices": [
+        "Dừng lại và chờ đèn xanh nhấp nháy",
+        "Giảm tốc và đi tiếp một cách thận trọng",
+        "Dừng lại và chỉ đi tiếp khi an toàn",
+        "Dừng lại cho đến khi đèn chuyển xanh"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "48e2b88a-f86b-469e-b5e1-a3c59bcc192a",
+      "imgUrl": null,
+      "en": {
+        "prompt": "What does a flashing yellow traffic light mean?",
+        "explanation": "A flashing yellow light warns of a hazard or a busy intersection. Slow down and proceed with caution. Key words: \"flashing yellow\".",
+        "choices": [
+          "Proceed with caution",
+          "The traffic light will turn green",
+          "Stop until the light stops flashing",
+          "The traffic light will turn red"
+        ]
+      },
+      "sourceHash": "ffcb6020b2c4aeeeb180aafa7b0a8679",
+      "prompt": "Đèn giao thông vàng nhấp nháy có nghĩa là gì?",
+      "explanation": "Đèn vàng nhấp nháy cảnh báo có nguy hiểm hoặc giao lộ đông xe. Giảm tốc và đi tiếp một cách thận trọng. Từ khóa: \"vàng nhấp nháy\" (flashing yellow).",
+      "choices": [
+        "Đi tiếp một cách thận trọng",
+        "Đèn giao thông sắp chuyển xanh",
+        "Dừng lại cho đến khi đèn ngừng nhấp nháy",
+        "Đèn giao thông sắp chuyển đỏ"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "03d412a8-fe6a-4591-b207-e4cf9995d788",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Is a driver allowed to turn right at a red traffic control light?",
+        "explanation": "You may turn right on a red light after coming to a complete stop, unless a sign prohibits it. Yield to pedestrians and traffic first. Key words: \"stops\", \"no traffic, pedestrian or sign\".",
+        "choices": [
+          "Yes, but only when a sign permits such a turn",
+          "Yes, if the driver reduces speed and there is no traffic or pedestrian in the intersection, and no sign that prohibits such a turn",
+          "Yes, if the driver stops and there is no traffic, pedestrian or sign that prohibits such a turn",
+          "No, right turns on a red traffic light are never permitted"
+        ]
+      },
+      "sourceHash": "5899c4875976d853666332fa1bf2feba",
+      "prompt": "Tài xế có được phép rẽ phải khi đèn giao thông đỏ không?",
+      "explanation": "Bạn được rẽ phải khi đèn đỏ sau khi dừng hẳn, trừ khi có biển cấm. Hãy nhường người đi bộ và các xe khác trước. Từ khóa: \"dừng lại\" (stops), \"không có xe, người đi bộ hoặc biển cấm\".",
+      "choices": [
+        "Có, nhưng chỉ khi có biển cho phép rẽ như vậy",
+        "Có, nếu tài xế giảm tốc và không có xe hay người đi bộ trong giao lộ, và không có biển cấm rẽ như vậy",
+        "Có, nếu tài xế dừng lại và không có xe, người đi bộ hoặc biển cấm rẽ như vậy",
+        "Không, không bao giờ được rẽ phải khi đèn đỏ"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "08a5ecaf-6a17-40ef-998d-1f379e90539b",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When approaching an intersection displaying a steady yellow traffic light:",
+        "explanation": "A steady yellow light means the light is about to turn red. Stop before the intersection unless you are so close that you cannot stop safely.",
+        "choices": [
+          "Proceed since the light is about to turn green",
+          "Yield to vehicles on the right",
+          "Stop before the intersection unless the stop cannot be made in safety",
+          "Increase speed to clear the intersection"
+        ]
+      },
+      "sourceHash": "fa32179cf86bf0c69dbd0a70aba07111",
+      "prompt": "Khi đến gần giao lộ có đèn vàng sáng liên tục:",
+      "explanation": "Đèn vàng sáng liên tục nghĩa là đèn sắp chuyển đỏ. Dừng lại trước giao lộ, trừ khi bạn đã ở quá gần để có thể dừng an toàn.",
+      "choices": [
+        "Đi tiếp vì đèn sắp chuyển xanh",
+        "Nhường xe ở bên phải",
+        "Dừng lại trước giao lộ, trừ khi không thể dừng an toàn",
+        "Tăng tốc để đi qua giao lộ"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "ff05fecd-fc86-4638-b717-c91cbf25c289",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A solid yellow line together with a broken yellow line marked on the centre of a highway means:",
+        "explanation": "When a solid and a broken yellow line run side by side, the line closest to you applies. If the broken line is on your side, you may pass when it is safe; if the solid line is on your side, you may not.",
+        "choices": [
+          "The road narrows ahead",
+          "If the solid line is on your side, passing is permitted",
+          "If the broken line is on your side, passing is not permitted",
+          "If the broken line is on your side, passing is permitted"
+        ]
+      },
+      "sourceHash": "3ff3b44397ee6e2e19a8957659d75e98",
+      "prompt": "Một vạch vàng liền đi cùng một vạch vàng đứt ở giữa đường cao tốc nghĩa là:",
+      "explanation": "Khi vạch vàng liền và vạch vàng đứt chạy song song, vạch nằm gần bạn nhất là vạch áp dụng cho bạn. Nếu vạch đứt ở phía bạn, bạn được vượt khi an toàn; nếu vạch liền ở phía bạn, bạn không được vượt.",
+      "choices": [
+        "Phía trước đường hẹp lại",
+        "Nếu vạch liền ở phía bạn, bạn được phép vượt",
+        "Nếu vạch đứt ở phía bạn, bạn không được phép vượt",
+        "Nếu vạch đứt ở phía bạn, bạn được phép vượt"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "92b03304-3c90-4463-b976-05d32f0182a1",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When approaching an intersection and facing a traffic control light that is showing a green right-turn arrow and a red light, a driver:",
+        "explanation": "Must proceed cautiously in the direction of the arrow (right turn) when it's safe to do so, without stopping, as the arrow specifically permits the turn, overriding the solid red light for that specific movement, but always yield to pedestrians and other traffic.",
+        "choices": [
+          " Must stop and wait for a green light before turning in the direction of the arrow",
+          "May go straight through the intersection without stopping",
+          "May proceed when safe, without stopping, in the direction of the arrow",
+          "May turn left without stopping"
+        ]
+      },
+      "sourceHash": "82101d35aab6b93ddc0abb653d18b79b",
+      "prompt": "Khi đến gần giao lộ và đèn giao thông đang hiển thị mũi tên xanh rẽ phải cùng với đèn đỏ, tài xế:",
+      "explanation": "Được đi tiếp một cách thận trọng theo hướng mũi tên (rẽ phải) khi an toàn, không cần dừng lại, vì mũi tên cho phép riêng hướng rẽ này, thay cho đèn đỏ sáng liên tục. Tuy nhiên, luôn phải nhường người đi bộ và các xe khác.",
+      "choices": [
+        "Phải dừng lại và chờ đèn xanh rồi mới rẽ theo hướng mũi tên",
+        "Được đi thẳng qua giao lộ mà không cần dừng",
+        "Được đi tiếp khi an toàn, không cần dừng, theo hướng mũi tên",
+        "Được rẽ trái mà không cần dừng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "157b7c18-005e-4a56-8f79-140c1ebfc7fb",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A single solid white line between driving lanes in an urban area means:",
+        "explanation": "In Alberta , a solid white line means you are in a lane of traffic moving in the same direction, and changing lanes across it is generally not permitted or strongly discouraged for safety, especially in urban areas or where it separates lanes of traffic going the same way. A broken white line permits lane changes, while a solid white line means stay in your lane unless it's a designated turn lane.",
+        "choices": [
+          "It is an line separating traffic travelling in opposite directions",
+          "Traffic on the right is moving faster than traffic on the left",
+          "Lane changing is not permitted",
+          "Lane changing is permitted"
+        ]
+      },
+      "sourceHash": "3f0bd8054e2414ae345cb5931c518a38",
+      "prompt": "Một vạch trắng liền giữa các làn xe trong khu vực đô thị nghĩa là:",
+      "explanation": "Ở Alberta, vạch trắng liền phân cách các làn xe chạy cùng chiều, và việc chuyển làn qua vạch này thường không được phép hoặc rất không nên vì lý do an toàn, nhất là trong khu vực đô thị. Vạch trắng đứt cho phép chuyển làn, còn vạch trắng liền nghĩa là bạn hãy giữ nguyên làn của mình, trừ khi đó là làn rẽ được chỉ định.",
+      "choices": [
+        "Đó là vạch phân cách các xe chạy ngược chiều nhau",
+        "Xe bên phải chạy nhanh hơn xe bên trái",
+        "Không được phép chuyển làn",
+        "Được phép chuyển làn"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "490716fb-9a33-4dd3-a8e2-70592e4ad18b",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When facing a solid red light, where must you stop?",
+        "explanation": "Stop before the stop line or crosswalk in front of you. If there is neither, stop before the intersection. (Driver's Guide p. 22)",
+        "choices": [
+          "Inside the crosswalk, so you can see cross traffic",
+          "At the edge of the intersection, past the stop line",
+          "Before the stop line or crosswalk, or before the intersection if there is neither",
+          "Anywhere within 10 metres of the light"
+        ]
+      },
+      "sourceHash": "120b8c8dd472a81a58f362fad0e41cc0",
+      "prompt": "Khi gặp đèn đỏ sáng liên tục, bạn phải dừng ở đâu?",
+      "explanation": "Dừng lại trước vạch dừng hoặc lối qua đường phía trước bạn. Nếu không có cả hai, dừng lại trước giao lộ. (Driver's Guide tr. 22)",
+      "choices": [
+        "Bên trong lối qua đường, để có thể nhìn thấy xe cắt ngang",
+        "Ở mép giao lộ, sau vạch dừng",
+        "Trước vạch dừng hoặc lối qua đường, hoặc trước giao lộ nếu không có cả hai",
+        "Bất cứ đâu trong vòng 10 mét tính từ đèn"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "57c0c960-421f-4f31-b698-3553dd48039f",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When is a left turn permitted on a red light?",
+        "explanation": "Unless a sign prohibits it, the only left turn allowed on a red light is from a one-way street onto a one-way street, after a complete stop and yielding to other traffic. (Driver's Guide p. 22)",
+        "choices": [
+          "From a one-way street onto a one-way street, after a complete stop",
+          "From any street, after a complete stop",
+          "Only when there is no oncoming traffic",
+          "Never"
+        ]
+      },
+      "sourceHash": "98db42a2204e942693eb0801d3140079",
+      "prompt": "Khi nào được phép rẽ trái lúc đèn đỏ?",
+      "explanation": "Trừ khi có biển cấm, trường hợp duy nhất được rẽ trái khi đèn đỏ là từ đường một chiều vào đường một chiều, sau khi dừng hẳn và nhường các xe khác. (Driver's Guide tr. 22)",
+      "choices": [
+        "Từ đường một chiều vào đường một chiều, sau khi dừng hẳn",
+        "Từ bất kỳ đường nào, sau khi dừng hẳn",
+        "Chỉ khi không có xe ngược chiều",
+        "Không bao giờ"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "28a4764d-01a2-4235-9105-3206adedd9e4",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A solid double red light has the same meaning as:",
+        "explanation": "A solid double red light has the same meaning as a single red light. (Driver's Guide p. 22)",
+        "choices": [
+          "A flashing red light",
+          "A single solid red light",
+          "A four-way stop",
+          "A red X lane signal"
+        ]
+      },
+      "sourceHash": "224e177985507f4a2ffbad7535804b21",
+      "prompt": "Đèn đỏ đôi sáng liên tục có cùng ý nghĩa với:",
+      "explanation": "Đèn đỏ đôi sáng liên tục có cùng ý nghĩa với một đèn đỏ đơn. (Driver's Guide tr. 22)",
+      "choices": [
+        "Đèn đỏ nhấp nháy",
+        "Một đèn đỏ đơn sáng liên tục",
+        "Giao lộ dừng bốn hướng",
+        "Tín hiệu làn đường chữ X màu đỏ"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "7e33debc-6cc1-493e-9370-2ca23e20930a",
+      "imgUrl": null,
+      "en": {
+        "prompt": "The light turns yellow while you are already in the intersection. What should you do?",
+        "explanation": "Drivers already in the intersection when the light turns yellow must safely clear the intersection. (Driver's Guide p. 22)",
+        "choices": [
+          "Stop immediately where you are",
+          "Reverse back behind the stop line",
+          "Wait in the intersection for the next green light",
+          "Safely clear the intersection"
+        ]
+      },
+      "sourceHash": "2497d2d68395555bf0fe5153626b200e",
+      "prompt": "Đèn chuyển vàng khi bạn đã ở trong giao lộ. Bạn nên làm gì?",
+      "explanation": "Tài xế đã ở trong giao lộ khi đèn chuyển vàng phải đi ra khỏi giao lộ một cách an toàn. (Driver's Guide tr. 22)",
+      "choices": [
+        "Dừng lại ngay tại chỗ",
+        "Lùi xe lại phía sau vạch dừng",
+        "Chờ trong giao lộ đến lượt đèn xanh tiếp theo",
+        "Đi ra khỏi giao lộ một cách an toàn"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "f5b4ae34-5f62-4068-bdd3-7804de05a8b4",
+      "imgUrl": null,
+      "en": {
+        "prompt": "What is a \"stale\" green light?",
+        "explanation": "A stale green light has been green for a while and will soon turn yellow. Be prepared to stop. (Driver's Guide p. 22)",
+        "choices": [
+          "A green light that is flashing",
+          "A green light that has burned out",
+          "A green light that has just turned green",
+          "A green light that has been on for a while and will soon turn yellow"
+        ]
+      },
+      "sourceHash": "b928dfc0cfd4d000d7311771094896d7",
+      "prompt": "Đèn xanh \"cũ\" (stale green light) là gì?",
+      "explanation": "Đèn xanh \"cũ\" là đèn đã xanh được một lúc và sắp chuyển vàng. Hãy sẵn sàng dừng lại. (Driver's Guide tr. 22)",
+      "choices": [
+        "Đèn xanh đang nhấp nháy",
+        "Đèn xanh đã bị cháy bóng",
+        "Đèn xanh vừa mới chuyển xanh",
+        "Đèn xanh đã sáng được một lúc và sắp chuyển vàng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "f0eb1c90-5fb6-40b4-b9dd-f2187d4982cf",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Approaching a green light, how can you tell it may be about to change?",
+        "explanation": "Check the pedestrian signal. If it shows \"Don't Walk\", the light may soon change, so be ready to stop. (Driver's Guide p. 23)",
+        "choices": [
+          "The pedestrian signal shows \"Walk\"",
+          "The light is brighter than usual",
+          "There is no traffic waiting on the cross street",
+          "The pedestrian signal shows \"Don't Walk\""
+        ]
+      },
+      "sourceHash": "33ddf9dde478efe295c865a882ad9dfa",
+      "prompt": "Khi đến gần đèn xanh, làm sao bạn biết đèn có thể sắp đổi?",
+      "explanation": "Hãy nhìn đèn tín hiệu cho người đi bộ. Nếu đèn hiển thị \"Don't Walk\" (Không được đi), đèn giao thông có thể sắp đổi, vì vậy hãy sẵn sàng dừng lại. (Driver's Guide tr. 23)",
+      "choices": [
+        "Đèn cho người đi bộ hiển thị \"Walk\" (Đi)",
+        "Đèn sáng hơn bình thường",
+        "Không có xe nào đang chờ ở đường cắt ngang",
+        "Đèn cho người đi bộ hiển thị \"Don't Walk\" (Không được đi)"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "c4859679-e777-4914-87e2-8e822d3de8ef",
+      "imgUrl": null,
+      "en": {
+        "prompt": "You face a green arrow together with a solid green light. You may:",
+        "explanation": "With a green arrow and a solid green light, you may proceed in the arrow's direction without yielding. You may go in the other directions when it is safe and legal. (Driver's Guide p. 23)",
+        "choices": [
+          "Proceed only in the direction of the arrow",
+          "Stop, then proceed when safe",
+          "Proceed only after the arrow turns off",
+          "Proceed in the direction of the arrow without yielding"
+        ]
+      },
+      "sourceHash": "8e4ce1a2ce35b03c9619404f95fff6c6",
+      "prompt": "Bạn gặp đèn mũi tên xanh (green arrow) cùng với đèn xanh sáng liên tục. Bạn được:",
+      "explanation": "Khi có mũi tên xanh và đèn xanh sáng liên tục, bạn được đi theo hướng mũi tên mà không phải nhường đường. Bạn được đi theo các hướng khác khi an toàn và đúng luật. (Driver's Guide tr. 23)",
+      "choices": [
+        "Chỉ đi theo hướng mũi tên",
+        "Dừng lại, rồi đi tiếp khi an toàn",
+        "Chỉ đi tiếp sau khi mũi tên tắt",
+        "Đi theo hướng mũi tên mà không phải nhường đường"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "29e9f6b2-5322-4ace-8904-f66005d40991",
+      "imgUrl": null,
+      "en": {
+        "prompt": "What does a flashing green traffic light mean?",
+        "explanation": "You may go through, turn left, or turn right without stopping. Opposing traffic faces a red light, but you must still yield to pedestrians and vehicles lawfully in the intersection. (Driver's Guide p. 23)",
+        "choices": [
+          "Stop, then proceed when safe",
+          "The light is about to turn red",
+          "Only pedestrians may proceed",
+          "You may go through or turn without stopping, yielding to pedestrians and vehicles in the intersection"
+        ]
+      },
+      "sourceHash": "3cee9a05964dbff265210e1f89a9ce43",
+      "prompt": "Đèn giao thông xanh nhấp nháy có nghĩa là gì?",
+      "explanation": "Bạn được đi thẳng, rẽ trái hoặc rẽ phải mà không cần dừng. Xe ngược chiều đang gặp đèn đỏ, nhưng bạn vẫn phải nhường người đi bộ và các xe đang ở trong giao lộ một cách hợp pháp. (Driver's Guide tr. 23)",
+      "choices": [
+        "Dừng lại, rồi đi tiếp khi an toàn",
+        "Đèn sắp chuyển đỏ",
+        "Chỉ người đi bộ mới được đi",
+        "Bạn được đi thẳng hoặc rẽ mà không cần dừng, nhường người đi bộ và các xe trong giao lộ"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "9af51987-83b1-4a03-a5d2-f8722d8d03eb",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When the traffic lights in all directions are flashing red, the intersection becomes:",
+        "explanation": "When lights in all directions are flashing red, the intersection becomes a four-way stop. (Driver's Guide p. 23)",
+        "choices": [
+          "An uncontrolled intersection",
+          "A yield intersection",
+          "Closed to all traffic",
+          "A four-way stop"
+        ]
+      },
+      "sourceHash": "c07ffbcd5175f65b64ac2e64bd64b3bf",
+      "prompt": "Khi đèn giao thông ở tất cả các hướng đều nhấp nháy đỏ, giao lộ trở thành:",
+      "explanation": "Khi đèn ở tất cả các hướng đều nhấp nháy đỏ, giao lộ trở thành giao lộ dừng bốn hướng. (Driver's Guide tr. 23)",
+      "choices": [
+        "Giao lộ không có điều khiển",
+        "Giao lộ nhường đường",
+        "Cấm mọi phương tiện đi qua",
+        "Giao lộ dừng bốn hướng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "d001295a-434c-4de7-9914-e8b11f9e49a7",
+      "imgUrl": null,
+      "en": {
+        "prompt": "On a vertical traffic signal, in what order are the lights from top to bottom?",
+        "explanation": "On a vertical signal, red is at the top, yellow in the centre, and green at the bottom. On a horizontal signal, red is on the left. (Driver's Guide p. 22)",
+        "choices": [
+          "Green, yellow, red",
+          "Yellow, red, green",
+          "Red, green, yellow",
+          "Red, yellow, green"
+        ]
+      },
+      "sourceHash": "be90f8aa8068e09366973b089b99f741",
+      "prompt": "Trên đèn giao thông dọc, thứ tự các đèn từ trên xuống dưới là gì?",
+      "explanation": "Trên đèn dọc, đèn đỏ ở trên cùng, đèn vàng ở giữa và đèn xanh ở dưới cùng. Trên đèn ngang, đèn đỏ ở bên trái. (Driver's Guide tr. 22)",
+      "choices": [
+        "Xanh, vàng, đỏ",
+        "Vàng, đỏ, xanh",
+        "Đỏ, xanh, vàng",
+        "Đỏ, vàng, xanh"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "97017783-e358-464d-a815-2e5d72711c83",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A green arrow pointing down over a traffic lane means:",
+        "explanation": "A downward green arrow over a lane means you may drive in that lane. A red X means you may not. (Driver's Guide p. 24)",
+        "choices": [
+          "You may drive in that lane",
+          "The lane ends ahead",
+          "The lane is for turning only",
+          "Move out of that lane"
+        ]
+      },
+      "sourceHash": "73ce03a1888a087f77a63bf46339396f",
+      "prompt": "Mũi tên xanh chỉ xuống phía trên một làn xe nghĩa là:",
+      "explanation": "Mũi tên xanh chỉ xuống phía trên một làn nghĩa là bạn được lái xe trong làn đó. Chữ X màu đỏ nghĩa là bạn không được. (Driver's Guide tr. 24)",
+      "choices": [
+        "Bạn được lái xe trong làn đó",
+        "Làn đường sắp kết thúc",
+        "Làn đó chỉ dành cho xe rẽ",
+        "Hãy ra khỏi làn đó"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "ef86403a-a456-4f64-b172-4104733e27aa",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A pedestrian is halfway across when the signal changes to \"Don't Walk\". What may the pedestrian do?",
+        "explanation": "Pedestrians who have already started crossing when \"Don't Walk\" appears may continue and clear the crosswalk. (Driver's Guide p. 23)",
+        "choices": [
+          "Stop and wait in the middle of the road",
+          "Continue crossing and clear the crosswalk",
+          "Return to the curb they started from",
+          "Wait for drivers to wave them on"
+        ]
+      },
+      "sourceHash": "81e0cafedd2e641768602bc4bd478eef",
+      "prompt": "Một người đi bộ đang qua đường được nửa chừng thì đèn chuyển sang \"Don't Walk\" (Không được đi). Người đi bộ được làm gì?",
+      "explanation": "Người đi bộ đã bắt đầu qua đường khi đèn \"Don't Walk\" hiện lên được tiếp tục đi hết lối qua đường. (Driver's Guide tr. 23)",
+      "choices": [
+        "Dừng lại và chờ ở giữa đường",
+        "Tiếp tục đi hết lối qua đường",
+        "Quay lại lề đường nơi họ bắt đầu",
+        "Chờ tài xế ra hiệu cho đi"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "f286f87b-365a-4b4e-ba61-35d7cf651618",
+      "imgUrl": null,
+      "en": {
+        "prompt": "What do yellow lane lines tell you?",
+        "explanation": "Yellow lines separate traffic travelling in opposite directions. The yellow line should always be on the driver's left. (Driver's Guide p. 38)",
+        "choices": [
+          "Traffic on each side travels in the same direction",
+          "The lane is reserved for buses",
+          "Traffic on each side travels in opposite directions",
+          "Parking is permitted along the line"
+        ]
+      },
+      "sourceHash": "d480c7dfe104a81502fe3214e885052a",
+      "prompt": "Vạch kẻ làn màu vàng cho bạn biết điều gì?",
+      "explanation": "Vạch vàng phân cách các xe chạy ngược chiều nhau. Vạch vàng phải luôn ở bên trái tài xế. (Driver's Guide tr. 38)",
+      "choices": [
+        "Xe ở hai bên chạy cùng chiều",
+        "Làn đường dành riêng cho xe buýt",
+        "Xe ở hai bên chạy ngược chiều nhau",
+        "Được phép đậu xe dọc theo vạch"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "e71a23d9-d52b-4e45-8414-6b00be1076bd",
+      "imgUrl": null,
+      "en": {
+        "prompt": "What do white lane lines tell you?",
+        "explanation": "White lines separate lanes of traffic travelling in the same direction. (Driver's Guide p. 39)",
+        "choices": [
+          "Traffic on each side travels in opposite directions",
+          "Traffic on each side travels in the same direction",
+          "Passing is never allowed",
+          "The road edge is ahead"
+        ]
+      },
+      "sourceHash": "1bae0c4de466736cca36b04c35cdfa92",
+      "prompt": "Vạch kẻ làn màu trắng cho bạn biết điều gì?",
+      "explanation": "Vạch trắng phân cách các làn xe chạy cùng chiều. (Driver's Guide tr. 39)",
+      "choices": [
+        "Xe ở hai bên chạy ngược chiều nhau",
+        "Xe ở hai bên chạy cùng chiều",
+        "Không bao giờ được vượt",
+        "Phía trước là mép đường"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "a8950dcc-a160-4d6f-ab9b-3d73033f0751",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A broken white line between two lanes means:",
+        "explanation": "Broken white lines mean lane changing is permitted, when it is safe. (Driver's Guide p. 39)",
+        "choices": [
+          "Lane changing is not permitted",
+          "Lane changing is permitted when safe",
+          "Traffic in the lanes moves in opposite directions",
+          "The lane is ending"
+        ]
+      },
+      "sourceHash": "e4a3d76f370422e0af6b80c8d45e35c1",
+      "prompt": "Vạch trắng đứt giữa hai làn xe nghĩa là:",
+      "explanation": "Vạch trắng đứt nghĩa là được phép chuyển làn khi an toàn. (Driver's Guide tr. 39)",
+      "choices": [
+        "Không được phép chuyển làn",
+        "Được phép chuyển làn khi an toàn",
+        "Xe trong các làn chạy ngược chiều nhau",
+        "Làn đường sắp kết thúc"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "ebc7c850-357e-4028-b2f2-8e5d29f87d07",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Within an urban area, may you pass across a single solid yellow line?",
+        "explanation": "Passing safely is permitted across a single solid yellow line within an urban area. In all other cases, single or double solid yellow lines mean no passing. (Driver's Guide p. 38)",
+        "choices": [
+          "No, never",
+          "Only on one-way streets",
+          "Only to pass a cyclist",
+          "Yes, if it can be done safely"
+        ]
+      },
+      "sourceHash": "85641d5429febcd7ce59018a0f3bd80a",
+      "prompt": "Trong khu vực đô thị, bạn có được vượt qua một vạch vàng liền đơn không?",
+      "explanation": "Trong khu vực đô thị, được phép vượt qua vạch vàng liền đơn nếu an toàn. Trong mọi trường hợp khác, vạch vàng liền đơn hoặc đôi nghĩa là cấm vượt. (Driver's Guide tr. 38)",
+      "choices": [
+        "Không, không bao giờ",
+        "Chỉ trên đường một chiều",
+        "Chỉ để vượt người đi xe đạp",
+        "Có, nếu có thể vượt an toàn"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "b045f1a1-7cc8-407a-82a3-9950e0f15074",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Double solid yellow lines on the centre of a road mean:",
+        "explanation": "Double solid yellow lines mean passing is not permitted in either direction. (Driver's Guide p. 38)",
+        "choices": [
+          "Passing is not permitted in either direction",
+          "Passing is permitted for both directions",
+          "Passing is permitted for the right lane only",
+          "The road is one-way"
+        ]
+      },
+      "sourceHash": "772b496885525813a7382f006d0d7e2f",
+      "prompt": "Vạch vàng liền đôi ở giữa đường nghĩa là:",
+      "explanation": "Vạch vàng liền đôi nghĩa là cấm vượt ở cả hai chiều. (Driver's Guide tr. 38)",
+      "choices": [
+        "Cấm vượt ở cả hai chiều",
+        "Được phép vượt ở cả hai chiều",
+        "Chỉ làn bên phải được phép vượt",
+        "Đường một chiều"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "e52195a4-6056-4691-85cf-9d8f82b1e717",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Who may use a two-way left-turn lane in the centre of a road?",
+        "explanation": "A two-way left-turn lane is shared by left-turning traffic from both directions. You may cross the solid yellow line to enter it, close to where you turn. (Driver's Guide pp. 39, 67)",
+        "choices": [
+          "Only traffic turning left from one direction",
+          "Any vehicle wanting to pass slower traffic",
+          "Emergency vehicles only",
+          "Left-turning traffic from both directions"
+        ]
+      },
+      "sourceHash": "19edd976ad881b85459a773e6eb8d64f",
+      "prompt": "Ai được dùng làn rẽ trái hai chiều (two-way left-turn lane) ở giữa đường?",
+      "explanation": "Làn rẽ trái hai chiều được dùng chung bởi xe rẽ trái từ cả hai hướng. Bạn được cắt qua vạch vàng liền để vào làn này, khi đã gần chỗ bạn sẽ rẽ. (Driver's Guide tr. 39, 67)",
+      "choices": [
+        "Chỉ xe rẽ trái từ một hướng",
+        "Bất kỳ xe nào muốn vượt xe chạy chậm hơn",
+        "Chỉ xe ưu tiên",
+        "Xe rẽ trái từ cả hai hướng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "5949a8d1-c719-414d-bc60-d711f9349943",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A white diamond painted on a lane means:",
+        "explanation": "Diamond markings show that a lane is reserved for specific vehicles, such as buses, taxis, or bicycles. Signs may give the times. (Driver's Guide p. 39)",
+        "choices": [
+          "The lane is reserved for specific vehicles",
+          "The lane is a passing lane",
+          "There is a hazard ahead",
+          "The lane is closed"
+        ]
+      },
+      "sourceHash": "38aabbd06aba435fe6e3f91f28737d8d",
+      "prompt": "Hình thoi màu trắng sơn trên một làn đường nghĩa là:",
+      "explanation": "Ký hiệu hình thoi cho biết làn đường dành riêng cho một số loại xe nhất định, như xe buýt, taxi hoặc xe đạp. Biển báo có thể ghi rõ thời gian áp dụng. (Driver's Guide tr. 39)",
+      "choices": [
+        "Làn đường dành riêng cho một số loại xe nhất định",
+        "Đó là làn vượt",
+        "Phía trước có nguy hiểm",
+        "Làn đường bị đóng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "101aff83-4105-4b7b-9077-bb476a08a575",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When may a driver enter a bicycle lane?",
+        "explanation": "Vehicles may not drive in bicycle lanes, except when turning or entering or leaving a parking spot. Watch carefully for cyclists. (Driver's Guide p. 40)",
+        "choices": [
+          "Only when turning or entering or leaving a parking spot",
+          "Whenever no cyclists are present",
+          "To pass a slow vehicle on the right",
+          "During rush hour only"
+        ]
+      },
+      "sourceHash": "92ee20b25b45b887017e278a5c0a48df",
+      "prompt": "Khi nào tài xế được đi vào làn xe đạp?",
+      "explanation": "Xe cơ giới không được chạy trong làn xe đạp, trừ khi đang rẽ hoặc đang vào hay ra khỏi chỗ đậu xe. Hãy quan sát kỹ người đi xe đạp. (Driver's Guide tr. 40)",
+      "choices": [
+        "Chỉ khi đang rẽ hoặc đang vào hay ra khỏi chỗ đậu xe",
+        "Bất cứ khi nào không có người đi xe đạp",
+        "Để vượt xe chạy chậm ở bên phải",
+        "Chỉ trong giờ cao điểm"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "adc93c8b-3f49-414d-a725-e9b65871f330",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A painted island (a striped area on the road) means:",
+        "explanation": "Painted islands are not to be used for travel, and you must not park or stop on them. You may cross one only to enter or leave a driveway, alley, or private drive. (Driver's Guide p. 40)",
+        "choices": [
+          "It is a passing lane for slow traffic",
+          "It is a waiting area for left turns",
+          "Don't travel, stop, or park on it, except to cross into or out of a driveway",
+          "It is a parking area for emergency vehicles"
+        ]
+      },
+      "sourceHash": "3e7eb91cc83abc9f8477b66952714300",
+      "prompt": "Đảo sơn (painted island, vùng kẻ sọc trên mặt đường) nghĩa là:",
+      "explanation": "Không được dùng đảo sơn để chạy xe, và bạn không được đậu hay dừng xe trên đó. Bạn chỉ được cắt qua đảo sơn để vào hoặc ra khỏi lối xe vào nhà, hẻm hoặc lối đi riêng. (Driver's Guide tr. 40)",
+      "choices": [
+        "Đó là làn vượt dành cho xe chạy chậm",
+        "Đó là khu vực chờ rẽ trái",
+        "Không được chạy, dừng hoặc đậu xe trên đó, trừ khi cắt qua để vào hoặc ra khỏi lối xe vào nhà",
+        "Đó là khu vực đậu xe dành cho xe ưu tiên"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "31f08823-63fe-4aed-a998-581be60a243c",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A large white X painted on a rural highway warns of:",
+        "explanation": "X markings on rural highways show that you are approaching a railway crossing. An advance warning sign will also be posted. (Driver's Guide p. 40)",
+        "choices": [
+          "A railway crossing ahead",
+          "A closed lane ahead",
+          "An intersection with no signs",
+          "A school zone ahead"
+        ]
+      },
+      "sourceHash": "a5d8dde3b61330d760f7f45507e689fb",
+      "prompt": "Chữ X lớn màu trắng sơn trên đường cao tốc ở nông thôn cảnh báo điều gì?",
+      "explanation": "Ký hiệu chữ X trên đường cao tốc ở nông thôn cho biết bạn đang đến gần chỗ giao cắt đường sắt. Sẽ có thêm biển cảnh báo trước. (Driver's Guide tr. 40)",
+      "choices": [
+        "Phía trước có chỗ giao cắt đường sắt",
+        "Phía trước có làn đường bị đóng",
+        "Một giao lộ không có biển báo",
+        "Phía trước có khu vực trường học"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "6052fd84-d6ad-41d8-a30a-22bbfdd347ff",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A bicycle symbol with two chevrons (arrows) above it painted in a traffic lane means:",
+        "explanation": "This marking guides cyclists and reminds drivers to expect cyclists in the same travel lane. (Driver's Guide p. 40)",
+        "choices": [
+          "Bicycles are not allowed in this lane",
+          "This lane is for bicycles only",
+          "Expect cyclists to share this lane with you",
+          "A bicycle crossing is ahead"
+        ]
+      },
+      "sourceHash": "1eaf84a2b57d86255ac18701caf2d745",
+      "prompt": "Ký hiệu xe đạp với hai dấu mũi tên (chevrons) phía trên, sơn trên một làn xe, nghĩa là:",
+      "explanation": "Ký hiệu này hướng dẫn người đi xe đạp và nhắc tài xế rằng sẽ có người đi xe đạp đi chung làn. (Driver's Guide tr. 40)",
+      "choices": [
+        "Xe đạp không được đi trong làn này",
+        "Làn này chỉ dành cho xe đạp",
+        "Hãy chú ý người đi xe đạp sẽ đi chung làn với bạn",
+        "Phía trước có lối qua đường cho xe đạp"
+      ],
+      "status": "approved"
+    }
+  ]
+}

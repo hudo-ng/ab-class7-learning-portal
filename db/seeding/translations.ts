@@ -49,7 +49,7 @@ interface TranslationFile {
   blocks: BlockEntry[];
 }
 
-const TRANSLATION_ROOT = path.join(process.cwd(), "db", "data", "translations");
+export const TRANSLATION_ROOT = path.join(process.cwd(), "db", "data", "translations");
 
 // Must match the SQL in db/queries/localized.ts
 export const md5 = (s: string) =>
@@ -59,7 +59,7 @@ const blockHash = (title: string, body: string) => md5(`${title}\n${body}`);
 const lessonDir = (locale: string) =>
   path.join(TRANSLATION_ROOT, locale, "lessons");
 
-function assertLocale(locale: string | undefined): asserts locale is string {
+export function assertLocale(locale: string | undefined): asserts locale is string {
   if (!locale || !/^[a-z]{2}(-[A-Z]{2})?$/.test(locale)) {
     throw new Error('Pass a locale, e.g. "vi"');
   }

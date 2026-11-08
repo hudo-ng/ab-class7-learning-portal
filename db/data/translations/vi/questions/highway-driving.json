@@ -1,0 +1,676 @@
+{
+  "questions": [
+    {
+      "id": "22e3b593-f042-4eab-9590-3cd277d3a769",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When facing a Merge sign a driver should:",
+        "explanation": "A merge sign means two lanes of traffic are joining. Use the acceleration lane to match highway speed, find a gap, and blend in smoothly. Don't stop unless you have to.",
+        "choices": [
+          "Stop at the entrance to the other highway and wait until a gap in traffic occurs before proceeding",
+          "Watch for a gap in traffic on the highway they are entering, adjust to highway speed in the acceleration lane and blend in smoothly",
+          "Stop and yield the right-of-way to traffic already on the highway",
+          "Reduce speed and proceed with caution"
+        ]
+      },
+      "sourceHash": "b0a892f1d3d7f4d6d86fe1a0f3c112e2",
+      "prompt": "Khi gặp biển báo nhập làn (Merge), tài xế nên:",
+      "explanation": "Biển nhập làn nghĩa là hai làn xe đang nhập vào nhau. Hãy dùng làn tăng tốc (acceleration lane) để đạt tốc độ của đường cao tốc, tìm khoảng trống, và nhập vào một cách nhẹ nhàng. Đừng dừng lại trừ khi buộc phải dừng.",
+      "choices": [
+        "Dừng lại ở lối vào đường cao tốc kia và chờ đến khi có khoảng trống trong dòng xe rồi mới đi",
+        "Quan sát tìm khoảng trống trong dòng xe trên đường cao tốc sắp vào, điều chỉnh theo tốc độ của đường cao tốc trong làn tăng tốc, và nhập vào một cách nhẹ nhàng",
+        "Dừng lại và nhường quyền ưu tiên cho xe đang chạy trên đường cao tốc",
+        "Giảm tốc độ và đi tiếp một cách thận trọng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "3e307dfe-8c6a-4f44-a79d-cd21f2c66f9d",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A deceleration lane is:",
+        "explanation": "A deceleration lane is an exit lane where you slow down after leaving the highway, instead of slowing down in the traffic lanes. Key words: \"deceleration lane\".",
+        "choices": [
+          "A lane where vehicles reduce speed when exiting a highway",
+          "The right lane of a four-lane highway for use by slower moving vehicles",
+          "A lane on hills for use by slower moving vehicles",
+          "The lane immediately to the right of a solid yellow line on a highway"
+        ]
+      },
+      "sourceHash": "26b18a674db1104e8472517fb7f8b5f5",
+      "prompt": "Làn giảm tốc (deceleration lane) là:",
+      "explanation": "Làn giảm tốc là làn dùng để ra khỏi đường cao tốc, nơi bạn giảm tốc sau khi rời đường cao tốc thay vì giảm tốc trên các làn xe chạy. Từ khóa: \"làn giảm tốc\".",
+      "choices": [
+        "Làn mà xe giảm tốc độ khi ra khỏi đường cao tốc",
+        "Làn bên phải của đường cao tốc bốn làn, dành cho xe chạy chậm hơn",
+        "Làn trên đoạn đường dốc, dành cho xe chạy chậm hơn",
+        "Làn ngay bên phải vạch vàng liền trên đường cao tốc"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "d4a182e8-8234-44e6-89b1-e8bba77f06d0",
+      "imgUrl": null,
+      "en": {
+        "prompt": "An acceleration lane is:",
+        "explanation": "An acceleration lane is part of an on-ramp. It lets you speed up to match highway traffic before you merge. Key words: \"acceleration lane\".",
+        "choices": [
+          "The left lane of a four-lane highway, for use when passing slow moving vehicles",
+          "A lane on hills, designated for faster moving vehicles",
+          "A lane in a merge area for use by vehicles entering the highway",
+          "A lane with broken line markings"
+        ]
+      },
+      "sourceHash": "6885e3d6327a0bca77437251c7e2dee1",
+      "prompt": "Làn tăng tốc (acceleration lane) là:",
+      "explanation": "Làn tăng tốc là một phần của đường dẫn vào đường cao tốc. Làn này giúp bạn tăng tốc để theo kịp dòng xe trên đường cao tốc trước khi nhập làn. Từ khóa: \"làn tăng tốc\".",
+      "choices": [
+        "Làn bên trái của đường cao tốc bốn làn, dùng khi vượt xe chạy chậm",
+        "Làn trên đoạn đường dốc, dành cho xe chạy nhanh hơn",
+        "Làn trong khu vực nhập làn, dành cho xe đi vào đường cao tốc",
+        "Làn có vạch kẻ đứt"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "958058b1-7d84-4e09-8d23-365d03e78f89",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Is a driver allowed to exceed the speed limit when passing another vehicle?",
+        "explanation": "The speed limit always applies, including while passing. If you can't pass without speeding, don't pass.",
+        "choices": [
+          "Yes, on primary highways only",
+          "No, it is never permitted",
+          "Yes, but not more than 10 km/h over the speed limit",
+          "Only when passing more than one vehicle at a time"
+        ]
+      },
+      "sourceHash": "03463dad5ed83e930ca9b2137a9799db",
+      "prompt": "Tài xế có được phép chạy quá tốc độ giới hạn khi vượt xe khác không?",
+      "explanation": "Giới hạn tốc độ luôn được áp dụng, kể cả khi đang vượt xe. Nếu bạn không thể vượt mà không chạy quá tốc độ, đừng vượt.",
+      "choices": [
+        "Có, nhưng chỉ trên đường cao tốc chính (primary highway)",
+        "Không, không bao giờ được phép",
+        "Có, nhưng không quá 10 km/h so với giới hạn tốc độ",
+        "Chỉ khi vượt nhiều xe cùng một lúc"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "44036114-cd71-4014-9ac9-715e381d74f5",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A \"weave zone\" is best described as:",
+        "explanation": "In a weave zone, an entrance lane and an exit lane share the same stretch of road, so drivers entering and drivers exiting must cross paths. Watch carefully and adjust your speed. Key words: \"entrance and exit lanes are close together\".",
+        "choices": [
+          "A place on a highway where the entrance and exit lanes are close together and vehicles that are slowing to exit the highway must drive between vehicles that are accelerating to enter the highway",
+          "A place where the highway has a series of curves that require the driver to slow down",
+          "An area on the highway that is used for emergency parking",
+          "A limited access area on a highway where a driver can legally back their vehicle when they miss their exit"
+        ]
+      },
+      "sourceHash": "bb12a6b4268e1d2a7254fee8ae3cdce0",
+      "prompt": "\"Khu vực đan xen làn\" (weave zone) được mô tả đúng nhất là:",
+      "explanation": "Trong khu vực đan xen làn, làn vào và làn ra dùng chung một đoạn đường, nên xe đi vào và xe đi ra phải cắt ngang đường nhau. Hãy quan sát cẩn thận và điều chỉnh tốc độ. Từ khóa: \"làn vào và làn ra nằm gần nhau\".",
+      "choices": [
+        "Một đoạn trên đường cao tốc nơi làn vào và làn ra nằm gần nhau, và xe đang giảm tốc để ra khỏi đường cao tốc phải chạy xen giữa các xe đang tăng tốc để vào đường cao tốc",
+        "Một đoạn đường cao tốc có nhiều khúc cua liên tiếp buộc tài xế phải giảm tốc",
+        "Một khu vực trên đường cao tốc dùng để đậu xe khẩn cấp",
+        "Một khu vực hạn chế ra vào trên đường cao tốc, nơi tài xế được phép lùi xe hợp pháp khi lỡ lối ra"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "b7e305dd-3af4-4355-a5cb-e4e48e546877",
+      "imgUrl": null,
+      "en": {
+        "prompt": "If a driver is being followed by a vehicle that is attempting to pass on a two-way road, the driver should:",
+        "explanation": "When someone is passing you, stay in your lane, move to the right portion of it, and don't speed up. This gives the passing driver more room. Key words: \"right portion\".",
+        "choices": [
+          "Stay in the lane and move to the right portion of the lane",
+          "Turn on the right signal and drive in the parking lane",
+          "Turn on the left signal and stay in the lane",
+          "Stay in the lane and move to the left portion of the lane"
+        ]
+      },
+      "sourceHash": "844e9c7c781569bc14c9a819c1aa51c1",
+      "prompt": "Nếu xe phía sau đang tìm cách vượt bạn trên đường hai chiều, bạn nên:",
+      "explanation": "Khi có người đang vượt bạn, hãy giữ nguyên làn, đi sát về phía bên phải của làn, và không tăng tốc. Điều này cho xe đang vượt thêm khoảng trống. Từ khóa: \"phía bên phải\".",
+      "choices": [
+        "Giữ nguyên làn và đi sát về phía bên phải của làn",
+        "Bật xi nhan phải và chạy vào làn đậu xe",
+        "Bật xi nhan trái và giữ nguyên làn",
+        "Giữ nguyên làn và đi sát về phía bên trái của làn"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "79f49e64-2033-4dac-9eda-6ecdef55de10",
+      "imgUrl": null,
+      "en": {
+        "prompt": "On a two-lane highway, when passing other vehicles travelling in the same direction, a driver:",
+        "explanation": "On a two-lane highway, pass on the left, and only when it is safe and legal to do so.",
+        "choices": [
+          "Should pass on the left when safe",
+          "Should pass on the right when safe",
+          "Should always travel 30 km/h faster than the vehicle being passed",
+          "Should not pull out to pass until they are within 3 metres of the vehicle being passed"
+        ]
+      },
+      "sourceHash": "8b6253d85d8f2df8e081d60db198a258",
+      "prompt": "Trên đường cao tốc hai làn, khi vượt các xe đi cùng chiều, tài xế:",
+      "explanation": "Trên đường cao tốc hai làn, hãy vượt bên trái, và chỉ vượt khi an toàn và đúng luật.",
+      "choices": [
+        "Nên vượt bên trái khi an toàn",
+        "Nên vượt bên phải khi an toàn",
+        "Luôn phải chạy nhanh hơn xe bị vượt 30 km/h",
+        "Không nên ra khỏi làn để vượt cho đến khi cách xe bị vượt trong vòng 3 mét"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "bcdb1bd1-06e6-46d1-88b7-cefef922adaa",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When driving in the right lane on a highway, what should a driver do if another vehicle attempts to merge from an acceleration lane on the right?",
+        "explanation": "Help merging traffic in: move to the left lane if it is safe, or adjust your speed to leave a gap.",
+        "choices": [
+          "Move into the left lane, if it is safe to do so, or be prepared to adjust speed",
+          "Stop to allow the other vehicle in",
+          "Accelerate to close any gap in the traffic flow",
+          "Insist that the other vehicle yield the right-of-way"
+        ]
+      },
+      "sourceHash": "1062f872754c054b7b7a5d08ce2230ff",
+      "prompt": "Khi bạn đang chạy ở làn phải trên đường cao tốc, bạn nên làm gì nếu có xe khác đang tìm cách nhập vào từ làn tăng tốc bên phải?",
+      "explanation": "Hãy giúp xe đang nhập làn đi vào: chuyển sang làn trái nếu an toàn, hoặc điều chỉnh tốc độ để chừa khoảng trống.",
+      "choices": [
+        "Chuyển sang làn trái nếu an toàn, hoặc sẵn sàng điều chỉnh tốc độ",
+        "Dừng lại để xe kia đi vào",
+        "Tăng tốc để lấp khoảng trống trong dòng xe",
+        "Buộc xe kia phải nhường quyền ưu tiên"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "67025917-c106-4098-bc14-dce795da4e67",
+      "imgUrl": null,
+      "en": {
+        "prompt": " A \"parking lane\" as defined in the Basic License Driver's Handbook is:",
+        "explanation": "A \"parking lane\" is defined as that portion of a primary highway between the edge of the roadway (to the right for traffic) and the nearest solid white line (not the centerline), essentially the shoulder or curb area where parking is permitted unless signed otherwise",
+        "choices": [
+          "A lane closest to the curb, where parking is permitted but there are no meters",
+          "That portion of a primary highway between the edge of the roadway to the right of the direction of traffic and the nearest solid white line, not being the centre line, marked on the roadway",
+          "A lane immediately beside a row of parking meters in an urban area",
+          " All of these responses are correct"
+        ]
+      },
+      "sourceHash": "0643e2e3a8700165f878223c47f9b8e0",
+      "prompt": "Theo định nghĩa trong sổ tay lái xe cơ bản (Basic License Driver's Handbook), \"làn đậu xe\" (parking lane) là:",
+      "explanation": "\"Làn đậu xe\" được định nghĩa là phần của đường cao tốc chính (primary highway) nằm giữa mép đường (ở bên phải theo chiều xe chạy) và vạch trắng liền gần nhất (không phải vạch tim đường). Về cơ bản, đó là khu vực lề đường nơi được phép đậu xe, trừ khi có biển báo khác.",
+      "choices": [
+        "Làn sát lề đường nhất, nơi được phép đậu xe nhưng không có đồng hồ tính tiền đậu xe",
+        "Phần của đường cao tốc chính nằm giữa mép đường ở bên phải theo chiều xe chạy và vạch trắng liền gần nhất được kẻ trên mặt đường, không phải vạch tim đường",
+        "Làn nằm ngay cạnh một dãy đồng hồ tính tiền đậu xe trong khu vực đô thị",
+        "Tất cả các câu trả lời trên đều đúng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "0b56081e-a1ce-4814-8d20-8274aab61235",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Where in your lane should you normally drive on a marked roadway?",
+        "explanation": "When a roadway is divided into lanes by visible markings, drive in the centre of your lane. (Driver's Guide p. 70)",
+        "choices": [
+          "Close to the right edge of your lane",
+          "Close to the centre line",
+          "In the centre of your lane",
+          "Over the lane line, so others can see you"
+        ]
+      },
+      "sourceHash": "9ce21397aeeda66fb8c79a737363090d",
+      "prompt": "Trên đường có kẻ vạch phân làn, bình thường bạn nên chạy ở vị trí nào trong làn?",
+      "explanation": "Khi đường được chia thành các làn bằng vạch kẻ nhìn thấy được, hãy chạy ở giữa làn của bạn. (Driver's Guide tr. 70)",
+      "choices": [
+        "Sát mép phải của làn",
+        "Sát vạch tim đường",
+        "Ở giữa làn của bạn",
+        "Đè lên vạch phân làn để người khác nhìn thấy bạn"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "f67c85bc-4dd7-4701-a45c-d6cc56a53679",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Before changing lanes, in what order should you do these steps?",
+        "explanation": "Make sure a lane change is allowed, check your mirrors, shoulder check, signal, then move over while keeping your speed. (Driver's Guide p. 71)",
+        "choices": [
+          "Signal, change lanes, then check your mirrors",
+          "Check mirrors, shoulder check, signal, then change lanes",
+          "Change lanes, then signal",
+          "Shoulder check, change lanes, then check mirrors"
+        ]
+      },
+      "sourceHash": "28d50036c8cf4ab93fe9f7560518a3e6",
+      "prompt": "Trước khi chuyển làn, bạn nên thực hiện các bước này theo thứ tự nào?",
+      "explanation": "Hãy chắc chắn rằng được phép chuyển làn, kiểm tra gương, quay đầu kiểm tra (shoulder check), bật xi nhan, rồi chuyển làn trong khi vẫn giữ tốc độ. (Driver's Guide tr. 71)",
+      "choices": [
+        "Bật xi nhan, chuyển làn, rồi kiểm tra gương",
+        "Kiểm tra gương, quay đầu kiểm tra (shoulder check), bật xi nhan, rồi chuyển làn",
+        "Chuyển làn, rồi bật xi nhan",
+        "Quay đầu kiểm tra, chuyển làn, rồi kiểm tra gương"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "6dfb44b1-3562-40f1-9f1b-4586dadd296a",
+      "imgUrl": null,
+      "en": {
+        "prompt": "On a multi-lane highway, which lane should slower traffic use?",
+        "explanation": "Slower traffic should use the travel lane furthest to the right, unless it needs the left lane to turn left. This leaves the left lane for passing. (Driver's Guide p. 71)",
+        "choices": [
+          "The lane furthest to the left",
+          "The centre lane",
+          "Any lane",
+          "The lane furthest to the right"
+        ]
+      },
+      "sourceHash": "5aa5bb8e7265eac53ce211fb1cebd832",
+      "prompt": "Trên đường cao tốc nhiều làn, xe chạy chậm hơn nên dùng làn nào?",
+      "explanation": "Xe chạy chậm hơn nên dùng làn ngoài cùng bên phải, trừ khi cần dùng làn trái để rẽ trái. Như vậy làn trái được dành cho việc vượt xe. (Driver's Guide tr. 71)",
+      "choices": [
+        "Làn ngoài cùng bên trái",
+        "Làn giữa",
+        "Làn nào cũng được",
+        "Làn ngoài cùng bên phải"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "ebaaf1eb-98a6-4276-aad7-85ccd1c16b0a",
+      "imgUrl": null,
+      "en": {
+        "prompt": "On a highway with a passing lane, what should slower vehicles do?",
+        "explanation": "Slower vehicles move into the right lane so other vehicles can pass safely in the left lane. (Driver's Guide p. 71)",
+        "choices": [
+          "Move into the right lane so others can pass on the left",
+          "Stay in the left lane and speed up",
+          "Pull onto the shoulder",
+          "Turn on their hazard lights and continue"
+        ]
+      },
+      "sourceHash": "9be58210779f5656aaf3625af2c0e4fe",
+      "prompt": "Trên đường cao tốc có làn vượt (passing lane), xe chạy chậm hơn nên làm gì?",
+      "explanation": "Xe chạy chậm hơn chuyển vào làn phải để các xe khác có thể vượt an toàn ở làn trái. (Driver's Guide tr. 71)",
+      "choices": [
+        "Chuyển vào làn phải để xe khác vượt bên trái",
+        "Ở lại làn trái và tăng tốc",
+        "Tấp vào lề đường",
+        "Bật đèn khẩn cấp và tiếp tục đi"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "d4048e59-ba6c-42b1-ae83-b202f9b9d1f6",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A passing lane is ending. Who must cooperate?",
+        "explanation": "Drivers in the right lane must merge safely to the left, and drivers in the left lane must cooperate to let them in. (Driver's Guide p. 71)",
+        "choices": [
+          "Right-lane drivers merge left, and left-lane drivers help them in",
+          "Only right-lane drivers; left-lane drivers have the right-of-way",
+          "Only left-lane drivers, who must move right",
+          "Neither; vehicles should stop and take turns"
+        ]
+      },
+      "sourceHash": "aebac6a2ea7774a3ae8fcafcf7b7bcab",
+      "prompt": "Làn vượt sắp kết thúc. Ai phải hợp tác?",
+      "explanation": "Tài xế ở làn phải phải nhập sang trái một cách an toàn, và tài xế ở làn trái phải hợp tác để cho họ vào. (Driver's Guide tr. 71)",
+      "choices": [
+        "Tài xế làn phải nhập sang trái, và tài xế làn trái giúp họ vào",
+        "Chỉ tài xế làn phải; tài xế làn trái có quyền ưu tiên",
+        "Chỉ tài xế làn trái, họ phải chuyển sang phải",
+        "Không ai cả; các xe nên dừng lại và lần lượt đi"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "64310596-52b5-4d34-9e35-d5c43e97a3c8",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Before passing another vehicle on a two-lane highway, which way should you shoulder check?",
+        "explanation": "Shoulder check to the left, to look for vehicles that may be passing you on the left in your blind spot. (Driver's Guide p. 72)",
+        "choices": [
+          "To the right",
+          "To the left",
+          "Over both shoulders",
+          "No shoulder check is needed when passing"
+        ]
+      },
+      "sourceHash": "f7962c2bf66f36a9f0d64be10a58f5c4",
+      "prompt": "Trước khi vượt xe khác trên đường cao tốc hai làn, bạn nên quay đầu kiểm tra (shoulder check) về phía nào?",
+      "explanation": "Quay đầu kiểm tra về bên trái, để tìm xe có thể đang vượt bạn bên trái trong điểm mù (blind spot) của bạn. (Driver's Guide tr. 72)",
+      "choices": [
+        "Về bên phải",
+        "Về bên trái",
+        "Qua cả hai vai",
+        "Không cần quay đầu kiểm tra khi vượt xe"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "586d9cc1-fbbd-45cb-acc8-9d4b4e002612",
+      "imgUrl": null,
+      "en": {
+        "prompt": "After passing a vehicle on a two-lane highway, when can you return to your lane?",
+        "explanation": "Once you can see the vehicle you passed in your inside rear-view mirror, shoulder check right, signal right, and return to your lane. (Driver's Guide p. 72)",
+        "choices": [
+          "As soon as your front bumper passes the other vehicle",
+          "When you can see the passed vehicle in your inside rear-view mirror",
+          "When the other driver flashes their headlights",
+          "After counting to two"
+        ]
+      },
+      "sourceHash": "906c9ef5687278400fc3ce17f3b3160c",
+      "prompt": "Sau khi vượt xe trên đường cao tốc hai làn, khi nào bạn có thể trở về làn của mình?",
+      "explanation": "Khi bạn đã nhìn thấy xe vừa vượt trong gương chiếu hậu bên trong xe, hãy quay đầu kiểm tra bên phải, bật xi nhan phải, và trở về làn của bạn. (Driver's Guide tr. 72)",
+      "choices": [
+        "Ngay khi cản trước xe bạn vượt qua xe kia",
+        "Khi bạn nhìn thấy xe vừa vượt trong gương chiếu hậu bên trong xe",
+        "Khi tài xế kia nháy đèn pha",
+        "Sau khi đếm đến hai"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "edcf12d2-93ae-4b21-a82c-babaf671c106",
+      "imgUrl": null,
+      "en": {
+        "prompt": "In which situation is passing another vehicle not allowed?",
+        "explanation": "Do not pass when another vehicle has stopped to let a pedestrian cross at a marked or unmarked crosswalk. (Driver's Guide p. 72)",
+        "choices": [
+          "When the centre line is broken and the road ahead is clear",
+          "When a vehicle has stopped for a pedestrian at a crosswalk",
+          "When you are on a multi-lane highway",
+          "When the vehicle ahead is going below the speed limit"
+        ]
+      },
+      "sourceHash": "7a27cf13a9004498fb16bc1e5ac2e8d9",
+      "prompt": "Trong trường hợp nào thì không được phép vượt xe khác?",
+      "explanation": "Không được vượt khi có xe khác đã dừng lại để người đi bộ qua đường tại lối qua đường có hoặc không có kẻ vạch. (Driver's Guide tr. 72)",
+      "choices": [
+        "Khi vạch tim đường là vạch đứt và đường phía trước thông thoáng",
+        "Khi có xe đã dừng lại cho người đi bộ tại lối qua đường",
+        "Khi bạn đang ở trên đường cao tốc nhiều làn",
+        "Khi xe phía trước đang chạy dưới tốc độ giới hạn"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "7da9e1d2-f0e1-40ff-a73e-48d123229566",
+      "imgUrl": null,
+      "en": {
+        "prompt": "What is the emergency stopping lane of a highway for?",
+        "explanation": "The shoulder of a primary highway is for drivers who need to stop because of an urgent situation or a problem with their vehicle. (Driver's Guide pp. 72–73)",
+        "choices": [
+          "Passing slower vehicles",
+          "Slower vehicles to drive in",
+          "Stopping in an emergency or when your vehicle has a problem",
+          "Waiting to merge onto the highway"
+        ]
+      },
+      "sourceHash": "85fa0c74cce644e39e6e074815f73892",
+      "prompt": "Làn dừng khẩn cấp của đường cao tốc dùng để làm gì?",
+      "explanation": "Lề của đường cao tốc chính (primary highway) dành cho tài xế cần dừng lại vì tình huống khẩn cấp hoặc vì xe gặp sự cố. (Driver's Guide tr. 72–73)",
+      "choices": [
+        "Vượt xe chạy chậm hơn",
+        "Cho xe chạy chậm hơn đi vào",
+        "Dừng lại khi khẩn cấp hoặc khi xe của bạn gặp sự cố",
+        "Chờ để nhập vào đường cao tốc"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "9947314f-639f-44cb-97ac-681bcbf39bb5",
+      "imgUrl": null,
+      "en": {
+        "prompt": "May you use the shoulder of a highway to pass a vehicle that is turning left?",
+        "explanation": "No. Do not drive in the emergency stopping lane, and do not pass, or help another vehicle pass you, by using it. (Driver's Guide p. 73)",
+        "choices": [
+          "Yes, if the shoulder is paved",
+          "No, never use the shoulder for passing",
+          "Yes, if you signal first",
+          "Yes, at speeds under 50 km/h"
+        ]
+      },
+      "sourceHash": "b8741f27cd28ea034e6f1fa9682bc52f",
+      "prompt": "Bạn có được dùng lề đường cao tốc để vượt một xe đang rẽ trái không?",
+      "explanation": "Không. Không được chạy trên làn dừng khẩn cấp, và không được vượt xe, hoặc giúp xe khác vượt bạn, bằng cách dùng làn này. (Driver's Guide tr. 73)",
+      "choices": [
+        "Có, nếu lề đường được trải nhựa",
+        "Không, không bao giờ dùng lề đường để vượt xe",
+        "Có, nếu bạn bật xi nhan trước",
+        "Có, khi chạy dưới 50 km/h"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "da728a90-ddba-440c-b5d3-e1340a99b96c",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When merging onto a highway, who has the right-of-way?",
+        "explanation": "Neither the merging vehicle nor the vehicles already on the highway have the right-of-way. Merging is a shared responsibility. (Driver's Guide p. 73)",
+        "choices": [
+          "Neither; merging is a shared responsibility",
+          "The merging vehicle",
+          "Vehicles already on the highway",
+          "Whichever vehicle is larger"
+        ]
+      },
+      "sourceHash": "08cb2cbc2de910f458310d772c1c3c26",
+      "prompt": "Khi nhập vào đường cao tốc, ai có quyền ưu tiên?",
+      "explanation": "Cả xe đang nhập làn lẫn các xe đã ở trên đường cao tốc đều không có quyền ưu tiên. Nhập làn là trách nhiệm chung. (Driver's Guide tr. 73)",
+      "choices": [
+        "Không ai cả; nhập làn là trách nhiệm chung",
+        "Xe đang nhập làn",
+        "Các xe đã ở trên đường cao tốc",
+        "Xe nào lớn hơn"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "78faefdc-142a-4d98-9915-0ff8733e3e56",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Why should you avoid stopping in an acceleration lane when merging?",
+        "explanation": "Merging lanes are designed for reaching highway speed. Drivers behind you expect you to keep moving, and you could be hit from behind if you slow or stop. (Driver's Guide p. 73)",
+        "choices": [
+          "It is illegal to stop anywhere on a highway",
+          "It wastes fuel",
+          "Drivers behind you expect you to keep moving and could hit you",
+          "Merging traffic always has the right-of-way"
+        ]
+      },
+      "sourceHash": "54629769e1588bc449584cfd13f93347",
+      "prompt": "Vì sao bạn nên tránh dừng lại trong làn tăng tốc khi nhập làn?",
+      "explanation": "Làn nhập được thiết kế để đạt tốc độ của đường cao tốc. Tài xế phía sau mong bạn tiếp tục di chuyển, và bạn có thể bị đâm từ phía sau nếu giảm tốc hoặc dừng lại. (Driver's Guide tr. 73)",
+      "choices": [
+        "Dừng xe ở bất kỳ đâu trên đường cao tốc đều là vi phạm luật",
+        "Tốn nhiên liệu",
+        "Tài xế phía sau mong bạn tiếp tục di chuyển và có thể đâm vào bạn",
+        "Xe đang nhập làn luôn có quyền ưu tiên"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "1923df89-0663-437c-afed-c4e1cf9c6e6c",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When merging from an acceleration lane, when may you move into the highway lane?",
+        "explanation": "When it is safe and legal, move into your chosen gap after you are past the solid white line of the acceleration lane. (Driver's Guide p. 73)",
+        "choices": [
+          "As soon as you enter the acceleration lane",
+          "Only after coming to a complete stop",
+          "Only when there is no traffic at all",
+          "After you are past the solid white line, when it is safe"
+        ]
+      },
+      "sourceHash": "2aa2341f2df2aa98b400a820d406aeff",
+      "prompt": "Khi nhập làn từ làn tăng tốc, khi nào bạn được chuyển vào làn của đường cao tốc?",
+      "explanation": "Khi an toàn và đúng luật, hãy chuyển vào khoảng trống bạn đã chọn sau khi đã qua khỏi vạch trắng liền của làn tăng tốc. (Driver's Guide tr. 73)",
+      "choices": [
+        "Ngay khi bạn đi vào làn tăng tốc",
+        "Chỉ sau khi đã dừng hẳn",
+        "Chỉ khi hoàn toàn không có xe nào",
+        "Sau khi bạn đã qua khỏi vạch trắng liền, khi an toàn"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "59d48c4a-21cb-4543-a7ea-5ea2b8a37fb3",
+      "imgUrl": null,
+      "en": {
+        "prompt": "You have missed your exit on a highway. What should you do?",
+        "explanation": "If you miss your exit, don't stop. Continue to the next exit and plan to return to your route. Never stop and reverse on a highway or its shoulder. (Driver's Guide p. 74)",
+        "choices": [
+          "Stop on the shoulder and reverse to the exit",
+          "Continue to the next exit",
+          "Make a U-turn across the median",
+          "Slow down and cut across to the exit"
+        ]
+      },
+      "sourceHash": "eefb76aed575d17df4ea33ef215ac5d9",
+      "prompt": "Bạn đã lỡ lối ra trên đường cao tốc. Bạn nên làm gì?",
+      "explanation": "Nếu bạn lỡ lối ra, đừng dừng lại. Hãy đi tiếp đến lối ra kế tiếp và tính đường quay lại lộ trình của bạn. Không bao giờ dừng lại và lùi xe trên đường cao tốc hoặc trên lề đường cao tốc. (Driver's Guide tr. 74)",
+      "choices": [
+        "Dừng lại trên lề đường và lùi xe về lối ra",
+        "Đi tiếp đến lối ra kế tiếp",
+        "Quay đầu xe qua dải phân cách giữa",
+        "Giảm tốc và cắt ngang để vào lối ra"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "be10c242-c7c8-4e76-80ad-4cf67cf1a834",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Where should you do most of your slowing when exiting a highway?",
+        "explanation": "If possible, do most of your slowing in the deceleration lane. Some are short, so you may need to start slowing on the highway. (Driver's Guide p. 74)",
+        "choices": [
+          "In the highway lane before the exit",
+          "On the ramp after the deceleration lane",
+          "In the deceleration lane",
+          "On the shoulder"
+        ]
+      },
+      "sourceHash": "ae801a1dd4973dc0cb78b7b25fe75913",
+      "prompt": "Khi ra khỏi đường cao tốc, bạn nên giảm tốc chủ yếu ở đâu?",
+      "explanation": "Nếu có thể, hãy giảm tốc chủ yếu trong làn giảm tốc (deceleration lane). Một số làn giảm tốc khá ngắn, nên bạn có thể cần bắt đầu giảm tốc trên đường cao tốc. (Driver's Guide tr. 74)",
+      "choices": [
+        "Trên làn đường cao tốc trước lối ra",
+        "Trên đường dẫn ra sau làn giảm tốc",
+        "Trong làn giảm tốc",
+        "Trên lề đường"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "888dc0f1-6149-4010-9c50-803560193724",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When should you reduce your speed for a curve?",
+        "explanation": "If you need to reduce speed, do it before entering the curve, and keep a safe, steady speed through it. (Driver's Guide p. 75)",
+        "choices": [
+          "In the middle of the curve",
+          "Before entering the curve",
+          "As you exit the curve",
+          "You shouldn't change speed for curves"
+        ]
+      },
+      "sourceHash": "b53d0def35428415a42000965f04fb88",
+      "prompt": "Khi nào bạn nên giảm tốc độ cho khúc cua?",
+      "explanation": "Nếu cần giảm tốc, hãy giảm trước khi vào khúc cua, và giữ tốc độ an toàn, ổn định trong suốt khúc cua. (Driver's Guide tr. 75)",
+      "choices": [
+        "Ở giữa khúc cua",
+        "Trước khi vào khúc cua",
+        "Khi ra khỏi khúc cua",
+        "Bạn không nên thay đổi tốc độ khi vào cua"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "62e65423-e0ab-4513-8481-e3657c4103e6",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Your vehicle starts to skid on a curve. What should you do?",
+        "explanation": "Stay off the brake and the accelerator, look where you want to go, and make small steering adjustments. (Driver's Guide p. 75)",
+        "choices": [
+          "Stay off the brake and gas, look and steer where you want to go",
+          "Brake hard and steer sharply",
+          "Accelerate to regain traction",
+          "Turn the wheel quickly in the opposite direction"
+        ]
+      },
+      "sourceHash": "2919b346e77cb6f71e13a3c50c250ca4",
+      "prompt": "Xe của bạn bắt đầu bị trượt ở khúc cua. Bạn nên làm gì?",
+      "explanation": "Không đạp phanh và không đạp ga, nhìn về hướng bạn muốn đi, và đánh lái với những điều chỉnh nhỏ. (Driver's Guide tr. 75)",
+      "choices": [
+        "Không đạp phanh và ga, nhìn và đánh lái về hướng bạn muốn đi",
+        "Phanh mạnh và đánh lái gắt",
+        "Tăng tốc để lấy lại độ bám đường",
+        "Đánh lái thật nhanh theo hướng ngược lại"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "93202c21-fcda-4990-a0cf-f36c2b7a3d94",
+      "imgUrl": null,
+      "en": {
+        "prompt": "As you approach the top of a hill on a two-lane road, you should:",
+        "explanation": "Move to the right in your lane. This may keep you from being hit by an oncoming vehicle that has crossed the centre line. Don't pass near the top of a hill. (Driver's Guide p. 76)",
+        "choices": [
+          "Move toward the centre line for a better view",
+          "Pass any slower vehicles before the crest",
+          "Move to the right side of your lane",
+          "Speed up to get over the hill quickly"
+        ]
+      },
+      "sourceHash": "1216394bb29c5fe5f3e038d759a11b05",
+      "prompt": "Khi đến gần đỉnh dốc trên đường hai làn, bạn nên:",
+      "explanation": "Đi sát về bên phải trong làn của bạn. Điều này có thể giúp bạn tránh bị một xe ngược chiều lấn qua vạch tim đường đâm vào. Không vượt xe gần đỉnh dốc. (Driver's Guide tr. 76)",
+      "choices": [
+        "Đi sát vạch tim đường để nhìn rõ hơn",
+        "Vượt mọi xe chạy chậm hơn trước khi lên đến đỉnh dốc",
+        "Đi sát về bên phải trong làn của bạn",
+        "Tăng tốc để qua dốc thật nhanh"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "c1c2d1e8-89b2-40d6-83c6-9fb110b202f4",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Going down a steep hill in a vehicle with a manual transmission, why shift to a lower gear?",
+        "explanation": "Shifting to a lower gear can reduce the risk of your brakes overheating. (Driver's Guide p. 76)",
+        "choices": [
+          "To reduce the risk of the brakes overheating",
+          "To save fuel",
+          "To go faster down the hill",
+          "It is required by law on all hills"
+        ]
+      },
+      "sourceHash": "756843196a8412ea3e154ce565e29ed1",
+      "prompt": "Khi xuống dốc cao bằng xe số sàn (manual transmission), vì sao nên chuyển sang số thấp hơn?",
+      "explanation": "Chuyển sang số thấp hơn có thể giảm nguy cơ phanh bị quá nóng. (Driver's Guide tr. 76)",
+      "choices": [
+        "Để giảm nguy cơ phanh bị quá nóng",
+        "Để tiết kiệm nhiên liệu",
+        "Để xuống dốc nhanh hơn",
+        "Luật bắt buộc trên mọi con dốc"
+      ],
+      "status": "approved"
+    }
+  ]
+}

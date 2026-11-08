@@ -1,0 +1,820 @@
+{
+  "questions": [
+    {
+      "id": "1e8316b3-e033-4c20-9ddf-bd796ca32a42",
+      "imgUrl": null,
+      "en": {
+        "prompt": "The term \"over-driving\" your headlights at night means:",
+        "explanation": "You over-drive your headlights when you travel so fast that your stopping distance is longer than the distance your headlights light up. Slow down so you can stop within the lit area. Key words: \"over-driving\".",
+        "choices": [
+          "The driver cannot see clearly for 1000 metres",
+          "The low beam headlights are not set properly",
+          "The driver is travelling at a speed which would not permit them to see an object in time to stop",
+          "The driver has had the headlights on for too long"
+        ]
+      },
+      "sourceHash": "b842c87835d84148857fe5d7ac724c72",
+      "prompt": "Cụm từ \"chạy nhanh hơn tầm chiếu của đèn pha\" (over-driving your headlights) vào ban đêm có nghĩa là:",
+      "explanation": "Bạn chạy nhanh hơn tầm chiếu của đèn pha khi chạy nhanh đến mức quãng đường dừng xe dài hơn khoảng cách đèn pha chiếu sáng. Hãy giảm tốc để có thể dừng trong vùng được chiếu sáng. Từ khóa: \"over-driving\".",
+      "choices": [
+        "Tài xế không nhìn rõ trong khoảng 1000 mét",
+        "Đèn cốt không được chỉnh đúng",
+        "Tài xế đang chạy với tốc độ không cho phép họ nhìn thấy vật cản kịp thời để dừng lại",
+        "Tài xế đã bật đèn pha quá lâu"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "0754c9b2-d42d-4ad2-b141-30b8259109fc",
+      "imgUrl": null,
+      "en": {
+        "prompt": "If the vehicle's right tires travel off the paved portion of the roadway:",
+        "explanation": "Don't brake hard or turn the wheel sharply; either can cause a skid or send you across the road. Grip the wheel firmly, ease off the gas, and steer gently back onto the pavement once you have slowed down.",
+        "choices": [
+          "Apply the brakes firmly and counter-steer to return to the paved portion of the roadway",
+          "Keep a firm grip on the steering wheel, ease off the gas pedal, and then gradually return to the paved portion of the roadway",
+          "Accelerate slightly, then turn the steering wheel sharply to return to the paved portion of the roadway",
+          "Move the vehicle completely off the paved portion, then steer back onto the paved portion of the roadway"
+        ]
+      },
+      "sourceHash": "013eb88fee22c5cc099c484be22c5191",
+      "prompt": "Nếu bánh xe bên phải chạy lệch ra khỏi mặt đường nhựa:",
+      "explanation": "Không phanh gấp hoặc đánh lái gắt; cả hai đều có thể làm xe bị trượt hoặc lao sang bên kia đường. Nắm chắc vô lăng, nhả nhẹ chân ga, và nhẹ nhàng đánh lái trở lại mặt đường nhựa sau khi đã giảm tốc.",
+      "choices": [
+        "Phanh mạnh và đánh lái ngược lại để trở về mặt đường nhựa",
+        "Nắm chắc vô lăng, nhả nhẹ chân ga, rồi từ từ đưa xe trở lại mặt đường nhựa",
+        "Tăng tốc nhẹ, rồi đánh lái gắt để trở về mặt đường nhựa",
+        "Cho xe ra hẳn khỏi mặt đường nhựa, rồi đánh lái trở lại mặt đường nhựa"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "816b4e5d-8a07-4308-9090-2f6418cc59e3",
+      "imgUrl": null,
+      "en": {
+        "prompt": "According to the Basic License Driver's Handbook, most skids are the result of:",
+        "explanation": "Most skids happen because the driver goes too fast for the conditions, or brakes, accelerates or steers too sharply. Adjusting your driving to the conditions prevents them.",
+        "choices": [
+          "Driver error",
+          "Bad tires",
+          "Bad brakes",
+          "Icy roads"
+        ]
+      },
+      "sourceHash": "788813f4fc349ecaf043da7ecbfa84cd",
+      "prompt": "Theo Sổ tay lái xe cơ bản (Basic License Driver's Handbook), phần lớn các trường hợp xe bị trượt là do:",
+      "explanation": "Phần lớn các trường hợp trượt xảy ra vì tài xế chạy quá nhanh so với điều kiện, hoặc phanh, tăng tốc hay đánh lái quá gắt. Điều chỉnh cách lái phù hợp với điều kiện sẽ giúp tránh bị trượt.",
+      "choices": [
+        "Lỗi của tài xế",
+        "Lốp xe kém",
+        "Phanh kém",
+        "Đường đóng băng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "63742355-ca3c-416c-a64d-4b97c6c9bd1b",
+      "imgUrl": null,
+      "en": {
+        "prompt": "In reduced visibility due to fog, smoke or snow, use the:",
+        "explanation": "High beams reflect off fog, smoke and snow, creating glare that makes it harder to see. Low beams light the road without that glare. Key words: \"fog, smoke or snow\".",
+        "choices": [
+          "Park lights",
+          "Headlights on high beam",
+          "Headlights on low beam",
+          "Daytime running lights"
+        ]
+      },
+      "sourceHash": "775d37641a544551a350ec6fcf00a442",
+      "prompt": "Khi tầm nhìn bị hạn chế do sương mù, khói hoặc tuyết, hãy dùng:",
+      "explanation": "Đèn pha chiếu xa (high beams) phản chiếu lại từ sương mù, khói và tuyết, gây chói và khiến bạn khó nhìn hơn. Đèn cốt (low beams) chiếu sáng mặt đường mà không gây chói như vậy. Từ khóa: \"sương mù, khói hoặc tuyết\".",
+      "choices": [
+        "Đèn đậu xe (park lights)",
+        "Đèn pha chiếu xa",
+        "Đèn cốt",
+        "Đèn chạy ban ngày (daytime running lights)"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "9f37afba-9ae8-416b-b562-0617763d2e1f",
+      "imgUrl": null,
+      "en": {
+        "prompt": "In a vehicle that does not have anti-lock brakes, threshold braking refers to:",
+        "explanation": "Threshold braking means pressing the brake firmly up to the point just before the wheels lock, and easing off slightly if they do lock. It stops you quickly while you can still steer. Key words: \"threshold braking\".",
+        "choices": [
+          "Applying an even braking force to the point just before the wheels lock, and easing off slightly if the wheels lock",
+          "Pumping the brake pedal repeatedly until the vehicle comes to a stop",
+          "Releasing pressure on the brake pedal, then reapplying pressure until the wheels lock",
+          "Applying enough force to the brake pedal to lock the wheels and keep them locked"
+        ]
+      },
+      "sourceHash": "ccf8342ea0439eaaee706f8f98c85fa7",
+      "prompt": "Ở xe không có phanh chống bó cứng (ABS), phanh ngưỡng (threshold braking) có nghĩa là:",
+      "explanation": "Phanh ngưỡng là đạp phanh mạnh đến ngay trước khi bánh xe bị bó cứng, và nhả bớt một chút nếu bánh bị bó cứng. Cách này giúp bạn dừng nhanh trong khi vẫn đánh lái được. Từ khóa: \"phanh ngưỡng\".",
+      "choices": [
+        "Đạp phanh với lực đều đến ngay trước khi bánh xe bị bó cứng, và nhả bớt một chút nếu bánh bị bó cứng",
+        "Nhấp nhả bàn đạp phanh liên tục cho đến khi xe dừng",
+        "Nhả lực trên bàn đạp phanh, rồi đạp lại cho đến khi bánh xe bị bó cứng",
+        "Đạp phanh đủ mạnh để bánh xe bị bó cứng và giữ nguyên như vậy"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "5c5b7a52-1cb4-449e-8969-a3afd089f182",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A driver must report a collision to the police when anyone is injured or killed, or when the combined damage to all vehicles and property is at least:",
+        "explanation": "Report a collision to police if anyone is injured or killed, or if the combined damage to all vehicles and property is $5,000 or more. The limit was raised from $2,000 on January 1, 2024. Key words: \"all vehicles and property\".",
+        "choices": [
+          "$1,000",
+          "$5,000",
+          "$2,000",
+          "$10,000"
+        ]
+      },
+      "sourceHash": "330c083191acd06289be59523d936cca",
+      "prompt": "Tài xế phải báo cảnh sát về vụ va chạm khi có người bị thương hoặc tử vong, hoặc khi tổng thiệt hại của tất cả các xe và tài sản ít nhất là:",
+      "explanation": "Báo cảnh sát về vụ va chạm nếu có người bị thương hoặc tử vong, hoặc nếu tổng thiệt hại của tất cả các xe và tài sản từ $5,000 trở lên. Mức này đã được nâng từ $2,000 kể từ ngày 1 tháng 1 năm 2024. Từ khóa: \"tất cả các xe và tài sản\".",
+      "choices": [
+        "$1,000",
+        "$5,000",
+        "$2,000",
+        "$10,000"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "d53c1cf9-32fc-45eb-97ab-de61d4551788",
+      "imgUrl": null,
+      "en": {
+        "prompt": "At what minimum distance must headlights be dimmed at night when approaching another vehicle from behind?",
+        "explanation": "Switch to low beams within 150 metres of a vehicle you are following, and within 300 metres of an oncoming vehicle. Key words: \"dimmed\", \"from behind\".",
+        "choices": [
+          "60 metres",
+          "300 metres",
+          "150 metres",
+          "100 metres"
+        ]
+      },
+      "sourceHash": "3f19ecab9840bf520a4d393af0c1ee04",
+      "prompt": "Vào ban đêm, khi đi phía sau một xe khác, bạn phải chuyển sang đèn cốt từ khoảng cách tối thiểu nào?",
+      "explanation": "Chuyển sang đèn cốt khi cách xe bạn đang đi theo trong vòng 150 mét, và khi cách xe ngược chiều trong vòng 300 mét. Từ khóa: \"chuyển sang đèn cốt\", \"phía sau\".",
+      "choices": [
+        "60 mét",
+        "300 mét",
+        "150 mét",
+        "100 mét"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "186224db-e98d-4919-8275-70a6dd7a61ac",
+      "imgUrl": null,
+      "en": {
+        "prompt": "In the Basic License Driver's Handbook, \"night time\" is defined as the period of time:",
+        "explanation": "Under Alberta's rules of the road, night time runs from one hour after sunset to one hour before the next sunrise. Headlights must be on during this time. Key words: \"nighttime\".",
+        "choices": [
+          "Beginning 1 hour before sunset and ending 1 hour after the following sunrise",
+          "Beginning at sunset and ending at the following sunrise",
+          "Beginning 1 hour after sunset and ending 1 hour before the following sunrise",
+          "Between 7:00 pm and 7:00 am"
+        ]
+      },
+      "sourceHash": "c34e5143ebda50ab4080afcd1b21ff02",
+      "prompt": "Trong Sổ tay lái xe cơ bản (Basic License Driver's Handbook), \"ban đêm\" được định nghĩa là khoảng thời gian:",
+      "explanation": "Theo luật giao thông của Alberta, ban đêm được tính từ một giờ sau khi mặt trời lặn đến một giờ trước khi mặt trời mọc hôm sau. Trong thời gian này phải bật đèn pha. Từ khóa: \"ban đêm\".",
+      "choices": [
+        "Bắt đầu 1 giờ trước khi mặt trời lặn và kết thúc 1 giờ sau khi mặt trời mọc hôm sau",
+        "Bắt đầu lúc mặt trời lặn và kết thúc lúc mặt trời mọc hôm sau",
+        "Bắt đầu 1 giờ sau khi mặt trời lặn và kết thúc 1 giờ trước khi mặt trời mọc hôm sau",
+        "Từ 7 giờ tối đến 7 giờ sáng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "03ccb6ac-7121-415e-aa13-0f177d1ce6bb",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When a driver's vehicle is approached by an emergency vehicle sounding a siren, from any direction on a two-way road, the driver must:",
+        "explanation": "An emergency vehicle with its siren on has the right-of-way. Pull over as close as possible to the right curb or edge of the road, stop, and stay stopped until it has passed. Don't stop in an intersection.",
+        "choices": [
+          "Continue at a reduced speed and allow sufficient space for the emergency vehicle to pass",
+          "Turn on their four-way hazard lights",
+          "Stop only when the emergency vehicle has difficulty in passing",
+          "Drive as close as possible to the right curb or edge of the road and stop"
+        ]
+      },
+      "sourceHash": "bb7331382211fa02013d553c77bd55c9",
+      "prompt": "Khi có xe ưu tiên đang hú còi đến gần xe của bạn, từ bất kỳ hướng nào trên đường hai chiều, bạn phải:",
+      "explanation": "Xe ưu tiên đang hú còi có quyền ưu tiên. Tấp vào sát lề phải hoặc mép phải của đường nhất có thể, dừng lại, và tiếp tục dừng cho đến khi xe ưu tiên đi qua. Không dừng trong giao lộ.",
+      "choices": [
+        "Tiếp tục chạy với tốc độ thấp hơn và chừa đủ chỗ cho xe ưu tiên vượt qua",
+        "Bật đèn khẩn cấp (hazard lights)",
+        "Chỉ dừng lại khi xe ưu tiên gặp khó khăn khi vượt",
+        "Lái xe sát lề phải hoặc mép phải của đường nhất có thể và dừng lại"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "0b629dab-c26d-4a3f-9d19-df43ca8adc16",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When following an emergency vehicle with its lights or siren activated, stay back a minimum distance of:",
+        "explanation": "It is illegal to drive within 150 metres of an emergency vehicle that has its siren or flashing lights on. Key words: \"emergency vehicle\", \"stay back a minimum distance\".",
+        "choices": [
+          "100 metres",
+          "75 metres",
+          "125 metres",
+          "150 metres"
+        ]
+      },
+      "sourceHash": "c191f116b2a90116f1e16e35ed76c1c0",
+      "prompt": "Khi đi theo sau một xe ưu tiên đang bật đèn hoặc hú còi, hãy giữ khoảng cách tối thiểu:",
+      "explanation": "Lái xe trong vòng 150 mét phía sau xe ưu tiên đang hú còi hoặc bật đèn nhấp nháy là vi phạm pháp luật. Từ khóa: \"xe ưu tiên\", \"giữ khoảng cách tối thiểu\".",
+      "choices": [
+        "100 mét",
+        "75 mét",
+        "125 mét",
+        "150 mét"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "764b1208-3f3d-4c3c-b934-c1beb0a6bfb8",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Your vehicle has anti-lock brakes (ABS). How should you brake in an emergency?",
+        "explanation": "With ABS, apply steady, firm pressure to the brake pedal. Don't pump or release it, and steer where you want to go. (Driver's Guide p. 78)",
+        "choices": [
+          "Pump the brake pedal quickly",
+          "Press until the wheels lock, then release",
+          "Apply steady, firm pressure and don't pump the pedal",
+          "Brake lightly and steer sharply"
+        ]
+      },
+      "sourceHash": "39bf6b2ed2739b81f430a9d935023e0b",
+      "prompt": "Xe của bạn có phanh chống bó cứng (ABS). Bạn nên phanh như thế nào trong tình huống khẩn cấp?",
+      "explanation": "Với ABS, hãy đạp phanh mạnh và đều. Không nhấp nhả hoặc buông phanh, và đánh lái về hướng bạn muốn đi. (Driver's Guide tr. 78)",
+      "choices": [
+        "Nhấp nhả bàn đạp phanh thật nhanh",
+        "Đạp cho đến khi bánh xe bị bó cứng, rồi buông ra",
+        "Đạp phanh mạnh và đều, không nhấp nhả",
+        "Phanh nhẹ và đánh lái gắt"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "fc2c0786-6936-47b1-9e16-0bac763b0217",
+      "imgUrl": null,
+      "en": {
+        "prompt": "During hard braking in a vehicle with ABS, you feel the brake pedal vibrate. What does this mean?",
+        "explanation": "ABS cycles the brakes on each wheel, which you feel as a vibration through the pedal. This is normal. Keep steady pressure on the pedal. (Driver's Guide p. 78)",
+        "choices": [
+          "The brakes are failing; release the pedal",
+          "A tire is flat",
+          "The ABS is working normally; keep steady pressure",
+          "You should pump the brake pedal instead"
+        ]
+      },
+      "sourceHash": "91ffa0550d3ec647b1ff2ba2fba4ca68",
+      "prompt": "Khi phanh gấp ở xe có ABS, bạn cảm thấy bàn đạp phanh rung. Điều này có nghĩa là gì?",
+      "explanation": "ABS liên tục đóng ngắt phanh ở từng bánh xe, và bạn cảm nhận điều đó qua độ rung ở bàn đạp. Đây là điều bình thường. Hãy giữ lực đạp đều. (Driver's Guide tr. 78)",
+      "choices": [
+        "Phanh đang bị hỏng; hãy buông bàn đạp",
+        "Một lốp xe bị xì",
+        "ABS đang hoạt động bình thường; hãy giữ lực đạp đều",
+        "Bạn nên nhấp nhả bàn đạp phanh thay vào đó"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "361fa13f-300e-4108-876e-5f040a6193b1",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Your vehicle begins to skid. What should you do with the brake pedal?",
+        "explanation": "It is very important to keep your foot off the brake if you start to skid. Look and steer in the direction you want the front of the vehicle to go. (Driver's Guide p. 79)",
+        "choices": [
+          "Press it as hard as possible",
+          "Pump it rapidly",
+          "Keep your foot off the brake",
+          "Hold it halfway down"
+        ]
+      },
+      "sourceHash": "c83cbcba9ae04f94a4a3f107af74a54d",
+      "prompt": "Xe của bạn bắt đầu bị trượt. Bạn nên làm gì với bàn đạp phanh?",
+      "explanation": "Điều rất quan trọng là không đạp phanh khi xe bắt đầu trượt. Nhìn và đánh lái về hướng bạn muốn đầu xe đi tới. (Driver's Guide tr. 79)",
+      "choices": [
+        "Đạp mạnh hết mức có thể",
+        "Nhấp nhả thật nhanh",
+        "Không đặt chân lên phanh",
+        "Giữ bàn đạp ở mức một nửa"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "334e6540-4f5a-4384-9ace-96c029d27ddb",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Your wheels spin because you accelerated too quickly (a power skid). What should you do?",
+        "explanation": "Take your foot off the gas so the wheels stop spinning, make any needed steering corrections without over-correcting, then accelerate gently. (Driver's Guide p. 79)",
+        "choices": [
+          "Brake firmly",
+          "Accelerate harder to regain traction",
+          "Take your foot off the gas and steer where you want to go",
+          "Shift into neutral"
+        ]
+      },
+      "sourceHash": "cb435a25ef7f755ed9b2eb056e7461ad",
+      "prompt": "Bánh xe quay trơn vì bạn tăng tốc quá nhanh (trượt do tăng tốc). Bạn nên làm gì?",
+      "explanation": "Nhả chân ga để bánh xe ngừng quay trơn, đánh lái điều chỉnh khi cần mà không điều chỉnh quá mức, rồi tăng tốc nhẹ nhàng. (Driver's Guide tr. 79)",
+      "choices": [
+        "Phanh mạnh",
+        "Tăng tốc mạnh hơn để lấy lại độ bám",
+        "Nhả chân ga và đánh lái về hướng bạn muốn đi",
+        "Chuyển sang số N (neutral)"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "cd39ff6d-1381-487b-94cc-81fedff986cd",
+      "imgUrl": null,
+      "en": {
+        "prompt": "You are going too fast in a turn and the vehicle slides sideways (a cornering skid). What should you do?",
+        "explanation": "Take your foot off the gas, don't use the brakes, and look and steer where you want the front of the vehicle to go. (Driver's Guide p. 79)",
+        "choices": [
+          "Brake hard to slow down",
+          "Accelerate out of the skid",
+          "Take your foot off the gas, don't brake, and steer where you want to go",
+          "Steer sharply in the opposite direction"
+        ]
+      },
+      "sourceHash": "f7a26130aa8b6f3d30398a27012fe7a1",
+      "prompt": "Bạn vào cua quá nhanh và xe bị trượt ngang (trượt khi vào cua). Bạn nên làm gì?",
+      "explanation": "Nhả chân ga, không phanh, và nhìn và đánh lái về hướng bạn muốn đầu xe đi tới. (Driver's Guide tr. 79)",
+      "choices": [
+        "Phanh mạnh để giảm tốc",
+        "Tăng tốc để thoát khỏi cú trượt",
+        "Nhả chân ga, không phanh, và đánh lái về hướng bạn muốn đi",
+        "Đánh lái gắt theo hướng ngược lại"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "7162723f-8606-4012-9cd5-cc7804aced98",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Your vehicle breaks down. Where should you avoid stopping?",
+        "explanation": "Don't stop on a bridge or in a tunnel. This can be very dangerous. Move to a safe location if possible. (Driver's Guide p. 80)",
+        "choices": [
+          "On the shoulder of a highway",
+          "On a bridge or in a tunnel",
+          "In a parking lot",
+          "On a side street"
+        ]
+      },
+      "sourceHash": "c6a17f7983f42c069662cd854d3518c3",
+      "prompt": "Xe của bạn bị hỏng. Bạn nên tránh dừng xe ở đâu?",
+      "explanation": "Không dừng trên cầu hoặc trong đường hầm. Điều này có thể rất nguy hiểm. Hãy di chuyển đến nơi an toàn nếu có thể. (Driver's Guide tr. 80)",
+      "choices": [
+        "Trên lề đường cao tốc",
+        "Trên cầu hoặc trong đường hầm",
+        "Trong bãi đậu xe",
+        "Trên đường nhánh"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "18f87072-ff29-4696-9c20-eec99db9f0e1",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When your vehicle breaks down on a highway, how far apart should you place reflective triangles behind it?",
+        "explanation": "Place reflective triangles to the rear of your vehicle, about 10 to 20 metres apart. (Driver's Guide p. 80)",
+        "choices": [
+          "About 1 to 2 metres apart",
+          "About 100 metres apart",
+          "Directly behind the vehicle, touching the bumper",
+          "About 10 to 20 metres apart"
+        ]
+      },
+      "sourceHash": "7a875eab4e82597146baba1647f6f941",
+      "prompt": "Khi xe bị hỏng trên đường cao tốc, bạn nên đặt các tam giác phản quang phía sau xe cách nhau bao xa?",
+      "explanation": "Đặt các tam giác phản quang phía sau xe, cách nhau khoảng 10 đến 20 mét. (Driver's Guide tr. 80)",
+      "choices": [
+        "Cách nhau khoảng 1 đến 2 mét",
+        "Cách nhau khoảng 100 mét",
+        "Ngay phía sau xe, sát vào cản xe",
+        "Cách nhau khoảng 10 đến 20 mét"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "ae190c06-eddd-42eb-a88d-7838359fbf66",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Your vehicle has broken down in a dangerous spot. Where should you and your passengers wait for help?",
+        "explanation": "Have everyone leave the vehicle and wait at a safe location away from the vehicle and to the rear of it. (Driver's Guide p. 80)",
+        "choices": [
+          "Inside the vehicle with seat belts on",
+          "In front of the vehicle",
+          "On the road beside the vehicle to flag down help",
+          "Away from the vehicle, to the rear of it"
+        ]
+      },
+      "sourceHash": "31fa02004b07f062a3aa0ca97d38934d",
+      "prompt": "Xe của bạn bị hỏng ở một chỗ nguy hiểm. Bạn và hành khách nên chờ cứu trợ ở đâu?",
+      "explanation": "Hãy để mọi người ra khỏi xe và chờ ở nơi an toàn, cách xa xe và ở phía sau xe. (Driver's Guide tr. 80)",
+      "choices": [
+        "Trong xe, thắt dây an toàn",
+        "Phía trước xe",
+        "Trên đường cạnh xe để vẫy gọi cứu trợ",
+        "Cách xa xe, ở phía sau xe"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "1f831429-1aad-4186-a1f6-92be38d0f7fb",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A front tire goes flat while you are driving. What should you do first?",
+        "explanation": "Resist the urge to brake immediately. Take your foot off the gas, hold the wheel firmly, and keep the vehicle straight. Then brake gently and pull over. (Driver's Guide p. 81)",
+        "choices": [
+          "Brake hard immediately",
+          "Take your foot off the gas and hold the steering wheel firmly",
+          "Accelerate to keep control",
+          "Steer sharply onto the shoulder"
+        ]
+      },
+      "sourceHash": "2670d5c1bdee2f38b143aac4dc93f5f3",
+      "prompt": "Một lốp trước bị xì khi bạn đang lái xe. Bạn nên làm gì trước tiên?",
+      "explanation": "Cố gắng không phanh ngay. Nhả chân ga, nắm chắc vô lăng, và giữ xe đi thẳng. Sau đó phanh nhẹ và tấp vào lề. (Driver's Guide tr. 81)",
+      "choices": [
+        "Phanh mạnh ngay lập tức",
+        "Nhả chân ga và nắm chắc vô lăng",
+        "Tăng tốc để giữ kiểm soát",
+        "Đánh lái gắt vào lề đường"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "f73df9e1-062e-43a2-aeed-42916eea5825",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Your power steering fails while driving. What happens?",
+        "explanation": "You can still steer the vehicle, but you'll need extra effort to turn the steering wheel. (Driver's Guide p. 81)",
+        "choices": [
+          "You can no longer steer at all",
+          "You can still steer, but it takes more effort",
+          "The brakes also stop working",
+          "The vehicle stops immediately"
+        ]
+      },
+      "sourceHash": "e98a3d21f4a15f2064d4e4f0478465c4",
+      "prompt": "Trợ lực lái bị hỏng khi bạn đang lái xe. Điều gì xảy ra?",
+      "explanation": "Bạn vẫn có thể đánh lái, nhưng sẽ cần dùng thêm sức để xoay vô lăng. (Driver's Guide tr. 81)",
+      "choices": [
+        "Bạn hoàn toàn không thể đánh lái được nữa",
+        "Bạn vẫn có thể đánh lái, nhưng cần dùng nhiều sức hơn",
+        "Phanh cũng ngừng hoạt động",
+        "Xe dừng lại ngay lập tức"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "a7eabeaf-b090-4c93-9367-d9a7dda6a7e2",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Both of your headlights fail at night. What should you do?",
+        "explanation": "Turn on your hazard lights and try switching the headlights off and on. If they don't come back, slow down and pull over somewhere safe. (Driver's Guide p. 81)",
+        "choices": [
+          "Keep driving with your high beams",
+          "Drive slowly to the nearest service station",
+          "Turn on your hazard lights, try the headlight switch, then pull over safely",
+          "Stop immediately in your lane"
+        ]
+      },
+      "sourceHash": "58ca962acdbde56ed05ab90be1340725",
+      "prompt": "Cả hai đèn pha của bạn bị hỏng vào ban đêm. Bạn nên làm gì?",
+      "explanation": "Bật đèn khẩn cấp và thử tắt rồi bật lại đèn pha. Nếu đèn không sáng lại, hãy giảm tốc và tấp vào một nơi an toàn. (Driver's Guide tr. 81)",
+      "choices": [
+        "Tiếp tục lái bằng đèn pha chiếu xa",
+        "Lái chậm đến trạm dịch vụ gần nhất",
+        "Bật đèn khẩn cấp, thử công tắc đèn pha, rồi tấp vào lề an toàn",
+        "Dừng ngay lập tức trong làn của bạn"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "c1b09d81-32e5-4d63-b2e1-35d78c0fef88",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Besides at night, when must you turn on your headlights?",
+        "explanation": "You must turn your headlights on whenever you can't clearly see 150 metres ahead. (Driver's Guide p. 81)",
+        "choices": [
+          "Only when it is raining",
+          "Only on highways",
+          "Whenever you can't clearly see 150 metres ahead",
+          "Only in winter"
+        ]
+      },
+      "sourceHash": "6d85fcc898fa9ab62a633acb624c5250",
+      "prompt": "Ngoài ban đêm, khi nào bạn phải bật đèn pha?",
+      "explanation": "Bạn phải bật đèn pha bất cứ khi nào bạn không nhìn rõ được 150 mét phía trước. (Driver's Guide tr. 81)",
+      "choices": [
+        "Chỉ khi trời mưa",
+        "Chỉ trên đường cao tốc",
+        "Bất cứ khi nào bạn không nhìn rõ được 150 mét phía trước",
+        "Chỉ vào mùa đông"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "ae8e8b75-bb5b-4358-9ca5-243f80f7f512",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Why aren't daytime running lights enough for driving at night?",
+        "explanation": "Daytime running lights aren't bright enough, and your tail lights and instrument panel lights won't be on. (Driver's Guide p. 81)",
+        "choices": [
+          "They drain the battery",
+          "They aren't bright enough, and your tail lights won't be on",
+          "They are only for highways",
+          "They blind oncoming drivers"
+        ]
+      },
+      "sourceHash": "fc3af2768e8894ebc0c24149eca2264a",
+      "prompt": "Tại sao đèn chạy ban ngày (daytime running lights) không đủ để lái xe vào ban đêm?",
+      "explanation": "Đèn chạy ban ngày không đủ sáng, và đèn hậu cũng như đèn bảng đồng hồ của bạn sẽ không sáng. (Driver's Guide tr. 81)",
+      "choices": [
+        "Chúng làm hao bình ắc quy",
+        "Chúng không đủ sáng, và đèn hậu của bạn sẽ không sáng",
+        "Chúng chỉ dùng cho đường cao tốc",
+        "Chúng làm chói mắt tài xế ngược chiều"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "8231d76b-ad23-4113-b425-54c10f6b07e5",
+      "imgUrl": null,
+      "en": {
+        "prompt": "You must switch to low beams when an oncoming vehicle is within:",
+        "explanation": "Use low beams within 300 metres of oncoming vehicles, and within 150 metres when following another vehicle. (Driver's Guide p. 82)",
+        "choices": [
+          "300 metres",
+          "150 metres",
+          "50 metres",
+          "500 metres"
+        ]
+      },
+      "sourceHash": "e56339bcd89966ddf568640051f46a3a",
+      "prompt": "Bạn phải chuyển sang đèn cốt khi xe ngược chiều cách bạn trong vòng:",
+      "explanation": "Dùng đèn cốt khi xe ngược chiều cách trong vòng 300 mét, và trong vòng 150 mét khi đi theo sau xe khác. (Driver's Guide tr. 82)",
+      "choices": [
+        "300 mét",
+        "150 mét",
+        "50 mét",
+        "500 mét"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "536f2ec4-5a7a-4173-9485-37cbd3338385",
+      "imgUrl": null,
+      "en": {
+        "prompt": "The headlights of an oncoming vehicle are blinding you. Where should you look?",
+        "explanation": "Look slightly down and to the right edge of your lane until the vehicle passes. (Driver's Guide p. 81)",
+        "choices": [
+          "Directly at the oncoming headlights",
+          "At the centre line",
+          "Slightly down and to the right edge of your lane",
+          "Into your rear-view mirror"
+        ]
+      },
+      "sourceHash": "aa74566d4f84b7174858bb36559393e9",
+      "prompt": "Đèn pha của xe ngược chiều làm bạn lóa mắt. Bạn nên nhìn về đâu?",
+      "explanation": "Nhìn hơi xuống và về phía mép phải của làn cho đến khi xe kia đi qua. (Driver's Guide tr. 81)",
+      "choices": [
+        "Nhìn thẳng vào đèn pha của xe ngược chiều",
+        "Nhìn vào vạch giữa đường",
+        "Nhìn hơi xuống và về phía mép phải của làn",
+        "Nhìn vào gương chiếu hậu"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "bb4110e5-b0cb-4dc1-a52f-03adca3dcba3",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Your tires lose contact with a wet road and begin to hydroplane. What should you do?",
+        "explanation": "Don't brake. Release pressure on the accelerator to let the vehicle slow, and steer where you want to go. (Driver's Guide p. 83)",
+        "choices": [
+          "Don't brake; ease off the gas and steer where you want to go",
+          "Brake firmly until the vehicle stops",
+          "Accelerate to push through the water",
+          "Turn the wheel sharply to get out of the water"
+        ]
+      },
+      "sourceHash": "c666932f373eca6eeb0482ad0574e91b",
+      "prompt": "Lốp xe mất tiếp xúc với mặt đường ướt và bắt đầu bị trượt nước (hydroplaning). Bạn nên làm gì?",
+      "explanation": "Không phanh. Nhả chân ga để xe tự giảm tốc, và đánh lái về hướng bạn muốn đi. (Driver's Guide tr. 83)",
+      "choices": [
+        "Không phanh; nhả nhẹ chân ga và đánh lái về hướng bạn muốn đi",
+        "Phanh mạnh cho đến khi xe dừng",
+        "Tăng tốc để vượt qua chỗ nước",
+        "Đánh lái gắt để thoát khỏi chỗ nước"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "ababa60d-4ae2-4af2-91af-2a967a3d35e4",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Which road surface may have black ice?",
+        "explanation": "If the asphalt looks shiny and black instead of grey-white, it may be black ice. Reduce speed without braking. (Driver's Guide p. 82)",
+        "choices": [
+          "Pavement that looks dry and grey-white",
+          "Asphalt that looks shiny and black",
+          "Roads covered with fresh snow",
+          "Gravel roads"
+        ]
+      },
+      "sourceHash": "6629d3d11285d5123eee33158a6d07d1",
+      "prompt": "Mặt đường nào có thể có băng đen (black ice)?",
+      "explanation": "Nếu mặt đường nhựa trông bóng và đen thay vì trắng xám, đó có thể là băng đen. Giảm tốc mà không phanh. (Driver's Guide tr. 82)",
+      "choices": [
+        "Mặt đường trông khô và có màu trắng xám",
+        "Mặt đường nhựa trông bóng và đen",
+        "Đường phủ tuyết mới",
+        "Đường sỏi"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "8f9bb008-9f63-45f9-9499-0378eefa7b5b",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Why should you not use cruise control on icy roads?",
+        "explanation": "If your tires hit ice, cruise control will keep applying the accelerator and you could lose control. (Driver's Guide p. 83)",
+        "choices": [
+          "It uses too much fuel in cold weather",
+          "It keeps accelerating when the tires hit ice, which can cause a loss of control",
+          "It doesn't work below 0°C",
+          "It is illegal in winter"
+        ]
+      },
+      "sourceHash": "dfb4c6836aff6beac6351da82e4bde8d",
+      "prompt": "Tại sao bạn không nên dùng chế độ giữ tốc độ (cruise control) trên đường đóng băng?",
+      "explanation": "Nếu lốp xe gặp băng, chế độ giữ tốc độ sẽ tiếp tục nhấn ga và bạn có thể mất kiểm soát. (Driver's Guide tr. 83)",
+      "choices": [
+        "Nó tốn quá nhiều nhiên liệu khi trời lạnh",
+        "Nó tiếp tục tăng tốc khi lốp xe gặp băng, có thể khiến bạn mất kiểm soát",
+        "Nó không hoạt động dưới 0°C",
+        "Dùng nó vào mùa đông là vi phạm pháp luật"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "5c5b84f8-1705-4dcd-9c72-618021299002",
+      "imgUrl": null,
+      "en": {
+        "prompt": "You are stranded in your vehicle in winter, and it is in a safe place. What is usually the safest choice?",
+        "explanation": "It is usually safer to stay with your vehicle. Run the engine only enough to stay warm, with a window open slightly to prevent carbon monoxide poisoning. (Driver's Guide p. 83)",
+        "choices": [
+          "Walk to find help",
+          "Stay with the vehicle and run the engine sparingly with a window slightly open",
+          "Run the engine continuously with the windows closed",
+          "Leave the vehicle and wait at the roadside"
+        ]
+      },
+      "sourceHash": "6edc5533906750e5a4c30c71f37f1176",
+      "prompt": "Bạn bị mắc kẹt trong xe vào mùa đông, và xe đang ở nơi an toàn. Lựa chọn nào thường là an toàn nhất?",
+      "explanation": "Thường thì ở lại với xe sẽ an toàn hơn. Chỉ nổ máy đủ để giữ ấm, và hé mở một cửa sổ để tránh ngộ độc khí carbon monoxide (CO). (Driver's Guide tr. 83)",
+      "choices": [
+        "Đi bộ tìm người giúp đỡ",
+        "Ở lại với xe, thỉnh thoảng nổ máy và hé mở một cửa sổ",
+        "Nổ máy liên tục và đóng kín cửa sổ",
+        "Rời khỏi xe và chờ bên đường"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "8b6df55c-c799-445a-a3de-0c6c5a43bdab",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When are animals most active near roads?",
+        "explanation": "Be careful at dusk and dawn, when animals tend to be more active. (Driver's Guide p. 84)",
+        "choices": [
+          "In the middle of the day",
+          "Only in winter",
+          "Only at midnight",
+          "At dusk and dawn"
+        ]
+      },
+      "sourceHash": "245d37fb3edb76bb6a6592da90ee2174",
+      "prompt": "Khi nào thú vật hoạt động nhiều nhất gần đường?",
+      "explanation": "Hãy cẩn thận vào lúc chạng vạng và bình minh, khi thú vật thường hoạt động nhiều hơn. (Driver's Guide tr. 84)",
+      "choices": [
+        "Vào giữa trưa",
+        "Chỉ vào mùa đông",
+        "Chỉ vào nửa đêm",
+        "Lúc chạng vạng và bình minh"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "409c6bc2-e7ac-436b-8e80-0f40e6b7e390",
+      "imgUrl": null,
+      "en": {
+        "prompt": "After a collision, which of these should you avoid doing?",
+        "explanation": "Exchange information and record details, but do not discuss who was at fault. (Driver's Guide p. 84)",
+        "choices": [
+          "Exchanging names and insurance information",
+          "Writing down the names of witnesses",
+          "Discussing who was at fault",
+          "Notifying your insurance company"
+        ]
+      },
+      "sourceHash": "db818d5d3d7be78704ec39ffdb026b88",
+      "prompt": "Sau khi va chạm, bạn nên tránh làm điều nào sau đây?",
+      "explanation": "Hãy trao đổi thông tin và ghi lại các chi tiết, nhưng không tranh luận xem ai có lỗi. (Driver's Guide tr. 84)",
+      "choices": [
+        "Trao đổi họ tên và thông tin bảo hiểm",
+        "Ghi lại họ tên của nhân chứng",
+        "Tranh luận xem ai có lỗi",
+        "Báo cho công ty bảo hiểm của bạn"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "81232dec-42f3-4168-82d2-72f63e83e87c",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When passing an emergency vehicle or tow truck stopped with its lights flashing, what is your maximum speed in the lane next to it?",
+        "explanation": "Slow to 60 km/h, or the posted speed if it is lower, in the lane immediately next to the stopped vehicles. Fines are doubled. (Driver's Guide p. 85)",
+        "choices": [
+          "30 km/h",
+          "80 km/h",
+          "60 km/h, or the posted speed if lower",
+          "The posted speed limit"
+        ]
+      },
+      "sourceHash": "5a3e188739ac2629c659c38caf608d01",
+      "prompt": "Khi đi qua xe ưu tiên hoặc xe kéo đang dừng và nhấp nháy đèn, tốc độ tối đa của bạn ở làn ngay cạnh là bao nhiêu?",
+      "explanation": "Giảm tốc xuống 60 km/h, hoặc giới hạn tốc độ được cắm nếu thấp hơn, ở làn ngay cạnh các xe đang dừng. Tiền phạt được nhân đôi. (Driver's Guide tr. 85)",
+      "choices": [
+        "30 km/h",
+        "80 km/h",
+        "60 km/h, hoặc giới hạn tốc độ được cắm nếu thấp hơn",
+        "Giới hạn tốc độ được cắm"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "a3963e83-c058-46cd-a880-2359faf639fd",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A vehicle with flashing green lights approaches. What should you do?",
+        "explanation": "Treat a vehicle with flashing green lights like any other emergency vehicle. Volunteer firefighters in some municipalities use them. (Driver's Guide p. 85)",
+        "choices": [
+          "Ignore it; green lights mean go",
+          "Speed up to stay ahead of it",
+          "Treat it like any other emergency vehicle and yield",
+          "Follow it closely"
+        ]
+      },
+      "sourceHash": "17786272e32285e7981ce2b1a33a3fef",
+      "prompt": "Một xe có đèn xanh lá nhấp nháy đang đến gần. Bạn nên làm gì?",
+      "explanation": "Đối xử với xe có đèn xanh lá nhấp nháy như mọi xe ưu tiên khác. Lính cứu hỏa tình nguyện ở một số địa phương dùng loại đèn này. (Driver's Guide tr. 85)",
+      "choices": [
+        "Không cần để ý; đèn xanh nghĩa là được đi",
+        "Tăng tốc để chạy trước xe đó",
+        "Đối xử với nó như mọi xe ưu tiên khác và nhường đường",
+        "Đi sát theo sau xe đó"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "db859bbe-2119-4417-a335-1e1a383fe0eb",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A police vehicle has stopped behind you with its lights flashing. What should you do?",
+        "explanation": "Stay calm and stay in your vehicle, put it in Park and set the park brake, have your licence, registration, and insurance ready, and wait for instructions. (Driver's Guide p. 86)",
+        "choices": [
+          "Get out and walk to the police vehicle",
+          "Drive to a well-lit area before stopping",
+          "Leave the engine running in Drive",
+          "Stay in your vehicle with your documents ready and wait for instructions"
+        ]
+      },
+      "sourceHash": "74e1ed0aed3e1ed0f6b527cfa20c149b",
+      "prompt": "Một xe cảnh sát đã dừng phía sau bạn và đang nhấp nháy đèn. Bạn nên làm gì?",
+      "explanation": "Giữ bình tĩnh và ở yên trong xe, chuyển sang số P và kéo phanh tay, chuẩn bị sẵn bằng lái, giấy đăng ký xe và bảo hiểm, và chờ hướng dẫn. (Driver's Guide tr. 86)",
+      "choices": [
+        "Ra khỏi xe và đi bộ đến xe cảnh sát",
+        "Lái đến chỗ có nhiều ánh sáng rồi mới dừng",
+        "Để máy nổ ở số D (Drive)",
+        "Ở yên trong xe, chuẩn bị sẵn giấy tờ và chờ hướng dẫn"
+      ],
+      "status": "approved"
+    }
+  ]
+}

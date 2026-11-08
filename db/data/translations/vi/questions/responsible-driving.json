@@ -1,0 +1,724 @@
+{
+  "questions": [
+    {
+      "id": "5daae86f-0125-46cf-b50c-53c6c4c397a0",
+      "imgUrl": null,
+      "en": {
+        "prompt": "If another vehicle is following too close, what should a driver do?",
+        "explanation": "If someone is tailgating, don't brake suddenly or speed up. Slow down gradually and give them a chance to pass. Key words: \"to pass\".",
+        "choices": [
+          "Slow down gradually and encourage the other vehicle to pass",
+          "Press hard on the brake pedal",
+          "Increase speed to 10 km/h above the posted speed limit",
+          "Activate the four-way flashers"
+        ]
+      },
+      "sourceHash": "fed0d224ff9e00f0fddbd5d32a88d2a7",
+      "prompt": "Nếu một xe khác đang bám quá sát phía sau, tài xế nên làm gì?",
+      "explanation": "Nếu có người bám sát đuôi xe bạn (tailgating), đừng phanh gấp hoặc tăng tốc. Hãy giảm tốc từ từ và tạo cơ hội cho họ vượt. Từ khóa: \"vượt\".",
+      "choices": [
+        "Giảm tốc từ từ và tạo điều kiện cho xe kia vượt",
+        "Đạp mạnh bàn đạp phanh",
+        "Tăng tốc lên cao hơn giới hạn tốc độ được cắm 10 km/h",
+        "Bật đèn khẩn cấp bốn hướng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "603b74ac-d505-49ac-bd8d-eaa6ecab5042",
+      "imgUrl": null,
+      "en": {
+        "prompt": "According to the law in Alberta, it is the driver's responsibility to ensure that all passengers under what age are properly restrained in the vehicle?",
+        "explanation": "The driver must make sure every passenger under 16 is wearing a seat belt or is in the correct child seat. Passengers 16 and older are responsible for themselves. Key words: \"all passengers\".",
+        "choices": [
+          "18 years",
+          "24 years",
+          "21 years",
+          "16 years"
+        ]
+      },
+      "sourceHash": "9ae2bdb4860418d81b37aae7fea040fc",
+      "prompt": "Theo luật của Alberta, tài xế có trách nhiệm bảo đảm mọi hành khách dưới bao nhiêu tuổi được thắt dây an toàn hoặc ngồi ghế an toàn đúng cách trong xe?",
+      "explanation": "Tài xế phải bảo đảm mọi hành khách dưới 16 tuổi đều thắt dây an toàn hoặc ngồi đúng loại ghế an toàn cho trẻ em. Hành khách từ 16 tuổi trở lên tự chịu trách nhiệm cho bản thân. Từ khóa: \"mọi hành khách\".",
+      "choices": [
+        "18 tuổi",
+        "24 tuổi",
+        "21 tuổi",
+        "16 tuổi"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "18b82eba-befa-43ce-8b54-1dba9e6ccdbc",
+      "imgUrl": null,
+      "en": {
+        "prompt": "In Alberta, the law requires that seat belts must be worn:",
+        "explanation": "Alberta law requires seat belts to be worn and properly adjusted at all times while the vehicle is moving.",
+        "choices": [
+          "Only while carrying passengers",
+          "Properly at all times",
+          "Only when driving at highway speeds",
+          "Only when driving in the city"
+        ]
+      },
+      "sourceHash": "0c66e2daa020ebd92b83b27d4cb1d1ad",
+      "prompt": "Ở Alberta, luật yêu cầu phải thắt dây an toàn:",
+      "explanation": "Luật Alberta yêu cầu thắt dây an toàn và điều chỉnh đúng cách mọi lúc khi xe đang di chuyển.",
+      "choices": [
+        "Chỉ khi chở hành khách",
+        "Đúng cách vào mọi lúc",
+        "Chỉ khi lái ở tốc độ đường cao tốc",
+        "Chỉ khi lái xe trong thành phố"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "51594fb5-96f0-494a-ae5b-5da3a8e33e73",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Using the 2-second rule to judge a safe following distance when driving:",
+        "explanation": "The 2-second rule measures time, not distance, so the gap grows automatically as you go faster and the rule works at any speed. Leave more time in poor road or weather conditions. Key words: \"any speed\".",
+        "choices": [
+          "Is more accurate on rural highways than in urban centres",
+          "Is not accurate at speeds greater than 100 km/h",
+          "Is accurate at any speed",
+          "Is not accurate at speeds lower than 100 km/h"
+        ]
+      },
+      "sourceHash": "f3f743ded5ffa1b6b62d58a36d2e754b",
+      "prompt": "Dùng quy tắc 2 giây để ước lượng khoảng cách theo sau an toàn khi lái xe:",
+      "explanation": "Quy tắc 2 giây đo bằng thời gian chứ không phải khoảng cách, nên khoảng cách sẽ tự động tăng khi bạn chạy nhanh hơn và quy tắc này đúng ở mọi tốc độ. Hãy chừa nhiều thời gian hơn khi đường sá hoặc thời tiết xấu. Từ khóa: \"mọi tốc độ\".",
+      "choices": [
+        "Chính xác hơn trên đường cao tốc nông thôn so với trong thành phố",
+        "Không chính xác ở tốc độ trên 100 km/h",
+        "Chính xác ở mọi tốc độ",
+        "Không chính xác ở tốc độ dưới 100 km/h"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "1daf6a8f-38de-4b31-8792-4a05707e9121",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When a driver is stopping behind another vehicle in traffic:",
+        "explanation": "Stop far enough back that you could steer around the vehicle ahead without reversing, for example if it stalls. A good guide is being able to see where its rear tires touch the road. Key words: \"sufficient space\".",
+        "choices": [
+          "Keep back approximately 1 metre from the rear bumper of the vehicle ahead",
+          "Allow sufficient space to move into another lane without reversing",
+          "Remain a minimum of 10 metres from the vehicle ahead",
+          "Maintain sufficient space as determined by the 2-second rule"
+        ]
+      },
+      "sourceHash": "d08714bff192909f3568b0fe4ba7cad7",
+      "prompt": "Khi tài xế dừng xe phía sau một xe khác trong dòng xe:",
+      "explanation": "Hãy dừng đủ xa để bạn có thể đánh lái vòng qua xe phía trước mà không cần lùi, ví dụ khi xe đó chết máy. Một cách ước lượng tốt là bạn có thể nhìn thấy chỗ lốp sau của xe đó chạm mặt đường. Từ khóa: \"đủ khoảng trống\".",
+      "choices": [
+        "Giữ cách cản sau của xe phía trước khoảng 1 mét",
+        "Chừa đủ khoảng trống để chuyển sang làn khác mà không cần lùi xe",
+        "Giữ cách xe phía trước tối thiểu 10 mét",
+        "Giữ đủ khoảng trống theo quy tắc 2 giây"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "d897ff3c-5344-4642-92ff-7aaaae4c6a1a",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When travelling in urban areas, drivers should scan the road approximately:",
+        "explanation": "In urban areas, look about 12 to 15 seconds ahead, roughly one city block, so you can spot hazards early. Key words: \"scan the road\".",
+        "choices": [
+          "25 to 30 seconds ahead",
+          "20 to 30 seconds ahead",
+          "12 to 15 seconds ahead",
+          "1 to 6 seconds ahead"
+        ]
+      },
+      "sourceHash": "2ae27f3bf3b9dc6402bd27a7eb4fb094",
+      "prompt": "Khi lái xe trong khu vực đô thị, tài xế nên quan sát đường phía trước khoảng:",
+      "explanation": "Trong khu vực đô thị, hãy nhìn trước khoảng 12 đến 15 giây, tương đương khoảng một dãy phố, để sớm phát hiện mối nguy hiểm. Từ khóa: \"quan sát đường\".",
+      "choices": [
+        "25 đến 30 giây phía trước",
+        "20 đến 30 giây phía trước",
+        "12 đến 15 giây phía trước",
+        "1 đến 6 giây phía trước"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "772dad14-09c2-4615-a351-da28000fb35a",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When driving in rural areas, how far ahead should you look?",
+        "explanation": "In rural areas, look at least 20 to 25 seconds ahead. In urban areas, look 12 to 15 seconds ahead. (Driver's Guide p. 89)",
+        "choices": [
+          "12 to 15 seconds",
+          "5 to 10 seconds",
+          "40 to 50 seconds",
+          "20 to 25 seconds"
+        ]
+      },
+      "sourceHash": "9a5ff81150f573f504f913f6e10f7e8c",
+      "prompt": "Khi lái xe ở khu vực nông thôn, bạn nên nhìn xa phía trước bao nhiêu?",
+      "explanation": "Ở khu vực nông thôn, hãy nhìn trước ít nhất 20 đến 25 giây. Ở khu vực đô thị, hãy nhìn trước 12 đến 15 giây. (Driver's Guide tr. 89)",
+      "choices": [
+        "12 đến 15 giây",
+        "5 đến 10 giây",
+        "40 đến 50 giây",
+        "20 đến 25 giây"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "9d17966f-ddcc-4982-84be-67b909856bdd",
+      "imgUrl": null,
+      "en": {
+        "prompt": "How often should you check your rear-view mirrors while driving?",
+        "explanation": "Glance in your rear-view mirrors every 8 to 12 seconds, and whenever you expect to slow or stop. (Driver's Guide p. 89)",
+        "choices": [
+          "Every 30 seconds",
+          "Every 8 to 12 seconds",
+          "Only when changing lanes",
+          "Every 2 to 3 seconds"
+        ]
+      },
+      "sourceHash": "d2a430b0f9d61cb3463fb4116aabc34e",
+      "prompt": "Bạn nên kiểm tra gương chiếu hậu bao lâu một lần khi lái xe?",
+      "explanation": "Hãy liếc nhìn gương chiếu hậu mỗi 8 đến 12 giây, và mỗi khi bạn sắp giảm tốc hoặc dừng lại. (Driver's Guide tr. 89)",
+      "choices": [
+        "Mỗi 30 giây",
+        "Mỗi 8 đến 12 giây",
+        "Chỉ khi chuyển làn",
+        "Mỗi 2 đến 3 giây"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "eea4a2fb-3307-467c-84d0-c2848363af69",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Which of these is a variable hazard (one that changes during the day)?",
+        "explanation": "Variable hazards change, such as pedestrians, left-turning vehicles, icy roads, stale green lights, and emergency vehicles. Curves, hills, and intersections are fixed hazards. (Driver's Guide p. 89)",
+        "choices": [
+          "A sharp curve",
+          "A hidden driveway",
+          "A merging roadway",
+          "School children walking near the road"
+        ]
+      },
+      "sourceHash": "39ec682855df130c4d47a06b021f2d85",
+      "prompt": "Điều nào sau đây là mối nguy hiểm thay đổi (thay đổi trong ngày)?",
+      "explanation": "Mối nguy hiểm thay đổi (variable hazards) là những thứ thay đổi, như người đi bộ, xe đang rẽ trái, đường đóng băng, đèn xanh đã sáng lâu (stale green light) và xe ưu tiên. Khúc cua, đồi dốc và giao lộ là mối nguy hiểm cố định. (Driver's Guide tr. 89)",
+      "choices": [
+        "Một khúc cua gắt",
+        "Một lối xe vào nhà bị khuất",
+        "Một đường nhập làn",
+        "Học sinh đi bộ gần đường"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "fadc7734-27c2-454d-94a7-eb4c3d326ba8",
+      "imgUrl": null,
+      "en": {
+        "prompt": "What is proactive driving?",
+        "explanation": "Proactive driving means anticipating possible hazards and acting to reduce or avoid danger before it happens. Never assume other drivers will drive carefully. (Driver's Guide p. 89)",
+        "choices": [
+          "Driving at the speed limit at all times",
+          "Reacting quickly once a hazard appears",
+          "Anticipating hazards and acting to avoid danger before it happens",
+          "Always having the right-of-way"
+        ]
+      },
+      "sourceHash": "2aa994817a7aea95230753f2233656b9",
+      "prompt": "Lái xe chủ động (proactive driving) là gì?",
+      "explanation": "Lái xe chủ động nghĩa là lường trước các mối nguy hiểm có thể xảy ra và hành động để giảm hoặc tránh nguy hiểm trước khi nó xảy ra. Đừng bao giờ cho rằng các tài xế khác sẽ lái xe cẩn thận. (Driver's Guide tr. 89)",
+      "choices": [
+        "Lúc nào cũng lái đúng giới hạn tốc độ",
+        "Phản ứng nhanh khi mối nguy hiểm xuất hiện",
+        "Lường trước mối nguy hiểm và hành động để tránh nguy hiểm trước khi nó xảy ra",
+        "Luôn có quyền ưu tiên"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "1a5ae98e-baf2-4406-911e-fb62d0dca8f9",
+      "imgUrl": null,
+      "en": {
+        "prompt": "What following distance is recommended for drivers of large vehicles such as motor homes?",
+        "explanation": "Drivers of large vehicles, such as motor homes, should keep a minimum four-second following distance. (Driver's Guide p. 90)",
+        "choices": [
+          "At least 2 seconds",
+          "At least 1 second",
+          "At least 4 seconds",
+          "At least 10 seconds"
+        ]
+      },
+      "sourceHash": "785c521a548caebefc66ccf456f9839c",
+      "prompt": "Khoảng cách theo sau nào được khuyến nghị cho tài xế lái xe lớn như nhà di động (motor home)?",
+      "explanation": "Tài xế lái xe lớn, như nhà di động (motor home), nên giữ khoảng cách theo sau tối thiểu bốn giây. (Driver's Guide tr. 90)",
+      "choices": [
+        "Ít nhất 2 giây",
+        "Ít nhất 1 giây",
+        "Ít nhất 4 giây",
+        "Ít nhất 10 giây"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "3e525926-de7c-40d1-8fce-cce3a01bdfc7",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When road or weather conditions are poor, your following distance should be:",
+        "explanation": "Under normal conditions, keep at least two seconds. When conditions are less than ideal, increase your following distance. (Driver's Guide pp. 81, 90)",
+        "choices": [
+          "Exactly 2 seconds",
+          "Less than 2 seconds, so you can keep up with traffic",
+          "The same as in good conditions",
+          "More than 2 seconds"
+        ]
+      },
+      "sourceHash": "7f1fb150ed5ec6c472af5760e6a44901",
+      "prompt": "Khi đường sá hoặc thời tiết xấu, khoảng cách theo sau của bạn nên:",
+      "explanation": "Trong điều kiện bình thường, hãy giữ ít nhất hai giây. Khi điều kiện không được lý tưởng, hãy tăng khoảng cách theo sau. (Driver's Guide tr. 81, 90)",
+      "choices": [
+        "Đúng 2 giây",
+        "Dưới 2 giây, để theo kịp dòng xe",
+        "Giống như khi điều kiện tốt",
+        "Hơn 2 giây"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "1a3a2b5f-b4c4-45a8-a72c-fbc99c59e82f",
+      "imgUrl": null,
+      "en": {
+        "prompt": "How many demerit points are given for distracted driving offences such as texting or using a hand-held phone?",
+        "explanation": "The Traffic Safety Act sets a fine and three demerit points for distracted driving offences. (Driver's Guide p. 91)",
+        "choices": [
+          "2",
+          "4",
+          "3",
+          "6"
+        ]
+      },
+      "sourceHash": "769a97dc3ce7181760f0bc89587bfdcf",
+      "prompt": "Vi phạm lái xe mất tập trung (distracted driving) như nhắn tin hoặc cầm điện thoại trên tay bị bao nhiêu điểm trừ?",
+      "explanation": "Đạo luật An toàn Giao thông (Traffic Safety Act) quy định tiền phạt và ba điểm trừ cho các vi phạm lái xe mất tập trung. (Driver's Guide tr. 91)",
+      "choices": [
+        "2",
+        "4",
+        "3",
+        "6"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "f489877d-a737-49f8-a458-87c4770f67b5",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Which of these is a distracted driving offence under the Traffic Safety Act?",
+        "explanation": "Entering information into a GPS unit while driving is a distracted driving offence, along with texting, using hand-held phones, reading, and personal grooming. (Driver's Guide p. 91)",
+        "choices": [
+          "Entering a destination into a GPS unit while driving",
+          "Adjusting your mirrors before driving",
+          "Listening to the radio",
+          "Talking with a passenger"
+        ]
+      },
+      "sourceHash": "5a1154be9a59ced01cb2c1dd3932864e",
+      "prompt": "Điều nào sau đây là vi phạm lái xe mất tập trung theo Đạo luật An toàn Giao thông (Traffic Safety Act)?",
+      "explanation": "Nhập thông tin vào thiết bị GPS khi đang lái xe là vi phạm lái xe mất tập trung, cùng với nhắn tin, cầm điện thoại trên tay, đọc và chải chuốt cá nhân. (Driver's Guide tr. 91)",
+      "choices": [
+        "Nhập điểm đến vào thiết bị GPS khi đang lái xe",
+        "Chỉnh gương trước khi lái xe",
+        "Nghe radio",
+        "Nói chuyện với hành khách"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "69d6ee5f-fa09-48b9-88f1-2192800d3f30",
+      "imgUrl": null,
+      "en": {
+        "prompt": "You need to make a phone call while driving. What should you do?",
+        "explanation": "Stop in a safe and legal place before making or receiving a call, or sending or reading a text. (Driver's Guide p. 90)",
+        "choices": [
+          "Use the phone only at red lights",
+          "Hold the phone below the window",
+          "Stop in a safe and legal place first",
+          "Make the call quickly while driving slowly"
+        ]
+      },
+      "sourceHash": "feaf9f866813482fb3fb9fec095a1f06",
+      "prompt": "Bạn cần gọi điện thoại khi đang lái xe. Bạn nên làm gì?",
+      "explanation": "Hãy dừng xe ở nơi an toàn và hợp pháp trước khi gọi hoặc nhận cuộc gọi, hoặc gửi hay đọc tin nhắn. (Driver's Guide tr. 90)",
+      "choices": [
+        "Chỉ dùng điện thoại khi dừng đèn đỏ",
+        "Cầm điện thoại thấp hơn cửa kính",
+        "Dừng xe ở nơi an toàn và hợp pháp trước",
+        "Gọi thật nhanh trong khi lái chậm"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "45f17ee7-a410-4958-b6dd-051c641e74b3",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A 17-year-old passenger in your vehicle is not wearing a seat belt. Who can be fined?",
+        "explanation": "Passengers 16 years of age and older who aren't properly secured can be fined themselves. The driver is responsible for passengers under 16. (Driver's Guide p. 91)",
+        "choices": [
+          "Only the driver",
+          "The vehicle owner",
+          "No one, if the passenger is in the back seat",
+          "The passenger"
+        ]
+      },
+      "sourceHash": "345bfd7fab359215050c20adbe58a76a",
+      "prompt": "Một hành khách 17 tuổi trong xe bạn không thắt dây an toàn. Ai có thể bị phạt?",
+      "explanation": "Hành khách từ 16 tuổi trở lên không thắt dây an toàn đúng cách có thể tự bị phạt. Tài xế chịu trách nhiệm cho hành khách dưới 16 tuổi. (Driver's Guide tr. 91)",
+      "choices": [
+        "Chỉ tài xế",
+        "Chủ xe",
+        "Không ai cả, nếu hành khách ngồi ghế sau",
+        "Hành khách"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "a54ffbf8-f7e7-443a-87ee-97aa41743927",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Which children must be secured in a child safety seat?",
+        "explanation": "A child under six years of age who weighs no more than 18 kilograms (40 pounds) must be properly secured in a child safety seat. (Driver's Guide p. 91)",
+        "choices": [
+          "All children under 12",
+          "Children under 2 only",
+          "Children under 6 who weigh 18 kg or less",
+          "Children who weigh less than 30 kg"
+        ]
+      },
+      "sourceHash": "4ac968aae4fc0f7295ad92297bf1d715",
+      "prompt": "Những trẻ em nào phải ngồi ghế an toàn cho trẻ em?",
+      "explanation": "Trẻ dưới sáu tuổi nặng không quá 18 kilôgam (40 pound) phải được ngồi đúng cách trong ghế an toàn cho trẻ em. (Driver's Guide tr. 91)",
+      "choices": [
+        "Tất cả trẻ em dưới 12 tuổi",
+        "Chỉ trẻ em dưới 2 tuổi",
+        "Trẻ em dưới 6 tuổi nặng từ 18 kg trở xuống",
+        "Trẻ em nặng dưới 30 kg"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "1d02dfde-854c-411d-87d0-6ced9f113904",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Forward-facing child safety seats are designed for children weighing:",
+        "explanation": "Forward-facing child safety seats are designed for children 10 to 18 kilograms (22 to 40 pounds). The tether strap must be used. (Driver's Guide p. 92)",
+        "choices": [
+          "10 to 18 kilograms",
+          "Under 10 kilograms",
+          "18 to 36 kilograms",
+          "Over 36 kilograms"
+        ]
+      },
+      "sourceHash": "215618dbf2d4bebfe6c95daec513ef5b",
+      "prompt": "Ghế an toàn cho trẻ em quay mặt về phía trước được thiết kế cho trẻ em nặng:",
+      "explanation": "Ghế an toàn cho trẻ em quay mặt về phía trước được thiết kế cho trẻ nặng từ 10 đến 18 kilôgam (22 đến 40 pound). Phải sử dụng dây neo (tether strap). (Driver's Guide tr. 92)",
+      "choices": [
+        "10 đến 18 kilôgam",
+        "Dưới 10 kilôgam",
+        "18 đến 36 kilôgam",
+        "Trên 36 kilôgam"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "e52e1bda-33a8-4a57-8f4e-ee6e811f5f9d",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A child weighs more than 18 kilograms. What should they use before moving to the vehicle's seat belt alone?",
+        "explanation": "Children over 18 kilograms (40 pounds) should be secured in an approved booster seat before using only the vehicle's seat belt. (Driver's Guide p. 92)",
+        "choices": [
+          "An approved booster seat",
+          "A rear-facing infant seat",
+          "No restraint is needed",
+          "An adult seat belt worn under the arm"
+        ]
+      },
+      "sourceHash": "6c41d88fb8bdc766d90ce211cf7ff3df",
+      "prompt": "Một trẻ em nặng hơn 18 kilôgam. Trẻ nên dùng gì trước khi chỉ dùng dây an toàn của xe?",
+      "explanation": "Trẻ em nặng hơn 18 kilôgam (40 pound) nên ngồi ghế nâng (booster seat) đã được chứng nhận trước khi chỉ dùng dây an toàn của xe. (Driver's Guide tr. 92)",
+      "choices": [
+        "Ghế nâng (booster seat) đã được chứng nhận",
+        "Ghế cho trẻ sơ sinh quay mặt về phía sau",
+        "Không cần thiết bị an toàn nào",
+        "Dây an toàn người lớn đeo dưới cánh tay"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "658f6908-b779-4a7a-bfb4-b4a74aa63f42",
+      "imgUrl": null,
+      "en": {
+        "prompt": "What label must a child safety seat used in Canada have?",
+        "explanation": "All child safety seats used in Canada must have a label stating they meet Canada Motor Vehicle Safety Standard 213. (Driver's Guide p. 91)",
+        "choices": [
+          "A label from the store where it was bought",
+          "Any international safety certification",
+          "No label is required",
+          "A label stating it meets Canada Motor Vehicle Safety Standard 213"
+        ]
+      },
+      "sourceHash": "73a1d83408b4cb2281a02303a7fe4732",
+      "prompt": "Ghế an toàn cho trẻ em dùng ở Canada phải có nhãn gì?",
+      "explanation": "Mọi ghế an toàn cho trẻ em dùng ở Canada phải có nhãn ghi rằng ghế đáp ứng Tiêu chuẩn An toàn Xe cơ giới Canada 213 (Canada Motor Vehicle Safety Standard 213). (Driver's Guide tr. 91)",
+      "choices": [
+        "Nhãn của cửa hàng nơi mua ghế",
+        "Bất kỳ chứng nhận an toàn quốc tế nào",
+        "Không cần nhãn",
+        "Nhãn ghi rằng ghế đáp ứng Tiêu chuẩn An toàn Xe cơ giới Canada 213"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "55f32f47-97bd-4b5e-b98a-7b86ff18e527",
+      "imgUrl": null,
+      "en": {
+        "prompt": "You are feeling tired while driving on a long trip. What should you do?",
+        "explanation": "If you feel tired, stop for a rest and walk around your vehicle. Fatigue slows reactions and impairs judgement. (Driver's Guide p. 107)",
+        "choices": [
+          "Open the window and keep driving",
+          "Turn up the heat to stay comfortable",
+          "Drive faster to finish the trip sooner",
+          "Stop for a rest"
+        ]
+      },
+      "sourceHash": "b9df4341d31a7f4ea3d57ab0bb384b3c",
+      "prompt": "Bạn cảm thấy mệt khi đang lái xe trong một chuyến đi dài. Bạn nên làm gì?",
+      "explanation": "Nếu bạn cảm thấy mệt, hãy dừng lại nghỉ ngơi và đi bộ quanh xe. Mệt mỏi làm chậm phản xạ và làm giảm khả năng phán đoán. (Driver's Guide tr. 107)",
+      "choices": [
+        "Mở cửa sổ và tiếp tục lái",
+        "Tăng sưởi để thấy dễ chịu",
+        "Lái nhanh hơn để kết thúc chuyến đi sớm hơn",
+        "Dừng lại nghỉ ngơi"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "f10bc580-bc10-4218-9c37-1bd3f979293e",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When does impairment from alcohol or drugs begin?",
+        "explanation": "Impairment begins with the first drink or drug use. (Driver's Guide p. 108)",
+        "choices": [
+          "With the first drink or drug use",
+          "Only above a blood alcohol level of 0.08",
+          "Only after three drinks",
+          "Only when you feel drunk"
+        ]
+      },
+      "sourceHash": "14a47ad8ec689618dc1244c5d2086c53",
+      "prompt": "Sự suy giảm năng lực do rượu bia hoặc chất kích thích bắt đầu khi nào?",
+      "explanation": "Sự suy giảm năng lực bắt đầu ngay từ ly rượu đầu tiên hoặc lần sử dụng chất kích thích đầu tiên. (Driver's Guide tr. 108)",
+      "choices": [
+        "Ngay từ ly rượu đầu tiên hoặc lần sử dụng chất kích thích đầu tiên",
+        "Chỉ khi nồng độ cồn trong máu trên 0.08",
+        "Chỉ sau ba ly",
+        "Chỉ khi bạn cảm thấy say"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "fa385a5f-7fab-4c47-b3e9-aad925039a0b",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A GDL driver is found to have any alcohol in their body while driving. Under the IRS ZERO: Novice program, the penalty includes:",
+        "explanation": "IRS ZERO: Novice brings an immediate 30-day licence suspension, a seven-day vehicle seizure, and a $200 fine plus a 20 per cent victim fine surcharge. (Driver's Guide p. 112)",
+        "choices": [
+          "A warning letter only",
+          "A 3-day suspension and a $300 fine",
+          "A lifetime licence suspension",
+          "A 30-day licence suspension, a 7-day vehicle seizure, and a $200 fine"
+        ]
+      },
+      "sourceHash": "3cc6e74b1a02371fb0c83f6bee2d9fff",
+      "prompt": "Một tài xế GDL bị phát hiện có cồn trong người khi đang lái xe. Theo chương trình IRS ZERO: Novice, hình phạt bao gồm:",
+      "explanation": "IRS ZERO: Novice dẫn đến treo bằng ngay lập tức 30 ngày, tạm giữ xe bảy ngày, và phạt $200 cộng thêm 20 phần trăm phụ phí cho quỹ nạn nhân (victim fine surcharge). (Driver's Guide tr. 112)",
+      "choices": [
+        "Chỉ một thư cảnh báo",
+        "Treo bằng 3 ngày và phạt $300",
+        "Treo bằng suốt đời",
+        "Treo bằng 30 ngày, tạm giữ xe 7 ngày, và phạt $200"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "af57855f-03b4-4ba0-b021-7b11b4e918a0",
+      "imgUrl": null,
+      "en": {
+        "prompt": "The IRS: WARN program applies to drivers with a blood alcohol concentration of at least:",
+        "explanation": "IRS: WARN applies at 50 milligrams of alcohol in 100 millilitres of blood (0.05) or more. IRS: FAIL applies at 80 milligrams (0.08). (Driver's Guide p. 112)",
+        "choices": [
+          "80 mg in 100 mL of blood (0.08)",
+          "20 mg in 100 mL of blood (0.02)",
+          "100 mg in 100 mL of blood (0.10)",
+          "50 mg in 100 mL of blood (0.05)"
+        ]
+      },
+      "sourceHash": "85bec1a9c7a580b8781235e8682cb82f",
+      "prompt": "Chương trình IRS: WARN áp dụng cho tài xế có nồng độ cồn trong máu (BAC) ít nhất là:",
+      "explanation": "IRS: WARN áp dụng khi có từ 50 miligam cồn trong 100 mililit máu (0.05) trở lên. IRS: FAIL áp dụng ở mức 80 miligam (0.08). (Driver's Guide tr. 112)",
+      "choices": [
+        "80 mg trong 100 mL máu (0.08)",
+        "20 mg trong 100 mL máu (0.02)",
+        "100 mg trong 100 mL máu (0.10)",
+        "50 mg trong 100 mL máu (0.05)"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "22b263e9-885d-4a8a-b8e9-c6e565264800",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Which of these leads to an IRS: FAIL penalty?",
+        "explanation": "IRS: FAIL applies to a blood alcohol concentration of 80 mg or more, impairment by alcohol or drugs, or refusing without reasonable excuse to comply with a test demand. (Driver's Guide p. 113)",
+        "choices": [
+          "A blood alcohol level of 0.03 for a fully licensed driver",
+          "Driving while tired",
+          "Taking prescribed medication that has no side effects",
+          "Refusing a breath test demand without a reasonable excuse"
+        ]
+      },
+      "sourceHash": "ee8fbd524ef0c41875773f82024f878e",
+      "prompt": "Điều nào sau đây dẫn đến hình phạt IRS: FAIL?",
+      "explanation": "IRS: FAIL áp dụng khi nồng độ cồn trong máu từ 80 mg trở lên, khi bị suy giảm năng lực do rượu bia hoặc chất kích thích, hoặc khi từ chối làm xét nghiệm theo yêu cầu mà không có lý do chính đáng. (Driver's Guide tr. 113)",
+      "choices": [
+        "Nồng độ cồn trong máu 0.03 đối với tài xế có bằng đầy đủ",
+        "Lái xe khi mệt mỏi",
+        "Dùng thuốc theo toa không có tác dụng phụ",
+        "Từ chối yêu cầu kiểm tra hơi thở mà không có lý do chính đáng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "63962af4-8bc1-4112-8e14-928b0c61556c",
+      "imgUrl": null,
+      "en": {
+        "prompt": "What happens to the vehicle when someone is caught driving while their licence is suspended?",
+        "explanation": "The vehicle is seized and impounded for 30 days, regardless of who the registered owner is. The owner pays towing and impound fees. (Driver's Guide p. 115)",
+        "choices": [
+          "Nothing, if someone else owns it",
+          "It is impounded for 24 hours",
+          "It is sold at auction",
+          "It is impounded for 30 days, no matter who owns it"
+        ]
+      },
+      "sourceHash": "d47e1d0bbd07d0e0f21ea770824202ed",
+      "prompt": "Chuyện gì xảy ra với chiếc xe khi một người bị bắt gặp lái xe trong lúc đang bị treo bằng?",
+      "explanation": "Xe sẽ bị tạm giữ và đưa vào bãi giữ xe (impound) trong 30 ngày, bất kể ai là chủ xe đứng tên đăng ký. Chủ xe phải trả phí kéo xe và phí bãi giữ xe. (Driver's Guide tr. 115)",
+      "choices": [
+        "Không có gì, nếu xe thuộc sở hữu của người khác",
+        "Bị đưa vào bãi giữ xe 24 giờ",
+        "Bị bán đấu giá",
+        "Bị đưa vào bãi giữ xe 30 ngày, bất kể ai là chủ xe"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "386b30c3-f9be-4ddc-af21-99ff9d2f82af",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A load extends 1.5 metres or more past the rear of your vehicle. What is required during daylight?",
+        "explanation": "During daylight, attach a red flag at least 30 centimetres square to the end of the load. At night, use a red light. (Driver's Guide p. 95)",
+        "choices": [
+          "A yellow flag of any size",
+          "A red flag at least 30 cm square on the end of the load",
+          "Hazard lights turned on",
+          "Nothing during daylight"
+        ]
+      },
+      "sourceHash": "29ad775d85d6c20996a839b3e129a2dc",
+      "prompt": "Hàng hóa nhô ra phía sau xe bạn từ 1.5 mét trở lên. Vào ban ngày, bạn phải làm gì?",
+      "explanation": "Vào ban ngày, hãy gắn một lá cờ đỏ có kích thước ít nhất 30 cm x 30 cm ở cuối hàng hóa. Vào ban đêm, dùng đèn đỏ. (Driver's Guide tr. 95)",
+      "choices": [
+        "Một lá cờ vàng với kích thước bất kỳ",
+        "Một lá cờ đỏ ít nhất 30 cm x 30 cm ở cuối hàng hóa",
+        "Bật đèn khẩn cấp",
+        "Không cần gì vào ban ngày"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "36bc25a7-b1ac-4aa2-b6b2-a883479a1de7",
+      "imgUrl": null,
+      "en": {
+        "prompt": "May passengers ride in the open box of a pickup truck?",
+        "explanation": "No. You must not allow anyone to ride on the outside of your vehicle, including the open box of a pickup truck. Both you and the rider can be charged. (Driver's Guide p. 95)",
+        "choices": [
+          "No, it is illegal, and both the driver and rider can be charged",
+          "Yes, if they are seated",
+          "Yes, on rural roads only",
+          "Yes, at speeds under 50 km/h"
+        ]
+      },
+      "sourceHash": "18d86d4bd50122eff9eb0c6cf45e4896",
+      "prompt": "Hành khách có được ngồi trong thùng hở của xe bán tải (pickup) không?",
+      "explanation": "Không. Bạn không được để ai ngồi bên ngoài xe, kể cả trong thùng hở của xe bán tải. Cả bạn và người ngồi đó đều có thể bị buộc tội. (Driver's Guide tr. 95)",
+      "choices": [
+        "Không, việc này là vi phạm pháp luật, và cả tài xế lẫn người ngồi đó đều có thể bị buộc tội",
+        "Có, nếu họ ngồi xuống",
+        "Có, chỉ trên đường nông thôn",
+        "Có, ở tốc độ dưới 50 km/h"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "f57d4cf5-5924-4992-b8d5-5c589c9c8ce8",
+      "imgUrl": null,
+      "en": {
+        "prompt": "In a residential area, during which hours must you not operate a vehicle in a way that disturbs residents?",
+        "explanation": "In a residential area, you must not operate a vehicle in a way that disturbs residents between 10 p.m. and 7 a.m. (Driver's Guide p. 95)",
+        "choices": [
+          "Midnight to 5 a.m.",
+          "10 p.m. to 7 a.m.",
+          "9 p.m. to 6 a.m.",
+          "11 p.m. to 8 a.m."
+        ]
+      },
+      "sourceHash": "f75bf5a298baaf47d349941ecace203f",
+      "prompt": "Trong khu dân cư, vào những giờ nào bạn không được vận hành xe theo cách làm phiền cư dân?",
+      "explanation": "Trong khu dân cư, bạn không được vận hành xe theo cách làm phiền cư dân từ 10 giờ tối đến 7 giờ sáng. (Driver's Guide tr. 95)",
+      "choices": [
+        "Nửa đêm đến 5 giờ sáng",
+        "10 giờ tối đến 7 giờ sáng",
+        "9 giờ tối đến 6 giờ sáng",
+        "11 giờ tối đến 8 giờ sáng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "6c164958-bf41-420c-ae7a-ec6897e10ee4",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Driving without due care and attention, or without reasonable consideration for others, is called:",
+        "explanation": "Driving without care and attention, or without reasonable consideration for others, is careless driving, which carries 6 demerit points. (Driver's Guide pp. 95, 109)",
+        "choices": [
+          "Careless driving",
+          "Distracted driving",
+          "Impaired driving",
+          "Stunting"
+        ]
+      },
+      "sourceHash": "ea100bce1b1744e295dbf238d554b152",
+      "prompt": "Lái xe thiếu sự cẩn trọng và chú ý cần thiết, hoặc không có sự quan tâm hợp lý đến người khác, được gọi là:",
+      "explanation": "Lái xe thiếu cẩn trọng và chú ý, hoặc không có sự quan tâm hợp lý đến người khác, là lái xe bất cẩn (careless driving), bị 6 điểm trừ. (Driver's Guide tr. 95, 109)",
+      "choices": [
+        "Lái xe bất cẩn (careless driving)",
+        "Lái xe mất tập trung (distracted driving)",
+        "Lái xe khi bị suy giảm năng lực (impaired driving)",
+        "Lái xe biểu diễn nguy hiểm (stunting)"
+      ],
+      "status": "approved"
+    }
+  ]
+}

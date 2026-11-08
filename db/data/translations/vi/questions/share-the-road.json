@@ -1,0 +1,796 @@
+{
+  "questions": [
+    {
+      "id": "342917ed-0089-49e3-b7ca-e462301ff239",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When a vehicle is stopped to allow a pedestrian to cross the road, other vehicles that are approaching from the rear:",
+        "explanation": "It is illegal to pass a vehicle that has stopped for a pedestrian. The stopped vehicle may hide the pedestrian from your view. Key words: \"it is illegal\".",
+        "choices": [
+          "May pass the stopped vehicle when the pedestrian crossing signal has changed to \"Don't Walk\"",
+          "May pass the stopped vehicle when eye contact is made with the pedestrian and the pedestrian stops",
+          "Must not pass the stopped vehicle",
+          "May pass the stopped vehicle if there is no oncoming traffic that may impede passing safely"
+        ]
+      },
+      "sourceHash": "1d35e8a6a37830523fa680d2bca00b7a",
+      "prompt": "Khi một xe đang dừng để người đi bộ qua đường, các xe khác đang đến từ phía sau:",
+      "explanation": "Vượt một xe đang dừng cho người đi bộ là vi phạm pháp luật. Chiếc xe đang dừng có thể che khuất người đi bộ khỏi tầm nhìn của bạn. Từ khóa: \"vi phạm pháp luật\".",
+      "choices": [
+        "Có thể vượt xe đang dừng khi đèn tín hiệu cho người đi bộ đã chuyển sang \"Don't Walk\" (Không được đi)",
+        "Có thể vượt xe đang dừng khi đã giao tiếp bằng mắt với người đi bộ và người đi bộ dừng lại",
+        "Không được vượt xe đang dừng",
+        "Có thể vượt xe đang dừng nếu không có xe ngược chiều cản trở việc vượt an toàn"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "78f24634-c0be-441b-a162-cbf5c4e57fad",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Why is it not safe to pass a loaded log-haul truck that is turning?",
+        "explanation": "The logs overhang the back of the truck and swing out wide during a turn, which can sweep across every lane. Stay well back until the turn is finished. Key words: \"danger zone\", \"could block all the lanes\".",
+        "choices": [
+          "The driver of the truck needs to fully concentrate on the turn and does not need the added responsibility of a passing vehicle",
+          "Loaded log-haul trucks obey the 6-second rule for turns",
+          "A danger zone exists as the overhang of the logs from the tail end of the truck could block all the lanes on a highway during the turn",
+          "It is illegal to do so"
+        ]
+      },
+      "sourceHash": "14012242969cdaa9f258c97163f5b122",
+      "prompt": "Tại sao không an toàn khi vượt một xe chở gỗ (log-haul truck) đầy hàng đang rẽ?",
+      "explanation": "Gỗ nhô ra phía sau xe tải và quét rộng ra ngoài khi rẽ, có thể chắn ngang mọi làn đường. Hãy giữ khoảng cách thật xa phía sau cho đến khi xe rẽ xong. Từ khóa: \"vùng nguy hiểm\", \"có thể chắn tất cả các làn\".",
+      "choices": [
+        "Tài xế xe tải cần tập trung hoàn toàn vào việc rẽ và không cần thêm trách nhiệm với một xe đang vượt",
+        "Xe chở gỗ đầy hàng tuân theo quy tắc 6 giây khi rẽ",
+        "Có một vùng nguy hiểm vì phần gỗ nhô ra phía sau xe tải có thể chắn tất cả các làn của đường cao tốc khi xe rẽ",
+        "Việc này là vi phạm pháp luật"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "12215864-b735-4d6d-accb-5234d899c428",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When approaching the rear of a school bus that is displaying alternating flashing amber lights, a driver should:",
+        "explanation": "Alternating flashing amber lights mean the bus is slowing to stop so students can get on or off. Be prepared to stop: once the red lights flash and the stop arm is out, you must stop.",
+        "choices": [
+          "Be prepared to stop as this is a warning that the alternating flashing red lights will come on once the bus has stopped",
+          "Stop immediately because the school bus is loading or unloading students",
+          "Be prepared to stop as this could be a warning that there is a collision ahead and the traffic flow has stopped",
+          "Use caution as the school bus is approaching a railroad crossing and is about to stop"
+        ]
+      },
+      "sourceHash": "56225dcb7a917bf22dbfcf1dd514530c",
+      "prompt": "Khi đến gần phía sau một xe buýt trường học đang bật đèn vàng cam nhấp nháy luân phiên, tài xế nên:",
+      "explanation": "Đèn vàng cam nhấp nháy luân phiên nghĩa là xe buýt đang giảm tốc để dừng cho học sinh lên hoặc xuống xe. Hãy sẵn sàng dừng lại: khi đèn đỏ nhấp nháy và tay biển dừng (stop arm) được đưa ra, bạn phải dừng.",
+      "choices": [
+        "Sẵn sàng dừng lại vì đây là cảnh báo rằng đèn đỏ nhấp nháy luân phiên sẽ bật khi xe buýt đã dừng",
+        "Dừng ngay lập tức vì xe buýt trường học đang cho học sinh lên hoặc xuống xe",
+        "Sẵn sàng dừng lại vì đây có thể là cảnh báo có va chạm phía trước và dòng xe đã dừng",
+        "Thận trọng vì xe buýt trường học đang đến gần chỗ giao cắt đường sắt và sắp dừng lại"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "f5333cc4-3d9a-40f7-ac53-f780476a90a7",
+      "imgUrl": null,
+      "en": {
+        "prompt": "In an urban area, when a pedestrian is standing at a crosswalk with their arm raised at approximately right angles to their body and pointing to the opposite curb, what does this mean?",
+        "explanation": "A pedestrian pointing across the road with an outstretched arm is signalling that they want to cross. Drivers must stop and yield. Key words: \"urban area\", \"must stop and yield\".",
+        "choices": [
+          "Drivers must stop and yield to the pedestrian",
+          "The pedestrian is visually impaired and needs assistance to cross the road",
+          "Drivers do not have to yield to the pedestrian until they step off the curb",
+          "Drivers should reduce speed to 30 km/h and be cautious when passing the pedestrian"
+        ]
+      },
+      "sourceHash": "c23b20248318e3b08b5e957cf7e29068",
+      "prompt": "Trong khu vực đô thị, khi một người đi bộ đứng ở lối qua đường, giơ tay gần như vuông góc với cơ thể và chỉ về phía lề bên kia, điều này có nghĩa là gì?",
+      "explanation": "Người đi bộ giơ thẳng tay chỉ sang bên kia đường là đang ra hiệu muốn qua đường. Tài xế phải dừng lại và nhường đường. Từ khóa: \"khu vực đô thị\", \"phải dừng lại và nhường đường\".",
+      "choices": [
+        "Tài xế phải dừng lại và nhường đường cho người đi bộ",
+        "Người đi bộ bị khiếm thị và cần giúp đỡ để qua đường",
+        "Tài xế không phải nhường người đi bộ cho đến khi họ bước xuống khỏi lề",
+        "Tài xế nên giảm tốc xuống 30 km/h và thận trọng khi đi qua người đi bộ"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "444d40a6-8805-44c4-83ab-ae986ca35ba5",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When encountering a funeral procession that is crossing an intersection:",
+        "explanation": "Let a funeral procession pass through the intersection as a group. Yield and don't cut through the line of vehicles. Key words: \"do not break through\".",
+        "choices": [
+          "Sound the horn before proceeding",
+          "Proceed through the funeral procession only when there is sufficient space between vehicles",
+          "Yield the right-of-way and do not break through the procession",
+          "Flash the high beam headlights before proceeding"
+        ]
+      },
+      "sourceHash": "3af6a5a50f2de1cb7bbba7520ba4bad8",
+      "prompt": "Khi gặp một đoàn xe tang đang đi qua giao lộ:",
+      "explanation": "Hãy để đoàn xe tang đi qua giao lộ thành một nhóm. Nhường đường và không chạy xen ngang hàng xe. Từ khóa: \"không chạy xen ngang\".",
+      "choices": [
+        "Bấm còi trước khi đi tiếp",
+        "Chỉ đi xuyên qua đoàn xe tang khi có đủ khoảng trống giữa các xe",
+        "Nhường quyền ưu tiên và không chạy xen ngang đoàn xe",
+        "Nháy đèn pha chiếu xa trước khi đi tiếp"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "e62ef3ef-bec1-42c7-bf06-c81a676a0562",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When stopping for a pedestrian at a crosswalk, about how far back should you stop?",
+        "explanation": "Stopping about two to three car lengths back lets drivers in other lanes see the pedestrian and stop in time. (Driver's Guide p. 97)",
+        "choices": [
+          "About 2 to 3 car lengths",
+          "Right at the edge of the crosswalk",
+          "About 1 metre",
+          "About 10 car lengths"
+        ]
+      },
+      "sourceHash": "3731ce4aa12cf03fa6011fe5e8fe6838",
+      "prompt": "Khi dừng lại cho người đi bộ tại lối qua đường, bạn nên dừng cách bao xa?",
+      "explanation": "Dừng cách khoảng hai đến ba thân xe giúp tài xế ở các làn khác nhìn thấy người đi bộ và dừng kịp. (Driver's Guide tr. 97)",
+      "choices": [
+        "Khoảng 2 đến 3 thân xe",
+        "Ngay sát mép lối qua đường",
+        "Khoảng 1 mét",
+        "Khoảng 10 thân xe"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "209ca71d-2a96-4d50-b831-6e22f0b2c9d7",
+      "imgUrl": null,
+      "en": {
+        "prompt": "You see a flashing yellow pedestrian-activated light at a crosswalk. What must you do?",
+        "explanation": "At a flashing yellow pedestrian-activated light, slow to 30 km/h and yield to pedestrians who want to cross. (Driver's Guide p. 97)",
+        "choices": [
+          "Slow to 30 km/h and yield to pedestrians wanting to cross",
+          "Stop only if a pedestrian is already in the crosswalk",
+          "Continue at the posted speed; the light is only for pedestrians",
+          "Sound your horn to warn pedestrians and continue"
+        ]
+      },
+      "sourceHash": "6c3d6121c90e074018e87bdee3803bb5",
+      "prompt": "Bạn thấy đèn vàng nhấp nháy do người đi bộ kích hoạt tại một lối qua đường. Bạn phải làm gì?",
+      "explanation": "Tại đèn vàng nhấp nháy do người đi bộ kích hoạt, hãy giảm tốc xuống 30 km/h và nhường người đi bộ muốn qua đường. (Driver's Guide tr. 97)",
+      "choices": [
+        "Giảm tốc xuống 30 km/h và nhường người đi bộ muốn qua đường",
+        "Chỉ dừng lại nếu người đi bộ đã ở trên lối qua đường",
+        "Tiếp tục đi với tốc độ được cắm; đèn chỉ dành cho người đi bộ",
+        "Bấm còi cảnh báo người đi bộ và đi tiếp"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "bb5926bd-a34f-4781-9795-5114553da917",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A pedestrian starts crossing at an intersection that has no painted crosswalk lines. What must you do?",
+        "explanation": "Every intersection has a crosswalk, marked or unmarked, unless a sign says otherwise. Once a pedestrian has entered it, you must yield. (Driver's Guide pp. 41, 97)",
+        "choices": [
+          "Yield, because there is an unmarked crosswalk at the intersection",
+          "Continue, because pedestrians must use marked crosswalks",
+          "Yield only if the intersection has a traffic light",
+          "Sound your horn and proceed carefully"
+        ]
+      },
+      "sourceHash": "409a63ecc115a2cf5f4c5bb7149bb46a",
+      "prompt": "Một người đi bộ bắt đầu qua đường tại một giao lộ không có vạch sơn lối qua đường. Bạn phải làm gì?",
+      "explanation": "Giao lộ nào cũng có lối qua đường, có kẻ vạch hoặc không, trừ khi có biển báo khác. Khi người đi bộ đã bước vào lối qua đường, bạn phải nhường đường. (Driver's Guide tr. 41, 97)",
+      "choices": [
+        "Nhường đường, vì giao lộ có lối qua đường không kẻ vạch",
+        "Đi tiếp, vì người đi bộ phải dùng lối qua đường có kẻ vạch",
+        "Chỉ nhường đường nếu giao lộ có đèn giao thông",
+        "Bấm còi và đi tiếp một cách cẩn thận"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "cadf86aa-ee5a-470d-b25a-d4ed13355be9",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A person walking beside and pushing a bicycle is considered:",
+        "explanation": "A cyclist who is walking beside and pushing a bicycle is a pedestrian. When riding, the bicycle is a vehicle. (Driver's Guide p. 97)",
+        "choices": [
+          "A pedestrian",
+          "A cyclist who must follow the rules for vehicles",
+          "A slow moving vehicle",
+          "A vehicle that must use the bicycle lane"
+        ]
+      },
+      "sourceHash": "32c6b5e12ff2a27fcc4a32f6ad575e88",
+      "prompt": "Một người đi bộ bên cạnh và dắt xe đạp được xem là:",
+      "explanation": "Người đi xe đạp đang đi bộ bên cạnh và dắt xe đạp là người đi bộ. Khi đang chạy, xe đạp là một phương tiện. (Driver's Guide tr. 97)",
+      "choices": [
+        "Người đi bộ",
+        "Người đi xe đạp phải tuân theo quy định dành cho phương tiện",
+        "Phương tiện di chuyển chậm",
+        "Phương tiện phải đi trong làn xe đạp"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "64ac7981-eb65-4b66-bbd6-22879aa8b80b",
+      "imgUrl": null,
+      "en": {
+        "prompt": "What is the correct way to pass a cyclist?",
+        "explanation": "When passing a cyclist, change lanes as you would to pass any other vehicle. (Driver's Guide p. 98)",
+        "choices": [
+          "Change lanes, as you would to pass another vehicle",
+          "Stay in your lane and pass as closely as is safe",
+          "Sound your horn and pass once the cyclist moves to the curb",
+          "Pass on the cyclist's right side"
+        ]
+      },
+      "sourceHash": "8961fc9378d5c6606a3daedd2e1f0522",
+      "prompt": "Cách đúng để vượt người đi xe đạp là gì?",
+      "explanation": "Khi vượt người đi xe đạp, hãy chuyển làn như khi vượt bất kỳ phương tiện nào khác. (Driver's Guide tr. 98)",
+      "choices": [
+        "Chuyển làn, như khi vượt một phương tiện khác",
+        "Giữ nguyên làn và vượt sát nhất có thể mà vẫn an toàn",
+        "Bấm còi và vượt khi người đi xe đạp tấp vào lề",
+        "Vượt ở phía bên phải của người đi xe đạp"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "01531e0e-f93b-4b82-a8a0-9da1aae952fa",
+      "imgUrl": null,
+      "en": {
+        "prompt": "You are parked at the curb and want to open your door. Who is responsible for making sure it is safe to do so?",
+        "explanation": "Always check for cyclists before opening your door. It is the driver's responsibility to wait until it is safe. (Driver's Guide p. 98)",
+        "choices": [
+          "The driver",
+          "Cyclists, who must watch for opening doors",
+          "The driver and cyclists share it equally",
+          "No one, if the vehicle is legally parked"
+        ]
+      },
+      "sourceHash": "68068e5e5f176a15908c5803b976a0b7",
+      "prompt": "Bạn đang đậu xe sát lề và muốn mở cửa. Ai có trách nhiệm bảo đảm việc mở cửa là an toàn?",
+      "explanation": "Luôn kiểm tra người đi xe đạp trước khi mở cửa xe. Tài xế có trách nhiệm chờ đến khi an toàn. (Driver's Guide tr. 98)",
+      "choices": [
+        "Tài xế",
+        "Người đi xe đạp, vì họ phải chú ý cửa xe đang mở",
+        "Tài xế và người đi xe đạp chịu trách nhiệm như nhau",
+        "Không ai cả, nếu xe đậu đúng luật"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "e6d6089d-fd83-4bb8-a2bd-5dc9142b3c22",
+      "imgUrl": null,
+      "en": {
+        "prompt": "In Alberta, who is required by law to wear an approved bicycle helmet?",
+        "explanation": "Cyclists and passengers on a bicycle who are under 18 years of age must wear an approved bicycle safety helmet. (Driver's Guide p. 97)",
+        "choices": [
+          "Cyclists and passengers under 18 years of age",
+          "All cyclists, regardless of age",
+          "Cyclists under 16 years of age",
+          "Only cyclists riding on highways"
+        ]
+      },
+      "sourceHash": "0546265cdfa5c88568e58bf9d7c98f4e",
+      "prompt": "Ở Alberta, ai bắt buộc phải đội mũ bảo hiểm xe đạp được chứng nhận theo luật?",
+      "explanation": "Người đi xe đạp và người ngồi sau xe đạp dưới 18 tuổi phải đội mũ bảo hiểm xe đạp được chứng nhận. (Driver's Guide tr. 97)",
+      "choices": [
+        "Người đi xe đạp và người ngồi sau dưới 18 tuổi",
+        "Tất cả người đi xe đạp, bất kể tuổi tác",
+        "Người đi xe đạp dưới 16 tuổi",
+        "Chỉ người đi xe đạp trên đường cao tốc"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "cc06ac95-b7ca-400a-b703-9c53ca669530",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A motorcycle ahead of you is riding in the left part of its lane. This most likely means the rider:",
+        "explanation": "Motorcycle riders often ride in the left portion of their lane to be more visible. It does not mean they are turning left. (Driver's Guide p. 98)",
+        "choices": [
+          "Is positioned to be more visible to other road users",
+          "Is preparing to turn left",
+          "Wants you to pass on the right",
+          "Is about to stop"
+        ]
+      },
+      "sourceHash": "531c87c3de96c41d30ef7169af6eca81",
+      "prompt": "Một xe mô tô phía trước bạn đang chạy ở phần bên trái của làn. Điều này nhiều khả năng có nghĩa là người lái:",
+      "explanation": "Người lái xe mô tô thường chạy ở phần bên trái của làn để dễ được nhìn thấy hơn. Điều đó không có nghĩa là họ sắp rẽ trái. (Driver's Guide tr. 98)",
+      "choices": [
+        "Đang ở vị trí để những người tham gia giao thông khác dễ nhìn thấy hơn",
+        "Đang chuẩn bị rẽ trái",
+        "Muốn bạn vượt bên phải",
+        "Sắp dừng lại"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "f7bd69f2-4b74-4907-b480-1f36027baf4b",
+      "imgUrl": null,
+      "en": {
+        "prompt": "May you drive side by side with a motorcycle in the same lane?",
+        "explanation": "Never share a lane with a motorcycle rider. A motorcycle needs the whole lane to travel safely. (Driver's Guide p. 99)",
+        "choices": [
+          "No, a motorcycle needs the whole lane",
+          "Yes, if the lane is wide enough",
+          "Yes, but only on multi-lane highways",
+          "Yes, if the rider waves you past"
+        ]
+      },
+      "sourceHash": "5927f8ca15023d7950f1d6e6edff8b4f",
+      "prompt": "Bạn có được chạy song song với xe mô tô trong cùng một làn không?",
+      "explanation": "Không bao giờ đi chung làn với người lái xe mô tô. Xe mô tô cần cả làn đường để di chuyển an toàn. (Driver's Guide tr. 99)",
+      "choices": [
+        "Không, xe mô tô cần cả làn đường",
+        "Có, nếu làn đủ rộng",
+        "Có, nhưng chỉ trên đường cao tốc nhiều làn",
+        "Có, nếu người lái vẫy tay cho bạn vượt"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "33b8aeec-faa3-481d-824d-3d416417d973",
+      "imgUrl": null,
+      "en": {
+        "prompt": "You are following a large truck and cannot see either of its side mirrors. What does this tell you?",
+        "explanation": "If you can't see both of a large vehicle's side mirrors, you are too close, and the driver probably can't see you. If you can see the driver in the mirror, the driver can see you. (Driver's Guide p. 99)",
+        "choices": [
+          "You are too close, and the driver probably cannot see you",
+          "The truck's mirrors are not adjusted properly",
+          "You are at a safe following distance",
+          "The truck is about to turn"
+        ]
+      },
+      "sourceHash": "b193a3a239721af9101240187ad919b5",
+      "prompt": "Bạn đang đi sau một xe tải lớn và không nhìn thấy gương bên nào của nó. Điều này cho bạn biết gì?",
+      "explanation": "Nếu bạn không nhìn thấy cả hai gương bên của xe lớn, bạn đang ở quá gần, và tài xế có lẽ không nhìn thấy bạn. Nếu bạn thấy tài xế trong gương, tài xế cũng thấy bạn. (Driver's Guide tr. 99)",
+      "choices": [
+        "Bạn đang ở quá gần, và tài xế có lẽ không nhìn thấy bạn",
+        "Gương của xe tải chưa được chỉnh đúng",
+        "Bạn đang ở khoảng cách theo sau an toàn",
+        "Xe tải sắp rẽ"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "9515b362-b379-4a0c-b261-d4915887feae",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A large truck ahead of you is turning right. Where is the most dangerous place for your vehicle to be?",
+        "explanation": "Large vehicles need extra room to turn. Stay well back and never drive in the space on the right of a truck that is turning right, or you could be squeezed against the curb. (Driver's Guide p. 99)",
+        "choices": [
+          "In the space between the truck and the curb on its right",
+          "Several car lengths behind the truck",
+          "Well back in the lane to the left of the truck",
+          "Stopped behind the truck with a large gap"
+        ]
+      },
+      "sourceHash": "9186297574e62fa9834e826d6117faae",
+      "prompt": "Một xe tải lớn phía trước bạn đang rẽ phải. Vị trí nào nguy hiểm nhất cho xe bạn?",
+      "explanation": "Xe lớn cần thêm chỗ để rẽ. Hãy giữ khoảng cách thật xa phía sau và không bao giờ chạy vào khoảng trống bên phải của xe tải đang rẽ phải, nếu không bạn có thể bị ép vào lề đường. (Driver's Guide tr. 99)",
+      "choices": [
+        "Ở khoảng trống giữa xe tải và lề đường bên phải xe tải",
+        "Cách phía sau xe tải vài thân xe",
+        "Ở xa phía sau trong làn bên trái xe tải",
+        "Dừng phía sau xe tải với một khoảng cách lớn"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "e053c3f3-5a9b-4d33-a559-7515e25f01ad",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A large truck is turning onto the road you are on and may need to use part of your lane. What should you do?",
+        "explanation": "A large vehicle may need to cross the centre line or use part of your lane to turn. Stop back from the intersection to give it room. (Driver's Guide p. 100)",
+        "choices": [
+          "Stop back from the intersection to give it room to turn",
+          "Move up to the stop line so the truck driver can see you",
+          "Sound your horn to warn the truck driver",
+          "Continue, since the truck must stay in its own lane"
+        ]
+      },
+      "sourceHash": "947ab7800d1987cfe99c879f2d117a5c",
+      "prompt": "Một xe tải lớn đang rẽ vào con đường bạn đang đi và có thể cần dùng một phần làn của bạn. Bạn nên làm gì?",
+      "explanation": "Xe lớn có thể cần lấn qua vạch giữa hoặc dùng một phần làn của bạn để rẽ. Hãy dừng lùi lại cách xa giao lộ để chừa chỗ cho xe. (Driver's Guide tr. 100)",
+      "choices": [
+        "Dừng lùi lại cách xa giao lộ để chừa chỗ cho xe rẽ",
+        "Tiến lên đến vạch dừng để tài xế xe tải nhìn thấy bạn",
+        "Bấm còi để cảnh báo tài xế xe tải",
+        "Đi tiếp, vì xe tải phải đi trong làn của nó"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "ff9eb1f4-6d30-4afc-a703-faf02d7bec1b",
+      "imgUrl": null,
+      "en": {
+        "prompt": "The logs on a loaded log hauling truck can extend up to how far beyond the rear of the truck?",
+        "explanation": "Logs can extend as much as nine metres beyond the rear of the truck, which is why a turning log truck can block every lane. (Driver's Guide p. 100)",
+        "choices": [
+          "9 metres",
+          "3 metres",
+          "1.5 metres",
+          "15 metres"
+        ]
+      },
+      "sourceHash": "94e96c3336bf4f7260e2ef134c1bafbd",
+      "prompt": "Gỗ trên một xe chở gỗ đầy hàng có thể nhô ra phía sau xe tải xa đến mức nào?",
+      "explanation": "Gỗ có thể nhô ra đến chín mét phía sau xe tải, đó là lý do một xe chở gỗ đang rẽ có thể chắn mọi làn đường. (Driver's Guide tr. 100)",
+      "choices": [
+        "9 mét",
+        "3 mét",
+        "1.5 mét",
+        "15 mét"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "a170a2a4-23fe-4a68-8268-9c2e22d33b1a",
+      "imgUrl": null,
+      "en": {
+        "prompt": "On a four-lane undivided highway, a school bus stops with its red lights flashing and its stop arm out. Who must stop?",
+        "explanation": "On an undivided highway, traffic in every lane, in both directions, must stop for a school bus with its red lights flashing. (Driver's Guide p. 101)",
+        "choices": [
+          "Traffic in all four lanes, in both directions",
+          "Only traffic behind the bus",
+          "Only traffic in the lane next to the bus",
+          "Only oncoming traffic"
+        ]
+      },
+      "sourceHash": "3e2fc9bcbcf723d24372575cf71f8ba0",
+      "prompt": "Trên một đường cao tốc bốn làn không có dải phân cách, một xe buýt trường học dừng lại, bật đèn đỏ nhấp nháy và đưa tay biển dừng ra. Ai phải dừng lại?",
+      "explanation": "Trên đường không có dải phân cách, xe ở mọi làn, theo cả hai hướng, đều phải dừng lại cho xe buýt trường học đang bật đèn đỏ nhấp nháy. (Driver's Guide tr. 101)",
+      "choices": [
+        "Xe ở cả bốn làn, theo cả hai hướng",
+        "Chỉ các xe phía sau xe buýt",
+        "Chỉ các xe ở làn sát xe buýt",
+        "Chỉ các xe ngược chiều"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "7b3cf925-091f-4cfd-b3ae-e761cd477d38",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When a school bus has its red lights flashing, about how far away from the bus must you stop?",
+        "explanation": "Stop about 20 metres (four to five car lengths) away, so drivers behind you can see the lights and the students crossing. (Driver's Guide p. 101)",
+        "choices": [
+          "About 20 metres",
+          "About 5 metres",
+          "About 50 metres",
+          "About 100 metres"
+        ]
+      },
+      "sourceHash": "b6f6d2bc3a0926c0d3d2649466f42bc0",
+      "prompt": "Khi xe buýt trường học bật đèn đỏ nhấp nháy, bạn phải dừng cách xe buýt khoảng bao xa?",
+      "explanation": "Hãy dừng cách khoảng 20 mét (bốn đến năm thân xe), để tài xế phía sau bạn có thể nhìn thấy đèn và học sinh đang qua đường. (Driver's Guide tr. 101)",
+      "choices": [
+        "Khoảng 20 mét",
+        "Khoảng 5 mét",
+        "Khoảng 50 mét",
+        "Khoảng 100 mét"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "4b6bf4ff-65a9-448a-b043-11fce5467686",
+      "imgUrl": null,
+      "en": {
+        "prompt": "On a highway divided by a median, you are approaching a school bus from the front and its red lights are flashing. What should you do?",
+        "explanation": "On a divided highway, only traffic behind the bus must stop. Traffic approaching from the front may proceed with caution, watching for pedestrians. (Driver's Guide p. 102)",
+        "choices": [
+          "Proceed with caution and watch for pedestrians",
+          "Stop about 20 metres from the bus",
+          "Stop until the red lights are turned off",
+          "Speed up to clear the area quickly"
+        ]
+      },
+      "sourceHash": "4fbb412455b357b8aa5f5874c0711766",
+      "prompt": "Trên đường cao tốc có dải phân cách ở giữa, bạn đang đến gần một xe buýt trường học từ phía trước và xe đang bật đèn đỏ nhấp nháy. Bạn nên làm gì?",
+      "explanation": "Trên đường có dải phân cách, chỉ xe phía sau xe buýt phải dừng lại. Xe đến từ phía trước có thể đi tiếp một cách thận trọng và chú ý người đi bộ. (Driver's Guide tr. 102)",
+      "choices": [
+        "Đi tiếp một cách thận trọng và chú ý người đi bộ",
+        "Dừng lại cách xe buýt khoảng 20 mét",
+        "Dừng lại cho đến khi đèn đỏ tắt",
+        "Tăng tốc để nhanh chóng ra khỏi khu vực"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "3f0377b8-963b-4b5e-9ce4-7311b2328896",
+      "imgUrl": null,
+      "en": {
+        "prompt": "You have stopped for a school bus with its red lights flashing. When may you proceed?",
+        "explanation": "Remain stopped until the alternating red lights are turned off and the stop sign on the driver's side is no longer extended. (Driver's Guide p. 102)",
+        "choices": [
+          "When the red lights are off and the stop arm is no longer extended",
+          "As soon as all the students have left the bus",
+          "When the bus driver waves you on",
+          "After waiting 30 seconds"
+        ]
+      },
+      "sourceHash": "eafcfc57a2e326613a21a3dcc4a5c986",
+      "prompt": "Bạn đã dừng lại cho một xe buýt trường học đang bật đèn đỏ nhấp nháy. Khi nào bạn được đi tiếp?",
+      "explanation": "Tiếp tục dừng cho đến khi đèn đỏ nhấp nháy luân phiên tắt và biển dừng ở phía tài xế không còn được đưa ra. (Driver's Guide tr. 102)",
+      "choices": [
+        "Khi đèn đỏ đã tắt và tay biển dừng không còn được đưa ra",
+        "Ngay khi tất cả học sinh đã xuống xe buýt",
+        "Khi tài xế xe buýt vẫy tay cho bạn đi",
+        "Sau khi chờ 30 giây"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "7992316f-12f3-4063-9c71-a8ccb1674441",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A vehicle ahead has flashing amber and red lights and is spraying snow and sand. What is it?",
+        "explanation": "Snowplows use flashing amber and red lights to be more visible: \"flashing amber and red means snowplow ahead\". (Driver's Guide p. 102)",
+        "choices": [
+          "A snowplow",
+          "A school bus that is about to stop",
+          "A tow truck",
+          "An oversized load"
+        ]
+      },
+      "sourceHash": "4c870917d307f01cf436d836ee0f8700",
+      "prompt": "Một xe phía trước đang bật đèn vàng cam và đỏ nhấp nháy và đang hất tuyết và cát. Đó là xe gì?",
+      "explanation": "Xe ủi tuyết dùng đèn vàng cam và đỏ nhấp nháy để dễ được nhìn thấy hơn: \"vàng cam và đỏ nhấp nháy nghĩa là phía trước có xe ủi tuyết\". (Driver's Guide tr. 102)",
+      "choices": [
+        "Xe ủi tuyết",
+        "Xe buýt trường học sắp dừng lại",
+        "Xe kéo",
+        "Xe chở hàng quá khổ"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "67b8e8a8-93a9-4a4c-9461-70bfc845f77e",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Where it is safe, snowplow operators move to the side of the road to let traffic pass about every:",
+        "explanation": "Snowplow operators move over every five to eight kilometres, where it is safe, to let vehicles pass. It is safer to wait for them than to pass. (Driver's Guide p. 102)",
+        "choices": [
+          "5 to 8 kilometres",
+          "1 to 2 kilometres",
+          "15 to 20 kilometres",
+          "50 kilometres"
+        ]
+      },
+      "sourceHash": "7037b818f481e231df5dd8183b7def7f",
+      "prompt": "Ở nơi an toàn, người lái xe ủi tuyết tấp vào lề để các xe khác vượt khoảng mỗi:",
+      "explanation": "Người lái xe ủi tuyết tấp vào lề mỗi năm đến tám kilômét, ở nơi an toàn, để các xe khác vượt. Chờ đợi sẽ an toàn hơn là vượt. (Driver's Guide tr. 102)",
+      "choices": [
+        "5 đến 8 kilômét",
+        "1 đến 2 kilômét",
+        "15 đến 20 kilômét",
+        "50 kilômét"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "50ba56dc-85d2-4555-9ea1-56796e1519df",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Passing a snowplow is strictly prohibited when:",
+        "explanation": "Passing a snowplow is prohibited when the view along its side is obstructed, when passing would impede its operation, or when it can't be done safely. (Driver's Guide p. 102)",
+        "choices": [
+          "The view along the side of the snowplow is obstructed",
+          "The snowplow is travelling below the speed limit",
+          "The snowplow has its flashing lights on",
+          "The road is a two-lane highway"
+        ]
+      },
+      "sourceHash": "7c52ee648f6ebbd05299ecaf15634cdd",
+      "prompt": "Tuyệt đối cấm vượt xe ủi tuyết khi:",
+      "explanation": "Cấm vượt xe ủi tuyết khi tầm nhìn dọc bên hông xe bị che khuất, khi việc vượt sẽ cản trở hoạt động của xe, hoặc khi không thể vượt an toàn. (Driver's Guide tr. 102)",
+      "choices": [
+        "Tầm nhìn dọc bên hông xe ủi tuyết bị che khuất",
+        "Xe ủi tuyết đang chạy dưới giới hạn tốc độ",
+        "Xe ủi tuyết đang bật đèn nhấp nháy",
+        "Con đường là đường cao tốc hai làn"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "68002c3f-bb24-4629-a1c0-3a852c569b00",
+      "imgUrl": null,
+      "en": {
+        "prompt": "At a railway crossing sign, you must stop if a train is visible or sounding a signal and is approaching within:",
+        "explanation": "You must stop when a train is visible or sounding a signal and approaching within 500 metres (about five city blocks) of the crossing. (Driver's Guide p. 103)",
+        "choices": [
+          "500 metres of the crossing",
+          "100 metres of the crossing",
+          "50 metres of the crossing",
+          "2 kilometres of the crossing"
+        ]
+      },
+      "sourceHash": "18792f164da34591fbb84c6874b77c1d",
+      "prompt": "Tại biển giao cắt đường sắt (crossbuck), bạn phải dừng lại nếu nhìn thấy tàu hỏa hoặc nghe tín hiệu còi tàu và tàu đang đến trong vòng:",
+      "explanation": "Bạn phải dừng lại khi nhìn thấy tàu hỏa hoặc nghe tín hiệu còi tàu và tàu đang đến trong vòng 500 mét (khoảng năm dãy phố) tính từ chỗ giao cắt. (Driver's Guide tr. 103)",
+      "choices": [
+        "500 mét tính từ chỗ giao cắt",
+        "100 mét tính từ chỗ giao cắt",
+        "50 mét tính từ chỗ giao cắt",
+        "2 kilômét tính từ chỗ giao cắt"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "7f9b8ac2-134a-4a9b-af96-e20da008c2db",
+      "imgUrl": null,
+      "en": {
+        "prompt": "At a railway crossing with a stop sign, where must you stop?",
+        "explanation": "A stop sign at a railway crossing means a complete stop between 5 metres and 15 metres from the nearest rail. Don't proceed until you're sure no train is coming. (Driver's Guide p. 103)",
+        "choices": [
+          "Between 5 and 15 metres from the nearest rail",
+          "Within 2 metres of the nearest rail",
+          "At least 30 metres from the nearest rail",
+          "Anywhere before the tracks, as long as you stop"
+        ]
+      },
+      "sourceHash": "5c1f7d6ab8d52a6fad823819cf55164f",
+      "prompt": "Tại chỗ giao cắt đường sắt có biển dừng, bạn phải dừng ở đâu?",
+      "explanation": "Biển dừng tại chỗ giao cắt đường sắt nghĩa là phải dừng hẳn, cách đường ray gần nhất từ 5 mét đến 15 mét. Không đi tiếp cho đến khi bạn chắc chắn không có tàu đang đến. (Driver's Guide tr. 103)",
+      "choices": [
+        "Cách đường ray gần nhất từ 5 đến 15 mét",
+        "Trong vòng 2 mét tính từ đường ray gần nhất",
+        "Cách đường ray gần nhất ít nhất 30 mét",
+        "Ở bất kỳ đâu trước đường ray, miễn là bạn dừng lại"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "8e3bc5f2-4e72-4b98-a54a-2ae87b3bf292",
+      "imgUrl": null,
+      "en": {
+        "prompt": "The lights are flashing and the bells are ringing at a railway crossing. The driver nearest the crossing must stop at least how far from the nearest rail?",
+        "explanation": "The driver of the vehicle nearest the crossing must stop at least five metres back from the nearest rail, and wait until the lights and bells stop. (Driver's Guide p. 104)",
+        "choices": [
+          "5 metres",
+          "1 metre",
+          "15 metres",
+          "20 metres"
+        ]
+      },
+      "sourceHash": "532a32a3dcda6033a28084d7027ce5d8",
+      "prompt": "Đèn đang nhấp nháy và chuông đang reo tại một chỗ giao cắt đường sắt. Tài xế gần chỗ giao cắt nhất phải dừng cách đường ray gần nhất ít nhất bao xa?",
+      "explanation": "Tài xế của xe gần chỗ giao cắt nhất phải dừng cách đường ray gần nhất ít nhất năm mét, và chờ cho đến khi đèn và chuông ngừng. (Driver's Guide tr. 104)",
+      "choices": [
+        "5 mét",
+        "1 mét",
+        "15 mét",
+        "20 mét"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "5e05b50e-f233-410c-bd96-87ab2332ce08",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A train has just passed a railway crossing and the gates are starting to rise. What should you do?",
+        "explanation": "Remain stopped until the gates are fully raised, the lights stop flashing, and the bells stop ringing. Never cross while a gate is down, rising, or lowering. Another train may be coming. (Driver's Guide p. 104)",
+        "choices": [
+          "Stay stopped until the gates are up and the lights and bells have stopped",
+          "Go as soon as the gates start to rise",
+          "Drive around the gates if no other train is visible",
+          "Proceed once the last car of the train has passed"
+        ]
+      },
+      "sourceHash": "5582a23f135fec6742eecf86c3174880",
+      "prompt": "Một đoàn tàu vừa đi qua chỗ giao cắt đường sắt và thanh chắn bắt đầu nâng lên. Bạn nên làm gì?",
+      "explanation": "Tiếp tục dừng cho đến khi thanh chắn được nâng lên hoàn toàn, đèn ngừng nhấp nháy và chuông ngừng reo. Không bao giờ băng qua khi thanh chắn đang hạ xuống, đang nâng lên hoặc đã hạ. Có thể có một đoàn tàu khác đang đến. (Driver's Guide tr. 104)",
+      "choices": [
+        "Tiếp tục dừng cho đến khi thanh chắn đã nâng lên và đèn và chuông đã ngừng",
+        "Đi ngay khi thanh chắn bắt đầu nâng lên",
+        "Lách vòng qua thanh chắn nếu không thấy đoàn tàu nào khác",
+        "Đi tiếp khi toa cuối cùng của đoàn tàu đã đi qua"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "f4e532a1-eaaa-483a-879c-9bb4ff0240fe",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Your vehicle stalls on a railway crossing and a train is approaching. What should you do?",
+        "explanation": "Get everyone out and away from the tracks. Move toward the direction the train is coming from, so you won't be hit by flying debris if the train strikes the vehicle. (Driver's Guide p. 104)",
+        "choices": [
+          "Get everyone out and move away from the tracks, toward the direction the train is coming from",
+          "Keep trying to restart the engine",
+          "Get everyone out and move away in the direction the train is travelling",
+          "Stay in the vehicle with seat belts fastened"
+        ]
+      },
+      "sourceHash": "fb786230ce29ec9ef8af5c5b63ea8ddc",
+      "prompt": "Xe của bạn chết máy trên chỗ giao cắt đường sắt và có tàu hỏa đang đến. Bạn nên làm gì?",
+      "explanation": "Đưa mọi người ra ngoài và tránh xa đường ray. Di chuyển về phía con tàu đang đến, để bạn không bị mảnh vỡ văng trúng nếu tàu đâm vào xe. (Driver's Guide tr. 104)",
+      "choices": [
+        "Đưa mọi người ra ngoài và tránh xa đường ray, đi về phía con tàu đang đến",
+        "Tiếp tục cố gắng nổ máy lại",
+        "Đưa mọi người ra ngoài và tránh xa theo hướng con tàu đang chạy tới",
+        "Ở lại trong xe và thắt dây an toàn"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "8f9c30b9-8664-4396-991c-1104d32d6971",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Because of its weight and speed, a light rail transit (LRT) train may need up to how far to stop in an emergency?",
+        "explanation": "An LRT train may take up to 100 metres to stop in an emergency. LRT trains are also very quiet, so never drive around the gates. (Driver's Guide p. 105)",
+        "choices": [
+          "100 metres",
+          "10 metres",
+          "30 metres",
+          "1 kilometre"
+        ]
+      },
+      "sourceHash": "9165ca2521abc8911a04bcb3c133d140",
+      "prompt": "Do trọng lượng và tốc độ, một đoàn tàu điện nhẹ (LRT) có thể cần đến bao xa để dừng lại trong trường hợp khẩn cấp?",
+      "explanation": "Một đoàn tàu LRT có thể cần đến 100 mét để dừng lại trong trường hợp khẩn cấp. Tàu LRT cũng chạy rất êm, vì vậy không bao giờ lách vòng qua thanh chắn. (Driver's Guide tr. 105)",
+      "choices": [
+        "100 mét",
+        "10 mét",
+        "30 mét",
+        "1 kilômét"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "2c8df79f-a231-4d7c-bf28-bfd12cf891a3",
+      "imgUrl": null,
+      "en": {
+        "prompt": "You are driving in a funeral procession with your headlights on. Which statement is true?",
+        "explanation": "Drivers in a funeral procession, with headlights on, may continue through a stop sign or red light if they are closely following the vehicle ahead and it is safe. (Driver's Guide p. 105)",
+        "choices": [
+          "You may continue through a stop sign or red light if you are closely following the vehicle ahead and it is safe",
+          "You must stop at every stop sign and red light like other traffic",
+          "You may pass other vehicles in the procession",
+          "You don't need your headlights on in daylight"
+        ]
+      },
+      "sourceHash": "d9acf0c0e04dae98e9cab424806b14b6",
+      "prompt": "Bạn đang lái xe trong một đoàn xe tang và có bật đèn pha. Câu nào sau đây đúng?",
+      "explanation": "Tài xế trong đoàn xe tang, có bật đèn pha, có thể tiếp tục đi qua biển dừng hoặc đèn đỏ nếu đang theo sát xe phía trước và việc đó an toàn. (Driver's Guide tr. 105)",
+      "choices": [
+        "Bạn có thể tiếp tục đi qua biển dừng hoặc đèn đỏ nếu bạn đang theo sát xe phía trước và việc đó an toàn",
+        "Bạn phải dừng lại ở mọi biển dừng và đèn đỏ như các xe khác",
+        "Bạn có thể vượt các xe khác trong đoàn",
+        "Bạn không cần bật đèn pha vào ban ngày"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "e44b1b32-7a69-4b0c-95f0-580bd1e2c899",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When passing a large truck on a two-way highway, a driver should:",
+        "explanation": "When passing a large truck on a two-way highway in Alberta (or anywhere), a Class 7 driver should signal clearly, accelerate to pass quickly and safely, avoid lingering in the blind spot, and then return to their lane only when they can see the truck's front bumper or headlights in their rearview mirror, giving plenty of space to the truck.",
+        "choices": [
+          "Leave extra room before returning to their lane",
+          "Return to their lane once they have cleared the truck's front bumper",
+          "Return to their lane when signaled by the truck's headlights",
+          "Return to their lane when the truck is no longer visible in any of their rear-view mirrors"
+        ]
+      },
+      "sourceHash": "e6c0e9139e236a838c18002830f8e94a",
+      "prompt": "Khi vượt một xe tải lớn trên đường cao tốc hai chiều, tài xế nên:",
+      "explanation": "Khi vượt một xe tải lớn trên đường cao tốc hai chiều ở Alberta (hoặc bất kỳ đâu), tài xế Class 7 nên bật xi nhan rõ ràng, tăng tốc để vượt nhanh và an toàn, tránh nán lại trong điểm mù, rồi chỉ trở về làn của mình khi nhìn thấy cản trước hoặc đèn pha của xe tải trong gương chiếu hậu, chừa nhiều khoảng trống cho xe tải.",
+      "choices": [
+        "Chừa thêm khoảng trống trước khi trở về làn của mình",
+        "Trở về làn của mình ngay khi đã vượt qua cản trước của xe tải",
+        "Trở về làn của mình khi xe tải ra hiệu bằng đèn pha",
+        "Trở về làn của mình khi không còn nhìn thấy xe tải trong bất kỳ gương chiếu hậu nào"
+      ],
+      "status": "approved"
+    }
+  ]
+}

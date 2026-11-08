@@ -1,0 +1,724 @@
+{
+  "questions": [
+    {
+      "id": "6a97a751-da76-400d-8376-8926fa8f100a",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Does a parent have the right to withdraw a previously given \"parental consent\" for someone under 18 years of age with respect to an operator's license?",
+        "explanation": "A parent or guardian who signed consent for an applicant under 18 can withdraw it while that person is still under 18, unless they are self-supporting or married. The licence is then cancelled. Key words: \"not self-supporting or married\".",
+        "choices": [
+          "Yes, providing the person is still under the age of 18 and is not self-supporting or married",
+          "Yes, provided that both parents verbally agree to withdraw the consent at a registry office",
+          "No, once it is given it remains in effect until the person reaches 18 years of age",
+          "No, but another consent form must be signed by both parents after a license suspension"
+        ]
+      },
+      "sourceHash": "405fbbcbaa83ec9f01581aeac5c99990",
+      "prompt": "Cha mẹ có quyền rút lại \"sự đồng ý của cha mẹ\" (parental consent) đã ký trước đó cho người dưới 18 tuổi xin bằng lái không?",
+      "explanation": "Cha mẹ hoặc người giám hộ đã ký đơn đồng ý cho người xin bằng lái dưới 18 tuổi có thể rút lại sự đồng ý khi người đó vẫn còn dưới 18 tuổi, trừ khi họ đã tự lập về tài chính hoặc đã kết hôn. Khi đó bằng lái sẽ bị hủy. Từ khóa: \"chưa tự lập về tài chính hoặc chưa kết hôn\".",
+      "choices": [
+        "Có, với điều kiện người đó vẫn còn dưới 18 tuổi và chưa tự lập về tài chính hoặc chưa kết hôn",
+        "Có, với điều kiện cả cha và mẹ cùng đồng ý bằng lời nói tại văn phòng đăng ký (registry office) để rút lại sự đồng ý",
+        "Không, một khi đã ký thì sự đồng ý có hiệu lực cho đến khi người đó đủ 18 tuổi",
+        "Không, nhưng cả cha và mẹ phải ký một đơn đồng ý khác sau khi bằng lái bị treo"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "beb37c79-32d2-4532-9958-38ad17f04320",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Under the Graduated Driver Licensing program, a driver will receive 2 demerits:",
+        "explanation": "Learner and probationary drivers may not carry more passengers than there are seat belts in the vehicle. Breaking this GDL condition costs 2 demerit points. Key words: \"2 demerits\", \"seat belts\".",
+        "choices": [
+          "For having more passengers than there are seat belts",
+          "For not wearing a seat belt securely fastened",
+          "For not wearing a seat belt",
+          "For not wearing a seat belt properly adjusted"
+        ]
+      },
+      "sourceHash": "a0e5db65b57c40819f8022cc76b3d281",
+      "prompt": "Theo chương trình Cấp bằng lái theo từng bậc (GDL), tài xế sẽ bị 2 điểm trừ khi:",
+      "explanation": "Người học lái và tài xế tập sự (probationary) không được chở số hành khách nhiều hơn số dây an toàn trong xe. Vi phạm điều kiện GDL này bị 2 điểm trừ (demerit points). Từ khóa: \"2 điểm trừ\", \"dây an toàn\".",
+      "choices": [
+        "Chở số hành khách nhiều hơn số dây an toàn",
+        "Không thắt dây an toàn chắc chắn",
+        "Không thắt dây an toàn",
+        "Không điều chỉnh dây an toàn đúng cách"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "81a85825-6f4a-484c-aa4f-7620c413a169",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Who is responsible and legally obligated to report any medical condition, change in health, or physical disability that may affect a driver's ability to drive?",
+        "explanation": "Drivers themselves are legally responsible for reporting any medical condition or disability that may affect their ability to drive safely. Key words: \"legally obligated\".",
+        "choices": [
+          "The driver's employer",
+          "The driver",
+          "The driver's doctor",
+          "The driver's insurance company"
+        ]
+      },
+      "sourceHash": "d5b587358cd03315c4a47e1dca18f8d2",
+      "prompt": "Ai có trách nhiệm và nghĩa vụ pháp lý phải khai báo bất kỳ tình trạng sức khỏe, thay đổi về sức khỏe, hay khuyết tật thể chất nào có thể ảnh hưởng đến khả năng lái xe?",
+      "explanation": "Chính tài xế có trách nhiệm pháp lý phải khai báo bất kỳ tình trạng sức khỏe hay khuyết tật nào có thể ảnh hưởng đến khả năng lái xe an toàn của mình. Từ khóa: \"nghĩa vụ pháp lý\".",
+      "choices": [
+        "Chủ lao động của tài xế",
+        "Tài xế",
+        "Bác sĩ của tài xế",
+        "Công ty bảo hiểm của tài xế"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "99d9789d-32c9-465f-ac63-8eac609d286c",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Under the Graduated Driver Licensing program, a learner with a Class 7 operator's license is suspended when they accumulate:",
+        "explanation": "GDL drivers (learner and probationary) are suspended at 8 demerit points. Fully licensed drivers are suspended at 15. Key words: \"a learner\", \"suspended\".",
+        "choices": [
+          "15 demerits",
+          "12 demerits",
+          "8 demerits",
+          "7 demerits"
+        ]
+      },
+      "sourceHash": "97c8d23985c01cddcd6009fdb1153974",
+      "prompt": "Theo chương trình GDL, người học lái có bằng Class 7 sẽ bị treo bằng khi có tổng cộng:",
+      "explanation": "Tài xế GDL (người học lái và tài xế tập sự) bị treo bằng khi có 8 điểm trừ. Tài xế có bằng đầy đủ bị treo bằng khi có 15 điểm. Từ khóa: \"người học lái\", \"treo bằng\".",
+      "choices": [
+        "15 điểm trừ",
+        "12 điểm trừ",
+        "8 điểm trừ",
+        "7 điểm trừ"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "b507c810-eb0f-4540-a928-78925e093316",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Under the Graduated Driver Licensing program, what is the minimum amount of time that a person must serve as a probationary Class 5 driver?",
+        "explanation": "A probationary (Class 5-GDL) driver must hold that licence for at least 2 years, and be suspension-free for the last 12 months, before they can become fully licensed. Key words: \"probationary Class 5 driver\".",
+        "choices": [
+          "6 months",
+          "18 months",
+          "2 years",
+          "1 year"
+        ]
+      },
+      "sourceHash": "5fe636a8f876828a466cd55b05dffecd",
+      "prompt": "Theo chương trình GDL, thời gian tối thiểu một người phải là tài xế tập sự Class 5 là bao lâu?",
+      "explanation": "Tài xế tập sự (Class 5-GDL) phải giữ bằng này ít nhất 2 năm, và không bị treo bằng trong 12 tháng gần nhất, trước khi được cấp bằng đầy đủ. Từ khóa: \"tài xế tập sự Class 5\".",
+      "choices": [
+        "6 tháng",
+        "18 tháng",
+        "2 năm",
+        "1 năm"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "caa9d8be-41cd-4dc7-aaf6-90e84f5355a8",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A road test will be refused by a driver examiner if:",
+        "explanation": "An examiner will refuse to conduct a road test in a vehicle that is not mechanically safe, for example one with faulty brakes, lights or signals.",
+        "choices": [
+          "The vehicle has a seating capacity greater than 7",
+          "The vehicle is registered as a farm vehicle",
+          "The vehicle is a rental vehicle",
+          "The vehicle is not mechanically safe"
+        ]
+      },
+      "sourceHash": "87f1551b49257802a941a5fa6aca33c0",
+      "prompt": "Giám khảo sẽ từ chối tổ chức bài thi lái xe (road test) nếu:",
+      "explanation": "Giám khảo sẽ từ chối tổ chức bài thi lái xe với xe không an toàn về mặt kỹ thuật, ví dụ xe bị hỏng phanh, đèn hoặc xi nhan.",
+      "choices": [
+        "Xe có hơn 7 chỗ ngồi",
+        "Xe được đăng ký là xe nông nghiệp",
+        "Xe là xe thuê",
+        "Xe không an toàn về mặt kỹ thuật"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "cd23fc58-4761-4839-8c1d-5ba872869e5b",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Alberta has a demerit point system where a fully licensed (non-learner, non-probationary) driver is suspended when they accumulate:",
+        "explanation": "In Alberta, a fully licensed (non-learner, non-probationary Class 5) driver's license is automatically suspended if they accumulate 15 or more demerit points within a two-year period.\nFor drivers with a Graduated Driver's License (GDL), including those with a Class 7 learner's permit, the rules are stricter: their license is suspended if they accumulate 8 or more demerit points within a two-year period.",
+        "choices": [
+          "15 points",
+          "8 points",
+          "12 points",
+          "5 points"
+        ]
+      },
+      "sourceHash": "a9889dfe2b11dffbe96c6e88a8d0d5fb",
+      "prompt": "Alberta áp dụng hệ thống điểm trừ, trong đó tài xế có bằng đầy đủ (không phải người học lái, không phải tài xế tập sự) bị treo bằng khi có tổng cộng:",
+      "explanation": "Ở Alberta, bằng lái của tài xế có bằng đầy đủ (Class 5 không phải người học lái, không phải tập sự) tự động bị treo nếu tích lũy từ 15 điểm trừ trở lên trong vòng hai năm.\nVới tài xế thuộc chương trình GDL, kể cả người có bằng học lái Class 7, quy định nghiêm ngặt hơn: bằng lái bị treo nếu tích lũy từ 8 điểm trừ trở lên trong vòng hai năm.",
+      "choices": [
+        "15 điểm",
+        "8 điểm",
+        "12 điểm",
+        "5 điểm"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "39e50f8a-e692-4937-9b71-331e7b2c6057",
+      "imgUrl": null,
+      "en": {
+        "prompt": "What is the minimum age to apply for a Class 7 learner's licence in Alberta?",
+        "explanation": "You must be 14 or older to get a Class 7 learner's licence, with parental consent if you are under 18. (Driver's Guide p. 10)",
+        "choices": [
+          "14",
+          "16",
+          "15",
+          "18"
+        ]
+      },
+      "sourceHash": "46d95efba5fbd3141222261a067d5ffb",
+      "prompt": "Ở Alberta, tuổi tối thiểu để xin bằng học lái Class 7 là bao nhiêu?",
+      "explanation": "Bạn phải từ 14 tuổi trở lên để được cấp bằng học lái Class 7, và cần có sự đồng ý của cha mẹ nếu dưới 18 tuổi. (Driver's Guide tr. 10)",
+      "choices": [
+        "14",
+        "16",
+        "15",
+        "18"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "c7b13a67-2895-4bf9-9f7c-e6b010dca25f",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Who may supervise a Class 7 learner driver?",
+        "explanation": "A learner must be accompanied by a fully licensed (non-GDL) driver who is 18 or older and seated next to them. (Driver's Guide p. 10)",
+        "choices": [
+          "A fully licensed (non-GDL) driver aged 18 or older, seated next to the learner",
+          "Any licensed driver aged 18 or older, seated anywhere in the vehicle",
+          "A probationary driver aged 21 or older",
+          "Only a parent or guardian"
+        ]
+      },
+      "sourceHash": "bc771540cf250155bf396a07065f7f1c",
+      "prompt": "Ai được phép kèm cặp người học lái Class 7?",
+      "explanation": "Người học lái phải có một tài xế có bằng đầy đủ (không thuộc GDL), từ 18 tuổi trở lên, ngồi bên cạnh. (Driver's Guide tr. 10)",
+      "choices": [
+        "Tài xế có bằng đầy đủ (không thuộc GDL) từ 18 tuổi trở lên, ngồi bên cạnh người học lái",
+        "Bất kỳ tài xế có bằng lái nào từ 18 tuổi trở lên, ngồi ở bất kỳ chỗ nào trong xe",
+        "Tài xế tập sự từ 21 tuổi trở lên",
+        "Chỉ cha mẹ hoặc người giám hộ"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "8c1fff8f-1e08-41ea-ae72-6128725014ee",
+      "imgUrl": null,
+      "en": {
+        "prompt": "During which hours is a Class 7 learner not permitted to drive?",
+        "explanation": "Learners may not drive from midnight to 5 a.m. This curfew applies to the learner stage only. (Driver's Guide p. 10)",
+        "choices": [
+          "Midnight to 5 a.m.",
+          "11 p.m. to 6 a.m.",
+          "10 p.m. to 5 a.m.",
+          "1 a.m. to 6 a.m."
+        ]
+      },
+      "sourceHash": "07406d040036593164606ecd27a13984",
+      "prompt": "Người học lái Class 7 không được phép lái xe trong khoảng thời gian nào?",
+      "explanation": "Người học lái không được lái xe từ nửa đêm đến 5 giờ sáng. Giờ cấm lái này chỉ áp dụng cho giai đoạn học lái. (Driver's Guide tr. 10)",
+      "choices": [
+        "Từ nửa đêm đến 5 giờ sáng",
+        "Từ 11 giờ tối đến 6 giờ sáng",
+        "Từ 10 giờ tối đến 5 giờ sáng",
+        "Từ 1 giờ sáng đến 6 giờ sáng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "be511f63-c0c3-41fa-87c6-bf23b7e1a4df",
+      "imgUrl": null,
+      "en": {
+        "prompt": "How long must you hold a Class 7 learner's licence before you can take the Class 5 road test?",
+        "explanation": "You must hold your learner's licence for at least one year. This time is extended if you receive a suspension. (Driver's Guide p. 10)",
+        "choices": [
+          "At least 6 months",
+          "At least 2 years",
+          "At least 1 year",
+          "At least 3 months"
+        ]
+      },
+      "sourceHash": "4247ee3e85d22bdbb68737751491882b",
+      "prompt": "Bạn phải giữ bằng học lái Class 7 bao lâu trước khi được thi lái xe Class 5 (road test)?",
+      "explanation": "Bạn phải giữ bằng học lái ít nhất một năm. Thời gian này sẽ bị kéo dài nếu bạn bị treo bằng. (Driver's Guide tr. 10)",
+      "choices": [
+        "Ít nhất 6 tháng",
+        "Ít nhất 2 năm",
+        "Ít nhất 1 năm",
+        "Ít nhất 3 tháng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "ab9f235c-059d-4c69-800c-705aeea01f0f",
+      "imgUrl": null,
+      "en": {
+        "prompt": "What is the minimum age to hold a Class 5-GDL (probationary) licence?",
+        "explanation": "To become a probationary driver you must be at least 16, have held your learner's licence for a year, and pass the Class 5 road test. (Driver's Guide pp. 10, 13)",
+        "choices": [
+          "14",
+          "17",
+          "16",
+          "18"
+        ]
+      },
+      "sourceHash": "47c64aed06f9127ee58b87c921d6a2d0",
+      "prompt": "Tuổi tối thiểu để có bằng Class 5-GDL (tập sự) là bao nhiêu?",
+      "explanation": "Để trở thành tài xế tập sự, bạn phải ít nhất 16 tuổi, đã giữ bằng học lái một năm, và vượt qua bài thi lái xe Class 5. (Driver's Guide tr. 10, 13)",
+      "choices": [
+        "14",
+        "17",
+        "16",
+        "18"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "1469e0db-bffd-4285-b333-adfa101c7528",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Which of these is a condition for Class 5-GDL probationary drivers?",
+        "explanation": "Probationary drivers may not carry more passengers than there are seat belts. The midnight-to-5 a.m. curfew and the supervisor requirement apply to learners only. (Driver's Guide p. 10)",
+        "choices": [
+          "No driving between midnight and 5 a.m.",
+          "A supervising driver must be in the front seat",
+          "No more passengers than there are seat belts",
+          "No driving on provincial highways"
+        ]
+      },
+      "sourceHash": "0440f38acf743446dfbbf1ababddcf2a",
+      "prompt": "Điều nào sau đây là điều kiện dành cho tài xế tập sự Class 5-GDL?",
+      "explanation": "Tài xế tập sự không được chở số hành khách nhiều hơn số dây an toàn. Giờ cấm lái từ nửa đêm đến 5 giờ sáng và yêu cầu có người kèm cặp chỉ áp dụng cho người học lái. (Driver's Guide tr. 10)",
+      "choices": [
+        "Không được lái xe từ nửa đêm đến 5 giờ sáng",
+        "Phải có người kèm cặp ngồi ở ghế trước",
+        "Không chở số hành khách nhiều hơn số dây an toàn",
+        "Không được lái xe trên đường cao tốc tỉnh lộ"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "91a26809-9e32-4880-895c-1abb9e45e4b4",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Can a Class 5-GDL probationary driver act as the supervising driver for a learner?",
+        "explanation": "No. A probationary driver cannot supervise a learner. Only a fully licensed (non-GDL) driver aged 18 or older can. (Driver's Guide p. 10)",
+        "choices": [
+          "Yes, if they are 18 or older",
+          "No, the supervisor must be fully licensed (non-GDL)",
+          "Yes, after one year as a probationary driver",
+          "Yes, if a parent gives written consent"
+        ]
+      },
+      "sourceHash": "1055b68fe22643c7a8670aab017539d1",
+      "prompt": "Tài xế tập sự Class 5-GDL có được làm người kèm cặp cho người học lái không?",
+      "explanation": "Không. Tài xế tập sự không được kèm cặp người học lái. Chỉ tài xế có bằng đầy đủ (không thuộc GDL) từ 18 tuổi trở lên mới được kèm cặp. (Driver's Guide tr. 10)",
+      "choices": [
+        "Có, nếu họ từ 18 tuổi trở lên",
+        "Không, người kèm cặp phải có bằng đầy đủ (không thuộc GDL)",
+        "Có, sau một năm làm tài xế tập sự",
+        "Có, nếu cha mẹ đồng ý bằng văn bản"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "08c3a1fe-30d9-4aa8-a5aa-75237b181ea8",
+      "imgUrl": null,
+      "en": {
+        "prompt": "To exit the GDL program and receive a full Class 5 licence, you must:",
+        "explanation": "You must be at least 18, have been probationary for at least two years, and have no suspensions or traffic violations in the last 12 months. (Driver's Guide p. 11)",
+        "choices": [
+          "Be at least 16 and have been probationary for 1 year",
+          "Pass a second knowledge test after 2 years",
+          "Be at least 18, have been probationary for 2 years, and have no suspensions or violations in the last 12 months",
+          "Be at least 21 and have no demerit points"
+        ]
+      },
+      "sourceHash": "6cc60445aa109ecdf5d9ff5e77b026b9",
+      "prompt": "Để rời khỏi chương trình GDL và được cấp bằng Class 5 đầy đủ, bạn phải:",
+      "explanation": "Bạn phải ít nhất 18 tuổi, đã là tài xế tập sự ít nhất hai năm, và không bị treo bằng hoặc vi phạm giao thông trong 12 tháng gần nhất. (Driver's Guide tr. 11)",
+      "choices": [
+        "Ít nhất 16 tuổi và đã là tài xế tập sự 1 năm",
+        "Vượt qua bài thi lý thuyết lần thứ hai sau 2 năm",
+        "Ít nhất 18 tuổi, đã là tài xế tập sự 2 năm, và không bị treo bằng hoặc vi phạm trong 12 tháng gần nhất",
+        "Ít nhất 21 tuổi và không có điểm trừ nào"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "b4181975-bb3e-42eb-a2c0-bdc10744a40e",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Completing an approved driver training course can reduce the probationary stage by up to:",
+        "explanation": "An approved driver training course, recorded on your licence as condition code U, can reduce the probationary stage by up to six months. (Driver's Guide p. 11)",
+        "choices": [
+          "6 months",
+          "1 year",
+          "3 months",
+          "It cannot be reduced"
+        ]
+      },
+      "sourceHash": "77566ced4810b12c1a8e082c73fb1408",
+      "prompt": "Hoàn thành một khóa đào tạo lái xe được công nhận có thể rút ngắn giai đoạn tập sự tối đa:",
+      "explanation": "Một khóa đào tạo lái xe được công nhận, được ghi trên bằng lái của bạn với mã điều kiện U, có thể rút ngắn giai đoạn tập sự tối đa sáu tháng. (Driver's Guide tr. 11)",
+      "choices": [
+        "6 tháng",
+        "1 năm",
+        "3 tháng",
+        "Không thể rút ngắn"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "ef073153-bfcf-40ef-afb2-dd19a81a740e",
+      "imgUrl": null,
+      "en": {
+        "prompt": "What blood alcohol level is allowed for a GDL driver (learner or probationary)?",
+        "explanation": "GDL drivers must have a zero alcohol and drug level when driving. (Driver's Guide pp. 10, 112)",
+        "choices": [
+          "Zero",
+          "Less than 0.05",
+          "Less than 0.08",
+          "Less than 0.02"
+        ]
+      },
+      "sourceHash": "9d004aeefa172ef0e04017d356bcbdae",
+      "prompt": "Tài xế GDL (người học lái hoặc tài xế tập sự) được phép có nồng độ cồn trong máu ở mức nào?",
+      "explanation": "Tài xế GDL phải có nồng độ rượu bia và chất kích thích bằng không khi lái xe. (Driver's Guide tr. 10, 112)",
+      "choices": [
+        "Bằng không",
+        "Dưới 0.05",
+        "Dưới 0.08",
+        "Dưới 0.02"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "aa00a39f-c019-4a34-94f2-df4ed4ce3879",
+      "imgUrl": null,
+      "en": {
+        "prompt": "How many times per day may you take the knowledge test?",
+        "explanation": "There is a fee for each knowledge test, and you can take only one test per day. (Driver's Guide p. 11)",
+        "choices": [
+          "Twice",
+          "Three times",
+          "Once",
+          "As many times as you like"
+        ]
+      },
+      "sourceHash": "2a6e5e418f40ddfae3054e7ef5e66370",
+      "prompt": "Mỗi ngày bạn được thi lý thuyết (knowledge test) bao nhiêu lần?",
+      "explanation": "Mỗi lần thi lý thuyết đều mất phí, và bạn chỉ được thi một lần mỗi ngày. (Driver's Guide tr. 11)",
+      "choices": [
+        "Hai lần",
+        "Ba lần",
+        "Một lần",
+        "Bao nhiêu lần tùy thích"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "af2914b5-3bf5-4732-b57c-6129254198e4",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Which of these results in an automatic failure on the Class 5 road test?",
+        "explanation": "Failing to stop completely before a stop sign, or before turning right on a red light, is an automatic fail regardless of your point total. (Driver's Guide p. 13)",
+        "choices": [
+          "Using hand-over-hand steering on a turn",
+          "Checking your mirrors frequently",
+          "Parking successfully on the second attempt",
+          "Not stopping completely before turning right on a red light"
+        ]
+      },
+      "sourceHash": "b36d4198dda24b8e2093f592fbbeeb74",
+      "prompt": "Điều nào sau đây khiến bạn tự động bị đánh trượt bài thi lái xe Class 5?",
+      "explanation": "Không dừng hẳn trước biển dừng, hoặc trước khi rẽ phải khi đèn đỏ, sẽ tự động bị đánh trượt bất kể tổng điểm của bạn. (Driver's Guide tr. 13)",
+      "choices": [
+        "Đánh lái kiểu chéo tay (hand-over-hand) khi rẽ",
+        "Thường xuyên kiểm tra gương",
+        "Đậu xe thành công ở lần thử thứ hai",
+        "Không dừng hẳn trước khi rẽ phải khi đèn đỏ"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "40ef30e0-f6cc-48e5-bdc9-faea8e9a284a",
+      "imgUrl": null,
+      "en": {
+        "prompt": "On the Class 5 road test, you fail automatically if you cannot park legally within how many attempts?",
+        "explanation": "Climbing the curb while parking, or being unable to park legally in three attempts, results in automatic failure. (Driver's Guide p. 13)",
+        "choices": [
+          "2 attempts",
+          "4 attempts",
+          "3 attempts",
+          "5 attempts"
+        ]
+      },
+      "sourceHash": "9efad69e8d8405d8261f52f565fe0fdf",
+      "prompt": "Trong bài thi lái xe Class 5, bạn tự động bị đánh trượt nếu không đậu xe đúng luật trong bao nhiêu lần thử?",
+      "explanation": "Leo lề khi đậu xe, hoặc không đậu xe đúng luật trong ba lần thử, sẽ tự động bị đánh trượt. (Driver's Guide tr. 13)",
+      "choices": [
+        "2 lần thử",
+        "4 lần thử",
+        "3 lần thử",
+        "5 lần thử"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "e0c4fd40-cfae-4ef9-9b69-b4a5eccf81cc",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When a peace officer asks, what documents must a driver produce?",
+        "explanation": "On request of a peace officer, a driver must produce their driver's licence, vehicle registration, and insurance. (Driver's Guide p. 15)",
+        "choices": [
+          "Driver's licence only",
+          "Driver's licence, vehicle registration, and proof of insurance",
+          "Vehicle registration and a birth certificate",
+          "Proof of insurance and a vehicle inspection report"
+        ]
+      },
+      "sourceHash": "33c67bf6e0a4d7f4f9b729b09becc948",
+      "prompt": "Khi cảnh sát (peace officer) yêu cầu, tài xế phải xuất trình những giấy tờ nào?",
+      "explanation": "Khi cảnh sát yêu cầu, tài xế phải xuất trình bằng lái, giấy đăng ký xe và bảo hiểm. (Driver's Guide tr. 15)",
+      "choices": [
+        "Chỉ bằng lái",
+        "Bằng lái, giấy đăng ký xe và giấy tờ chứng minh có bảo hiểm",
+        "Giấy đăng ký xe và giấy khai sinh",
+        "Giấy tờ chứng minh có bảo hiểm và biên bản kiểm định xe"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "4b6389e6-5a78-485d-aa2a-85c88a2b7b57",
+      "imgUrl": null,
+      "en": {
+        "prompt": "The financial responsibility card that proves your vehicle is insured is commonly called the:",
+        "explanation": "Your insurance company issues a financial responsibility card, the pink card. It must be shown when registering a vehicle and when a peace officer asks. (Driver's Guide p. 20)",
+        "choices": [
+          "Pink card",
+          "Green card",
+          "Blue slip",
+          "White certificate"
+        ]
+      },
+      "sourceHash": "ab091d9d738c1360661bd84a588798be",
+      "prompt": "Thẻ trách nhiệm tài chính (financial responsibility card) chứng minh xe của bạn có bảo hiểm thường được gọi là:",
+      "explanation": "Công ty bảo hiểm của bạn cấp thẻ trách nhiệm tài chính, tức thẻ màu hồng (pink card). Thẻ này phải được xuất trình khi đăng ký xe và khi cảnh sát yêu cầu. (Driver's Guide tr. 20)",
+      "choices": [
+        "Thẻ màu hồng (pink card)",
+        "Thẻ màu xanh lá (green card)",
+        "Phiếu màu xanh dương (blue slip)",
+        "Giấy chứng nhận màu trắng (white certificate)"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "c3665b6a-25f9-473b-a30d-dd5757922da2",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A new Alberta resident moving from another Canadian province may use their out-of-province licence for how long?",
+        "explanation": "New residents from elsewhere in Canada may use their out-of-province licence for the first 90 days, and must apply for an Alberta licence within that time. (Driver's Guide p. 16)",
+        "choices": [
+          "30 days",
+          "6 months",
+          "1 year",
+          "90 days"
+        ]
+      },
+      "sourceHash": "268b7d522f35aa6a29ace41269cbd874",
+      "prompt": "Cư dân mới của Alberta chuyển đến từ một tỉnh khác ở Canada được dùng bằng lái của tỉnh cũ trong bao lâu?",
+      "explanation": "Cư dân mới từ nơi khác ở Canada được dùng bằng lái của tỉnh cũ trong 90 ngày đầu tiên, và phải xin bằng lái Alberta trong thời gian đó. (Driver's Guide tr. 16)",
+      "choices": [
+        "30 ngày",
+        "6 tháng",
+        "1 năm",
+        "90 ngày"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "7dda4904-d185-4a5d-8800-a43f3d599cf6",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Your driver's licence has been stolen. What must you do?",
+        "explanation": "Report the theft to the police, then give a copy of the police report to the registry agent when you apply for a replacement. (Driver's Guide p. 19)",
+        "choices": [
+          "Keep driving until your licence expires, then renew it",
+          "Wait 30 days in case it is returned",
+          "Report it to the police and apply for a replacement at a registry agent",
+          "Notify your insurance company only"
+        ]
+      },
+      "sourceHash": "258815981a79294d6325a28f783900d3",
+      "prompt": "Bằng lái của bạn bị đánh cắp. Bạn phải làm gì?",
+      "explanation": "Báo cảnh sát về vụ trộm, sau đó nộp bản sao biên bản của cảnh sát cho nhân viên văn phòng đăng ký (registry agent) khi xin cấp lại bằng. (Driver's Guide tr. 19)",
+      "choices": [
+        "Tiếp tục lái xe cho đến khi bằng hết hạn rồi gia hạn",
+        "Chờ 30 ngày phòng khi có người trả lại",
+        "Báo cảnh sát và xin cấp lại bằng tại văn phòng đăng ký",
+        "Chỉ thông báo cho công ty bảo hiểm"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "8e853f9b-c0e2-4379-832b-49f60337804a",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A fully licensed driver receives a warning letter about their demerit points at:",
+        "explanation": "Fully licensed drivers get a warning letter at 8 to 14 demerit points within two years, and are suspended at 15. (Driver's Guide p. 108)",
+        "choices": [
+          "4 to 7 points",
+          "8 to 14 points",
+          "10 to 15 points",
+          "15 points or more"
+        ]
+      },
+      "sourceHash": "fbf57770936101d840d3db576eae0b7e",
+      "prompt": "Tài xế có bằng đầy đủ sẽ nhận thư cảnh báo về điểm trừ khi có:",
+      "explanation": "Tài xế có bằng đầy đủ nhận thư cảnh báo khi có từ 8 đến 14 điểm trừ trong vòng hai năm, và bị treo bằng khi có 15 điểm. (Driver's Guide tr. 108)",
+      "choices": [
+        "4 đến 7 điểm",
+        "8 đến 14 điểm",
+        "10 đến 15 điểm",
+        "15 điểm trở lên"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "b034dbed-e98d-4144-8b7d-8c3500d2e585",
+      "imgUrl": null,
+      "en": {
+        "prompt": "How long do demerit points stay on your driving record?",
+        "explanation": "Demerit points are removed two years after the date of the conviction. (Driver's Guide p. 110)",
+        "choices": [
+          "1 year from the date of conviction",
+          "5 years from the date of conviction",
+          "10 years from the date of conviction",
+          "2 years from the date of conviction"
+        ]
+      },
+      "sourceHash": "5d4540a31ecce67266ce0f7da9ab7d8f",
+      "prompt": "Điểm trừ được lưu trong hồ sơ lái xe của bạn bao lâu?",
+      "explanation": "Điểm trừ được xóa hai năm sau ngày bị kết tội. (Driver's Guide tr. 110)",
+      "choices": [
+        "1 năm kể từ ngày bị kết tội",
+        "5 năm kể từ ngày bị kết tội",
+        "10 năm kể từ ngày bị kết tội",
+        "2 năm kể từ ngày bị kết tội"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "6411c0c3-f919-462c-ad96-08bed2a64774",
+      "imgUrl": null,
+      "en": {
+        "prompt": "How long is the first automatic suspension for reaching the demerit point limit?",
+        "explanation": "The first demerit suspension is one month, the second within a year is three months, and the third within two years is six months. (Driver's Guide p. 110)",
+        "choices": [
+          "3 months",
+          "6 months",
+          "1 year",
+          "1 month"
+        ]
+      },
+      "sourceHash": "6a76547b72dd381f64da99cf797cca4e",
+      "prompt": "Lần tự động treo bằng đầu tiên do đạt mức giới hạn điểm trừ kéo dài bao lâu?",
+      "explanation": "Lần treo bằng đầu tiên do điểm trừ là một tháng, lần thứ hai trong vòng một năm là ba tháng, và lần thứ ba trong vòng hai năm là sáu tháng. (Driver's Guide tr. 110)",
+      "choices": [
+        "3 tháng",
+        "6 tháng",
+        "1 năm",
+        "1 tháng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "ad511339-d88b-43b8-9b06-3f7d5dbd6217",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Completing a Government-approved defensive driving course before reaching 15 points gives you:",
+        "explanation": "A three-point credit is applied to your driving record for two years. (Driver's Guide p. 110)",
+        "choices": [
+          "Removal of all demerit points",
+          "A 1-point credit on your driving record",
+          "A 3-point credit on your driving record",
+          "An exemption from all suspensions"
+        ]
+      },
+      "sourceHash": "b82d254105a22a38c4037dd24abd5165",
+      "prompt": "Hoàn thành một khóa học lái xe phòng vệ (defensive driving course) được Chính phủ công nhận trước khi đạt 15 điểm sẽ giúp bạn:",
+      "explanation": "Hồ sơ lái xe của bạn sẽ được trừ bớt ba điểm trong vòng hai năm. (Driver's Guide tr. 110)",
+      "choices": [
+        "Xóa toàn bộ điểm trừ",
+        "Được trừ bớt 1 điểm trong hồ sơ lái xe",
+        "Được trừ bớt 3 điểm trong hồ sơ lái xe",
+        "Được miễn mọi hình thức treo bằng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "504fa1b3-5e9b-4ac2-b62f-1ce6f157f9b0",
+      "imgUrl": null,
+      "en": {
+        "prompt": "How many demerit points are given for speeding 31 to 50 km/h over the limit?",
+        "explanation": "Speeding by 31 to 50 km/h over the limit costs 4 demerit points. Speeding by 51 km/h or more costs 6. (Driver's Guide p. 109)",
+        "choices": [
+          "4",
+          "2",
+          "3",
+          "6"
+        ]
+      },
+      "sourceHash": "7f3f04eeb1b57f3dc17ef47239b8e9cd",
+      "prompt": "Chạy quá tốc độ từ 31 đến 50 km/h bị bao nhiêu điểm trừ?",
+      "explanation": "Chạy quá tốc độ từ 31 đến 50 km/h bị 4 điểm trừ. Chạy quá tốc độ từ 51 km/h trở lên bị 6 điểm. (Driver's Guide tr. 109)",
+      "choices": [
+        "4",
+        "2",
+        "3",
+        "6"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "c2ccabc1-18ee-4440-8999-44ac0ec0a2b4",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Which offence carries the most demerit points?",
+        "explanation": "Failing to remain at the scene of a collision carries 7 demerit points, the highest on the list. (Driver's Guide p. 109)",
+        "choices": [
+          "Failing to stop for a school bus",
+          "Failing to remain at the scene of a collision",
+          "Following too closely",
+          "Failing to stop at a stop sign"
+        ]
+      },
+      "sourceHash": "546a18ed6a13aecbccf2b5c8148de42b",
+      "prompt": "Vi phạm nào bị nhiều điểm trừ nhất?",
+      "explanation": "Bỏ trốn khỏi hiện trường va chạm bị 7 điểm trừ, mức cao nhất trong danh sách. (Driver's Guide tr. 109)",
+      "choices": [
+        "Không dừng lại cho xe buýt trường học",
+        "Bỏ trốn khỏi hiện trường va chạm",
+        "Đi quá sát xe phía trước",
+        "Không dừng lại tại biển dừng"
+      ],
+      "status": "approved"
+    }
+  ]
+}

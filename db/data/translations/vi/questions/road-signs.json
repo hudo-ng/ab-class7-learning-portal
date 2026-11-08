@@ -1,0 +1,1732 @@
+{
+  "questions": [
+    {
+      "id": "0405008e-dcee-4a34-b970-8f6e88e3c79f",
+      "imgUrl": "https://adqvuag38e1wwvsm.public.blob.vercel-storage.com/questions/1766444344432-stop.png",
+      "en": {
+        "prompt": "What does a red octagonal sign indicate?",
+        "explanation": "A red octagonal sign indicates a stop sign, requiring drivers to come to a complete stop.",
+        "choices": [
+          "Yield",
+          "Stop",
+          "Do Not Enter",
+          "Speed Limit"
+        ]
+      },
+      "sourceHash": "a8d28041475495398fc2b26a27546c87",
+      "prompt": "Biển báo hình bát giác màu đỏ có nghĩa là gì?",
+      "explanation": "Biển báo hình bát giác màu đỏ là biển báo dừng (stop sign), yêu cầu tài xế phải dừng hẳn.",
+      "choices": [
+        "Nhường đường (Yield)",
+        "Dừng lại (Stop)",
+        "Cấm đi vào (Do Not Enter)",
+        "Giới hạn tốc độ"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "64d778d2-4924-4eb9-a300-b3a68ac3925f",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Speed limit signs indicate:",
+        "explanation": "A speed limit is the maximum speed allowed when conditions are good. In rain, snow, fog or heavy traffic, drive slower than the posted limit.",
+        "choices": [
+          "The speed you should travel under all driving conditions",
+          "The minimum speed permitted on all highways",
+          "The maximum speed permitted when conditions are favourable",
+          "The maximum speed permitted except when passing"
+        ]
+      },
+      "sourceHash": "f07640799b547d6b8c9030df84af5fd8",
+      "prompt": "Biển giới hạn tốc độ cho biết:",
+      "explanation": "Giới hạn tốc độ là tốc độ tối đa được phép khi điều kiện tốt. Khi trời mưa, có tuyết, sương mù hoặc giao thông đông đúc, hãy chạy chậm hơn giới hạn được cắm.",
+      "choices": [
+        "Tốc độ bạn nên chạy trong mọi điều kiện lái xe",
+        "Tốc độ tối thiểu được phép trên mọi đường cao tốc",
+        "Tốc độ tối đa được phép khi điều kiện thuận lợi",
+        "Tốc độ tối đa được phép, trừ khi đang vượt xe"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "7a61ad3b-eda4-4423-a920-340eab1e40d8",
+      "imgUrl": "/signs/railway-crossing.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "The white X-shaped crossbuck marks a railway crossing. Slow down, look and listen in both directions, and be ready to stop for a train.",
+        "choices": [
+          "Do not enter",
+          "Emergency vehicles entering roadway",
+          "The designated lane is closed",
+          "Railway crossing"
+        ]
+      },
+      "sourceHash": "c2250910e350e9b75266eaadbeebc57f",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển hình chữ X màu trắng (crossbuck) đánh dấu chỗ giao cắt đường sắt. Hãy giảm tốc, nhìn và lắng nghe cả hai hướng, và sẵn sàng dừng lại khi có tàu.",
+      "choices": [
+        "Cấm đi vào",
+        "Xe ưu tiên đang đi vào đường",
+        "Làn được chỉ định đã bị đóng",
+        "Chỗ giao cắt đường sắt"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "4ac81697-f305-497d-8c60-51d6f6d6c160",
+      "imgUrl": "/signs/curve-right.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "A bent arrow on a yellow diamond warns of a curve ahead in the direction the arrow points. Slow down before you reach the curve.",
+        "choices": [
+          "Traffic entering from the right",
+          "Winding road ahead",
+          "Curve right",
+          "Concealed intersection on the right"
+        ]
+      },
+      "sourceHash": "fa0f843b98c3e152bb67e9d7ae5ac98d",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Mũi tên cong trên biển hình thoi màu vàng cảnh báo phía trước có khúc cua theo hướng mũi tên. Hãy giảm tốc trước khi đến khúc cua.",
+      "choices": [
+        "Xe đi vào từ bên phải",
+        "Phía trước là đường quanh co",
+        "Khúc cua bên phải",
+        "Giao lộ bị che khuất ở bên phải"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "9bcccedc-dd95-40de-8dba-c52af7477e94",
+      "imgUrl": "/signs/yield-ahead.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "This warning sign tells you a yield sign is ahead. Slow down and be prepared to yield the right-of-way.",
+        "choices": [
+          "Do not enter",
+          "Slow moving vehicles ahead",
+          "Warning, Yield sign ahead",
+          "Warning, traffic is approaching"
+        ]
+      },
+      "sourceHash": "e39db007e9d0cf7515aa3fdf84f6ee82",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển cảnh báo này cho biết phía trước có biển nhường đường (Yield). Hãy giảm tốc và sẵn sàng nhường quyền ưu tiên.",
+      "choices": [
+        "Cấm đi vào",
+        "Phía trước có xe chạy chậm",
+        "Cảnh báo: phía trước có biển nhường đường",
+        "Cảnh báo: có xe đang đến gần"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "1fde89cc-1b05-47b1-b8f3-965ce8ec0621",
+      "imgUrl": "/signs/slow-moving-vehicle.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "This orange triangle with a red border is displayed on the back of vehicles that normally travel slower than 40 km/h, such as farm equipment. Be ready to slow down, and pass only when it is safe.",
+        "choices": [
+          "Yield the right-of-way to pedestrians and traffic",
+          "Dangerous goods vehicle placard: flammable gas",
+          "Slow moving vehicle",
+          "Warning, Yield sign ahead"
+        ]
+      },
+      "sourceHash": "9b0341b969e84535ed09891235ee342b",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển hình tam giác màu cam viền đỏ này được gắn phía sau những xe thường chạy chậm hơn 40 km/h, như máy nông nghiệp. Hãy sẵn sàng giảm tốc, và chỉ vượt khi an toàn.",
+      "choices": [
+        "Nhường quyền ưu tiên cho người đi bộ và xe cộ",
+        "Biển hiệu xe chở hàng nguy hiểm: khí dễ cháy",
+        "Xe chạy chậm (slow moving vehicle)",
+        "Cảnh báo: phía trước có biển nhường đường"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "d7e45753-eead-40c0-9c73-4557291735c8",
+      "imgUrl": "/signs/winding-road.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "A wavy arrow warns of a series of curves ahead. Slow down and stay in your lane.",
+        "choices": [
+          "Winding road ahead",
+          "Lane changing permitted",
+          "Slippery when wet",
+          "Weave zone ahead"
+        ]
+      },
+      "sourceHash": "bf9a38c1b2b45c02236d161314ff42db",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Mũi tên hình lượn sóng cảnh báo phía trước có nhiều khúc cua liên tiếp. Hãy giảm tốc và giữ xe trong làn của bạn.",
+      "choices": [
+        "Phía trước là đường quanh co",
+        "Được phép chuyển làn",
+        "Đường trơn khi ướt",
+        "Phía trước là khu vực đan xen làn"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "a2d273bb-a55b-4840-b5b7-c9c34eb19e12",
+      "imgUrl": "/signs/school-bus-stop-ahead.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "This sign warns of a school bus stop ahead. Watch for a stopped bus and for children, and be ready to stop when its red lights flash.",
+        "choices": [
+          "Playground zone ahead",
+          "Pedestrian crossing ahead",
+          "School bus stop ahead",
+          "School zone ahead"
+        ]
+      },
+      "sourceHash": "ac7401006b0c55e2b98c2b70287bc344",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển này cảnh báo phía trước có trạm dừng xe buýt trường học. Hãy chú ý xe buýt đang dừng và trẻ em, và sẵn sàng dừng lại khi đèn đỏ của xe buýt nhấp nháy.",
+      "choices": [
+        "Phía trước là khu vực sân chơi",
+        "Phía trước có lối qua đường cho người đi bộ",
+        "Phía trước có trạm dừng xe buýt trường học",
+        "Phía trước là khu vực trường học"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "806191ff-37e8-4d1e-80d1-acf699f888f9",
+      "imgUrl": "/signs/school-crosswalk-ahead.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "The fluorescent yellow-green diamond with two children warns of a school crosswalk ahead. Slow down and watch for children crossing.",
+        "choices": [
+          "School zone",
+          "School crosswalk ahead",
+          "Playground zone",
+          "Pedestrian activated lights ahead"
+        ]
+      },
+      "sourceHash": "6a74309bbc11f7e5e3fa8e377e8fa2f4",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển hình thoi màu vàng chanh huỳnh quang có hình hai trẻ em cảnh báo phía trước có lối qua đường dành cho học sinh. Hãy giảm tốc và chú ý trẻ em đang qua đường.",
+      "choices": [
+        "Khu vực trường học (school zone)",
+        "Phía trước có lối qua đường dành cho học sinh",
+        "Khu vực sân chơi (playground zone)",
+        "Phía trước có đèn do người đi bộ bấm"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "7fcf3305-f52a-447a-bc50-102c365b94cb",
+      "imgUrl": "/signs/two-way-traffic.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "This sign tells you the road carries traffic in both directions, for example where a one-way section ends. Keep to the right.",
+        "choices": [
+          "Through lane only",
+          "Passing permitted",
+          "No turns permitted",
+          "Two-way traffic"
+        ]
+      },
+      "sourceHash": "a70cc85e524036dbd65681b9c1cc562c",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển này cho biết con đường có xe chạy theo cả hai chiều, ví dụ nơi đoạn đường một chiều kết thúc. Hãy đi về bên phải.",
+      "choices": [
+        "Chỉ dành cho xe đi thẳng",
+        "Được phép vượt",
+        "Cấm rẽ",
+        "Đường hai chiều"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "a4b77b08-4e6d-4219-968a-f9500433c796",
+      "imgUrl": "/signs/merging-traffic.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "Traffic will merge into your lane from the side shown. Be ready to adjust your speed or change lanes to let vehicles in.",
+        "choices": [
+          "Winding road ahead",
+          "\"T\" intersection",
+          "Road narrows to the right",
+          "Merging traffic"
+        ]
+      },
+      "sourceHash": "034aae37136f44856e64c5302dbe3676",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Xe cộ sẽ nhập vào làn của bạn từ phía được chỉ trên biển. Hãy sẵn sàng điều chỉnh tốc độ hoặc chuyển làn để các xe khác có thể nhập vào.",
+      "choices": [
+        "Phía trước là đường quanh co",
+        "Giao lộ chữ \"T\"",
+        "Đường hẹp lại bên phải",
+        "Xe nhập làn"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "98225055-b9bf-4286-bdd0-78f861356e1a",
+      "imgUrl": "/signs/reserved-lane.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "A white diamond on a black background marks a reserved lane. Only the vehicles shown (here, buses and taxis) may use it, during the times shown.",
+        "choices": [
+          "Lane is reserved for use by the specified vehicles",
+          "One-way traffic only",
+          "Car pool vehicles only",
+          "Lane can be used for dangerous goods vehicles"
+        ]
+      },
+      "sourceHash": "f70f3c4aeb23287635398f4d3fdd1ac7",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Hình thoi màu trắng trên nền đen đánh dấu làn dành riêng (reserved lane). Chỉ những loại xe được ghi trên biển (ở đây là xe buýt và taxi) mới được dùng làn này, trong khung giờ được ghi.",
+      "choices": [
+        "Làn dành riêng cho các loại xe được chỉ định",
+        "Chỉ dành cho đường một chiều",
+        "Chỉ dành cho xe đi chung (car pool)",
+        "Làn dành cho xe chở hàng nguy hiểm"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "b0bb557f-21ac-4756-ba71-13ea41eb3d44",
+      "imgUrl": "/signs/road-narrows-left.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "The left edge of the road moves in ahead, so the road becomes narrower. Slow down and be ready to move right.",
+        "choices": [
+          "Road narrows, left",
+          "Two-way traffic",
+          "Divided highway ends",
+          "Obstruction - keep left"
+        ]
+      },
+      "sourceHash": "246b83236dd535399c4c896eee661379",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Mép trái của con đường thu hẹp vào phía trước, nên đường trở nên hẹp hơn. Hãy giảm tốc và sẵn sàng đi sang bên phải.",
+      "choices": [
+        "Đường hẹp lại bên trái",
+        "Đường hai chiều",
+        "Hết đường có dải phân cách",
+        "Có vật cản: đi về bên trái"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "484fd62a-81ea-4355-824f-4cfc9b6dd1b7",
+      "imgUrl": "/signs/bump.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "This sign warns of a bump or rough section of road ahead. Slow down to keep control of your vehicle.",
+        "choices": [
+          "Rumble strips",
+          "Construction zone",
+          "Bump",
+          "Pavement ends"
+        ]
+      },
+      "sourceHash": "d89af0adbb5db635ce8b30c9b41e20bb",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển này cảnh báo phía trước có gờ hoặc đoạn đường gồ ghề. Hãy giảm tốc để giữ được khả năng điều khiển xe.",
+      "choices": [
+        "Dải rung (rumble strips)",
+        "Khu vực thi công",
+        "Gờ / mặt đường gồ ghề",
+        "Hết mặt đường nhựa"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "3e363d0d-a9cf-4a8c-82ca-7a2bb453acef",
+      "imgUrl": "/signs/pedestrian-crosswalk-ahead.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "A walking figure on a yellow diamond warns of a pedestrian crosswalk ahead. Slow down and be ready to stop for pedestrians.",
+        "choices": [
+          "Children playing in residential area",
+          "Pedestrian crosswalk ahead",
+          "School area",
+          "Playground zone"
+        ]
+      },
+      "sourceHash": "847a7f562cde9b96c38288ac033f6695",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Hình người đi bộ trên biển hình thoi màu vàng cảnh báo phía trước có lối qua đường cho người đi bộ. Hãy giảm tốc và sẵn sàng dừng lại cho người đi bộ.",
+      "choices": [
+        "Trẻ em vui chơi trong khu dân cư",
+        "Phía trước có lối qua đường cho người đi bộ",
+        "Khu vực trường học",
+        "Khu vực sân chơi"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "25e30607-daa8-497a-98ee-c472d8ba4c30",
+      "imgUrl": "/signs/do-not-pass.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "A red circle and slash over two cars means passing is not allowed. Stay in your lane until a sign or road markings show passing is permitted again.",
+        "choices": [
+          "Heavy trucks only",
+          "Do not pass",
+          "No vehicles allowed",
+          "Do not enter"
+        ]
+      },
+      "sourceHash": "baeeb97d0d62d4ad7ef3064ed155740d",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Vòng tròn đỏ có gạch chéo trên hình hai xe hơi nghĩa là không được vượt. Hãy giữ xe trong làn cho đến khi biển báo hoặc vạch kẻ đường cho phép vượt trở lại.",
+      "choices": [
+        "Chỉ dành cho xe tải nặng",
+        "Cấm vượt",
+        "Cấm mọi loại xe",
+        "Cấm đi vào"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "b47362c0-8d5d-4c5f-bbe0-adec31eb6c76",
+      "imgUrl": "/signs/dead-end.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "A yellow-and-black checkerboard marks the end of the road. Slow down and be ready to stop or turn around.",
+        "choices": [
+          "Pavement ends",
+          "Construction zone",
+          "Dead end",
+          "Hazard marker"
+        ]
+      },
+      "sourceHash": "9ffbd0f584c21cdc2dc1efe18e7c2a2d",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển hình bàn cờ vàng đen đánh dấu điểm cuối của con đường. Hãy giảm tốc và sẵn sàng dừng lại hoặc quay đầu.",
+      "choices": [
+        "Hết mặt đường nhựa",
+        "Khu vực thi công",
+        "Đường cụt",
+        "Biển đánh dấu chướng ngại vật"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "83e3bda6-1b63-4d0d-8277-584354c6131f",
+      "imgUrl": "/signs/divided-highway-begins.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "This sign warns that the road ahead becomes divided by a median. Keep to the right of the median.",
+        "choices": [
+          "Divided highway ends",
+          "Divided highway begins",
+          "Obstruction - pass on left",
+          "Two-way traffic"
+        ]
+      },
+      "sourceHash": "14a209c06621bcd20fa46b07da9d6e62",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển này cảnh báo con đường phía trước được chia ra bởi dải phân cách. Hãy đi về bên phải dải phân cách.",
+      "choices": [
+        "Hết đường có dải phân cách",
+        "Bắt đầu đường có dải phân cách",
+        "Có vật cản: đi về bên trái",
+        "Đường hai chiều"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "813691c7-6ddd-412d-8d8e-e7e07242136c",
+      "imgUrl": "/signs/hospital.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "A white H on a square service sign shows the way to a hospital.",
+        "choices": [
+          "Off-road facilities",
+          "Hospital services",
+          "Hotel services",
+          "Primary highway route marker"
+        ]
+      },
+      "sourceHash": "2585abeef376ba025844dc6739112cb0",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Chữ H màu trắng trên biển dịch vụ hình vuông chỉ đường đến bệnh viện.",
+      "choices": [
+        "Cơ sở dịch vụ ngoài đường chính",
+        "Dịch vụ bệnh viện",
+        "Dịch vụ khách sạn",
+        "Biển số tuyến đường cao tốc chính"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "5f2b4386-d14a-4c6a-8e7d-f4b378f86205",
+      "imgUrl": "/signs/construction-workers.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "Orange signs mark construction zones. This one warns of people working ahead: slow down, obey the posted speed limit, and watch for workers. Fines double when workers are present.",
+        "choices": [
+          "Construction sign, flag person ahead",
+          "Construction sign, detour ahead",
+          "Caution, falling rock ahead",
+          "Construction sign, people working ahead"
+        ]
+      },
+      "sourceHash": "1b6b51646f452e43d831c0605e069101",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển màu cam đánh dấu khu vực thi công. Biển này cảnh báo phía trước có người đang làm việc: hãy giảm tốc, tuân thủ giới hạn tốc độ được cắm, và chú ý công nhân. Tiền phạt được nhân đôi khi có công nhân làm việc.",
+      "choices": [
+        "Biển thi công: phía trước có người cầm cờ",
+        "Biển thi công: phía trước có đường vòng",
+        "Cẩn thận: phía trước có đá lở",
+        "Biển thi công: phía trước có người đang làm việc"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "77bf1992-9e0f-427f-a379-f0436eb09f79",
+      "imgUrl": null,
+      "en": {
+        "prompt": "At 9:00 AM on a school day, what is the maximum speed permitted in a school zone in a rural area, unless otherwise posted?",
+        "explanation": "Unless otherwise posted, the school zone speed limit is 30 km/h during school zone hours on school days. This applies in rural areas as well as in towns and cities.",
+        "choices": [
+          "50 km/h",
+          "20 km/h",
+          "40 km/h",
+          "30 km/h"
+        ]
+      },
+      "sourceHash": "8354b98a154b771ec482f350cf8d26d7",
+      "prompt": "Lúc 9:00 sáng vào ngày đi học, tốc độ tối đa được phép trong khu vực trường học (school zone) ở vùng nông thôn là bao nhiêu, nếu không có biển báo khác?",
+      "explanation": "Nếu không có biển báo khác, giới hạn tốc độ trong khu vực trường học là 30 km/h trong giờ áp dụng vào các ngày đi học. Quy định này áp dụng ở cả vùng nông thôn lẫn thị trấn và thành phố.",
+      "choices": [
+        "50 km/h",
+        "20 km/h",
+        "40 km/h",
+        "30 km/h"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "07384bc1-7253-4efa-9cee-662302134400",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Parking in a space reserved for persons with disabilities is permitted:",
+        "explanation": "Spaces reserved for persons with disabilities may only be used by vehicles that display a valid disabled parking placard or licence plate.",
+        "choices": [
+          "While the driver is waiting in the vehicle",
+          "When the vehicle has a proper identifying placard or license plate",
+          "When all other parking spaces are filled",
+          "When a driver stops for less than 5 minutes"
+        ]
+      },
+      "sourceHash": "54b4470ef42668e4f4ca2d6cc0302d0c",
+      "prompt": "Bạn được phép đậu xe ở chỗ dành riêng cho người khuyết tật:",
+      "explanation": "Chỗ đậu xe dành cho người khuyết tật chỉ được sử dụng bởi những xe có treo thẻ đậu xe dành cho người khuyết tật hợp lệ hoặc có biển số xe dành cho người khuyết tật.",
+      "choices": [
+        "Khi tài xế đang ngồi chờ trong xe",
+        "Khi xe có thẻ nhận dạng hoặc biển số phù hợp",
+        "Khi tất cả các chỗ đậu khác đã kín",
+        "Khi tài xế dừng xe dưới 5 phút"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "a13ca400-b9db-4147-8390-7bb27cbbab1b",
+      "imgUrl": null,
+      "en": {
+        "prompt": "The speed limit in a construction zone must be obeyed:",
+        "explanation": "A posted construction zone speed limit applies whenever the signs are up, whether or not you can see workers. Speeding fines double when workers are present.",
+        "choices": [
+          "Only during daylight hours",
+          "At all times",
+          "Only when a flag person is posted nearby",
+          "Only when construction workers are present"
+        ]
+      },
+      "sourceHash": "6ec7d51fa83f6a98099033d481fa00b4",
+      "prompt": "Giới hạn tốc độ trong khu vực thi công phải được tuân thủ:",
+      "explanation": "Giới hạn tốc độ được cắm trong khu vực thi công áp dụng bất cứ khi nào biển báo được dựng, dù bạn có nhìn thấy công nhân hay không. Tiền phạt chạy quá tốc độ được nhân đôi khi có công nhân làm việc.",
+      "choices": [
+        "Chỉ vào ban ngày",
+        "Mọi lúc",
+        "Chỉ khi có người cầm cờ ở gần",
+        "Chỉ khi có công nhân đang làm việc"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "1010c34f-24cc-41da-a11c-d5b2b8ac078d",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Unless otherwise posted, the school zone speed limits are in effect on school days during the following hours:",
+        "explanation": "Unless signs show otherwise, school zone limits apply on school days from 8:00 to 9:30 am, 11:30 am to 1:30 pm, and 3:00 to 4:30 pm.",
+        "choices": [
+          "8:00 am to 4:30 pm",
+          "8:30 am to 9:30 am, 12:00 pm to 1:00 pm and 3:30 pm to 4:00 pm",
+          "8:00 am to 9:30 am, 11:30 am to 1:30 pm and 3:00 pm to 4:30 pm",
+          "8:30 am to 1 hour after sunset"
+        ]
+      },
+      "sourceHash": "ae7e311463cf1e74044c5edd6b52935f",
+      "prompt": "Nếu không có biển báo khác, giới hạn tốc độ trong khu vực trường học áp dụng vào các ngày đi học trong những khung giờ sau:",
+      "explanation": "Nếu biển báo không ghi khác, giới hạn trong khu vực trường học áp dụng vào các ngày đi học từ 8:00 đến 9:30 sáng, 11:30 sáng đến 1:30 chiều, và 3:00 đến 4:30 chiều.",
+      "choices": [
+        "8:00 sáng đến 4:30 chiều",
+        "8:30 sáng đến 9:30 sáng, 12:00 trưa đến 1:00 chiều và 3:30 chiều đến 4:00 chiều",
+        "8:00 sáng đến 9:30 sáng, 11:30 sáng đến 1:30 chiều và 3:00 chiều đến 4:30 chiều",
+        "8:30 sáng đến 1 giờ sau khi mặt trời lặn"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "7ebc1972-d817-4b57-b79f-e13425d6fb7c",
+      "imgUrl": null,
+      "en": {
+        "prompt": "A \"slow moving vehicle\" sign must be displayed on the rear of any vehicle that normally travels at speeds less than:",
+        "explanation": "Farm machinery, construction equipment and other vehicles that normally travel slower than 40 km/h must display the orange-and-red slow moving vehicle triangle on the rear. Key words: \"slow moving vehicle\", \"speeds less\".",
+        "choices": [
+          "70 km/h",
+          "50 km/h",
+          "40 km/h",
+          "60 km/h"
+        ]
+      },
+      "sourceHash": "e2e0245390258511c925f0855b5a7814",
+      "prompt": "Biển \"xe chạy chậm\" (slow moving vehicle) phải được gắn phía sau mọi xe thường chạy với tốc độ thấp hơn:",
+      "explanation": "Máy nông nghiệp, thiết bị xây dựng và các xe khác thường chạy chậm hơn 40 km/h phải gắn biển tam giác xe chạy chậm màu cam và đỏ ở phía sau. Từ khóa: \"xe chạy chậm\" (slow moving vehicle), \"tốc độ thấp hơn\" (speeds less).",
+      "choices": [
+        "70 km/h",
+        "50 km/h",
+        "40 km/h",
+        "60 km/h"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "ed251aeb-b3ba-4674-815b-9163a51f9e83",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Unless otherwise posted, what is the basic speed limit outside a city, town or village on a primary highway?",
+        "explanation": "100 km/h is the maximum speed limit on a provincial highway located outside an urban area in Alberta. (Refer to Driver's guide for car and light truck. Chap 2. p 27)",
+        "choices": [
+          "120 km/h",
+          "80 km/h",
+          "100 km/h",
+          "70 km/h"
+        ]
+      },
+      "sourceHash": "086da260a71477d12f1ec824a2a633db",
+      "prompt": "Nếu không có biển báo khác, giới hạn tốc độ cơ bản trên đường cao tốc chính bên ngoài thành phố, thị trấn hoặc làng là bao nhiêu?",
+      "explanation": "100 km/h là giới hạn tốc độ tối đa trên đường cao tốc của tỉnh nằm ngoài khu vực đô thị ở Alberta. (Xem Driver's Guide dành cho xe hơi và xe tải nhẹ, Chương 2, tr. 27)",
+      "choices": [
+        "120 km/h",
+        "80 km/h",
+        "100 km/h",
+        "70 km/h"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "97c45a92-e6cf-4de3-bde3-3eacf3f65d55",
+      "imgUrl": "https://adqvuag38e1wwvsm.public.blob.vercel-storage.com/questions/1766878907152-danger-goods-route.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "A green circle on a white sign means the action shown is permitted. This one, with a black diamond, marks a route that vehicles carrying dangerous goods may use. (Driver's Guide p. 29)",
+        "choices": [
+          "Dangerous goods route",
+          "Route for slow moving vehicles",
+          "Route for vehicles over 4500kg",
+          "Reserved lane for buses"
+        ]
+      },
+      "sourceHash": "da6496e4f0f538feb04d2acd37158e3d",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Vòng tròn xanh lá trên biển màu trắng nghĩa là hành động được thể hiện là được phép. Biển này, với hình thoi màu đen, đánh dấu tuyến đường mà xe chở hàng nguy hiểm được phép sử dụng. (Driver's Guide tr. 29)",
+      "choices": [
+        "Tuyến đường dành cho hàng nguy hiểm",
+        "Tuyến đường dành cho xe chạy chậm",
+        "Tuyến đường dành cho xe trên 4500 kg",
+        "Làn dành riêng cho xe buýt"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "165f6569-cc5a-4a43-9bc0-6c2e68131a3b",
+      "imgUrl": "/signs/wrong-way.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "A red WRONG WAY sign means you are travelling against oncoming traffic. Stop and turn around safely. (Driver's Guide p. 26)",
+        "choices": [
+          "Road closed ahead",
+          "No stopping",
+          "You are going the wrong way into oncoming traffic",
+          "Do not pass"
+        ]
+      },
+      "sourceHash": "f9fd9c63ac9a6bc6b447f119545a0aa5",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển màu đỏ WRONG WAY nghĩa là bạn đang chạy ngược chiều với dòng xe đối diện. Hãy dừng lại và quay đầu một cách an toàn. (Driver's Guide tr. 26)",
+      "choices": [
+        "Phía trước đường bị đóng",
+        "Cấm dừng xe",
+        "Bạn đang đi sai chiều, vào dòng xe ngược chiều",
+        "Cấm vượt"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "2290d760-c7c5-4d98-b2d5-f2af3e01a227",
+      "imgUrl": "/signs/do-not-enter.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "A white bar on a red circle means do not enter. It is often posted at the exit end of one-way roads and ramps. (Driver's Guide p. 26)",
+        "choices": [
+          "No stopping",
+          "Road closed for construction",
+          "Railway crossing",
+          "Do not enter"
+        ]
+      },
+      "sourceHash": "ef290708216dcb0cd66f7f1826cbed62",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Vạch trắng trên vòng tròn đỏ nghĩa là cấm đi vào (Do Not Enter). Biển này thường được đặt ở đầu ra của đường một chiều và đường nhánh. (Driver's Guide tr. 26)",
+      "choices": [
+        "Cấm dừng xe",
+        "Đường bị đóng để thi công",
+        "Chỗ giao cắt đường sắt",
+        "Cấm đi vào"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "4f2b5225-d9d3-476b-be24-4f7816040c43",
+      "imgUrl": "/signs/one-way.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "A white arrow on a black rectangle means traffic may only travel in the direction of the arrow. (Driver's Guide p. 27)",
+        "choices": [
+          "Right turn lane ahead",
+          "Detour to the right",
+          "Keep right of the divider",
+          "Proceed in the direction of the arrow only"
+        ]
+      },
+      "sourceHash": "5e40b80d18d633154665e9ebae3884b2",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Mũi tên trắng trên hình chữ nhật màu đen nghĩa là xe cộ chỉ được đi theo hướng mũi tên. (Driver's Guide tr. 27)",
+      "choices": [
+        "Phía trước có làn rẽ phải",
+        "Đường vòng sang bên phải",
+        "Đi về bên phải dải phân cách",
+        "Chỉ được đi theo hướng mũi tên"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "d6c3e90f-4a88-436f-8537-12d730811253",
+      "imgUrl": "/signs/keep-right.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "This sign is placed before a median or traffic island. Keep to the right of the divider. (Driver's Guide p. 27)",
+        "choices": [
+          "Winding road ahead",
+          "Right lane ends",
+          "Merge to the right",
+          "Divider ahead, keep right"
+        ]
+      },
+      "sourceHash": "4129fa726770598f9071615493cdb437",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển này được đặt trước dải phân cách hoặc đảo giao thông. Hãy đi về bên phải dải phân cách. (Driver's Guide tr. 27)",
+      "choices": [
+        "Phía trước là đường quanh co",
+        "Hết làn bên phải",
+        "Nhập làn sang bên phải",
+        "Phía trước có dải phân cách, đi về bên phải"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "af18a256-0656-4801-9572-09150f188b4c",
+      "imgUrl": "/signs/turn-left-only.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "A green circle on a white square means the action shown is permitted. Here, traffic must turn left. (Driver's Guide p. 29)",
+        "choices": [
+          "No left turn",
+          "Turn left only",
+          "Left turn on green arrow only",
+          "Sharp curve to the left"
+        ]
+      },
+      "sourceHash": "57cc23b8371e937e26ab011f0e9c0537",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Vòng tròn xanh lá trên biển vuông màu trắng nghĩa là hành động được thể hiện là được phép. Ở đây, xe cộ phải rẽ trái. (Driver's Guide tr. 29)",
+      "choices": [
+        "Cấm rẽ trái",
+        "Chỉ được rẽ trái",
+        "Chỉ rẽ trái khi có mũi tên xanh",
+        "Khúc cua gắt bên trái"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "f37282f3-86bd-4068-b997-a6199e3a5b46",
+      "imgUrl": "/signs/passing-permitted.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "A green circle around two vehicles means passing is permitted. Pass only when it is safe. (Driver's Guide p. 29)",
+        "choices": [
+          "Do not pass",
+          "Two-way traffic",
+          "Car pool lane",
+          "Passing permitted"
+        ]
+      },
+      "sourceHash": "2699cf427d8b3bea81de56cb050076d9",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Vòng tròn xanh lá bao quanh hình hai xe nghĩa là được phép vượt. Chỉ vượt khi an toàn. (Driver's Guide tr. 29)",
+      "choices": [
+        "Cấm vượt",
+        "Đường hai chiều",
+        "Làn dành cho xe đi chung (car pool)",
+        "Được phép vượt"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "8ad5d9a0-1fcf-4da6-bfea-e282c21801bd",
+      "imgUrl": "/signs/no-left-turn.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "A red circle and slash means the action inside is not permitted. This sign prohibits left turns. (Driver's Guide p. 29)",
+        "choices": [
+          "Turn left only",
+          "No U-turn",
+          "No left turn",
+          "Left lane ends"
+        ]
+      },
+      "sourceHash": "42421e0656b60c0384867bc2fded7f80",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Vòng tròn đỏ có gạch chéo nghĩa là hành động bên trong không được phép. Biển này cấm rẽ trái. (Driver's Guide tr. 29)",
+      "choices": [
+        "Chỉ được rẽ trái",
+        "Cấm quay đầu",
+        "Cấm rẽ trái",
+        "Hết làn bên trái"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "2a6816e3-4e27-4e40-bdd4-ff7886c06e3d",
+      "imgUrl": "/signs/no-right-turn.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "A red circle and slash over a right arrow means right turns are not permitted at this location. (Driver's Guide p. 29)",
+        "choices": [
+          "No right turn on red only",
+          "No right turn",
+          "Turn right only",
+          "Sharp turn right"
+        ]
+      },
+      "sourceHash": "ee7284ee752e6175df6197b9dd356566",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Vòng tròn đỏ có gạch chéo trên mũi tên rẽ phải nghĩa là không được rẽ phải tại vị trí này. (Driver's Guide tr. 29)",
+      "choices": [
+        "Chỉ cấm rẽ phải khi đèn đỏ",
+        "Cấm rẽ phải",
+        "Chỉ được rẽ phải",
+        "Rẽ phải gắt"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "b7ba8299-4946-4ee0-95fc-b494155f2790",
+      "imgUrl": "/signs/no-u-turn.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "A red circle and slash over a U-shaped arrow means U-turns are not permitted. (Driver's Guide p. 29)",
+        "choices": [
+          "No U-turn",
+          "No left turn",
+          "Turn around at the end of the road",
+          "Detour ahead"
+        ]
+      },
+      "sourceHash": "6d95f31e6aba61c7dee63fc1cb8d8482",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Vòng tròn đỏ có gạch chéo trên mũi tên hình chữ U nghĩa là không được quay đầu. (Driver's Guide tr. 29)",
+      "choices": [
+        "Cấm quay đầu",
+        "Cấm rẽ trái",
+        "Quay đầu ở cuối đường",
+        "Phía trước có đường vòng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "c3479905-70db-4c5a-a297-a64b959f8742",
+      "imgUrl": "/signs/do-not-pass-bicycles.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "This prohibitive sign means you must not pass cyclists on this section of road. (Driver's Guide p. 29)",
+        "choices": [
+          "Bicycles not allowed",
+          "Bicycle lane ahead",
+          "Share the road with bicycles",
+          "Do not pass bicycles"
+        ]
+      },
+      "sourceHash": "8194259a4970c3151b3ff476e387fdef",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển cấm này nghĩa là bạn không được vượt người đi xe đạp trên đoạn đường này. (Driver's Guide tr. 29)",
+      "choices": [
+        "Cấm xe đạp",
+        "Phía trước có làn xe đạp",
+        "Chia sẻ đường với xe đạp",
+        "Cấm vượt xe đạp"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "5dd0c1b1-cca3-4adc-b1da-0794998905a1",
+      "imgUrl": "/signs/no-trucks.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "A red circle and slash over a truck means trucks are not permitted on this road. (Driver's Guide p. 30)",
+        "choices": [
+          "Truck route",
+          "Trucks entering the road",
+          "Steep hill, trucks use low gear",
+          "No trucks"
+        ]
+      },
+      "sourceHash": "d490f8fc454ca8c2a7add92f47f576ed",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Vòng tròn đỏ có gạch chéo trên hình xe tải nghĩa là xe tải không được phép đi trên con đường này. (Driver's Guide tr. 30)",
+      "choices": [
+        "Tuyến đường dành cho xe tải",
+        "Xe tải đang đi vào đường",
+        "Dốc cao, xe tải dùng số thấp",
+        "Cấm xe tải"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "227038d4-4983-4212-917b-4b013cdc7e01",
+      "imgUrl": "/signs/no-dangerous-goods.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "A red circle and slash over a black diamond means vehicles carrying dangerous goods are not permitted. A green circle with the diamond marks a dangerous goods route. (Driver's Guide pp. 29–30)",
+        "choices": [
+          "Dangerous goods route",
+          "Reserved lane ends",
+          "No vehicles carrying dangerous goods",
+          "No parking on the median"
+        ]
+      },
+      "sourceHash": "6a10422f42c34e261e2fd7a15d55d3f9",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Vòng tròn đỏ có gạch chéo trên hình thoi màu đen nghĩa là xe chở hàng nguy hiểm không được phép đi. Vòng tròn xanh lá với hình thoi đánh dấu tuyến đường dành cho hàng nguy hiểm. (Driver's Guide tr. 29–30)",
+      "choices": [
+        "Tuyến đường dành cho hàng nguy hiểm",
+        "Hết làn dành riêng",
+        "Cấm xe chở hàng nguy hiểm",
+        "Cấm đậu xe trên dải phân cách"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "64371485-ba05-471b-8cce-6431bc3f34d8",
+      "imgUrl": "/signs/no-parking.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "A red circle and slash over a P means parking is not permitted. An arrow under the symbol shows where the rule applies. (Driver's Guide p. 30)",
+        "choices": [
+          "No stopping",
+          "Parking permitted",
+          "Parking for persons with disabilities only",
+          "No parking"
+        ]
+      },
+      "sourceHash": "fbde72a6d072ab27d920395f04ba3e4a",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Vòng tròn đỏ có gạch chéo trên chữ P nghĩa là không được đậu xe. Mũi tên bên dưới ký hiệu cho biết nơi áp dụng quy định. (Driver's Guide tr. 30)",
+      "choices": [
+        "Cấm dừng xe",
+        "Được phép đậu xe",
+        "Chỉ dành cho người khuyết tật đậu xe",
+        "Cấm đậu xe"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "e104f233-493d-4620-8c7d-28d8961639fc",
+      "imgUrl": "/signs/no-stopping.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "A red circle and slash over a stop-sign shape means stopping is not permitted, not even briefly to drop off passengers. (Driver's Guide p. 30)",
+        "choices": [
+          "No parking",
+          "Stop sign removed",
+          "Do not enter",
+          "No stopping"
+        ]
+      },
+      "sourceHash": "a2bcfece315df814e0672b63f705ffc5",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Vòng tròn đỏ có gạch chéo trên hình biển báo dừng nghĩa là không được dừng xe, kể cả dừng chốc lát để cho hành khách xuống. (Driver's Guide tr. 30)",
+      "choices": [
+        "Cấm đậu xe",
+        "Biển báo dừng đã được gỡ bỏ",
+        "Cấm đi vào",
+        "Cấm dừng xe"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "fe07a998-d8e0-4deb-bca3-13ca854cc68b",
+      "imgUrl": "/signs/school-zone.png",
+      "en": {
+        "prompt": "You see this sign with no speed limit sign attached to it. What does it mean?",
+        "explanation": "A school sign without a speed sign marks a school area. Children may be walking or crossing, so use caution. With a speed sign attached, it is a school zone. (Driver's Guide p. 31)",
+        "choices": [
+          "A school area: use caution, as children may be walking or crossing",
+          "A school zone: the speed limit is 30 km/h",
+          "A school crosswalk: you must stop",
+          "A school bus stop ahead"
+        ]
+      },
+      "sourceHash": "4911cbfc04d1fa3a09ffb964947d8d7b",
+      "prompt": "Bạn thấy biển này mà không có biển giới hạn tốc độ đi kèm. Biển này có nghĩa là gì?",
+      "explanation": "Biển trường học không có biển tốc độ đi kèm đánh dấu khu vực có trường học (school area). Trẻ em có thể đang đi bộ hoặc qua đường, vì vậy hãy thận trọng. Nếu có biển tốc độ đi kèm, đó là khu vực trường học có giới hạn tốc độ (school zone). (Driver's Guide tr. 31)",
+      "choices": [
+        "Khu vực có trường học: hãy thận trọng, vì trẻ em có thể đang đi bộ hoặc qua đường",
+        "Khu vực trường học: giới hạn tốc độ là 30 km/h",
+        "Lối qua đường dành cho học sinh: bạn phải dừng lại",
+        "Phía trước có trạm dừng xe buýt trường học"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "28e8e02c-7cfa-4ef2-9900-6ea88c7f1bc4",
+      "imgUrl": "/signs/school-zone.png",
+      "en": {
+        "prompt": "This sign has a 30 km/h speed sign attached. When is the 30 km/h limit in effect, unless other times are posted?",
+        "explanation": "This is a school zone. Unless other times are posted, it is in effect on school days from 8:00 to 9:30 a.m., 11:30 a.m. to 1:30 p.m., and 3:00 to 4:30 p.m. (Driver's Guide p. 30)",
+        "choices": [
+          "Every day from 8:30 a.m. to one hour after sunset",
+          "On school days, 8:00–9:30 a.m., 11:30 a.m.–1:30 p.m., and 3:00–4:30 p.m.",
+          "At all times, every day of the year",
+          "Only when children are visible"
+        ]
+      },
+      "sourceHash": "c85afd240262020d42e679b70e7b0993",
+      "prompt": "Biển này có gắn kèm biển tốc độ 30 km/h. Giới hạn 30 km/h áp dụng khi nào, nếu không có khung giờ khác được ghi?",
+      "explanation": "Đây là khu vực trường học (school zone). Nếu không có khung giờ khác được ghi, giới hạn áp dụng vào các ngày đi học từ 8:00 đến 9:30 sáng, 11:30 sáng đến 1:30 chiều, và 3:00 đến 4:30 chiều. (Driver's Guide tr. 30)",
+      "choices": [
+        "Mỗi ngày từ 8:30 sáng đến một giờ sau khi mặt trời lặn",
+        "Vào các ngày đi học, 8:00–9:30 sáng, 11:30 sáng–1:30 chiều, và 3:00–4:30 chiều",
+        "Mọi lúc, mọi ngày trong năm",
+        "Chỉ khi nhìn thấy trẻ em"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "abe3276b-5794-44ec-aea3-00b4ccc08755",
+      "imgUrl": "/signs/playground.png",
+      "en": {
+        "prompt": "This sign has a speed sign attached. When is the playground zone speed limit in effect, unless other times are posted?",
+        "explanation": "Playground zone restrictions are in effect every day from 8:30 a.m. to one hour after sunset, unless other times are posted. (Driver's Guide p. 31)",
+        "choices": [
+          "On school days only, 8:00 a.m. to 4:30 p.m.",
+          "Every day from 8:30 a.m. to one hour after sunset",
+          "Only on weekends and holidays",
+          "Only when children are present"
+        ]
+      },
+      "sourceHash": "54d2dd48eb37234ba77b551a687443cb",
+      "prompt": "Biển này có gắn kèm biển tốc độ. Giới hạn tốc độ trong khu vực sân chơi (playground zone) áp dụng khi nào, nếu không có khung giờ khác được ghi?",
+      "explanation": "Quy định trong khu vực sân chơi áp dụng mỗi ngày từ 8:30 sáng đến một giờ sau khi mặt trời lặn, nếu không có khung giờ khác được ghi. (Driver's Guide tr. 31)",
+      "choices": [
+        "Chỉ vào các ngày đi học, 8:00 sáng đến 4:30 chiều",
+        "Mỗi ngày từ 8:30 sáng đến một giờ sau khi mặt trời lặn",
+        "Chỉ vào cuối tuần và ngày lễ",
+        "Chỉ khi có trẻ em"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "f2418925-4834-4b04-ae4f-3761758fe47c",
+      "imgUrl": "/signs/playground.png",
+      "en": {
+        "prompt": "May you pass another vehicle travelling in the same direction in a zone marked by this sign and a speed limit sign, while the zone is in effect?",
+        "explanation": "You must not pass or attempt to pass another vehicle travelling in the same direction within a playground zone when the speed restriction is in effect. The same rule applies in school zones. (Driver's Guide p. 31)",
+        "choices": [
+          "No, passing is not permitted",
+          "Yes, if the vehicle ahead is going below 30 km/h",
+          "Yes, if no children are visible",
+          "Yes, on a multi-lane road"
+        ]
+      },
+      "sourceHash": "07106739198a129a9fa605de6ed615e6",
+      "prompt": "Trong khu vực có biển này và biển giới hạn tốc độ, khi quy định đang áp dụng, bạn có được vượt xe khác đang đi cùng chiều không?",
+      "explanation": "Bạn không được vượt hoặc cố vượt xe khác đang đi cùng chiều trong khu vực sân chơi khi giới hạn tốc độ đang áp dụng. Quy định tương tự cũng áp dụng trong khu vực trường học. (Driver's Guide tr. 31)",
+      "choices": [
+        "Không, không được phép vượt",
+        "Có, nếu xe phía trước chạy dưới 30 km/h",
+        "Có, nếu không thấy trẻ em",
+        "Có, trên đường nhiều làn"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "16326737-c2fd-40c4-9831-a0b6181b5a30",
+      "imgUrl": "/signs/stop-ahead.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "This warning sign tells you a stop sign is ahead, often where it is hidden by a curve or hill. Be ready to stop. (Driver's Guide p. 33)",
+        "choices": [
+          "Yield sign ahead",
+          "Stop sign ahead",
+          "Do not enter ahead",
+          "Construction zone ahead"
+        ]
+      },
+      "sourceHash": "18a09741913efcd5a40e5b85bebf48cb",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển cảnh báo này cho biết phía trước có biển báo dừng, thường ở chỗ biển bị khuất sau khúc cua hoặc đỉnh dốc. Hãy sẵn sàng dừng lại. (Driver's Guide tr. 33)",
+      "choices": [
+        "Phía trước có biển nhường đường",
+        "Phía trước có biển báo dừng",
+        "Phía trước có biển cấm đi vào",
+        "Phía trước là khu vực thi công"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "76670c68-791b-4c89-85c4-e62e4d4c6350",
+      "imgUrl": "/signs/signals-ahead.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "This warning sign tells you there are traffic control signals ahead. (Driver's Guide p. 33)",
+        "choices": [
+          "Railway crossing signals ahead",
+          "Pedestrian-activated signals only",
+          "Traffic control signals ahead",
+          "Signals are not working"
+        ]
+      },
+      "sourceHash": "4fea8e9175f2bb4c87b1939d2a27c134",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển cảnh báo này cho biết phía trước có đèn tín hiệu giao thông. (Driver's Guide tr. 33)",
+      "choices": [
+        "Phía trước có đèn tín hiệu đường sắt",
+        "Chỉ có đèn do người đi bộ bấm",
+        "Phía trước có đèn tín hiệu giao thông",
+        "Đèn tín hiệu không hoạt động"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "015a8b9e-5d31-4286-973a-3f96d783e1b1",
+      "imgUrl": "/signs/signals-prepare-to-stop.png",
+      "en": {
+        "prompt": "The yellow lights on this sign are flashing. What should you do?",
+        "explanation": "When the yellow lights flash, prepare to stop: the traffic signal ahead is turning from green to yellow or yellow to red, or is already red. (Driver's Guide p. 33)",
+        "choices": [
+          "Prepare to stop, because the signal ahead is changing or is red",
+          "Speed up to get through before the light changes",
+          "Proceed with caution; the signal ahead is flashing yellow",
+          "Stop at the sign, then proceed"
+        ]
+      },
+      "sourceHash": "34a22ca336c00bd3284eb942cc93dbb8",
+      "prompt": "Đèn vàng trên biển này đang nhấp nháy. Bạn nên làm gì?",
+      "explanation": "Khi đèn vàng nhấp nháy, hãy chuẩn bị dừng lại: đèn tín hiệu phía trước đang chuyển từ xanh sang vàng hoặc từ vàng sang đỏ, hoặc đã là đèn đỏ. (Driver's Guide tr. 33)",
+      "choices": [
+        "Chuẩn bị dừng lại, vì đèn tín hiệu phía trước đang chuyển hoặc đang đỏ",
+        "Tăng tốc để đi qua trước khi đèn chuyển",
+        "Đi tiếp thận trọng; đèn tín hiệu phía trước đang nhấp nháy vàng",
+        "Dừng lại tại biển, rồi đi tiếp"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "03c606d4-e18b-41b5-8179-a0b608daac53",
+      "imgUrl": "/signs/sharp-turn-right.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "A right-angle arrow warns of a sharp turn to the right. A bent, curved arrow means a gentler curve. Slow down before the turn. (Driver's Guide p. 33)",
+        "choices": [
+          "Right turn only",
+          "Detour to the right",
+          "Sharp turn right ahead",
+          "Side road on the right"
+        ]
+      },
+      "sourceHash": "88836f0d0c3a3f8c231ee1b1edb59ad9",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Mũi tên gấp góc vuông cảnh báo khúc rẽ gắt sang phải. Mũi tên uốn cong nghĩa là khúc cua thoai thoải hơn. Hãy giảm tốc trước khi đến chỗ rẽ. (Driver's Guide tr. 33)",
+      "choices": [
+        "Chỉ được rẽ phải",
+        "Đường vòng sang bên phải",
+        "Phía trước có khúc rẽ gắt bên phải",
+        "Đường nhánh bên phải"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "f80ca7c5-ba66-430a-b84f-4cc835479f44",
+      "imgUrl": "/signs/deer-crossing.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "This sign warns that animals such as deer often cross here. Watch the ditches, especially at dusk and dawn. (Driver's Guide pp. 34, 84)",
+        "choices": [
+          "Animal crossing",
+          "Hunting area",
+          "Wildlife park ahead",
+          "Livestock on the road"
+        ]
+      },
+      "sourceHash": "fb6d06b8944c62a34f3e82df9f839136",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển này cảnh báo các loài thú như hươu nai thường băng qua đường ở đây. Hãy quan sát hai bên rãnh đường, nhất là lúc chạng vạng và bình minh. (Driver's Guide tr. 34, 84)",
+      "choices": [
+        "Thú vật băng qua đường",
+        "Khu vực săn bắn",
+        "Phía trước có công viên động vật hoang dã",
+        "Gia súc trên đường"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "59bfde72-376f-4d47-b611-c55176de46e6",
+      "imgUrl": "/signs/bicycle-crossing.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "A bicycle on a yellow diamond warns that cyclists may cross the road ahead. (Driver's Guide p. 34)",
+        "choices": [
+          "Bicycle lane only",
+          "No bicycles",
+          "Bicycle route marker",
+          "Bicycle crossing ahead"
+        ]
+      },
+      "sourceHash": "63f233c6703688543524f6a307b4bc4f",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Hình xe đạp trên biển hình thoi màu vàng cảnh báo người đi xe đạp có thể băng qua đường phía trước. (Driver's Guide tr. 34)",
+      "choices": [
+        "Chỉ dành cho làn xe đạp",
+        "Cấm xe đạp",
+        "Biển chỉ tuyến đường xe đạp",
+        "Phía trước có chỗ xe đạp băng qua đường"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "b1211e18-6057-44f3-b96b-8681b0cfe487",
+      "imgUrl": "/signs/snowmobile-crossing.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "This sign warns that motorized snow vehicles (snowmobiles) may cross the road ahead. (Driver's Guide p. 34)",
+        "choices": [
+          "Snow plough ahead",
+          "Motorized snow vehicles crossing",
+          "No motorized snow vehicles",
+          "Icy road ahead"
+        ]
+      },
+      "sourceHash": "37fb8332f6c180ff64ec80c7f3c09396",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển này cảnh báo xe trượt tuyết có động cơ (snowmobile) có thể băng qua đường phía trước. (Driver's Guide tr. 34)",
+      "choices": [
+        "Phía trước có xe ủi tuyết",
+        "Xe trượt tuyết có động cơ băng qua đường",
+        "Cấm xe trượt tuyết có động cơ",
+        "Phía trước đường đóng băng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "167e53b7-e214-4489-848c-77fd58926293",
+      "imgUrl": "/signs/side-road-right.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "This sign warns of a side road (which may be hidden) joining from the right. Watch for vehicles entering. (Driver's Guide p. 34)",
+        "choices": [
+          "Side road on the right ahead",
+          "Sharp turn right",
+          "Right lane ends",
+          "T intersection ahead"
+        ]
+      },
+      "sourceHash": "ecc6293fc5faea7ea9201aaf054f56e5",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển này cảnh báo có đường nhánh (có thể bị khuất) nhập vào từ bên phải. Hãy chú ý xe đang đi vào. (Driver's Guide tr. 34)",
+      "choices": [
+        "Phía trước có đường nhánh bên phải",
+        "Rẽ phải gắt",
+        "Hết làn bên phải",
+        "Phía trước là giao lộ chữ T"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "d529ccf1-fd3c-441c-992d-2b66b1b522af",
+      "imgUrl": "/signs/y-intersection.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "This sign warns that the road ahead splits into a Y intersection. (Driver's Guide p. 34)",
+        "choices": [
+          "Y intersection ahead",
+          "Divided highway begins",
+          "Merging traffic",
+          "Road narrows"
+        ]
+      },
+      "sourceHash": "51e5a6562b817674483ec031c464f2c8",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển này cảnh báo con đường phía trước tách ra thành giao lộ chữ Y. (Driver's Guide tr. 34)",
+      "choices": [
+        "Phía trước là giao lộ chữ Y",
+        "Bắt đầu đường có dải phân cách",
+        "Xe nhập làn",
+        "Đường hẹp lại"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "39e55cc1-aa9a-4114-b14e-bbb577b6b232",
+      "imgUrl": "/signs/t-intersection.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "This sign warns that the road ends at a T intersection. You will have to turn left or right. (Driver's Guide p. 34)",
+        "choices": [
+          "Side road on the right",
+          "T intersection ahead",
+          "Hospital ahead",
+          "Dead end"
+        ]
+      },
+      "sourceHash": "0d3a474fce461741e883fc78e8ee91fe",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển này cảnh báo con đường kết thúc tại giao lộ chữ T. Bạn sẽ phải rẽ trái hoặc rẽ phải. (Driver's Guide tr. 34)",
+      "choices": [
+        "Đường nhánh bên phải",
+        "Phía trước là giao lộ chữ T",
+        "Phía trước có bệnh viện",
+        "Đường cụt"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "657adbcd-c321-4afb-b3ed-3359556ce1c7",
+      "imgUrl": "/signs/roundabout-ahead.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "This sign warns of a roundabout ahead. Slow down, yield to traffic already in the roundabout, and travel counterclockwise. (Driver's Guide pp. 34, 61)",
+        "choices": [
+          "U-turns permitted",
+          "Detour ahead",
+          "Roundabout ahead",
+          "Recycling depot"
+        ]
+      },
+      "sourceHash": "f5a91143f78e3befe57ea1e5c58addac",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển này cảnh báo phía trước có vòng xuyến. Hãy giảm tốc, nhường xe đã ở trong vòng xuyến, và đi theo ngược chiều kim đồng hồ. (Driver's Guide tr. 34, 61)",
+      "choices": [
+        "Được phép quay đầu",
+        "Phía trước có đường vòng",
+        "Phía trước có vòng xuyến",
+        "Điểm thu gom tái chế"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "97dea1cd-b432-44be-b34f-77d220f5aa16",
+      "imgUrl": "/signs/trucks-entering-right.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "This sign warns that trucks may enter the road from the right. Be ready to slow down. (Driver's Guide p. 34)",
+        "choices": [
+          "Truck route",
+          "Trucks entering from the right",
+          "No trucks",
+          "Truck weigh station ahead"
+        ]
+      },
+      "sourceHash": "085034ab2594a5bbb3ba94616ac7f365",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển này cảnh báo xe tải có thể đi vào đường từ bên phải. Hãy sẵn sàng giảm tốc. (Driver's Guide tr. 34)",
+      "choices": [
+        "Tuyến đường dành cho xe tải",
+        "Xe tải đi vào từ bên phải",
+        "Cấm xe tải",
+        "Phía trước có trạm cân xe tải"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "3e9990f5-14e1-4be0-990a-6790750e0dff",
+      "imgUrl": "/signs/added-lane.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "Roads join side-by-side but do not merge: the entering traffic gets its own lane (free flow). Neither lane needs to merge. (Driver's Guide p. 34)",
+        "choices": [
+          "Added lane (free flow): traffic enters its own lane",
+          "Merging traffic",
+          "Right lane ends",
+          "Divided highway begins"
+        ]
+      },
+      "sourceHash": "17e79b39aee197d7fa23ca1865740297",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Hai con đường nhập song song nhưng không phải nhập làn: xe đi vào có làn riêng của mình (lưu thông tự do, free flow). Không làn nào phải nhập làn. (Driver's Guide tr. 34)",
+      "choices": [
+        "Thêm làn (lưu thông tự do): xe đi vào có làn riêng",
+        "Xe nhập làn",
+        "Hết làn bên phải",
+        "Bắt đầu đường có dải phân cách"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "b0da0124-0ed0-452b-b9b5-c528219605eb",
+      "imgUrl": "/signs/right-lane-ends.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "The right lane ends ahead. Drivers in it must merge left when it is safe, and drivers in the left lane should let them in. (Driver's Guide p. 35)",
+        "choices": [
+          "Road narrows on both sides",
+          "Added lane on the right",
+          "Passing lane begins",
+          "Right lane ends"
+        ]
+      },
+      "sourceHash": "bc6eb27acafb11a2d7e30561445cda5f",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Làn bên phải kết thúc ở phía trước. Tài xế trong làn này phải nhập sang trái khi an toàn, và tài xế ở làn trái nên nhường cho họ vào. (Driver's Guide tr. 35)",
+      "choices": [
+        "Đường hẹp lại cả hai bên",
+        "Thêm làn bên phải",
+        "Bắt đầu làn vượt",
+        "Hết làn bên phải"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "ed5ab6a7-ca29-4792-a598-3b2dce4608f8",
+      "imgUrl": "/signs/road-narrows-both.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "Both edges of the road move in ahead, so the road becomes narrower on both sides. (Driver's Guide p. 35)",
+        "choices": [
+          "Narrow passage (bridge)",
+          "Divided highway ends",
+          "Road narrows on both sides",
+          "Right lane ends"
+        ]
+      },
+      "sourceHash": "a4bbe019deabdfb9b261270382891668",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Cả hai mép đường thu hẹp vào phía trước, nên đường trở nên hẹp hơn ở cả hai bên. (Driver's Guide tr. 35)",
+      "choices": [
+        "Lối đi hẹp (cầu)",
+        "Hết đường có dải phân cách",
+        "Đường hẹp lại cả hai bên",
+        "Hết làn bên phải"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "d032a376-518e-4ba4-a97b-187dbb18ee22",
+      "imgUrl": "/signs/narrow-passage.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "This sign warns of a narrow passage, such as a narrow bridge, that may be only wide enough for one vehicle. (Driver's Guide p. 35)",
+        "choices": [
+          "Divided highway begins",
+          "Two-way traffic",
+          "Road narrows on the left",
+          "Narrow passage"
+        ]
+      },
+      "sourceHash": "d1f132e833cb6784482a0511ad149212",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển này cảnh báo có lối đi hẹp, như cầu hẹp, có thể chỉ đủ rộng cho một xe. (Driver's Guide tr. 35)",
+      "choices": [
+        "Bắt đầu đường có dải phân cách",
+        "Đường hai chiều",
+        "Đường hẹp lại bên trái",
+        "Lối đi hẹp"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "79928f28-e34e-4929-ab11-bf8c37e78d9f",
+      "imgUrl": "/signs/divided-highway-ends.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "The median ends ahead and traffic will travel in both directions on an undivided road. Keep right. (Driver's Guide p. 35)",
+        "choices": [
+          "Divided highway begins",
+          "Divided highway ends",
+          "Keep right of the divider",
+          "Two-way left turn lane"
+        ]
+      },
+      "sourceHash": "5e6ceab8e64ab3a433bbbaed2be65851",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Dải phân cách kết thúc ở phía trước và xe cộ sẽ chạy theo cả hai chiều trên đường không có dải phân cách. Hãy đi về bên phải. (Driver's Guide tr. 35)",
+      "choices": [
+        "Bắt đầu đường có dải phân cách",
+        "Hết đường có dải phân cách",
+        "Đi về bên phải dải phân cách",
+        "Làn rẽ trái hai chiều"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "4468f598-224d-4899-a822-ebf37695c19d",
+      "imgUrl": "/signs/hill.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "This sign warns of a steep hill. Check your speed, and with a manual transmission, shift to a lower gear to avoid overheating the brakes. (Driver's Guide pp. 35, 76)",
+        "choices": [
+          "Steep hill ahead",
+          "Trucks entering the road",
+          "Falling rock",
+          "Runaway lane"
+        ]
+      },
+      "sourceHash": "6d60be347390c09e82ef0c6ac8bde9fe",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển này cảnh báo có dốc cao. Hãy kiểm tra tốc độ, và với xe số sàn, hãy chuyển sang số thấp hơn để tránh phanh bị quá nóng. (Driver's Guide tr. 35, 76)",
+      "choices": [
+        "Phía trước có dốc cao",
+        "Xe tải đang đi vào đường",
+        "Đá lở",
+        "Làn thoát hiểm"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "40840884-b7d2-4b19-9166-7d29543d8ba0",
+      "imgUrl": "/signs/pavement-ends.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "The paved surface ends ahead and the road continues as gravel or dirt. Slow down before you reach it. (Driver's Guide p. 35)",
+        "choices": [
+          "Bump ahead",
+          "Construction zone",
+          "Pavement ends",
+          "Lane markings end"
+        ]
+      },
+      "sourceHash": "5835ffb9971cf2a527fdd9a7b5655509",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Mặt đường nhựa kết thúc ở phía trước và con đường tiếp tục là đường sỏi hoặc đường đất. Hãy giảm tốc trước khi đến đó. (Driver's Guide tr. 35)",
+      "choices": [
+        "Phía trước có gờ",
+        "Khu vực thi công",
+        "Hết mặt đường nhựa",
+        "Hết vạch kẻ làn"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "438f0f55-b126-4e39-b6c2-272ac8a846a7",
+      "imgUrl": "/signs/rumble-strips.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "This sign warns of rumble strips ahead: grooves in the pavement that make noise and vibration to alert drivers. (Driver's Guide p. 35)",
+        "choices": [
+          "Railway crossing",
+          "Pedestrian crosswalk",
+          "Rumble strips ahead",
+          "Bridge ices before road"
+        ]
+      },
+      "sourceHash": "f4433da28bfd54d5ef6892eb25579d99",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển này cảnh báo phía trước có dải rung (rumble strips): các rãnh trên mặt đường tạo ra tiếng ồn và độ rung để cảnh báo tài xế. (Driver's Guide tr. 35)",
+      "choices": [
+        "Chỗ giao cắt đường sắt",
+        "Lối qua đường cho người đi bộ",
+        "Phía trước có dải rung",
+        "Cầu đóng băng trước mặt đường"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "95344666-79bb-4e4f-a8e2-cf235c822e21",
+      "imgUrl": "/signs/chevron.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "A chevron sign marks a sharp bend in the road and points in the direction of the turn. (Driver's Guide p. 35)",
+        "choices": [
+          "Keep right",
+          "Passing lane ahead",
+          "A sharp bend in the direction shown",
+          "One way to the right"
+        ]
+      },
+      "sourceHash": "1e29d067d09e2ba65ac3841c41f9e46e",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển hình mũi tên chữ V (chevron) đánh dấu khúc cua gắt trên đường và chỉ theo hướng của khúc cua. (Driver's Guide tr. 35)",
+      "choices": [
+        "Đi về bên phải",
+        "Phía trước có làn vượt",
+        "Khúc cua gắt theo hướng được chỉ",
+        "Đường một chiều sang phải"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "9b3251b6-c04d-4071-a5c9-9981169acf62",
+      "imgUrl": "/signs/single-file.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "This sign warns that cyclists may use the full lane ahead, and the lane is too narrow for a vehicle and bicycle to travel side by side. (Driver's Guide p. 35)",
+        "choices": [
+          "Cyclists may use the full lane, which is too narrow to share side by side",
+          "Bicycle lane: vehicles prohibited",
+          "Pass cyclists on the right",
+          "Bicycle crossing ahead"
+        ]
+      },
+      "sourceHash": "a0425ded01da5b0f2673ae8cef2a4774",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển này cảnh báo người đi xe đạp có thể dùng toàn bộ làn đường phía trước, và làn quá hẹp để xe hơi và xe đạp đi song song với nhau. (Driver's Guide tr. 35)",
+      "choices": [
+        "Người đi xe đạp có thể dùng toàn bộ làn, vì làn quá hẹp để đi song song",
+        "Làn xe đạp: cấm xe cơ giới",
+        "Vượt người đi xe đạp ở bên phải",
+        "Phía trước có chỗ xe đạp băng qua đường"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "6f2689a9-5b86-4d11-8a39-b82bfb7ac05a",
+      "imgUrl": "/signs/flag-person.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "This orange construction sign warns of a flag person ahead. Obey the flag person's signals and be ready to stop. (Driver's Guide p. 37)",
+        "choices": [
+          "People working ahead",
+          "Flag person ahead",
+          "School crossing guard",
+          "Police check stop"
+        ]
+      },
+      "sourceHash": "fec0b9ddf981a3ffedaa7810881d2903",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển thi công màu cam này cảnh báo phía trước có người cầm cờ điều khiển giao thông. Hãy tuân theo hiệu lệnh của người cầm cờ và sẵn sàng dừng lại. (Driver's Guide tr. 37)",
+      "choices": [
+        "Phía trước có người đang làm việc",
+        "Phía trước có người cầm cờ",
+        "Người hướng dẫn học sinh qua đường",
+        "Trạm kiểm tra của cảnh sát"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "3ad68986-b580-4234-9386-547c5b21f7cf",
+      "imgUrl": "/signs/survey-crew.png",
+      "en": {
+        "prompt": "This sign indicates:",
+        "explanation": "This orange construction sign warns that a survey crew is working ahead. Slow down and watch for workers. (Driver's Guide p. 37)",
+        "choices": [
+          "Flag person ahead",
+          "Photo radar ahead",
+          "Uneven pavement",
+          "Survey crew ahead"
+        ]
+      },
+      "sourceHash": "ce0c426a5abc8d26aebbe86e6ee5ab4c",
+      "prompt": "Biển báo này có nghĩa là:",
+      "explanation": "Biển thi công màu cam này cảnh báo phía trước có đội khảo sát đang làm việc. Hãy giảm tốc và chú ý công nhân. (Driver's Guide tr. 37)",
+      "choices": [
+        "Phía trước có người cầm cờ",
+        "Phía trước có camera bắn tốc độ (photo radar)",
+        "Mặt đường không bằng phẳng",
+        "Phía trước có đội khảo sát"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "618dffe9-6656-44fe-95f9-a286b9d5a4b1",
+      "imgUrl": null,
+      "en": {
+        "prompt": "What shape and colour is a sign that marks a school zone or school area?",
+        "explanation": "School zone and school area signs are pentagon-shaped with a fluorescent yellow-green background. (Driver's Guide p. 25)",
+        "choices": [
+          "A yellow diamond",
+          "An orange diamond",
+          "A fluorescent yellow-green pentagon",
+          "A white rectangle"
+        ]
+      },
+      "sourceHash": "1cca17ab91a65f21ed429f314ce88817",
+      "prompt": "Biển đánh dấu khu vực trường học hoặc khu vực có trường học có hình dạng và màu sắc như thế nào?",
+      "explanation": "Biển khu vực trường học và khu vực có trường học có hình ngũ giác với nền màu vàng chanh huỳnh quang. (Driver's Guide tr. 25)",
+      "choices": [
+        "Hình thoi màu vàng",
+        "Hình thoi màu cam",
+        "Hình ngũ giác màu vàng chanh huỳnh quang",
+        "Hình chữ nhật màu trắng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "60ba4ad1-9314-4944-8ab2-148819a76656",
+      "imgUrl": null,
+      "en": {
+        "prompt": "What colour background do signs giving construction area information have?",
+        "explanation": "Construction signs show information or pictures on an orange background, in a diamond shape. (Driver's Guide p. 25)",
+        "choices": [
+          "Yellow",
+          "Orange",
+          "Green",
+          "Blue"
+        ]
+      },
+      "sourceHash": "c99e01b2d29bc462bd80aa7b76ce2084",
+      "prompt": "Biển báo cung cấp thông tin về khu vực thi công có nền màu gì?",
+      "explanation": "Biển thi công thể hiện thông tin hoặc hình ảnh trên nền màu cam, có dạng hình thoi. (Driver's Guide tr. 25)",
+      "choices": [
+        "Vàng",
+        "Cam",
+        "Xanh lá",
+        "Xanh dương"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "0d79e348-a6d5-498c-a123-8083067cd099",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Signs on a blue background usually show:",
+        "explanation": "White messages on blue square signs show places for fuel, food, lodging, or assistance. Green signs give distances and destinations. (Driver's Guide p. 26)",
+        "choices": [
+          "Distances to destinations",
+          "Services such as fuel, food, lodging, or assistance",
+          "Construction information",
+          "Warnings of hazards ahead"
+        ]
+      },
+      "sourceHash": "898eb17b11f41eb5aee1d50fd6da473e",
+      "prompt": "Biển báo có nền màu xanh dương thường cho biết:",
+      "explanation": "Chữ trắng trên biển vuông màu xanh dương chỉ những nơi có nhiên liệu, đồ ăn, chỗ nghỉ hoặc hỗ trợ. Biển màu xanh lá cho biết khoảng cách và điểm đến. (Driver's Guide tr. 26)",
+      "choices": [
+        "Khoảng cách đến các điểm đến",
+        "Các dịch vụ như nhiên liệu, đồ ăn, chỗ nghỉ hoặc hỗ trợ",
+        "Thông tin thi công",
+        "Cảnh báo nguy hiểm phía trước"
+      ],
+      "status": "approved"
+    }
+  ]
+}

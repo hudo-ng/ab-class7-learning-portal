@@ -1,0 +1,844 @@
+{
+  "questions": [
+    {
+      "id": "dd69ce06-acdb-411e-bc64-44a132199455",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Shoulder checking means:",
+        "explanation": "Mirrors leave blind spots beside and behind your vehicle. A shoulder check is a quick look over your shoulder into the blind spot on the side you are moving toward. Key words: \"in the direction\".",
+        "choices": [
+          "Glancing towards the blind spot in the direction the driver intends to move",
+          "Glancing into the left outside mirror",
+          "Glancing into both the inside and outside mirrors",
+          "Glancing into the right outside mirror"
+        ]
+      },
+      "sourceHash": "64fbbe2840c45a28f49379230d8c7c11",
+      "prompt": "Quay đầu kiểm tra (shoulder check) có nghĩa là:",
+      "explanation": "Gương chiếu hậu để lại các điểm mù (blind spot) bên cạnh và phía sau xe. Quay đầu kiểm tra là nhìn nhanh qua vai vào điểm mù ở phía bạn định di chuyển tới. Từ khóa: \"theo hướng\".",
+      "choices": [
+        "Liếc nhìn về phía điểm mù theo hướng tài xế định di chuyển",
+        "Liếc nhìn vào gương chiếu hậu bên trái",
+        "Liếc nhìn vào cả gương chiếu hậu trong xe và gương bên ngoài",
+        "Liếc nhìn vào gương chiếu hậu bên phải"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "cf1c28b4-a24c-405b-81c1-14cba6da1644",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When parking downhill on a two-way road, a driver should:",
+        "explanation": "When parked downhill, turn the front wheels toward the curb or edge of the road so that if the vehicle rolls, it rolls away from traffic. Always set the parking brake.",
+        "choices": [
+          "Turn the front wheels toward the curb or edge of the roadway and set the parking brake",
+          "Keep the front wheels positioned straight ahead and set the parking brake",
+          "Turn the front wheels away from the curb or edge of the roadway and set the parking brake",
+          "Set the parking brake only"
+        ]
+      },
+      "sourceHash": "bf479771d29b3f3985056bd6f750714d",
+      "prompt": "Khi đậu xe xuống dốc trên đường hai chiều, tài xế nên:",
+      "explanation": "Khi đậu xe xuống dốc, hãy quay bánh trước về phía lề đường hoặc mép đường, để nếu xe bị trôi thì xe sẽ trôi ra xa dòng xe. Luôn kéo phanh tay (park brake).",
+      "choices": [
+        "Quay bánh trước về phía lề đường hoặc mép đường và kéo phanh tay",
+        "Giữ bánh trước thẳng và kéo phanh tay",
+        "Quay bánh trước ra xa lề đường hoặc mép đường và kéo phanh tay",
+        "Chỉ kéo phanh tay"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "f0774c7b-bea8-46b9-9c65-67c222cb925f",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Which statement describes the steps required to reverse in a straight line?",
+        "explanation": "To reverse in a straight line, place your left hand at the top of the steering wheel, turn your body, and look over your right shoulder through the rear window. Key words: \"straight line\".",
+        "choices": [
+          "Place the left hand at the top of the steering wheel and look over the right shoulder through the rear window",
+          "Place the right hand at the top of the steering wheel, look over the left shoulder and use the outside left rear-view mirror",
+          "Place the left hand at the bottom of the steering wheel and use both outside mirrors",
+          "Keep both hands on the steering wheel and constantly use the inside rear-view mirror for guidance"
+        ]
+      },
+      "sourceHash": "c833d9fe1af200ac7c4e98e5f24915a5",
+      "prompt": "Câu nào mô tả đúng các bước để lùi xe theo đường thẳng?",
+      "explanation": "Để lùi xe theo đường thẳng, đặt tay trái ở phía trên cùng của vô lăng, xoay người và nhìn qua vai phải qua kính sau. Từ khóa: \"đường thẳng\".",
+      "choices": [
+        "Đặt tay trái ở phía trên cùng của vô lăng và nhìn qua vai phải qua kính sau",
+        "Đặt tay phải ở phía trên cùng của vô lăng, nhìn qua vai trái và dùng gương chiếu hậu bên trái",
+        "Đặt tay trái ở phía dưới cùng của vô lăng và dùng cả hai gương bên ngoài",
+        "Giữ cả hai tay trên vô lăng và liên tục nhìn gương chiếu hậu trong xe để định hướng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "fc8ed3cb-7907-454c-8e4e-10689806e2cb",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When parallel parking, the vehicle's wheels closest to the curb must be within what maximum distance?",
+        "explanation": "When parallel parked, the wheels nearest the curb must be no more than 50 cm from it. Key words: \"maximum distance\".",
+        "choices": [
+          "80 cm from the curb",
+          "30 cm from the curb",
+          "10 cm from the curb",
+          "50 cm from the curb"
+        ]
+      },
+      "sourceHash": "574867469f766d76797cec33d70e9e81",
+      "prompt": "Khi đậu xe song song, bánh xe gần lề đường nhất phải cách lề tối đa bao nhiêu?",
+      "explanation": "Khi đậu xe song song, bánh xe gần lề đường nhất phải cách lề không quá 50 cm. Từ khóa: \"tối đa\".",
+      "choices": [
+        "80 cm tính từ lề đường",
+        "30 cm tính từ lề đường",
+        "10 cm tính từ lề đường",
+        "50 cm tính từ lề đường"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "dda2e206-865a-4d25-b3cc-66b268ca83d3",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When completing an angle park, the vehicle's front wheel must be within what maximum distance from the nearest curb?",
+        "explanation": "When angle parking, the front wheel must be within 50 cm of the curb. Key words: \"maximum distance\".",
+        "choices": [
+          "100 cm",
+          "50 cm",
+          "25 cm",
+          "75 cm"
+        ]
+      },
+      "sourceHash": "81a3a4badf243e9b2dbbaf26dbe601f0",
+      "prompt": "Khi đậu xe xiên góc (angle parking), bánh trước của xe phải cách lề đường gần nhất tối đa bao nhiêu?",
+      "explanation": "Khi đậu xe xiên góc, bánh trước phải cách lề đường trong vòng 50 cm. Từ khóa: \"tối đa\".",
+      "choices": [
+        "100 cm",
+        "50 cm",
+        "25 cm",
+        "75 cm"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "1cdc680d-608a-46db-a033-bd78929fb2d4",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Before leaving a parallel parking space on the right side of a road:",
+        "explanation": "Before pulling out from the right side of the road, signal and shoulder check to the left, because traffic will be coming up on your left.",
+        "choices": [
+          "Shoulder check to the right",
+          "Turn on the right signal",
+          "Shoulder check to the left",
+          "Use an arm signal straight out and up"
+        ]
+      },
+      "sourceHash": "d2c8c5eafaf8a1acf11173cf153f54e1",
+      "prompt": "Trước khi rời khỏi chỗ đậu xe song song ở bên phải đường:",
+      "explanation": "Trước khi cho xe ra khỏi lề phải, hãy bật xi nhan và quay đầu kiểm tra bên trái, vì xe cộ sẽ đến từ phía bên trái của bạn.",
+      "choices": [
+        "Quay đầu kiểm tra bên phải",
+        "Bật xi nhan phải",
+        "Quay đầu kiểm tra bên trái",
+        "Ra hiệu bằng tay, giơ thẳng tay ra rồi hướng lên"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "9172e9fc-9770-4aaf-a264-4529164d30b3",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When a head restraint is raised to the proper position, the centre of the head restraint is:",
+        "explanation": "A properly adjusted head restraint protects against whiplash. Its centre should be level with the top of your ears, close to the back of your head.",
+        "choices": [
+          "Level with the top of the ear",
+          "Level with the top of the shoulders",
+          "Level with the neck",
+          "Level with the top of the head"
+        ]
+      },
+      "sourceHash": "8a3b049ffb10c5e1e30584cd1d867236",
+      "prompt": "Khi tựa đầu được nâng lên đúng vị trí, tâm của tựa đầu sẽ:",
+      "explanation": "Tựa đầu được chỉnh đúng giúp bảo vệ bạn khỏi chấn thương cổ do giật mạnh (whiplash). Tâm của tựa đầu nên ngang với đỉnh tai, và ở sát phía sau đầu bạn.",
+      "choices": [
+        "Ngang với đỉnh tai",
+        "Ngang với đỉnh vai",
+        "Ngang với cổ",
+        "Ngang với đỉnh đầu"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "78786f5c-4507-42ff-8e8a-e9c984226e53",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Which direction should a vehicle's front wheels be turned when parked uphill on a two-way road with a curb?",
+        "explanation": "When parked uphill next to a curb, turn the front wheels away from the curb (to the left). If the vehicle rolls back, the front tire will stop against the curb. Key words: \"with a curb\".",
+        "choices": [
+          "Parallel to the curb",
+          "To the left",
+          "Straight ahead",
+          "To the right"
+        ]
+      },
+      "sourceHash": "9cfd639b1748aedfba0a2662fef625b2",
+      "prompt": "Khi đậu xe lên dốc trên đường hai chiều có lề đường, bánh trước của xe nên được quay về hướng nào?",
+      "explanation": "Khi đậu xe lên dốc cạnh lề đường, hãy quay bánh trước ra xa lề đường (sang trái). Nếu xe bị trôi ngược, bánh trước sẽ chặn vào lề đường. Từ khóa: \"có lề đường\".",
+      "choices": [
+        "Song song với lề đường",
+        "Sang trái",
+        "Thẳng về phía trước",
+        "Sang phải"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "c6eddceb-4a77-454b-acaa-e566ac948c13",
+      "imgUrl": null,
+      "en": {
+        "prompt": "How close can a driver legally park a vehicle to a Stop sign?",
+        "explanation": "You may not park within 5 metres of a stop sign, so the sign stays visible to other drivers.",
+        "choices": [
+          "1.5 metres",
+          "5 metres",
+          "10 metres",
+          "3 metres"
+        ]
+      },
+      "sourceHash": "556942a80370deb31705772d4c58402c",
+      "prompt": "Theo luật, tài xế được đậu xe gần biển dừng (Stop) nhất là bao nhiêu?",
+      "explanation": "Bạn không được đậu xe trong vòng 5 mét tính từ biển dừng, để các tài xế khác vẫn nhìn thấy biển báo.",
+      "choices": [
+        "1,5 mét",
+        "5 mét",
+        "10 mét",
+        "3 mét"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "2992b733-d587-4688-8d80-b9676818f821",
+      "imgUrl": null,
+      "en": {
+        "prompt": "What minimum distance from a fire hydrant must a vehicle be parked?",
+        "explanation": "You may not park within 5 metres of a fire hydrant, so firefighters can reach it quickly.",
+        "choices": [
+          "3 metres",
+          "4 metres",
+          "2 metres",
+          "5 metres"
+        ]
+      },
+      "sourceHash": "dee6094a09421371e6ed4f134926d313",
+      "prompt": "Xe phải đậu cách trụ cứu hỏa ít nhất bao xa?",
+      "explanation": "Bạn không được đậu xe trong vòng 5 mét tính từ trụ cứu hỏa, để lính cứu hỏa có thể tiếp cận nhanh chóng.",
+      "choices": [
+        "3 mét",
+        "4 mét",
+        "2 mét",
+        "5 mét"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "ff59e963-c659-45d5-8136-0fe10a58bdf0",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When backing a passenger vehicle to the left, the driver should:",
+        "explanation": "For Alberta Class 7 (Learner) drivers, backing rules emphasize extreme caution: check surroundings thoroughly (pedestrians, cyclists, vehicles), use mirrors & shoulder checks, look over the shoulder in the direction you're turning (e.g., left shoulder for left turn), steer slowly with two hands (one to steer, one to stabilize), and remember the front swings opposite to the back, requiring quick forward glances. Never reverse into intersections or crosswalks, and be aware that while backup cameras are allowed, you still need to look over your shoulder",
+        "choices": [
+          "Look in the inside rea-view mirror and make steering adjustments as necessary",
+          "Look over the right shoulder with occasional glances to the front",
+          "Look over the left shoulder with occasional glances to the front",
+          "Without shoulder checking, use the inside and outside rear view mirrors to ensure the best view to the rear and both sides of the vehicle"
+        ]
+      },
+      "sourceHash": "a5232e6f7aad2d4bf809ef4d25305ac4",
+      "prompt": "Khi lùi xe chở khách về bên trái, tài xế nên:",
+      "explanation": "Với người học lái Class 7 ở Alberta, các quy tắc lùi xe nhấn mạnh sự hết sức thận trọng: kiểm tra kỹ xung quanh (người đi bộ, người đi xe đạp, xe cộ), dùng gương và quay đầu kiểm tra, nhìn qua vai theo hướng bạn rẽ (ví dụ: vai trái khi lùi sang trái), đánh lái chậm bằng hai tay (một tay đánh lái, một tay giữ ổn định), và nhớ rằng đầu xe sẽ quét theo hướng ngược với đuôi xe, nên cần thỉnh thoảng nhìn nhanh về phía trước. Không bao giờ lùi xe vào giao lộ hoặc lối qua đường, và lưu ý rằng dù được phép dùng camera lùi, bạn vẫn phải nhìn qua vai.",
+      "choices": [
+        "Nhìn vào gương chiếu hậu trong xe và điều chỉnh tay lái khi cần",
+        "Nhìn qua vai phải, thỉnh thoảng liếc nhìn về phía trước",
+        "Nhìn qua vai trái, thỉnh thoảng liếc nhìn về phía trước",
+        "Không quay đầu kiểm tra, dùng gương chiếu hậu trong xe và gương bên ngoài để có tầm nhìn tốt nhất ra phía sau và hai bên xe"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "5a2f1256-7b41-411d-990c-41c2b41f8436",
+      "imgUrl": null,
+      "en": {
+        "prompt": "The recommended braking procedure to bring a vehicle to a normal, smooth stop is:",
+        "explanation": "To bring a vehicle to a smooth, normal stop, you should ease off the gas early, then apply light, gradual pressure to the brake pedal with your right foot, increasing pressure as needed, and finally ease off slightly just before stopping to prevent a jolt, making it a progressive and controlled deceleration.",
+        "choices": [
+          "Continually increase brake pressure until the wheels lock",
+          "Apply brake pressure, ease off slightly just before the vehicle stops, then re-apply sufficient pressure to stop",
+          "Shift the vehicle into neutral and apply steady pressure to the brake pedal until the vehicle comes to a stop",
+          "Pump the brake pedal smoothly until the vehicle stops"
+        ]
+      },
+      "sourceHash": "92e3192712d4e6e6193ae2ada2f82069",
+      "prompt": "Cách phanh được khuyến nghị để dừng xe bình thường và êm là:",
+      "explanation": "Để dừng xe êm và bình thường, bạn nên nhả chân ga sớm, rồi dùng chân phải đạp phanh nhẹ và từ từ, tăng lực khi cần, và cuối cùng nhả bớt phanh một chút ngay trước khi xe dừng để tránh bị giật. Đây là cách giảm tốc dần dần và có kiểm soát.",
+      "choices": [
+        "Liên tục tăng lực phanh cho đến khi bánh xe bị bó cứng",
+        "Đạp phanh, nhả bớt một chút ngay trước khi xe dừng, rồi đạp lại vừa đủ để dừng",
+        "Chuyển xe sang số N (neutral) và đạp phanh đều cho đến khi xe dừng",
+        "Nhấp nhả bàn đạp phanh nhẹ nhàng cho đến khi xe dừng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "e00ef56d-254f-48ac-9900-bb47ff81e78b",
+      "imgUrl": null,
+      "en": {
+        "prompt": "In what order should you complete these steps before driving?",
+        "explanation": "The recommended order is: lock the doors, adjust the seat, adjust the head restraint, adjust the mirrors, then fasten the seat belt. (Driver's Guide p. 44)",
+        "choices": [
+          "Lock doors, adjust seat, adjust head restraint, adjust mirrors, fasten seat belt",
+          "Fasten seat belt, adjust mirrors, adjust seat, lock doors, adjust head restraint",
+          "Adjust mirrors, fasten seat belt, lock doors, adjust seat, adjust head restraint",
+          "Adjust seat, fasten seat belt, adjust mirrors, adjust head restraint, lock doors"
+        ]
+      },
+      "sourceHash": "3c522458272a866c4429725f96a0eef9",
+      "prompt": "Bạn nên thực hiện các bước sau theo thứ tự nào trước khi lái xe?",
+      "explanation": "Thứ tự được khuyến nghị là: khóa cửa, chỉnh ghế, chỉnh tựa đầu, chỉnh gương, rồi thắt dây an toàn. (Driver's Guide tr. 44)",
+      "choices": [
+        "Khóa cửa, chỉnh ghế, chỉnh tựa đầu, chỉnh gương, thắt dây an toàn",
+        "Thắt dây an toàn, chỉnh gương, chỉnh ghế, khóa cửa, chỉnh tựa đầu",
+        "Chỉnh gương, thắt dây an toàn, khóa cửa, chỉnh ghế, chỉnh tựa đầu",
+        "Chỉnh ghế, thắt dây an toàn, chỉnh gương, chỉnh tựa đầu, khóa cửa"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "5425f6aa-8374-467c-b8f5-4d3cb7649aab",
+      "imgUrl": null,
+      "en": {
+        "prompt": "How far should you sit from the steering wheel?",
+        "explanation": "Sit at least 25 centimetres (10 inches) from the steering wheel, the distance recommended by Transport Canada. (Driver's Guide p. 44)",
+        "choices": [
+          "At least 10 centimetres",
+          "At least 50 centimetres",
+          "At least 25 centimetres",
+          "As close as possible"
+        ]
+      },
+      "sourceHash": "b9c70b22500398c54bffd1e54a630cdc",
+      "prompt": "Bạn nên ngồi cách vô lăng bao xa?",
+      "explanation": "Ngồi cách vô lăng ít nhất 25 cm (10 inch), là khoảng cách được Bộ Giao thông Canada (Transport Canada) khuyến nghị. (Driver's Guide tr. 44)",
+      "choices": [
+        "Ít nhất 10 cm",
+        "Ít nhất 50 cm",
+        "Ít nhất 25 cm",
+        "Càng gần càng tốt"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "3effb490-e944-48f4-b023-0f4a46aa6934",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Where should you place your hands on the steering wheel?",
+        "explanation": "Place your left hand at about 9 o'clock and your right hand at about 3 o'clock. If the wheel design doesn't allow this, use 10 and 2. (Driver's Guide pp. 44, 48)",
+        "choices": [
+          "Both hands at 12 o'clock",
+          "At about 9 o'clock and 3 o'clock",
+          "At about 4 o'clock and 8 o'clock",
+          "One hand at the top of the wheel only"
+        ]
+      },
+      "sourceHash": "796fd3c760187d933ddca9a0637e4f2f",
+      "prompt": "Bạn nên đặt tay ở đâu trên vô lăng?",
+      "explanation": "Đặt tay trái ở khoảng vị trí 9 giờ và tay phải ở khoảng vị trí 3 giờ. Nếu thiết kế vô lăng không cho phép, hãy đặt ở vị trí 10 giờ và 2 giờ. (Driver's Guide tr. 44, 48)",
+      "choices": [
+        "Cả hai tay ở vị trí 12 giờ",
+        "Ở khoảng vị trí 9 giờ và 3 giờ",
+        "Ở khoảng vị trí 4 giờ và 8 giờ",
+        "Chỉ một tay ở phía trên cùng của vô lăng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "58976da8-da63-42cb-97db-14d0a0afbe87",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Ideally, how much space should there be between the back of your head and a tilting head restraint?",
+        "explanation": "If your head restraint tilts, move it forward. Less than 10 centimetres between your head and the restraint is ideal. (Driver's Guide p. 45)",
+        "choices": [
+          "Less than 10 centimetres",
+          "About 20 centimetres",
+          "About 30 centimetres",
+          "The space doesn't matter if the height is correct"
+        ]
+      },
+      "sourceHash": "4fab8a012c4799a5ba406b4b3514937c",
+      "prompt": "Lý tưởng nhất, khoảng cách giữa phía sau đầu bạn và tựa đầu loại nghiêng được nên là bao nhiêu?",
+      "explanation": "Nếu tựa đầu của bạn nghiêng được, hãy chỉnh nó về phía trước. Khoảng cách dưới 10 cm giữa đầu và tựa đầu là lý tưởng. (Driver's Guide tr. 45)",
+      "choices": [
+        "Dưới 10 cm",
+        "Khoảng 20 cm",
+        "Khoảng 30 cm",
+        "Khoảng cách không quan trọng nếu chiều cao đã đúng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "6c8f1b56-ff2f-4f85-90c1-313e00720c53",
+      "imgUrl": null,
+      "en": {
+        "prompt": "How should you adjust your inside rear-view mirror?",
+        "explanation": "Adjust the inside mirror so the rear window is framed within it, showing as much behind you as possible. (Driver's Guide p. 45)",
+        "choices": [
+          "So you can see your own face",
+          "So the whole rear window is framed in the mirror",
+          "So you can see the back seat passengers",
+          "So you can see the lane to your left"
+        ]
+      },
+      "sourceHash": "7b113a05311e90a4cb0f1d93ef343b4d",
+      "prompt": "Bạn nên chỉnh gương chiếu hậu trong xe như thế nào?",
+      "explanation": "Chỉnh gương trong xe sao cho kính sau nằm trọn trong gương, để thấy được càng nhiều phía sau càng tốt. (Driver's Guide tr. 45)",
+      "choices": [
+        "Để bạn có thể nhìn thấy mặt mình",
+        "Để toàn bộ kính sau nằm trọn trong gương",
+        "Để bạn có thể nhìn thấy hành khách ngồi ghế sau",
+        "Để bạn có thể nhìn thấy làn bên trái"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "b4cf54c2-ff88-49f6-bf55-8565d6d55bc1",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When your outside mirrors are adjusted correctly, you should see:",
+        "explanation": "Adjust the outside mirrors to reduce blind spots. You should see your own vehicle in a small part of the mirror closest to it. (Driver's Guide p. 45)",
+        "choices": [
+          "None of your own vehicle",
+          "A small part of your own vehicle",
+          "Mostly your own vehicle",
+          "Only the road surface"
+        ]
+      },
+      "sourceHash": "f88f42e6c924c9468811715389682728",
+      "prompt": "Khi gương bên ngoài được chỉnh đúng, bạn sẽ nhìn thấy:",
+      "explanation": "Chỉnh gương bên ngoài để giảm điểm mù. Bạn nên thấy xe của mình ở một phần nhỏ của gương, phía gần thân xe nhất. (Driver's Guide tr. 45)",
+      "choices": [
+        "Không thấy chút nào xe của mình",
+        "Một phần nhỏ xe của mình",
+        "Phần lớn là xe của mình",
+        "Chỉ thấy mặt đường"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "e96d06d7-2ba8-4da2-94f5-72f24360c69b",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Your vehicle has air bags. Are you still required to wear a seat belt?",
+        "explanation": "Yes. You are still required to wear your seat belt in a vehicle with air bags. (Driver's Guide p. 45)",
+        "choices": [
+          "No, air bags replace seat belts",
+          "Yes, seat belts are required even with air bags",
+          "Only on highways",
+          "Only in the back seat"
+        ]
+      },
+      "sourceHash": "761290d22ee6af1e0791f76ffbb240f0",
+      "prompt": "Xe của bạn có túi khí. Bạn có còn bắt buộc phải thắt dây an toàn không?",
+      "explanation": "Có. Bạn vẫn bắt buộc phải thắt dây an toàn trong xe có túi khí. (Driver's Guide tr. 45)",
+      "choices": [
+        "Không, túi khí thay thế dây an toàn",
+        "Có, vẫn bắt buộc thắt dây an toàn dù xe có túi khí",
+        "Chỉ khi đi trên đường cao tốc",
+        "Chỉ khi ngồi ghế sau"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "e6fb1380-85d9-4107-92f3-ed42ead7db84",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When must you use your signal lights?",
+        "explanation": "You must signal when moving away from the curb or parking lane, turning left or right, and changing lanes. (Driver's Guide p. 49)",
+        "choices": [
+          "Only when turning at intersections",
+          "When moving away from the curb, turning, or changing lanes",
+          "Only when other vehicles are nearby",
+          "Only when changing lanes on a highway"
+        ]
+      },
+      "sourceHash": "2c5e1b4476d50689bdcf87474efc7d35",
+      "prompt": "Khi nào bạn phải bật xi nhan?",
+      "explanation": "Bạn phải bật xi nhan khi cho xe rời khỏi lề đường hoặc làn đậu xe, khi rẽ trái hoặc rẽ phải, và khi chuyển làn. (Driver's Guide tr. 49)",
+      "choices": [
+        "Chỉ khi rẽ tại giao lộ",
+        "Khi rời khỏi lề đường, khi rẽ, hoặc khi chuyển làn",
+        "Chỉ khi có xe khác ở gần",
+        "Chỉ khi chuyển làn trên đường cao tốc"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "aaa5b716-2140-4061-9757-80a7d31c9cc1",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Which hand signal tells other drivers you are turning right?",
+        "explanation": "To signal a right turn by hand, bend your left arm upward at the elbow. A straight arm means left, and an arm bent downward means slowing or stopping. (Driver's Guide p. 49)",
+        "choices": [
+          "Left arm straight out",
+          "Left arm bent downward at the elbow",
+          "Right arm out of the passenger window",
+          "Left arm bent upward at the elbow"
+        ]
+      },
+      "sourceHash": "773838249f4110699ab94aaa3a5b2462",
+      "prompt": "Tín hiệu tay nào cho các tài xế khác biết bạn sắp rẽ phải?",
+      "explanation": "Để ra hiệu rẽ phải bằng tay, gập tay trái lên trên ở khuỷu tay. Giơ thẳng tay nghĩa là rẽ trái, còn gập tay xuống dưới nghĩa là giảm tốc hoặc dừng lại. (Driver's Guide tr. 49)",
+      "choices": [
+        "Giơ thẳng tay trái ra ngoài",
+        "Gập tay trái xuống dưới ở khuỷu tay",
+        "Đưa tay phải ra ngoài cửa sổ bên ghế hành khách",
+        "Gập tay trái lên trên ở khuỷu tay"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "fe4a8f7a-b836-4af2-9bcb-525576ae8ab1",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Which hand signal tells other drivers you are slowing or stopping?",
+        "explanation": "To signal slowing or stopping by hand, bend your left arm downward at the elbow. (Driver's Guide p. 49)",
+        "choices": [
+          "Left arm bent upward at the elbow",
+          "Left arm straight out",
+          "Left arm bent downward at the elbow",
+          "Waving your left arm up and down"
+        ]
+      },
+      "sourceHash": "3484887161ada51d21b5f4de7f535fce",
+      "prompt": "Tín hiệu tay nào cho các tài xế khác biết bạn đang giảm tốc hoặc dừng lại?",
+      "explanation": "Để ra hiệu giảm tốc hoặc dừng lại bằng tay, gập tay trái xuống dưới ở khuỷu tay. (Driver's Guide tr. 49)",
+      "choices": [
+        "Gập tay trái lên trên ở khuỷu tay",
+        "Giơ thẳng tay trái ra ngoài",
+        "Gập tay trái xuống dưới ở khuỷu tay",
+        "Vẫy tay trái lên xuống"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "650e5a33-cc4c-41c1-abf8-e9b892bf32e4",
+      "imgUrl": null,
+      "en": {
+        "prompt": "Total stopping distance is made up of:",
+        "explanation": "Total stopping distance = perception distance + reaction distance + braking distance. (Driver's Guide p. 50)",
+        "choices": [
+          "Braking distance only",
+          "Perception distance + reaction distance + braking distance",
+          "Reaction distance + braking distance",
+          "Following distance + braking distance"
+        ]
+      },
+      "sourceHash": "3b33ce6d2ce5a559f93631574e2f8a7d",
+      "prompt": "Tổng quãng đường dừng xe bao gồm:",
+      "explanation": "Tổng quãng đường dừng xe = quãng đường nhận biết + quãng đường phản ứng + quãng đường phanh. (Driver's Guide tr. 50)",
+      "choices": [
+        "Chỉ có quãng đường phanh",
+        "Quãng đường nhận biết + quãng đường phản ứng + quãng đường phanh",
+        "Quãng đường phản ứng + quãng đường phanh",
+        "Khoảng cách theo sau + quãng đường phanh"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "8f96b68a-c19d-47d2-8198-32be643b749e",
+      "imgUrl": null,
+      "en": {
+        "prompt": "About how long does the average driver take to react by moving their foot from the gas to the brake?",
+        "explanation": "The average reaction time is about three-quarters of a second. Perception takes about another three-quarters of a second. (Driver's Guide pp. 49–50)",
+        "choices": [
+          "About one-tenth of a second",
+          "About three-quarters of a second",
+          "About 3 seconds",
+          "About 5 seconds"
+        ]
+      },
+      "sourceHash": "431abb2b078ad61295fbcb2593405a6f",
+      "prompt": "Một tài xế trung bình mất khoảng bao lâu để phản ứng bằng cách chuyển chân từ chân ga sang chân phanh?",
+      "explanation": "Thời gian phản ứng trung bình là khoảng ba phần tư giây. Việc nhận biết mất thêm khoảng ba phần tư giây nữa. (Driver's Guide tr. 49–50)",
+      "choices": [
+        "Khoảng một phần mười giây",
+        "Khoảng ba phần tư giây",
+        "Khoảng 3 giây",
+        "Khoảng 5 giây"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "4f543a99-6d06-4d33-b4c3-898fc5b6ec4f",
+      "imgUrl": null,
+      "en": {
+        "prompt": "How fast should you drive when reversing?",
+        "explanation": "All reversing must be done at a crawl or slow walking speed. (Driver's Guide p. 51)",
+        "choices": [
+          "At 20 km/h",
+          "At the same speed as forward driving",
+          "As quickly as possible to clear traffic",
+          "At a crawl or slow walking speed"
+        ]
+      },
+      "sourceHash": "a4bf88334c2249185a865529ea732de3",
+      "prompt": "Bạn nên lùi xe với tốc độ bao nhiêu?",
+      "explanation": "Mọi lần lùi xe đều phải thực hiện thật chậm, bằng tốc độ bò hoặc tốc độ đi bộ chậm. (Driver's Guide tr. 51)",
+      "choices": [
+        "Ở 20 km/h",
+        "Bằng tốc độ khi lái xe tiến",
+        "Càng nhanh càng tốt để nhường đường cho xe khác",
+        "Thật chậm, bằng tốc độ bò hoặc đi bộ chậm"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "66e9b8d0-d776-4969-af50-e475f6d04971",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When reversing in a straight line, how much should you turn the steering wheel to correct your direction?",
+        "explanation": "To correct your steering when reversing straight, turn the wheel no more than a quarter turn. (Driver's Guide p. 51)",
+        "choices": [
+          "About a half turn",
+          "A full turn",
+          "Do not turn the wheel at all",
+          "No more than a quarter turn"
+        ]
+      },
+      "sourceHash": "8ad3c6817353187c0f74d2d8e0561f0c",
+      "prompt": "Khi lùi xe theo đường thẳng, bạn nên xoay vô lăng bao nhiêu để chỉnh hướng?",
+      "explanation": "Để chỉnh hướng khi lùi thẳng, xoay vô lăng không quá một phần tư vòng. (Driver's Guide tr. 51)",
+      "choices": [
+        "Khoảng nửa vòng",
+        "Một vòng đầy đủ",
+        "Không xoay vô lăng chút nào",
+        "Không quá một phần tư vòng"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "21810351-636b-464d-a9d8-2b54b7b06af3",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When reversing, which way do you turn the steering wheel?",
+        "explanation": "Turn the wheel in the direction you want the rear of the vehicle to go. The front of the vehicle moves in the opposite direction. (Driver's Guide p. 51)",
+        "choices": [
+          "In the opposite direction to where you want the rear to go",
+          "In the direction you want the front of the vehicle to go",
+          "Keep the wheel straight and let the vehicle find its path",
+          "In the direction you want the rear of the vehicle to go"
+        ]
+      },
+      "sourceHash": "e22f9c74b64676dd97839cff8c37bf4d",
+      "prompt": "Khi lùi xe, bạn xoay vô lăng theo hướng nào?",
+      "explanation": "Xoay vô lăng theo hướng bạn muốn đuôi xe đi tới. Đầu xe sẽ di chuyển theo hướng ngược lại. (Driver's Guide tr. 51)",
+      "choices": [
+        "Ngược với hướng bạn muốn đuôi xe đi tới",
+        "Theo hướng bạn muốn đầu xe đi tới",
+        "Giữ vô lăng thẳng và để xe tự tìm hướng",
+        "Theo hướng bạn muốn đuôi xe đi tới"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "2a576242-cc50-41a2-9d5b-a6dfc8a803fc",
+      "imgUrl": null,
+      "en": {
+        "prompt": "It is illegal to reverse your vehicle into:",
+        "explanation": "It is illegal to move your vehicle in reverse into an intersection or a crosswalk. (Driver's Guide p. 51)",
+        "choices": [
+          "A driveway",
+          "A parking stall",
+          "An intersection or a crosswalk",
+          "A curb lane"
+        ]
+      },
+      "sourceHash": "9057ff6ab090828fba63308cae37aacb",
+      "prompt": "Theo luật, bạn không được lùi xe vào:",
+      "explanation": "Theo luật, bạn không được lùi xe vào giao lộ hoặc lối qua đường. (Driver's Guide tr. 51)",
+      "choices": [
+        "Lối xe vào nhà",
+        "Ô đậu xe",
+        "Giao lộ hoặc lối qua đường",
+        "Làn sát lề đường"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "ccab3d82-0076-46cc-a141-6ef06dbc09c5",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When reversing out of a driveway onto a street, you should:",
+        "explanation": "Steer into the nearest traffic lane, then go forward. Don't reverse into a second traffic lane. (Driver's Guide p. 51)",
+        "choices": [
+          "Reverse across all lanes to the far side of the road",
+          "Reverse into the second lane to leave room for traffic",
+          "Reverse quickly so you block traffic for less time",
+          "Reverse into the nearest traffic lane, then go forward"
+        ]
+      },
+      "sourceHash": "7f0eeaa87467e3f03f4d7a95925b6d36",
+      "prompt": "Khi lùi xe từ lối xe vào nhà ra đường, bạn nên:",
+      "explanation": "Lùi vào làn xe gần nhất, rồi lái tiến. Không lùi vào làn xe thứ hai. (Driver's Guide tr. 51)",
+      "choices": [
+        "Lùi qua tất cả các làn sang phía bên kia đường",
+        "Lùi vào làn thứ hai để chừa chỗ cho xe cộ",
+        "Lùi thật nhanh để chắn đường xe khác trong thời gian ngắn hơn",
+        "Lùi vào làn xe gần nhất, rồi lái tiến"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "0d5f0a0f-b95e-4050-8951-59f255d88fe7",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When parking facing uphill on a street without a curb, which way should you turn your front wheels?",
+        "explanation": "Uphill without a curb, turn the wheels to the right, toward the edge of the road. If the vehicle rolls, it will go off the road and not into traffic. (Driver's Guide p. 55)",
+        "choices": [
+          "To the left, toward the centre of the road",
+          "Straight ahead",
+          "It doesn't matter if the park brake is set",
+          "To the right, toward the edge of the road"
+        ]
+      },
+      "sourceHash": "ffb5b50929c0ef889dd6321cdbdd300c",
+      "prompt": "Khi đậu xe hướng lên dốc trên đường không có lề đường, bạn nên quay bánh trước về hướng nào?",
+      "explanation": "Khi lên dốc mà không có lề đường, hãy quay bánh xe sang phải, về phía mép đường. Nếu xe bị trôi, xe sẽ đi ra khỏi đường chứ không lao vào dòng xe. (Driver's Guide tr. 55)",
+      "choices": [
+        "Sang trái, về phía giữa đường",
+        "Thẳng về phía trước",
+        "Không quan trọng nếu đã kéo phanh tay",
+        "Sang phải, về phía mép đường"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "b7238b15-a35f-4826-8164-7bd0107e6586",
+      "imgUrl": null,
+      "en": {
+        "prompt": "How close to a driveway or private road entrance may you park?",
+        "explanation": "Do not park within one and a half metres (five feet) of access to a garage, private road, or driveway. (Driver's Guide p. 55)",
+        "choices": [
+          "No closer than 5 metres",
+          "No closer than 50 centimetres",
+          "No closer than 10 metres",
+          "No closer than 1.5 metres"
+        ]
+      },
+      "sourceHash": "f5664577e8133fd554fa7ee6bc040960",
+      "prompt": "Bạn được đậu xe gần lối xe vào nhà hoặc lối vào đường tư nhân đến mức nào?",
+      "explanation": "Không đậu xe trong vòng một mét rưỡi (năm feet) tính từ lối vào gara, đường tư nhân hoặc lối xe vào nhà. (Driver's Guide tr. 55)",
+      "choices": [
+        "Không gần hơn 5 mét",
+        "Không gần hơn 50 cm",
+        "Không gần hơn 10 mét",
+        "Không gần hơn 1,5 mét"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "92e57db9-f55c-4cc3-9127-59bc5d344bd9",
+      "imgUrl": null,
+      "en": {
+        "prompt": "How close to the nearest side of a marked crosswalk may you park?",
+        "explanation": "Do not park within five metres of the nearest side of a marked crosswalk. (Driver's Guide p. 56)",
+        "choices": [
+          "No closer than 5 metres",
+          "No closer than 1.5 metres",
+          "No closer than 15 metres",
+          "Right up to the edge of the crosswalk"
+        ]
+      },
+      "sourceHash": "bd87f1687a4ca6c931aa3790c41a27c7",
+      "prompt": "Bạn được đậu xe gần phía gần nhất của lối qua đường có kẻ vạch đến mức nào?",
+      "explanation": "Không đậu xe trong vòng năm mét tính từ phía gần nhất của lối qua đường có kẻ vạch. (Driver's Guide tr. 56)",
+      "choices": [
+        "Không gần hơn 5 mét",
+        "Không gần hơn 1,5 mét",
+        "Không gần hơn 15 mét",
+        "Sát ngay mép lối qua đường"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "ba4cbb7c-c683-47aa-95ec-3590bd449c12",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When parked on a roadway outside an urban area, your vehicle must be visible from how far away in both directions?",
+        "explanation": "Outside urban areas, don't park unless there is a clear passage for traffic and your vehicle can be seen for 60 metres in both directions. (Driver's Guide p. 56)",
+        "choices": [
+          "20 metres",
+          "60 metres",
+          "150 metres",
+          "500 metres"
+        ]
+      },
+      "sourceHash": "a3913844c50ec6bb92dfdcde42e77406",
+      "prompt": "Khi đậu xe trên đường bên ngoài khu vực đô thị, xe của bạn phải được nhìn thấy từ khoảng cách bao xa ở cả hai hướng?",
+      "explanation": "Bên ngoài khu vực đô thị, không được đậu xe trừ khi xe cộ vẫn có lối đi thông thoáng và xe của bạn có thể được nhìn thấy từ 60 mét ở cả hai hướng. (Driver's Guide tr. 56)",
+      "choices": [
+        "20 mét",
+        "60 mét",
+        "150 mét",
+        "500 mét"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "a1841c81-b2ab-43bd-b20e-e8959d5af4ab",
+      "imgUrl": null,
+      "en": {
+        "prompt": "How should you get out of a vehicle parked at the curb on a two-way street?",
+        "explanation": "Check your mirrors and shoulder check for traffic and cyclists, open the door no wider than necessary, get out quickly, and walk to the rear of the vehicle facing traffic. (Driver's Guide p. 53)",
+        "choices": [
+          "Open the door fully and wait for traffic to go around you",
+          "Get out quickly without checking, then walk to the front",
+          "Check mirrors and shoulder check, open the door only as wide as needed, and walk to the rear facing traffic",
+          "Signal left before opening the door"
+        ]
+      },
+      "sourceHash": "5d8806f0c0be7b17cf95ace21bc331b4",
+      "prompt": "Bạn nên ra khỏi xe đang đậu sát lề trên đường hai chiều như thế nào?",
+      "explanation": "Kiểm tra gương và quay đầu kiểm tra xe cộ và người đi xe đạp, mở cửa không rộng hơn mức cần thiết, ra khỏi xe nhanh chóng, và đi về phía đuôi xe, mặt hướng về dòng xe. (Driver's Guide tr. 53)",
+      "choices": [
+        "Mở cửa hết cỡ và chờ xe cộ đi vòng qua bạn",
+        "Ra khỏi xe nhanh mà không kiểm tra, rồi đi về phía đầu xe",
+        "Kiểm tra gương và quay đầu kiểm tra, chỉ mở cửa rộng vừa đủ, và đi về phía đuôi xe, mặt hướng về dòng xe",
+        "Bật xi nhan trái trước khi mở cửa"
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "0e9f40d2-2742-4c39-9d4b-4b05236df5ff",
+      "imgUrl": null,
+      "en": {
+        "prompt": "When leaving a parked car on a hill, you should always:",
+        "explanation": "Always set the park brake and put the transmission in Park (automatic) or a low gear (manual). (Driver's Guide p. 55)",
+        "choices": [
+          "Leave the vehicle in neutral with the wheels straight",
+          "Set the park brake only if the hill is steep",
+          "Turn on your hazard lights",
+          "Set the park brake and put the vehicle in Park or a low gear"
+        ]
+      },
+      "sourceHash": "32a6a328b6fc2c59c0edfeaa7ab9e6e8",
+      "prompt": "Khi rời khỏi xe đang đậu trên dốc, bạn phải luôn:",
+      "explanation": "Luôn kéo phanh tay và chuyển hộp số sang số P (xe số tự động) hoặc số thấp (xe số sàn). (Driver's Guide tr. 55)",
+      "choices": [
+        "Để xe ở số N (neutral) với bánh xe thẳng",
+        "Chỉ kéo phanh tay nếu dốc cao",
+        "Bật đèn khẩn cấp (hazard lights)",
+        "Kéo phanh tay và chuyển xe sang số P hoặc số thấp"
+      ],
+      "status": "approved"
+    }
+  ]
+}

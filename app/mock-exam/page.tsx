@@ -91,7 +91,7 @@ export default async function MockExamPage() {
     }
   }
 
-  const questions = await getMockExamQuestions();
+  const questions = await getMockExamQuestions(await getLocale());
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-8 space-y-4">

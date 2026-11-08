@@ -160,3 +160,24 @@ export const topicContentTranslations = pgTable(
   },
   (t) => [primaryKey({ columns: [t.topicId, t.order, t.locale] })],
 );
+
+// One row per question + locale. A question is translated as a whole
+// (prompt, explanation and every choice) so it never shows half-translated.
+export const questionTranslations = pgTable(
+  "question_translations",
+  {
+    questionId: uuid("question_id")
+      .notNull()
+      .references(() => questions.id, { onDelete: "cascade" }),
+    locale: text("locale").notNull(),
+    prompt: text("prompt").notNull(),
+    explanation: text("explanation").notNull(),
+    // Same order as choices.sort_order
+    choices: text("choices").array().notNull(),
+    status: translationStatus("status").notNull().default("draft"),
+    // md5(prompt || '\n' || explanation || '\n' || choice texts joined by '\n')
+    sourceHash: text("source_hash").notNull(),
+    updatedAt: timestamp("updated_at").defaultNow().notNull(),
+  },
+  (t) => [primaryKey({ columns: [t.questionId, t.locale] })],
+);

@@ -15,6 +15,7 @@
     "language": "Ngôn ngữ"
   },
   "Common": {
+    "unofficialTranslation": "Bản dịch không chính thức. Bản tiếng Anh là bản gốc.",
     "practicePromptTitle": "Bạn muốn luyện tập hoặc làm bài thi thử?",
     "mockPromptTitle": "Bạn muốn làm bài thi thử?",
     "signupPromptBody": "Tạo tài khoản miễn phí để mở khóa câu hỏi luyện tập và bài thi thử.",
@@ -76,8 +77,7 @@
     "subtitle": "Học các chủ đề quan trọng bạn cần để vượt qua bài thi lý thuyết Class 7 của Alberta.",
     "startLearning": "Bắt đầu học",
     "topicSubtitle": "Nắm vững các khái niệm chính trước khi luyện câu hỏi thi.",
-    "practiceTopic": "Luyện tập chủ đề này →",
-    "unofficialTranslation": "Bản dịch không chính thức. Bản tiếng Anh là bản gốc."
+    "practiceTopic": "Luyện tập chủ đề này →"
   },
   "Practice": {
     "title": "Luyện tập",

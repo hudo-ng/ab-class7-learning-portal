@@ -24,6 +24,7 @@ interface Question {
   explanation: string;
   imgUrl?: string;
   choices: { choiceId: string; choiceText: string }[];
+  translated?: boolean;
 }
 type ExamResult = Awaited<ReturnType<typeof gradeMockExam>>;
 
@@ -217,6 +218,12 @@ export default function MockExamUI({
             <p className="text-base font-semibold leading-relaxed">
               {currentQuestion.prompt}
             </p>
+
+            {currentQuestion.translated && (
+              <p className="text-xs text-muted-foreground italic">
+                {tCommon("unofficialTranslation")}
+              </p>
+            )}
 
             <div className="grid gap-6 md:grid-cols-[1fr_280px]">
               <div className="space-y-3">
