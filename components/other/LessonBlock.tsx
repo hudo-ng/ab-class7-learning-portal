@@ -1,7 +1,18 @@
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import type { Components } from "react-markdown";
 import type { topicContent } from "@/db/schema";
+
+// Wide tables scroll sideways inside their own box on small screens
+const markdownComponents: Components = {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  table: ({ node, ...props }) => (
+    <div className="overflow-x-auto">
+      <table {...props} />
+    </div>
+  ),
+};
 
 type Block = Pick<
   typeof topicContent.$inferSelect,
@@ -14,7 +25,12 @@ export function LessonBlock({ block }: { block: Block }) {
       return (
         <Card className="bg-muted/30">
           <CardContent className="prose max-w-none p-6">
-            <ReactMarkdown remarkPlugins={[remarkGfm]}>{block.body}</ReactMarkdown>
+            <ReactMarkdown
+              remarkPlugins={[remarkGfm]}
+              components={markdownComponents}
+            >
+              {block.body}
+            </ReactMarkdown>
           </CardContent>
         </Card>
       );
@@ -26,7 +42,12 @@ export function LessonBlock({ block }: { block: Block }) {
             <CardTitle>{block.title}</CardTitle>
           </CardHeader>
           <CardContent className="prose max-w-none">
-            <ReactMarkdown remarkPlugins={[remarkGfm]}>{block.body}</ReactMarkdown>
+            <ReactMarkdown
+              remarkPlugins={[remarkGfm]}
+              components={markdownComponents}
+            >
+              {block.body}
+            </ReactMarkdown>
           </CardContent>
         </Card>
       );
@@ -39,7 +60,12 @@ export function LessonBlock({ block }: { block: Block }) {
           </CardHeader>
           <CardContent className="flex flex-col md:flex-row gap-6">
             <div className="prose flex-1">
-              <ReactMarkdown remarkPlugins={[remarkGfm]}>{block.body}</ReactMarkdown>
+              <ReactMarkdown
+                remarkPlugins={[remarkGfm]}
+                components={markdownComponents}
+              >
+                {block.body}
+              </ReactMarkdown>
             </div>
             {block.imgUrl && (
               <img
@@ -59,7 +85,12 @@ export function LessonBlock({ block }: { block: Block }) {
             <CardTitle>{block.title}</CardTitle>
           </CardHeader>
           <CardContent className="prose max-w-none">
-            <ReactMarkdown remarkPlugins={[remarkGfm]}>{block.body}</ReactMarkdown>
+            <ReactMarkdown
+              remarkPlugins={[remarkGfm]}
+              components={markdownComponents}
+            >
+              {block.body}
+            </ReactMarkdown>
           </CardContent>
         </Card>
       );
@@ -71,7 +102,12 @@ export function LessonBlock({ block }: { block: Block }) {
             <CardTitle>{block.title}</CardTitle>
           </CardHeader>
           <CardContent className="prose max-w-none">
-            <ReactMarkdown remarkPlugins={[remarkGfm]}>{block.body}</ReactMarkdown>
+            <ReactMarkdown
+              remarkPlugins={[remarkGfm]}
+              components={markdownComponents}
+            >
+              {block.body}
+            </ReactMarkdown>
           </CardContent>
         </Card>
       );

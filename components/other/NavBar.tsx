@@ -6,6 +6,7 @@ import { authOptions } from "@/app/api/auth/[...nextauth]/route";
 import { Button } from "../ui/button";
 import LogoutButton from "./LogoutButton";
 import LanguageSwitcher from "./LanguageSwitcher";
+import MobileNav from "./MobileNav";
 
 export default async function NavBar() {
   const session = await getServerSession(authOptions);
@@ -26,7 +27,7 @@ export default async function NavBar() {
           <Link href="/" className="text-lg font-bold">
             AB Class 7
           </Link>
-          <nav className="flex items-center gap-4">
+          <nav className="hidden md:flex items-center gap-4">
             {visibleItems.map((item) => (
               <Link
                 key={item.href}
@@ -39,20 +40,29 @@ export default async function NavBar() {
           </nav>
         </div>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 md:gap-3">
           <LanguageSwitcher />
-          {!session ? (
-            <>
-              <Button variant="ghost" asChild>
-                <Link href="/login">{t("login")}</Link>
-              </Button>
-              <Button asChild>
-                <Link href="/register">{t("signUp")}</Link>
-              </Button>
-            </>
-          ) : (
-            <LogoutButton />
-          )}
+          <div className="hidden md:flex items-center gap-3">
+            {!session ? (
+              <>
+                <Button variant="ghost" asChild>
+                  <Link href="/login">{t("login")}</Link>
+                </Button>
+                <Button asChild>
+                  <Link href="/register">{t("signUp")}</Link>
+                </Button>
+              </>
+            ) : (
+              <LogoutButton />
+            )}
+          </div>
+          <MobileNav
+            items={visibleItems.map((item) => ({
+              href: item.href,
+              label: t(item.labelKey),
+            }))}
+            signedIn={!!session}
+          />
         </div>
       </div>
     </header>

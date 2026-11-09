@@ -12,7 +12,8 @@
     "signUp": "Đăng ký",
     "logout": "Đăng xuất",
     "logoutConfirm": "Bạn có chắc muốn đăng xuất không?",
-    "language": "Ngôn ngữ"
+    "language": "Ngôn ngữ",
+    "menu": "Menu"
   },
   "Common": {
     "unofficialTranslation": "Bản dịch không chính thức. Bản tiếng Anh là bản gốc.",
