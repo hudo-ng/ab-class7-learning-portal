@@ -1,5 +1,8 @@
 import RegisterForm from "@/components/other/RegisterForm";
 import { getTranslations } from "next-intl/server";
+import GoogleSignInButton, {
+  OrDivider,
+} from "@/components/other/GoogleSignInButton";
 import {
   Card,
   CardContent,
@@ -17,7 +20,9 @@ export default async function RegisterPage() {
           <CardTitle>{t("title")}</CardTitle>
           <CardDescription>{t("description")}</CardDescription>
         </CardHeader>
-        <CardContent>
+        <CardContent className="space-y-4">
+          <GoogleSignInButton />
+          <OrDivider />
           <RegisterForm />
         </CardContent>
       </Card>

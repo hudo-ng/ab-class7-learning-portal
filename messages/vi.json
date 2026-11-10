@@ -16,6 +16,8 @@
     "menu": "Menu"
   },
   "Common": {
+"continueWithGoogle": "Tiếp tục với Google",
+"or": "hoặc",
     "unofficialTranslation": "Bản dịch không chính thức. Bản tiếng Anh là bản gốc.",
     "practicePromptTitle": "Bạn muốn luyện tập hoặc làm bài thi thử?",
     "mockPromptTitle": "Bạn muốn làm bài thi thử?",
@@ -43,6 +45,8 @@
     "credit": "Có sử dụng thông tin được cấp phép theo <licence>Open Government Licence – Alberta</licence>, từ Alberta Driver's Guide. Trang web này không liên kết với Chính phủ Alberta."
   },
   "Login": {
+"googleError": "Đăng nhập bằng Google không thành công. Vui lòng thử lại.",
+"googleHint": "Đã đăng ký bằng Google? Hãy dùng nút \"Tiếp tục với Google\" ở trên.",
     "title": "Đăng nhập vào tài khoản",
     "description": "Nhập email của bạn bên dưới để đăng nhập",
     "email": "Email",

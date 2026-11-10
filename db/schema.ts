@@ -52,7 +52,8 @@ export const choices = pgTable(
 export const users = pgTable("users", {
   id: uuid("id").defaultRandom().primaryKey(),
   email: text("email").notNull().unique(),
-  hashedPassword: text("password_hash").notNull(),
+  // Null for accounts that only sign in with Google
+  hashedPassword: text("password_hash"),
   role: text("role").notNull().default("USER"),
   isApproved: boolean("is_approved").default(false).notNull(),
   createdAt: timestamp("created_at").defaultNow().notNull(),

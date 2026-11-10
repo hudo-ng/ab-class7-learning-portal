@@ -16,6 +16,8 @@
     "menu": "Menu"
   },
   "Common": {
+"continueWithGoogle": "Continue with Google",
+"or": "or",
     "unofficialTranslation": "Unofficial translation. The English version is the original.",
     "practicePromptTitle": "Want to practice or take the mock exam?",
     "mockPromptTitle": "Want to take the mock exam?",
@@ -43,6 +45,8 @@
     "credit": "Contains information licensed under the <licence>Open Government Licence – Alberta</licence>, from the Alberta Driver's Guide. This site is not affiliated with the Government of Alberta."
   },
   "Login": {
+"googleError": "Google sign-in didn't work. Please try again.",
+"googleHint": "Signed up with Google? Use \"Continue with Google\" above.",
     "title": "Login to your account",
     "description": "Enter your email below to login to your account",
     "email": "Email",

@@ -16,6 +16,10 @@ import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { signIn } from "next-auth/react";
 import { useTranslations } from "next-intl";
+import GoogleSignInButton, {
+  OrDivider,
+  safeCallback,
+} from "@/components/other/GoogleSignInButton";
 
 export default function LoginPage() {
   return (
@@ -30,6 +34,8 @@ function LoginForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const callbackUrl = searchParams.get("callbackUrl") || "/";
+  // NextAuth sends users back here with ?error=... if Google sign-in fails
+  const oauthError = searchParams.get("error");
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -54,7 +60,7 @@ function LoginForm() {
       return;
     }
 
-    router.replace(callbackUrl);
+    router.replace(safeCallback(callbackUrl));
     router.refresh();
   }
 
@@ -65,6 +71,14 @@ function LoginForm() {
           <CardTitle>{t("title")}</CardTitle>
           <CardDescription>{t("description")}</CardDescription>
         </CardHeader>
+
+        <CardContent className="space-y-4 pb-6">
+          <GoogleSignInButton callbackUrl={callbackUrl} />
+          {oauthError && (
+            <p className="text-sm text-destructive">{t("googleError")}</p>
+          )}
+          <OrDivider />
+        </CardContent>
 
         <form onSubmit={handleSubmit}>
           <CardContent>
@@ -105,6 +119,9 @@ function LoginForm() {
               >
                 {t("register")}
               </Link>
+            </p>
+            <p className="text-xs text-muted-foreground text-center">
+              {t("googleHint")}
             </p>
           </CardFooter>
         </form>
