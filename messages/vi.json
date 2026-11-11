@@ -16,8 +16,8 @@
     "menu": "Menu"
   },
   "Common": {
-"continueWithGoogle": "Tiếp tục với Google",
-"or": "hoặc",
+    "continueWithGoogle": "Tiếp tục với Google",
+    "or": "hoặc",
     "unofficialTranslation": "Bản dịch không chính thức. Bản tiếng Anh là bản gốc.",
     "practicePromptTitle": "Bạn muốn luyện tập hoặc làm bài thi thử?",
     "mockPromptTitle": "Bạn muốn làm bài thi thử?",
@@ -45,8 +45,8 @@
     "credit": "Có sử dụng thông tin được cấp phép theo <licence>Open Government Licence – Alberta</licence>, từ Alberta Driver's Guide. Trang web này không liên kết với Chính phủ Alberta."
   },
   "Login": {
-"googleError": "Đăng nhập bằng Google không thành công. Vui lòng thử lại.",
-"googleHint": "Đã đăng ký bằng Google? Hãy dùng nút \"Tiếp tục với Google\" ở trên.",
+    "googleError": "Đăng nhập bằng Google không thành công. Vui lòng thử lại.",
+    "googleHint": "Đã đăng ký bằng Google? Hãy dùng nút \"Tiếp tục với Google\" ở trên.",
     "title": "Đăng nhập vào tài khoản",
     "description": "Nhập email của bạn bên dưới để đăng nhập",
     "email": "Email",
@@ -55,7 +55,8 @@
     "submitting": "Đang đăng nhập...",
     "invalid": "Email hoặc mật khẩu không đúng",
     "noAccount": "Chưa có tài khoản?",
-    "register": "Đăng ký"
+    "register": "Đăng ký",
+    "forgot": "Quên mật khẩu?"
   },
   "Register": {
     "title": "Tạo tài khoản",
@@ -125,5 +126,40 @@
     "failed": "Chưa đạt (cần {pass})",
     "correct": "Đúng",
     "incorrect": "Sai"
+  },
+  "ResetEmail": {
+    "subject": "Đặt lại mật khẩu AB Class 7",
+    "heading": "Đặt lại mật khẩu",
+    "intro": "Có người đã yêu cầu đặt lại mật khẩu cho tài khoản AB Class 7 của bạn. Nhấn nút bên dưới để chọn mật khẩu mới. Liên kết này chỉ dùng được một lần và hết hạn sau {minutes} phút.",
+    "button": "Chọn mật khẩu mới",
+    "footer": "Nếu bạn không yêu cầu điều này, bạn có thể bỏ qua email này. Mật khẩu của bạn sẽ không thay đổi."
+  },
+
+  "ForgotPassword": {
+    "title": "Quên mật khẩu?",
+    "description": "Nhập email của bạn, chúng tôi sẽ gửi liên kết để bạn chọn mật khẩu mới.",
+    "email": "Email",
+    "submit": "Gửi liên kết đặt lại",
+    "submitting": "Đang gửi...",
+    "sentTitle": "Hãy kiểm tra email",
+    "sentBody": "Nếu có tài khoản với địa chỉ {email}, chúng tôi đã gửi liên kết để đặt lại mật khẩu. Liên kết hết hạn sau 1 giờ. Hãy kiểm tra cả thư mục spam nếu bạn không thấy email.",
+    "backToLogin": "Quay lại đăng nhập"
+  },
+  "ResetPassword": {
+    "title": "Chọn mật khẩu mới",
+    "description": "Nhập mật khẩu mới cho tài khoản của bạn.",
+    "password": "Mật khẩu mới",
+    "confirmPassword": "Xác nhận mật khẩu mới",
+    "submit": "Lưu mật khẩu mới",
+    "submitting": "Đang lưu...",
+    "successTitle": "Đã đổi mật khẩu",
+    "successBody": "Bây giờ bạn có thể đăng nhập bằng mật khẩu mới.",
+    "goToLogin": "Đến trang đăng nhập",
+    "requestNew": "Yêu cầu liên kết mới",
+    "errors": {
+      "invalidLink": "Liên kết này không hợp lệ, đã hết hạn hoặc đã được sử dụng.",
+      "passwordTooShort": "Mật khẩu phải có ít nhất {min} ký tự",
+      "passwordMismatch": "Mật khẩu không khớp"
+    }
   }
 }

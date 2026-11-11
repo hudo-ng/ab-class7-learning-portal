@@ -16,8 +16,8 @@
     "menu": "Menu"
   },
   "Common": {
-"continueWithGoogle": "Continue with Google",
-"or": "or",
+    "continueWithGoogle": "Continue with Google",
+    "or": "or",
     "unofficialTranslation": "Unofficial translation. The English version is the original.",
     "practicePromptTitle": "Want to practice or take the mock exam?",
     "mockPromptTitle": "Want to take the mock exam?",
@@ -45,8 +45,8 @@
     "credit": "Contains information licensed under the <licence>Open Government Licence – Alberta</licence>, from the Alberta Driver's Guide. This site is not affiliated with the Government of Alberta."
   },
   "Login": {
-"googleError": "Google sign-in didn't work. Please try again.",
-"googleHint": "Signed up with Google? Use \"Continue with Google\" above.",
+    "googleError": "Google sign-in didn't work. Please try again.",
+    "googleHint": "Signed up with Google? Use \"Continue with Google\" above.",
     "title": "Login to your account",
     "description": "Enter your email below to login to your account",
     "email": "Email",
@@ -55,7 +55,8 @@
     "submitting": "Logging in...",
     "invalid": "Invalid email or password",
     "noAccount": "Don't have an account yet?",
-    "register": "Register"
+    "register": "Register",
+    "forgot": "Forgot password?"
   },
   "Register": {
     "title": "Create your account",
@@ -125,5 +126,40 @@
     "failed": "Failed (need {pass})",
     "correct": "Correct",
     "incorrect": "Incorrect"
+  },
+  "ResetEmail": {
+    "subject": "Reset your AB Class 7 password",
+    "heading": "Reset your password",
+    "intro": "Someone asked to reset the password for your AB Class 7 account. Click the button below to choose a new one. This link works once and expires in {minutes} minutes.",
+    "button": "Choose a new password",
+    "footer": "If you didn't ask for this, you can ignore this email. Your password won't change."
+  },
+
+  "ForgotPassword": {
+    "title": "Forgot your password?",
+    "description": "Enter your email and we'll send you a link to choose a new password.",
+    "email": "Email",
+    "submit": "Send reset link",
+    "submitting": "Sending...",
+    "sentTitle": "Check your email",
+    "sentBody": "If an account exists for {email}, we've sent a link to reset your password. It expires in 1 hour. Check your spam folder if you don't see it.",
+    "backToLogin": "Back to login"
+  },
+  "ResetPassword": {
+    "title": "Choose a new password",
+    "description": "Enter a new password for your account.",
+    "password": "New password",
+    "confirmPassword": "Confirm new password",
+    "submit": "Save new password",
+    "submitting": "Saving...",
+    "successTitle": "Password changed",
+    "successBody": "You can now log in with your new password.",
+    "goToLogin": "Go to login",
+    "requestNew": "Request a new link",
+    "errors": {
+      "invalidLink": "This link is invalid, expired, or has already been used.",
+      "passwordTooShort": "Password must be at least {min} characters long",
+      "passwordMismatch": "Passwords do not match"
+    }
   }
 }
