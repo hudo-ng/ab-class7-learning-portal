@@ -182,3 +182,18 @@ export const questionTranslations = pgTable(
   },
   (t) => [primaryKey({ columns: [t.questionId, t.locale] })],
 );
+
+export const passwordResetTokens = pgTable(
+  "password_reset_tokens",
+  {
+    id: uuid("id").defaultRandom().primaryKey(),
+    userId: uuid("user_id")
+      .notNull()
+      .references(() => users.id, { onDelete: "cascade" }),
+    tokenHash: text("token_hash").notNull().unique(),
+    expiresAt: timestamp("expires_at").notNull(),
+    usedAt: timestamp("used_at"), // set when used or cancelled by a newer request
+    createdAt: timestamp("created_at").defaultNow().notNull(),
+  },
+  (t) => [index("password_reset_tokens_user_id_idx").on(t.userId)],
+);
