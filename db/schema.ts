@@ -56,6 +56,7 @@ export const users = pgTable("users", {
   hashedPassword: text("password_hash"),
   role: text("role").notNull().default("USER"),
   isApproved: boolean("is_approved").default(false).notNull(),
+  sessionVersion: integer("session_version").default(0).notNull(),
   createdAt: timestamp("created_at").defaultNow().notNull(),
 });
 

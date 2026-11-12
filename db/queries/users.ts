@@ -5,7 +5,7 @@ import { sql } from "drizzle-orm";
 const findByEmail = (email: string) =>
   db.query.users.findFirst({
     where: sql`lower(${users.email}) = ${email}`,
-    columns: { id: true, role: true, isApproved: true },
+    columns: { id: true, role: true, isApproved: true, sessionVersion: true },
   });
 
 export async function findOrCreateGoogleUser(rawEmail: string) {

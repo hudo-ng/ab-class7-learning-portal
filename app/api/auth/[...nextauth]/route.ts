@@ -42,6 +42,7 @@ export const authOptions: NextAuthOptions = {
           email: user.email,
           role: user.role as "USER" | "ADMIN",
           isApproved: user.isApproved,
+          sessionVersion: user.sessionVersion,
         };
       },
     }),
@@ -76,22 +77,26 @@ export const authOptions: NextAuthOptions = {
         token.sub = dbUser.id;
         token.role = dbUser.role as "USER" | "ADMIN";
         token.isApproved = dbUser.isApproved;
+        token.sv = dbUser.sessionVersion;
         return token;
       }
+      // Password sign-in: user comes from authorize()
       if (user) {
         token.role = user.role;
         token.isApproved = user.isApproved;
+        token.sv = user.sessionVersion;
         return token;
       }
+      // Every later request: refresh from the DB and check the session is still valid
       if (token.sub) {
+        let revoked = false;
         try {
           const dbUser = await db.query.users.findFirst({
             where: eq(users.id, token.sub),
-            columns: { role: true, isApproved: true },
+            columns: { role: true, isApproved: true, sessionVersion: true },
           });
-          if (!dbUser) {
-            token.role = "USER";
-            token.isApproved = false;
+          if (!dbUser || dbUser.sessionVersion !== (token.sv ?? 0)) {
+            revoked = true;
           } else {
             token.role = dbUser.role as "USER" | "ADMIN";
             token.isApproved = dbUser.isApproved;
@@ -100,6 +105,8 @@ export const authOptions: NextAuthOptions = {
           // Keep the existing token values if the DB is briefly unavailable
           console.error("Session refresh failed:", (err as Error).cause ?? err);
         }
+        // Throwing makes NextAuth clear the session cookie (logged out)
+        if (revoked) throw new Error("Session revoked");
       }
       return token;
     },

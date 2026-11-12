@@ -126,7 +126,7 @@ export async function resetPassword(
 
     await tx
       .update(users)
-      .set({ hashedPassword })
+      .set({ hashedPassword, sessionVersion: sql`${users.sessionVersion} + 1` })
       .where(eq(users.id, claimed.userId));
 
     // Any other links for this user stop working too
