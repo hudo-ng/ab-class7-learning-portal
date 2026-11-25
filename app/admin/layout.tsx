@@ -29,9 +29,12 @@ export default async function AdminLayout({
     );
   }
   return (
-    <div className="flex min-h-screen">
+    <div className="flex min-h-screen flex-col bg-slate-50 md:flex-row">
       <AdminSideBar />
-      <main className="flex-1 p-6 bg-muted/40">{children}</main>
+      {/* min-w-0 lets wide content scroll inside instead of widening the page */}
+      <main className="min-w-0 flex-1 p-4 sm:p-6">
+        <div className="mx-auto max-w-6xl">{children}</div>
+      </main>
     </div>
   );
 }
