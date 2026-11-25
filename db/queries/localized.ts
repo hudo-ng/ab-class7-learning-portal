@@ -55,6 +55,7 @@ export async function getLocalizedLessonBlocks(topicId: string, locale: string) 
       id: topicContent.id,
       type: topicContent.type,
       imgUrl: topicContent.imgUrl,
+      gallery: topicContent.gallery,
       title: sql<string>`coalesce(${tr.title}, ${topicContent.title})`,
       body: sql<string>`coalesce(${tr.body}, ${topicContent.body})`,
       translated: sql<boolean>`${tr.topicId} is not null`,

@@ -77,6 +77,9 @@ export const topicContent = pgTable("topic_content", {
   body: text("body").notNull(),
   type: topicContentType("type").notNull().default("intro"),
   imgUrl: text("img_url"),
+  // Sign images shown under the text: file names in public/signs, without ".png".
+  // Kept separate from body so adding pictures never invalidates translations.
+  gallery: text("gallery").array(),
   order: integer("order").notNull(),
   createdAt: timestamp("created_at").defaultNow().notNull(),
 });

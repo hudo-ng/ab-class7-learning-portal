@@ -127,6 +127,13 @@
       "when": 1794453899537,
       "tag": "0017_spicy_marrow",
       "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1795625390805,
+      "tag": "0018_chilly_maelstrom",
+      "breakpoints": true
     }
   ]
 }

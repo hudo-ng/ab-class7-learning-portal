@@ -5,6 +5,7 @@ import { db } from "../index";
 import { topics, topicContent, topicContentType } from "../schema";
 
 const LESSON_DIR = path.join(process.cwd(), "db", "data", "lessons");
+const SIGN_DIR = path.join(process.cwd(), "public", "signs");
 
 type BlockType = (typeof topicContentType.enumValues)[number];
 
@@ -13,6 +14,7 @@ interface BlockData {
   title: string;
   body: string;
   imgUrl?: string;
+  gallery?: string[];
 }
 
 interface LessonFile {
@@ -58,6 +60,14 @@ function loadLessonFile(file: string): LessonFile {
       !fs.existsSync(path.join(process.cwd(), "public", b.imgUrl))
     ) {
       fail(`${where}: image public${b.imgUrl} not found`);
+    }
+    if (b.gallery !== undefined) {
+      if (!Array.isArray(b.gallery)) fail(`${where}: gallery must be an array`);
+      for (const name of b.gallery) {
+        if (!fs.existsSync(path.join(SIGN_DIR, `${name}.png`))) {
+          fail(`${where}: gallery sign "${name}" not found in public/signs`);
+        }
+      }
     }
   });
 
@@ -109,6 +119,7 @@ export async function importLessons(
           title: b.title.trim(),
           body: b.body.trim(),
           imgUrl: b.imgUrl || null,
+          gallery: b.gallery?.length ? b.gallery : null,
           order: i,
         })),
       );

@@ -64,3 +64,7 @@ eligible for copyright). Source page: `https://commons.wikimedia.org/wiki/File:<
 | `survey-crew.png`                | CA-MUTCDC TC-003.svg                            |
 | `added-lane.png`                 | CA-MUTCDC WA-035-R.svg                          |
 | `single-file.png`                | CA-MUTCDC WC-020.svg                            |
+| `stop.png`                       | Canada Stop sign.svg                            |
+| `yield.png`                      | CA-MUTCDC RA-002.svg                            |
+| `speed-limit.png`                | Ontario Rb-1.svg                                |
+| `lane-control.png`               | Ontario Rb-41.svg                               |
