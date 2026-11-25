@@ -1,5 +1,8 @@
 {
-  "topic": { "slug": "responsible-driving", "title": "Safe & Legal Driving" },
+  "topic": {
+    "slug": "responsible-driving",
+    "title": "Safe & Legal Driving"
+  },
   "blocks": [
     {
       "type": "intro",
@@ -14,7 +17,10 @@
     {
       "type": "concept",
       "title": "Following distance and space cushion",
-      "body": "**The 2-second rule:** when the vehicle ahead passes a fixed point, count *\"one-thousand-and-one, one-thousand-and-two\"*. If you reach the point before you finish, you're too close. It works **at any speed**.\n\n- Leave **more** than 2 seconds in poor conditions.\n- Large vehicles such as motor homes should leave at least **4 seconds**.\n\n**Being tailgated?** If safe, **slow down slightly** to encourage the driver to pass. If they don't, leave more space ahead of you.\n\n**Stopped in traffic?** Leave enough room to **pull into another lane without reversing**. It protects you if you're hit from behind, or if someone skids toward you.\n\n*Driver's Guide pp. 89–90*"
+      "body": "**The 2-second rule:** when the vehicle ahead passes a fixed point, count *\"one-thousand-and-one, one-thousand-and-two\"*. If you reach the point before you finish, you're too close. It works **at any speed**.\n\n- Leave **more** than 2 seconds in poor conditions.\n- Large vehicles such as motor homes should leave at least **4 seconds**.\n\n**Being tailgated?** If safe, **slow down slightly** to encourage the driver to pass. If they don't, leave more space ahead of you.\n\n**Stopped in traffic?** Leave enough room to **pull into another lane without reversing**. It protects you if you're hit from behind, or if someone skids toward you.\n\n*Driver's Guide pp. 89–90*",
+      "gallery": [
+        "/diagrams/responsible-driving/two-second-rule.png"
+      ]
     },
     {
       "type": "concept",
@@ -24,7 +30,12 @@
     {
       "type": "concept",
       "title": "Seat belts and child seats",
-      "body": "Everyone must be properly buckled up, or in an approved child seat.\n\n- Passengers **16 and older** can be fined for not wearing a seat belt.\n- **The driver is responsible** for every passenger **under 16**.\n\n**Child seats:**\n\n| Stage | Rule |\n| --- | --- |\n| **Rear-facing** | From birth, until the child reaches the manufacturer's weight to switch |\n| **Forward-facing** | Children **10–18 kg**. Use the **tether strap** |\n| **Booster seat** | Children over **18 kg**, before using the seat belt alone |\n\nA child **under 6** who weighs **18 kg or less** must be in a child safety seat. Seats must carry the Canadian safety label (**CMVSS 213**).\n\n*Driver's Guide pp. 91–92*"
+      "body": "Everyone must be properly buckled up, or in an approved child seat.\n\n- Passengers **16 and older** can be fined for not wearing a seat belt.\n- **The driver is responsible** for every passenger **under 16**.\n\n**Child seats:**\n\n| Stage | Rule |\n| --- | --- |\n| **Rear-facing** | From birth, until the child reaches the manufacturer's weight to switch |\n| **Forward-facing** | Children **10–18 kg**. Use the **tether strap** |\n| **Booster seat** | Children over **18 kg**, before using the seat belt alone |\n\nA child **under 6** who weighs **18 kg or less** must be in a child safety seat. Seats must carry the Canadian safety label (**CMVSS 213**).\n\n*Driver's Guide pp. 91–92*",
+      "gallery": [
+        "/diagrams/responsible-driving/child-seats-1.png",
+        "/diagrams/responsible-driving/child-seats-2.png",
+        "/diagrams/responsible-driving/child-seats-3.png"
+      ]
     },
     {
       "type": "concept",

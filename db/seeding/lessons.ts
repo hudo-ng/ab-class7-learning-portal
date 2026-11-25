@@ -63,9 +63,13 @@ function loadLessonFile(file: string): LessonFile {
     }
     if (b.gallery !== undefined) {
       if (!Array.isArray(b.gallery)) fail(`${where}: gallery must be an array`);
+      // "/diagrams/x.png" is a diagram path under public/; anything else is a sign name
       for (const name of b.gallery) {
-        if (!fs.existsSync(path.join(SIGN_DIR, `${name}.png`))) {
-          fail(`${where}: gallery sign "${name}" not found in public/signs`);
+        const file = name.startsWith("/")
+          ? path.join(process.cwd(), "public", name)
+          : path.join(SIGN_DIR, `${name}.png`);
+        if (!fs.existsSync(file)) {
+          fail(`${where}: gallery image "${name}" not found in public/`);
         }
       }
     }

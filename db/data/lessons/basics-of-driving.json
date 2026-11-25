@@ -1,5 +1,8 @@
 {
-  "topic": { "slug": "basics-of-driving", "title": "Vehicle Basics & Parking" },
+  "topic": {
+    "slug": "basics-of-driving",
+    "title": "Vehicle Basics & Parking"
+  },
   "blocks": [
     {
       "type": "intro",
@@ -19,7 +22,10 @@
     {
       "type": "concept",
       "title": "Steering and signalling",
-      "body": "**Hand position:** hold the wheel at about **9 and 3 o'clock**. If the wheel design doesn't allow that, use 10 and 2. Turn corners **hand-over-hand**.\n\n**You must signal when you are:**\n\n- moving away from the curb or a parking lane\n- turning left or right\n- changing lanes\n\nDon't signal too early or too late, as either can confuse other drivers. Turn the signal off if it doesn't cancel by itself.\n\n**Hand signals** (from the driver's window):\n\n| Signal | Arm position |\n| --- | --- |\n| Left turn | Arm straight out |\n| Right turn | Arm bent **up** |\n| Slowing or stopping | Arm bent **down** |\n\n*Driver's Guide pp. 48–49*"
+      "body": "**Hand position:** hold the wheel at about **9 and 3 o'clock**. If the wheel design doesn't allow that, use 10 and 2. Turn corners **hand-over-hand**.\n\n**You must signal when you are:**\n\n- moving away from the curb or a parking lane\n- turning left or right\n- changing lanes\n\nDon't signal too early or too late, as either can confuse other drivers. Turn the signal off if it doesn't cancel by itself.\n\n**Hand signals** (from the driver's window):\n\n| Signal | Arm position |\n| --- | --- |\n| Left turn | Arm straight out |\n| Right turn | Arm bent **up** |\n| Slowing or stopping | Arm bent **down** |\n\n*Driver's Guide pp. 48–49*",
+      "gallery": [
+        "/diagrams/basics-of-driving/hand-signals.png"
+      ]
     },
     {
       "type": "concept",
@@ -39,7 +45,10 @@
     {
       "type": "concept",
       "title": "Parallel parking",
-      "body": "To park between two vehicles at the right curb:\n\n1. Check behind you, then slow down well before the space so your brake lights warn drivers behind.\n2. Stop beside the vehicle in front of the space, **rear bumpers lined up**, about **1 metre** apart.\n3. Reverse slowly about half a metre, then steer **sharply right** until you are at about **45°** to the curb.\n4. Straighten the wheels and keep reversing until your front bumper clears the vehicle in front.\n5. Steer **sharply left** and reverse until you are parallel with the curb.\n\n**By law, your wheels must be no more than 50 cm from the curb.**\n\n**Leaving the space:** reverse close to the vehicle behind, signal **left**, shoulder check **left** for traffic and cyclists, then pull out.\n\n**Getting out on the street side:** check your mirrors and shoulder check for cyclists, open the door no wider than needed, and walk to the rear of the vehicle facing traffic.\n\n*Driver's Guide pp. 52–53*"
+      "body": "To park between two vehicles at the right curb:\n\n1. Check behind you, then slow down well before the space so your brake lights warn drivers behind.\n2. Stop beside the vehicle in front of the space, **rear bumpers lined up**, about **1 metre** apart.\n3. Reverse slowly about half a metre, then steer **sharply right** until you are at about **45°** to the curb.\n4. Straighten the wheels and keep reversing until your front bumper clears the vehicle in front.\n5. Steer **sharply left** and reverse until you are parallel with the curb.\n\n**By law, your wheels must be no more than 50 cm from the curb.**\n\n**Leaving the space:** reverse close to the vehicle behind, signal **left**, shoulder check **left** for traffic and cyclists, then pull out.\n\n**Getting out on the street side:** check your mirrors and shoulder check for cyclists, open the door no wider than needed, and walk to the rear of the vehicle facing traffic.\n\n*Driver's Guide pp. 52–53*",
+      "gallery": [
+        "/diagrams/basics-of-driving/parallel-parking.png"
+      ]
     },
     {
       "type": "concept",
@@ -49,7 +58,10 @@
     {
       "type": "concept",
       "title": "Parking on a hill",
-      "body": "**The idea:** turn your wheels so that if the vehicle rolls, it goes **away from traffic**, into the curb or off the road.\n\n| Situation | Turn the front wheels | Why |\n| --- | --- | --- |\n| **Downhill** (curb or no curb) | **Right**, toward the curb or edge | The vehicle rolls into the curb or off the road |\n| **Uphill with a curb** | **Left**, away from the curb | Roll back gently until the tire rests against the curb |\n| **Uphill without a curb** | **Right**, toward the edge | The vehicle rolls off the road, not into traffic |\n\n**Memory trick:** *\"Up and away\"*: uphill with a curb, turn **away** from the curb. Every other case, turn **right**.\n\nAlways set the **park brake**, and put the transmission in **Park** (automatic) or a low gear (manual). Parked on the **left** side of the road? Turn the wheels the opposite way.\n\n*Driver's Guide p. 55*"
+      "body": "**The idea:** turn your wheels so that if the vehicle rolls, it goes **away from traffic**, into the curb or off the road.\n\n| Situation | Turn the front wheels | Why |\n| --- | --- | --- |\n| **Downhill** (curb or no curb) | **Right**, toward the curb or edge | The vehicle rolls into the curb or off the road |\n| **Uphill with a curb** | **Left**, away from the curb | Roll back gently until the tire rests against the curb |\n| **Uphill without a curb** | **Right**, toward the edge | The vehicle rolls off the road, not into traffic |\n\n**Memory trick:** *\"Up and away\"*: uphill with a curb, turn **away** from the curb. Every other case, turn **right**.\n\nAlways set the **park brake**, and put the transmission in **Park** (automatic) or a low gear (manual). Parked on the **left** side of the road? Turn the wheels the opposite way.\n\n*Driver's Guide p. 55*",
+      "gallery": [
+        "/diagrams/basics-of-driving/hill-parking.png"
+      ]
     },
     {
       "type": "concept",

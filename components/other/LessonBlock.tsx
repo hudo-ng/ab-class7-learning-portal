@@ -33,6 +33,37 @@ type Block = Pick<
   "type" | "title" | "body" | "imgUrl" | "gallery"
 >;
 
+/**
+ * Diagrams: wide ones fill the width, tall ones are capped in height so they
+ * stay readable without filling the screen. Several sit side by side from sm up.
+ */
+function Diagrams({ paths, title }: { paths: string[]; title: string }) {
+  return (
+    <div
+      className={cn(
+        "grid gap-4",
+        paths.length > 1 && "sm:grid-cols-2 sm:items-start",
+      )}
+    >
+      {paths.map((src, i) => (
+        <figure
+          key={src}
+          className="flex justify-center overflow-hidden rounded-xl border bg-white p-2 sm:p-3"
+        >
+          <img
+            src={src}
+            alt={
+              paths.length > 1 ? `${title} (${i + 1}/${paths.length})` : title
+            }
+            loading="lazy"
+            className="h-auto max-h-[36rem] w-auto max-w-full"
+          />
+        </figure>
+      ))}
+    </div>
+  );
+}
+
 /** Grid of sign images with their (translated) names underneath. */
 function SignGallery({
   signs,
@@ -83,6 +114,14 @@ export function LessonBlock({
   accent,
   signNames,
 }: Props) {
+  // Gallery entries starting with "/" are diagram paths; the rest are sign names
+  const gallery = block.gallery ?? [];
+  const diagrams = [
+    ...(block.imgUrl ? [block.imgUrl] : []),
+    ...gallery.filter((g) => g.startsWith("/")),
+  ];
+  const signs = gallery.filter((g) => !g.startsWith("/"));
+
   switch (block.type) {
     case "intro":
       return (
@@ -117,27 +156,14 @@ export function LessonBlock({
             )}
             <span>{block.title}</span>
           </h2>
-          <div
-            className={cn(
-              block.imgUrl &&
-                "grid gap-5 md:grid-cols-[minmax(0,1fr)_14rem] md:items-start",
-            )}
-          >
-            <div className={PROSE}>
-              <Markdown>{block.body}</Markdown>
-            </div>
-            {block.imgUrl && (
-              <figure className="mx-auto w-full max-w-xs md:max-w-none">
-                <img
-                  src={block.imgUrl}
-                  alt=""
-                  className="w-full rounded-lg border bg-white object-contain p-2"
-                />
-              </figure>
-            )}
+          <div className={PROSE}>
+            <Markdown>{block.body}</Markdown>
           </div>
-          {block.gallery && block.gallery.length > 0 && (
-            <SignGallery signs={block.gallery} signNames={signNames} />
+          {diagrams.length > 0 && (
+            <Diagrams paths={diagrams} title={block.title} />
+          )}
+          {signs.length > 0 && (
+            <SignGallery signs={signs} signNames={signNames} />
           )}
         </section>
       );

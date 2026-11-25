@@ -1,5 +1,8 @@
 {
-  "topic": { "slug": "traffic-lights-and-signals", "title": "Signals & Pavement Markings" },
+  "topic": {
+    "slug": "traffic-lights-and-signals",
+    "title": "Signals & Pavement Markings"
+  },
   "blocks": [
     {
       "type": "intro",
@@ -24,17 +27,27 @@
     {
       "type": "concept",
       "title": "Line colours and patterns",
-      "body": "**Colour tells you direction:**\n\n- **Yellow** lines separate traffic going in **opposite** directions. The yellow line should always be on your **left**.\n- **White** lines separate lanes going in the **same** direction.\n\n**Pattern tells you whether you may cross:**\n\n- **Solid** line: crossing it to pass or change lanes is **not permitted**.\n- **Broken** line: crossing it to pass or change lanes is **permitted**, when safe.\n\n*Driver's Guide pp. 38–39*"
+      "body": "**Colour tells you direction:**\n\n- **Yellow** lines separate traffic going in **opposite** directions. The yellow line should always be on your **left**.\n- **White** lines separate lanes going in the **same** direction.\n\n**Pattern tells you whether you may cross:**\n\n- **Solid** line: crossing it to pass or change lanes is **not permitted**.\n- **Broken** line: crossing it to pass or change lanes is **permitted**, when safe.\n\n*Driver's Guide pp. 38–39*",
+      "gallery": [
+        "/diagrams/traffic-lights-and-signals/white-lines.png"
+      ]
     },
     {
       "type": "concept",
       "title": "Yellow lines and passing",
-      "body": "| Centre line | Passing |\n| --- | --- |\n| **Broken** yellow | Allowed when safe |\n| **Solid and broken** together | Allowed only for the driver with the **broken** line on their side |\n| **Single solid** yellow | Not allowed, **except** passing safely inside an **urban area** |\n| **Double solid** yellow | Not allowed |\n\nThe exception: you may cross the solid yellow line to enter a **two-way left-turn lane**.\n\n*Driver's Guide pp. 38, 67*"
+      "body": "| Centre line | Passing |\n| --- | --- |\n| **Broken** yellow | Allowed when safe |\n| **Solid and broken** together | Allowed only for the driver with the **broken** line on their side |\n| **Single solid** yellow | Not allowed, **except** passing safely inside an **urban area** |\n| **Double solid** yellow | Not allowed |\n\nThe exception: you may cross the solid yellow line to enter a **two-way left-turn lane**.\n\n*Driver's Guide pp. 38, 67*",
+      "gallery": [
+        "/diagrams/traffic-lights-and-signals/yellow-lines.png"
+      ]
     },
     {
       "type": "concept",
       "title": "Other pavement markings",
-      "body": "- **Arrows** show the movements allowed from a lane.\n- **Two-way left-turn lane:** the centre lane is shared by left-turning traffic from **both directions**. Enter it only close to where you will turn.\n- **Diamond** markings show a lane **reserved** for certain vehicles (buses, taxis, bicycles).\n- **Bicycle lanes:** don't drive in them, except to turn or to get in or out of a parking spot. The line is usually dashed near corners where you may enter to turn right. A bicycle with **two chevrons** above it means cyclists share your lane.\n- **Large X** on a rural highway: a **railway crossing** is ahead.\n- **Painted island** (striped area): not for travel, stopping, or parking. You may cross it only to enter or leave a driveway or alley.\n- **Crosswalks** exist at intersections even when they **aren't marked**. **Stop lines** show where to stop.\n- **No stopping zone** (box with an X near an intersection): leave it clear for large turning vehicles.\n\n*Driver's Guide pp. 39–41*"
+      "body": "- **Arrows** show the movements allowed from a lane.\n- **Two-way left-turn lane:** the centre lane is shared by left-turning traffic from **both directions**. Enter it only close to where you will turn.\n- **Diamond** markings show a lane **reserved** for certain vehicles (buses, taxis, bicycles).\n- **Bicycle lanes:** don't drive in them, except to turn or to get in or out of a parking spot. The line is usually dashed near corners where you may enter to turn right. A bicycle with **two chevrons** above it means cyclists share your lane.\n- **Large X** on a rural highway: a **railway crossing** is ahead.\n- **Painted island** (striped area): not for travel, stopping, or parking. You may cross it only to enter or leave a driveway or alley.\n- **Crosswalks** exist at intersections even when they **aren't marked**. **Stop lines** show where to stop.\n- **No stopping zone** (box with an X near an intersection): leave it clear for large turning vehicles.\n\n*Driver's Guide pp. 39–41*",
+      "gallery": [
+        "/diagrams/traffic-lights-and-signals/stop-line-crosswalk-1.png",
+        "/diagrams/traffic-lights-and-signals/stop-line-crosswalk-2.png"
+      ]
     },
     {
       "type": "rules",

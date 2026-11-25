@@ -1,5 +1,8 @@
 {
-  "topic": { "slug": "intersections-and-turns", "title": "Intersections, Right-of-Way & Turns" },
+  "topic": {
+    "slug": "intersections-and-turns",
+    "title": "Intersections, Right-of-Way & Turns"
+  },
   "blocks": [
     {
       "type": "intro",
@@ -14,7 +17,11 @@
     {
       "type": "concept",
       "title": "Stop signs: where to stop",
-      "body": "Come to a **complete stop** at the first of these that applies:\n\n1. **Before the stop line**, if there is one.\n2. If there's no stop line, **before the marked crosswalk**.\n3. If there's neither, **within 3 metres** of the intersecting road, where you won't block pedestrians.\n\nThen yield to pedestrians and traffic, and go only when it's safe.\n\n*Driver's Guide pp. 58–59*"
+      "body": "Come to a **complete stop** at the first of these that applies:\n\n1. **Before the stop line**, if there is one.\n2. If there's no stop line, **before the marked crosswalk**.\n3. If there's neither, **within 3 metres** of the intersecting road, where you won't block pedestrians.\n\nThen yield to pedestrians and traffic, and go only when it's safe.\n\n*Driver's Guide pp. 58–59*",
+      "gallery": [
+        "/diagrams/intersections-and-turns/where-to-stop-1.png",
+        "/diagrams/intersections-and-turns/where-to-stop-2.png"
+      ]
     },
     {
       "type": "concept",
@@ -24,7 +31,11 @@
     {
       "type": "concept",
       "title": "Uncontrolled intersections",
-      "body": "At an intersection with **no signs or signals**, you must **yield to the vehicle on your right**. Slow down enough to stop, especially when fences, trees, or parked cars block your view.\n\n- **Uncontrolled T intersections:** the same rule applies, so the driver on the **right** has the right-of-way. Watch out: the driver going straight across the top of the T may wrongly assume they have it.\n- **Left turns:** a driver turning left across oncoming traffic must wait until it's safe.\n- **Parking lots** have uncontrolled intersections, and the same rules apply.\n\n**Leaving an alley, driveway, or parking lot:** stop **before the sidewalk**, stop again before entering the street, and yield to pedestrians.\n\n*Driver's Guide pp. 59–60*"
+      "body": "At an intersection with **no signs or signals**, you must **yield to the vehicle on your right**. Slow down enough to stop, especially when fences, trees, or parked cars block your view.\n\n- **Uncontrolled T intersections:** the same rule applies, so the driver on the **right** has the right-of-way. Watch out: the driver going straight across the top of the T may wrongly assume they have it.\n- **Left turns:** a driver turning left across oncoming traffic must wait until it's safe.\n- **Parking lots** have uncontrolled intersections, and the same rules apply.\n\n**Leaving an alley, driveway, or parking lot:** stop **before the sidewalk**, stop again before entering the street, and yield to pedestrians.\n\n*Driver's Guide pp. 59–60*",
+      "gallery": [
+        "/diagrams/intersections-and-turns/uncontrolled-1.png",
+        "/diagrams/intersections-and-turns/uncontrolled-2.png"
+      ]
     },
     {
       "type": "concept",
@@ -34,7 +45,10 @@
     {
       "type": "concept",
       "title": "Roundabouts and traffic circles",
-      "body": "Traffic always flows **counterclockwise**. **Entering vehicles yield to traffic already in the circle.**\n\n**Single-lane:** to leave at the **first exit**, signal right as you approach. For a later exit, turn on your right signal **after passing the exit before yours**.\n\n**Two-lane:**\n\n| Lane | Use it to | Enter and exit |\n| --- | --- | --- |\n| **Right** | Take the **first exit** | Enter from and exit to the right lane |\n| **Left** | Go **past the first exit** | Enter from and exit to the left lane |\n\n- **Don't change lanes** in the circle. Drivers in the right lane yield to drivers in the left lane.\n- When leaving from the left lane, check for traffic in the right lane.\n- If you can't exit safely, go around again.\n- Watch for pedestrians and cyclists at crosswalks, which are set back from the circle.\n\n*Driver's Guide pp. 61–63*"
+      "body": "Traffic always flows **counterclockwise**. **Entering vehicles yield to traffic already in the circle.**\n\n**Single-lane:** to leave at the **first exit**, signal right as you approach. For a later exit, turn on your right signal **after passing the exit before yours**.\n\n**Two-lane:**\n\n| Lane | Use it to | Enter and exit |\n| --- | --- | --- |\n| **Right** | Take the **first exit** | Enter from and exit to the right lane |\n| **Left** | Go **past the first exit** | Enter from and exit to the left lane |\n\n- **Don't change lanes** in the circle. Drivers in the right lane yield to drivers in the left lane.\n- When leaving from the left lane, check for traffic in the right lane.\n- If you can't exit safely, go around again.\n- Watch for pedestrians and cyclists at crosswalks, which are set back from the circle.\n\n*Driver's Guide pp. 61–63*",
+      "gallery": [
+        "/diagrams/intersections-and-turns/roundabout.png"
+      ]
     },
     {
       "type": "concept",
@@ -44,7 +58,11 @@
     {
       "type": "concept",
       "title": "Left turns",
-      "body": "Poor judgement on left turns is a **leading cause of collisions**. Be in your lane at least **15 metres** before the intersection.\n\n| Turning from → onto | Turn from | Turn into |\n| --- | --- | --- |\n| Two-way → two-way | Lane just right of the yellow line | Lane just right of the yellow line |\n| Two-way → one-way | Lane just right of the yellow line | **First lane on the left side** |\n| One-way → two-way | **Leftmost** lane | Lane just right of the yellow line |\n| One-way → one-way | **Leftmost** lane | **Leftmost** lane (also allowed on red after a full stop) |\n\n- **Waiting in the intersection?** Keep your **wheels pointed straight**, so a rear-end collision won't push you into oncoming traffic.\n- Before turning left off a two-lane highway, **shoulder check left** in case someone is passing you.\n- Yield to oncoming traffic and to pedestrians crossing on your left.\n\n*Driver's Guide pp. 65–66*"
+      "body": "Poor judgement on left turns is a **leading cause of collisions**. Be in your lane at least **15 metres** before the intersection.\n\n| Turning from → onto | Turn from | Turn into |\n| --- | --- | --- |\n| Two-way → two-way | Lane just right of the yellow line | Lane just right of the yellow line |\n| Two-way → one-way | Lane just right of the yellow line | **First lane on the left side** |\n| One-way → two-way | **Leftmost** lane | Lane just right of the yellow line |\n| One-way → one-way | **Leftmost** lane | **Leftmost** lane (also allowed on red after a full stop) |\n\n- **Waiting in the intersection?** Keep your **wheels pointed straight**, so a rear-end collision won't push you into oncoming traffic.\n- Before turning left off a two-lane highway, **shoulder check left** in case someone is passing you.\n- Yield to oncoming traffic and to pedestrians crossing on your left.\n\n*Driver's Guide pp. 65–66*",
+      "gallery": [
+        "/diagrams/intersections-and-turns/left-turns-1.png",
+        "/diagrams/intersections-and-turns/left-turns-2.png"
+      ]
     },
     {
       "type": "concept",

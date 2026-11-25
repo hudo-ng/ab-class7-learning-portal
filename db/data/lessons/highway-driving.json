@@ -1,5 +1,8 @@
 {
-  "topic": { "slug": "highway-driving", "title": "Highway Driving" },
+  "topic": {
+    "slug": "highway-driving",
+    "title": "Highway Driving"
+  },
   "blocks": [
     {
       "type": "intro",
@@ -9,7 +12,11 @@
     {
       "type": "concept",
       "title": "Lane position and blind spots",
-      "body": "Drive in the **centre of your lane**, and choose your lane early. Don't leave lane changes to the last minute.\n\nYour mirrors can't show everything beside you. The areas they miss are your **blind spots**. Set your mirrors to keep them small: frame the rear window in the inside mirror, and just see the edge of your own car in each side mirror.\n\n**To change lanes:**\n\n1. Make sure a lane change is allowed.\n2. Check the inside and outside mirrors.\n3. **Shoulder check** the blind spot on the side you're moving to.\n4. Signal.\n5. Move over when safe, **keeping your speed**.\n6. Turn the signal off.\n\n*Driver's Guide pp. 70–71*"
+      "body": "Drive in the **centre of your lane**, and choose your lane early. Don't leave lane changes to the last minute.\n\nYour mirrors can't show everything beside you. The areas they miss are your **blind spots**. Set your mirrors to keep them small: frame the rear window in the inside mirror, and just see the edge of your own car in each side mirror.\n\n**To change lanes:**\n\n1. Make sure a lane change is allowed.\n2. Check the inside and outside mirrors.\n3. **Shoulder check** the blind spot on the side you're moving to.\n4. Signal.\n5. Move over when safe, **keeping your speed**.\n6. Turn the signal off.\n\n*Driver's Guide pp. 70–71*",
+      "gallery": [
+        "/diagrams/highway-driving/blind-spots-1.png",
+        "/diagrams/highway-driving/blind-spots-2.png"
+      ]
     },
     {
       "type": "concept",
@@ -19,7 +26,10 @@
     {
       "type": "concept",
       "title": "Passing on a two-lane highway",
-      "body": "Passing into the oncoming lane can cause **head-on collisions**. Pass only where it's legal, when it's necessary, and with extreme care.\n\n1. Keep a safe following distance behind the vehicle you want to pass.\n2. Check that there's no oncoming traffic for a safe distance, and check your mirrors.\n3. **Shoulder check left**, in case someone is passing you.\n4. Signal left, then pass. **You may not exceed the speed limit while passing.**\n5. When you can see the passed vehicle in your **inside mirror**, shoulder check right, signal right, and return to your lane.\n6. Turn your signal off.\n\n**Being passed?** Stay in your lane, move to the **right side** of it, and don't speed up.\n\n*Driver's Guide pp. 71–72*"
+      "body": "Passing into the oncoming lane can cause **head-on collisions**. Pass only where it's legal, when it's necessary, and with extreme care.\n\n1. Keep a safe following distance behind the vehicle you want to pass.\n2. Check that there's no oncoming traffic for a safe distance, and check your mirrors.\n3. **Shoulder check left**, in case someone is passing you.\n4. Signal left, then pass. **You may not exceed the speed limit while passing.**\n5. When you can see the passed vehicle in your **inside mirror**, shoulder check right, signal right, and return to your lane.\n6. Turn your signal off.\n\n**Being passed?** Stay in your lane, move to the **right side** of it, and don't speed up.\n\n*Driver's Guide pp. 71–72*",
+      "gallery": [
+        "/diagrams/highway-driving/passing-two-lane.png"
+      ]
     },
     {
       "type": "concept",

@@ -1,5 +1,8 @@
 {
-  "topic": { "slug": "emergency-conditions", "title": "Emergencies & Hazardous Conditions" },
+  "topic": {
+    "slug": "emergency-conditions",
+    "title": "Emergencies & Hazardous Conditions"
+  },
   "blocks": [
     {
       "type": "intro",
@@ -14,12 +17,18 @@
     {
       "type": "concept",
       "title": "Skids",
-      "body": "**Most skids are caused by driver error:** going too fast for the conditions, steering too sharply, braking too hard, or accelerating too quickly.\n\n**In any skid:** keep your foot **off the brake**, and **look and steer where you want the front of the vehicle to go**, with small corrections.\n\n| Skid | Cause | What to do |\n| --- | --- | --- |\n| **Braking skid** (no ABS) | Wheels locked by hard braking | **Release the brake** until the wheels roll again, then brake more gently |\n| **Power skid** | Accelerating too hard, wheels spin | **Ease off the gas**, steer, and don't over-correct |\n| **Cornering skid** | Too fast in a turn | **Off the gas, no brakes**, steer where you want to go |\n\n*Driver's Guide pp. 78–79*"
+      "body": "**Most skids are caused by driver error:** going too fast for the conditions, steering too sharply, braking too hard, or accelerating too quickly.\n\n**In any skid:** keep your foot **off the brake**, and **look and steer where you want the front of the vehicle to go**, with small corrections.\n\n| Skid | Cause | What to do |\n| --- | --- | --- |\n| **Braking skid** (no ABS) | Wheels locked by hard braking | **Release the brake** until the wheels roll again, then brake more gently |\n| **Power skid** | Accelerating too hard, wheels spin | **Ease off the gas**, steer, and don't over-correct |\n| **Cornering skid** | Too fast in a turn | **Off the gas, no brakes**, steer where you want to go |\n\n*Driver's Guide pp. 78–79*",
+      "gallery": [
+        "/diagrams/emergency-conditions/skid.png"
+      ]
     },
     {
       "type": "concept",
       "title": "If you drive off the pavement",
-      "body": "1. Keep a **firm grip** on the steering wheel.\n2. **Don't steer back right away.** A sharp turn back can send you across the road.\n3. Take your foot **off the gas** to slow down.\n4. **Avoid braking.** If you must, brake gently.\n5. Check for traffic, then **ease back** onto the road and straighten up in your lane.\n\n*Driver's Guide pp. 79–80*"
+      "body": "1. Keep a **firm grip** on the steering wheel.\n2. **Don't steer back right away.** A sharp turn back can send you across the road.\n3. Take your foot **off the gas** to slow down.\n4. **Avoid braking.** If you must, brake gently.\n5. Check for traffic, then **ease back** onto the road and straighten up in your lane.\n\n*Driver's Guide pp. 79–80*",
+      "gallery": [
+        "/diagrams/emergency-conditions/off-pavement.png"
+      ]
     },
     {
       "type": "concept",
@@ -29,7 +38,10 @@
     {
       "type": "concept",
       "title": "Night driving and glare",
-      "body": "- Turn your **headlights on** at night, and **any time you can't see 150 m ahead**. Daytime running lights aren't enough, because your tail lights won't be on.\n- Switch to **low beams within 300 m of oncoming** vehicles, and **within 150 m of a vehicle you're following**.\n- **Don't overdrive your headlights:** drive slowly enough to stop within the distance they light up.\n- If oncoming headlights dazzle you, look **down and to the right edge** of your lane.\n- If glare makes it hard to see, slow down. Keep your windows clean.\n\n*Driver's Guide pp. 81–82*"
+      "body": "- Turn your **headlights on** at night, and **any time you can't see 150 m ahead**. Daytime running lights aren't enough, because your tail lights won't be on.\n- Switch to **low beams within 300 m of oncoming** vehicles, and **within 150 m of a vehicle you're following**.\n- **Don't overdrive your headlights:** drive slowly enough to stop within the distance they light up.\n- If oncoming headlights dazzle you, look **down and to the right edge** of your lane.\n- If glare makes it hard to see, slow down. Keep your windows clean.\n\n*Driver's Guide pp. 81–82*",
+      "gallery": [
+        "/diagrams/emergency-conditions/low-beams.png"
+      ]
     },
     {
       "type": "concept",
@@ -49,7 +61,10 @@
     {
       "type": "concept",
       "title": "Emergency vehicles, tow trucks, and police",
-      "body": "**An emergency vehicle with its siren on, coming from any direction:**\n\n- **Pull as close as possible to the right curb** (on a one-way street, the nearest curb) and **stop**.\n- Stay stopped until it passes, and check that no others are coming.\n- Treat **flashing green lights** (volunteer firefighters) the same way.\n- Never follow within **150 m** of an emergency vehicle with its siren or lights on.\n\n**Passing stopped emergency vehicles or tow trucks** with lights flashing: slow to **60 km/h**, or the posted limit if lower, in the lane next to them. Fines are **doubled**.\n\n**Pulled over by police:** stop safely at the right edge (on a one-way street, the nearest edge). Put it in park, set the park brake, **stay in the vehicle**, have your licence, registration, and insurance ready, and don't move until told to.\n\n*Driver's Guide pp. 85–86*"
+      "body": "**An emergency vehicle with its siren on, coming from any direction:**\n\n- **Pull as close as possible to the right curb** (on a one-way street, the nearest curb) and **stop**.\n- Stay stopped until it passes, and check that no others are coming.\n- Treat **flashing green lights** (volunteer firefighters) the same way.\n- Never follow within **150 m** of an emergency vehicle with its siren or lights on.\n\n**Passing stopped emergency vehicles or tow trucks** with lights flashing: slow to **60 km/h**, or the posted limit if lower, in the lane next to them. Fines are **doubled**.\n\n**Pulled over by police:** stop safely at the right edge (on a one-way street, the nearest edge). Put it in park, set the park brake, **stay in the vehicle**, have your licence, registration, and insurance ready, and don't move until told to.\n\n*Driver's Guide pp. 85–86*",
+      "gallery": [
+        "/diagrams/emergency-conditions/move-over.png"
+      ]
     },
     {
       "type": "rules",

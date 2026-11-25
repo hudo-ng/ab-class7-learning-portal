@@ -1,5 +1,8 @@
 {
-  "topic": { "slug": "share-the-road", "title": "Sharing the Road" },
+  "topic": {
+    "slug": "share-the-road",
+    "title": "Sharing the Road"
+  },
   "blocks": [
     {
       "type": "intro",
@@ -9,7 +12,10 @@
     {
       "type": "concept",
       "title": "Pedestrians",
-      "body": "- A pedestrian in an urban area may signal that they want to cross by **raising an arm at a right angle and pointing** to the other curb. You must **stop before the crosswalk** and let them cross.\n- Once a pedestrian is in a **marked or unmarked crosswalk**, you must yield.\n- Stop about **2–3 car lengths** back, so drivers in other lanes can see the pedestrian.\n- **Never pass** a vehicle as you approach a crosswalk. It may be stopping for someone you can't see.\n- At a **flashing yellow pedestrian light**, slow to **30 km/h** and yield.\n- Watch for children near parked cars. Look **under** parked vehicles for feet and bicycle wheels.\n- Be patient with people using a **white cane or guide dog**.\n\n*Driver's Guide p. 97*"
+      "body": "- A pedestrian in an urban area may signal that they want to cross by **raising an arm at a right angle and pointing** to the other curb. You must **stop before the crosswalk** and let them cross.\n- Once a pedestrian is in a **marked or unmarked crosswalk**, you must yield.\n- Stop about **2–3 car lengths** back, so drivers in other lanes can see the pedestrian.\n- **Never pass** a vehicle as you approach a crosswalk. It may be stopping for someone you can't see.\n- At a **flashing yellow pedestrian light**, slow to **30 km/h** and yield.\n- Watch for children near parked cars. Look **under** parked vehicles for feet and bicycle wheels.\n- Be patient with people using a **white cane or guide dog**.\n\n*Driver's Guide p. 97*",
+      "gallery": [
+        "/diagrams/share-the-road/pedestrian-signal.png"
+      ]
     },
     {
       "type": "concept",
@@ -29,12 +35,18 @@
     {
       "type": "concept",
       "title": "Log hauling trucks",
-      "body": "**Never pass a log hauling truck that is turning** left or right off the highway.\n\nThe logs can extend up to **9 metres** past the back of the truck. When the truck turns, they swing out and can block **some or all lanes** of the highway, creating a danger zone.\n\n*Driver's Guide p. 100*"
+      "body": "**Never pass a log hauling truck that is turning** left or right off the highway.\n\nThe logs can extend up to **9 metres** past the back of the truck. When the truck turns, they swing out and can block **some or all lanes** of the highway, creating a danger zone.\n\n*Driver's Guide p. 100*",
+      "gallery": [
+        "/diagrams/share-the-road/log-truck.png"
+      ]
     },
     {
       "type": "concept",
       "title": "School buses",
-      "body": "| Bus shows | On an undivided road | On a road divided by a median |\n| --- | --- | --- |\n| **Flashing amber** lights | **Be ready to stop**: the bus is about to stop. You may pass, with caution. | **From behind:** same as undivided. **From the front:** proceed with caution. |\n| **Flashing red** lights + **stop arm** | **Stop about 20 m away**, from **both directions**, in **all lanes** | **From behind: stop.** From the front: proceed with caution and watch for pedestrians. |\n\nStay stopped until the red lights **turn off** and the stop arm is **pulled back**. Failing to stop for a school bus costs **6 demerit points**.\n\n*Driver's Guide pp. 101–102, 109*"
+      "body": "| Bus shows | On an undivided road | On a road divided by a median |\n| --- | --- | --- |\n| **Flashing amber** lights | **Be ready to stop**: the bus is about to stop. You may pass, with caution. | **From behind:** same as undivided. **From the front:** proceed with caution. |\n| **Flashing red** lights + **stop arm** | **Stop about 20 m away**, from **both directions**, in **all lanes** | **From behind: stop.** From the front: proceed with caution and watch for pedestrians. |\n\nStay stopped until the red lights **turn off** and the stop arm is **pulled back**. Failing to stop for a school bus costs **6 demerit points**.\n\n*Driver's Guide pp. 101–102, 109*",
+      "gallery": [
+        "/diagrams/share-the-road/school-bus.png"
+      ]
     },
     {
       "type": "concept",
