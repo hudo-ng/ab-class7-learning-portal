@@ -34,8 +34,8 @@ type Block = Pick<
 >;
 
 /**
- * Diagrams: wide ones fill the width, tall ones are capped in height so they
- * stay readable without filling the screen. Several sit side by side from sm up.
+ * Diagrams at their natural size, shrunk only to fit the column, so labels
+ * stay readable. Several sit side by side from sm up.
  */
 function Diagrams({ paths, title }: { paths: string[]; title: string }) {
   return (
@@ -56,7 +56,7 @@ function Diagrams({ paths, title }: { paths: string[]; title: string }) {
               paths.length > 1 ? `${title} (${i + 1}/${paths.length})` : title
             }
             loading="lazy"
-            className="h-auto max-h-[36rem] w-auto max-w-full"
+            className="h-auto w-auto max-w-full"
           />
         </figure>
       ))}
