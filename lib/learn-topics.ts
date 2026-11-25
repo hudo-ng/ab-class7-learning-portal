@@ -19,6 +19,7 @@ import {
 const ACCENTS = {
   indigo: {
     bar: "border-t-indigo-500",
+    fill: "bg-indigo-500",
     soft: "bg-indigo-50 border-indigo-200",
     icon: "bg-indigo-100 text-indigo-700",
     text: "text-indigo-700",
@@ -26,6 +27,7 @@ const ACCENTS = {
   },
   red: {
     bar: "border-t-red-500",
+    fill: "bg-red-500",
     soft: "bg-red-50 border-red-200",
     icon: "bg-red-100 text-red-700",
     text: "text-red-700",
@@ -33,6 +35,7 @@ const ACCENTS = {
   },
   amber: {
     bar: "border-t-amber-500",
+    fill: "bg-amber-500",
     soft: "bg-amber-50 border-amber-200",
     icon: "bg-amber-100 text-amber-700",
     text: "text-amber-700",
@@ -40,6 +43,7 @@ const ACCENTS = {
   },
   sky: {
     bar: "border-t-sky-500",
+    fill: "bg-sky-500",
     soft: "bg-sky-50 border-sky-200",
     icon: "bg-sky-100 text-sky-700",
     text: "text-sky-700",
@@ -47,6 +51,7 @@ const ACCENTS = {
   },
   emerald: {
     bar: "border-t-emerald-500",
+    fill: "bg-emerald-500",
     soft: "bg-emerald-50 border-emerald-200",
     icon: "bg-emerald-100 text-emerald-700",
     text: "text-emerald-700",
@@ -54,6 +59,7 @@ const ACCENTS = {
   },
   teal: {
     bar: "border-t-teal-500",
+    fill: "bg-teal-500",
     soft: "bg-teal-50 border-teal-200",
     icon: "bg-teal-100 text-teal-700",
     text: "text-teal-700",
@@ -61,6 +67,7 @@ const ACCENTS = {
   },
   blue: {
     bar: "border-t-blue-500",
+    fill: "bg-blue-500",
     soft: "bg-blue-50 border-blue-200",
     icon: "bg-blue-100 text-blue-700",
     text: "text-blue-700",
@@ -68,6 +75,7 @@ const ACCENTS = {
   },
   violet: {
     bar: "border-t-violet-500",
+    fill: "bg-violet-500",
     soft: "bg-violet-50 border-violet-200",
     icon: "bg-violet-100 text-violet-700",
     text: "text-violet-700",
@@ -75,6 +83,7 @@ const ACCENTS = {
   },
   orange: {
     bar: "border-t-orange-500",
+    fill: "bg-orange-500",
     soft: "bg-orange-50 border-orange-200",
     icon: "bg-orange-100 text-orange-700",
     text: "text-orange-700",
@@ -82,6 +91,7 @@ const ACCENTS = {
   },
   slate: {
     bar: "border-t-slate-400",
+    fill: "bg-slate-400",
     soft: "bg-slate-50 border-slate-200",
     icon: "bg-slate-100 text-slate-700",
     text: "text-slate-700",

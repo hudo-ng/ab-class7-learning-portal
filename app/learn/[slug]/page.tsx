@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { getLocale, getMessages, getTranslations } from "next-intl/server";
 import {
   getLocalizedLessonBlocks,
@@ -14,7 +14,9 @@ import {
 } from "@/components/other/LessonContents";
 import { Button } from "@/components/ui/button";
 import { sortByStudyOrder, topicStyle } from "@/lib/learn-topics";
-import { cn } from "@/lib/utils";
+import { getProgressBySlug } from "@/lib/progress";
+import { TopicHeader } from "@/components/other/TopicHeader";
+import { ProgressBar } from "@/components/other/TopicProgress";
 
 export default async function TopicPage({
   params,
@@ -36,7 +38,8 @@ export default async function TopicPage({
   const messages = await getMessages();
   const descriptions: Record<string, string> = messages.Learn.topics;
   const signNames: Record<string, string> = messages.Signs;
-  const { icon: Icon, accent } = topicStyle(topic.slug);
+  const { accent } = topicStyle(topic.slug);
+  const topicProgress = (await getProgressBySlug(locale))?.get(topic.slug);
 
   const blocks = await getLocalizedLessonBlocks(topic.id, locale);
   const hasTranslation = blocks.some((b) => b.translated);
@@ -61,47 +64,26 @@ export default async function TopicPage({
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-6 sm:py-8">
-      <Link
-        href="/learn"
-        className="inline-flex items-center gap-1 text-sm font-medium text-slate-600 hover:text-slate-900"
+      <TopicHeader
+        slug={topic.slug}
+        title={topic.title}
+        description={descriptions[topic.slug]}
+        number={index + 1}
+        total={topics.length}
+        backHref="/learn"
+        backLabel={t("allTopics")}
       >
-        <ArrowLeft className="size-4" aria-hidden="true" />
-        {t("allTopics")}
-      </Link>
-
-      <header className={cn("mt-4 rounded-2xl border p-5 sm:p-8", accent.soft)}>
-        <div className="flex items-start gap-4">
-          <span
-            className={cn(
-              "hidden sm:flex size-12 shrink-0 items-center justify-center rounded-xl",
-              accent.icon,
-            )}
-          >
-            <Icon className="size-6" aria-hidden="true" />
-          </span>
-          <div className="min-w-0 space-y-2">
-            <p
-              className={cn(
-                "text-xs font-semibold uppercase tracking-wide",
-                accent.text,
-              )}
-            >
-              {t("topicOf", { number: index + 1, total: topics.length })}
-            </p>
-            <h1 className="text-2xl sm:text-3xl font-bold leading-tight text-slate-900">
-              {topic.title}
-            </h1>
-            {descriptions[topic.slug] && (
-              <p className="text-slate-600">{descriptions[topic.slug]}</p>
-            )}
-            {hasTranslation && (
-              <p className="text-xs italic text-slate-500">
-                {tCommon("unofficialTranslation")}
-              </p>
-            )}
+        {hasTranslation && (
+          <p className="text-xs italic text-slate-500">
+            {tCommon("unofficialTranslation")}
+          </p>
+        )}
+        {topicProgress && (
+          <div className="max-w-sm pt-2">
+            <ProgressBar progress={topicProgress} accent={accent} />
           </div>
-        </div>
-      </header>
+        )}
+      </TopicHeader>
 
       <div className="mt-6 lg:mt-8 lg:grid lg:grid-cols-[15rem_minmax(0,1fr)] lg:gap-10">
         <aside>

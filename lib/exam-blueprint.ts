@@ -16,9 +16,10 @@ export const EXAM_QUESTION_COUNT = Object.values(EXAM_BLUEPRINT).reduce(
   0,
 );
 export const PASS_MARK = 25;
+export const EXAM_DURATION_MINUTES = 30;
 
 // Practice exam constants
 
 export const MASTERY_WINDOW = 15;
-export const MASTERY_CORRECT = 13;
+export const MASTERY_CORRECT = 10;
 export const PRACTICE_SET_SIZE = 15;
